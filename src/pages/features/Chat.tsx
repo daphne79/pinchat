@@ -81,12 +81,10 @@ const Chat = () => {
               <p className="text-sm sm:text-base text-muted-foreground">{t('features.chatPage.benefits.messageActions.description')}</p>
             </div>
           </div>
-          </div>
-        </section>
 
             {/* Feature Examples */}
             <div className="space-y-32">
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div>
                 <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold mb-4">{t('features.chatPage.inAction.oneOnOne.title')}</h3>
                 <p className="text-base sm:text-lg text-muted-foreground mb-4">
@@ -174,12 +172,9 @@ const Chat = () => {
                 </div>
               </div>
             </div>
-          </div>
-          </div>
-        </section>
 
               {/* Stickers Section */}
-              <div className="text-center mb-12">
+              <div className="text-center">
                 <h3 className="text-2xl sm:text-3xl md:text-4xl lg:text-[48px] font-bold tracking-wide leading-normal lg:leading-[1.2] mb-4">{t('features.chatPage.stickers.title')}</h3>
                 <p className="text-base sm:text-lg text-muted-foreground mb-8">{t('features.chatPage.stickers.description')}</p>
                 <div className="flex justify-center">

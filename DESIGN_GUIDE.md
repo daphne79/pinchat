@@ -281,3 +281,4 @@ className="mt-4 text-base sm:text-lg text-muted-foreground"
 - [ ] 行距設定正確（大標題使用 `leading-normal lg:leading-[1.2]`）
 - [ ] 字距設定正確（大標題使用 `tracking-wide`）
 
+
