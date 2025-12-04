@@ -1,0 +1,26 @@
+{
+  "PinChat": {
+    "zh-tw": "PinChat",
+    "zh-cn": "PinChat",
+    "ja": "PinChat",
+    "ko": "PinChat"
+  },
+  "MAU": {
+    "zh-tw": "MAU",
+    "zh-cn": "MAU",
+    "ja": "MAU",
+    "ko": "MAU"
+  },
+  "BYOK": {
+    "zh-tw": "BYOK",
+    "zh-cn": "BYOK",
+    "ja": "BYOK",
+    "ko": "BYOK"
+  },
+  "AI PinBot": {
+    "zh-tw": "AI PinBot",
+    "zh-cn": "AI PinBot",
+    "ja": "AI PinBot",
+    "ko": "AI PinBot"
+  }
+}

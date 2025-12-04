@@ -1,0 +1,705 @@
+{
+  "nav": {
+    "features": "功能",
+    "solutions": "解決方案",
+    "pricing": "價格方案",
+    "login": "登入",
+    "startFree": "免費開始",
+    "businessType": "業務類型",
+    "useCase": "使用案例"
+  },
+  "features": {
+    "pinboard": "歡迎頁面",
+    "aiPinbot": "AI 聊天機器人",
+    "faqPinbot": "FAQ 聊天機器人",
+    "chatWidget": "網頁插件",
+    "analytics": "數據分析",
+    "branding": "品牌與自訂",
+    "chatroomManagement": "聊天室管理",
+    "subAccount": "子帳號管理",
+    "chat": "聊天功能",
+    "chatPage": {
+      "hero": {
+        "title": "立即開始對話，一對一或群組聊天",
+        "subtitle": "透過 PinChat 連結開啟直接或群組聊天，讓每次互動簡單順暢。",
+        "cta": "免費開始",
+        "imageAlt": "一對一聊天對話介面"
+      },
+      "benefits": {
+        "oneOnOne": {
+          "title": "一對一聊天",
+          "description": "每次獨特的點擊都會建立新的聊天室，進行直接對話"
+        },
+        "groupChat": {
+          "title": "群組聊天",
+          "description": "多位使用者可以加入同一個聊天室，並查看訊息歷史"
+        },
+        "richMessages": {
+          "title": "豐富訊息",
+          "description": "文字、圖片、影片、檔案、位置、貼圖等多種內容"
+        },
+        "messageActions": {
+          "title": "訊息操作",
+          "description": "回覆、反應、收回、複製訊息等進階功能"
+        }
+      },
+      "inAction": {
+        "title": "聊天功能實戰",
+        "oneOnOne": {
+          "title": "一對一聊天",
+          "description": "每次點擊 PinChat 連結時，都會建立一個新的聊天室，使用者可以與連結擁有者開始一對一聊天。這最適合用於商業諮詢和客戶服務等場景。",
+          "imageAlt": "一對一聊天介面"
+        },
+        "groupChat": {
+          "title": "群組聊天",
+          "description": "每次點擊 PinChat 連結時，所有使用者都會進入同一個聊天室，並與連結擁有者開始群組聊天。此外，稍後進入聊天室的使用者也能看到之前發送的訊息。",
+          "imageAlt": "多對話的群組聊天介面"
+        },
+        "richMessages": {
+          "title": "發送各種訊息",
+          "description": "使用 PinChat，您可以發送文字訊息、語音訊息、圖片、影片、檔案、位置等各種訊息。",
+          "textMessages": "文字訊息",
+          "freeStickers": "40 個免費貼圖",
+          "voiceMessages": "語音訊息",
+          "filesVideos": "檔案和影片",
+          "locationLink": "位置分享和連結預覽",
+          "imageAlt": "具有豐富媒體分享功能的聊天介面"
+        },
+        "messageActions": {
+          "title": "多種訊息操作",
+          "description": "在訊息發送後執行不同的操作。",
+          "react": "對訊息做出反應",
+          "reply": "回覆特定訊息",
+          "unsend": "發送後收回訊息",
+          "copy": "複製文字訊息",
+          "imageAlt": "訊息操作和翻譯功能"
+        }
+      },
+      "stickers": {
+        "title": "用貼圖表達自己",
+        "description": "我們提供多達 40 個免費原創貼圖，讓您的聊天更加生動活潑。",
+        "imageAlt": "40 個免費原創聊天貼圖集合"
+      },
+      "relatedFeatures": {
+        "title": "相關功能",
+        "chatWidget": {
+          "title": "聊天小工具",
+          "description": "直接將聊天嵌入您的網站"
+        },
+        "aiPinbot": {
+          "title": "人工智能拼版機器人",
+          "description": "使用 AI 協助自動化對話"
+        },
+        "aiPinbotPage": {
+          "hero": {
+            "title": "更聰明的對話，更輕鬆的客服體驗",
+            "subtitle": "AI 即時回覆、智慧交接、跨平台支援，為你的品牌打造專屬的客服體驗。",
+            "cta": "立即體驗 AI PinBot",
+            "ctaSecondary": "免費開始",
+            "imageAlt": "AI 聊天機器人與真人客服協作"
+          },
+          "sectionTitle": "主要功能特色",
+          "sectionSubtitle": "從自動回覆到真人接手，AI PinBot 為你的團隊提供完整的對話解決方案",
+          "features": {
+            "smartFAQ": {
+              "title": "智慧回覆常見問題",
+              "description": "讓 AI 自動理解客戶問題，並即時提供準確答案。無需人工介入，大幅提升回覆效率，讓你的團隊專注於更重要的對話。",
+              "benefits": {
+                "autoReply": "自動辨識並回覆重複性問題",
+                "consistent": "回覆內容一致、維持品牌語氣",
+                "quality": "AI 回覆品質由平台持續維護與升級"
+              },
+              "imageAlt": "AI 智慧回覆示意圖"
+            },
+            "humanHandoff": {
+              "title": "真人接手不中斷",
+              "description": "當對話需要人工處理時，客服人員可隨時接手，完整保留對話脈絡。從 AI 到真人的轉換流暢自然，客戶體驗不中斷。",
+              "benefits": {
+                "agentJoin": "客服可隨時加入對話",
+                "noRepeat": "顧客無需重複問題內容",
+                "smooth": "AI 與真人切換順暢自然"
+              },
+              "imageAlt": "真人接手示意圖"
+            },
+            "multilingual": {
+              "title": "多語支援",
+              "description": "支援多國語言自動辨識與回覆，幫助品牌輕鬆服務全球客戶。無論客戶使用哪種語言，都能獲得即時且準確的支援。",
+              "benefits": {
+                "autoDetect": "自動識別顧客語言",
+                "multiLang": "支援多國語對話與翻譯",
+                "global": "輕鬆拓展全球服務"
+              },
+              "imageAlt": "多語支援示意圖"
+            },
+            "noCode": {
+              "title": "零技術門檻",
+              "description": "無需寫程式或技術背景。只需貼上你的網站或 FAQ 連結，AI PinBot 即可快速學習並開始服務。幾分鐘內完成設定，立即上線。",
+              "benefits": {
+                "quickSetup": "幾分鐘內完成設定",
+                "easyConnect": "貼上網站或 FAQ 連結即可啟用",
+                "update": "後台可隨時更新內容"
+              },
+              "imageAlt": "零技術設定示意圖"
+            }
+          },
+          "integrations": {
+            "title": "運行於你使用的所有平台",
+            "subtitle": "AI PinBot 可在 LINE、Messenger、Instagram、WhatsApp、以及 PinChat 網頁聊天室上運作，所有訊息集中管理。"
+          },
+          "useCases": {
+            "title": "AI PinBot 適用於各種情境",
+            "websiteChat": {
+              "title": "網站客服自動應答",
+              "description": "立即回應網站訪客的問題，提升轉換率。"
+            },
+            "supportFlow": {
+              "title": "智慧客服流程",
+              "description": "結合 AI 即時回覆與人工服務，打造順暢且高效率的客服體驗。"
+            },
+            "postPurchase": {
+              "title": "售後服務支援",
+              "description": "協助客戶追蹤訂單、解決問題，提升滿意度。"
+            }
+          },
+          "cta": {
+            "title": "讓你的客服團隊更聰明",
+            "subtitle": "立即啟用 AI PinBot，讓品牌服務更即時、更有溫度。",
+            "button": "立即免費試用"
+          }
+        },
+        "chatroomManagement": {
+          "title": "聊天室管理",
+          "description": "組織和管理所有對話"
+        }
+      },
+      "cta": {
+        "title": "立即建立您的即時聊天",
+        "subtitle": "今天就開始與您的客戶即時連線。",
+        "button": "開始使用"
+      }
+    }
+  },
+  "industries": {
+    "ecommerce": "電子商務",
+    "retail": "零售",
+    "healthcare": "醫療保健",
+    "education": "教育",
+    "realEstate": "房地產",
+    "events": "活動",
+    "professionalServices": "專業服務",
+    "serviceIndustries": "服務業",
+    "b2bCommercial": "B2B 商業"
+  },
+  "solutions": {
+    "aiCustomerService": "AI 客戶服務機器人",
+    "chatroomTeamManagement": "聊天室團隊管理",
+    "customerFeedbackAnalytics": "客戶回饋分析",
+    "leadCaptureSurveys": "潛在客戶調查",
+    "multichannelMessaging": "多渠道訊息中心"
+  },
+  "hero": {
+    "title": "打造品牌專屬的 AI 即時客服",
+    "subtitle": "透過智能對話與客戶聯繫，簡化團隊溝通，並透過我們的一站式訊息解決方案發展您的業務。",
+    "startFree": "免費開始",
+    "watchDemo": "了解運作方式"
+  },
+  "features_section": {
+    "title": "與客戶聯繫所需的一切",
+    "subtitle": "強大的功能設計，幫助您更好地溝通並更快成長",
+    "items": {
+      "quickConnectLinks": "快速連結",
+      "quickConnectDesc": "透過簡單的 PinChat 連結或 QR code，讓顧客隨時隨地聯繫你——並在單一平台管理來自 LINE、Messenger 或 WhatsApp 的對話。",
+      "aiChatbot": "AI 聊天機器人",
+      "aiChatbotDesc": "24/7 自動回覆常見問題，並可在需要時順暢地轉交給真人客服。",
+      "unifiedInbox": "統一收件匣",
+      "unifiedInboxDesc": "在一個整合的收件匣中查看並回覆所有來自多個管道的顧客訊息。",
+      "noCodeSetup": "無程式碼設定",
+      "noCodeSetupDesc": "數分鐘內即可開始使用，操作簡單——無需技術技能。",
+      "customizationBranding": "客製化與品牌設定",
+      "customizationBrandingDesc": "自訂聊天介面外觀和網域設定，提供符合品牌形象的顧客體驗。",
+      "clientList": "客戶清單",
+      "clientListDesc": "將每個對話轉換為客戶檔案，方便組織、管理和匯出以進行後續追蹤。"
+    }
+  },
+  "footer": {
+    "description": "現代企業的即時通訊和 AI 聊天機器人平台。",
+    "legal": "法律",
+    "privacyPolicy": "隱私政策",
+    "termsOfService": "服務條款",
+    "company": "公司",
+    "about": "關於我們",
+    "contact": "聯繫我們",
+    "language": "語言",
+    "copyright": "© {{year}} PinChat. 版權所有。"
+  },
+  "languages": {
+    "en": "英語",
+    "zh-tw": "繁體中文（繁體中文）",
+    "zh-cn": "簡體中文（簡體中文）",
+    "fr": "法語（法語）",
+    "es": "西班牙語（西班牙語）",
+    "pt-br": "葡萄牙語（巴西）",
+    "vi": "Tiếng Việt（越南語）",
+    "th": "ไทย（泰語）",
+    "de": "德語（德語）",
+    "ro": "羅馬尼亞語（羅馬尼亞語）",
+    "ja": "日本語（日語）",
+    "ko": "한국어（韓語）"
+  },
+  "common": {
+    "learnMore": "了解更多",
+    "previous": "上一頁",
+    "next": "下一頁",
+    "previousPage": "前往上一頁",
+    "nextPage": "前往下一頁",
+    "morePages": "更多頁面",
+    "more": "更多",
+    "close": "關閉",
+    "previousSlide": "上一張投影片",
+    "quickSearch": "快速搜尋",
+    "quickSearchDescription": "快速搜尋和篩選特定對話",
+    "faqBotMobileAlt": "FAQ 機器人行動介面與自動回覆",
+    "queryDataAndSearchRecords": "查詢資料和搜尋記錄"
+  },
+  "homepage": {
+    "valueBlock1Title": "一鍵聯繫，快速轉換",
+    "valueBlock1Desc": "透過 QR code 或短網址，讓顧客無論在線上或實體場域都能即時發起對話，不需額外下載或註冊，減少等待時間並提升轉換率。",
+    "valueBlock2Title": "跨平台訊息整合",
+    "valueBlock2Desc": "將 LINE、IG、Messenger、WhatsApp 的對話集中到 PinChat，不必再切換不同平台。客服團隊能在單一介面管理所有訊息，掌握完整對話脈絡。",
+    "valueBlock3Title": "AI 客服，輕鬆建立",
+    "valueBlock3Desc": "只需貼上你的官網連結，就能自動生成 AI PinBot，協助回覆常見問題，並支援真人客服隨時接手，快速提升服務效率。",
+    "valueBlock4Title": "對話與顧客資料管理",
+    "valueBlock4Desc": "支援子帳號分工、聊天室分類與標籤管理，讓團隊能更清楚分配任務、追蹤對話進度，並集中顧客資料，避免記錄零散難找。"
+  },
+  "retailEcommerce": {
+    "hero": {
+      "breadcrumb": "PinChat 零售與電商解決方案",
+      "title": "用 AI 打造更聰明的銷售對話",
+      "subtitle": "無論是線上商店或門市櫃台，PinChat 讓團隊能即時與顧客互動、自動回覆常見問題，並透過個人化對話提升銷售轉換。",
+      "cta": "免費開始使用"
+    },
+    "whyUse": {
+      "title": "為什麼零售與電商團隊選擇 PinChat",
+      "items": {
+        "engage": "在購買前後主動互動，提供個人化對話體驗。",
+        "instantAnswers": "以 AI 即時回覆顧客商品問題。",
+        "orderUpdates": "以自動化訊息即時通知訂單狀態。",
+        "campaigns": "自動化行銷活動回覆，輕鬆追蹤成效。"
+      }
+    },
+    "planEngagement": {
+      "title": "客戶互動規劃",
+      "description": "透過更透明的協作與一致的溝通，讓團隊能做出更有效的客服決策，無論是商品諮詢、訂單更新或售後服務。",
+      "alignTeam": {
+        "title": "讓團隊掌握每一次顧客互動",
+        "description": "讓團隊能同步處理顧客詢問，檢視需求，並對齊服務策略。"
+      },
+      "respondFaster": {
+        "title": "持續優化服務品質",
+        "description": "判斷哪些問題優先處理，哪些可由 AI 助手處理，透過即時訊息快速回應。"
+      },
+      "diveDetails": {
+        "title": "深入細節",
+        "description": "分享產品規格、訂單時程與服務流程，確保所有人都知道如何為顧客提供最佳服務。"
+      }
+    },
+    "features": {
+      "title": "功能特色",
+      "productInquiries": {
+        "title": "產品與商店諮詢",
+        "description": "即時回覆商品資訊、庫存或門市位置。"
+      },
+      "orderTracking": {
+        "title": "訂單追蹤與退換貨",
+        "description": "自動通知訂單狀態，讓退換貨流程更順暢。"
+      },
+      "campaigns": {
+        "title": "活動與促銷",
+        "description": "透過 AI 對話推播優惠與活動，提升參與率。"
+      },
+      "loyalty": {
+        "title": "忠誠度計劃",
+        "description": "與回購顧客互動，提供專屬優惠與更新。"
+      }
+    },
+    "salesAcceleration": {
+      "title": "別讓溝通拖慢銷售節奏",
+      "description": "讓團隊能更快回覆、加速成交、提升顧客回購率。結合 AI 自動化與精簡化的對話流程，讓每次互動都更高效。",
+      "swiftExecution": {
+        "title": "推動快速執行",
+        "description": "突破阻礙，讓團隊持續發送快速更新、訂單確認等即時訊息，保持進度。"
+      },
+      "productive": {
+        "title": "提升服務效率",
+        "description": "在顧客詢問前分享關鍵資訊，讓你能直接切入解決他們的需求。"
+      },
+      "responseCycles": {
+        "title": "加速回應週期",
+        "description": "透過提供即時且符合情境的答案，立即解決顧客疑慮，減少來回溝通。"
+      },
+      "returns": {
+        "title": "高效處理退換貨",
+        "description": "記錄退換貨請求並快速處理退款，讓團隊能專注於建立顧客關係。"
+      }
+    },
+    "exploreMore": {
+      "title": "探索更多 PinChat 應用方式",
+      "serviceIndustries": {
+        "title": "PinChat 服務業解決方案",
+        "description": "管理服務前後的顧客詢問，維持流暢體驗。"
+      },
+      "education": {
+        "title": "PinChat 教育解決方案",
+        "description": "整合學生與家長訊息，簡化校內外溝通。"
+      },
+      "healthcare": {
+        "title": "PinChat 醫療解決方案",
+        "description": "協助醫療團隊在就診各階段保持即時聯繫。"
+      }
+    },
+    "cta": {
+      "title": "PinChat，讓顧客關係更強大。",
+      "subtitle": "立即免費開始，體驗 AI 對話如何轉變你的顧客服務。",
+      "button": "免費開始使用"
+    }
+  },
+  "cta": {
+    "title": "準備好轉變您的顧客溝通方式了嗎？",
+    "subtitle": "簡化對話流程，用 AI 賦能團隊，輕鬆成長您的業務。",
+    "startFreeTrial": "開始免費試用",
+    "contactSales": "聯繫銷售",
+    "noCardRequired": "無需信用卡 • 7 天免費試用 • 隨時取消"
+  },
+  "about": {
+    "hero": {
+      "title": "賦能每一段對話",
+      "subtitle": "PinChat 成立於對簡化企業溝通的願景，讓商業溝通變得簡單、有意義且人人都能使用。我們相信每段對話都有建立信任和推動成長的力量。",
+      "startFreeToday": "今天免費開始",
+      "contactUs": "聯繫我們"
+    },
+    "mission": {
+      "quote": "我們致力於打造世界上最直觀、最高效的溝通平台，讓每段對話都能順暢流動並創造價值。",
+      "label": "我們的使命"
+    },
+    "numbers": {
+      "title": "PinChat 數據",
+      "yearFounded": {
+        "value": "2020年",
+        "label": "成立年份",
+        "description": "以簡化企業溝通的願景開始"
+      },
+      "countriesServed": {
+        "value": "20+",
+        "label": "服務國家",
+        "description": "橫跨多個大洲和時區的全球覆蓋"
+      },
+      "monthlyConversations": {
+        "value": "3000+",
+        "label": "每月對話數",
+        "description": "透過我們平台促進的平均對話數"
+      }
+    },
+    "journey": {
+      "title": "我們的旅程",
+      "subtitle": "從創立到成為值得信賴的溝通平台",
+      "origins": {
+        "title": "PinChat 的起源",
+        "description": "PinChat 源於一個簡單的觀察：企業與顧客之間的對話經常支離破碎且難以管理。我們最初的想法是透過短連結或 QR code 分享的輕量聊天室——讓商家和消費者無需技術障礙即可輕鬆連接。"
+      },
+      "milestones": {
+        "2019": {
+          "title": "2019 – 第一版",
+          "description": "完成第一個後端版本，為 PinChat 奠定基礎。"
+        },
+        "2020": {
+          "title": "2020 – 首批客戶",
+          "description": "持續迭代與改進，歡迎我們的首批客戶。"
+        },
+        "2022": {
+          "title": "2022 – 擴展與認可",
+          "description": "推出第三方整合和支付功能。正式在 AppSumo 上架，獲得國際曝光。"
+        },
+        "2025": {
+          "title": "2025 – 人工智能 PinBot",
+          "description": "發布 AI PinBot，引入先進的對話智能，讓企業擁有更智能的客戶支援。"
+        },
+        "title": "PinChat 里程碑"
+      }
+    },
+    "values": {
+      "title": "我們的價值觀",
+      "subtitle": "指導我們一切行動的原則",
+      "simplicity": {
+        "title": "簡約",
+        "description": "我們相信強大的工具應該易於使用。沒有複雜性，只有結果。"
+      },
+      "innovation": {
+        "title": "創新",
+        "description": "持續演進我們的平台，以滿足現代企業不斷變化的需求。"
+      },
+      "trust": {
+        "title": "信任",
+        "description": "安全性和可靠性是我們構建和交付一切的核心。"
+      },
+      "globalReach": {
+        "title": "全球覆蓋",
+        "description": "連接世界各地的企業和客戶，超越地理界限。"
+      }
+    },
+    "team": {
+      "title": "我們的團隊文化",
+      "subtitle": "我們是一支多元化的熱情團隊，由共同目標團結在一起：讓企業溝通變得輕鬆且有效。",
+      "collaborative": {
+        "title": "協作",
+        "description": "我們跨越時區和文化一起工作，打造令人驚艷的產品。"
+      },
+      "customerFocused": {
+        "title": "以客戶為中心",
+        "description": "我們做出的每個決策都從理解客戶需求開始。"
+      },
+      "resultsDriven": {
+        "title": "結果導向",
+        "description": "我們通過為企業及其客戶創造的影響來衡量成功。"
+      }
+    },
+    "cta": {
+      "title": "與我們一起轉變客戶溝通",
+      "subtitle": "準備好體驗統一訊息的力量？今天開始免費試用，看看 PinChat 如何轉變您的客戶關係。",
+      "startFree": "免費開始",
+      "contactUs": "聯繫我們"
+    }
+  },
+  "contact": {
+    "success": {
+      "title": "感謝您聯繫我們！",
+      "description": "我們的團隊將在 48 個工作小時內回覆您。",
+      "checkSpam": "如果您還沒有收到我們的回覆，請檢查是否在垃圾郵件資料夾中。",
+      "backToHome": "返回首頁"
+    },
+    "hero": {
+      "badge": "與我們的團隊取得聯繫",
+      "title": "隨時聯繫我們",
+      "subtitle": "我們隨時為您服務，幫助您了解 PinChat 如何轉變您的客戶溝通。無論您想了解更多功能、安排個人化演示，還是尋找適合您業務需求的完美解決方案，我們的團隊都準備好協助您。",
+      "reasons": {
+        "learnMore": "了解更多產品資訊",
+        "scheduleMeeting": "與我們安排會議",
+        "findSolution": "找到適合您的解決方案",
+        "productQuestions": "產品相關問題",
+        "partnerships": "合作機會",
+        "support": "一般支援詢問"
+      },
+      "responseTime": {
+        "title": "回覆時間承諾",
+        "description": "我們將在 48 個工作小時內回覆。如果您還沒有收到我們的回覆，請檢查您的垃圾郵件資料夾。"
+      }
+    },
+    "form": {
+      "title": "讓我們開始對話",
+      "subtitle": "填寫下方表單，我們會盡快回覆您。",
+      "requestType": "您的請求是關於什麼？",
+      "requestTypeOptions": {
+        "learnMore": "了解更多產品資訊",
+        "scheduleMeeting": "與我們安排會議",
+        "findSolution": "找到適合您需求的解決方案",
+        "partnerships": "提供合作機會",
+        "productQuestions": "其他產品相關問題"
+      },
+      "email": "電子郵件",
+      "company": "公司",
+      "jobTitle": "職位",
+      "firstName": "名字",
+      "lastName": "姓氏",
+      "country": "國家",
+      "howDidYouFindUs": "您是如何找到我們的？",
+      "howDidYouFindUsOptions": {
+        "searchEngine": "搜尋引擎",
+        "socialMedia": "社交媒體",
+        "onlineAds": "線上廣告",
+        "events": "虛擬或實體活動",
+        "wordOfMouth": "口碑推薦",
+        "other": "其他"
+      },
+      "message": "訊息",
+      "messagePlaceholder": "請描述您的需求、問題或我們如何協助您...",
+      "submit": "提交",
+      "submitting": "提交中...",
+      "pleaseSelect": "請選擇",
+      "validEmail": "請輸入有效的電子郵件地址",
+      "maxChars": "必須不超過 {{max}} 個字元",
+      "minChars": "請提供更多詳情（最少 {{min}} 個字元）",
+      "requestTypeRequired": "請選擇您的請求的內容",
+      "emailRequired": "電子郵件為必填項",
+      "companyRequired": "公司名稱為必填項",
+      "jobTitleRequired": "職位為必填項",
+      "firstNameRequired": "名字為必填項",
+      "lastNameRequired": "姓氏為必填項",
+      "countryRequired": "請選擇您的國家",
+      "howDidYouFindUsRequired": "請選擇您是如何找到我們的"
+    }
+  },
+  "pricing": {
+    "hero": {
+      "title": "簡單、透明的價格",
+      "subtitle": "免費開始，隨著業務成長而升級。",
+      "getStarted": "免費開始使用"
+    },
+    "popular": "熱門",
+    "plans": {
+      "free": {
+        "name": "免費",
+        "description": "從功能豐富的聊天開始。個人或小團隊的首選"
+      },
+      "starter": {
+        "name": "入門",
+        "description": "適合小型企業。吸引並將潛在客戶轉化為顧客"
+      },
+      "light": {
+        "name": "輕量",
+        "description": "最適合中小企業。在單一平台上高效管理所有對話"
+      },
+      "standard": {
+        "name": "標準",
+        "description": "推薦給大型企業。為您成長中的業務加速"
+      },
+      "cta": {
+        "startNow": "立即開始",
+        "freeTrial": "7 天免費試用"
+      }
+    },
+    "features": {
+      "unlimitedChatLinks": "無限聊天連結",
+      "mau100": "100 月活躍用戶",
+      "mau1000": "1,000 月活躍用戶數",
+      "mau3000": "3,000 月活躍用戶",
+      "mau5000": "5,000 月活躍用戶",
+      "exportChatData": "匯出聊天資料",
+      "customizedChatLink": "客製化聊天連結",
+      "customizedPinBoard": "客製化 PinBoard",
+      "basicAnalytics": "基本分析",
+      "allFunctionsOfFree": "包含免費方案的所有功能",
+      "allFunctionsOfStarter": "包含入門方案的所有功能",
+      "allFunctionsOfLight": "包含輕量方案的所有功能",
+      "surveyAndFaqPinBot": "問卷與常見問題機器人",
+      "customizedChatWidget": "客製化聊天小工具",
+      "aiPinBot1000": "AI PinBot：每月 1,000 則訊息",
+      "aiPinBot2000": "AI PinBot：每月 2,000 則訊息",
+      "aiPinBot4000Byok": "AI PinBot：每月 4,000 則訊息 + BYOK",
+      "customDomain": "自訂網域",
+      "customMetaTags": "自訂 Meta 標籤",
+      "usage": {
+        "chatLinks": "聊天鏈接",
+        "mau": "每月活躍用戶 (MAU)",
+        "mauOverage": "月活躍用戶超額",
+        "aiPinBot": "人工智能拼版機器人",
+        "unlimited": "無限",
+        "contactSales": "聯繫銷售人員"
+      },
+      "messaging": {
+        "oneOnOneChat": "一對一聊天",
+        "groupChat": "群聊",
+        "voiceMessages": "語音留言",
+        "stickersEmojis": "貼紙和表情符號",
+        "fileMediaSharing": "文件和媒體共享",
+        "locationSharing": "位置共享",
+        "linkPreviews": "鏈接預覽",
+        "translation": "翻譯",
+        "readReceipts": "閱讀收據",
+        "unreadMessageIndicator": "未讀消息指示器",
+        "replyToMessages": "回复消息",
+        "messageRecall": "留言召回",
+        "mentions": "提及",
+        "copyMessages": "複製消息",
+        "visitorLocationTracking": "訪客位置追踪",
+        "chatFolders": "聊天文件夾",
+        "chatTags": "聊天標籤"
+      },
+      "customization": {
+        "pinBoard": "插接板",
+        "customChatroomLinks": "自定義聊天室鏈接",
+        "customAppearance": "定制外觀",
+        "websiteWidget": "網站小部件",
+        "surveyForms": "調查表",
+        "faqPinBot": "常見問題 PinBot",
+        "subAccountManagement": "子賬戶管理",
+        "visitorEmailNotifications": "訪客電子郵件通知",
+        "customerList": "客戶名單",
+        "customerListExport": "客戶名單導出"
+      },
+      "omnichat": {
+        "lineIntegration": "LINE 整盒",
+        "whatsappBusiness": "WhatsApp 整合",
+        "messengerIntegration": "Messenger 整合",
+        "instagramIntegration": "Instagram 整合",
+        "slackIntegration": "Slack 整合"
+      },
+      "support": {
+        "webDashboard": "後台介面",
+        "iosAndroidApp": "iOS 和 Android 應用程式",
+        "dataExport": "數據匯出"
+      },
+      "advanced": {
+        "customDomain": "自訂網域",
+        "customMetaTags": "自訂 Meta",
+        "removeBranding": "白牌設定"
+      },
+      "sections": {
+        "usageLimits": "使用與限制",
+        "messagingFeatures": "聊天室功能",
+        "customizationTools": "自訂工具",
+        "multichannelIntegration": "多渠道整合",
+        "advancedFeatures": "進階功能"
+      },
+      "comparison": {
+        "title": "比較功能",
+        "subtitle": "所有方案都包括核心的聊天功能。升級以獲得更高的 MAU、AI PinBot 容量和進階功能。",
+        "plans": "方案"
+      },
+      "customPlan": {
+        "title": "需要訂製方案嗎？",
+        "description": "對於具有特定需求的大型團隊或企業，我們還提供靈活且專業支援的訂製計劃。",
+        "contactUs": "聯繫我們"
+      },
+      "faq": {
+        "title": "常見問題解答",
+        "subtitle": "您需要了解的有關 PinChat 定價和功能的所有信息。",
+        "q1": "你們提供免費計劃或試用嗎？",
+        "a1": "是的。 PinChat 提供具有基本聊天功能的免費計劃，所有付費計劃均附帶 7 天免費試用期。該試用版包括我們的核心功能，例如 AI PinBot、聊天定制和調查工具。\n\n試用版中不包含第三方集成（LINE、WhatsApp、Messenger、Instagram）和自定義域等一些高級功能。訂閱付費計劃後，您可以解鎖它們。",
+        "q2": "什麼是 MAU（每月活躍用戶）？",
+        "a2": "MAU 是指在一個日曆月內與您的聊天服務進行交互的唯一用戶數量。這包括發送消息、參與對話或與您的 AI PinBot 互動的訪問者。每個唯一用戶每月計數一次，無論他們聊天多少次。",
+        "q3": "定價是如何計算的？",
+        "a3": "計劃根據您的訂閱級別按月計費。每個計劃都包含固定數量的每月活躍用戶 (MAU) 和 AI PinBot 消息。如果您需要的內容超出了所包含的範圍，您可以升級您的計劃或聯繫我們了解自定義定價。",
+        "q4": "我的計劃會自動續訂嗎？",
+        "a4": "是的。所有訂閱每月都會自動續訂，除非您在續訂日期之前取消。",
+        "q5": "我可以稍後更改計劃嗎？",
+        "a5": "是的。您可以隨時切換計劃。要升級或降級，只需取消當前訂閱並訂閱新計劃即可。該過程只需點擊幾下，您的數據將保持完整。",
+        "q6": "如果我超出使用限制會怎樣？",
+        "a6": "如果您超出 MAU 或 AI PinBot 配額，您的服務將繼續，但某些功能（例如 AI PinBot 回复）可能會暫停，直到您升級計劃或聯繫我們安排額外容量。",
+        "q7": "如果我取消訂閱，我的數據會怎樣？",
+        "a7": "取消後，您的數據將在有限的時間內保留。您可以重新訂閱以重新獲得訪問權限。",
+        "q8": "你們提供定制企業定價嗎？",
+        "a8": "是的。對於具有高級需求的大型團隊或企業，我們提供具有靈活功能和專門支持的定制計劃。請聯繫我們了解更多信息。",
+        "q9": "我可以使用自己的 AI 提供商密鑰 (BYOK) 嗎？",
+        "a9": "是的。我們的標準及以上套餐支持 BYOK（自帶密鑰）。目前支持 Gemini 和 OpenAI，很快就會添加更多提供商。",
+        "stillHaveQuestions": "還有疑問嗎？",
+        "contactSupport": "聯繫我們的支持團隊"
+      },
+      "cta": {
+        "title": "今天開始免費",
+        "subtitle": "與數千家已使用 PinChat 的企業一起徹底改變他們的客戶溝通。無需信用卡。",
+        "getStartedFree": "免費開始使用",
+        "talkToSales": "與銷售人員交談",
+        "freeTrial": "7 天免費試用",
+        "noSetupFees": "無安裝費",
+        "cancelAnytime": "隨時取消"
+      },
+      "notes": {
+        "byok": "*BYOK = 帶上您自己的密鑰。目前支持 OpenAI，更多 AI 提供商即將推出。",
+        "msgsMo": "*“msgs/mo” = 每月消息數"
+      }
+    }
+  },
+  "notFound": {
+    "message": "哎呀！找不到頁面",
+    "returnHome": "返回首頁"
+  }
+}

@@ -1,0 +1,1619 @@
+{
+  "totalKeys": 403,
+  "keys": [
+    "about.cta.contactUs",
+    "about.cta.startFree",
+    "about.cta.subtitle",
+    "about.cta.title",
+    "about.hero.contactUs",
+    "about.hero.startFreeToday",
+    "about.hero.subtitle",
+    "about.hero.title",
+    "about.journey.milestones.2019.description",
+    "about.journey.milestones.2019.title",
+    "about.journey.milestones.2020.description",
+    "about.journey.milestones.2020.title",
+    "about.journey.milestones.2022.description",
+    "about.journey.milestones.2022.title",
+    "about.journey.milestones.2025.description",
+    "about.journey.milestones.2025.title",
+    "about.journey.milestones.title",
+    "about.journey.origins.description",
+    "about.journey.origins.title",
+    "about.journey.subtitle",
+    "about.journey.title",
+    "about.mission.label",
+    "about.mission.quote",
+    "about.numbers.countriesServed.description",
+    "about.numbers.countriesServed.label",
+    "about.numbers.countriesServed.value",
+    "about.numbers.monthlyConversations.description",
+    "about.numbers.monthlyConversations.label",
+    "about.numbers.monthlyConversations.value",
+    "about.numbers.title",
+    "about.numbers.yearFounded.description",
+    "about.numbers.yearFounded.label",
+    "about.numbers.yearFounded.value",
+    "about.team.collaborative.description",
+    "about.team.collaborative.title",
+    "about.team.customerFocused.description",
+    "about.team.customerFocused.title",
+    "about.team.resultsDriven.description",
+    "about.team.resultsDriven.title",
+    "about.team.subtitle",
+    "about.team.title",
+    "about.values.globalReach.description",
+    "about.values.globalReach.title",
+    "about.values.innovation.description",
+    "about.values.innovation.title",
+    "about.values.simplicity.description",
+    "about.values.simplicity.title",
+    "about.values.subtitle",
+    "about.values.title",
+    "about.values.trust.description",
+    "about.values.trust.title",
+    "common.learnMore",
+    "contact.form.company",
+    "contact.form.companyRequired",
+    "contact.form.country",
+    "contact.form.countryRequired",
+    "contact.form.email",
+    "contact.form.emailRequired",
+    "contact.form.firstName",
+    "contact.form.firstNameRequired",
+    "contact.form.howDidYouFindUs",
+    "contact.form.howDidYouFindUsOptions.events",
+    "contact.form.howDidYouFindUsOptions.onlineAds",
+    "contact.form.howDidYouFindUsOptions.other",
+    "contact.form.howDidYouFindUsOptions.searchEngine",
+    "contact.form.howDidYouFindUsOptions.socialMedia",
+    "contact.form.howDidYouFindUsOptions.wordOfMouth",
+    "contact.form.howDidYouFindUsRequired",
+    "contact.form.jobTitle",
+    "contact.form.jobTitleRequired",
+    "contact.form.lastName",
+    "contact.form.lastNameRequired",
+    "contact.form.maxChars",
+    "contact.form.message",
+    "contact.form.messagePlaceholder",
+    "contact.form.minChars",
+    "contact.form.pleaseSelect",
+    "contact.form.requestType",
+    "contact.form.requestTypeOptions.findSolution",
+    "contact.form.requestTypeOptions.learnMore",
+    "contact.form.requestTypeOptions.partnerships",
+    "contact.form.requestTypeOptions.productQuestions",
+    "contact.form.requestTypeOptions.scheduleMeeting",
+    "contact.form.requestTypeRequired",
+    "contact.form.submit",
+    "contact.form.submitting",
+    "contact.form.subtitle",
+    "contact.form.title",
+    "contact.form.validEmail",
+    "contact.hero.badge",
+    "contact.hero.reasons.findSolution",
+    "contact.hero.reasons.learnMore",
+    "contact.hero.reasons.partnerships",
+    "contact.hero.reasons.productQuestions",
+    "contact.hero.reasons.scheduleMeeting",
+    "contact.hero.reasons.support",
+    "contact.hero.responseTime.description",
+    "contact.hero.responseTime.title",
+    "contact.hero.subtitle",
+    "contact.hero.title",
+    "contact.success.backToHome",
+    "contact.success.checkSpam",
+    "contact.success.description",
+    "contact.success.title",
+    "cta.contactSales",
+    "cta.noCardRequired",
+    "cta.startFreeTrial",
+    "cta.subtitle",
+    "cta.title",
+    "features.aiPinbot",
+    "features.analytics",
+    "features.branding",
+    "features.chat",
+    "features.chatPage.benefits.groupChat.description",
+    "features.chatPage.benefits.groupChat.title",
+    "features.chatPage.benefits.messageActions.description",
+    "features.chatPage.benefits.messageActions.title",
+    "features.chatPage.benefits.oneOnOne.description",
+    "features.chatPage.benefits.oneOnOne.title",
+    "features.chatPage.benefits.richMessages.description",
+    "features.chatPage.benefits.richMessages.title",
+    "features.chatPage.cta.button",
+    "features.chatPage.cta.subtitle",
+    "features.chatPage.cta.title",
+    "features.chatPage.hero.cta",
+    "features.chatPage.hero.imageAlt",
+    "features.chatPage.hero.subtitle",
+    "features.chatPage.hero.title",
+    "features.chatPage.inAction.groupChat.description",
+    "features.chatPage.inAction.groupChat.imageAlt",
+    "features.chatPage.inAction.groupChat.title",
+    "features.chatPage.inAction.messageActions.copy",
+    "features.chatPage.inAction.messageActions.description",
+    "features.chatPage.inAction.messageActions.imageAlt",
+    "features.chatPage.inAction.messageActions.react",
+    "features.chatPage.inAction.messageActions.reply",
+    "features.chatPage.inAction.messageActions.title",
+    "features.chatPage.inAction.messageActions.unsend",
+    "features.chatPage.inAction.oneOnOne.description",
+    "features.chatPage.inAction.oneOnOne.imageAlt",
+    "features.chatPage.inAction.oneOnOne.title",
+    "features.chatPage.inAction.richMessages.description",
+    "features.chatPage.inAction.richMessages.filesVideos",
+    "features.chatPage.inAction.richMessages.freeStickers",
+    "features.chatPage.inAction.richMessages.imageAlt",
+    "features.chatPage.inAction.richMessages.locationLink",
+    "features.chatPage.inAction.richMessages.textMessages",
+    "features.chatPage.inAction.richMessages.title",
+    "features.chatPage.inAction.richMessages.voiceMessages",
+    "features.chatPage.inAction.title",
+    "features.chatPage.relatedFeatures.aiPinbot.description",
+    "features.chatPage.relatedFeatures.aiPinbot.title",
+    "features.chatPage.relatedFeatures.chatWidget.description",
+    "features.chatPage.relatedFeatures.chatWidget.title",
+    "features.chatPage.relatedFeatures.chatroomManagement.description",
+    "features.chatPage.relatedFeatures.chatroomManagement.title",
+    "features.chatPage.relatedFeatures.title",
+    "features.chatPage.stickers.description",
+    "features.chatPage.stickers.imageAlt",
+    "features.chatPage.stickers.title",
+    "features.chatWidget",
+    "features.chatroomManagement",
+    "features.faqPinbot",
+    "features.pinboard",
+    "features.subAccount",
+    "features_section.items.aiChatbot",
+    "features_section.items.aiChatbotDesc",
+    "features_section.items.clientList",
+    "features_section.items.clientListDesc",
+    "features_section.items.customizationBranding",
+    "features_section.items.customizationBrandingDesc",
+    "features_section.items.noCodeSetup",
+    "features_section.items.noCodeSetupDesc",
+    "features_section.items.quickConnectDesc",
+    "features_section.items.quickConnectLinks",
+    "features_section.items.unifiedInbox",
+    "features_section.items.unifiedInboxDesc",
+    "features_section.subtitle",
+    "features_section.title",
+    "footer.about",
+    "footer.company",
+    "footer.contact",
+    "footer.copyright",
+    "footer.description",
+    "footer.language",
+    "footer.legal",
+    "footer.privacyPolicy",
+    "footer.termsOfService",
+    "hero.startFree",
+    "hero.subtitle",
+    "hero.title",
+    "hero.watchDemo",
+    "homepage.valueBlock1Desc",
+    "homepage.valueBlock1Title",
+    "homepage.valueBlock2Desc",
+    "homepage.valueBlock2Title",
+    "homepage.valueBlock3Desc",
+    "homepage.valueBlock3Title",
+    "homepage.valueBlock4Desc",
+    "homepage.valueBlock4Title",
+    "industries.b2bCommercial",
+    "industries.ecommerce",
+    "industries.education",
+    "industries.events",
+    "industries.healthcare",
+    "industries.professionalServices",
+    "industries.realEstate",
+    "industries.retail",
+    "industries.serviceIndustries",
+    "languages.de",
+    "languages.en",
+    "languages.es",
+    "languages.fr",
+    "languages.ja",
+    "languages.ko",
+    "languages.pt-br",
+    "languages.ro",
+    "languages.th",
+    "languages.vi",
+    "languages.zh-cn",
+    "languages.zh-tw",
+    "nav.businessType",
+    "nav.features",
+    "nav.login",
+    "nav.pricing",
+    "nav.solutions",
+    "nav.startFree",
+    "nav.useCase",
+    "notFound.message",
+    "notFound.returnHome",
+    "pricing.features.advanced.customDomain",
+    "pricing.features.advanced.customMetaTags",
+    "pricing.features.advanced.removeBranding",
+    "pricing.features.aiPinBot1000",
+    "pricing.features.aiPinBot2000",
+    "pricing.features.aiPinBot4000Byok",
+    "pricing.features.allFunctionsOfFree",
+    "pricing.features.allFunctionsOfLight",
+    "pricing.features.allFunctionsOfStarter",
+    "pricing.features.basicAnalytics",
+    "pricing.features.comparison.plans",
+    "pricing.features.comparison.subtitle",
+    "pricing.features.comparison.title",
+    "pricing.features.cta.cancelAnytime",
+    "pricing.features.cta.freeTrial",
+    "pricing.features.cta.getStartedFree",
+    "pricing.features.cta.noSetupFees",
+    "pricing.features.cta.subtitle",
+    "pricing.features.cta.talkToSales",
+    "pricing.features.cta.title",
+    "pricing.features.customDomain",
+    "pricing.features.customMetaTags",
+    "pricing.features.customPlan.contactUs",
+    "pricing.features.customPlan.description",
+    "pricing.features.customPlan.title",
+    "pricing.features.customization.customAppearance",
+    "pricing.features.customization.customChatroomLinks",
+    "pricing.features.customization.customerList",
+    "pricing.features.customization.customerListExport",
+    "pricing.features.customization.faqPinBot",
+    "pricing.features.customization.pinBoard",
+    "pricing.features.customization.subAccountManagement",
+    "pricing.features.customization.surveyForms",
+    "pricing.features.customization.visitorEmailNotifications",
+    "pricing.features.customization.websiteWidget",
+    "pricing.features.customizedChatLink",
+    "pricing.features.customizedChatWidget",
+    "pricing.features.customizedPinBoard",
+    "pricing.features.exportChatData",
+    "pricing.features.faq.a1",
+    "pricing.features.faq.a2",
+    "pricing.features.faq.a3",
+    "pricing.features.faq.a4",
+    "pricing.features.faq.a5",
+    "pricing.features.faq.a6",
+    "pricing.features.faq.a7",
+    "pricing.features.faq.a8",
+    "pricing.features.faq.a9",
+    "pricing.features.faq.contactSupport",
+    "pricing.features.faq.q1",
+    "pricing.features.faq.q2",
+    "pricing.features.faq.q3",
+    "pricing.features.faq.q4",
+    "pricing.features.faq.q5",
+    "pricing.features.faq.q6",
+    "pricing.features.faq.q7",
+    "pricing.features.faq.q8",
+    "pricing.features.faq.q9",
+    "pricing.features.faq.stillHaveQuestions",
+    "pricing.features.faq.subtitle",
+    "pricing.features.faq.title",
+    "pricing.features.mau100",
+    "pricing.features.mau1000",
+    "pricing.features.mau3000",
+    "pricing.features.mau5000",
+    "pricing.features.messaging.chatFolders",
+    "pricing.features.messaging.chatTags",
+    "pricing.features.messaging.copyMessages",
+    "pricing.features.messaging.fileMediaSharing",
+    "pricing.features.messaging.groupChat",
+    "pricing.features.messaging.linkPreviews",
+    "pricing.features.messaging.locationSharing",
+    "pricing.features.messaging.mentions",
+    "pricing.features.messaging.messageRecall",
+    "pricing.features.messaging.oneOnOneChat",
+    "pricing.features.messaging.readReceipts",
+    "pricing.features.messaging.replyToMessages",
+    "pricing.features.messaging.stickersEmojis",
+    "pricing.features.messaging.translation",
+    "pricing.features.messaging.unreadMessageIndicator",
+    "pricing.features.messaging.visitorLocationTracking",
+    "pricing.features.messaging.voiceMessages",
+    "pricing.features.notes.byok",
+    "pricing.features.notes.msgsMo",
+    "pricing.features.omnichat.instagramIntegration",
+    "pricing.features.omnichat.lineIntegration",
+    "pricing.features.omnichat.messengerIntegration",
+    "pricing.features.omnichat.slackIntegration",
+    "pricing.features.omnichat.whatsappBusiness",
+    "pricing.features.sections.advancedFeatures",
+    "pricing.features.sections.customizationTools",
+    "pricing.features.sections.messagingFeatures",
+    "pricing.features.sections.multichannelIntegration",
+    "pricing.features.sections.usageLimits",
+    "pricing.features.support.dataExport",
+    "pricing.features.support.iosAndroidApp",
+    "pricing.features.support.webDashboard",
+    "pricing.features.surveyAndFaqPinBot",
+    "pricing.features.unlimitedChatLinks",
+    "pricing.features.usage.aiPinBot",
+    "pricing.features.usage.chatLinks",
+    "pricing.features.usage.contactSales",
+    "pricing.features.usage.mau",
+    "pricing.features.usage.mauOverage",
+    "pricing.features.usage.unlimited",
+    "pricing.hero.getStarted",
+    "pricing.hero.subtitle",
+    "pricing.hero.title",
+    "pricing.plans.cta.freeTrial",
+    "pricing.plans.cta.startNow",
+    "pricing.plans.free.description",
+    "pricing.plans.free.name",
+    "pricing.plans.light.description",
+    "pricing.plans.light.name",
+    "pricing.plans.standard.description",
+    "pricing.plans.standard.name",
+    "pricing.plans.starter.description",
+    "pricing.plans.starter.name",
+    "pricing.popular",
+    "pricing_section.choosePerfectPlan",
+    "pricing_section.planSubtitle",
+    "pricing_section.readyToGetStarted",
+    "retailEcommerce.cta.button",
+    "retailEcommerce.cta.subtitle",
+    "retailEcommerce.cta.title",
+    "retailEcommerce.exploreMore.education.description",
+    "retailEcommerce.exploreMore.education.title",
+    "retailEcommerce.exploreMore.healthcare.description",
+    "retailEcommerce.exploreMore.healthcare.title",
+    "retailEcommerce.exploreMore.serviceIndustries.description",
+    "retailEcommerce.exploreMore.serviceIndustries.title",
+    "retailEcommerce.exploreMore.title",
+    "retailEcommerce.features.campaigns.description",
+    "retailEcommerce.features.campaigns.title",
+    "retailEcommerce.features.loyalty.description",
+    "retailEcommerce.features.loyalty.title",
+    "retailEcommerce.features.orderTracking.description",
+    "retailEcommerce.features.orderTracking.title",
+    "retailEcommerce.features.productInquiries.description",
+    "retailEcommerce.features.productInquiries.title",
+    "retailEcommerce.features.title",
+    "retailEcommerce.hero.breadcrumb",
+    "retailEcommerce.hero.cta",
+    "retailEcommerce.hero.subtitle",
+    "retailEcommerce.hero.title",
+    "retailEcommerce.planEngagement.alignTeam.description",
+    "retailEcommerce.planEngagement.alignTeam.title",
+    "retailEcommerce.planEngagement.description",
+    "retailEcommerce.planEngagement.diveDetails.description",
+    "retailEcommerce.planEngagement.diveDetails.title",
+    "retailEcommerce.planEngagement.respondFaster.description",
+    "retailEcommerce.planEngagement.respondFaster.title",
+    "retailEcommerce.planEngagement.title",
+    "retailEcommerce.salesAcceleration.description",
+    "retailEcommerce.salesAcceleration.productive.description",
+    "retailEcommerce.salesAcceleration.productive.title",
+    "retailEcommerce.salesAcceleration.responseCycles.description",
+    "retailEcommerce.salesAcceleration.responseCycles.title",
+    "retailEcommerce.salesAcceleration.returns.description",
+    "retailEcommerce.salesAcceleration.returns.title",
+    "retailEcommerce.salesAcceleration.swiftExecution.description",
+    "retailEcommerce.salesAcceleration.swiftExecution.title",
+    "retailEcommerce.salesAcceleration.title",
+    "retailEcommerce.whyUse.items.campaigns",
+    "retailEcommerce.whyUse.items.engage",
+    "retailEcommerce.whyUse.items.instantAnswers",
+    "retailEcommerce.whyUse.items.orderUpdates",
+    "retailEcommerce.whyUse.title",
+    "solutions.aiCustomerService",
+    "solutions.chatroomTeamManagement",
+    "solutions.customerFeedbackAnalytics",
+    "solutions.leadCaptureSurveys",
+    "solutions.multichannelMessaging"
+  ],
+  "usageMap": {
+    "nav.features": [
+      "components/FeatureNavigation.tsx"
+    ],
+    "features.chat": [
+      "components/FeatureNavigation.tsx"
+    ],
+    "features.chatWidget": [
+      "components/FeatureNavigation.tsx"
+    ],
+    "features.pinboard": [
+      "components/FeatureNavigation.tsx"
+    ],
+    "features.aiPinbot": [
+      "components/FeatureNavigation.tsx"
+    ],
+    "features.faqPinbot": [
+      "components/FeatureNavigation.tsx"
+    ],
+    "features.branding": [
+      "components/FeatureNavigation.tsx"
+    ],
+    "features.analytics": [
+      "components/FeatureNavigation.tsx"
+    ],
+    "features.chatroomManagement": [
+      "components/FeatureNavigation.tsx"
+    ],
+    "features.subAccount": [
+      "components/FeatureNavigation.tsx"
+    ],
+    "nav.solutions": [
+      "components/FeatureNavigation.tsx"
+    ],
+    "nav.businessType": [
+      "components/FeatureNavigation.tsx"
+    ],
+    "industries.retail": [
+      "components/FeatureNavigation.tsx"
+    ],
+    "industries.ecommerce": [
+      "components/FeatureNavigation.tsx"
+    ],
+    "industries.serviceIndustries": [
+      "components/FeatureNavigation.tsx"
+    ],
+    "industries.education": [
+      "components/FeatureNavigation.tsx"
+    ],
+    "industries.b2bCommercial": [
+      "components/FeatureNavigation.tsx"
+    ],
+    "industries.professionalServices": [
+      "components/FeatureNavigation.tsx"
+    ],
+    "industries.realEstate": [
+      "components/FeatureNavigation.tsx"
+    ],
+    "industries.healthcare": [
+      "components/FeatureNavigation.tsx"
+    ],
+    "industries.events": [
+      "components/FeatureNavigation.tsx"
+    ],
+    "nav.useCase": [
+      "components/FeatureNavigation.tsx"
+    ],
+    "solutions.aiCustomerService": [
+      "components/FeatureNavigation.tsx"
+    ],
+    "solutions.multichannelMessaging": [
+      "components/FeatureNavigation.tsx"
+    ],
+    "solutions.leadCaptureSurveys": [
+      "components/FeatureNavigation.tsx"
+    ],
+    "solutions.customerFeedbackAnalytics": [
+      "components/FeatureNavigation.tsx"
+    ],
+    "solutions.chatroomTeamManagement": [
+      "components/FeatureNavigation.tsx"
+    ],
+    "nav.pricing": [
+      "components/FeatureNavigation.tsx"
+    ],
+    "nav.login": [
+      "components/FeatureNavigation.tsx"
+    ],
+    "nav.startFree": [
+      "components/FeatureNavigation.tsx"
+    ],
+    "footer.description": [
+      "components/Footer.tsx"
+    ],
+    "footer.legal": [
+      "components/Footer.tsx"
+    ],
+    "footer.privacyPolicy": [
+      "components/Footer.tsx"
+    ],
+    "footer.termsOfService": [
+      "components/Footer.tsx"
+    ],
+    "footer.company": [
+      "components/Footer.tsx"
+    ],
+    "footer.about": [
+      "components/Footer.tsx"
+    ],
+    "footer.contact": [
+      "components/Footer.tsx"
+    ],
+    "footer.language": [
+      "components/Footer.tsx"
+    ],
+    "languages.en": [
+      "components/Footer.tsx"
+    ],
+    "languages.zh-tw": [
+      "components/Footer.tsx"
+    ],
+    "languages.zh-cn": [
+      "components/Footer.tsx"
+    ],
+    "languages.fr": [
+      "components/Footer.tsx"
+    ],
+    "languages.es": [
+      "components/Footer.tsx"
+    ],
+    "languages.pt-br": [
+      "components/Footer.tsx"
+    ],
+    "languages.vi": [
+      "components/Footer.tsx"
+    ],
+    "languages.th": [
+      "components/Footer.tsx"
+    ],
+    "languages.de": [
+      "components/Footer.tsx"
+    ],
+    "languages.ro": [
+      "components/Footer.tsx"
+    ],
+    "languages.ja": [
+      "components/Footer.tsx"
+    ],
+    "languages.ko": [
+      "components/Footer.tsx"
+    ],
+    "footer.copyright": [
+      "components/Footer.tsx"
+    ],
+    "about.hero.title": [
+      "pages/About.tsx"
+    ],
+    "about.hero.subtitle": [
+      "pages/About.tsx"
+    ],
+    "about.hero.startFreeToday": [
+      "pages/About.tsx"
+    ],
+    "about.hero.contactUs": [
+      "pages/About.tsx"
+    ],
+    "about.mission.quote": [
+      "pages/About.tsx"
+    ],
+    "about.mission.label": [
+      "pages/About.tsx"
+    ],
+    "about.numbers.title": [
+      "pages/About.tsx"
+    ],
+    "about.numbers.yearFounded.value": [
+      "pages/About.tsx"
+    ],
+    "about.numbers.yearFounded.label": [
+      "pages/About.tsx"
+    ],
+    "about.numbers.yearFounded.description": [
+      "pages/About.tsx"
+    ],
+    "about.numbers.countriesServed.value": [
+      "pages/About.tsx"
+    ],
+    "about.numbers.countriesServed.label": [
+      "pages/About.tsx"
+    ],
+    "about.numbers.countriesServed.description": [
+      "pages/About.tsx"
+    ],
+    "about.numbers.monthlyConversations.value": [
+      "pages/About.tsx"
+    ],
+    "about.numbers.monthlyConversations.label": [
+      "pages/About.tsx"
+    ],
+    "about.numbers.monthlyConversations.description": [
+      "pages/About.tsx"
+    ],
+    "about.journey.title": [
+      "pages/About.tsx"
+    ],
+    "about.journey.subtitle": [
+      "pages/About.tsx"
+    ],
+    "about.journey.origins.title": [
+      "pages/About.tsx"
+    ],
+    "about.journey.origins.description": [
+      "pages/About.tsx"
+    ],
+    "about.journey.milestones.title": [
+      "pages/About.tsx"
+    ],
+    "about.journey.milestones.2019.title": [
+      "pages/About.tsx"
+    ],
+    "about.journey.milestones.2019.description": [
+      "pages/About.tsx"
+    ],
+    "about.journey.milestones.2020.title": [
+      "pages/About.tsx"
+    ],
+    "about.journey.milestones.2020.description": [
+      "pages/About.tsx"
+    ],
+    "about.journey.milestones.2022.title": [
+      "pages/About.tsx"
+    ],
+    "about.journey.milestones.2022.description": [
+      "pages/About.tsx"
+    ],
+    "about.journey.milestones.2025.title": [
+      "pages/About.tsx"
+    ],
+    "about.journey.milestones.2025.description": [
+      "pages/About.tsx"
+    ],
+    "about.values.title": [
+      "pages/About.tsx"
+    ],
+    "about.values.subtitle": [
+      "pages/About.tsx"
+    ],
+    "about.values.simplicity.title": [
+      "pages/About.tsx"
+    ],
+    "about.values.simplicity.description": [
+      "pages/About.tsx"
+    ],
+    "about.values.innovation.title": [
+      "pages/About.tsx"
+    ],
+    "about.values.innovation.description": [
+      "pages/About.tsx"
+    ],
+    "about.values.trust.title": [
+      "pages/About.tsx"
+    ],
+    "about.values.trust.description": [
+      "pages/About.tsx"
+    ],
+    "about.values.globalReach.title": [
+      "pages/About.tsx"
+    ],
+    "about.values.globalReach.description": [
+      "pages/About.tsx"
+    ],
+    "about.team.title": [
+      "pages/About.tsx"
+    ],
+    "about.team.subtitle": [
+      "pages/About.tsx"
+    ],
+    "about.team.collaborative.title": [
+      "pages/About.tsx"
+    ],
+    "about.team.collaborative.description": [
+      "pages/About.tsx"
+    ],
+    "about.team.customerFocused.title": [
+      "pages/About.tsx"
+    ],
+    "about.team.customerFocused.description": [
+      "pages/About.tsx"
+    ],
+    "about.team.resultsDriven.title": [
+      "pages/About.tsx"
+    ],
+    "about.team.resultsDriven.description": [
+      "pages/About.tsx"
+    ],
+    "about.cta.title": [
+      "pages/About.tsx"
+    ],
+    "about.cta.subtitle": [
+      "pages/About.tsx"
+    ],
+    "about.cta.startFree": [
+      "pages/About.tsx"
+    ],
+    "about.cta.contactUs": [
+      "pages/About.tsx"
+    ],
+    "contact.form.requestTypeRequired": [
+      "pages/Contact.tsx"
+    ],
+    "contact.form.emailRequired": [
+      "pages/Contact.tsx"
+    ],
+    "contact.form.validEmail": [
+      "pages/Contact.tsx"
+    ],
+    "contact.form.maxChars": [
+      "pages/Contact.tsx"
+    ],
+    "contact.form.companyRequired": [
+      "pages/Contact.tsx"
+    ],
+    "contact.form.jobTitleRequired": [
+      "pages/Contact.tsx"
+    ],
+    "contact.form.firstNameRequired": [
+      "pages/Contact.tsx"
+    ],
+    "contact.form.lastNameRequired": [
+      "pages/Contact.tsx"
+    ],
+    "contact.form.countryRequired": [
+      "pages/Contact.tsx"
+    ],
+    "contact.form.howDidYouFindUsRequired": [
+      "pages/Contact.tsx"
+    ],
+    "contact.form.minChars": [
+      "pages/Contact.tsx"
+    ],
+    "contact.success.title": [
+      "pages/Contact.tsx"
+    ],
+    "contact.success.description": [
+      "pages/Contact.tsx"
+    ],
+    "contact.success.checkSpam": [
+      "pages/Contact.tsx"
+    ],
+    "contact.success.backToHome": [
+      "pages/Contact.tsx"
+    ],
+    "contact.hero.badge": [
+      "pages/Contact.tsx"
+    ],
+    "contact.hero.title": [
+      "pages/Contact.tsx"
+    ],
+    "contact.hero.subtitle": [
+      "pages/Contact.tsx"
+    ],
+    "contact.hero.reasons.learnMore": [
+      "pages/Contact.tsx"
+    ],
+    "contact.hero.reasons.scheduleMeeting": [
+      "pages/Contact.tsx"
+    ],
+    "contact.hero.reasons.findSolution": [
+      "pages/Contact.tsx"
+    ],
+    "contact.hero.reasons.productQuestions": [
+      "pages/Contact.tsx"
+    ],
+    "contact.hero.reasons.partnerships": [
+      "pages/Contact.tsx"
+    ],
+    "contact.hero.reasons.support": [
+      "pages/Contact.tsx"
+    ],
+    "contact.hero.responseTime.title": [
+      "pages/Contact.tsx"
+    ],
+    "contact.hero.responseTime.description": [
+      "pages/Contact.tsx"
+    ],
+    "contact.form.title": [
+      "pages/Contact.tsx"
+    ],
+    "contact.form.subtitle": [
+      "pages/Contact.tsx"
+    ],
+    "contact.form.requestType": [
+      "pages/Contact.tsx"
+    ],
+    "contact.form.pleaseSelect": [
+      "pages/Contact.tsx"
+    ],
+    "contact.form.requestTypeOptions.learnMore": [
+      "pages/Contact.tsx"
+    ],
+    "contact.form.requestTypeOptions.scheduleMeeting": [
+      "pages/Contact.tsx"
+    ],
+    "contact.form.requestTypeOptions.findSolution": [
+      "pages/Contact.tsx"
+    ],
+    "contact.form.requestTypeOptions.partnerships": [
+      "pages/Contact.tsx"
+    ],
+    "contact.form.requestTypeOptions.productQuestions": [
+      "pages/Contact.tsx"
+    ],
+    "contact.form.firstName": [
+      "pages/Contact.tsx"
+    ],
+    "contact.form.lastName": [
+      "pages/Contact.tsx"
+    ],
+    "contact.form.email": [
+      "pages/Contact.tsx"
+    ],
+    "contact.form.company": [
+      "pages/Contact.tsx"
+    ],
+    "contact.form.jobTitle": [
+      "pages/Contact.tsx"
+    ],
+    "contact.form.country": [
+      "pages/Contact.tsx"
+    ],
+    "contact.form.howDidYouFindUs": [
+      "pages/Contact.tsx"
+    ],
+    "contact.form.howDidYouFindUsOptions.searchEngine": [
+      "pages/Contact.tsx"
+    ],
+    "contact.form.howDidYouFindUsOptions.socialMedia": [
+      "pages/Contact.tsx"
+    ],
+    "contact.form.howDidYouFindUsOptions.onlineAds": [
+      "pages/Contact.tsx"
+    ],
+    "contact.form.howDidYouFindUsOptions.events": [
+      "pages/Contact.tsx"
+    ],
+    "contact.form.howDidYouFindUsOptions.wordOfMouth": [
+      "pages/Contact.tsx"
+    ],
+    "contact.form.howDidYouFindUsOptions.other": [
+      "pages/Contact.tsx"
+    ],
+    "contact.form.message": [
+      "pages/Contact.tsx"
+    ],
+    "contact.form.messagePlaceholder": [
+      "pages/Contact.tsx"
+    ],
+    "contact.form.submitting": [
+      "pages/Contact.tsx"
+    ],
+    "contact.form.submit": [
+      "pages/Contact.tsx"
+    ],
+    "hero.title": [
+      "pages/Index.tsx"
+    ],
+    "hero.subtitle": [
+      "pages/Index.tsx"
+    ],
+    "hero.startFree": [
+      "pages/Index.tsx"
+    ],
+    "hero.watchDemo": [
+      "pages/Index.tsx"
+    ],
+    "homepage.valueBlock1Title": [
+      "pages/Index.tsx"
+    ],
+    "homepage.valueBlock1Desc": [
+      "pages/Index.tsx"
+    ],
+    "homepage.valueBlock2Title": [
+      "pages/Index.tsx"
+    ],
+    "homepage.valueBlock2Desc": [
+      "pages/Index.tsx"
+    ],
+    "homepage.valueBlock3Title": [
+      "pages/Index.tsx"
+    ],
+    "homepage.valueBlock3Desc": [
+      "pages/Index.tsx"
+    ],
+    "homepage.valueBlock4Title": [
+      "pages/Index.tsx"
+    ],
+    "homepage.valueBlock4Desc": [
+      "pages/Index.tsx"
+    ],
+    "features_section.title": [
+      "pages/Index.tsx"
+    ],
+    "features_section.subtitle": [
+      "pages/Index.tsx"
+    ],
+    "features_section.items.quickConnectLinks": [
+      "pages/Index.tsx"
+    ],
+    "features_section.items.quickConnectDesc": [
+      "pages/Index.tsx"
+    ],
+    "features_section.items.aiChatbot": [
+      "pages/Index.tsx"
+    ],
+    "features_section.items.aiChatbotDesc": [
+      "pages/Index.tsx"
+    ],
+    "features_section.items.unifiedInbox": [
+      "pages/Index.tsx"
+    ],
+    "features_section.items.unifiedInboxDesc": [
+      "pages/Index.tsx"
+    ],
+    "features_section.items.noCodeSetup": [
+      "pages/Index.tsx"
+    ],
+    "features_section.items.noCodeSetupDesc": [
+      "pages/Index.tsx"
+    ],
+    "features_section.items.customizationBranding": [
+      "pages/Index.tsx"
+    ],
+    "features_section.items.customizationBrandingDesc": [
+      "pages/Index.tsx"
+    ],
+    "features_section.items.clientList": [
+      "pages/Index.tsx"
+    ],
+    "features_section.items.clientListDesc": [
+      "pages/Index.tsx"
+    ],
+    "pricing_section.readyToGetStarted": [
+      "pages/Index.tsx"
+    ],
+    "pricing_section.choosePerfectPlan": [
+      "pages/Index.tsx"
+    ],
+    "pricing_section.planSubtitle": [
+      "pages/Index.tsx"
+    ],
+    "cta.title": [
+      "pages/Index.tsx"
+    ],
+    "cta.subtitle": [
+      "pages/Index.tsx"
+    ],
+    "cta.startFreeTrial": [
+      "pages/Index.tsx"
+    ],
+    "cta.contactSales": [
+      "pages/Index.tsx"
+    ],
+    "cta.noCardRequired": [
+      "pages/Index.tsx"
+    ],
+    "notFound.message": [
+      "pages/NotFound.tsx"
+    ],
+    "notFound.returnHome": [
+      "pages/NotFound.tsx"
+    ],
+    "pricing.plans.free.name": [
+      "pages/Pricing.tsx"
+    ],
+    "pricing.plans.free.description": [
+      "pages/Pricing.tsx"
+    ],
+    "pricing.features.unlimitedChatLinks": [
+      "pages/Pricing.tsx"
+    ],
+    "pricing.features.mau100": [
+      "pages/Pricing.tsx"
+    ],
+    "pricing.features.exportChatData": [
+      "pages/Pricing.tsx"
+    ],
+    "pricing.features.customizedChatLink": [
+      "pages/Pricing.tsx"
+    ],
+    "pricing.features.customizedPinBoard": [
+      "pages/Pricing.tsx"
+    ],
+    "pricing.features.basicAnalytics": [
+      "pages/Pricing.tsx"
+    ],
+    "pricing.plans.cta.startNow": [
+      "pages/Pricing.tsx"
+    ],
+    "pricing.plans.starter.name": [
+      "pages/Pricing.tsx"
+    ],
+    "pricing.plans.starter.description": [
+      "pages/Pricing.tsx"
+    ],
+    "pricing.features.mau1000": [
+      "pages/Pricing.tsx"
+    ],
+    "pricing.features.allFunctionsOfFree": [
+      "pages/Pricing.tsx"
+    ],
+    "pricing.features.surveyAndFaqPinBot": [
+      "pages/Pricing.tsx"
+    ],
+    "pricing.features.customizedChatWidget": [
+      "pages/Pricing.tsx"
+    ],
+    "pricing.features.aiPinBot1000": [
+      "pages/Pricing.tsx"
+    ],
+    "pricing.plans.cta.freeTrial": [
+      "pages/Pricing.tsx"
+    ],
+    "pricing.plans.light.name": [
+      "pages/Pricing.tsx"
+    ],
+    "pricing.plans.light.description": [
+      "pages/Pricing.tsx"
+    ],
+    "pricing.features.mau3000": [
+      "pages/Pricing.tsx"
+    ],
+    "pricing.features.allFunctionsOfStarter": [
+      "pages/Pricing.tsx"
+    ],
+    "pricing.features.aiPinBot2000": [
+      "pages/Pricing.tsx"
+    ],
+    "pricing.plans.standard.name": [
+      "pages/Pricing.tsx"
+    ],
+    "pricing.plans.standard.description": [
+      "pages/Pricing.tsx"
+    ],
+    "pricing.features.mau5000": [
+      "pages/Pricing.tsx"
+    ],
+    "pricing.features.allFunctionsOfLight": [
+      "pages/Pricing.tsx"
+    ],
+    "pricing.features.customDomain": [
+      "pages/Pricing.tsx"
+    ],
+    "pricing.features.customMetaTags": [
+      "pages/Pricing.tsx"
+    ],
+    "pricing.features.aiPinBot4000Byok": [
+      "pages/Pricing.tsx"
+    ],
+    "pricing.features.usage.chatLinks": [
+      "pages/Pricing.tsx"
+    ],
+    "pricing.features.usage.unlimited": [
+      "pages/Pricing.tsx"
+    ],
+    "pricing.features.usage.mau": [
+      "pages/Pricing.tsx"
+    ],
+    "pricing.features.usage.mauOverage": [
+      "pages/Pricing.tsx"
+    ],
+    "pricing.features.usage.contactSales": [
+      "pages/Pricing.tsx"
+    ],
+    "pricing.features.usage.aiPinBot": [
+      "pages/Pricing.tsx"
+    ],
+    "pricing.features.messaging.oneOnOneChat": [
+      "pages/Pricing.tsx"
+    ],
+    "pricing.features.messaging.groupChat": [
+      "pages/Pricing.tsx"
+    ],
+    "pricing.features.messaging.voiceMessages": [
+      "pages/Pricing.tsx"
+    ],
+    "pricing.features.messaging.stickersEmojis": [
+      "pages/Pricing.tsx"
+    ],
+    "pricing.features.messaging.fileMediaSharing": [
+      "pages/Pricing.tsx"
+    ],
+    "pricing.features.messaging.locationSharing": [
+      "pages/Pricing.tsx"
+    ],
+    "pricing.features.messaging.linkPreviews": [
+      "pages/Pricing.tsx"
+    ],
+    "pricing.features.messaging.translation": [
+      "pages/Pricing.tsx"
+    ],
+    "pricing.features.messaging.readReceipts": [
+      "pages/Pricing.tsx"
+    ],
+    "pricing.features.messaging.unreadMessageIndicator": [
+      "pages/Pricing.tsx"
+    ],
+    "pricing.features.messaging.replyToMessages": [
+      "pages/Pricing.tsx"
+    ],
+    "pricing.features.messaging.messageRecall": [
+      "pages/Pricing.tsx"
+    ],
+    "pricing.features.messaging.mentions": [
+      "pages/Pricing.tsx"
+    ],
+    "pricing.features.messaging.copyMessages": [
+      "pages/Pricing.tsx"
+    ],
+    "pricing.features.messaging.visitorLocationTracking": [
+      "pages/Pricing.tsx"
+    ],
+    "pricing.features.messaging.chatFolders": [
+      "pages/Pricing.tsx"
+    ],
+    "pricing.features.messaging.chatTags": [
+      "pages/Pricing.tsx"
+    ],
+    "pricing.features.customization.pinBoard": [
+      "pages/Pricing.tsx"
+    ],
+    "pricing.features.customization.customChatroomLinks": [
+      "pages/Pricing.tsx"
+    ],
+    "pricing.features.customization.customAppearance": [
+      "pages/Pricing.tsx"
+    ],
+    "pricing.features.customization.websiteWidget": [
+      "pages/Pricing.tsx"
+    ],
+    "pricing.features.customization.surveyForms": [
+      "pages/Pricing.tsx"
+    ],
+    "pricing.features.customization.faqPinBot": [
+      "pages/Pricing.tsx"
+    ],
+    "pricing.features.customization.subAccountManagement": [
+      "pages/Pricing.tsx"
+    ],
+    "pricing.features.customization.visitorEmailNotifications": [
+      "pages/Pricing.tsx"
+    ],
+    "pricing.features.customization.customerList": [
+      "pages/Pricing.tsx"
+    ],
+    "pricing.features.customization.customerListExport": [
+      "pages/Pricing.tsx"
+    ],
+    "pricing.features.omnichat.lineIntegration": [
+      "pages/Pricing.tsx"
+    ],
+    "pricing.features.omnichat.whatsappBusiness": [
+      "pages/Pricing.tsx"
+    ],
+    "pricing.features.omnichat.messengerIntegration": [
+      "pages/Pricing.tsx"
+    ],
+    "pricing.features.omnichat.instagramIntegration": [
+      "pages/Pricing.tsx"
+    ],
+    "pricing.features.omnichat.slackIntegration": [
+      "pages/Pricing.tsx"
+    ],
+    "pricing.features.support.webDashboard": [
+      "pages/Pricing.tsx"
+    ],
+    "pricing.features.support.iosAndroidApp": [
+      "pages/Pricing.tsx"
+    ],
+    "pricing.features.support.dataExport": [
+      "pages/Pricing.tsx"
+    ],
+    "pricing.features.advanced.customDomain": [
+      "pages/Pricing.tsx"
+    ],
+    "pricing.features.advanced.customMetaTags": [
+      "pages/Pricing.tsx"
+    ],
+    "pricing.features.advanced.removeBranding": [
+      "pages/Pricing.tsx"
+    ],
+    "pricing.hero.title": [
+      "pages/Pricing.tsx"
+    ],
+    "pricing.hero.subtitle": [
+      "pages/Pricing.tsx"
+    ],
+    "pricing.hero.getStarted": [
+      "pages/Pricing.tsx"
+    ],
+    "pricing.popular": [
+      "pages/Pricing.tsx"
+    ],
+    "pricing.features.customPlan.title": [
+      "pages/Pricing.tsx"
+    ],
+    "pricing.features.customPlan.description": [
+      "pages/Pricing.tsx"
+    ],
+    "pricing.features.customPlan.contactUs": [
+      "pages/Pricing.tsx"
+    ],
+    "pricing.features.comparison.title": [
+      "pages/Pricing.tsx"
+    ],
+    "pricing.features.comparison.subtitle": [
+      "pages/Pricing.tsx"
+    ],
+    "pricing.features.comparison.plans": [
+      "pages/Pricing.tsx"
+    ],
+    "pricing.features.sections.usageLimits": [
+      "pages/Pricing.tsx"
+    ],
+    "pricing.features.sections.messagingFeatures": [
+      "pages/Pricing.tsx"
+    ],
+    "pricing.features.sections.customizationTools": [
+      "pages/Pricing.tsx"
+    ],
+    "pricing.features.sections.multichannelIntegration": [
+      "pages/Pricing.tsx"
+    ],
+    "pricing.features.sections.advancedFeatures": [
+      "pages/Pricing.tsx"
+    ],
+    "pricing.features.notes.byok": [
+      "pages/Pricing.tsx"
+    ],
+    "pricing.features.notes.msgsMo": [
+      "pages/Pricing.tsx"
+    ],
+    "pricing.features.faq.title": [
+      "pages/Pricing.tsx"
+    ],
+    "pricing.features.faq.subtitle": [
+      "pages/Pricing.tsx"
+    ],
+    "pricing.features.faq.q1": [
+      "pages/Pricing.tsx"
+    ],
+    "pricing.features.faq.a1": [
+      "pages/Pricing.tsx"
+    ],
+    "pricing.features.faq.q2": [
+      "pages/Pricing.tsx"
+    ],
+    "pricing.features.faq.a2": [
+      "pages/Pricing.tsx"
+    ],
+    "pricing.features.faq.q3": [
+      "pages/Pricing.tsx"
+    ],
+    "pricing.features.faq.a3": [
+      "pages/Pricing.tsx"
+    ],
+    "pricing.features.faq.q4": [
+      "pages/Pricing.tsx"
+    ],
+    "pricing.features.faq.a4": [
+      "pages/Pricing.tsx"
+    ],
+    "pricing.features.faq.q5": [
+      "pages/Pricing.tsx"
+    ],
+    "pricing.features.faq.a5": [
+      "pages/Pricing.tsx"
+    ],
+    "pricing.features.faq.q6": [
+      "pages/Pricing.tsx"
+    ],
+    "pricing.features.faq.a6": [
+      "pages/Pricing.tsx"
+    ],
+    "pricing.features.faq.q7": [
+      "pages/Pricing.tsx"
+    ],
+    "pricing.features.faq.a7": [
+      "pages/Pricing.tsx"
+    ],
+    "pricing.features.faq.q8": [
+      "pages/Pricing.tsx"
+    ],
+    "pricing.features.faq.a8": [
+      "pages/Pricing.tsx"
+    ],
+    "pricing.features.faq.q9": [
+      "pages/Pricing.tsx"
+    ],
+    "pricing.features.faq.a9": [
+      "pages/Pricing.tsx"
+    ],
+    "pricing.features.faq.stillHaveQuestions": [
+      "pages/Pricing.tsx"
+    ],
+    "pricing.features.faq.contactSupport": [
+      "pages/Pricing.tsx"
+    ],
+    "pricing.features.cta.title": [
+      "pages/Pricing.tsx"
+    ],
+    "pricing.features.cta.subtitle": [
+      "pages/Pricing.tsx"
+    ],
+    "pricing.features.cta.getStartedFree": [
+      "pages/Pricing.tsx"
+    ],
+    "pricing.features.cta.talkToSales": [
+      "pages/Pricing.tsx"
+    ],
+    "pricing.features.cta.freeTrial": [
+      "pages/Pricing.tsx"
+    ],
+    "pricing.features.cta.noSetupFees": [
+      "pages/Pricing.tsx"
+    ],
+    "pricing.features.cta.cancelAnytime": [
+      "pages/Pricing.tsx"
+    ],
+    "features.chatPage.hero.title": [
+      "pages/features/Chat.tsx"
+    ],
+    "features.chatPage.hero.subtitle": [
+      "pages/features/Chat.tsx"
+    ],
+    "features.chatPage.hero.cta": [
+      "pages/features/Chat.tsx"
+    ],
+    "features.chatPage.hero.imageAlt": [
+      "pages/features/Chat.tsx"
+    ],
+    "features.chatPage.benefits.oneOnOne.title": [
+      "pages/features/Chat.tsx"
+    ],
+    "features.chatPage.benefits.oneOnOne.description": [
+      "pages/features/Chat.tsx"
+    ],
+    "features.chatPage.benefits.groupChat.title": [
+      "pages/features/Chat.tsx"
+    ],
+    "features.chatPage.benefits.groupChat.description": [
+      "pages/features/Chat.tsx"
+    ],
+    "features.chatPage.benefits.richMessages.title": [
+      "pages/features/Chat.tsx"
+    ],
+    "features.chatPage.benefits.richMessages.description": [
+      "pages/features/Chat.tsx"
+    ],
+    "features.chatPage.benefits.messageActions.title": [
+      "pages/features/Chat.tsx"
+    ],
+    "features.chatPage.benefits.messageActions.description": [
+      "pages/features/Chat.tsx"
+    ],
+    "features.chatPage.inAction.title": [
+      "pages/features/Chat.tsx"
+    ],
+    "features.chatPage.inAction.oneOnOne.title": [
+      "pages/features/Chat.tsx"
+    ],
+    "features.chatPage.inAction.oneOnOne.description": [
+      "pages/features/Chat.tsx"
+    ],
+    "features.chatPage.inAction.oneOnOne.imageAlt": [
+      "pages/features/Chat.tsx"
+    ],
+    "features.chatPage.inAction.groupChat.imageAlt": [
+      "pages/features/Chat.tsx"
+    ],
+    "features.chatPage.inAction.groupChat.title": [
+      "pages/features/Chat.tsx"
+    ],
+    "features.chatPage.inAction.groupChat.description": [
+      "pages/features/Chat.tsx"
+    ],
+    "features.chatPage.inAction.richMessages.title": [
+      "pages/features/Chat.tsx"
+    ],
+    "features.chatPage.inAction.richMessages.description": [
+      "pages/features/Chat.tsx"
+    ],
+    "features.chatPage.inAction.richMessages.textMessages": [
+      "pages/features/Chat.tsx"
+    ],
+    "features.chatPage.inAction.richMessages.freeStickers": [
+      "pages/features/Chat.tsx"
+    ],
+    "features.chatPage.inAction.richMessages.voiceMessages": [
+      "pages/features/Chat.tsx"
+    ],
+    "features.chatPage.inAction.richMessages.filesVideos": [
+      "pages/features/Chat.tsx"
+    ],
+    "features.chatPage.inAction.richMessages.locationLink": [
+      "pages/features/Chat.tsx"
+    ],
+    "features.chatPage.inAction.richMessages.imageAlt": [
+      "pages/features/Chat.tsx"
+    ],
+    "features.chatPage.inAction.messageActions.imageAlt": [
+      "pages/features/Chat.tsx"
+    ],
+    "features.chatPage.inAction.messageActions.title": [
+      "pages/features/Chat.tsx"
+    ],
+    "features.chatPage.inAction.messageActions.description": [
+      "pages/features/Chat.tsx"
+    ],
+    "features.chatPage.inAction.messageActions.react": [
+      "pages/features/Chat.tsx"
+    ],
+    "features.chatPage.inAction.messageActions.reply": [
+      "pages/features/Chat.tsx"
+    ],
+    "features.chatPage.inAction.messageActions.unsend": [
+      "pages/features/Chat.tsx"
+    ],
+    "features.chatPage.inAction.messageActions.copy": [
+      "pages/features/Chat.tsx"
+    ],
+    "features.chatPage.stickers.title": [
+      "pages/features/Chat.tsx"
+    ],
+    "features.chatPage.stickers.description": [
+      "pages/features/Chat.tsx"
+    ],
+    "features.chatPage.stickers.imageAlt": [
+      "pages/features/Chat.tsx"
+    ],
+    "features.chatPage.relatedFeatures.title": [
+      "pages/features/Chat.tsx"
+    ],
+    "features.chatPage.relatedFeatures.chatWidget.title": [
+      "pages/features/Chat.tsx"
+    ],
+    "features.chatPage.relatedFeatures.chatWidget.description": [
+      "pages/features/Chat.tsx"
+    ],
+    "common.learnMore": [
+      "pages/features/Chat.tsx"
+    ],
+    "features.chatPage.relatedFeatures.aiPinbot.title": [
+      "pages/features/Chat.tsx"
+    ],
+    "features.chatPage.relatedFeatures.aiPinbot.description": [
+      "pages/features/Chat.tsx"
+    ],
+    "features.chatPage.relatedFeatures.chatroomManagement.title": [
+      "pages/features/Chat.tsx"
+    ],
+    "features.chatPage.relatedFeatures.chatroomManagement.description": [
+      "pages/features/Chat.tsx"
+    ],
+    "features.chatPage.cta.title": [
+      "pages/features/Chat.tsx"
+    ],
+    "features.chatPage.cta.subtitle": [
+      "pages/features/Chat.tsx"
+    ],
+    "features.chatPage.cta.button": [
+      "pages/features/Chat.tsx"
+    ],
+    "retailEcommerce.hero.breadcrumb": [
+      "pages/industries/ForRetailEcommerce.tsx"
+    ],
+    "retailEcommerce.hero.title": [
+      "pages/industries/ForRetailEcommerce.tsx"
+    ],
+    "retailEcommerce.hero.subtitle": [
+      "pages/industries/ForRetailEcommerce.tsx"
+    ],
+    "retailEcommerce.hero.cta": [
+      "pages/industries/ForRetailEcommerce.tsx"
+    ],
+    "retailEcommerce.whyUse.title": [
+      "pages/industries/ForRetailEcommerce.tsx"
+    ],
+    "retailEcommerce.whyUse.items.engage": [
+      "pages/industries/ForRetailEcommerce.tsx"
+    ],
+    "retailEcommerce.whyUse.items.instantAnswers": [
+      "pages/industries/ForRetailEcommerce.tsx"
+    ],
+    "retailEcommerce.whyUse.items.orderUpdates": [
+      "pages/industries/ForRetailEcommerce.tsx"
+    ],
+    "retailEcommerce.whyUse.items.campaigns": [
+      "pages/industries/ForRetailEcommerce.tsx"
+    ],
+    "retailEcommerce.planEngagement.title": [
+      "pages/industries/ForRetailEcommerce.tsx"
+    ],
+    "retailEcommerce.planEngagement.description": [
+      "pages/industries/ForRetailEcommerce.tsx"
+    ],
+    "retailEcommerce.planEngagement.alignTeam.title": [
+      "pages/industries/ForRetailEcommerce.tsx"
+    ],
+    "retailEcommerce.planEngagement.alignTeam.description": [
+      "pages/industries/ForRetailEcommerce.tsx"
+    ],
+    "retailEcommerce.planEngagement.respondFaster.title": [
+      "pages/industries/ForRetailEcommerce.tsx"
+    ],
+    "retailEcommerce.planEngagement.respondFaster.description": [
+      "pages/industries/ForRetailEcommerce.tsx"
+    ],
+    "retailEcommerce.planEngagement.diveDetails.title": [
+      "pages/industries/ForRetailEcommerce.tsx"
+    ],
+    "retailEcommerce.planEngagement.diveDetails.description": [
+      "pages/industries/ForRetailEcommerce.tsx"
+    ],
+    "retailEcommerce.features.title": [
+      "pages/industries/ForRetailEcommerce.tsx"
+    ],
+    "retailEcommerce.features.productInquiries.title": [
+      "pages/industries/ForRetailEcommerce.tsx"
+    ],
+    "retailEcommerce.features.productInquiries.description": [
+      "pages/industries/ForRetailEcommerce.tsx"
+    ],
+    "retailEcommerce.features.orderTracking.title": [
+      "pages/industries/ForRetailEcommerce.tsx"
+    ],
+    "retailEcommerce.features.orderTracking.description": [
+      "pages/industries/ForRetailEcommerce.tsx"
+    ],
+    "retailEcommerce.features.campaigns.title": [
+      "pages/industries/ForRetailEcommerce.tsx"
+    ],
+    "retailEcommerce.features.campaigns.description": [
+      "pages/industries/ForRetailEcommerce.tsx"
+    ],
+    "retailEcommerce.features.loyalty.title": [
+      "pages/industries/ForRetailEcommerce.tsx"
+    ],
+    "retailEcommerce.features.loyalty.description": [
+      "pages/industries/ForRetailEcommerce.tsx"
+    ],
+    "retailEcommerce.salesAcceleration.title": [
+      "pages/industries/ForRetailEcommerce.tsx"
+    ],
+    "retailEcommerce.salesAcceleration.description": [
+      "pages/industries/ForRetailEcommerce.tsx"
+    ],
+    "retailEcommerce.salesAcceleration.swiftExecution.title": [
+      "pages/industries/ForRetailEcommerce.tsx"
+    ],
+    "retailEcommerce.salesAcceleration.swiftExecution.description": [
+      "pages/industries/ForRetailEcommerce.tsx"
+    ],
+    "retailEcommerce.salesAcceleration.productive.title": [
+      "pages/industries/ForRetailEcommerce.tsx"
+    ],
+    "retailEcommerce.salesAcceleration.productive.description": [
+      "pages/industries/ForRetailEcommerce.tsx"
+    ],
+    "retailEcommerce.salesAcceleration.responseCycles.title": [
+      "pages/industries/ForRetailEcommerce.tsx"
+    ],
+    "retailEcommerce.salesAcceleration.responseCycles.description": [
+      "pages/industries/ForRetailEcommerce.tsx"
+    ],
+    "retailEcommerce.salesAcceleration.returns.title": [
+      "pages/industries/ForRetailEcommerce.tsx"
+    ],
+    "retailEcommerce.salesAcceleration.returns.description": [
+      "pages/industries/ForRetailEcommerce.tsx"
+    ],
+    "retailEcommerce.exploreMore.title": [
+      "pages/industries/ForRetailEcommerce.tsx"
+    ],
+    "retailEcommerce.exploreMore.serviceIndustries.title": [
+      "pages/industries/ForRetailEcommerce.tsx"
+    ],
+    "retailEcommerce.exploreMore.serviceIndustries.description": [
+      "pages/industries/ForRetailEcommerce.tsx"
+    ],
+    "retailEcommerce.exploreMore.education.title": [
+      "pages/industries/ForRetailEcommerce.tsx"
+    ],
+    "retailEcommerce.exploreMore.education.description": [
+      "pages/industries/ForRetailEcommerce.tsx"
+    ],
+    "retailEcommerce.exploreMore.healthcare.title": [
+      "pages/industries/ForRetailEcommerce.tsx"
+    ],
+    "retailEcommerce.exploreMore.healthcare.description": [
+      "pages/industries/ForRetailEcommerce.tsx"
+    ],
+    "retailEcommerce.cta.title": [
+      "pages/industries/ForRetailEcommerce.tsx"
+    ],
+    "retailEcommerce.cta.subtitle": [
+      "pages/industries/ForRetailEcommerce.tsx"
+    ],
+    "retailEcommerce.cta.button": [
+      "pages/industries/ForRetailEcommerce.tsx"
+    ]
+  }
+}

@@ -1,0 +1,537 @@
+{
+  "totalKeys": 455,
+  "usedKeys": 403,
+  "unusedKeys": 52,
+  "unusedKeysList": [
+    {
+      "key": "features.aiBot.title",
+      "value": "AI Bot — Automate replies with intelligence",
+      "type": "string"
+    },
+    {
+      "key": "features.aiBot.subtitle",
+      "value": "Train an AI assistant to answer FAQs, qualify leads, and hand off to human agents seamlessly.",
+      "type": "string"
+    },
+    {
+      "key": "features.aiBot.feature1",
+      "value": "No-code builder to define intents and knowledge base",
+      "type": "string"
+    },
+    {
+      "key": "features.aiBot.feature2",
+      "value": "Human takeover anytime with conversation context",
+      "type": "string"
+    },
+    {
+      "key": "features.aiBot.feature3",
+      "value": "Analytics on resolved conversations and deflection rates",
+      "type": "string"
+    },
+    {
+      "key": "features.chatManagement.title",
+      "value": "Chat Management — One inbox for every channel",
+      "type": "string"
+    },
+    {
+      "key": "features.chatManagement.subtitle",
+      "value": "Assign conversations, set SLAs, use labels and automations, and deliver faster responses.",
+      "type": "string"
+    },
+    {
+      "key": "features.chatManagement.feature1",
+      "value": "Unified inbox with filters and search",
+      "type": "string"
+    },
+    {
+      "key": "features.chatManagement.feature2",
+      "value": "Routing, assignments, and internal notes",
+      "type": "string"
+    },
+    {
+      "key": "features.chatManagement.feature3",
+      "value": "SLA tracking and performance reports",
+      "type": "string"
+    },
+    {
+      "key": "features.forms.title",
+      "value": "Forms — Collect leads and feedback",
+      "type": "string"
+    },
+    {
+      "key": "features.forms.subtitle",
+      "value": "Build conversational forms to qualify leads, run surveys, and capture data right inside chat.",
+      "type": "string"
+    },
+    {
+      "key": "features.forms.feature1",
+      "value": "Templates for lead capture, support intake, and NPS",
+      "type": "string"
+    },
+    {
+      "key": "features.forms.feature2",
+      "value": "Export responses and integrate with your CRM",
+      "type": "string"
+    },
+    {
+      "key": "features.forms.feature3",
+      "value": "Trigger automations based on form answers",
+      "type": "string"
+    },
+    {
+      "key": "features.payments.title",
+      "value": "Payments — Get paid inside chat",
+      "type": "string"
+    },
+    {
+      "key": "features.payments.subtitle",
+      "value": "Send payment requests and checkout links directly in conversations for faster conversion.",
+      "type": "string"
+    },
+    {
+      "key": "features.payments.feature1",
+      "value": "One-time and recurring payments",
+      "type": "string"
+    },
+    {
+      "key": "features.payments.feature2",
+      "value": "Payment status updates and receipts",
+      "type": "string"
+    },
+    {
+      "key": "features.payments.feature3",
+      "value": "Works with your favorite payment providers",
+      "type": "string"
+    },
+    {
+      "key": "features.subAccounts.title",
+      "value": "Sub-accounts — Collaborate with your team",
+      "type": "string"
+    },
+    {
+      "key": "features.subAccounts.subtitle",
+      "value": "Invite teammates, control permissions, and manage roles for secure collaboration.",
+      "type": "string"
+    },
+    {
+      "key": "features.subAccounts.feature1",
+      "value": "Role-based access control",
+      "type": "string"
+    },
+    {
+      "key": "features.subAccounts.feature2",
+      "value": "Conversation assignment and mentions",
+      "type": "string"
+    },
+    {
+      "key": "features.subAccounts.feature3",
+      "value": "Activity logs and audit trails",
+      "type": "string"
+    },
+    {
+      "key": "pricing_section.title",
+      "value": "Simple, transparent pricing",
+      "type": "string"
+    },
+    {
+      "key": "pricing_section.subtitle",
+      "value": "Choose the plan that's right for your business",
+      "type": "string"
+    },
+    {
+      "key": "pricing_section.monthly",
+      "value": "Monthly",
+      "type": "string"
+    },
+    {
+      "key": "pricing_section.yearly",
+      "value": "Yearly",
+      "type": "string"
+    },
+    {
+      "key": "pricing_section.save",
+      "value": "Save 20%",
+      "type": "string"
+    },
+    {
+      "key": "pricing_section.free",
+      "value": "Free",
+      "type": "string"
+    },
+    {
+      "key": "pricing_section.starter",
+      "value": "Starter",
+      "type": "string"
+    },
+    {
+      "key": "pricing_section.pro",
+      "value": "Pro",
+      "type": "string"
+    },
+    {
+      "key": "pricing_section.enterprise",
+      "value": "Enterprise",
+      "type": "string"
+    },
+    {
+      "key": "pricing_section.freePrice",
+      "value": "$0",
+      "type": "string"
+    },
+    {
+      "key": "pricing_section.starterPrice",
+      "value": "$29",
+      "type": "string"
+    },
+    {
+      "key": "pricing_section.proPrice",
+      "value": "$99",
+      "type": "string"
+    },
+    {
+      "key": "pricing_section.enterprisePrice",
+      "value": "Custom",
+      "type": "string"
+    },
+    {
+      "key": "pricing_section.perMonth",
+      "value": "/month",
+      "type": "string"
+    },
+    {
+      "key": "pricing_section.getStarted",
+      "value": "Get Started",
+      "type": "string"
+    },
+    {
+      "key": "pricing_section.contactSales",
+      "value": "Contact Sales",
+      "type": "string"
+    },
+    {
+      "key": "pricing_section.currentPlan",
+      "value": "Current Plan",
+      "type": "string"
+    },
+    {
+      "key": "pricing_section.freeTrial",
+      "value": "7-day free trial",
+      "type": "string"
+    },
+    {
+      "key": "pricing_section.noSetupFee",
+      "value": "No setup fee",
+      "type": "string"
+    },
+    {
+      "key": "pricing_section.cancelAnytime",
+      "value": "Cancel anytime",
+      "type": "string"
+    },
+    {
+      "key": "common.getStarted",
+      "value": "Get Started",
+      "type": "string"
+    },
+    {
+      "key": "common.tryFree",
+      "value": "Try Free",
+      "type": "string"
+    },
+    {
+      "key": "common.contactUs",
+      "value": "Contact Us",
+      "type": "string"
+    },
+    {
+      "key": "common.comingSoon",
+      "value": "Coming Soon",
+      "type": "string"
+    },
+    {
+      "key": "common.backToHome",
+      "value": "Back to Home",
+      "type": "string"
+    },
+    {
+      "key": "common.startFreeToday",
+      "value": "Start Free Today",
+      "type": "string"
+    },
+    {
+      "key": "contact.form.required",
+      "value": "Required",
+      "type": "string"
+    }
+  ],
+  "groupedBySection": {
+    "features": [
+      {
+        "key": "features.aiBot.title",
+        "value": "AI Bot — Automate replies with intelligence",
+        "type": "string"
+      },
+      {
+        "key": "features.aiBot.subtitle",
+        "value": "Train an AI assistant to answer FAQs, qualify leads, and hand off to human agents seamlessly.",
+        "type": "string"
+      },
+      {
+        "key": "features.aiBot.feature1",
+        "value": "No-code builder to define intents and knowledge base",
+        "type": "string"
+      },
+      {
+        "key": "features.aiBot.feature2",
+        "value": "Human takeover anytime with conversation context",
+        "type": "string"
+      },
+      {
+        "key": "features.aiBot.feature3",
+        "value": "Analytics on resolved conversations and deflection rates",
+        "type": "string"
+      },
+      {
+        "key": "features.chatManagement.title",
+        "value": "Chat Management — One inbox for every channel",
+        "type": "string"
+      },
+      {
+        "key": "features.chatManagement.subtitle",
+        "value": "Assign conversations, set SLAs, use labels and automations, and deliver faster responses.",
+        "type": "string"
+      },
+      {
+        "key": "features.chatManagement.feature1",
+        "value": "Unified inbox with filters and search",
+        "type": "string"
+      },
+      {
+        "key": "features.chatManagement.feature2",
+        "value": "Routing, assignments, and internal notes",
+        "type": "string"
+      },
+      {
+        "key": "features.chatManagement.feature3",
+        "value": "SLA tracking and performance reports",
+        "type": "string"
+      },
+      {
+        "key": "features.forms.title",
+        "value": "Forms — Collect leads and feedback",
+        "type": "string"
+      },
+      {
+        "key": "features.forms.subtitle",
+        "value": "Build conversational forms to qualify leads, run surveys, and capture data right inside chat.",
+        "type": "string"
+      },
+      {
+        "key": "features.forms.feature1",
+        "value": "Templates for lead capture, support intake, and NPS",
+        "type": "string"
+      },
+      {
+        "key": "features.forms.feature2",
+        "value": "Export responses and integrate with your CRM",
+        "type": "string"
+      },
+      {
+        "key": "features.forms.feature3",
+        "value": "Trigger automations based on form answers",
+        "type": "string"
+      },
+      {
+        "key": "features.payments.title",
+        "value": "Payments — Get paid inside chat",
+        "type": "string"
+      },
+      {
+        "key": "features.payments.subtitle",
+        "value": "Send payment requests and checkout links directly in conversations for faster conversion.",
+        "type": "string"
+      },
+      {
+        "key": "features.payments.feature1",
+        "value": "One-time and recurring payments",
+        "type": "string"
+      },
+      {
+        "key": "features.payments.feature2",
+        "value": "Payment status updates and receipts",
+        "type": "string"
+      },
+      {
+        "key": "features.payments.feature3",
+        "value": "Works with your favorite payment providers",
+        "type": "string"
+      },
+      {
+        "key": "features.subAccounts.title",
+        "value": "Sub-accounts — Collaborate with your team",
+        "type": "string"
+      },
+      {
+        "key": "features.subAccounts.subtitle",
+        "value": "Invite teammates, control permissions, and manage roles for secure collaboration.",
+        "type": "string"
+      },
+      {
+        "key": "features.subAccounts.feature1",
+        "value": "Role-based access control",
+        "type": "string"
+      },
+      {
+        "key": "features.subAccounts.feature2",
+        "value": "Conversation assignment and mentions",
+        "type": "string"
+      },
+      {
+        "key": "features.subAccounts.feature3",
+        "value": "Activity logs and audit trails",
+        "type": "string"
+      }
+    ],
+    "pricing_section": [
+      {
+        "key": "pricing_section.title",
+        "value": "Simple, transparent pricing",
+        "type": "string"
+      },
+      {
+        "key": "pricing_section.subtitle",
+        "value": "Choose the plan that's right for your business",
+        "type": "string"
+      },
+      {
+        "key": "pricing_section.monthly",
+        "value": "Monthly",
+        "type": "string"
+      },
+      {
+        "key": "pricing_section.yearly",
+        "value": "Yearly",
+        "type": "string"
+      },
+      {
+        "key": "pricing_section.save",
+        "value": "Save 20%",
+        "type": "string"
+      },
+      {
+        "key": "pricing_section.free",
+        "value": "Free",
+        "type": "string"
+      },
+      {
+        "key": "pricing_section.starter",
+        "value": "Starter",
+        "type": "string"
+      },
+      {
+        "key": "pricing_section.pro",
+        "value": "Pro",
+        "type": "string"
+      },
+      {
+        "key": "pricing_section.enterprise",
+        "value": "Enterprise",
+        "type": "string"
+      },
+      {
+        "key": "pricing_section.freePrice",
+        "value": "$0",
+        "type": "string"
+      },
+      {
+        "key": "pricing_section.starterPrice",
+        "value": "$29",
+        "type": "string"
+      },
+      {
+        "key": "pricing_section.proPrice",
+        "value": "$99",
+        "type": "string"
+      },
+      {
+        "key": "pricing_section.enterprisePrice",
+        "value": "Custom",
+        "type": "string"
+      },
+      {
+        "key": "pricing_section.perMonth",
+        "value": "/month",
+        "type": "string"
+      },
+      {
+        "key": "pricing_section.getStarted",
+        "value": "Get Started",
+        "type": "string"
+      },
+      {
+        "key": "pricing_section.contactSales",
+        "value": "Contact Sales",
+        "type": "string"
+      },
+      {
+        "key": "pricing_section.currentPlan",
+        "value": "Current Plan",
+        "type": "string"
+      },
+      {
+        "key": "pricing_section.freeTrial",
+        "value": "7-day free trial",
+        "type": "string"
+      },
+      {
+        "key": "pricing_section.noSetupFee",
+        "value": "No setup fee",
+        "type": "string"
+      },
+      {
+        "key": "pricing_section.cancelAnytime",
+        "value": "Cancel anytime",
+        "type": "string"
+      }
+    ],
+    "common": [
+      {
+        "key": "common.getStarted",
+        "value": "Get Started",
+        "type": "string"
+      },
+      {
+        "key": "common.tryFree",
+        "value": "Try Free",
+        "type": "string"
+      },
+      {
+        "key": "common.contactUs",
+        "value": "Contact Us",
+        "type": "string"
+      },
+      {
+        "key": "common.comingSoon",
+        "value": "Coming Soon",
+        "type": "string"
+      },
+      {
+        "key": "common.backToHome",
+        "value": "Back to Home",
+        "type": "string"
+      },
+      {
+        "key": "common.startFreeToday",
+        "value": "Start Free Today",
+        "type": "string"
+      }
+    ],
+    "contact": [
+      {
+        "key": "contact.form.required",
+        "value": "Required",
+        "type": "string"
+      }
+    ]
+  }
+}

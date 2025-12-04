@@ -1,0 +1,433 @@
+{
+  "nav": {
+    "features": "功能",
+    "solutions": "解决方案",
+    "pricing": "价格方案",
+    "login": "登录",
+    "startFree": "免费开始",
+    "businessType": "业务类型",
+    "useCase": "使用案例"
+  },
+  "features": {
+    "chat": "聊天",
+    "pinboard": "钉板",
+    "aiPinbot": "AI 钉机器人",
+    "faqPinbot": "常见问题机器人",
+    "chatWidget": "聊天小部件",
+    "analytics": "分析",
+    "branding": "品牌与定制",
+    "chatroomManagement": "聊天室管理",
+    "subAccount": "子账号"
+  },
+  "industries": {
+    "ecommerce": "电子商务",
+    "retail": "零售",
+    "healthcare": "医疗保健",
+    "education": "教育",
+    "realEstate": "房地产",
+    "events": "活动",
+    "professionalServices": "专业服务",
+    "serviceIndustries": "服务业",
+    "b2bCommercial": "B2B 商业"
+  },
+  "solutions": {
+    "aiCustomerService": "AI 客户服务机器人",
+    "chatroomTeamManagement": "聊天室团队管理",
+    "customerFeedbackAnalytics": "客户反馈分析",
+    "leadCaptureSurveys": "潜在客户调查",
+    "multichannelMessaging": "多渠道消息中心"
+  },
+  "hero": {
+    "title": "打造品牌专属的 AI 实时客服",
+    "subtitle": "通过智能对话与客户连接，简化团队沟通，并通过我们的一站式消息解决方案发展您的业务。",
+    "startFree": "免费开始",
+    "watchDemo": "了解运作方式"
+  },
+  "features_section": {
+    "title": "与客户连接所需的一切",
+    "subtitle": "强大的功能设计，帮助您更好地沟通并更快成长",
+    "items": {
+      "quickConnectLinks": "快速链接",
+      "quickConnectDesc": "通过简单的 PinChat 链接或 QR code，让顾客随时随地联系你——并在单一平台管理来自 LINE、Messenger 或 WhatsApp 的对话。",
+      "aiChatbot": "AI 聊天机器人",
+      "aiChatbotDesc": "24/7 自动回复常见问题，并可在需要时顺畅地转交给真人客服。",
+      "unifiedInbox": "统一收件箱",
+      "unifiedInboxDesc": "在一个整合的收件箱中查看并回复所有来自多个渠道的顾客消息。",
+      "noCodeSetup": "无代码设置",
+      "noCodeSetupDesc": "数分钟内即可开始使用，操作简单——无需技术技能。",
+      "customizationBranding": "定制与品牌设置",
+      "customizationBrandingDesc": "自定义聊天界面外观和域名设置，提供符合品牌形象的顾客体验。",
+      "clientList": "客户列表",
+      "clientListDesc": "将每个对话转换为客户档案，方便组织、管理和导出以进行后续跟踪。"
+    }
+  },
+  "pricing_section": {
+    "title": "简单、透明的价格",
+    "subtitle": "选择适合您业务的方案",
+    "monthly": "月付",
+    "yearly": "年付",
+    "save": "节省 20%",
+    "free": "免费",
+    "starter": "入门",
+    "pro": "专业",
+    "enterprise": "企业",
+    "freePrice": "$0",
+    "starterPrice": "$29",
+    "proPrice": "$99",
+    "enterprisePrice": "定制",
+    "perMonth": "/月",
+    "getStarted": "开始使用",
+    "contactSales": "联系销售",
+    "currentPlan": "当前方案",
+    "freeTrial": "7天免费试用",
+    "noSetupFee": "无设置费用",
+    "cancelAnytime": "随时取消",
+    "readyToGetStarted": "准备好开始了吗？",
+    "choosePerfectPlan": "选择最适合的方案",
+    "planSubtitle": "从免费到企业版，我们提供符合您业务需求的方案。无设置费用，随时可取消。"
+  },
+  "footer": {
+    "description": "现代企业的即时通讯和 AI 聊天机器人平台。",
+    "legal": "法律",
+    "privacyPolicy": "隐私政策",
+    "termsOfService": "服务条款",
+    "company": "公司",
+    "about": "关于我们",
+    "contact": "联系我们",
+    "language": "语言",
+    "copyright": "© {{year}} PinChat. 版权所有。"
+  },
+  "languages": {
+    "en": "English",
+    "zh-tw": "繁體中文 (Traditional Chinese)",
+    "zh-cn": "简体中文 (Simplified Chinese)",
+    "fr": "Français (French)",
+    "es": "Español (Spanish)",
+    "pt-br": "Português (Brazil)",
+    "vi": "Tiếng Việt (Vietnamese)",
+    "th": "ไทย (Thai)",
+    "de": "Deutsch (German)",
+    "ro": "Română (Romanian)",
+    "ja": "日本語 (Japanese)",
+    "ko": "한국어 (Korean)"
+  },
+  "common": {
+    "learnMore": "了解更多",
+    "getStarted": "开始使用",
+    "tryFree": "免费试用",
+    "contactUs": "联系我们",
+    "comingSoon": "即将推出"
+  },
+  "homepage": {
+    "valueBlock1Title": "一键联系，快速转换",
+    "valueBlock1Desc": "透过 QR code 或短网址，让顾客无论在线上或实体场域都能即时发起对话，不需额外下载或注册，减少等待时间并提升转换率。",
+    "valueBlock2Title": "跨平台讯息整合",
+    "valueBlock2Desc": "将 LINE、IG、Messenger、WhatsApp 的对话集中到 PinChat，不必再切换不同平台。客服团队能在单一介面管理所有讯息，掌握完整对话脉络。",
+    "valueBlock3Title": "AI 客服，轻松建立",
+    "valueBlock3Desc": "只需贴上你的官网连结，就能自动生成 AI PinBot，协助回覆常见问题，并支援真人客服随时接手，快速提升服务效率。",
+    "valueBlock4Title": "对话与顾客资料管理",
+    "valueBlock4Desc": "支援子帐号分工、聊天室分类与标签管理，让团队能更清楚分配任务、追踪对话进度，并集中顾客资料，避免记录零散难找。"
+  },
+  "retailEcommerce": {
+    "hero": {
+      "breadcrumb": "PinChat 零售与电商解决方案",
+      "title": "用 AI 打造更聪明的销售对话",
+      "subtitle": "无论是线上商店或门市柜台，PinChat 让团队能即时与顾客互动、自动回覆常见问题，并透过个人化对话提升销售转换。",
+      "cta": "免费开始使用"
+    },
+    "whyUse": {
+      "title": "为什么零售与电商团队选择 PinChat",
+      "items": {
+        "engage": "在购买前后主动互动，提供个人化对话体验。",
+        "instantAnswers": "以 AI 即时回覆顾客商品问题。",
+        "orderUpdates": "以自动化讯息即时通知订单状态。",
+        "campaigns": "自动化行销活动回覆，轻松追踪成效。"
+      }
+    },
+    "planEngagement": {
+      "title": "客户互动规划",
+      "description": "透过更透明的协作与一致的沟通，让团队能做出更有效的客服决策，无论是商品咨询、订单更新或售后服务。",
+      "alignTeam": {
+        "title": "让团队掌握每一次顾客互动",
+        "description": "让团队能同步处理顾客询问，检视需求，并对齐服务策略。"
+      },
+      "respondFaster": {
+        "title": "持续优化服务品质",
+        "description": "判断哪些问题优先处理，哪些可由 AI 助手处理，透过即时讯息快速回应。"
+      },
+      "diveDetails": {
+        "title": "深入细节",
+        "description": "分享产品规格、订单时程与服务流程，确保所有人都知道如何为顾客提供最佳服务。"
+      }
+    },
+    "features": {
+      "title": "功能特色",
+      "productInquiries": {
+        "title": "产品与商店咨询",
+        "description": "即时回覆商品资讯、库存或门市位置。"
+      },
+      "orderTracking": {
+        "title": "订单追踪与退换货",
+        "description": "自动通知订单状态，让退换货流程更顺畅。"
+      },
+      "campaigns": {
+        "title": "活动与促销",
+        "description": "透过 AI 对话推播优惠与活动，提升参与率。"
+      },
+      "loyalty": {
+        "title": "忠诚度计划",
+        "description": "与回购顾客互动，提供专属优惠与更新。"
+      }
+    },
+    "salesAcceleration": {
+      "title": "别让沟通拖慢销售节奏",
+      "description": "让团队能更快回覆、加速成交、提升顾客回购率。结合 AI 自动化与精简化的对话流程，让每次互动都更高效。",
+      "swiftExecution": {
+        "title": "推动快速执行",
+        "description": "突破阻碍，让团队持续发送快速更新、订单确认等即时讯息，保持进度。"
+      },
+      "productive": {
+        "title": "提升服务效率",
+        "description": "在顾客询问前分享关键资讯，让你能直接切入解决他们的需求。"
+      },
+      "responseCycles": {
+        "title": "加速回应周期",
+        "description": "透过提供即时且符合情境的答案，立即解决顾客疑虑，减少来回沟通。"
+      },
+      "returns": {
+        "title": "高效处理退换货",
+        "description": "记录退换货请求并快速处理退款，让团队能专注于建立顾客关系。"
+      }
+    },
+    "exploreMore": {
+      "title": "探索更多 PinChat 应用方式",
+      "serviceIndustries": {
+        "title": "PinChat 服务业解决方案",
+        "description": "管理服务前后的顾客询问，维持流畅体验。"
+      },
+      "education": {
+        "title": "PinChat 教育解决方案",
+        "description": "整合学生与家长讯息，简化校内外部沟通。"
+      },
+      "healthcare": {
+        "title": "PinChat 医疗解决方案",
+        "description": "协助医疗团队在就诊各阶段保持即时联系。"
+      }
+    },
+    "cta": {
+      "title": "PinChat，让顾客关系更强大。",
+      "subtitle": "立即免费开始，体验 AI 对话如何转变你的顾客服务。",
+      "button": "免费开始使用"
+    }
+  },
+  "cta": {
+    "title": "准备好转变您的顾客沟通方式了吗？",
+    "subtitle": "简化对话流程，用 AI 赋能团队，轻松成长您的业务。",
+    "startFreeTrial": "开始免费试用",
+    "contactSales": "联系销售",
+    "noCardRequired": "无需信用卡 • 7 天免费试用 • 随时取消"
+  },
+  "about": {
+    "hero": {
+      "title": "Empowering Every Conversation",
+      "subtitle": "PinChat was founded with a vision to make business communication simple, meaningful, and accessible for everyone. We believe every conversation has the power to build trust and drive growth.",
+      "startFreeToday": "Start Free Today",
+      "contactUs": "Contact Us"
+    },
+    "mission": {
+      "quote": "We are committed to building the world's most intuitive and efficient communication platform, enabling every conversation to flow seamlessly and create value.",
+      "label": "Our Mission"
+    },
+    "numbers": {
+      "title": "PinChat by the Numbers",
+      "yearFounded": {
+        "value": "2020",
+        "label": "Year Founded",
+        "description": "Started with a vision to simplify business communication"
+      },
+      "countriesServed": {
+        "value": "20+",
+        "label": "Countries Served",
+        "description": "Global reach across multiple continents and time zones"
+      },
+      "monthlyConversations": {
+        "value": "3000+",
+        "label": "Monthly Conversations",
+        "description": "Average conversations facilitated through our platform"
+      }
+    },
+    "journey": {
+      "title": "Our Journey",
+      "subtitle": "From inception to becoming a trusted communication platform",
+      "origins": {
+        "title": "PinChat Origins",
+        "description": "PinChat was born from a simple observation: conversations between businesses and customers were often fragmented and difficult to manage. Our initial idea started as lightweight chatrooms shared via short links or QR codes—making it effortless for merchants and consumers to connect without technical barriers."
+      },
+      "milestones": {
+        "2019": {
+          "title": "2019 – Version 1",
+          "description": "Completed the first backend version, laying the foundation for PinChat."
+        },
+        "2020": {
+          "title": "2020 – First Customers",
+          "description": "Continued iterations and improvements, welcoming our very first customers."
+        },
+        "2022": {
+          "title": "2022 – Expansion & Recognition",
+          "description": "Launched third-party integrations and payment features. Officially listed on AppSumo, gaining international exposure."
+        },
+        "2025": {
+          "title": "2025 – AI PinBot",
+          "description": "Released AI PinBot, introducing advanced conversational intelligence to empower businesses with smarter customer support."
+        },
+        "title": "PinChat Milestones"
+      }
+    },
+    "values": {
+      "title": "Our Values",
+      "subtitle": "The principles that guide everything we do",
+      "simplicity": {
+        "title": "Simplicity",
+        "description": "We believe powerful tools should be easy to use. No complexity, just results."
+      },
+      "innovation": {
+        "title": "Innovation",
+        "description": "Constantly evolving our platform to meet the changing needs of modern businesses."
+      },
+      "trust": {
+        "title": "Trust",
+        "description": "Security and reliability are at the core of everything we build and deliver."
+      },
+      "globalReach": {
+        "title": "Global Reach",
+        "description": "Connecting businesses and customers worldwide, transcending geographical boundaries."
+      }
+    },
+    "team": {
+      "title": "Our Team Culture",
+      "subtitle": "We're a diverse team of passionate individuals united by a common goal: making business communication effortless and effective.",
+      "collaborative": {
+        "title": "Collaborative",
+        "description": "We work together across time zones and cultures to build something amazing."
+      },
+      "customerFocused": {
+        "title": "Customer-Focused",
+        "description": "Every decision we make starts with understanding our customers' needs."
+      },
+      "resultsDriven": {
+        "title": "Results-Driven",
+        "description": "We measure success by the impact we create for businesses and their customers."
+      }
+    },
+    "cta": {
+      "title": "Join us in transforming customer communication",
+      "subtitle": "Ready to experience the power of unified messaging? Start your free trial today and see how PinChat can transform your customer relationships.",
+      "startFree": "Start Free",
+      "contactUs": "Contact Us"
+    }
+  },
+  "contact": {
+    "success": {
+      "title": "Thank you for contacting us!",
+      "description": "Our team will get back to you within 48 working hours.",
+      "checkSpam": "If you haven't received our reply, please check if it is in your spam folder.",
+      "backToHome": "Back to Home"
+    },
+    "hero": {
+      "badge": "Get in touch with our team",
+      "title": "Contact us anytime",
+      "subtitle": "We're here to help you discover how PinChat can transform your customer communication. Whether you want to learn more about our features, schedule a personalized demo, or find the perfect solution for your business needs, our team is ready to assist you.",
+      "reasons": {
+        "learnMore": "Learn more about our product",
+        "scheduleMeeting": "Schedule a meeting with us",
+        "findSolution": "Find the right solution for you",
+        "productQuestions": "Product-related questions",
+        "partnerships": "Partnership opportunities",
+        "support": "General support inquiries"
+      },
+      "responseTime": {
+        "title": "Response Time Commitment",
+        "description": "We will reply within 48 working hours. If you haven't received our reply, please check your spam folder."
+      }
+    },
+    "form": {
+      "title": "Let's start the conversation",
+      "subtitle": "Fill out the form below and we'll get back to you soon.",
+      "requestType": "What is your request about?",
+      "requestTypeOptions": {
+        "learnMore": "Learn more about our product",
+        "scheduleMeeting": "Schedule a meeting with us",
+        "findSolution": "Find the right solution that suits your needs",
+        "partnerships": "Offer partnerships",
+        "productQuestions": "Other product-related questions"
+      },
+      "email": "Email",
+      "company": "Company",
+      "jobTitle": "Job Title",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "country": "Country",
+      "howDidYouFindUs": "How did you find us?",
+      "message": "Message",
+      "submit": "Submit",
+      "pleaseSelect": "Please select",
+      "required": "Required",
+      "validEmail": "Please enter a valid email address",
+      "maxChars": "must be {{max}} characters or less",
+      "minChars": "Please provide more details (minimum {{min}} characters)",
+      "emailRequired": "Email is required",
+      "companyRequired": "Company name is required",
+      "jobTitleRequired": "Job title is required",
+      "firstNameRequired": "First name is required",
+      "lastNameRequired": "Last name is required",
+      "countryRequired": "Please select your country",
+      "howDidYouFindUsRequired": "Please select how you found us",
+      "howDidYouFindUsOptions": {
+        "searchEngine": "Search Engine",
+        "socialMedia": "Social Media",
+        "onlineAds": "Online Ads",
+        "events": "Virtual or In-person Events",
+        "wordOfMouth": "Word of Mouth",
+        "other": "Other"
+      },
+      "messagePlaceholder": "Please describe your needs, questions, or how we can help you...",
+      "submitting": "Submitting..."
+    }
+  },
+  "pricing": {
+    "hero": {
+      "title": "Simple, transparent pricing",
+      "subtitle": "Start for free, upgrade as your business grows.",
+      "getStarted": "Get Started Free"
+    },
+    "popular": "Popular",
+    "plans": {
+      "free": {
+        "name": "Free",
+        "description": "Start with feature-rich chat. Popular with individuals or small teams"
+      },
+      "starter": {
+        "name": "Starter",
+        "description": "Suitable for small businesses. Attract and convert your potential prospects to customers"
+      },
+      "light": {
+        "name": "Light",
+        "description": "Best fit for SMBs. Manage all the conversations efficiently in one platform"
+      },
+      "standard": {
+        "name": "Standard",
+        "description": "Recommended for larger businesses. Supercharge your growing business"
+      },
+      "cta": {
+        "startNow": "Start now",
+        "freeTrial": "7-day Free Trial"
+      }
+    }
+  },
+  "notFound": {
+    "message": "哎呀！找不到页面"
+  }
+}
+
+
+

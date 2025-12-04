@@ -1,0 +1,705 @@
+{
+  "nav": {
+    "features": "Features",
+    "solutions": "Solutions",
+    "pricing": "Pricing",
+    "login": "Log in",
+    "startFree": "Start Free",
+    "businessType": "Business Type",
+    "useCase": "Use Case"
+  },
+  "features": {
+    "pinboard": "PinBoard",
+    "aiPinbot": "AI PinBot",
+    "faqPinbot": "FAQ PinBot",
+    "chatWidget": "Chat Widget",
+    "analytics": "Analytics",
+    "branding": "Branding & Customization",
+    "chatroomManagement": "Chatroom Management",
+    "subAccount": "Sub-account",
+    "chat": "Chat",
+    "chatPage": {
+      "hero": {
+        "title": "Start Conversations Instantly, One-to-One or in Groups",
+        "subtitle": "Open direct or group chats through PinChat links, keeping every interaction simple and seamless.",
+        "cta": "Start for free",
+        "imageAlt": "One-on-one chat conversation interface"
+      },
+      "benefits": {
+        "oneOnOne": {
+          "title": "1-to-1 Chat",
+          "description": "Each unique click creates a new chatroom for direct conversation"
+        },
+        "groupChat": {
+          "title": "Group Chat",
+          "description": "Multiple users can join the same chatroom and see message history"
+        },
+        "richMessages": {
+          "title": "Rich Messages",
+          "description": "Text, images, videos, files, location, stickers and more"
+        },
+        "messageActions": {
+          "title": "Message Actions",
+          "description": "Reply, react, unsend, copy messages with advanced features"
+        }
+      },
+      "inAction": {
+        "title": "Chat Features in Action",
+        "oneOnOne": {
+          "title": "1-to-1 Chat",
+          "description": "A new chatroom will be created with each unique click on the PinChat link, and the unique user can start a 1-to-1 chat with the link owner. This is best used in scenarios such as business inquiries and customer services.",
+          "imageAlt": "1-to-1 chat interface"
+        },
+        "groupChat": {
+          "title": "Group Chat",
+          "description": "With each unique click on the PinChat link, all users will enter the same chatroom, and start a group chat with the link owner. Also, those who entered the chatroom later will be able to see messages sent earlier.",
+          "imageAlt": "Group chat interface with multiple conversations"
+        },
+        "richMessages": {
+          "title": "Send All Kinds of Messages",
+          "description": "With PinChat, you can send text messages, voice messages, pictures, videos, files, location, etc., all kinds of messages.",
+          "textMessages": "Text messages",
+          "freeStickers": "40 free stickers",
+          "voiceMessages": "Voice messages",
+          "filesVideos": "Files and videos",
+          "locationLink": "Location sharing and link previews",
+          "imageAlt": "Chat interface with rich media sharing capabilities"
+        },
+        "messageActions": {
+          "title": "Multiple Message Actions",
+          "description": "Perform different actions to a message after it has been sent.",
+          "react": "React to messages",
+          "reply": "Reply to specific messages",
+          "unsend": "Unsend messages after sending",
+          "copy": "Copy text messages",
+          "imageAlt": "Message actions and translation features"
+        }
+      },
+      "stickers": {
+        "title": "Express Yourself with Stickers",
+        "description": "We provide up to 40 free original stickers to make your chat more lively.",
+        "imageAlt": "Collection of 40 free original stickers for chat"
+      },
+      "relatedFeatures": {
+        "title": "Related Features",
+        "chatWidget": {
+          "title": "Chat Widget",
+          "description": "Embed chat directly into your website"
+        },
+        "aiPinbot": {
+          "title": "AI PinBot",
+          "description": "Automate conversations with AI assistance"
+        },
+        "aiPinbotPage": {
+          "hero": {
+            "title": "Smarter conversations, less workload",
+            "subtitle": "Deliver AI-powered chats that respond instantly, hand off to humans when needed, and adapt to your brand across channels.",
+            "cta": "Try AI PinBot",
+            "ctaSecondary": "Get Started for Free",
+            "imageAlt": "AI chatbot with human handover collaboration"
+          },
+          "sectionTitle": "Key Features",
+          "sectionSubtitle": "From automated responses to human handoff, AI PinBot provides complete conversational support for your team",
+          "features": {
+            "smartFAQ": {
+              "title": "Smart FAQ Automation",
+              "description": "Let AI automatically understand customer questions and provide accurate answers instantly. No manual intervention needed — boost response efficiency and let your team focus on what matters most.",
+              "benefits": {
+                "autoReply": "Instantly detect and answer repeated questions",
+                "consistent": "Maintain consistent, brand-aligned replies",
+                "quality": "AI response quality is continuously maintained and improved by the platform"
+              },
+              "imageAlt": "AI smart response illustration"
+            },
+            "humanHandoff": {
+              "title": "Seamless Human Handoff",
+              "description": "When conversations require human touch, agents can take over instantly with full context preserved. The transition from AI to human is smooth and natural — no interruption to customer experience.",
+              "benefits": {
+                "agentJoin": "Agents can join chats anytime",
+                "noRepeat": "Customers never repeat themselves",
+                "smooth": "Smooth transition between AI and human agents"
+              },
+              "imageAlt": "Human handoff illustration"
+            },
+            "multilingual": {
+              "title": "Multilingual Support",
+              "description": "Support automatic language detection and responses in multiple languages, helping brands serve global customers effortlessly. No matter what language customers use, they receive instant and accurate support.",
+              "benefits": {
+                "autoDetect": "Auto-detect customer languages",
+                "multiLang": "Support multilingual chats and translations",
+                "global": "Expand your global service reach effortlessly"
+              },
+              "imageAlt": "Multilingual support illustration"
+            },
+            "noCode": {
+              "title": "No-Code Setup",
+              "description": "No coding or technical background required. Simply paste your website or FAQ link — AI PinBot learns quickly and starts serving right away. Complete setup in minutes and go live instantly.",
+              "benefits": {
+                "quickSetup": "Set up in minutes, no coding required",
+                "easyConnect": "Connect your website or FAQ link to start",
+                "update": "Easily update content anytime from your dashboard"
+              },
+              "imageAlt": "No-code setup illustration"
+            }
+          },
+          "integrations": {
+            "title": "Works Wherever You Chat",
+            "subtitle": "AI PinBot works across LINE, Messenger, Instagram, WhatsApp, and your PinChat web chat — all conversations unified in one place."
+          },
+          "useCases": {
+            "title": "Perfect for Every Support Scenario",
+            "websiteChat": {
+              "title": "Website Live Chat Automation",
+              "description": "Respond instantly to website visitors and boost conversion rates."
+            },
+            "supportFlow": {
+              "title": "Smart Customer Support Flow",
+              "description": "Combine automated replies with human expertise for a seamless customer experience."
+            },
+            "postPurchase": {
+              "title": "Post-Purchase Assistance",
+              "description": "Help customers track orders and solve issues to boost satisfaction."
+            }
+          },
+          "cta": {
+            "title": "Empower Your Support Team with AI",
+            "subtitle": "Start using AI PinBot today and deliver faster, smarter, and more human customer experiences.",
+            "button": "Try for Free"
+          }
+        },
+        "chatroomManagement": {
+          "title": "Chatroom Management",
+          "description": "Organize and manage all conversations"
+        }
+      },
+      "cta": {
+        "title": "Build Your Live Chat Now",
+        "subtitle": "Start connecting with your customers instantly today.",
+        "button": "Get Started"
+      }
+    }
+  },
+  "industries": {
+    "ecommerce": "E-commerce",
+    "retail": "Retail",
+    "healthcare": "Healthcare",
+    "education": "Education",
+    "realEstate": "Real Estate",
+    "events": "Events",
+    "professionalServices": "Professional Services",
+    "serviceIndustries": "Service Industries",
+    "b2bCommercial": "B2B Commercial"
+  },
+  "solutions": {
+    "aiCustomerService": "AI Customer Service Bot",
+    "chatroomTeamManagement": "Chatroom Team Management",
+    "customerFeedbackAnalytics": "Customer Feedback Analytics",
+    "leadCaptureSurveys": "Lead Capture Surveys",
+    "multichannelMessaging": "Multichannel Messaging Hub"
+  },
+  "hero": {
+    "title": "AI-Powered Live Chat, Tailored for Your Brand",
+    "subtitle": "Connect with customers through intelligent conversations, streamline team communication, and grow your business with our all-in-one messaging solution.",
+    "startFree": "Start Free",
+    "watchDemo": "See How It Works"
+  },
+  "features_section": {
+    "title": "Everything you need to connect with customers",
+    "subtitle": "Powerful features designed to help you communicate better and grow faster",
+    "items": {
+      "quickConnectLinks": "Quick Connect Links",
+      "quickConnectDesc": "Let customers reach you anywhere with a simple PinChat link or QR code — and manage chats from LINE, Messenger, or WhatsApp all in one place.",
+      "aiChatbot": "AI Chatbot",
+      "aiChatbotDesc": "Automate replies to common questions 24/7, with smooth handoff to human agents whenever needed.",
+      "unifiedInbox": "Unified Inbox",
+      "unifiedInboxDesc": "View and reply to all customer messages across multiple channels in one organized inbox.",
+      "noCodeSetup": "No-Code Setup",
+      "noCodeSetupDesc": "Get started in minutes with an easy-to-use platform — no technical skills required.",
+      "customizationBranding": "Customization & Branding",
+      "customizationBrandingDesc": "Customize your chat appearance and domain settings to deliver a branded customer experience.",
+      "clientList": "Client List",
+      "clientListDesc": "Turn every chat into a customer profile you can organize, manage, and export for follow-up."
+    }
+  },
+  "footer": {
+    "description": "Instant messaging and AI chatbot platform for modern businesses.",
+    "legal": "Legal",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "company": "Company",
+    "about": "About",
+    "contact": "Contact",
+    "language": "Language",
+    "copyright": "© {{year}} PinChat. All rights reserved."
+  },
+  "languages": {
+    "en": "English",
+    "zh-tw": "繁體中文 (Traditional Chinese)",
+    "zh-cn": "简体中文 (Simplified Chinese)",
+    "fr": "Français (French)",
+    "es": "Español (Spanish)",
+    "pt-br": "Português (Brazil)",
+    "vi": "Tiếng Việt (Vietnamese)",
+    "th": "ไทย (Thai)",
+    "de": "Deutsch (German)",
+    "ro": "Română (Romanian)",
+    "ja": "日本語 (Japanese)",
+    "ko": "한국어 (Korean)"
+  },
+  "common": {
+    "learnMore": "Learn More",
+    "previous": "Previous",
+    "next": "Next",
+    "previousPage": "Go to previous page",
+    "nextPage": "Go to next page",
+    "morePages": "More pages",
+    "more": "More",
+    "close": "Close",
+    "previousSlide": "Previous slide",
+    "quickSearch": "Quick Search",
+    "quickSearchDescription": "Quick search and filter for specific conversations",
+    "faqBotMobileAlt": "FAQ bot mobile interface with automated responses",
+    "queryDataAndSearchRecords": "Query data and search records"
+  },
+  "homepage": {
+    "valueBlock1Title": "One-Click Connection, Faster Conversion",
+    "valueBlock1Desc": "With a simple QR code or short link, customers can instantly start a conversation without extra downloads or sign-ups—reducing wait times and boosting conversions.",
+    "valueBlock2Title": "Cross-Platform Message Integration",
+    "valueBlock2Desc": "Unify conversations from LINE, Instagram, Messenger, and WhatsApp into PinChat. Your support team can manage all messages in one place and keep full context.",
+    "valueBlock3Title": "AI Customer Support, Effortlessly Built",
+    "valueBlock3Desc": "Just paste your website link to automatically generate an AI PinBot that handles FAQs, while allowing human agents to step in anytime.",
+    "valueBlock4Title": "Conversation & Customer Data Management",
+    "valueBlock4Desc": "Support for sub-accounts, chatroom folders, and tag management—making it easy to delegate tasks, track conversations, and organize customer data without chaos."
+  },
+  "retailEcommerce": {
+    "hero": {
+      "breadcrumb": "PinChat for Retail & E-commerce",
+      "title": "Sell smarter with AI-powered customer chat",
+      "subtitle": "From online stores to retail counters, PinChat helps your team connect instantly with shoppers, automate FAQs, and boost sales with personalized AI conversations.",
+      "cta": "Get PinChat for Free"
+    },
+    "whyUse": {
+      "title": "Why Retail & E-commerce teams use PinChat",
+      "items": {
+        "engage": "Engage customers from browsing to post-purchase with personalized chat experiences.",
+        "instantAnswers": "Answer FAQs instantly with AI-powered responses.",
+        "orderUpdates": "Keep customers informed about their order status through automated messages.",
+        "campaigns": "Automate campaign replies and track performance effortlessly."
+      }
+    },
+    "planEngagement": {
+      "title": "Plan your customer engagement",
+      "description": "Make better customer service decisions by increasing team transparency and delivering consistent communication — whether it's product questions, order updates, or support requests.",
+      "alignTeam": {
+        "title": "Align your team",
+        "description": "Keep your team in sync as you handle inquiries, review customer needs, and align on your service strategy."
+      },
+      "respondFaster": {
+        "title": "Respond faster",
+        "description": "Determine what questions are priority and what can be handled by AI assistants, responding via instant messaging."
+      },
+      "diveDetails": {
+        "title": "Dive into the details",
+        "description": "Share product specs, order timelines, and service protocols so everyone knows how you'll serve your customers."
+      }
+    },
+    "features": {
+      "title": "Features",
+      "productInquiries": {
+        "title": "Product & Store Inquiries",
+        "description": "Respond instantly to product details, stock, or store info."
+      },
+      "orderTracking": {
+        "title": "Order Tracking & Returns",
+        "description": "Send automated order updates and simplify return management."
+      },
+      "campaigns": {
+        "title": "Campaigns & Promotions",
+        "description": "Use AI chat to share discounts, announce events, and increase participation."
+      },
+      "loyalty": {
+        "title": "Loyalty Programs",
+        "description": "Engage returning customers with personalized rewards and updates."
+      }
+    },
+    "salesAcceleration": {
+      "title": "Don't let communication slow down sales",
+      "description": "Empower your team to respond faster, close more sales, and keep shoppers coming back — all powered by AI automation and streamlined chat workflows.",
+      "swiftExecution": {
+        "title": "Drive swift execution",
+        "description": "Break through blockers and keep your team on track sending quick updates, order confirmations, and more over instant messaging."
+      },
+      "productive": {
+        "title": "Make service more productive",
+        "description": "Share critical context before customer inquiries so you can dive straight into solving their needs."
+      },
+      "responseCycles": {
+        "title": "Accelerate response cycles",
+        "description": "Reduce back-and-forth by providing instant answers in context and addressing customer concerns immediately."
+      },
+      "returns": {
+        "title": "Handle returns efficiently",
+        "description": "Document return requests and process refunds quickly so your team can focus on building customer relationships."
+      }
+    },
+    "exploreMore": {
+      "title": "Explore more ways to use PinChat",
+      "serviceIndustries": {
+        "title": "PinChat for Service Industries",
+        "description": "Manage customer inquiries before and after every visit."
+      },
+      "education": {
+        "title": "PinChat for Education",
+        "description": "Streamline student and parent communication both inside and outside the classroom."
+      },
+      "healthcare": {
+        "title": "PinChat for Healthcare",
+        "description": "Support efficient patient communication across the care journey."
+      }
+    },
+    "cta": {
+      "title": "PinChat powers great customer relationships.",
+      "subtitle": "Start free today and see how AI-powered conversations can transform your customer experience.",
+      "button": "Get PinChat for Free"
+    }
+  },
+  "cta": {
+    "title": "Ready to Transform Your Customer Communication?",
+    "subtitle": "Simplify conversations, empower your team with AI, and grow your business effortlessly.",
+    "startFreeTrial": "Start Your Free Trial",
+    "contactSales": "Contact Sales",
+    "noCardRequired": "No credit card required • 7-day free trial • Cancel anytime"
+  },
+  "about": {
+    "hero": {
+      "title": "Empowering Every Conversation",
+      "subtitle": "PinChat was founded with a vision to make business communication simple, meaningful, and accessible for everyone. We believe every conversation has the power to build trust and drive growth.",
+      "startFreeToday": "Start Free Today",
+      "contactUs": "Contact Us"
+    },
+    "mission": {
+      "quote": "We are committed to building the world's most intuitive and efficient communication platform, enabling every conversation to flow seamlessly and create value.",
+      "label": "Our Mission"
+    },
+    "numbers": {
+      "title": "PinChat by the Numbers",
+      "yearFounded": {
+        "value": "2020",
+        "label": "Year Founded",
+        "description": "Started with a vision to simplify business communication"
+      },
+      "countriesServed": {
+        "value": "20+",
+        "label": "Countries Served",
+        "description": "Global reach across multiple continents and time zones"
+      },
+      "monthlyConversations": {
+        "value": "3000+",
+        "label": "Monthly Conversations",
+        "description": "Average conversations facilitated through our platform"
+      }
+    },
+    "journey": {
+      "title": "Our Journey",
+      "subtitle": "From inception to becoming a trusted communication platform",
+      "origins": {
+        "title": "PinChat Origins",
+        "description": "PinChat was born from a simple observation: conversations between businesses and customers were often fragmented and difficult to manage. Our initial idea started as lightweight chatrooms shared via short links or QR codes—making it effortless for merchants and consumers to connect without technical barriers."
+      },
+      "milestones": {
+        "2019": {
+          "title": "2019 – Version 1",
+          "description": "Completed the first backend version, laying the foundation for PinChat."
+        },
+        "2020": {
+          "title": "2020 – First Customers",
+          "description": "Continued iterations and improvements, welcoming our very first customers."
+        },
+        "2022": {
+          "title": "2022 – Expansion & Recognition",
+          "description": "Launched third-party integrations and payment features. Officially listed on AppSumo, gaining international exposure."
+        },
+        "2025": {
+          "title": "2025 – AI PinBot",
+          "description": "Released AI PinBot, introducing advanced conversational intelligence to empower businesses with smarter customer support."
+        },
+        "title": "PinChat Milestones"
+      }
+    },
+    "values": {
+      "title": "Our Values",
+      "subtitle": "The principles that guide everything we do",
+      "simplicity": {
+        "title": "Simplicity",
+        "description": "We believe powerful tools should be easy to use. No complexity, just results."
+      },
+      "innovation": {
+        "title": "Innovation",
+        "description": "Constantly evolving our platform to meet the changing needs of modern businesses."
+      },
+      "trust": {
+        "title": "Trust",
+        "description": "Security and reliability are at the core of everything we build and deliver."
+      },
+      "globalReach": {
+        "title": "Global Reach",
+        "description": "Connecting businesses and customers worldwide, transcending geographical boundaries."
+      }
+    },
+    "team": {
+      "title": "Our Team Culture",
+      "subtitle": "We're a diverse team of passionate individuals united by a common goal: making business communication effortless and effective.",
+      "collaborative": {
+        "title": "Collaborative",
+        "description": "We work together across time zones and cultures to build something amazing."
+      },
+      "customerFocused": {
+        "title": "Customer-Focused",
+        "description": "Every decision we make starts with understanding our customers' needs."
+      },
+      "resultsDriven": {
+        "title": "Results-Driven",
+        "description": "We measure success by the impact we create for businesses and their customers."
+      }
+    },
+    "cta": {
+      "title": "Join us in transforming customer communication",
+      "subtitle": "Ready to experience the power of unified messaging? Start your free trial today and see how PinChat can transform your customer relationships.",
+      "startFree": "Start Free",
+      "contactUs": "Contact Us"
+    }
+  },
+  "contact": {
+    "success": {
+      "title": "Thank you for contacting us!",
+      "description": "Our team will get back to you within 48 working hours.",
+      "checkSpam": "If you haven't received our reply, please check if it is in your spam folder.",
+      "backToHome": "Back to Home"
+    },
+    "hero": {
+      "badge": "Get in touch with our team",
+      "title": "Contact us anytime",
+      "subtitle": "We're here to help you discover how PinChat can transform your customer communication. Whether you want to learn more about our features, schedule a personalized demo, or find the perfect solution for your business needs, our team is ready to assist you.",
+      "reasons": {
+        "learnMore": "Learn more about our product",
+        "scheduleMeeting": "Schedule a meeting with us",
+        "findSolution": "Find the right solution for you",
+        "productQuestions": "Product-related questions",
+        "partnerships": "Partnership opportunities",
+        "support": "General support inquiries"
+      },
+      "responseTime": {
+        "title": "Response Time Commitment",
+        "description": "We will reply within 48 working hours. If you haven't received our reply, please check your spam folder."
+      }
+    },
+    "form": {
+      "title": "Let's start the conversation",
+      "subtitle": "Fill out the form below and we'll get back to you soon.",
+      "requestType": "What is your request about?",
+      "requestTypeOptions": {
+        "learnMore": "Learn more about our product",
+        "scheduleMeeting": "Schedule a meeting with us",
+        "findSolution": "Find the right solution that suits your needs",
+        "partnerships": "Offer partnerships",
+        "productQuestions": "Other product-related questions"
+      },
+      "email": "Email",
+      "company": "Company",
+      "jobTitle": "Job Title",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "country": "Country",
+      "howDidYouFindUs": "How did you find us?",
+      "howDidYouFindUsOptions": {
+        "searchEngine": "Search Engine",
+        "socialMedia": "Social Media",
+        "onlineAds": "Online Ads",
+        "events": "Virtual or In-person Events",
+        "wordOfMouth": "Word of Mouth",
+        "other": "Other"
+      },
+      "message": "Message",
+      "messagePlaceholder": "Please describe your needs, questions, or how we can help you...",
+      "submit": "Submit",
+      "submitting": "Submitting...",
+      "pleaseSelect": "Please select",
+      "validEmail": "Please enter a valid email address",
+      "maxChars": "must be {{max}} characters or less",
+      "minChars": "Please provide more details (minimum {{min}} characters)",
+      "requestTypeRequired": "Please select what your request is about",
+      "emailRequired": "Email is required",
+      "companyRequired": "Company name is required",
+      "jobTitleRequired": "Job title is required",
+      "firstNameRequired": "First name is required",
+      "lastNameRequired": "Last name is required",
+      "countryRequired": "Please select your country",
+      "howDidYouFindUsRequired": "Please select how you found us"
+    }
+  },
+  "pricing": {
+    "hero": {
+      "title": "Simple, transparent pricing",
+      "subtitle": "Start for free, upgrade as your business grows.",
+      "getStarted": "Get Started Free"
+    },
+    "popular": "Popular",
+    "plans": {
+      "free": {
+        "name": "Free",
+        "description": "Start with feature-rich chat. Popular with individuals or small teams"
+      },
+      "starter": {
+        "name": "Starter",
+        "description": "Suitable for small businesses. Attract and convert your potential prospects to customers"
+      },
+      "light": {
+        "name": "Light",
+        "description": "Best fit for SMBs. Manage all the conversations efficiently in one platform"
+      },
+      "standard": {
+        "name": "Standard",
+        "description": "Recommended for larger businesses. Supercharge your growing business"
+      },
+      "cta": {
+        "startNow": "Start now",
+        "freeTrial": "7-day Free Trial"
+      }
+    },
+    "features": {
+      "unlimitedChatLinks": "Unlimited chat links",
+      "mau100": "100 MAU",
+      "mau1000": "1,000 MAU",
+      "mau3000": "3,000 MAU",
+      "mau5000": "5,000 MAU",
+      "exportChatData": "Export chat data",
+      "customizedChatLink": "Customized chat link",
+      "customizedPinBoard": "Customized PinBoard",
+      "basicAnalytics": "Basic analytics",
+      "allFunctionsOfFree": "All features of Free plan",
+      "allFunctionsOfStarter": "All features of Starter plan",
+      "allFunctionsOfLight": "All features of Light plan",
+      "surveyAndFaqPinBot": "Survey and FAQ PinBot",
+      "customizedChatWidget": "Customized chat widget",
+      "aiPinBot1000": "AI PinBot: 1,000 messages/month",
+      "aiPinBot2000": "AI PinBot: 2,000 messages/month",
+      "aiPinBot4000Byok": "AI PinBot: 4,000 messages/month + BYOK",
+      "customDomain": "Custom domain",
+      "customMetaTags": "Custom meta tags",
+      "usage": {
+        "chatLinks": "Chat links",
+        "mau": "Monthly Active Users (MAU)",
+        "mauOverage": "MAU overage",
+        "aiPinBot": "AI PinBot",
+        "unlimited": "Unlimited",
+        "contactSales": "Contact sales"
+      },
+      "messaging": {
+        "oneOnOneChat": "1-to-1 chat",
+        "groupChat": "Group chat",
+        "voiceMessages": "Voice messages",
+        "stickersEmojis": "Stickers & emojis",
+        "fileMediaSharing": "File & media sharing",
+        "locationSharing": "Location sharing",
+        "linkPreviews": "Link previews",
+        "translation": "Translation",
+        "readReceipts": "Read receipts",
+        "unreadMessageIndicator": "Unread message indicator",
+        "replyToMessages": "Reply to messages",
+        "messageRecall": "Message recall",
+        "mentions": "Mentions",
+        "copyMessages": "Copy messages",
+        "visitorLocationTracking": "Visitor location tracking",
+        "chatFolders": "Chat folders",
+        "chatTags": "Chat tags"
+      },
+      "customization": {
+        "pinBoard": "PinBoard",
+        "customChatroomLinks": "Custom chatroom links",
+        "customAppearance": "Custom appearance",
+        "websiteWidget": "Website widget",
+        "surveyForms": "Survey forms",
+        "faqPinBot": "FAQ PinBot",
+        "subAccountManagement": "Sub-account management",
+        "visitorEmailNotifications": "Visitor email notifications",
+        "customerList": "Customer list",
+        "customerListExport": "Customer list export"
+      },
+      "omnichat": {
+        "lineIntegration": "LINE integration",
+        "whatsappBusiness": "WhatsApp Business",
+        "messengerIntegration": "Messenger integration",
+        "instagramIntegration": "Instagram integration",
+        "slackIntegration": "Slack integration"
+      },
+      "support": {
+        "webDashboard": "Web dashboard",
+        "iosAndroidApp": "iOS & Android app",
+        "dataExport": "Data export"
+      },
+      "advanced": {
+        "customDomain": "Custom domain",
+        "customMetaTags": "Custom meta tags",
+        "removeBranding": "Remove branding"
+      },
+      "sections": {
+        "usageLimits": "Usage & Limits",
+        "messagingFeatures": "Messaging Features",
+        "customizationTools": "Customization & Tools",
+        "multichannelIntegration": "Multi-Channel Integration",
+        "advancedFeatures": "Advanced Features"
+      },
+      "comparison": {
+        "title": "Compare features",
+        "subtitle": "All plans include core messaging and support tools. Upgrade for higher MAU, AI PinBot capacity, and advanced customization.",
+        "plans": "Plans"
+      },
+      "customPlan": {
+        "title": "Need a custom solution?",
+        "description": "For larger teams or businesses with specific needs, we also offer custom plans with flexible features and dedicated support.",
+        "contactUs": "Contact us"
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "subtitle": "Everything you need to know about PinChat pricing and features.",
+        "q1": "Do you offer a free plan or trial?",
+        "a1": "Yes. PinChat offers a Free plan with essential chat features, and all paid plans come with a 7-day free trial. The trial includes our core features such as AI PinBot, chat customization, and survey tools.\n\nSome advanced features like third-party integrations (LINE, WhatsApp, Messenger, Instagram) and custom domains are not included in the trial. You can unlock them once you subscribe to a paid plan.",
+        "q2": "What is MAU (Monthly Active Users)?",
+        "a2": "MAU refers to the number of unique users who interact with your chat service within a calendar month. This includes visitors who send messages, participate in conversations, or engage with your AI PinBot. Each unique user is counted once per month, regardless of how many times they chat.",
+        "q3": "How is pricing calculated?",
+        "a3": "Plans are billed monthly based on your subscription tier. Each plan includes a fixed number of Monthly Active Users (MAU) and AI PinBot messages. If you need more than what's included, you can upgrade your plan or contact us for custom pricing.",
+        "q4": "Will my plan renew automatically?",
+        "a4": "Yes. All subscriptions renew automatically every month unless you cancel before your renewal date.",
+        "q5": "Can I change my plan later?",
+        "a5": "Yes. You can switch plans at any time. To upgrade or downgrade, simply cancel your current subscription and subscribe to a new plan. The process only takes a few clicks, and your data will remain intact.",
+        "q6": "What happens if I exceed my usage limits?",
+        "a6": "If you exceed your MAU or AI PinBot quota, your service will continue but some features (like AI PinBot replies) may pause until you upgrade your plan or contact us to arrange additional capacity.",
+        "q7": "What happens to my data if I cancel my subscription?",
+        "a7": "Your data will remain stored for a limited period after cancellation. You can re-subscribe to regain access.",
+        "q8": "Do you offer custom enterprise pricing?",
+        "a8": "Yes. For larger teams or businesses with advanced needs, we provide custom plans with flexible features and dedicated support. Please contact us to learn more.",
+        "q9": "Can I use my own AI provider key (BYOK)?",
+        "a9": "Yes. Our Standard plan and above supports BYOK (Bring Your Own Key). Currently, Gemini and OpenAI are supported, and more providers will be added soon.",
+        "stillHaveQuestions": "Still have questions?",
+        "contactSupport": "Contact our support team"
+      },
+      "cta": {
+        "title": "Start for free today",
+        "subtitle": "Join thousands of businesses already using PinChat to revolutionize their customer communication. No credit card required.",
+        "getStartedFree": "Get Started Free",
+        "talkToSales": "Talk to Sales",
+        "freeTrial": "7-day free trial",
+        "noSetupFees": "No setup fees",
+        "cancelAnytime": "Cancel anytime"
+      },
+      "notes": {
+        "byok": "*BYOK = Bring Your Own Key. Currently supports OpenAI, with more AI providers coming soon.",
+        "msgsMo": "*\"msgs/mo\" = messages per month"
+      }
+    }
+  },
+  "notFound": {
+    "message": "Oops! Page not found",
+    "returnHome": "Return to Home"
+  }
+}
