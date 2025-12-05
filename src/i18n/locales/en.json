@@ -26,6 +26,8 @@
         "imageAlt": "One-on-one chat conversation interface"
       },
       "benefits": {
+        "title": "Powerful Chat Features",
+        "subtitle": "Everything you need for seamless communication",
         "oneOnOne": {
           "title": "1-to-1 Chat",
           "description": "Each unique click creates a new chatroom for direct conversation"

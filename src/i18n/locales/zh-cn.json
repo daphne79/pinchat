@@ -17,7 +17,13 @@
     "analytics": "分析",
     "branding": "品牌与定制",
     "chatroomManagement": "聊天室管理",
-    "subAccount": "子账号"
+    "subAccount": "子账号",
+    "chatPage": {
+      "benefits": {
+        "title": "强大的聊天功能",
+        "subtitle": "满足无缝沟通所需的一切"
+      }
+    }
   },
   "industries": {
     "ecommerce": "电子商务",

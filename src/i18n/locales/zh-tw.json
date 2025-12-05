@@ -26,6 +26,8 @@
         "imageAlt": "一對一聊天對話介面"
       },
       "benefits": {
+        "title": "強大的聊天功能",
+        "subtitle": "滿足無縫溝通所需的一切",
         "oneOnOne": {
           "title": "一對一聊天",
           "description": "每次獨特的點擊都會建立新的聊天室，進行直接對話"
