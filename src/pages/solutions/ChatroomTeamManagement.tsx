@@ -92,8 +92,7 @@ const ChatroomTeamManagement = () => {
 
           {/* CTA Section */}
           <section className="text-center py-16 bg-muted/50 rounded-lg">
-            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[48px] font-bold tracking-wide leading-normal lg:leading-[1.2] text-foreground mb-4">Get Your Team Organized</h2>
-            <p className="text-base sm:text-lg text-muted-foreground mb-8">Start managing conversations more efficiently today.</p>
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[48px] font-bold tracking-wide leading-normal lg:leading-[1.2] text-foreground mb-8">Get Your Team Organized</h2>
             <Button size="lg" className="text-base sm:text-lg">
               Organize My Chats
             </Button>

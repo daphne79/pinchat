@@ -108,12 +108,9 @@ const ForB2BCommercial = () => {
         <section className="bg-primary/5 py-16 px-4 sm:px-6 md:px-8 lg:px-12">
           <div className="container mx-auto">
             <div className="max-w-4xl mx-auto rounded-2xl bg-card border p-12 text-center">
-              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[48px] font-bold tracking-wide leading-normal lg:leading-[1.2] text-foreground mb-4">
+              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[48px] font-bold tracking-wide leading-normal lg:leading-[1.2] text-foreground mb-8">
                 Start Your Free Trial
               </h2>
-              <p className="text-base sm:text-lg text-muted-foreground mb-8">
-                Transform your B2B communication strategy today.
-              </p>
               <Button size="lg" className="text-base sm:text-lg">
                 Get Started Now
               </Button>

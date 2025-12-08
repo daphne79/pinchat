@@ -98,8 +98,7 @@ const CustomerFeedbackAnalytics = () => {
 
           {/* CTA Section */}
           <section className="text-center py-16 bg-muted/50 rounded-lg">
-            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[48px] font-bold tracking-wide leading-normal lg:leading-[1.2] text-foreground mb-4">Start Making Data-Driven Decisions</h2>
-            <p className="text-base sm:text-lg text-muted-foreground mb-8">Get insights that help you serve customers better.</p>
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[48px] font-bold tracking-wide leading-normal lg:leading-[1.2] text-foreground mb-8">Start Making Data-Driven Decisions</h2>
             <Button size="lg" className="text-base sm:text-lg">
               View My Analytics
             </Button>
