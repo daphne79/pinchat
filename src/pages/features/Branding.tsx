@@ -207,12 +207,9 @@ const Branding = () => {
               <div className="w-16 h-16 bg-[#02B13F]/20 rounded-full flex items-center justify-center mx-auto mb-6">
                 <Palette className="w-8 h-8 text-[#02B13F]" />
               </div>
-              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[48px] font-bold tracking-wide leading-normal lg:leading-[1.2] mb-6">
+              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[48px] font-bold tracking-wide leading-normal lg:leading-[1.2] mb-8">
                 Ready to Create Your Branded Experience?
               </h2>
-              <p className="text-base sm:text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
-                Start customizing your brand appearance and domain today.
-              </p>
               <Button size="lg" className="bg-[#02B13F] hover:bg-[#029f38] text-white text-base sm:text-lg min-w-[200px]">
                 Start Customizing
               </Button>

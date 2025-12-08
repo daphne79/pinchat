@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import FeatureNavigation from "@/components/FeatureNavigation";
 import Footer from "@/components/Footer";
-import { Bot, MessageCircle, Settings, Users, Zap, Globe, LifeBuoy, Sparkles } from "lucide-react";
+import { Bot, MessageCircle, Settings, Users, Zap, Globe, LifeBuoy, Sparkles, FileText, Brain } from "lucide-react";
 import { useTranslation } from "react-i18next";
 const AIPinBot = () => {
   const { t } = useTranslation();
@@ -54,9 +54,45 @@ const AIPinBot = () => {
             </p>
           </div>
 
-          {/* Feature 1: Smart FAQ Automation - Text Left, Visual Right */}
+          {/* Feature 1: Unified Knowledge Sources - Text Left, Visual Right */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center mb-32 animate-fade-in">
             <div className="order-2 lg:order-1">
+              <div className="w-14 h-14 bg-[#02B13F]/10 rounded-2xl flex items-center justify-center mb-6">
+                <FileText className="w-7 h-7 text-[#02B13F]" />
+              </div>
+              <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold mb-4">
+                {t('features.chatPage.relatedFeatures.aiPinbotPage.features.unifiedKnowledge.title')}
+              </h3>
+              <p className="text-sm sm:text-base text-muted-foreground mb-6">
+                {t('features.chatPage.relatedFeatures.aiPinbotPage.features.unifiedKnowledge.description')}
+              </p>
+              <ul className="space-y-3 text-muted-foreground">
+                <li className="flex items-start gap-3">
+                  <span className="text-[#02B13F] mt-1">✓</span>
+                  <span>{t('features.chatPage.relatedFeatures.aiPinbotPage.features.unifiedKnowledge.benefits.autoCrawl')}</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-[#02B13F] mt-1">✓</span>
+                  <span>{t('features.chatPage.relatedFeatures.aiPinbotPage.features.unifiedKnowledge.benefits.uploadFiles')}</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-[#02B13F] mt-1">✓</span>
+                  <span>{t('features.chatPage.relatedFeatures.aiPinbotPage.features.unifiedKnowledge.benefits.manualQA')}</span>
+                </li>
+              </ul>
+            </div>
+            <div className="order-1 lg:order-2">
+              <img 
+                src="/lovable-uploads/chat_management.png" 
+                alt={t('features.chatPage.relatedFeatures.aiPinbotPage.features.unifiedKnowledge.imageAlt')} 
+                className="w-full rounded-2xl shadow-xl"
+              />
+            </div>
+          </div>
+
+          {/* Feature 2: Smart FAQ Automation - Text Right, Visual Left */}
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center mb-32 animate-fade-in">
+            <div className="order-2">
               <div className="w-14 h-14 bg-[#02B13F]/10 rounded-2xl flex items-center justify-center mb-6">
                 <Bot className="w-7 h-7 text-[#02B13F]" />
               </div>
@@ -69,29 +105,65 @@ const AIPinBot = () => {
               <ul className="space-y-3 text-muted-foreground">
                 <li className="flex items-start gap-3">
                   <span className="text-[#02B13F] mt-1">✓</span>
-                  <span>{t('features.chatPage.relatedFeatures.aiPinbotPage.features.smartFAQ.benefits.autoReply')}</span>
+                  <span>{t('features.chatPage.relatedFeatures.aiPinbotPage.features.smartFAQ.benefits.reduceWorkload')}</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-[#02B13F] mt-1">✓</span>
-                  <span>{t('features.chatPage.relatedFeatures.aiPinbotPage.features.smartFAQ.benefits.consistent')}</span>
+                  <span>{t('features.chatPage.relatedFeatures.aiPinbotPage.features.smartFAQ.benefits.fastConsistent')}</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-[#02B13F] mt-1">✓</span>
-                  <span>{t('features.chatPage.relatedFeatures.aiPinbotPage.features.smartFAQ.benefits.quality')}</span>
+                  <span>{t('features.chatPage.relatedFeatures.aiPinbotPage.features.smartFAQ.benefits.aiMaintained')}</span>
                 </li>
               </ul>
             </div>
-            <div className="order-1 lg:order-2">
+            <div className="order-1">
               <img 
-                src="/lovable-uploads/chat_management.png" 
+                src="/lovable-uploads/chatroom-team-management-hero.png" 
                 alt={t('features.chatPage.relatedFeatures.aiPinbotPage.features.smartFAQ.imageAlt')} 
                 className="w-full rounded-2xl shadow-xl"
               />
             </div>
           </div>
 
-          {/* Feature 2: Seamless Human Handoff - Text Right, Visual Left */}
+          {/* Feature 3: Context-Aware AI Memory - Text Left, Visual Right */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center mb-32 animate-fade-in">
+            <div className="order-2 lg:order-1">
+              <div className="w-14 h-14 bg-[#02B13F]/10 rounded-2xl flex items-center justify-center mb-6">
+                <Brain className="w-7 h-7 text-[#02B13F]" />
+              </div>
+              <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold mb-4">
+                {t('features.chatPage.relatedFeatures.aiPinbotPage.features.contextAwareMemory.title')}
+              </h3>
+              <p className="text-sm sm:text-base text-muted-foreground mb-6">
+                {t('features.chatPage.relatedFeatures.aiPinbotPage.features.contextAwareMemory.description')}
+              </p>
+              <ul className="space-y-3 text-muted-foreground">
+                <li className="flex items-start gap-3">
+                  <span className="text-[#02B13F] mt-1">✓</span>
+                  <span>{t('features.chatPage.relatedFeatures.aiPinbotPage.features.contextAwareMemory.benefits.multiStepContext')}</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-[#02B13F] mt-1">✓</span>
+                  <span>{t('features.chatPage.relatedFeatures.aiPinbotPage.features.contextAwareMemory.benefits.avoidRepeat')}</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-[#02B13F] mt-1">✓</span>
+                  <span>{t('features.chatPage.relatedFeatures.aiPinbotPage.features.contextAwareMemory.benefits.guidedFlows')}</span>
+                </li>
+              </ul>
+            </div>
+            <div className="order-1 lg:order-2">
+              <img 
+                src="/lovable-uploads/customer-feedback-analytics-hero.png" 
+                alt={t('features.chatPage.relatedFeatures.aiPinbotPage.features.contextAwareMemory.imageAlt')} 
+                className="w-full rounded-2xl shadow-xl"
+              />
+            </div>
+          </div>
+
+          {/* Feature 4: Seamless Human Handoff - Text Right, Visual Left */}
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center animate-fade-in">
             <div className="order-2">
               <div className="w-14 h-14 bg-[#02B13F]/10 rounded-2xl flex items-center justify-center mb-6">
                 <Users className="w-7 h-7 text-[#02B13F]" />
@@ -109,7 +181,7 @@ const AIPinBot = () => {
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-[#02B13F] mt-1">✓</span>
-                  <span>{t('features.chatPage.relatedFeatures.aiPinbotPage.features.humanHandoff.benefits.noRepeat')}</span>
+                  <span>{t('features.chatPage.relatedFeatures.aiPinbotPage.features.humanHandoff.benefits.fullContext')}</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-[#02B13F] mt-1">✓</span>
@@ -119,80 +191,8 @@ const AIPinBot = () => {
             </div>
             <div className="order-1">
               <img 
-                src="/lovable-uploads/chatroom-team-management-hero.png" 
-                alt={t('features.chatPage.relatedFeatures.aiPinbotPage.features.humanHandoff.imageAlt')} 
-                className="w-full rounded-2xl shadow-xl"
-              />
-            </div>
-          </div>
-
-          {/* Feature 3: Multilingual Support - Text Left, Visual Right */}
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center mb-32 animate-fade-in">
-            <div className="order-2 lg:order-1">
-              <div className="w-14 h-14 bg-[#02B13F]/10 rounded-2xl flex items-center justify-center mb-6">
-                <Globe className="w-7 h-7 text-[#02B13F]" />
-              </div>
-              <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold mb-4">
-                {t('features.chatPage.relatedFeatures.aiPinbotPage.features.multilingual.title')}
-              </h3>
-              <p className="text-sm sm:text-base text-muted-foreground mb-6">
-                {t('features.chatPage.relatedFeatures.aiPinbotPage.features.multilingual.description')}
-              </p>
-              <ul className="space-y-3 text-muted-foreground">
-                <li className="flex items-start gap-3">
-                  <span className="text-[#02B13F] mt-1">✓</span>
-                  <span>{t('features.chatPage.relatedFeatures.aiPinbotPage.features.multilingual.benefits.autoDetect')}</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="text-[#02B13F] mt-1">✓</span>
-                  <span>{t('features.chatPage.relatedFeatures.aiPinbotPage.features.multilingual.benefits.multiLang')}</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="text-[#02B13F] mt-1">✓</span>
-                  <span>{t('features.chatPage.relatedFeatures.aiPinbotPage.features.multilingual.benefits.global')}</span>
-                </li>
-              </ul>
-            </div>
-            <div className="order-1 lg:order-2">
-              <img 
-                src="/lovable-uploads/customer-feedback-analytics-hero.png" 
-                alt={t('features.chatPage.relatedFeatures.aiPinbotPage.features.multilingual.imageAlt')} 
-                className="w-full rounded-2xl shadow-xl"
-              />
-            </div>
-          </div>
-
-          {/* Feature 4: No-Code Setup - Text Right, Visual Left */}
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center animate-fade-in">
-            <div className="order-2">
-              <div className="w-14 h-14 bg-[#02B13F]/10 rounded-2xl flex items-center justify-center mb-6">
-                <Zap className="w-7 h-7 text-[#02B13F]" />
-              </div>
-              <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold mb-4">
-                {t('features.chatPage.relatedFeatures.aiPinbotPage.features.noCode.title')}
-              </h3>
-              <p className="text-sm sm:text-base text-muted-foreground mb-6">
-                {t('features.chatPage.relatedFeatures.aiPinbotPage.features.noCode.description')}
-              </p>
-              <ul className="space-y-3 text-muted-foreground">
-                <li className="flex items-start gap-3">
-                  <span className="text-[#02B13F] mt-1">✓</span>
-                  <span>{t('features.chatPage.relatedFeatures.aiPinbotPage.features.noCode.benefits.quickSetup')}</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="text-[#02B13F] mt-1">✓</span>
-                  <span>{t('features.chatPage.relatedFeatures.aiPinbotPage.features.noCode.benefits.easyConnect')}</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="text-[#02B13F] mt-1">✓</span>
-                  <span>{t('features.chatPage.relatedFeatures.aiPinbotPage.features.noCode.benefits.update')}</span>
-                </li>
-              </ul>
-            </div>
-            <div className="order-1">
-              <img 
                 src="/lovable-uploads/lead-capture-survey-hero.png" 
-                alt={t('features.chatPage.relatedFeatures.aiPinbotPage.features.noCode.imageAlt')} 
+                alt={t('features.chatPage.relatedFeatures.aiPinbotPage.features.humanHandoff.imageAlt')} 
                 className="w-full rounded-2xl shadow-xl"
               />
             </div>
@@ -239,12 +239,12 @@ const AIPinBot = () => {
                   <MessageCircle className="w-7 h-7 text-[#02B13F]" />
                 </div>
                 <CardTitle className="text-lg sm:text-xl md:text-2xl lg:text-3xl">
-                  {t('features.chatPage.relatedFeatures.aiPinbotPage.useCases.websiteChat.title')}
+                  {t('features.chatPage.relatedFeatures.aiPinbotPage.useCases.websiteEngagement.title')}
                 </CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-sm sm:text-base text-muted-foreground">
-                  {t('features.chatPage.relatedFeatures.aiPinbotPage.useCases.websiteChat.description')}
+                  {t('features.chatPage.relatedFeatures.aiPinbotPage.useCases.websiteEngagement.description')}
                 </p>
               </CardContent>
             </Card>
@@ -255,12 +255,12 @@ const AIPinBot = () => {
                   <Users className="w-7 h-7 text-[#02B13F]" />
                 </div>
                 <CardTitle className="text-lg sm:text-xl md:text-2xl lg:text-3xl">
-                  {t('features.chatPage.relatedFeatures.aiPinbotPage.useCases.supportFlow.title')}
+                  {t('features.chatPage.relatedFeatures.aiPinbotPage.useCases.customerSupportFlow.title')}
                 </CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-sm sm:text-base text-muted-foreground">
-                  {t('features.chatPage.relatedFeatures.aiPinbotPage.useCases.supportFlow.description')}
+                  {t('features.chatPage.relatedFeatures.aiPinbotPage.useCases.customerSupportFlow.description')}
                 </p>
               </CardContent>
             </Card>
@@ -271,12 +271,12 @@ const AIPinBot = () => {
                   <LifeBuoy className="w-7 h-7 text-[#02B13F]" />
                 </div>
                 <CardTitle className="text-lg sm:text-xl md:text-2xl lg:text-3xl">
-                  {t('features.chatPage.relatedFeatures.aiPinbotPage.useCases.postPurchase.title')}
+                  {t('features.chatPage.relatedFeatures.aiPinbotPage.useCases.postPurchaseHelp.title')}
                 </CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-sm sm:text-base text-muted-foreground">
-                  {t('features.chatPage.relatedFeatures.aiPinbotPage.useCases.postPurchase.description')}
+                  {t('features.chatPage.relatedFeatures.aiPinbotPage.useCases.postPurchaseHelp.description')}
                 </p>
               </CardContent>
             </Card>
@@ -291,12 +291,9 @@ const AIPinBot = () => {
             <div className="w-16 h-16 bg-[#02B13F]/20 rounded-full flex items-center justify-center mx-auto mb-6">
               <Sparkles className="w-8 h-8 text-[#02B13F]" />
             </div>
-            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[48px] font-bold tracking-wide leading-normal lg:leading-[1.2] mb-6">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[48px] font-bold tracking-wide leading-normal lg:leading-[1.2] mb-8">
               {t('features.chatPage.relatedFeatures.aiPinbotPage.cta.title')}
             </h2>
-            <p className="text-base sm:text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
-              {t('features.chatPage.relatedFeatures.aiPinbotPage.cta.subtitle')}
-            </p>
             <Button size="lg" className="bg-[#02B13F] hover:bg-[#029f38] text-white text-base sm:text-lg min-w-[200px]">
               {t('features.chatPage.relatedFeatures.aiPinbotPage.cta.button')}
             </Button>

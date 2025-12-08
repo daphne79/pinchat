@@ -103,45 +103,45 @@
           "sectionTitle": "Key Features",
           "sectionSubtitle": "From automated responses to human handoff, AI PinBot provides complete conversational support for your team",
           "features": {
+            "unifiedKnowledge": {
+              "title": "Unified Knowledge Sources",
+              "description": "Build precise AI answers using URLs, uploaded files, and manual Q&A—unified into one continuously updated knowledge base.",
+              "benefits": {
+                "autoCrawl": "Auto-crawl website content",
+                "uploadFiles": "Upload Word, CSV, PDF, TXT",
+                "manualQA": "Add manual Q&A anytime"
+              },
+              "imageAlt": "Unified knowledge sources illustration"
+            },
             "smartFAQ": {
               "title": "Smart FAQ Automation",
-              "description": "Let AI automatically understand customer questions and provide accurate answers instantly. No manual intervention needed — boost response efficiency and let your team focus on what matters most.",
+              "description": "Resolve repetitive questions instantly with AI responses that stay consistent, brand-aligned, and continuously optimized by PinChat.",
               "benefits": {
-                "autoReply": "Instantly detect and answer repeated questions",
-                "consistent": "Maintain consistent, brand-aligned replies",
-                "quality": "AI response quality is continuously maintained and improved by the platform"
+                "reduceWorkload": "Reduce repetitive workload",
+                "fastConsistent": "Fast, consistent replies",
+                "aiMaintained": "AI maintained by PinChat"
               },
               "imageAlt": "AI smart response illustration"
             },
+            "contextAwareMemory": {
+              "title": "Context-Aware AI Memory",
+              "description": "Enable natural multi-turn conversations by letting AI understand context, interpret intent, and respond with continuity across messages.",
+              "benefits": {
+                "multiStepContext": "Understand multi-step context",
+                "avoidRepeat": "Avoid repeated explanations",
+                "guidedFlows": "Ideal for guided flows"
+              },
+              "imageAlt": "Context-aware AI memory illustration"
+            },
             "humanHandoff": {
               "title": "Seamless Human Handoff",
-              "description": "When conversations require human touch, agents can take over instantly with full context preserved. The transition from AI to human is smooth and natural — no interruption to customer experience.",
+              "description": "Switch smoothly from AI to human support while preserving full context so customers never repeat themselves.",
               "benefits": {
-                "agentJoin": "Agents can join chats anytime",
-                "noRepeat": "Customers never repeat themselves",
-                "smooth": "Smooth transition between AI and human agents"
+                "agentJoin": "Agents can join anytime",
+                "fullContext": "Full context retained",
+                "smooth": "Smooth, interruption-free handoff"
               },
               "imageAlt": "Human handoff illustration"
-            },
-            "multilingual": {
-              "title": "Multilingual Support",
-              "description": "Support automatic language detection and responses in multiple languages, helping brands serve global customers effortlessly. No matter what language customers use, they receive instant and accurate support.",
-              "benefits": {
-                "autoDetect": "Auto-detect customer languages",
-                "multiLang": "Support multilingual chats and translations",
-                "global": "Expand your global service reach effortlessly"
-              },
-              "imageAlt": "Multilingual support illustration"
-            },
-            "noCode": {
-              "title": "No-Code Setup",
-              "description": "No coding or technical background required. Simply paste your website or FAQ link — AI PinBot learns quickly and starts serving right away. Complete setup in minutes and go live instantly.",
-              "benefits": {
-                "quickSetup": "Set up in minutes, no coding required",
-                "easyConnect": "Connect your website or FAQ link to start",
-                "update": "Easily update content anytime from your dashboard"
-              },
-              "imageAlt": "No-code setup illustration"
             }
           },
           "integrations": {
@@ -149,24 +149,96 @@
             "subtitle": "AI PinBot works across LINE, Messenger, Instagram, WhatsApp, and your PinChat web chat — all conversations unified in one place."
           },
           "useCases": {
-            "title": "Perfect for Every Support Scenario",
-            "websiteChat": {
-              "title": "Website Live Chat Automation",
-              "description": "Respond instantly to website visitors and boost conversion rates."
+            "title": "Perfect for Real Support Scenarios",
+            "websiteEngagement": {
+              "title": "Website Engagement",
+              "description": "Instant replies boost conversion."
             },
-            "supportFlow": {
-              "title": "Smart Customer Support Flow",
-              "description": "Combine automated replies with human expertise for a seamless customer experience."
+            "customerSupportFlow": {
+              "title": "Customer Support Flow",
+              "description": "AI filters, humans solve."
             },
-            "postPurchase": {
-              "title": "Post-Purchase Assistance",
-              "description": "Help customers track orders and solve issues to boost satisfaction."
+            "postPurchaseHelp": {
+              "title": "Post-Purchase Help",
+              "description": "Faster answers, smoother follow-up."
             }
           },
           "cta": {
             "title": "Empower Your Support Team with AI",
             "subtitle": "Start using AI PinBot today and deliver faster, smarter, and more human customer experiences.",
             "button": "Try for Free"
+          }
+        },
+        "pinBoardPage": {
+          "hero": {
+            "title": "Your Personalized Link Hub for Customer Engagement",
+            "subtitle": "Create a branded, mobile-ready link page that unifies actions, boosts conversions, and drives seamless conversations.",
+            "cta": "Create My PinBoard",
+            "ctaSecondary": "Learn More",
+            "imageAlt": "PinBoard personalized link hub interface"
+          },
+          "sectionTitle": "Key Features",
+          "sectionSubtitle": "Everything you need to create a powerful, conversion-focused link page",
+          "features": {
+            "flexibleBrandedLayouts": {
+              "title": "Flexible Layout & Branding",
+              "description": "Create a clean, mobile-optimized link hub that highlights your brand and organizes all key actions through customizable button layouts.",
+              "benefits": {
+                "multipleLayouts": "Flexible button arrangements for clear user flow",
+                "fullControl": "Full control of colors, fonts, and branding",
+                "mobileFirst": "Optimized mobile layout for social traffic"
+              },
+              "imageAlt": "Flexible branded layouts customization interface"
+            },
+            "centralizedActions": {
+              "title": "Unified Action Hub",
+              "description": "Bring every customer-facing link into one streamlined page, reducing friction and guiding visitors toward essential actions with clarity.",
+              "benefits": {
+                "showcaseLinks": "Consolidate all links into one entry point",
+                "reduceFriction": "Improve click-through and conversion paths",
+                "perfectForCampaigns": "Ideal for campaigns, onboarding, and promotions"
+              },
+              "imageAlt": "Centralized actions hub with multiple links"
+            },
+            "builtInChatEntry": {
+              "title": "Built-In Chat Entry",
+              "description": "Convert traffic into real conversations with a native chat button that directs every visitor straight into your PinChat inbox for immediate support.",
+              "benefits": {
+                "launchInstantChat": "One-tap access to chat in PinChat",
+                "supportAIOrHuman": "Support AI PinBot and human agents",
+                "minimizeDropOff": "Reduce drop-off with instant engagement"
+              },
+              "imageAlt": "Built-in chat entry button on PinBoard"
+            },
+            "insightfulAnalytics": {
+              "title": "Traffic & Engagement Insights",
+              "description": "Track visitor behavior, link performance, and engagement metrics to continuously refine your PinBoard and improve conversion outcomes.",
+              "benefits": {
+                "viewLinkEngagement": "Measure link clicks and visitor trends",
+                "identifyHighPerforming": "Identify top-performing content",
+                "makeDataDriven": "Optimize actions with clear insights"
+              },
+              "imageAlt": "PinBoard analytics dashboard with engagement metrics"
+            }
+          },
+          "useCases": {
+            "title": "Perfect for Every Support Scenario",
+            "socialMediaBioLink": {
+              "title": "Turn Social Followers Into Engaged Customers",
+              "description": "Use PinBoard as your \"link in bio\" to guide users from profiles to chat and key actions instantly."
+            },
+            "campaignLandingPage": {
+              "title": "A Quick-Launch Page for Promotions and Events",
+              "description": "Publish a lightweight, branded landing page without engineering work and connect it directly to chat."
+            },
+            "customerOnboardingHub": {
+              "title": "Centralize Resources for New Customers",
+              "description": "Provide docs, FAQs, and chat access in one place to streamline onboarding and reduce support load."
+            }
+          },
+          "cta": {
+            "title": "Create a branded link hub in minutes",
+            "button": "Create My PinBoard"
           }
         },
         "chatroomManagement": {

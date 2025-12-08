@@ -103,45 +103,45 @@
           "sectionTitle": "主要功能特色",
           "sectionSubtitle": "從自動回覆到真人接手，AI PinBot 為你的團隊提供完整的對話解決方案",
           "features": {
-            "smartFAQ": {
-              "title": "智慧回覆常見問題",
-              "description": "讓 AI 自動理解客戶問題，並即時提供準確答案。無需人工介入，大幅提升回覆效率，讓你的團隊專注於更重要的對話。",
+            "unifiedKnowledge": {
+              "title": "統一知識來源",
+              "description": "使用網址、上傳檔案和手動問答建立精準的 AI 回答，統整為一個持續更新的知識庫。",
               "benefits": {
-                "autoReply": "自動辨識並回覆重複性問題",
-                "consistent": "回覆內容一致、維持品牌語氣",
-                "quality": "AI 回覆品質由平台持續維護與升級"
+                "autoCrawl": "自動爬取網站內容",
+                "uploadFiles": "上傳 Word、CSV、PDF、TXT",
+                "manualQA": "隨時新增手動問答"
+              },
+              "imageAlt": "統一知識來源示意圖"
+            },
+            "smartFAQ": {
+              "title": "智慧常見問題自動化",
+              "description": "透過 AI 回覆即時解決重複性問題，保持一致性、符合品牌調性，並由 PinChat 持續優化。",
+              "benefits": {
+                "reduceWorkload": "減少重複性工作負擔",
+                "fastConsistent": "快速、一致的回覆",
+                "aiMaintained": "由 PinChat 維護的 AI"
               },
               "imageAlt": "AI 智慧回覆示意圖"
             },
-            "humanHandoff": {
-              "title": "真人接手不中斷",
-              "description": "當對話需要人工處理時，客服人員可隨時接手，完整保留對話脈絡。從 AI 到真人的轉換流暢自然，客戶體驗不中斷。",
+            "contextAwareMemory": {
+              "title": "情境感知 AI 記憶",
+              "description": "讓 AI 理解情境、解讀意圖，並在訊息間保持連續性，實現自然的多輪對話。",
               "benefits": {
-                "agentJoin": "客服可隨時加入對話",
-                "noRepeat": "顧客無需重複問題內容",
-                "smooth": "AI 與真人切換順暢自然"
+                "multiStepContext": "理解多步驟情境",
+                "avoidRepeat": "避免重複解釋",
+                "guidedFlows": "適合引導式流程"
+              },
+              "imageAlt": "情境感知 AI 記憶示意圖"
+            },
+            "humanHandoff": {
+              "title": "無縫真人接手",
+              "description": "從 AI 流暢切換到真人客服，完整保留對話脈絡，顧客無需重複說明。",
+              "benefits": {
+                "agentJoin": "客服可隨時加入",
+                "fullContext": "完整保留對話脈絡",
+                "smooth": "流暢、不中斷的交接"
               },
               "imageAlt": "真人接手示意圖"
-            },
-            "multilingual": {
-              "title": "多語支援",
-              "description": "支援多國語言自動辨識與回覆，幫助品牌輕鬆服務全球客戶。無論客戶使用哪種語言，都能獲得即時且準確的支援。",
-              "benefits": {
-                "autoDetect": "自動識別顧客語言",
-                "multiLang": "支援多國語對話與翻譯",
-                "global": "輕鬆拓展全球服務"
-              },
-              "imageAlt": "多語支援示意圖"
-            },
-            "noCode": {
-              "title": "零技術門檻",
-              "description": "無需寫程式或技術背景。只需貼上你的網站或 FAQ 連結，AI PinBot 即可快速學習並開始服務。幾分鐘內完成設定，立即上線。",
-              "benefits": {
-                "quickSetup": "幾分鐘內完成設定",
-                "easyConnect": "貼上網站或 FAQ 連結即可啟用",
-                "update": "後台可隨時更新內容"
-              },
-              "imageAlt": "零技術設定示意圖"
             }
           },
           "integrations": {
@@ -149,24 +149,96 @@
             "subtitle": "AI PinBot 可在 LINE、Messenger、Instagram、WhatsApp、以及 PinChat 網頁聊天室上運作，所有訊息集中管理。"
           },
           "useCases": {
-            "title": "AI PinBot 適用於各種情境",
-            "websiteChat": {
-              "title": "網站客服自動應答",
-              "description": "立即回應網站訪客的問題，提升轉換率。"
+            "title": "適用於真實客服情境",
+            "websiteEngagement": {
+              "title": "網站互動",
+              "description": "即時回覆提升轉換率。"
             },
-            "supportFlow": {
-              "title": "智慧客服流程",
-              "description": "結合 AI 即時回覆與人工服務，打造順暢且高效率的客服體驗。"
+            "customerSupportFlow": {
+              "title": "客服流程",
+              "description": "AI 過濾，真人解決。"
             },
-            "postPurchase": {
-              "title": "售後服務支援",
-              "description": "協助客戶追蹤訂單、解決問題，提升滿意度。"
+            "postPurchaseHelp": {
+              "title": "售後協助",
+              "description": "更快回覆，更順暢的後續服務。"
             }
           },
           "cta": {
             "title": "讓你的客服團隊更聰明",
             "subtitle": "立即啟用 AI PinBot，讓品牌服務更即時、更有溫度。",
             "button": "立即免費試用"
+          }
+        },
+        "pinBoardPage": {
+          "hero": {
+            "title": "您的個人化連結中心，提升客戶互動",
+            "subtitle": "建立一個品牌化、行動裝置就緒的連結頁面，統一所有行動、提升轉換率，並推動無縫對話。",
+            "cta": "建立我的 PinBoard",
+            "ctaSecondary": "了解更多",
+            "imageAlt": "PinBoard 個人化連結中心介面"
+          },
+          "sectionTitle": "核心功能",
+          "sectionSubtitle": "建立強大、以轉換為導向的連結頁面所需的一切",
+          "features": {
+            "flexibleBrandedLayouts": {
+              "title": "靈活版面與品牌設計",
+              "description": "建立一個簡潔、行動裝置優化的連結中心，突顯您的品牌，並透過可自訂的按鈕版面配置組織所有關鍵行動。",
+              "benefits": {
+                "multipleLayouts": "靈活的按鈕排列，提供清晰的使用者流程",
+                "fullControl": "完整控制顏色、字體和品牌形象",
+                "mobileFirst": "優化的行動裝置版面，適合社群流量"
+              },
+              "imageAlt": "靈活品牌化版面自訂介面"
+            },
+            "centralizedActions": {
+              "title": "統一行動中心",
+              "description": "將所有面向客戶的連結整合到一個簡化的頁面，減少摩擦，清晰引導訪客執行關鍵行動。",
+              "benefits": {
+                "showcaseLinks": "將所有連結整合到單一入口點",
+                "reduceFriction": "改善點擊率和轉換路徑",
+                "perfectForCampaigns": "非常適合活動、入門流程和促銷"
+              },
+              "imageAlt": "整合多個連結的集中行動中心"
+            },
+            "builtInChatEntry": {
+              "title": "內建聊天入口",
+              "description": "透過原生聊天按鈕將流量轉換為真實對話，直接引導每位訪客進入您的 PinChat 收件匣，獲得即時支援。",
+              "benefits": {
+                "launchInstantChat": "一鍵存取 PinChat 聊天",
+                "supportAIOrHuman": "支援 AI PinBot 和人工客服",
+                "minimizeDropOff": "透過即時互動減少跳出率"
+              },
+              "imageAlt": "PinBoard 上的內建聊天入口按鈕"
+            },
+            "insightfulAnalytics": {
+              "title": "流量與參與度洞察",
+              "description": "追蹤訪客行為、連結效能和參與度指標，持續優化您的 PinBoard 並改善轉換成果。",
+              "benefits": {
+                "viewLinkEngagement": "測量連結點擊和訪客趨勢",
+                "identifyHighPerforming": "識別表現最佳的內容",
+                "makeDataDriven": "透過清晰的洞察優化行動"
+              },
+              "imageAlt": "包含參與度指標的 PinBoard 分析儀表板"
+            }
+          },
+          "useCases": {
+            "title": "適用於各種支援場景",
+            "socialMediaBioLink": {
+              "title": "將社群追蹤者轉換為參與客戶",
+              "description": "使用 PinBoard 作為您的「個人簡介連結」，引導使用者從個人資料立即進入聊天和關鍵行動。"
+            },
+            "campaignLandingPage": {
+              "title": "快速啟動的活動和事件頁面",
+              "description": "無需工程工作即可發布輕量級、品牌化的登陸頁面，並直接連接到聊天。"
+            },
+            "customerOnboardingHub": {
+              "title": "為新客戶集中資源",
+              "description": "在一個地方提供文件、常見問題和聊天存取，以簡化入門流程並減少支援負擔。"
+            }
+          },
+          "cta": {
+            "title": "幾分鐘內建立品牌化連結中心",
+            "button": "建立我的 PinBoard"
           }
         },
         "chatroomManagement": {
