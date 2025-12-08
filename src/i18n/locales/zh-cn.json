@@ -194,14 +194,86 @@
     "events": "活动",
     "professionalServices": "专业服务",
     "serviceIndustries": "服务业",
-    "b2bCommercial": "B2B 商业"
+    "b2bCommercial": "B2B 商业",
+    "b2bCommercialPage": {
+      "cta": {
+        "title": "开始免费试用",
+        "button": "立即开始"
+      }
+    },
+    "serviceIndustriesPage": {
+      "cta": {
+        "title": "开始免费试用",
+        "button": "立即开始"
+      }
+    },
+    "educationPage": {
+      "cta": {
+        "title": "准备好转变您的课堂了吗？",
+        "button": "开始免费试用"
+      }
+    },
+    "healthcarePage": {
+      "cta": {
+        "title": "开始免费试用",
+        "button": "立即开始"
+      }
+    },
+    "professionalServicesPage": {
+      "cta": {
+        "title": "准备好加速您的客户关系了吗？",
+        "button": "开始免费试用"
+      }
+    },
+    "eventsPage": {
+      "cta": {
+        "title": "开始免费试用",
+        "button": "立即开始"
+      }
+    },
+    "realEstatePage": {
+      "cta": {
+        "title": "开始免费试用",
+        "button": "立即开始"
+      }
+    }
   },
   "solutions": {
     "aiCustomerService": "AI 客户服务机器人",
     "chatroomTeamManagement": "聊天室团队管理",
     "customerFeedbackAnalytics": "客户反馈分析",
     "leadCaptureSurveys": "潜在客户调查",
-    "multichannelMessaging": "多渠道消息中心"
+    "multichannelMessaging": "多渠道消息中心",
+    "aiCustomerServicePage": {
+      "cta": {
+        "title": "准备好部署您的 AI 助手了吗？",
+        "button": "立即创建我的机器人"
+      }
+    },
+    "chatroomTeamManagementPage": {
+      "cta": {
+        "title": "让您的团队更有组织",
+        "button": "整理我的聊天"
+      }
+    },
+    "customerFeedbackAnalyticsPage": {
+      "cta": {
+        "title": "开始做出数据驱动的决策",
+        "button": "查看我的分析"
+      }
+    },
+    "leadCaptureSurveysPage": {
+      "cta": {
+        "title": "今天就开始捕捉更好的潜在客户",
+        "button": "创建我的调查"
+      }
+    },
+    "multichannelMessagingPage": {
+      "cta": {
+        "title": "准备好集中管理您的消息了吗？",
+        "button": "免费开始"
+      }
+    }
   },
   "hero": {
     "title": "打造品牌专属的 AI 实时客服",

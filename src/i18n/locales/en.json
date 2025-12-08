@@ -262,14 +262,86 @@
     "events": "Events",
     "professionalServices": "Professional Services",
     "serviceIndustries": "Service Industries",
-    "b2bCommercial": "B2B Commercial"
+    "b2bCommercial": "B2B Commercial",
+    "b2bCommercialPage": {
+      "cta": {
+        "title": "Start Your Free Trial",
+        "button": "Get Started Now"
+      }
+    },
+    "serviceIndustriesPage": {
+      "cta": {
+        "title": "Start Your Free Trial",
+        "button": "Get Started Now"
+      }
+    },
+    "educationPage": {
+      "cta": {
+        "title": "Ready to Transform Your Classroom?",
+        "button": "Start Free Trial"
+      }
+    },
+    "healthcarePage": {
+      "cta": {
+        "title": "Start Your Free Trial",
+        "button": "Get Started Now"
+      }
+    },
+    "professionalServicesPage": {
+      "cta": {
+        "title": "Ready to Accelerate Your Client Relations?",
+        "button": "Start Free Trial"
+      }
+    },
+    "eventsPage": {
+      "cta": {
+        "title": "Start Your Free Trial",
+        "button": "Get Started Now"
+      }
+    },
+    "realEstatePage": {
+      "cta": {
+        "title": "Start Your Free Trial",
+        "button": "Get Started Now"
+      }
+    }
   },
   "solutions": {
     "aiCustomerService": "AI Customer Service Bot",
     "chatroomTeamManagement": "Chatroom Team Management",
     "customerFeedbackAnalytics": "Customer Feedback Analytics",
     "leadCaptureSurveys": "Lead Capture Surveys",
-    "multichannelMessaging": "Multichannel Messaging Hub"
+    "multichannelMessaging": "Multichannel Messaging Hub",
+    "aiCustomerServicePage": {
+      "cta": {
+        "title": "Ready to Deploy Your AI Assistant?",
+        "button": "Build My Bot Now"
+      }
+    },
+    "chatroomTeamManagementPage": {
+      "cta": {
+        "title": "Get Your Team Organized",
+        "button": "Organize My Chats"
+      }
+    },
+    "customerFeedbackAnalyticsPage": {
+      "cta": {
+        "title": "Start Making Data-Driven Decisions",
+        "button": "View My Analytics"
+      }
+    },
+    "leadCaptureSurveysPage": {
+      "cta": {
+        "title": "Start Capturing Better Leads Today",
+        "button": "Create My Survey"
+      }
+    },
+    "multichannelMessagingPage": {
+      "cta": {
+        "title": "Ready to Centralize Your Messages?",
+        "button": "Get Started Free"
+      }
+    }
   },
   "hero": {
     "title": "AI-Powered Live Chat, Tailored for Your Brand",

@@ -98,9 +98,9 @@ const LeadCaptureSurveys = () => {
 
           {/* CTA Section */}
           <section className="text-center py-16 bg-muted/50 rounded-lg">
-            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[48px] font-bold tracking-wide leading-normal lg:leading-[1.2] text-foreground mb-8">Start Capturing Better Leads Today</h2>
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[48px] font-bold tracking-wide leading-normal lg:leading-[1.2] text-foreground mb-8">{t('solutions.leadCaptureSurveysPage.cta.title')}</h2>
             <Button size="lg" className="text-base sm:text-lg">
-              Create My Survey
+              {t('solutions.leadCaptureSurveysPage.cta.button')}
             </Button>
           </section>
         </div>

@@ -98,9 +98,9 @@ const ForHealthcare = () => {
 
           {/* CTA Section */}
           <section className="text-center py-16 bg-muted/50 rounded-lg">
-            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[48px] font-bold tracking-wide leading-normal lg:leading-[1.2] text-foreground mb-8">Start Your Free Trial</h2>
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[48px] font-bold tracking-wide leading-normal lg:leading-[1.2] text-foreground mb-8">{t('industries.healthcarePage.cta.title')}</h2>
             <Button size="lg" className="text-base sm:text-lg">
-              Get Started Now
+              {t('industries.healthcarePage.cta.button')}
             </Button>
           </section>
         </div>

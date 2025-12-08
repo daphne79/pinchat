@@ -262,14 +262,86 @@
     "events": "活動",
     "professionalServices": "專業服務",
     "serviceIndustries": "服務業",
-    "b2bCommercial": "B2B 商業"
+    "b2bCommercial": "B2B 商業",
+    "b2bCommercialPage": {
+      "cta": {
+        "title": "開始免費試用",
+        "button": "立即開始"
+      }
+    },
+    "serviceIndustriesPage": {
+      "cta": {
+        "title": "開始免費試用",
+        "button": "立即開始"
+      }
+    },
+    "educationPage": {
+      "cta": {
+        "title": "準備好轉變您的課堂了嗎？",
+        "button": "開始免費試用"
+      }
+    },
+    "healthcarePage": {
+      "cta": {
+        "title": "開始免費試用",
+        "button": "立即開始"
+      }
+    },
+    "professionalServicesPage": {
+      "cta": {
+        "title": "準備好加速您的客戶關係了嗎？",
+        "button": "開始免費試用"
+      }
+    },
+    "eventsPage": {
+      "cta": {
+        "title": "開始免費試用",
+        "button": "立即開始"
+      }
+    },
+    "realEstatePage": {
+      "cta": {
+        "title": "開始免費試用",
+        "button": "立即開始"
+      }
+    }
   },
   "solutions": {
     "aiCustomerService": "AI 客戶服務機器人",
     "chatroomTeamManagement": "聊天室團隊管理",
     "customerFeedbackAnalytics": "客戶回饋分析",
     "leadCaptureSurveys": "潛在客戶調查",
-    "multichannelMessaging": "多渠道訊息中心"
+    "multichannelMessaging": "多渠道訊息中心",
+    "aiCustomerServicePage": {
+      "cta": {
+        "title": "準備好部署您的 AI 助手了嗎？",
+        "button": "立即建立我的機器人"
+      }
+    },
+    "chatroomTeamManagementPage": {
+      "cta": {
+        "title": "讓您的團隊更有組織",
+        "button": "整理我的聊天"
+      }
+    },
+    "customerFeedbackAnalyticsPage": {
+      "cta": {
+        "title": "開始做出數據驅動的決策",
+        "button": "查看我的分析"
+      }
+    },
+    "leadCaptureSurveysPage": {
+      "cta": {
+        "title": "今天就開始捕捉更好的潛在客戶",
+        "button": "建立我的調查"
+      }
+    },
+    "multichannelMessagingPage": {
+      "cta": {
+        "title": "準備好集中管理您的訊息了嗎？",
+        "button": "免費開始"
+      }
+    }
   },
   "hero": {
     "title": "打造品牌專屬的 AI 即時客服",

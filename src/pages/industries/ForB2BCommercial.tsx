@@ -109,10 +109,10 @@ const ForB2BCommercial = () => {
           <div className="container mx-auto">
             <div className="max-w-4xl mx-auto rounded-2xl bg-card border p-12 text-center">
               <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[48px] font-bold tracking-wide leading-normal lg:leading-[1.2] text-foreground mb-8">
-                Start Your Free Trial
+                {t('industries.b2bCommercialPage.cta.title')}
               </h2>
               <Button size="lg" className="text-base sm:text-lg">
-                Get Started Now
+                {t('industries.b2bCommercialPage.cta.button')}
               </Button>
             </div>
           </div>

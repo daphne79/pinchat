@@ -98,9 +98,9 @@ const ForProfessionalServices = () => {
 
           {/* CTA Section */}
           <section className="text-center py-16 bg-muted/50 rounded-lg">
-            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[48px] font-bold tracking-wide leading-normal lg:leading-[1.2] text-foreground mb-8">Ready to Accelerate Your Client Relations?</h2>
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[48px] font-bold tracking-wide leading-normal lg:leading-[1.2] text-foreground mb-8">{t('industries.professionalServicesPage.cta.title')}</h2>
             <Button size="lg" className="text-base sm:text-lg">
-              Start Free Trial
+              {t('industries.professionalServicesPage.cta.button')}
             </Button>
           </section>
         </div>

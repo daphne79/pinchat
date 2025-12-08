@@ -109,10 +109,10 @@ const AICustomerServiceBot = () => {
           <div className="container mx-auto">
             <div className="max-w-4xl mx-auto rounded-2xl bg-card border p-12 text-center">
               <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[48px] font-bold tracking-wide leading-normal lg:leading-[1.2] text-foreground mb-8">
-                Ready to Deploy Your AI Assistant?
+                {t('solutions.aiCustomerServicePage.cta.title')}
               </h2>
               <Button size="lg" className="text-base sm:text-lg">
-                Build My Bot Now
+                {t('solutions.aiCustomerServicePage.cta.button')}
               </Button>
             </div>
           </div>
