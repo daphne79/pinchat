@@ -146,8 +146,85 @@
         "aiPinbot": {
           "title": "人工智能拼版機器人",
           "description": "使用 AI 協助自動化對話"
+        }
+      },
+      "cta": {
+        "title": "立即開始使用聊天功能",
+        "button": "開始使用"
+      }
+    },
+    "brandingPage": {
+      "hero": {
+        "title": "打造一致的品牌體驗",
+        "subtitle": "以品牌專屬的色彩、字體、網域與 Meta 設定，讓每一次互動都保持一致、可信任，打造更具專業感的品牌接觸點。",
+        "cta": "開始設定",
+        "imageAlt": "品牌自訂設定介面"
+      },
+      "keyFeatures": {
+        "title": "核心功能",
+        "subtitle": "完整掌控品牌呈現的每個細節",
+        "feature1": {
+          "title": "統一品牌視覺",
+          "description": "讓所有聊天介面完整呈現品牌個性，打造更一致、可信賴的互動體驗。",
+          "benefits": {
+            "customize": "自訂主色、字體與 UI 細節",
+            "apply": "套用於 Chat、Widget、PinBoard",
+            "enhance": "強化品牌辨識度與專業形象"
+          },
+          "imageAlt": "統一品牌視覺設定"
         },
-        "chatWidgetPage": {
+        "feature2": {
+          "title": "綁定專屬網域",
+          "description": "以官方網域呈現所有互動頁面，立即提升訪客對品牌的信任感與專業度。",
+          "benefits": {
+            "setup": "快速設定品牌專屬 domain",
+            "apply": "套用於 Chat 與 PinBoard",
+            "build": "建立更高可信度的品牌體驗"
+          },
+          "imageAlt": "專屬網域設定"
+        },
+        "feature3": {
+          "title": "自訂標題與描述",
+          "description": "調整頁面在搜尋與預覽中的呈現方式，讓品牌資訊更易被找到、也更具吸引力。",
+          "benefits": {
+            "customize": "自訂 Meta Title 與 Description",
+            "optimize": "優化搜尋與社群分享曝光",
+            "apply": "適用於所有公開互動頁面"
+          },
+          "imageAlt": "SEO Meta 設定"
+        },
+        "feature4": {
+          "title": "移除 PinChat 標記",
+          "description": "付費方案可完全移除 PinChat 品牌元素，打造純淨、完整、專屬於你的官方體驗。",
+          "benefits": {
+            "hide": "隱藏所有 PinChat 品牌字樣",
+            "apply": "套用於 Chat 與 PinBoard",
+            "create": "打造更高級的白標互動介面"
+          },
+          "imageAlt": "移除品牌標記設定"
+        }
+      },
+      "exploreFeatures": {
+        "title": "探索其他功能",
+        "chatWidget": {
+          "title": "提升網站轉換",
+          "description": "以可自訂、可拖曳的網站聊天插件，快速將訪客轉化為對話與客源。"
+        },
+        "aiPinBot": {
+          "title": "自動化客服回覆",
+          "description": "智能處理 FAQ、支援多語言並可人工接手，是提升客服效率的最佳方式。"
+        },
+        "pinBoard": {
+          "title": "集中所有品牌連結",
+          "description": "打造品牌多連結入口，整合導流、資訊與聊天，提升每一次點擊的價值。"
+        }
+      },
+      "cta": {
+        "title": "立即啟用你的品牌專屬體驗",
+        "button": "開始設定"
+      }
+    },
+    "chatWidgetPage": {
           "hero": {
             "title": "在網站上與每位訪客即時連線",
             "subtitle": "以可客製、可拖曳、可接 AI 的 Chat Widget,將網站訪客轉換成真正的對話與商機。",
@@ -434,10 +511,6 @@
             "button": "建立我的 PinBoard"
           }
         },
-        "chatroomManagement": {
-          "title": "聊天室管理",
-          "description": "組織和管理所有對話"
-        },
         "chatroomManagementPage": {
           "hero": {
             "title": "集中管理每一則對話",
@@ -510,13 +583,7 @@
           }
         }
       },
-      "cta": {
-        "title": "用更好的聊天體驗迎接每位客戶",
-        "button": "開始建立聊天"
-      }
-    }
-  },
-  "industries": {
+    "industries": {
     "ecommerce": "電子商務",
     "retail": "零售",
     "healthcare": "醫療保健",

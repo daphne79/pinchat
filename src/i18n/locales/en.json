@@ -146,8 +146,85 @@
         "aiPinbot": {
           "title": "AI PinBot",
           "description": "Automate conversations with AI assistance"
+        }
+      },
+      "cta": {
+        "title": "Start Using Chat Features Now",
+        "button": "Get Started"
+      }
+    },
+    "brandingPage": {
+      "hero": {
+        "title": "Create a Consistent Brand Experience",
+        "subtitle": "With brand-specific colors, fonts, domains, and Meta settings, every interaction stays consistent and trustworthy, creating more professional brand touchpoints.",
+        "cta": "Start Setup",
+        "imageAlt": "Brand customization settings interface"
+      },
+      "keyFeatures": {
+        "title": "Key Features",
+        "subtitle": "Complete control over every detail of your brand presentation",
+        "feature1": {
+          "title": "Unified Brand Visuals",
+          "description": "Let all chat interfaces fully reflect your brand personality, creating a more consistent and trustworthy interaction experience.",
+          "benefits": {
+            "customize": "Customize primary colors, fonts, and UI details",
+            "apply": "Apply to Chat, Widget, and PinBoard",
+            "enhance": "Enhance brand recognition and professional image"
+          },
+          "imageAlt": "Unified brand visual settings"
         },
-        "chatWidgetPage": {
+        "feature2": {
+          "title": "Bind Your Exclusive Domain",
+          "description": "Present all interaction pages with your official domain, instantly boosting visitor trust and professionalism.",
+          "benefits": {
+            "setup": "Quickly set up your brand-exclusive domain",
+            "apply": "Apply to Chat and PinBoard",
+            "build": "Build a more credible brand experience"
+          },
+          "imageAlt": "Exclusive domain settings"
+        },
+        "feature3": {
+          "title": "Customize Titles and Descriptions",
+          "description": "Adjust how pages appear in search and previews, making brand information easier to find and more attractive.",
+          "benefits": {
+            "customize": "Customize Meta Title and Description",
+            "optimize": "Optimize search and social sharing exposure",
+            "apply": "Apply to all public interaction pages"
+          },
+          "imageAlt": "SEO Meta settings"
+        },
+        "feature4": {
+          "title": "Remove PinChat Branding",
+          "description": "Paid plans can completely remove PinChat brand elements, creating a clean, complete, official experience that's exclusively yours.",
+          "benefits": {
+            "hide": "Hide all PinChat brand text",
+            "apply": "Apply to Chat and PinBoard",
+            "create": "Create a premium white-label interaction interface"
+          },
+          "imageAlt": "Remove brand marking settings"
+        }
+      },
+      "exploreFeatures": {
+        "title": "Explore Other Features",
+        "chatWidget": {
+          "title": "Boost Website Conversion",
+          "description": "With customizable, draggable website chat widgets, quickly convert visitors into conversations and leads."
+        },
+        "aiPinBot": {
+          "title": "Automated Customer Service Replies",
+          "description": "Intelligently handle FAQs, support multiple languages, and enable human handoff—the best way to improve customer service efficiency."
+        },
+        "pinBoard": {
+          "title": "Centralize All Brand Links",
+          "description": "Create a brand multi-link entry point that integrates traffic routing, information, and chat, enhancing the value of every click."
+        }
+      },
+      "cta": {
+        "title": "Activate Your Exclusive Brand Experience Now",
+        "button": "Start Setup"
+      }
+    },
+    "chatWidgetPage": {
           "hero": {
             "title": "Connect with Every Visitor on Your Website in Real Time",
             "subtitle": "Turn website visitors into real conversations and opportunities with a customizable, draggable, AI-powered Chat Widget.",
@@ -434,10 +511,6 @@
             "button": "Create My PinBoard"
           }
         },
-        "chatroomManagement": {
-          "title": "Chatroom Management",
-          "description": "Organize and manage all conversations"
-        },
         "chatroomManagementPage": {
           "hero": {
             "title": "Centralize Every Conversation",
@@ -510,13 +583,7 @@
           }
         }
       },
-      "cta": {
-        "title": "Welcome Every Customer with Better Chat Experiences",
-        "button": "Start Building Chats"
-      }
-    }
-  },
-  "industries": {
+    "industries": {
     "ecommerce": "E-commerce",
     "retail": "Retail",
     "healthcare": "Healthcare",

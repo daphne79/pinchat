@@ -3,41 +3,36 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import FeatureNavigation from "@/components/FeatureNavigation";
 import Footer from "@/components/Footer";
-import { Palette, Globe, Share2, Search, MessageCircle, Link2 } from "lucide-react";
-import { useTranslationDirect } from '@/hooks/useTranslationDirect';
-import { useLanguageFont } from '@/hooks/useLanguageFont';
+import { Palette, Globe, FileText, Shield, MessageCircle, Bot, Link2 } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
 const Branding = () => {
-  const { t } = useTranslationDirect();
-  const { fontClass } = useLanguageFont();
-  return (
-    <>
+  const { t } = useTranslation();
+
+  return <>
       <FeatureNavigation />
       <main className="min-h-screen bg-background">
         {/* Hero Section */}
         <section className="py-20 md:py-28 px-4 sm:px-6 md:px-8 lg:px-12">
           <div className="container mx-auto">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-              <div className="animate-fade-in">
-                <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-[72px] font-bold tracking-wide mb-6 text-foreground leading-normal lg:leading-[1.2]">
-                  Make Every Chat Reflect Your Brand
-                </h1>
-                <p className="text-base sm:text-lg text-muted-foreground mb-8">
-                  Personalize chat appearance, domain, and meta settings to deliver a consistent, professional experience.
-                </p>
-                <div className="flex flex-col sm:flex-row gap-4">
-                  <Button size="lg" className="bg-[#02B13F] hover:bg-[#029f38] text-white text-base sm:text-lg">
-                    Customize Your Brand
-                  </Button>
-                  <Button size="lg" variant="outline" className="text-base sm:text-lg">
-                    Learn More
-                  </Button>
-                </div>
+            <div className="animate-fade-in">
+              <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-[72px] font-bold tracking-wide mb-6 text-foreground leading-normal lg:leading-[1.2]">
+                {t('features.brandingPage.hero.title')}
+              </h1>
+              <p className="text-base sm:text-lg text-muted-foreground mb-8">
+                {t('features.brandingPage.hero.subtitle')}
+              </p>
+              <div className="flex flex-col sm:flex-row gap-4">
+                <Button size="lg" className="bg-[#02B13F] hover:bg-[#029f38] text-white text-base sm:text-lg">
+                  {t('features.brandingPage.hero.cta')}
+                </Button>
               </div>
+            </div>
             <div className="min-h-64 sm:min-h-96 flex items-center justify-center animate-fade-in">
-              <img 
-                src="/lovable-uploads/0f86e706-3c73-418b-828f-4952b0f9ade6.png" 
-                alt="Brand customization with multiple chat interface color themes" 
+              <img
+                src="/lovable-uploads/0f86e706-3c73-418b-828f-4952b0f9ade6.png"
+                alt={t('features.brandingPage.hero.imageAlt')}
                 className="max-h-full max-w-full object-contain rounded-lg shadow-lg"
               />
             </div>
@@ -49,151 +44,214 @@ const Branding = () => {
         <section className="py-24 px-4 sm:px-6 md:px-8 lg:px-12 bg-background">
           <div className="container mx-auto">
             <div className="text-center mb-20">
-              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[48px] font-bold tracking-wide leading-normal lg:leading-[1.2] mb-4">
-                Complete Brand Control
-              </h2>
-              <p className="text-base sm:text-lg text-muted-foreground max-w-2xl mx-auto">
-                Customize every aspect of your chat experience to match your brand identity
-              </p>
-            </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-32">
-              <div className="text-center">
-                <div className="w-16 h-16 bg-[#02B13F]/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Palette className="w-8 h-8 text-[#02B13F]" />
-                </div>
-                <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold mb-2">Full Visual Control</h3>
-                <p className="text-sm sm:text-base text-muted-foreground">Custom avatar, nickname, background, and text colors</p>
-              </div>
-              <div className="text-center">
-                <div className="w-16 h-16 bg-[#02B13F]/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Link2 className="w-8 h-8 text-[#02B13F]" />
-                </div>
-                <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold mb-2">Custom Chat URL</h3>
-                <p className="text-sm sm:text-base text-muted-foreground">Create branded chat links that match your business</p>
-              </div>
-              <div className="text-center">
-                <div className="w-16 h-16 bg-[#02B13F]/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Globe className="w-8 h-8 text-[#02B13F]" />
-                </div>
-                <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold mb-2">Custom Domain</h3>
-                <p className="text-sm sm:text-base text-muted-foreground">Bind custom domain like chat.yourbrand.com</p>
-              </div>
-              <div className="text-center">
-                <div className="w-16 h-16 bg-[#02B13F]/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Search className="w-8 h-8 text-[#02B13F]" />
-                </div>
-                <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold mb-2">SEO Optimization</h3>
-                <p className="text-sm sm:text-base text-muted-foreground">Custom meta title, description, and preview images</p>
-              </div>
-            </div>
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[48px] font-bold tracking-wide leading-normal lg:leading-[1.2] mb-4">
+              {t('features.brandingPage.keyFeatures.title')}
+            </h2>
+            <p className="text-base sm:text-lg text-muted-foreground max-w-2xl mx-auto">
+              {t('features.brandingPage.keyFeatures.subtitle')}
+            </p>
+          </div>
 
-            {/* Feature Examples */}
-            <div className="space-y-32">
-              {/* Scenario 1: Text left, Image right */}
-              <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-                <div>
-                  <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold mb-4">Brand-Matched Appearance</h3>
-                  <p className="text-base sm:text-lg text-muted-foreground mb-4">
-                    Match your chat interface appearance perfectly with your brand website design.
-                  </p>
-                </div>
-                <div className="h-80 sm:h-96 flex items-center justify-center">
-                  <img 
-                    src="/lovable-uploads/dbcc8025-ef88-46dd-80cc-6de6c3dc2e5e.png" 
-                    alt="Professional workspace setup with custom UI branding" 
-                    className="max-h-full max-w-full object-contain rounded-lg"
-                  />
-                </div>
+          {/* Feature 1: Brand Appearance - Text Left, Visual Right */}
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center mb-32 animate-fade-in">
+            <div className="order-2 lg:order-1">
+              <div className="w-14 h-14 bg-[#02B13F]/10 rounded-2xl flex items-center justify-center mb-6">
+                <Palette className="w-7 h-7 text-[#02B13F]" />
               </div>
-              
-              {/* Scenario 2: Image left, Text right */}
-              <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-                <div className="order-2 lg:order-1 h-80 sm:h-96 flex items-center justify-center">
-                  <img 
-                    src="/lovable-uploads/6439e1b7-b813-4217-8c9b-c19291cb92c5.png" 
-                    alt="Custom domain URLs for professional branding" 
-                    className="max-h-full max-w-full object-contain rounded-lg"
-                  />
-                </div>
-                <div className="order-1 lg:order-2">
-                  <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold mb-4">Professional Custom Domain</h3>
-                  <p className="text-base sm:text-lg text-muted-foreground mb-4">
-                    Use your own domain for a professional appearance that builds customer trust.
-                  </p>
-                </div>
-              </div>
-              
-              {/* Scenario 3: Text left, Image right */}
-              <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-                <div>
-                  <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold mb-4">Social Media Integration</h3>
-                  <p className="text-base sm:text-lg text-muted-foreground mb-4">
-                    Show branded preview images when sharing your chat links on social media.
-                  </p>
-                </div>
-                <div className="h-80 sm:h-96 flex items-center justify-center">
-                  <img 
-                    src="/lovable-uploads/4a477088-32cc-47e1-a04a-1b540d456ddd.png" 
-                    alt="Branded chat interface with social media integration" 
-                    className="max-h-full max-w-full object-contain rounded-lg"
-                  />
-                </div>
-              </div>
+              <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold mb-4">
+                {t('features.brandingPage.keyFeatures.feature1.title')}
+              </h3>
+              <p className="text-sm sm:text-base text-muted-foreground mb-6">
+                {t('features.brandingPage.keyFeatures.feature1.description')}
+              </p>
+              <ul className="space-y-3 text-muted-foreground">
+                <li className="flex items-start gap-3">
+                  <span className="text-[#02B13F] mt-1">✓</span>
+                  <span>{t('features.brandingPage.keyFeatures.feature1.benefits.customize')}</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-[#02B13F] mt-1">✓</span>
+                  <span>{t('features.brandingPage.keyFeatures.feature1.benefits.apply')}</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-[#02B13F] mt-1">✓</span>
+                  <span>{t('features.brandingPage.keyFeatures.feature1.benefits.enhance')}</span>
+                </li>
+              </ul>
             </div>
+            <div className="order-1 lg:order-2">
+              <img
+                src="/lovable-uploads/dbcc8025-ef88-46dd-80cc-6de6c3dc2e5e.png"
+                alt={t('features.brandingPage.keyFeatures.feature1.imageAlt')}
+                className="w-full rounded-2xl shadow-xl"
+              />
+            </div>
+          </div>
+
+          {/* Feature 2: Custom Domain - Text Right, Visual Left */}
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center mb-32 animate-fade-in">
+            <div className="order-2">
+              <div className="w-14 h-14 bg-[#02B13F]/10 rounded-2xl flex items-center justify-center mb-6">
+                <Globe className="w-7 h-7 text-[#02B13F]" />
+              </div>
+              <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold mb-4">
+                {t('features.brandingPage.keyFeatures.feature2.title')}
+              </h3>
+              <p className="text-sm sm:text-base text-muted-foreground mb-6">
+                {t('features.brandingPage.keyFeatures.feature2.description')}
+              </p>
+              <ul className="space-y-3 text-muted-foreground">
+                <li className="flex items-start gap-3">
+                  <span className="text-[#02B13F] mt-1">✓</span>
+                  <span>{t('features.brandingPage.keyFeatures.feature2.benefits.setup')}</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-[#02B13F] mt-1">✓</span>
+                  <span>{t('features.brandingPage.keyFeatures.feature2.benefits.apply')}</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-[#02B13F] mt-1">✓</span>
+                  <span>{t('features.brandingPage.keyFeatures.feature2.benefits.build')}</span>
+                </li>
+              </ul>
+            </div>
+            <div className="order-1">
+              <img
+                src="/lovable-uploads/6439e1b7-b813-4217-8c9b-c19291cb92c5.png"
+                alt={t('features.brandingPage.keyFeatures.feature2.imageAlt')}
+                className="w-full rounded-2xl shadow-xl"
+              />
+            </div>
+          </div>
+
+          {/* Feature 3: SEO Meta Settings - Text Left, Visual Right */}
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center mb-32 animate-fade-in">
+            <div className="order-2 lg:order-1">
+              <div className="w-14 h-14 bg-[#02B13F]/10 rounded-2xl flex items-center justify-center mb-6">
+                <FileText className="w-7 h-7 text-[#02B13F]" />
+              </div>
+              <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold mb-4">
+                {t('features.brandingPage.keyFeatures.feature3.title')}
+              </h3>
+              <p className="text-sm sm:text-base text-muted-foreground mb-6">
+                {t('features.brandingPage.keyFeatures.feature3.description')}
+              </p>
+              <ul className="space-y-3 text-muted-foreground">
+                <li className="flex items-start gap-3">
+                  <span className="text-[#02B13F] mt-1">✓</span>
+                  <span>{t('features.brandingPage.keyFeatures.feature3.benefits.customize')}</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-[#02B13F] mt-1">✓</span>
+                  <span>{t('features.brandingPage.keyFeatures.feature3.benefits.optimize')}</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-[#02B13F] mt-1">✓</span>
+                  <span>{t('features.brandingPage.keyFeatures.feature3.benefits.apply')}</span>
+                </li>
+              </ul>
+            </div>
+            <div className="order-1 lg:order-2">
+              <img
+                src="/lovable-uploads/4a477088-32cc-47e1-a04a-1b540d456ddd.png"
+                alt={t('features.brandingPage.keyFeatures.feature3.imageAlt')}
+                className="w-full rounded-2xl shadow-xl"
+              />
+            </div>
+          </div>
+
+          {/* Feature 4: Remove PinChat Branding - Text Right, Visual Left */}
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center animate-fade-in">
+            <div className="order-2">
+              <div className="w-14 h-14 bg-[#02B13F]/10 rounded-2xl flex items-center justify-center mb-6">
+                <Shield className="w-7 h-7 text-[#02B13F]" />
+              </div>
+              <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold mb-4">
+                {t('features.brandingPage.keyFeatures.feature4.title')}
+              </h3>
+              <p className="text-sm sm:text-base text-muted-foreground mb-6">
+                {t('features.brandingPage.keyFeatures.feature4.description')}
+              </p>
+              <ul className="space-y-3 text-muted-foreground">
+                <li className="flex items-start gap-3">
+                  <span className="text-[#02B13F] mt-1">✓</span>
+                  <span>{t('features.brandingPage.keyFeatures.feature4.benefits.hide')}</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-[#02B13F] mt-1">✓</span>
+                  <span>{t('features.brandingPage.keyFeatures.feature4.benefits.apply')}</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-[#02B13F] mt-1">✓</span>
+                  <span>{t('features.brandingPage.keyFeatures.feature4.benefits.create')}</span>
+                </li>
+              </ul>
+            </div>
+            <div className="order-1">
+              <img
+                src="/lovable-uploads/0f86e706-3c73-418b-828f-4952b0f9ade6.png"
+                alt={t('features.brandingPage.keyFeatures.feature4.imageAlt')}
+                className="w-full rounded-2xl shadow-xl"
+              />
+            </div>
+          </div>
           </div>
         </section>
 
-        {/* Use Case Section */}
+        {/* Explore Other Features Section */}
         <section className="py-20 px-4 sm:px-6 md:px-8 lg:px-12 bg-muted/30">
           <div className="container mx-auto">
             <div className="text-center mb-12">
-              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[48px] font-bold tracking-wide leading-normal lg:leading-[1.2] mb-6">
-                Related Features
-              </h2>
-            </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <Card>
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[48px] font-bold tracking-wide leading-normal lg:leading-[1.2] mb-6">
+              {t('features.brandingPage.exploreFeatures.title')}
+            </h2>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+            <Card className="border-none shadow-sm">
               <CardHeader>
-                <div className="w-12 h-12 bg-[#02B13F]/10 rounded-lg flex items-center justify-center mb-4">
-                  <MessageCircle className="w-6 h-6 text-[#02B13F]" />
+                <div className="w-14 h-14 bg-[#02B13F]/10 rounded-xl flex items-center justify-center mb-4">
+                  <MessageCircle className="w-7 h-7 text-[#02B13F]" />
                 </div>
-                <CardTitle>Chat Widget</CardTitle>
-                <CardDescription>Branded chat widgets for your website</CardDescription>
+                <CardTitle className="text-lg sm:text-xl md:text-2xl lg:text-3xl">
+                  {t('features.brandingPage.exploreFeatures.chatWidget.title')}
+                </CardTitle>
               </CardHeader>
               <CardContent>
-                <Button variant="outline" asChild>
-                  <Link to="/features/chat-widget">{t('common.learnMore')}</Link>
-                </Button>
+                <p className="text-sm sm:text-base text-muted-foreground">
+                  {t('features.brandingPage.exploreFeatures.chatWidget.description')}
+                </p>
               </CardContent>
             </Card>
-            
-            <Card>
+
+            <Card className="border-none shadow-sm">
               <CardHeader>
-                <div className="w-12 h-12 bg-[#02B13F]/10 rounded-lg flex items-center justify-center mb-4">
-                  <Link2 className="w-6 h-6 text-[#02B13F]" />
+                <div className="w-14 h-14 bg-[#02B13F]/10 rounded-xl flex items-center justify-center mb-4">
+                  <Bot className="w-7 h-7 text-[#02B13F]" />
                 </div>
-                <CardTitle>PinBoard</CardTitle>
-                <CardDescription>Branded link pages with custom themes</CardDescription>
+                <CardTitle className="text-lg sm:text-xl md:text-2xl lg:text-3xl">
+                  {t('features.brandingPage.exploreFeatures.aiPinBot.title')}
+                </CardTitle>
               </CardHeader>
               <CardContent>
-                <Button variant="outline" asChild>
-                  <Link to="/features/pinboard">{t('common.learnMore')}</Link>
-                </Button>
+                <p className="text-sm sm:text-base text-muted-foreground">
+                  {t('features.brandingPage.exploreFeatures.aiPinBot.description')}
+                </p>
               </CardContent>
             </Card>
-            
-            <Card>
+
+            <Card className="border-none shadow-sm">
               <CardHeader>
-                <div className="w-12 h-12 bg-[#02B13F]/10 rounded-lg flex items-center justify-center mb-4">
-                  <Share2 className="w-6 h-6 text-[#02B13F]" />
+                <div className="w-14 h-14 bg-[#02B13F]/10 rounded-xl flex items-center justify-center mb-4">
+                  <Link2 className="w-7 h-7 text-[#02B13F]" />
                 </div>
-                <CardTitle>Analytics</CardTitle>
-                <CardDescription>Track performance of branded experiences</CardDescription>
+                <CardTitle className="text-lg sm:text-xl md:text-2xl lg:text-3xl">
+                  {t('features.brandingPage.exploreFeatures.pinBoard.title')}
+                </CardTitle>
               </CardHeader>
               <CardContent>
-                <Button variant="outline" asChild>
-                  <Link to="/features/analytics">{t('common.learnMore')}</Link>
-                </Button>
+                <p className="text-sm sm:text-base text-muted-foreground">
+                  {t('features.brandingPage.exploreFeatures.pinBoard.description')}
+                </p>
               </CardContent>
             </Card>
           </div>
@@ -204,22 +262,21 @@ const Branding = () => {
         <section className="py-20 px-4 sm:px-6 md:px-8 lg:px-12">
           <div className="container mx-auto">
             <div className="bg-gradient-to-br from-[#02B13F]/10 via-[#02B13F]/5 to-background rounded-3xl p-12 sm:p-16 text-center max-w-4xl mx-auto shadow-lg">
-              <div className="w-16 h-16 bg-[#02B13F]/20 rounded-full flex items-center justify-center mx-auto mb-6">
-                <Palette className="w-8 h-8 text-[#02B13F]" />
-              </div>
-              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[48px] font-bold tracking-wide leading-normal lg:leading-[1.2] mb-8">
-                Ready to Create Your Branded Experience?
-              </h2>
-              <Button size="lg" className="bg-[#02B13F] hover:bg-[#029f38] text-white text-base sm:text-lg min-w-[200px]">
-                Start Customizing
-              </Button>
+            <div className="w-16 h-16 bg-[#02B13F]/20 rounded-full flex items-center justify-center mx-auto mb-6">
+              <Palette className="w-8 h-8 text-[#02B13F]" />
             </div>
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[48px] font-bold tracking-wide leading-normal lg:leading-[1.2] mb-8">
+              {t('features.brandingPage.cta.title')}
+            </h2>
+            <Button size="lg" className="bg-[#02B13F] hover:bg-[#029f38] text-white text-base sm:text-lg min-w-[200px]">
+              {t('features.brandingPage.cta.button')}
+            </Button>
+          </div>
           </div>
         </section>
       </main>
       <Footer />
-    </>
-  );
+    </>;
 };
 
 export default Branding;
