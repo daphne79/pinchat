@@ -9,9 +9,9 @@
     "useCase": "Use Case"
   },
   "features": {
-    "pinboard": "PinBoard",
-    "aiPinbot": "AI PinBot",
-    "faqPinbot": "FAQ PinBot",
+    "pinboard": "Welcome Page",
+    "aiPinbot": "AI Chatbot",
+    "faqPinbot": "FAQ Chatbot",
     "chatWidget": "Chat Widget",
     "analytics": "Analytics",
     "branding": "Branding & Customization",
