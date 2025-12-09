@@ -581,6 +581,77 @@
             "title": "Improve Chat Management Efficiency Now",
             "button": "Start Using"
           }
+        },
+        "subAccountPage": {
+          "hero": {
+            "title": "Make Team Collaboration More Efficient and Secure",
+            "subtitle": "Easily manage multiple members' operational scope through role and permission controls, ensuring smooth and consistent customer service and sales processes while maintaining data security and brand professionalism.",
+            "cta": "Create Team Account",
+            "imageAlt": "Sub-account management and team collaboration interface"
+          },
+          "keyFeatures": {
+            "title": "Key Features",
+            "subtitle": "Complete team collaboration and permission management solution",
+            "feature1": {
+              "title": "Faster, Effortless Member Addition",
+              "description": "Add team accounts through a single process, enabling new members to immediately get into work mode and integrate faster into your customer service or sales operations.",
+              "benefits": {
+                "step": "Add team members with clear steps",
+                "assign": "Assign roles and start working immediately",
+                "reduce": "Reduce setup time for new member onboarding"
+              },
+              "imageAlt": "Team member addition process"
+            },
+            "feature2": {
+              "title": "Clear Roles and Permissions",
+              "description": "Precisely set what each member can view and operate, ensuring information security, operational transparency, and preventing unnecessary misoperations.",
+              "benefits": {
+                "setRole": "Set clear operational scope for different roles",
+                "control": "Control visibility permissions for chatrooms, data, and settings pages",
+                "maintain": "Help teams maintain consistent operational standards"
+              },
+              "imageAlt": "Role and permission management interface"
+            },
+            "feature3": {
+              "title": "Support Cross-Team Customer Service and Sales Processes",
+              "description": "Whether it's customer service replies, sales follow-ups, or marketing lead generation, all can collaborate on the same platform, ensuring unified messaging and smooth processes.",
+              "benefits": {
+                "suitable": "Suitable for multi-scenario needs in customer service, sales, and marketing",
+                "collaborate": "All members collaborate on the same platform",
+                "maintain": "Maintain unified brand reply quality"
+              },
+              "imageAlt": "Cross-team collaboration process"
+            },
+            "feature4": {
+              "title": "Stably Maintain Data and Account Security",
+              "description": "Through permission controls and clear access scopes, ensure secure and manageable operational architecture when expanding or adjusting teams.",
+              "benefits": {
+                "prevent": "Prevent sensitive information from misuse or leakage",
+                "maintain": "Maintain a long-term manageable account management architecture",
+                "enhance": "Enhance overall internal information security standards"
+              },
+              "imageAlt": "Data and account security management"
+            }
+          },
+          "exploreFeatures": {
+            "title": "Explore Other Features",
+            "aiPinBot": {
+              "title": "Automatically Handle Common Questions",
+              "description": "Use multilingual AI to automatically reply to FAQs, and seamlessly hand over to humans when needed, reducing customer service burden while maintaining consistent reply quality."
+            },
+            "chatroomManagement": {
+              "title": "Quickly Organize All Chatrooms",
+              "description": "Use labels and folders to clearly categorize large volumes of conversations, improving customer service search, reply, and tracking efficiency."
+            },
+            "analytics": {
+              "title": "Master Interaction and Traffic Performance",
+              "description": "Extract insights from chat volume, sources, and click performance to help you optimize sales and customer service strategies."
+            }
+          },
+          "cta": {
+            "title": "Start Building Your Team Collaboration Workflow",
+            "button": "Get Started Now"
+          }
         }
       },
     "industries": {
