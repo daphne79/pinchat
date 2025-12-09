@@ -20,10 +20,65 @@
     "chat": "Chat",
     "chatPage": {
       "hero": {
-        "title": "Start Conversations Instantly, One-to-One or in Groups",
-        "subtitle": "Open direct or group chats through PinChat links, keeping every interaction simple and seamless.",
-        "cta": "Start for free",
-        "imageAlt": "One-on-one chat conversation interface"
+        "title": "Chat System for Real-Time Brand-User Engagement",
+        "subtitle": "Seamless one-on-one and group chats, multimedia messaging, and customizable interface experiences that keep brands connected naturally, instantly, and with quality in every interaction.",
+        "cta": "Get Started",
+        "imageAlt": "PinChat chat system interface"
+      },
+      "keyFeatures": {
+        "title": "Key Features",
+        "subtitle": "Complete chat solution built for customer service teams",
+        "feature1": {
+          "title": "One-on-One & Group Chat Support",
+          "description": "Flexibly handle customer service, sales, and collaboration needs, enabling teams to manage different chat scenarios more efficiently.",
+          "benefits": {
+            "versatile": "Suitable for customer service, sales, and cross-departmental collaboration",
+            "actions": "Support for reply, recall, annotation, and other operations",
+            "switching": "Quickly switch between conversations in one interface"
+          }
+        },
+        "feature2": {
+          "title": "Multimedia & Sticker Support",
+          "description": "Supplement text with images, videos, voice, and stickers to make communication clearer and more complete.",
+          "benefits": {
+            "media": "Transfer images, videos, and various file types",
+            "voice": "Support voice message playback",
+            "stickers": "Use stickers to make interactions more natural"
+          }
+        },
+        "feature3": {
+          "title": "Customizable Operations & UI Settings",
+          "description": "Freely adjust chatroom functions and appearance according to brand style and customer service needs to create a consistent experience.",
+          "benefits": {
+            "branding": "Adjust chatroom colors and brand visuals",
+            "controls": "Control chatroom button display and behavior",
+            "workflow": "Provide operations that better fit workflows"
+          }
+        },
+        "feature4": {
+          "title": "Design for Enhanced Conversation Quality",
+          "description": "Improve overall interaction efficiency with intuitive message operations, allowing brands and users to maintain smooth two-way communication in every exchange.",
+          "benefits": {
+            "interactions": "Quickly complete interactions with reply, recall, and message reactions",
+            "search": "Quickly search and view message history and media content",
+            "organize": "Support deleting and hiding chatrooms to keep interface clean"
+          }
+        }
+      },
+      "exploreFeatures": {
+        "title": "Explore Other Features",
+        "aiPinBot": {
+          "title": "AI PinBot Automated Customer Service",
+          "description": "Answer common questions, support multiple languages, and seamlessly hand off to human agents, letting teams focus on complex needs."
+        },
+        "chatWidget": {
+          "title": "Chat Widget Website Entry Point",
+          "description": "Quickly embed a draggable, customizable chat interface on your website to boost visitor engagement and conversion efficiency."
+        },
+        "pinBoard": {
+          "title": "PinBoard Multi-Link Marketing Page",
+          "description": "Create a multi-link page for traffic routing and brand information display, with chat entry points to enhance customer interaction."
+        }
       },
       "benefits": {
         "title": "Powerful Chat Features",
@@ -247,9 +302,8 @@
         }
       },
       "cta": {
-        "title": "Build Your Live Chat Now",
-        "subtitle": "Start connecting with your customers instantly today.",
-        "button": "Get Started"
+        "title": "Welcome Every Customer with Better Chat Experiences",
+        "button": "Start Building Chats"
       }
     }
   },

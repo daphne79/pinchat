@@ -19,6 +19,67 @@
     "chatroomManagement": "聊天室管理",
     "subAccount": "子账号",
     "chatPage": {
+      "hero": {
+        "title": "让品牌与用户保持即时互动的聊天系统",
+        "subtitle": "流畅的一对一与群组聊天、多媒体消息与可调整的界面体验，让品牌能在各种情境中维持自然、即时且高品质的双向互动。",
+        "cta": "开始使用",
+        "imageAlt": "PinChat 聊天系统界面"
+      },
+      "keyFeatures": {
+        "title": "核心功能",
+        "subtitle": "为客服团队打造的完整聊天解决方案",
+        "feature1": {
+          "title": "支持一对一与群组聊天",
+          "description": "灵活处理客服、销售与协作需求，让团队能更有效率地管理不同聊天情境。",
+          "benefits": {
+            "versatile": "适用客服、销售与跨部门协作",
+            "actions": "支持回复、撤回、标注等操作",
+            "switching": "在同一界面中快速切换对话"
+          }
+        },
+        "feature2": {
+          "title": "多媒体与贴图支持",
+          "description": "以图片、视频、语音与贴图补充文字不足，使沟通更清楚、信息更完整。",
+          "benefits": {
+            "media": "传输图片、视频与各类文件",
+            "voice": "支持语音消息播放",
+            "stickers": "使用贴图让互动更自然"
+          }
+        },
+        "feature3": {
+          "title": "可调整的操作与 UI 设定",
+          "description": "依照品牌风格与客服需求，自由调整聊天室功能与外观，打造一致的使用体验。",
+          "benefits": {
+            "branding": "调整聊天室色彩与品牌视觉",
+            "controls": "控制聊天室按钮的显示与行为",
+            "workflow": "提供更符合流程的操作方式"
+          }
+        },
+        "feature4": {
+          "title": "提升对话互动品质的设计",
+          "description": "以直觉的消息操作设计提升整体互动效率，让品牌与用户能在每次交流中保持顺畅的双向沟通。",
+          "benefits": {
+            "interactions": "以回复、撤回与消息反应等操作快速完成互动",
+            "search": "快速搜索与查看历史消息与媒体内容",
+            "organize": "支持删除与隐藏聊天室保持界面整洁"
+          }
+        }
+      },
+      "exploreFeatures": {
+        "title": "探索其他功能",
+        "aiPinBot": {
+          "title": "AI PinBot 自动化客服助理",
+          "description": "协助回答常见问题、支持多语系并可无缝切换人工接手，让团队更专注于复杂需求。"
+        },
+        "chatWidget": {
+          "title": "Chat Widget 网站聊天入口",
+          "description": "在网站上快速嵌入可拖曳、可客制化的聊天界面，提升访客互动与转换效率。"
+        },
+        "pinBoard": {
+          "title": "PinBoard 多链接营销页面",
+          "description": "打造可导流、可呈现品牌信息的多链接页，并加入聊天入口提升顾客互动。"
+        }
+      },
       "benefits": {
         "title": "强大的聊天功能",
         "subtitle": "满足无缝沟通所需的一切"
@@ -182,6 +243,10 @@
             "button": "创建我的 PinBoard"
           }
         }
+      },
+      "cta": {
+        "title": "用更好的聊天体验迎接每位客户",
+        "button": "开始建立聊天"
       }
     }
   },
