@@ -15,15 +15,15 @@ const Analytics = () => {
         {/* Hero Section */}
         <section className="py-20 md:py-28 px-4 sm:px-6 md:px-8 lg:px-12">
           <div className="container mx-auto">
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-              <div className="animate-fade-in">
+            <div className="max-w-4xl mx-auto">
+              <div className="animate-fade-in text-center mb-8">
                 <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-[72px] font-bold tracking-wide mb-6 text-foreground leading-normal lg:leading-[1.2]">
                   Collect Feedback and Discover Insights
                 </h1>
                 <p className="text-base sm:text-lg text-muted-foreground mb-8">
                   Run surveys, gather responses, and track performance data to improve customer engagement.
                 </p>
-                <div className="flex flex-col sm:flex-row gap-4">
+                <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
                   <Button size="lg" className="bg-[#02B13F] hover:bg-[#029f38] text-white text-base sm:text-lg">
                     View Analytics Dashboard
                   </Button>
@@ -32,10 +32,10 @@ const Analytics = () => {
                   </Button>
                 </div>
               </div>
-            <div className="min-h-64 sm:min-h-96 flex items-center justify-center animate-fade-in">
-              <img src="/lovable-uploads/b1acf01e-622e-46d0-be79-527db756bbf9.png" alt="Comprehensive analytics dashboard with detailed metrics and graphs" className="max-h-full max-w-full object-contain rounded-lg shadow-lg" />
+              <div className="min-h-64 sm:min-h-96 flex items-center justify-center animate-fade-in">
+                <img src="/lovable-uploads/b1acf01e-622e-46d0-be79-527db756bbf9.png" alt="Comprehensive analytics dashboard with detailed metrics and graphs" className="max-h-full max-w-full object-contain rounded-lg shadow-lg" />
+              </div>
             </div>
-          </div>
           </div>
         </section>
 
