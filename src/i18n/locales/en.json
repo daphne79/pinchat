@@ -147,6 +147,72 @@
           "title": "AI PinBot",
           "description": "Automate conversations with AI assistance"
         },
+        "chatWidgetPage": {
+          "hero": {
+            "title": "Connect with Every Visitor on Your Website in Real Time",
+            "subtitle": "Turn website visitors into real conversations and opportunities with a customizable, draggable, AI-powered Chat Widget.",
+            "cta": "Get Started with Chat Widget"
+          },
+          "keyFeatures": {
+            "title": "Key Features",
+            "subtitle": "Complete chat solution built for your website",
+            "feature1": {
+              "title": "Enable with One Line of Code",
+              "description": "Simply paste one line of code to instantly add a draggable chat window to your website that doesn't block content, ensuring visitors can start conversations without disrupting their browsing experience.",
+              "benefits": {
+                "quickInstall": "Install Chat Widget quickly with one line of code",
+                "draggable": "Draggable window avoids blocking website content",
+                "userExperience": "Maintain optimal browsing and interaction experience"
+              }
+            },
+            "feature2": {
+              "title": "Fully Customizable Brand Experience",
+              "description": "Make the Widget blend perfectly with your website style through color, font, and UI settings, providing a consistent and professional brand impression.",
+              "benefits": {
+                "customization": "Full control over colors, fonts, and UI",
+                "branding": "Support custom welcome messages and customer service info",
+                "consistency": "Maintain consistent branded conversation experience"
+              }
+            },
+            "feature3": {
+              "title": "Integrate AI PinBot for 24/7 Auto-Reply",
+              "description": "AI can instantly answer common questions and hand off to human agents when needed, reducing customer service burden and improving overall response efficiency.",
+              "benefits": {
+                "aiResponse": "AI Bot handles common questions instantly",
+                "handoff": "Seamless switching between AI ↔ human agents",
+                "efficiency": "Increase response speed and save labor costs"
+              }
+            },
+            "feature4": {
+              "title": "Real-Time Communication Entry for Better Conversion",
+              "description": "Provide a conversation entry point when visitors need help, increasing inquiries and interaction depth, making your website a true conversion starting point.",
+              "benefits": {
+                "engagement": "Real-time conversations increase inquiries and interactions",
+                "tracking": "Support source tracking and behavior analysis",
+                "conversion": "Effectively guide visitors to complete conversions"
+              }
+            }
+          },
+          "exploreFeatures": {
+            "title": "Explore Other Features",
+            "pinBoard": {
+              "title": "Create Branded Multi-Link Pages",
+              "description": "Centralize traffic links and chat entry points to improve conversion efficiency from social traffic."
+            },
+            "aiPinBot": {
+              "title": "Automated Customer Service & Smart Replies",
+              "description": "Provide FAQ, language detection, and human handoff to improve customer service efficiency."
+            },
+            "dataAnalysis": {
+              "title": "Master Chat & Conversion Performance",
+              "description": "View visitor sources, interaction curves, and chat analysis to improve decision accuracy."
+            }
+          },
+          "cta": {
+            "title": "Create a More Real-Time Conversation Experience for Your Website",
+            "button": "Enable Chat Widget"
+          }
+        },
         "aiPinbotPage": {
           "hero": {
             "title": "Smarter conversations, less workload",

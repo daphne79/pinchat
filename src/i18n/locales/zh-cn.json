@@ -94,6 +94,72 @@
           "title": "AI PinBot",
           "description": "使用 AI 协助自动化对话"
         },
+        "chatWidgetPage": {
+          "hero": {
+            "title": "在网站上与每位访客即时连线",
+            "subtitle": "以可客制、可拖曳、可接 AI 的 Chat Widget,将网站访客转换成真正的对话与商机。",
+            "cta": "开始使用 Chat Widget"
+          },
+          "keyFeatures": {
+            "title": "核心功能",
+            "subtitle": "为网站打造的完整聊天解决方案",
+            "feature1": {
+              "title": "一行代码即可启用",
+              "description": "只需要贴上一行代码,即可让网站立即拥有可拖曳、不遮挡内容的聊天窗口,确保访客在不影响阅读的情况下随时展开对话。",
+              "benefits": {
+                "quickInstall": "一行代码快速安装 Chat Widget",
+                "draggable": "拖曳窗口避免遮挡网站内容",
+                "userExperience": "维持最佳的浏览与互动体验"
+              }
+            },
+            "feature2": {
+              "title": "全面客制化品牌体验",
+              "description": "通过颜色、字体与 UI 设定让 Widget 完美融入网站风格,提供一致且专业的品牌印象。",
+              "benefits": {
+                "customization": "颜色、字体与 UI 完整可调",
+                "branding": "支持自定义欢迎语与客服信息",
+                "consistency": "维持一致的品牌化对话体验"
+              }
+            },
+            "feature3": {
+              "title": "接入 AI PinBot,自动回复 24/7",
+              "description": "AI 能即时回答常见问题,并在需要时交由人工接手,降低客服负担并提升整体回复效率。",
+              "benefits": {
+                "aiResponse": "AI Bot 即时处理常见问题",
+                "handoff": "AI ↔ 人工客服可自由切换",
+                "efficiency": "提升回复速度并节省人力成本"
+              }
+            },
+            "feature4": {
+              "title": "提升转换的即时沟通入口",
+              "description": "在访客需要协助的当下提供对话入口,提升咨询量与互动深度,让网站成为真正的转换起点。",
+              "benefits": {
+                "engagement": "即时对话提升询问与互动量",
+                "tracking": "支持来源追踪与行为分析",
+                "conversion": "有效引导访客完成转换"
+              }
+            }
+          },
+          "exploreFeatures": {
+            "title": "探索其他功能",
+            "pinBoard": {
+              "title": "打造品牌化多链接页",
+              "description": "集中导流链接与聊天入口,提升社群流量的转换效率。"
+            },
+            "aiPinBot": {
+              "title": "自动化客服与智能回复",
+              "description": "提供 FAQ、语言检测与人工切换,提升客服效率。"
+            },
+            "dataAnalysis": {
+              "title": "掌握聊天与转换成效",
+              "description": "查看访客来源、互动曲线与聊天分析,提高决策准确度。"
+            }
+          },
+          "cta": {
+            "title": "为您的网站建立更即时的对话体验",
+            "button": "启用 Chat Widget"
+          }
+        },
         "aiPinbotPage": {
           "hero": {
             "title": "更智能的对话，更少的工作量",

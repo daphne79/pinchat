@@ -1,44 +1,38 @@
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import FeatureNavigation from "@/components/FeatureNavigation";
 import Footer from "@/components/Footer";
-import { Code, Palette, TrendingUp, Zap, MessageCircle, Settings } from "lucide-react";
-import { useTranslationDirect } from '@/hooks/useTranslationDirect';
-import { useLanguageFont } from '@/hooks/useLanguageFont';
+import { Code, Bot, BarChart3, Link2, MessageSquare } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
 const ChatWidget = () => {
-  const { t } = useTranslationDirect();
-  const { fontClass } = useLanguageFont();
-  return (
-    <>
+  const { t } = useTranslation();
+
+  return <>
       <FeatureNavigation />
       <main className="min-h-screen bg-background">
         {/* Hero Section */}
         <section className="py-20 md:py-28 px-4 sm:px-6 md:px-8 lg:px-12">
           <div className="container mx-auto">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-              <div className="animate-fade-in">
-                <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-[72px] font-bold tracking-wide mb-6 text-foreground leading-normal lg:leading-[1.2]">
-                  Engage Website Visitors in Real Time
-                </h1>
-                <p className="text-base sm:text-lg text-muted-foreground mb-8">
-                  Add a chat button to your site and answer questions instantly, turning visitors into customers.
-                </p>
-                <div className="flex flex-col sm:flex-row gap-4">
-                  <Button size="lg" className="bg-[#02B13F] hover:bg-[#029f38] text-white text-base sm:text-lg">
-                    Add Widget to Site
-                  </Button>
-                  <Button size="lg" variant="outline" className="text-base sm:text-lg">
-                    Learn More
-                  </Button>
-                </div>
+            <div className="animate-fade-in">
+              <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-[72px] font-bold tracking-wide mb-6 text-foreground leading-normal lg:leading-[1.2]">
+                {t('features.chatPage.relatedFeatures.chatWidgetPage.hero.title')}
+              </h1>
+              <p className="text-base sm:text-lg text-muted-foreground mb-8">
+                {t('features.chatPage.relatedFeatures.chatWidgetPage.hero.subtitle')}
+              </p>
+              <div className="flex flex-col sm:flex-row gap-4">
+                <Button size="lg" className="bg-[#02B13F] hover:bg-[#029f38] text-white text-base sm:text-lg">
+                  {t('features.chatPage.relatedFeatures.chatWidgetPage.hero.cta')}
+                </Button>
               </div>
+            </div>
             <div className="min-h-64 sm:min-h-96 flex items-center justify-center animate-fade-in">
-              <img 
-                src="/lovable-uploads/567624dd-5545-4f61-8e0d-86f4513f673d.png" 
-                alt="Website chat widget integration with professional design" 
-                loading="eager"
+              <img
+                src="/lovable-uploads/567624dd-5545-4f61-8e0d-86f4513f673d.png"
+                alt="Chat Widget 介面"
                 className="max-h-full max-w-full object-contain rounded-lg shadow-lg"
               />
             </div>
@@ -46,160 +40,218 @@ const ChatWidget = () => {
           </div>
         </section>
 
-        {/* Key Benefits */}
-        <section className="py-16 px-4 sm:px-6 md:px-8 lg:px-12">
+        {/* Feature Highlights Section */}
+        <section className="py-24 px-4 sm:px-6 md:px-8 lg:px-12 bg-background">
           <div className="container mx-auto">
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              <div className="text-center">
-                <div className="w-16 h-16 bg-[#02B13F]/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Code className="w-8 h-8 text-[#02B13F]" />
-                </div>
-                <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold mb-2">Auto-generated Code</h3>
-                <p className="text-sm sm:text-base text-muted-foreground">Get embed code directly from your dashboard, copy and paste</p>
+            <div className="text-center mb-20">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[48px] font-bold tracking-wide leading-normal lg:leading-[1.2] mb-4">
+              {t('features.chatPage.relatedFeatures.chatWidgetPage.keyFeatures.title')}
+            </h2>
+            <p className="text-base sm:text-lg text-muted-foreground max-w-2xl mx-auto">
+              {t('features.chatPage.relatedFeatures.chatWidgetPage.keyFeatures.subtitle')}
+            </p>
+          </div>
+
+          {/* Feature 1: One Line of Code - Text Left, Visual Right */}
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center mb-32 animate-fade-in">
+            <div className="order-2 lg:order-1">
+              <div className="w-14 h-14 bg-[#02B13F]/10 rounded-2xl flex items-center justify-center mb-6">
+                <Code className="w-7 h-7 text-[#02B13F]" />
               </div>
-              <div className="text-center">
-                <div className="w-16 h-16 bg-[#02B13F]/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Palette className="w-8 h-8 text-[#02B13F]" />
-                </div>
-                <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold mb-2">Full Customization</h3>
-                <p className="text-sm sm:text-base text-muted-foreground">Customize button text, colors, and icons to match your brand</p>
-              </div>
-              <div className="text-center">
-                <div className="w-16 h-16 bg-[#02B13F]/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <TrendingUp className="w-8 h-8 text-[#02B13F]" />
-                </div>
-                <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold mb-2">Boost Engagement</h3>
-                <p className="text-sm sm:text-base text-muted-foreground">Increase visitor engagement and inquiry conversion rates</p>
-              </div>
+              <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold mb-4">
+                {t('features.chatPage.relatedFeatures.chatWidgetPage.keyFeatures.feature1.title')}
+              </h3>
+              <p className="text-sm sm:text-base text-muted-foreground mb-6">
+                {t('features.chatPage.relatedFeatures.chatWidgetPage.keyFeatures.feature1.description')}
+              </p>
+              <ul className="space-y-3 text-muted-foreground">
+                <li className="flex items-start gap-3">
+                  <span className="text-[#02B13F] mt-1">✓</span>
+                  <span>{t('features.chatPage.relatedFeatures.chatWidgetPage.keyFeatures.feature1.benefits.quickInstall')}</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-[#02B13F] mt-1">✓</span>
+                  <span>{t('features.chatPage.relatedFeatures.chatWidgetPage.keyFeatures.feature1.benefits.draggable')}</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-[#02B13F] mt-1">✓</span>
+                  <span>{t('features.chatPage.relatedFeatures.chatWidgetPage.keyFeatures.feature1.benefits.userExperience')}</span>
+                </li>
+              </ul>
             </div>
+            <div className="order-1 lg:order-2">
+              <img
+                src="/lovable-uploads/567624dd-5545-4f61-8e0d-86f4513f673d.png"
+                alt="一行程式碼安裝"
+                className="w-full rounded-2xl shadow-xl"
+              />
+            </div>
+          </div>
+
+          {/* Feature 2: Full Customization - Text Right, Visual Left */}
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center mb-32 animate-fade-in">
+            <div className="order-2">
+              <div className="w-14 h-14 bg-[#02B13F]/10 rounded-2xl flex items-center justify-center mb-6">
+                <MessageSquare className="w-7 h-7 text-[#02B13F]" />
+              </div>
+              <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold mb-4">
+                {t('features.chatPage.relatedFeatures.chatWidgetPage.keyFeatures.feature2.title')}
+              </h3>
+              <p className="text-sm sm:text-base text-muted-foreground mb-6">
+                {t('features.chatPage.relatedFeatures.chatWidgetPage.keyFeatures.feature2.description')}
+              </p>
+              <ul className="space-y-3 text-muted-foreground">
+                <li className="flex items-start gap-3">
+                  <span className="text-[#02B13F] mt-1">✓</span>
+                  <span>{t('features.chatPage.relatedFeatures.chatWidgetPage.keyFeatures.feature2.benefits.customization')}</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-[#02B13F] mt-1">✓</span>
+                  <span>{t('features.chatPage.relatedFeatures.chatWidgetPage.keyFeatures.feature2.benefits.branding')}</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-[#02B13F] mt-1">✓</span>
+                  <span>{t('features.chatPage.relatedFeatures.chatWidgetPage.keyFeatures.feature2.benefits.consistency')}</span>
+                </li>
+              </ul>
+            </div>
+            <div className="order-1">
+              <img
+                src="/lovable-uploads/80bf9a84-1b53-4ce8-a90d-e35b64f9bede.png"
+                alt="全面客製化"
+                className="w-full rounded-2xl shadow-xl"
+              />
+            </div>
+          </div>
+
+          {/* Feature 3: AI Integration - Text Left, Visual Right */}
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center mb-32 animate-fade-in">
+            <div className="order-2 lg:order-1">
+              <div className="w-14 h-14 bg-[#02B13F]/10 rounded-2xl flex items-center justify-center mb-6">
+                <Bot className="w-7 h-7 text-[#02B13F]" />
+              </div>
+              <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold mb-4">
+                {t('features.chatPage.relatedFeatures.chatWidgetPage.keyFeatures.feature3.title')}
+              </h3>
+              <p className="text-sm sm:text-base text-muted-foreground mb-6">
+                {t('features.chatPage.relatedFeatures.chatWidgetPage.keyFeatures.feature3.description')}
+              </p>
+              <ul className="space-y-3 text-muted-foreground">
+                <li className="flex items-start gap-3">
+                  <span className="text-[#02B13F] mt-1">✓</span>
+                  <span>{t('features.chatPage.relatedFeatures.chatWidgetPage.keyFeatures.feature3.benefits.aiResponse')}</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-[#02B13F] mt-1">✓</span>
+                  <span>{t('features.chatPage.relatedFeatures.chatWidgetPage.keyFeatures.feature3.benefits.handoff')}</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-[#02B13F] mt-1">✓</span>
+                  <span>{t('features.chatPage.relatedFeatures.chatWidgetPage.keyFeatures.feature3.benefits.efficiency')}</span>
+                </li>
+              </ul>
+            </div>
+            <div className="order-1 lg:order-2">
+              <img
+                src="/lovable-uploads/9c291ddb-6f79-4def-a631-bacb9ba5ae36.png"
+                alt="AI PinBot 整合"
+                className="w-full rounded-2xl shadow-xl"
+              />
+            </div>
+          </div>
+
+          {/* Feature 4: Conversion Optimization - Text Right, Visual Left */}
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center animate-fade-in">
+            <div className="order-2">
+              <div className="w-14 h-14 bg-[#02B13F]/10 rounded-2xl flex items-center justify-center mb-6">
+                <BarChart3 className="w-7 h-7 text-[#02B13F]" />
+              </div>
+              <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold mb-4">
+                {t('features.chatPage.relatedFeatures.chatWidgetPage.keyFeatures.feature4.title')}
+              </h3>
+              <p className="text-sm sm:text-base text-muted-foreground mb-6">
+                {t('features.chatPage.relatedFeatures.chatWidgetPage.keyFeatures.feature4.description')}
+              </p>
+              <ul className="space-y-3 text-muted-foreground">
+                <li className="flex items-start gap-3">
+                  <span className="text-[#02B13F] mt-1">✓</span>
+                  <span>{t('features.chatPage.relatedFeatures.chatWidgetPage.keyFeatures.feature4.benefits.engagement')}</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-[#02B13F] mt-1">✓</span>
+                  <span>{t('features.chatPage.relatedFeatures.chatWidgetPage.keyFeatures.feature4.benefits.tracking')}</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-[#02B13F] mt-1">✓</span>
+                  <span>{t('features.chatPage.relatedFeatures.chatWidgetPage.keyFeatures.feature4.benefits.conversion')}</span>
+                </li>
+              </ul>
+            </div>
+            <div className="order-1">
+              <img
+                src="/lovable-uploads/8dbcaac0-c9fe-4b49-b27d-23157b741613.png"
+                alt="提升轉換"
+                className="w-full rounded-2xl shadow-xl"
+              />
+            </div>
+          </div>
           </div>
         </section>
 
-        {/* Feature in Action */}
-        <section className="py-16 px-4 sm:px-6 md:px-8 lg:px-12">
+        {/* Explore Other Features Section */}
+        <section className="py-20 px-4 sm:px-6 md:px-8 lg:px-12 bg-muted/30">
           <div className="container mx-auto">
-            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[48px] font-bold tracking-wide leading-normal lg:leading-[1.2] text-center mb-16">Transform Your Website with Widgets</h2>
-            <div className="space-y-24">
-              {/* Scenario 1: Text left, Image right */}
-              <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-                <div>
-                  <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold mb-4">Instant Support Access</h3>
-                  <p className="text-base sm:text-lg text-muted-foreground mb-4">
-                    Add an instant support button at the bottom-right of your website for immediate customer assistance.
-                  </p>
-                </div>
-              <div className="h-80 sm:h-96 flex items-center justify-center">
-                <img 
-                  src="/lovable-uploads/9c291ddb-6f79-4def-a631-bacb9ba5ae36.png" 
-                  alt="Customer support chat widget on website" 
-                  className="max-h-full max-w-full object-contain"
-                />
-              </div>
-            </div>
-            
-            {/* Scenario 2: Image left, Text right */}
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-              <div className="order-2 lg:order-1 h-80 sm:h-96 flex items-center justify-center">
-                <img 
-                  src="/lovable-uploads/80bf9a84-1b53-4ce8-a90d-e35b64f9bede.png" 
-                  alt="Multiple chat widget styles and color variations" 
-                  loading="lazy"
-                  className="max-h-full max-w-full object-contain"
-                />
-              </div>
-              <div className="order-1 lg:order-2">
-                <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold mb-4">Product Inquiry Button</h3>
-                <p className="text-base sm:text-lg text-muted-foreground mb-4">
-                  Place inquiry buttons on blog posts or product pages to capture interested visitors instantly.
-                </p>
-              </div>
-            </div>
-            
-              {/* Scenario 3: Text left, Image right */}
-              <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-                <div>
-                  <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold mb-4">Event Page Integration</h3>
-                  <p className="text-base sm:text-lg text-muted-foreground mb-4">
-                    Enable live chat access on event pages for real-time Q&A and engagement.
-                  </p>
-                </div>
-              <div className="h-80 sm:h-96 flex items-center justify-center">
-                <img 
-                  src="/lovable-uploads/8dbcaac0-c9fe-4b49-b27d-23157b741613.png" 
-                  alt="Custom chat widget styles for different page types" 
-                  loading="lazy"
-                  className="max-h-full max-w-full object-contain"
-                />
-              </div>
-            </div>
-            
-            {/* Scenario 4: Image left, Text right */}
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-              <div className="order-2 lg:order-1 h-80 sm:h-96 flex items-center justify-center">
-                <img 
-                  src="/lovable-uploads/81870951-e839-4774-880b-90919b651eae.png" 
-                  alt="Multi-platform chat widget styles and customization options" 
-                  className="max-h-full max-w-full object-contain"
-                />
-              </div>
-              <div className="order-1 lg:order-2">
-                <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold mb-4">Custom Styling</h3>
-                <p className="text-base sm:text-lg text-muted-foreground mb-4">
-                  Customize widget appearance for different pages to match your content style.
-                </p>
-              </div>
-              </div>
-            </div>
+            <div className="text-center mb-12">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[48px] font-bold tracking-wide leading-normal lg:leading-[1.2] mb-6">
+              {t('features.chatPage.relatedFeatures.chatWidgetPage.exploreFeatures.title')}
+            </h2>
           </div>
-        </section>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+            <Card className="border-none shadow-sm">
+              <CardHeader>
+                <div className="w-14 h-14 bg-[#02B13F]/10 rounded-xl flex items-center justify-center mb-4">
+                  <Link2 className="w-7 h-7 text-[#02B13F]" />
+                </div>
+                <CardTitle className="text-lg sm:text-xl md:text-2xl lg:text-3xl">
+                  {t('features.chatPage.relatedFeatures.chatWidgetPage.exploreFeatures.pinBoard.title')}
+                </CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-sm sm:text-base text-muted-foreground">
+                  {t('features.chatPage.relatedFeatures.chatWidgetPage.exploreFeatures.pinBoard.description')}
+                </p>
+              </CardContent>
+            </Card>
 
-        {/* Related Features */}
-        <section className="py-16 px-4 sm:px-6 md:px-8 lg:px-12">
-          <div className="container mx-auto">
-            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[48px] font-bold tracking-wide leading-normal lg:leading-[1.2] text-center mb-12">Related Features</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <Card>
+            <Card className="border-none shadow-sm">
               <CardHeader>
-                <div className="w-12 h-12 bg-[#02B13F]/10 rounded-lg flex items-center justify-center mb-4">
-                  <MessageCircle className="w-6 h-6 text-[#02B13F]" />
+                <div className="w-14 h-14 bg-[#02B13F]/10 rounded-xl flex items-center justify-center mb-4">
+                  <Bot className="w-7 h-7 text-[#02B13F]" />
                 </div>
-                <CardTitle>Chat</CardTitle>
-                <CardDescription>Instant one-on-one and group conversations</CardDescription>
+                <CardTitle className="text-lg sm:text-xl md:text-2xl lg:text-3xl">
+                  {t('features.chatPage.relatedFeatures.chatWidgetPage.exploreFeatures.aiPinBot.title')}
+                </CardTitle>
               </CardHeader>
               <CardContent>
-                <Button variant="outline" asChild>
-                  <Link to="/features/chat">{t('common.learnMore')}</Link>
-                </Button>
+                <p className="text-sm sm:text-base text-muted-foreground">
+                  {t('features.chatPage.relatedFeatures.chatWidgetPage.exploreFeatures.aiPinBot.description')}
+                </p>
               </CardContent>
             </Card>
-            
-            <Card>
+
+            <Card className="border-none shadow-sm">
               <CardHeader>
-                <div className="w-12 h-12 bg-[#02B13F]/10 rounded-lg flex items-center justify-center mb-4">
-                  <Settings className="w-6 h-6 text-[#02B13F]" />
+                <div className="w-14 h-14 bg-[#02B13F]/10 rounded-xl flex items-center justify-center mb-4">
+                  <BarChart3 className="w-7 h-7 text-[#02B13F]" />
                 </div>
-                <CardTitle>Branding & Customization</CardTitle>
-                <CardDescription>Customize appearance and domain settings</CardDescription>
+                <CardTitle className="text-lg sm:text-xl md:text-2xl lg:text-3xl">
+                  {t('features.chatPage.relatedFeatures.chatWidgetPage.exploreFeatures.dataAnalysis.title')}
+                </CardTitle>
               </CardHeader>
               <CardContent>
-                <Button variant="outline" asChild>
-                  <Link to="/features/branding">{t('common.learnMore')}</Link>
-                </Button>
-              </CardContent>
-            </Card>
-            
-            <Card>
-              <CardHeader>
-                <div className="w-12 h-12 bg-[#02B13F]/10 rounded-lg flex items-center justify-center mb-4">
-                  <TrendingUp className="w-6 h-6 text-[#02B13F]" />
-                </div>
-                <CardTitle>Analytics</CardTitle>
-                <CardDescription>Track engagement and performance metrics</CardDescription>
-              </CardHeader>
-              <CardContent>
-                <Button variant="outline" asChild>
-                  <Link to="/features/analytics">{t('common.learnMore')}</Link>
-                </Button>
+                <p className="text-sm sm:text-base text-muted-foreground">
+                  {t('features.chatPage.relatedFeatures.chatWidgetPage.exploreFeatures.dataAnalysis.description')}
+                </p>
               </CardContent>
             </Card>
           </div>
@@ -210,22 +262,21 @@ const ChatWidget = () => {
         <section className="py-20 px-4 sm:px-6 md:px-8 lg:px-12">
           <div className="container mx-auto">
             <div className="bg-gradient-to-br from-[#02B13F]/10 via-[#02B13F]/5 to-background rounded-3xl p-12 sm:p-16 text-center max-w-4xl mx-auto shadow-lg">
-              <div className="w-16 h-16 bg-[#02B13F]/20 rounded-full flex items-center justify-center mx-auto mb-6">
-                <Code className="w-8 h-8 text-[#02B13F]" />
-              </div>
-              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[48px] font-bold tracking-wide leading-normal lg:leading-[1.2] mb-8">
-                Ready to Add Chat to Your Website?
-              </h2>
-              <Button size="lg" className="bg-[#02B13F] hover:bg-[#029f38] text-white text-base sm:text-lg min-w-[200px]">
-                Get Widget Code
-              </Button>
+            <div className="w-16 h-16 bg-[#02B13F]/20 rounded-full flex items-center justify-center mx-auto mb-6">
+              <MessageSquare className="w-8 h-8 text-[#02B13F]" />
             </div>
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[48px] font-bold tracking-wide leading-normal lg:leading-[1.2] mb-8">
+              {t('features.chatPage.relatedFeatures.chatWidgetPage.cta.title')}
+            </h2>
+            <Button size="lg" className="bg-[#02B13F] hover:bg-[#029f38] text-white text-base sm:text-lg min-w-[200px]">
+              {t('features.chatPage.relatedFeatures.chatWidgetPage.cta.button')}
+            </Button>
+          </div>
           </div>
         </section>
       </main>
       <Footer />
-    </>
-  );
+    </>;
 };
 
 export default ChatWidget;
