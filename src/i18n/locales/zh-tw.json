@@ -655,67 +655,73 @@
         },
         "analyticsPage": {
           "hero": {
-            "title": "收集回饋並發掘洞察",
-            "subtitle": "執行問卷調查、收集回應並追蹤表現數據，提升客戶參與度。",
-            "cta": "查看數據分析儀表板",
-            "ctaSecondary": "了解更多",
-            "imageAlt": "包含詳細指標與圖表的完整數據分析儀表板"
+            "title": "全方位數據洞察，一站掌握互動成效",
+            "subtitle": "以清晰的圖表與完整的行為數據，深入了解聊天量、來源、問卷回覆等互動表現，協助你快速找出流量來源、優化客服流程並提升轉換成果。",
+            "cta": "開始分析成效",
+            "imageAlt": "PinChat Analytics 數據分析儀表板"
           },
-          "sectionTitle": "強大的數據分析功能",
-          "sectionSubtitle": "完整的工具來收集回饋、追蹤表現並發掘洞察",
+          "sectionTitle": "核心功能",
+          "sectionSubtitle": "完整的數據分析工具，協助你掌握服務現況並持續優化",
           "features": {
-            "conversationalSurveys": {
-              "title": "對話式問卷",
-              "description": "多種問題類型，以聊天式問卷格式呈現"
+            "chatInsights": {
+              "title": "聊天量與互動趨勢",
+              "description": "透過多維度圖表掌握聊天量、活躍時段與客服負擔，協助你優化營運節奏與人力配置。",
+              "benefits": {
+                "dailyTrends": "查看每日與週期聊天量變化",
+                "peakHours": "分析高峰時段與使用者活躍時間",
+                "sourceTracking": "追蹤聊天互動成效與來源差異"
+              },
+              "imageAlt": "聊天量與互動趨勢分析圖表"
             },
-            "visualResults": {
-              "title": "視覺化結果",
-              "description": "視覺化結果，支援匯出與交叉分析功能"
+            "trafficSource": {
+              "title": "訪客來源與轉換分析",
+              "description": "全面掌握每位用戶的進入管道與互動表現，協助你判斷哪些來源帶來最佳成果。",
+              "benefits": {
+                "sourceTracking": "追蹤訪客從不同入口的來源占比",
+                "engagementDepth": "分析各流量來源的互動深度與成效",
+                "conversionEffect": "評估不同渠道在活動期間的轉換效果"
+              },
+              "imageAlt": "訪客來源與轉換分析"
             },
-            "integratedData": {
-              "title": "整合數據",
-              "description": "結合點擊、互動與問卷數據"
+            "linkPerformance": {
+              "title": "按鈕與連結點擊洞察",
+              "description": "專為 PinBoard（歡迎頁面）設計的連結點擊分析，協助你掌握每個按鈕的實際導流成效，並快速調整導流策略。",
+              "benefits": {
+                "clickTracking": "追蹤 PinBoard 上各按鈕與連結的實際點擊數",
+                "behaviorAnalysis": "分析訪客在 PinBoard 內的導流行為與偏好",
+                "effectEvaluation": "評估 PinBoard 按鈕配置與活動導流效果"
+              },
+              "imageAlt": "PinBoard 按鈕與連結點擊洞察分析"
             },
-            "timeFiltered": {
-              "title": "時間篩選分析",
-              "description": "視覺化分析，支援自訂時間篩選器"
+            "surveyAnalytics": {
+              "title": "問卷回覆與使用者意見",
+              "description": "以對話式問卷回應資料完整呈現，快速了解客戶意見、滿意度與需求趨勢。",
+              "benefits": {
+                "responseDistribution": "查看每題回覆分布與統計指標",
+                "completionRate": "追蹤使用者提交率與完成度",
+                "feedbackSummary": "匯總回饋用於產品與營運決策"
+              },
+              "imageAlt": "問卷回覆與使用者意見分析"
             }
           },
-          "examples": {
-            "customerSatisfaction": {
-              "title": "客戶滿意度追蹤",
-              "description": "執行客戶滿意度問卷調查，搭配趨勢分析以提升服務品質。",
-              "imageAlt": "客戶滿意度星級評分問卷介面"
+          "useCases": {
+            "title": "適用於各種使用情境",
+            "optimizeService": {
+              "title": "優化客服與營運流程",
+              "description": "透過聊天量分析與來源追蹤，快速辨識高峰時段與關鍵入口，協助配置人力並改善回覆效率。"
             },
-            "interactiveSurveys": {
-              "title": "互動式活動問卷",
-              "description": "在活動期間建立吸引人的問卷，收集回饋、提升參與度，並更深入了解你的受眾。",
-              "imageAlt": "多種問題類型的互動式問卷介面"
+            "boostMarketing": {
+              "title": "提升行銷活動表現",
+              "description": "透過連結點擊與互動趨勢，清楚判斷哪個活動、素材或渠道帶來最佳轉換，讓預算運用更有效。"
             },
-            "performanceTracking": {
-              "title": "表現追蹤",
-              "description": "追蹤所有接觸點的點擊、互動與參與表現。",
-              "imageAlt": "表現成長追蹤與數據分析洞察"
-            }
-          },
-          "relatedFeatures": {
-            "title": "相關功能",
-            "pinBoard": {
-              "title": "PinBoard",
-              "description": "追蹤連結點擊與參與指標"
-            },
-            "chatWidget": {
-              "title": "Chat Widget",
-              "description": "直接將聊天嵌入您的網站"
-            },
-            "chatroomManagement": {
-              "title": "聊天室管理",
-              "description": "匯出客戶數據進行分析"
+            "accelerateProduct": {
+              "title": "加速產品策略迭代",
+              "description": "整合問卷回覆、使用者行為與互動數據，協助你快速找出需求趨勢，做出更準確的產品調整。"
             }
           },
           "cta": {
-            "title": "準備好解鎖數據洞察了嗎？",
-            "button": "開始使用數據分析"
+            "title": "開始以數據驅動你的決策",
+            "button": "啟用 Analytics"
           }
         }
       },

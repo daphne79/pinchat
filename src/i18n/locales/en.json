@@ -655,67 +655,73 @@
         },
         "analyticsPage": {
           "hero": {
-            "title": "Collect Feedback and Discover Insights",
-            "subtitle": "Run surveys, gather responses, and track performance data to improve customer engagement.",
-            "cta": "View Analytics Dashboard",
-            "ctaSecondary": "Learn More",
-            "imageAlt": "Comprehensive analytics dashboard with detailed metrics and graphs"
+            "title": "Comprehensive Data Insights, All in One Place",
+            "subtitle": "Gain deep insights into chat volume, traffic sources, survey responses, and interaction performance with clear charts and comprehensive behavioral data. Quickly identify traffic sources, optimize customer service workflows, and improve conversion results.",
+            "cta": "Start Analyzing Performance",
+            "imageAlt": "PinChat Analytics dashboard"
           },
-          "sectionTitle": "Powerful Analytics Features",
-          "sectionSubtitle": "Comprehensive tools to collect feedback, track performance, and discover insights",
+          "sectionTitle": "Key Features",
+          "sectionSubtitle": "Complete analytics tools to help you understand service status and continuously optimize",
           "features": {
-            "conversationalSurveys": {
-              "title": "Conversational Surveys",
-              "description": "Multiple question types in chat-like survey format"
+            "chatInsights": {
+              "title": "Chat Volume and Interaction Trends",
+              "description": "Understand chat volume, peak hours, and customer service workload through multi-dimensional charts, helping you optimize operational rhythms and resource allocation.",
+              "benefits": {
+                "dailyTrends": "View daily and periodic chat volume changes",
+                "peakHours": "Analyze peak hours and user active times",
+                "sourceTracking": "Track chat interaction performance and source differences"
+              },
+              "imageAlt": "Chat volume and interaction trends analysis charts"
             },
-            "visualResults": {
-              "title": "Visual Results",
-              "description": "Visualized results with export and cross-analysis capabilities"
+            "trafficSource": {
+              "title": "Traffic Source and Conversion Analysis",
+              "description": "Comprehensively understand each user's entry channels and interaction performance, helping you identify which sources deliver the best results.",
+              "benefits": {
+                "sourceTracking": "Track visitor source distribution from different entry points",
+                "engagementDepth": "Analyze engagement depth and performance of each traffic source",
+                "conversionEffect": "Evaluate conversion effectiveness of different channels during campaigns"
+              },
+              "imageAlt": "Traffic source and conversion analysis"
             },
-            "integratedData": {
-              "title": "Integrated Data",
-              "description": "Combine clicks, interactions, and survey data"
+            "linkPerformance": {
+              "title": "Button and Link Click Insights",
+              "description": "Link click analysis designed specifically for PinBoard (welcome page), helping you understand the actual traffic performance of each button and quickly adjust traffic strategies.",
+              "benefits": {
+                "clickTracking": "Track actual click counts for each button and link on PinBoard",
+                "behaviorAnalysis": "Analyze visitor traffic behavior and preferences within PinBoard",
+                "effectEvaluation": "Evaluate PinBoard button configuration and campaign traffic effectiveness"
+              },
+              "imageAlt": "PinBoard button and link click insights analysis"
             },
-            "timeFiltered": {
-              "title": "Time-filtered Analytics",
-              "description": "Visual analytics with customizable time filters"
+            "surveyAnalytics": {
+              "title": "Survey Responses and User Feedback",
+              "description": "Present conversational survey response data comprehensively, quickly understand customer opinions, satisfaction levels, and demand trends.",
+              "benefits": {
+                "responseDistribution": "View response distribution and statistical metrics for each question",
+                "completionRate": "Track user submission and completion rates",
+                "feedbackSummary": "Aggregate feedback for product and operational decisions"
+              },
+              "imageAlt": "Survey responses and user feedback analysis"
             }
           },
-          "examples": {
-            "customerSatisfaction": {
-              "title": "Customer Satisfaction Tracking",
-              "description": "Run customer satisfaction surveys with trend analysis to improve service quality.",
-              "imageAlt": "Customer satisfaction star rating survey interface"
+          "useCases": {
+            "title": "Versatile for All Your Use Cases",
+            "optimizeService": {
+              "title": "Optimize Customer Service and Operations",
+              "description": "Quickly identify peak hours and key entry points through chat volume analysis and source tracking, helping you allocate resources and improve response efficiency."
             },
-            "interactiveSurveys": {
-              "title": "Interactive Event Surveys",
-              "description": "Create engaging surveys during events to gather feedback, boost participation, and better understand your audience.",
-              "imageAlt": "Interactive survey interface with multiple question types"
+            "boostMarketing": {
+              "title": "Enhance Marketing Campaign Performance",
+              "description": "Clearly determine which campaigns, materials, or channels deliver the best conversions through link clicks and interaction trends, making budget allocation more effective."
             },
-            "performanceTracking": {
-              "title": "Performance Tracking",
-              "description": "Track clicks, interactions, and engagement performance across all touchpoints.",
-              "imageAlt": "Performance growth tracking and analytics insights"
-            }
-          },
-          "relatedFeatures": {
-            "title": "Related Features",
-            "pinBoard": {
-              "title": "PinBoard",
-              "description": "Track link clicks and engagement metrics"
-            },
-            "chatWidget": {
-              "title": "Chat Widget",
-              "description": "Embed chat directly into your website"
-            },
-            "chatroomManagement": {
-              "title": "Chatroom Management",
-              "description": "Export customer data for analysis"
+            "accelerateProduct": {
+              "title": "Accelerate Product Strategy Iteration",
+              "description": "Integrate survey responses, user behavior, and interaction data to quickly identify demand trends and make more accurate product adjustments."
             }
           },
           "cta": {
-            "title": "Ready to Unlock Data Insights?",
-            "button": "Start Analytics"
+            "title": "Start Making Data-Driven Decisions",
+            "button": "Enable Analytics"
           }
         }
       },

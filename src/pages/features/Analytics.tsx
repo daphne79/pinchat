@@ -3,11 +3,12 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import FeatureNavigation from "@/components/FeatureNavigation";
 import Footer from "@/components/Footer";
-import { BarChart3, FileText, TrendingUp, Filter, MessageCircle, Users, Sparkles } from "lucide-react";
+import { BarChart3, TrendingUp, Globe, Link2, FileText, Settings, Target, Zap, Sparkles } from "lucide-react";
 import { useTranslation } from "react-i18next";
 
 const Analytics = () => {
   const { t } = useTranslation();
+
   return <>
       <FeatureNavigation />
       <main className="min-h-screen bg-background">
@@ -26,13 +27,14 @@ const Analytics = () => {
                   <Button size="lg" className="bg-[#02B13F] hover:bg-[#029f38] text-white text-base sm:text-lg">
                     {t('features.analyticsPage.hero.cta')}
                   </Button>
-                  <Button size="lg" variant="outline" className="text-base sm:text-lg">
-                    {t('features.analyticsPage.hero.ctaSecondary')}
-                  </Button>
                 </div>
               </div>
               <div className="min-h-64 sm:min-h-96 flex items-center justify-center animate-fade-in">
-                <img src="/lovable-uploads/b1acf01e-622e-46d0-be79-527db756bbf9.png" alt={t('features.analyticsPage.hero.imageAlt')} className="max-h-full max-w-full object-contain rounded-lg shadow-lg" />
+                <img 
+                  src="/lovable-uploads/b1acf01e-622e-46d0-be79-527db756bbf9.png" 
+                  alt={t('features.analyticsPage.hero.imageAlt')} 
+                  className="max-h-full max-w-full object-contain rounded-lg shadow-lg" 
+                />
               </div>
             </div>
           </div>
@@ -42,83 +44,157 @@ const Analytics = () => {
         <section className="py-24 px-4 sm:px-6 md:px-8 lg:px-12 bg-background">
           <div className="container mx-auto">
             <div className="text-center mb-20">
-              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[48px] font-bold tracking-wide leading-normal lg:leading-[1.2] mb-4">
-                {t('features.analyticsPage.sectionTitle')}
-              </h2>
-              <p className="text-base sm:text-lg text-muted-foreground max-w-2xl mx-auto">
-                {t('features.analyticsPage.sectionSubtitle')}
-              </p>
-            </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-32">
-              <div className="text-center">
-                <div className="w-16 h-16 bg-[#02B13F]/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <FileText className="w-8 h-8 text-[#02B13F]" />
-                </div>
-                <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold mb-2">{t('features.analyticsPage.features.conversationalSurveys.title')}</h3>
-                <p className="text-sm sm:text-base text-muted-foreground">{t('features.analyticsPage.features.conversationalSurveys.description')}</p>
-              </div>
-              <div className="text-center">
-                <div className="w-16 h-16 bg-[#02B13F]/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <BarChart3 className="w-8 h-8 text-[#02B13F]" />
-                </div>
-                <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold mb-2">{t('features.analyticsPage.features.visualResults.title')}</h3>
-                <p className="text-sm sm:text-base text-muted-foreground">{t('features.analyticsPage.features.visualResults.description')}</p>
-              </div>
-              <div className="text-center">
-                <div className="w-16 h-16 bg-[#02B13F]/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <TrendingUp className="w-8 h-8 text-[#02B13F]" />
-                </div>
-                <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold mb-2">{t('features.analyticsPage.features.integratedData.title')}</h3>
-                <p className="text-sm sm:text-base text-muted-foreground">{t('features.analyticsPage.features.integratedData.description')}</p>
-              </div>
-              <div className="text-center">
-                <div className="w-16 h-16 bg-[#02B13F]/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Filter className="w-8 h-8 text-[#02B13F]" />
-                </div>
-                <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold mb-2">{t('features.analyticsPage.features.timeFiltered.title')}</h3>
-                <p className="text-sm sm:text-base text-muted-foreground">{t('features.analyticsPage.features.timeFiltered.description')}</p>
-              </div>
-            </div>
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[48px] font-bold tracking-wide leading-normal lg:leading-[1.2] mb-4">
+              {t('features.analyticsPage.sectionTitle')}
+            </h2>
+            <p className="text-base sm:text-lg text-muted-foreground max-w-2xl mx-auto">
+              {t('features.analyticsPage.sectionSubtitle')}
+            </p>
+          </div>
 
-            {/* Feature Examples */}
-            <div className="space-y-32">
-              {/* Scenario 1: Text left, Image right */}
-              <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-                <div>
-                  <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold mb-4">{t('features.analyticsPage.examples.customerSatisfaction.title')}</h3>
-                  <p className="text-base sm:text-lg text-muted-foreground mb-4">
-                    {t('features.analyticsPage.examples.customerSatisfaction.description')}
-                  </p>
-                </div>
-              <div className="h-80 sm:h-96 flex items-center justify-center">
-                <img src="/lovable-uploads/b11af36d-c1ef-4c17-a61b-b399d92b755f.png" alt={t('features.analyticsPage.examples.customerSatisfaction.imageAlt')} className="max-h-full max-w-full object-contain" />
+          {/* Feature 1: 聊天量與互動指標 - Text Left, Visual Right */}
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center mb-32 animate-fade-in">
+            <div className="order-2 lg:order-1">
+              <div className="w-14 h-14 bg-[#02B13F]/10 rounded-2xl flex items-center justify-center mb-6">
+                <BarChart3 className="w-7 h-7 text-[#02B13F]" />
               </div>
+              <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold mb-4">
+                {t('features.analyticsPage.features.chatInsights.title')}
+              </h3>
+              <p className="text-sm sm:text-base text-muted-foreground mb-6">
+                {t('features.analyticsPage.features.chatInsights.description')}
+              </p>
+              <ul className="space-y-3 text-muted-foreground">
+                <li className="flex items-start gap-3">
+                  <span className="text-[#02B13F] mt-1">✓</span>
+                  <span>{t('features.analyticsPage.features.chatInsights.benefits.dailyTrends')}</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-[#02B13F] mt-1">✓</span>
+                  <span>{t('features.analyticsPage.features.chatInsights.benefits.peakHours')}</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-[#02B13F] mt-1">✓</span>
+                  <span>{t('features.analyticsPage.features.chatInsights.benefits.sourceTracking')}</span>
+                </li>
+              </ul>
             </div>
-            
-            {/* Scenario 2: Image left, Text right */}
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-              <div className="order-2 lg:order-1 h-80 sm:h-96 flex items-center justify-center">
-                <img src="/lovable-uploads/db797c1d-b1f5-4add-a175-18f58f93b1b1.png" alt={t('features.analyticsPage.examples.interactiveSurveys.imageAlt')} className="max-h-full max-w-full object-contain" />
-              </div>
-              <div className="order-1 lg:order-2">
-                <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold mb-4">{t('features.analyticsPage.examples.interactiveSurveys.title')}</h3>
-                <p className="text-base sm:text-lg text-muted-foreground mb-4">{t('features.analyticsPage.examples.interactiveSurveys.description')}</p>
-              </div>
+            <div className="order-1 lg:order-2">
+              <img 
+                src="/lovable-uploads/b11af36d-c1ef-4c17-a61b-b399d92b755f.png" 
+                alt={t('features.analyticsPage.features.chatInsights.imageAlt')} 
+                className="w-full rounded-2xl shadow-xl"
+              />
             </div>
-            
-              {/* Scenario 3: Text left, Image right */}
-              <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-                <div>
-                  <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold mb-4">{t('features.analyticsPage.examples.performanceTracking.title')}</h3>
-                  <p className="text-base sm:text-lg text-muted-foreground mb-4">
-                    {t('features.analyticsPage.examples.performanceTracking.description')}
-                  </p>
-                </div>
-              <div className="h-80 sm:h-96 flex items-center justify-center">
-                <img src="/lovable-uploads/9cb91d42-3650-4d07-a90f-93eabef1199a.png" alt={t('features.analyticsPage.examples.performanceTracking.imageAlt')} className="max-h-full max-w-full object-contain" />
+          </div>
+
+          {/* Feature 2: 訪客屬性與流量概況 - Text Right, Visual Left */}
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center mb-32 animate-fade-in">
+            <div className="order-2">
+              <div className="w-14 h-14 bg-[#02B13F]/10 rounded-2xl flex items-center justify-center mb-6">
+                <Globe className="w-7 h-7 text-[#02B13F]" />
               </div>
-              </div>
+              <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold mb-4">
+                {t('features.analyticsPage.features.trafficSource.title')}
+              </h3>
+              <p className="text-sm sm:text-base text-muted-foreground mb-6">
+                {t('features.analyticsPage.features.trafficSource.description')}
+              </p>
+              <ul className="space-y-3 text-muted-foreground">
+                <li className="flex items-start gap-3">
+                  <span className="text-[#02B13F] mt-1">✓</span>
+                  <span>{t('features.analyticsPage.features.trafficSource.benefits.sourceTracking')}</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-[#02B13F] mt-1">✓</span>
+                  <span>{t('features.analyticsPage.features.trafficSource.benefits.engagementDepth')}</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-[#02B13F] mt-1">✓</span>
+                  <span>{t('features.analyticsPage.features.trafficSource.benefits.conversionEffect')}</span>
+                </li>
+              </ul>
             </div>
+            <div className="order-1">
+              <img 
+                src="/lovable-uploads/db797c1d-b1f5-4add-a175-18f58f93b1b1.png" 
+                alt={t('features.analyticsPage.features.trafficSource.imageAlt')} 
+                className="w-full rounded-2xl shadow-xl"
+              />
+            </div>
+          </div>
+
+          {/* Feature 3: 連結與導流表現 - Text Left, Visual Right */}
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center mb-32 animate-fade-in">
+            <div className="order-2 lg:order-1">
+              <div className="w-14 h-14 bg-[#02B13F]/10 rounded-2xl flex items-center justify-center mb-6">
+                <Link2 className="w-7 h-7 text-[#02B13F]" />
+              </div>
+              <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold mb-4">
+                {t('features.analyticsPage.features.linkPerformance.title')}
+              </h3>
+              <p className="text-sm sm:text-base text-muted-foreground mb-6">
+                {t('features.analyticsPage.features.linkPerformance.description')}
+              </p>
+              <ul className="space-y-3 text-muted-foreground">
+                <li className="flex items-start gap-3">
+                  <span className="text-[#02B13F] mt-1">✓</span>
+                  <span>{t('features.analyticsPage.features.linkPerformance.benefits.clickTracking')}</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-[#02B13F] mt-1">✓</span>
+                  <span>{t('features.analyticsPage.features.linkPerformance.benefits.behaviorAnalysis')}</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-[#02B13F] mt-1">✓</span>
+                  <span>{t('features.analyticsPage.features.linkPerformance.benefits.effectEvaluation')}</span>
+                </li>
+              </ul>
+            </div>
+            <div className="order-1 lg:order-2">
+              <img 
+                src="/lovable-uploads/9cb91d42-3650-4d07-a90f-93eabef1199a.png" 
+                alt={t('features.analyticsPage.features.linkPerformance.imageAlt')} 
+                className="w-full rounded-2xl shadow-xl"
+              />
+            </div>
+          </div>
+
+          {/* Feature 4: 問卷回覆與滿意度洞察 - Text Right, Visual Left */}
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center animate-fade-in">
+            <div className="order-2">
+              <div className="w-14 h-14 bg-[#02B13F]/10 rounded-2xl flex items-center justify-center mb-6">
+                <FileText className="w-7 h-7 text-[#02B13F]" />
+              </div>
+              <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold mb-4">
+                {t('features.analyticsPage.features.surveyAnalytics.title')}
+              </h3>
+              <p className="text-sm sm:text-base text-muted-foreground mb-6">
+                {t('features.analyticsPage.features.surveyAnalytics.description')}
+              </p>
+              <ul className="space-y-3 text-muted-foreground">
+                <li className="flex items-start gap-3">
+                  <span className="text-[#02B13F] mt-1">✓</span>
+                  <span>{t('features.analyticsPage.features.surveyAnalytics.benefits.responseDistribution')}</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-[#02B13F] mt-1">✓</span>
+                  <span>{t('features.analyticsPage.features.surveyAnalytics.benefits.completionRate')}</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-[#02B13F] mt-1">✓</span>
+                  <span>{t('features.analyticsPage.features.surveyAnalytics.benefits.feedbackSummary')}</span>
+                </li>
+              </ul>
+            </div>
+            <div className="order-1">
+              <img 
+                src="/lovable-uploads/b1acf01e-622e-46d0-be79-527db756bbf9.png" 
+                alt={t('features.analyticsPage.features.surveyAnalytics.imageAlt')} 
+                className="w-full rounded-2xl shadow-xl"
+              />
+            </div>
+          </div>
           </div>
         </section>
 
@@ -126,53 +202,56 @@ const Analytics = () => {
         <section className="py-20 px-4 sm:px-6 md:px-8 lg:px-12 bg-muted/30">
           <div className="container mx-auto">
             <div className="text-center mb-12">
-              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[48px] font-bold tracking-wide leading-normal lg:leading-[1.2] mb-6">
-                {t('features.analyticsPage.relatedFeatures.title')}
-              </h2>
-            </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <Card>
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[48px] font-bold tracking-wide leading-normal lg:leading-[1.2] mb-6">
+              {t('features.analyticsPage.useCases.title')}
+            </h2>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+            <Card className="border-none shadow-sm">
               <CardHeader>
-                <div className="w-12 h-12 bg-[#02B13F]/10 rounded-lg flex items-center justify-center mb-4">
-                  <BarChart3 className="w-6 h-6 text-[#02B13F]" />
+                <div className="w-14 h-14 bg-[#02B13F]/10 rounded-xl flex items-center justify-center mb-4">
+                  <Settings className="w-7 h-7 text-[#02B13F]" />
                 </div>
-                <CardTitle>PinBoard</CardTitle>
-                <CardDescription>Track link clicks and engagement metrics</CardDescription>
+                <CardTitle className="text-lg sm:text-xl md:text-2xl lg:text-3xl">
+                  {t('features.analyticsPage.useCases.optimizeService.title')}
+                </CardTitle>
               </CardHeader>
               <CardContent>
-                <Button variant="outline" asChild>
-                  <Link to="/features/pinboard">{t('common.learnMore')}</Link>
-                </Button>
+                <p className="text-sm sm:text-base text-muted-foreground">
+                  {t('features.analyticsPage.useCases.optimizeService.description')}
+                </p>
               </CardContent>
             </Card>
-            
-            <Card>
+
+            <Card className="border-none shadow-sm">
               <CardHeader>
-                <div className="w-12 h-12 bg-[#02B13F]/10 rounded-lg flex items-center justify-center mb-4">
-                  <MessageCircle className="w-6 h-6 text-[#02B13F]" />
+                <div className="w-14 h-14 bg-[#02B13F]/10 rounded-xl flex items-center justify-center mb-4">
+                  <Target className="w-7 h-7 text-[#02B13F]" />
                 </div>
-                <CardTitle>{t('features.analyticsPage.relatedFeatures.chatWidget.title')}</CardTitle>
-                <CardDescription>{t('features.analyticsPage.relatedFeatures.chatWidget.description')}</CardDescription>
+                <CardTitle className="text-lg sm:text-xl md:text-2xl lg:text-3xl">
+                  {t('features.analyticsPage.useCases.boostMarketing.title')}
+                </CardTitle>
               </CardHeader>
               <CardContent>
-                <Button variant="outline" asChild>
-                  <Link to="/features/chat-widget">{t('common.learnMore')}</Link>
-                </Button>
+                <p className="text-sm sm:text-base text-muted-foreground">
+                  {t('features.analyticsPage.useCases.boostMarketing.description')}
+                </p>
               </CardContent>
             </Card>
-            
-            <Card>
+
+            <Card className="border-none shadow-sm">
               <CardHeader>
-                <div className="w-12 h-12 bg-[#02B13F]/10 rounded-lg flex items-center justify-center mb-4">
-                  <Users className="w-6 h-6 text-[#02B13F]" />
+                <div className="w-14 h-14 bg-[#02B13F]/10 rounded-xl flex items-center justify-center mb-4">
+                  <Zap className="w-7 h-7 text-[#02B13F]" />
                 </div>
-                <CardTitle>Chatroom Management</CardTitle>
-                <CardDescription>Export customer data for analysis</CardDescription>
+                <CardTitle className="text-lg sm:text-xl md:text-2xl lg:text-3xl">
+                  {t('features.analyticsPage.useCases.accelerateProduct.title')}
+                </CardTitle>
               </CardHeader>
               <CardContent>
-                <Button variant="outline" asChild>
-                  <Link to="/features/chatroom-management">{t('common.learnMore')}</Link>
-                </Button>
+                <p className="text-sm sm:text-base text-muted-foreground">
+                  {t('features.analyticsPage.useCases.accelerateProduct.description')}
+                </p>
               </CardContent>
             </Card>
           </div>
@@ -183,16 +262,16 @@ const Analytics = () => {
         <section className="py-20 px-4 sm:px-6 md:px-8 lg:px-12">
           <div className="container mx-auto">
             <div className="bg-gradient-to-br from-[#02B13F]/10 via-[#02B13F]/5 to-background rounded-3xl p-12 sm:p-16 text-center max-w-4xl mx-auto shadow-lg">
-              <div className="w-16 h-16 bg-[#02B13F]/20 rounded-full flex items-center justify-center mx-auto mb-6">
-                <BarChart3 className="w-8 h-8 text-[#02B13F]" />
-              </div>
-              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[48px] font-bold tracking-wide leading-normal lg:leading-[1.2] mb-8">
-                {t('features.analyticsPage.cta.title')}
-              </h2>
-              <Button size="lg" className="bg-[#02B13F] hover:bg-[#029f38] text-white text-base sm:text-lg min-w-[200px]">
-                {t('features.analyticsPage.cta.button')}
-              </Button>
+            <div className="w-16 h-16 bg-[#02B13F]/20 rounded-full flex items-center justify-center mx-auto mb-6">
+              <Sparkles className="w-8 h-8 text-[#02B13F]" />
             </div>
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[48px] font-bold tracking-wide leading-normal lg:leading-[1.2] mb-8">
+              {t('features.analyticsPage.cta.title')}
+            </h2>
+            <Button size="lg" className="bg-[#02B13F] hover:bg-[#029f38] text-white text-base sm:text-lg min-w-[200px]">
+              {t('features.analyticsPage.cta.button')}
+            </Button>
+          </div>
           </div>
         </section>
       </main>

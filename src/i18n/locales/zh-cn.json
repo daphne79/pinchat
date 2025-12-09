@@ -602,67 +602,73 @@
     },
     "analyticsPage": {
       "hero": {
-        "title": "收集反馈并发掘洞察",
-        "subtitle": "执行问卷调查、收集回应并追踪表现数据，提升客户参与度。",
-        "cta": "查看数据分析仪表板",
-        "ctaSecondary": "了解更多",
-        "imageAlt": "包含详细指标与图表的完整数据分析仪表板"
+        "title": "全方位数据洞察，一站掌握互动成效",
+        "subtitle": "以清晰的图表与完整的行为数据，深入了解聊天量、来源、问卷回复等互动表现，协助你快速找出流量来源、优化客服流程并提升转换成果。",
+        "cta": "开始分析成效",
+        "imageAlt": "PinChat Analytics 数据分析仪表板"
       },
-      "sectionTitle": "强大的数据分析功能",
-      "sectionSubtitle": "完整的工具来收集反馈、追踪表现并发掘洞察",
+      "sectionTitle": "核心功能",
+      "sectionSubtitle": "完整的数据分析工具，协助你掌握服务现状并持续优化",
       "features": {
-        "conversationalSurveys": {
-          "title": "对话式问卷",
-          "description": "多种问题类型，以聊天式问卷格式呈现"
+        "chatInsights": {
+          "title": "聊天量与互动趋势",
+          "description": "通过多维度图表掌握聊天量、活跃时段与客服负担，协助你优化运营节奏与人力配置。",
+          "benefits": {
+            "dailyTrends": "查看每日与周期聊天量变化",
+            "peakHours": "分析高峰时段与用户活跃时间",
+            "sourceTracking": "追踪聊天互动成效与来源差异"
+          },
+          "imageAlt": "聊天量与互动趋势分析图表"
         },
-        "visualResults": {
-          "title": "可视化结果",
-          "description": "可视化结果，支持导出与交叉分析功能"
+        "trafficSource": {
+          "title": "访客来源与转换分析",
+          "description": "全面掌握每位用户的进入管道与互动表现，协助你判断哪些来源带来最佳成果。",
+          "benefits": {
+            "sourceTracking": "追踪访客从不同入口的来源占比",
+            "engagementDepth": "分析各流量来源的互动深度与成效",
+            "conversionEffect": "评估不同渠道在活动期间的转换效果"
+          },
+          "imageAlt": "访客来源与转换分析"
         },
-        "integratedData": {
-          "title": "整合数据",
-          "description": "结合点击、互动与问卷数据"
+        "linkPerformance": {
+          "title": "按钮与链接点击洞察",
+          "description": "专为 PinBoard（欢迎页面）设计的链接点击分析，协助你掌握每个按钮的实际导流成效，并快速调整导流策略。",
+          "benefits": {
+            "clickTracking": "追踪 PinBoard 上各按钮与链接的实际点击数",
+            "behaviorAnalysis": "分析访客在 PinBoard 内的导流行为与偏好",
+            "effectEvaluation": "评估 PinBoard 按钮配置与活动导流效果"
+          },
+          "imageAlt": "PinBoard 按钮与链接点击洞察分析"
         },
-        "timeFiltered": {
-          "title": "时间筛选分析",
-          "description": "可视化分析，支持自定义时间筛选器"
+        "surveyAnalytics": {
+          "title": "问卷回复与用户意见",
+          "description": "以对话式问卷回应数据完整呈现，快速了解客户意见、满意度与需求趋势。",
+          "benefits": {
+            "responseDistribution": "查看每题回复分布与统计指标",
+            "completionRate": "追踪用户提交率与完成度",
+            "feedbackSummary": "汇总反馈用于产品与运营决策"
+          },
+          "imageAlt": "问卷回复与用户意见分析"
         }
       },
-      "examples": {
-        "customerSatisfaction": {
-          "title": "客户满意度追踪",
-          "description": "执行客户满意度问卷调查，搭配趋势分析以提升服务品质。",
-          "imageAlt": "客户满意度星级评分问卷界面"
+      "useCases": {
+        "title": "适用于各种使用情境",
+        "optimizeService": {
+          "title": "优化客服与运营流程",
+          "description": "通过聊天量分析与来源追踪，快速辨识高峰时段与关键入口，协助配置人力并改善回复效率。"
         },
-        "interactiveSurveys": {
-          "title": "互动式活动问卷",
-          "description": "在活动期间建立吸引人的问卷，收集反馈、提升参与度，并更深入了解你的受众。",
-          "imageAlt": "多种问题类型的互动式问卷界面"
+        "boostMarketing": {
+          "title": "提升营销活动表现",
+          "description": "通过链接点击与互动趋势，清楚判断哪个活动、素材或渠道带来最佳转换，让预算运用更有效。"
         },
-        "performanceTracking": {
-          "title": "表现追踪",
-          "description": "追踪所有接触点的点击、互动与参与表现。",
-          "imageAlt": "表现成长追踪与数据分析洞察"
-        }
-      },
-      "relatedFeatures": {
-        "title": "相关功能",
-        "pinBoard": {
-          "title": "PinBoard",
-          "description": "追踪链接点击与参与指标"
-        },
-        "chatWidget": {
-          "title": "Chat Widget",
-          "description": "直接将聊天嵌入您的网站"
-        },
-        "chatroomManagement": {
-          "title": "聊天室管理",
-          "description": "导出客户数据进行分析"
+        "accelerateProduct": {
+          "title": "加速产品策略迭代",
+          "description": "整合问卷回复、用户行为与互动数据，协助你快速找出需求趋势，做出更准确的产品调整。"
         }
       },
       "cta": {
-        "title": "准备好解锁数据洞察了吗？",
-        "button": "开始使用数据分析"
+        "title": "开始以数据驱动你的决策",
+        "button": "启用 Analytics"
       }
     },
     "subAccountPage": {
