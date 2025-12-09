@@ -437,6 +437,77 @@
         "chatroomManagement": {
           "title": "Chatroom Management",
           "description": "Organize and manage all conversations"
+        },
+        "chatroomManagementPage": {
+          "hero": {
+            "title": "Centralize Every Conversation",
+            "subtitle": "Master all chat contexts with labels, folders, and quick search, enabling customer service and sales teams to find important messages faster and maintain high-quality communication workflows.",
+            "cta": "Start Managing",
+            "imageAlt": "Chatroom management interface"
+          },
+          "sectionTitle": "Key Features",
+          "sectionSubtitle": "Organize conversations efficiently with powerful management tools",
+          "features": {
+            "chatLabels": {
+              "title": "Better Organization with Chat Labels",
+              "description": "Use custom labels to mark different types of conversations, enabling teams to search and handle messages that need attention faster.",
+              "benefits": {
+                "markByCategory": "Mark conversations by topic, status, or priority",
+                "quickSearch": "Quickly search for corresponding chatrooms through labels",
+                "improveEfficiency": "Improve organization efficiency for complex customer service workflows"
+              },
+              "imageAlt": "Chat labels organization interface"
+            },
+            "folderGrouping": {
+              "title": "More Intuitive Folder Grouping",
+              "description": "Manage large volumes of customer conversations with folders, creating a clear hierarchical chat space for cross-team collaboration.",
+              "benefits": {
+                "categorizeByScenario": "Categorize different business scenarios with folders",
+                "supportLargeVolume": "Support organization and management of large volumes of conversations",
+                "fasterAccess": "Enable customer service and sales to find responsible conversations faster"
+              },
+              "imageAlt": "Folder grouping interface"
+            },
+            "quickSearch": {
+              "title": "Quick Search to Find Key Chats",
+              "description": "Quickly find specific customers or conversation content through precise search functionality, saving time from tedious manual browsing.",
+              "benefits": {
+                "searchByName": "Quickly find conversations by name or keywords",
+                "quickCustomerList": "Support quick customer list positioning",
+                "rapidAccess": "Quickly access needed information from large volumes of messages"
+              },
+              "imageAlt": "Quick search interface"
+            },
+            "cleanSpace": {
+              "title": "Maintain a Clean Chat Space",
+              "description": "Remove or hide completed conversations to keep the interface clean and focused on current important customer needs.",
+              "benefits": {
+                "deleteChatrooms": "Delete chatrooms that are no longer needed",
+                "hideConversations": "Hide conversations that don't need tracking temporarily",
+                "maintainWorkflow": "Maintain an efficient and focused workflow"
+              },
+              "imageAlt": "Clean chat space interface"
+            }
+          },
+          "useCases": {
+            "title": "Use Cases",
+            "customerServiceCenter": {
+              "title": "Customer Service Team's Message Organization Center",
+              "description": "Help customer service quickly categorize large volumes of messages with labels and folders, maintaining efficient responses even during peak hours."
+            },
+            "salesManagement": {
+              "title": "More Organized Sales Lead Management",
+              "description": "Categorize potential customers by progress, enabling each salesperson to clearly track status and improve conversion rates."
+            },
+            "crossTeamCollaboration": {
+              "title": "Smoother Cross-Team Collaboration",
+              "description": "Clear chat structure enables teams to quickly grasp background information during handoffs and collaboration, ensuring no important messages are missed."
+            }
+          },
+          "cta": {
+            "title": "Improve Chat Management Efficiency Now",
+            "button": "Start Using"
+          }
         }
       },
       "cta": {
