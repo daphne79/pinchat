@@ -93,6 +93,77 @@
         "aiPinbot": {
           "title": "AI PinBot",
           "description": "使用 AI 协助自动化对话"
+        },
+        "chatroomManagementPage": {
+          "hero": {
+            "title": "集中管理每一则对话",
+            "subtitle": "以标签、文件夹与快速搜索掌握所有聊天脉络，让客服与销售团队能更快找到重要讯息，维持高品质的沟通流程。",
+            "cta": "开始管理",
+            "imageAlt": "聊天室管理界面"
+          },
+          "sectionTitle": "主要功能特色",
+          "sectionSubtitle": "以强大的管理工具有效率地组织对话",
+          "features": {
+            "chatLabels": {
+              "title": "聊天标签更好分类",
+              "description": "使用自定义标签标记不同类型的对话，让团队能更快搜索并掌握需要处理的讯息。",
+              "benefits": {
+                "markByCategory": "依主题、状态或优先度标记对话",
+                "quickSearch": "透过标签快速搜索到对应聊天室",
+                "improveEfficiency": "提升复杂客服流程的整理效率"
+              },
+              "imageAlt": "聊天标签组织界面"
+            },
+            "folderGrouping": {
+              "title": "文件夹分组更直觉",
+              "description": "以文件夹管理大量客户对话，打造清晰分层的聊天空间，便于跨团队协作。",
+              "benefits": {
+                "categorizeByScenario": "以文件夹分类不同业务情境",
+                "supportLargeVolume": "支持大量对话的整理与管理",
+                "fasterAccess": "让客服与销售更快找到负责的对话"
+              },
+              "imageAlt": "文件夹分组界面"
+            },
+            "quickSearch": {
+              "title": "快速搜索找到关键聊天",
+              "description": "透过精准搜索功能快速找到特定客户或对话内容，省下繁琐的人工浏览时间。",
+              "benefits": {
+                "searchByName": "以名称或关键字快速寻找对话",
+                "quickCustomerList": "支持客户列表快速定位使用者",
+                "rapidAccess": "在大量讯息中迅速取得所需资讯"
+              },
+              "imageAlt": "快速搜索界面"
+            },
+            "cleanSpace": {
+              "title": "维持整洁的聊天空间",
+              "description": "移除或隐藏已结束的对话，让画面更干净、专注处理当前重要的客户需求。",
+              "benefits": {
+                "deleteChatrooms": "删除不再需要的聊天室",
+                "hideConversations": "隐藏暂时不需追踪的对话",
+                "maintainWorkflow": "维持高效率且专注的工作流程"
+              },
+              "imageAlt": "整洁聊天空间界面"
+            }
+          },
+          "useCases": {
+            "title": "适用场景",
+            "customerServiceCenter": {
+              "title": "客服团队的讯息整理中心",
+              "description": "以标签与文件夹协助客服快速分类大量讯息，在高峰时段仍能维持高效率回复。"
+            },
+            "salesManagement": {
+              "title": "销售进件管理更有条理",
+              "description": "将潜在客户依进度分类，让每位销售都能清晰掌握追踪状态并提升成交率。"
+            },
+            "crossTeamCollaboration": {
+              "title": "跨团队协作更顺畅",
+              "description": "清楚的聊天结构让团队在交接与合作时能快速掌握背景资讯，不漏接任何重要讯息。"
+            }
+          },
+          "cta": {
+            "title": "立即提升聊天管理效率",
+            "button": "开始使用"
+          }
         }
       },
       "cta": {

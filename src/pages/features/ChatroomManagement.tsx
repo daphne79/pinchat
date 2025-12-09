@@ -17,21 +17,21 @@ const ChatroomManagement = () => {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="animate-fade-in">
               <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-[72px] font-bold tracking-wide mb-6 text-foreground leading-normal lg:leading-[1.2]">
-                {t('features.chatPage.relatedFeatures.chatroomManagementPage.hero.title')}
+                {t('features.chatroomManagementPage.hero.title')}
               </h1>
               <p className="text-base sm:text-lg text-muted-foreground mb-8">
-                {t('features.chatPage.relatedFeatures.chatroomManagementPage.hero.subtitle')}
+                {t('features.chatroomManagementPage.hero.subtitle')}
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button size="lg" className="bg-[#02B13F] hover:bg-[#029f38] text-white text-base sm:text-lg">
-                  {t('features.chatPage.relatedFeatures.chatroomManagementPage.hero.cta')}
+                  {t('features.chatroomManagementPage.hero.cta')}
                 </Button>
               </div>
             </div>
             <div className="min-h-64 sm:min-h-96 flex items-center justify-center animate-fade-in">
               <img 
                 src="/lovable-uploads/chat_management.png" 
-                alt={t('features.chatPage.relatedFeatures.chatroomManagementPage.hero.imageAlt')} 
+                alt={t('features.chatroomManagementPage.hero.imageAlt')} 
                 className="max-h-full max-w-full object-contain rounded-lg shadow-lg" 
               />
             </div>
@@ -44,10 +44,10 @@ const ChatroomManagement = () => {
           <div className="container mx-auto">
             <div className="text-center mb-20">
             <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[48px] font-bold tracking-wide leading-normal lg:leading-[1.2] mb-4">
-              {t('features.chatPage.relatedFeatures.chatroomManagementPage.sectionTitle')}
+              {t('features.chatroomManagementPage.sectionTitle')}
             </h2>
             <p className="text-base sm:text-lg text-muted-foreground max-w-2xl mx-auto">
-              {t('features.chatPage.relatedFeatures.chatroomManagementPage.sectionSubtitle')}
+              {t('features.chatroomManagementPage.sectionSubtitle')}
             </p>
           </div>
 
@@ -58,30 +58,30 @@ const ChatroomManagement = () => {
                 <Tag className="w-7 h-7 text-[#02B13F]" />
               </div>
               <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold mb-4">
-                {t('features.chatPage.relatedFeatures.chatroomManagementPage.features.chatLabels.title')}
+                {t('features.chatroomManagementPage.features.chatLabels.title')}
               </h3>
               <p className="text-sm sm:text-base text-muted-foreground mb-6">
-                {t('features.chatPage.relatedFeatures.chatroomManagementPage.features.chatLabels.description')}
+                {t('features.chatroomManagementPage.features.chatLabels.description')}
               </p>
               <ul className="space-y-3 text-muted-foreground">
                 <li className="flex items-start gap-3">
                   <span className="text-[#02B13F] mt-1">✓</span>
-                  <span>{t('features.chatPage.relatedFeatures.chatroomManagementPage.features.chatLabels.benefits.markByCategory')}</span>
+                  <span>{t('features.chatroomManagementPage.features.chatLabels.benefits.markByCategory')}</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-[#02B13F] mt-1">✓</span>
-                  <span>{t('features.chatPage.relatedFeatures.chatroomManagementPage.features.chatLabels.benefits.quickSearch')}</span>
+                  <span>{t('features.chatroomManagementPage.features.chatLabels.benefits.quickSearch')}</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-[#02B13F] mt-1">✓</span>
-                  <span>{t('features.chatPage.relatedFeatures.chatroomManagementPage.features.chatLabels.benefits.improveEfficiency')}</span>
+                  <span>{t('features.chatroomManagementPage.features.chatLabels.benefits.improveEfficiency')}</span>
                 </li>
               </ul>
             </div>
             <div className="order-1 lg:order-2">
               <img 
                 src="/lovable-uploads/chat_management.png" 
-                alt={t('features.chatPage.relatedFeatures.chatroomManagementPage.features.chatLabels.imageAlt')} 
+                alt={t('features.chatroomManagementPage.features.chatLabels.imageAlt')} 
                 className="w-full rounded-2xl shadow-xl"
               />
             </div>
@@ -94,30 +94,30 @@ const ChatroomManagement = () => {
                 <FolderOpen className="w-7 h-7 text-[#02B13F]" />
               </div>
               <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold mb-4">
-                {t('features.chatPage.relatedFeatures.chatroomManagementPage.features.folderGrouping.title')}
+                {t('features.chatroomManagementPage.features.folderGrouping.title')}
               </h3>
               <p className="text-sm sm:text-base text-muted-foreground mb-6">
-                {t('features.chatPage.relatedFeatures.chatroomManagementPage.features.folderGrouping.description')}
+                {t('features.chatroomManagementPage.features.folderGrouping.description')}
               </p>
               <ul className="space-y-3 text-muted-foreground">
                 <li className="flex items-start gap-3">
                   <span className="text-[#02B13F] mt-1">✓</span>
-                  <span>{t('features.chatPage.relatedFeatures.chatroomManagementPage.features.folderGrouping.benefits.categorizeByScenario')}</span>
+                  <span>{t('features.chatroomManagementPage.features.folderGrouping.benefits.categorizeByScenario')}</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-[#02B13F] mt-1">✓</span>
-                  <span>{t('features.chatPage.relatedFeatures.chatroomManagementPage.features.folderGrouping.benefits.supportLargeVolume')}</span>
+                  <span>{t('features.chatroomManagementPage.features.folderGrouping.benefits.supportLargeVolume')}</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-[#02B13F] mt-1">✓</span>
-                  <span>{t('features.chatPage.relatedFeatures.chatroomManagementPage.features.folderGrouping.benefits.fasterAccess')}</span>
+                  <span>{t('features.chatroomManagementPage.features.folderGrouping.benefits.fasterAccess')}</span>
                 </li>
               </ul>
             </div>
             <div className="order-1">
               <img 
                 src="/lovable-uploads/project-based-folders.png" 
-                alt={t('features.chatPage.relatedFeatures.chatroomManagementPage.features.folderGrouping.imageAlt')} 
+                alt={t('features.chatroomManagementPage.features.folderGrouping.imageAlt')} 
                 className="w-full rounded-2xl shadow-xl"
               />
             </div>
@@ -130,30 +130,30 @@ const ChatroomManagement = () => {
                 <Search className="w-7 h-7 text-[#02B13F]" />
               </div>
               <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold mb-4">
-                {t('features.chatPage.relatedFeatures.chatroomManagementPage.features.quickSearch.title')}
+                {t('features.chatroomManagementPage.features.quickSearch.title')}
               </h3>
               <p className="text-sm sm:text-base text-muted-foreground mb-6">
-                {t('features.chatPage.relatedFeatures.chatroomManagementPage.features.quickSearch.description')}
+                {t('features.chatroomManagementPage.features.quickSearch.description')}
               </p>
               <ul className="space-y-3 text-muted-foreground">
                 <li className="flex items-start gap-3">
                   <span className="text-[#02B13F] mt-1">✓</span>
-                  <span>{t('features.chatPage.relatedFeatures.chatroomManagementPage.features.quickSearch.benefits.searchByName')}</span>
+                  <span>{t('features.chatroomManagementPage.features.quickSearch.benefits.searchByName')}</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-[#02B13F] mt-1">✓</span>
-                  <span>{t('features.chatPage.relatedFeatures.chatroomManagementPage.features.quickSearch.benefits.quickCustomerList')}</span>
+                  <span>{t('features.chatroomManagementPage.features.quickSearch.benefits.quickCustomerList')}</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-[#02B13F] mt-1">✓</span>
-                  <span>{t('features.chatPage.relatedFeatures.chatroomManagementPage.features.quickSearch.benefits.rapidAccess')}</span>
+                  <span>{t('features.chatroomManagementPage.features.quickSearch.benefits.rapidAccess')}</span>
                 </li>
               </ul>
             </div>
             <div className="order-1 lg:order-2">
               <img 
                 src="/lovable-uploads/conversation-archive.png" 
-                alt={t('features.chatPage.relatedFeatures.chatroomManagementPage.features.quickSearch.imageAlt')} 
+                alt={t('features.chatroomManagementPage.features.quickSearch.imageAlt')} 
                 className="w-full rounded-2xl shadow-xl"
               />
             </div>
@@ -166,30 +166,30 @@ const ChatroomManagement = () => {
                 <Archive className="w-7 h-7 text-[#02B13F]" />
               </div>
               <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold mb-4">
-                {t('features.chatPage.relatedFeatures.chatroomManagementPage.features.cleanSpace.title')}
+                {t('features.chatroomManagementPage.features.cleanSpace.title')}
               </h3>
               <p className="text-sm sm:text-base text-muted-foreground mb-6">
-                {t('features.chatPage.relatedFeatures.chatroomManagementPage.features.cleanSpace.description')}
+                {t('features.chatroomManagementPage.features.cleanSpace.description')}
               </p>
               <ul className="space-y-3 text-muted-foreground">
                 <li className="flex items-start gap-3">
                   <span className="text-[#02B13F] mt-1">✓</span>
-                  <span>{t('features.chatPage.relatedFeatures.chatroomManagementPage.features.cleanSpace.benefits.deleteChatrooms')}</span>
+                  <span>{t('features.chatroomManagementPage.features.cleanSpace.benefits.deleteChatrooms')}</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-[#02B13F] mt-1">✓</span>
-                  <span>{t('features.chatPage.relatedFeatures.chatroomManagementPage.features.cleanSpace.benefits.hideConversations')}</span>
+                  <span>{t('features.chatroomManagementPage.features.cleanSpace.benefits.hideConversations')}</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-[#02B13F] mt-1">✓</span>
-                  <span>{t('features.chatPage.relatedFeatures.chatroomManagementPage.features.cleanSpace.benefits.maintainWorkflow')}</span>
+                  <span>{t('features.chatroomManagementPage.features.cleanSpace.benefits.maintainWorkflow')}</span>
                 </li>
               </ul>
             </div>
             <div className="order-1">
               <img 
                 src="/lovable-uploads/vip-customer-tracking.png" 
-                alt={t('features.chatPage.relatedFeatures.chatroomManagementPage.features.cleanSpace.imageAlt')} 
+                alt={t('features.chatroomManagementPage.features.cleanSpace.imageAlt')} 
                 className="w-full rounded-2xl shadow-xl"
               />
             </div>
@@ -202,7 +202,7 @@ const ChatroomManagement = () => {
           <div className="container mx-auto">
             <div className="text-center mb-12">
             <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[48px] font-bold tracking-wide leading-normal lg:leading-[1.2] mb-6">
-              {t('features.chatPage.relatedFeatures.chatroomManagementPage.useCases.title')}
+              {t('features.chatroomManagementPage.useCases.title')}
             </h2>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
@@ -212,12 +212,12 @@ const ChatroomManagement = () => {
                   <LifeBuoy className="w-7 h-7 text-[#02B13F]" />
                 </div>
                 <CardTitle className="text-lg sm:text-xl md:text-2xl lg:text-3xl">
-                  {t('features.chatPage.relatedFeatures.chatroomManagementPage.useCases.customerServiceCenter.title')}
+                  {t('features.chatroomManagementPage.useCases.customerServiceCenter.title')}
                 </CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-sm sm:text-base text-muted-foreground">
-                  {t('features.chatPage.relatedFeatures.chatroomManagementPage.useCases.customerServiceCenter.description')}
+                  {t('features.chatroomManagementPage.useCases.customerServiceCenter.description')}
                 </p>
               </CardContent>
             </Card>
@@ -228,12 +228,12 @@ const ChatroomManagement = () => {
                   <BarChart3 className="w-7 h-7 text-[#02B13F]" />
                 </div>
                 <CardTitle className="text-lg sm:text-xl md:text-2xl lg:text-3xl">
-                  {t('features.chatPage.relatedFeatures.chatroomManagementPage.useCases.salesManagement.title')}
+                  {t('features.chatroomManagementPage.useCases.salesManagement.title')}
                 </CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-sm sm:text-base text-muted-foreground">
-                  {t('features.chatPage.relatedFeatures.chatroomManagementPage.useCases.salesManagement.description')}
+                  {t('features.chatroomManagementPage.useCases.salesManagement.description')}
                 </p>
               </CardContent>
             </Card>
@@ -244,12 +244,12 @@ const ChatroomManagement = () => {
                   <Users className="w-7 h-7 text-[#02B13F]" />
                 </div>
                 <CardTitle className="text-lg sm:text-xl md:text-2xl lg:text-3xl">
-                  {t('features.chatPage.relatedFeatures.chatroomManagementPage.useCases.crossTeamCollaboration.title')}
+                  {t('features.chatroomManagementPage.useCases.crossTeamCollaboration.title')}
                 </CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-sm sm:text-base text-muted-foreground">
-                  {t('features.chatPage.relatedFeatures.chatroomManagementPage.useCases.crossTeamCollaboration.description')}
+                  {t('features.chatroomManagementPage.useCases.crossTeamCollaboration.description')}
                 </p>
               </CardContent>
             </Card>
@@ -265,10 +265,10 @@ const ChatroomManagement = () => {
               <Sparkles className="w-8 h-8 text-[#02B13F]" />
             </div>
             <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[48px] font-bold tracking-wide leading-normal lg:leading-[1.2] mb-8">
-              {t('features.chatPage.relatedFeatures.chatroomManagementPage.cta.title')}
+              {t('features.chatroomManagementPage.cta.title')}
             </h2>
             <Button size="lg" className="bg-[#02B13F] hover:bg-[#029f38] text-white text-base sm:text-lg min-w-[200px]">
-              {t('features.chatPage.relatedFeatures.chatroomManagementPage.cta.button')}
+              {t('features.chatroomManagementPage.cta.button')}
             </Button>
           </div>
           </div>
