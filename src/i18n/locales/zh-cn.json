@@ -237,6 +237,78 @@
             "button": "免费试用"
           }
         },
+        "faqPinbotPage": {
+          "hero": {
+            "title": "快速自动回复常见问题",
+            "subtitle": "以关键词触发的 FAQ Chatbot，集中管理营业时间、价格、物流、预约流程等重复问题。支持图文、按钮与卡片呈现，并可在需要时由人工客服接手处理，降低日常客服负担。",
+            "cta": "开始创建 FAQ Bot",
+            "ctaSecondary": "免费开始",
+            "imageAlt": "FAQ 聊天机器人与自动回复系统"
+          },
+          "sectionTitle": "主要功能特色",
+          "sectionSubtitle": "从结构化管理到人工接手，FAQ PinBot 为您的团队提供高效的常见问题解决方案",
+          "features": {
+            "structuredFAQ": {
+              "title": "结构化 FAQ 管理",
+              "description": "以关键词快速触发精准回复，适用各类常见问题场景。",
+              "benefits": {
+                "fixedInfo": "支持营业时间、价格、物流等固定信息",
+                "keywordTrigger": "关键词触发避免错误回答",
+                "consistency": "提升回复一致性与效率"
+              },
+              "imageAlt": "结构化 FAQ 管理系统"
+            },
+            "multiFormat": {
+              "title": "多格式回复能力",
+              "description": "用最适合的呈现方式传递信息，提升理解度与互动效率。",
+              "benefits": {
+                "richMedia": "支持文字＋图片的图文格式",
+                "buttons": "支持按钮快速导引与分流",
+                "carousel": "支持卡片轮播呈现多项内容"
+              },
+              "imageAlt": "多格式回复展示"
+            },
+            "humanHandoff": {
+              "title": "无缝人工接手",
+              "description": "当 Bot 无法回答时，可立即转由人工客服接手处理复杂需求。",
+              "benefits": {
+                "autoDetect": "自动识别无法应答的问题",
+                "contextView": "客服可查看上下文衔接对话",
+                "noLoss": "确保用户不因无回复而流失"
+              },
+              "imageAlt": "FAQ Bot 与人工客服无缝交接"
+            },
+            "eventDesign": {
+              "title": "活动与导流专用设计",
+              "description": "适合促销活动与大量访客场景，FAQ 可快速创建与更新。",
+              "benefits": {
+                "quickEdit": "FAQ 可于后台快速编辑与维护",
+                "integration": "搭配 PinBoard／Chat Widget 作为活动入口",
+                "reduceLoad": "减少高流量期间的重复客服问题"
+              },
+              "imageAlt": "活动专用 FAQ Bot 设计"
+            }
+          },
+          "useCases": {
+            "title": "适用场景",
+            "storeWebsite": {
+              "title": "门店与官方网站常见问题",
+              "description": "自动回复营业时间、地点、服务项目等固定信息，减少人工处理琐碎问题。"
+            },
+            "ecommerce": {
+              "title": "电商物流与下单说明",
+              "description": "快速提供配送方式、运费、到货时间、退换货流程等购物 FAQ。"
+            },
+            "eventPromotion": {
+              "title": "活动注册与促销导流",
+              "description": "活动期间可自动回答规则、条件、截止时间等常见问题，提高流量处理能力。"
+            }
+          },
+          "cta": {
+            "title": "立即启用 FAQ Chatbot",
+            "button": "创建我的 FAQ Bot"
+          }
+        },
         "pinBoardPage": {
           "hero": {
             "title": "您的个性化链接中心，提升客户互动",

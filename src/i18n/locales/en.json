@@ -290,6 +290,78 @@
             "button": "Try for Free"
           }
         },
+        "faqPinbotPage": {
+          "hero": {
+            "title": "Quick Auto-Reply for Common Questions",
+            "subtitle": "A keyword-triggered FAQ Chatbot that centrally manages repetitive questions like business hours, pricing, shipping, and booking processes. Supports text-image formats, buttons, and carousel displays, and can seamlessly hand off to human agents when needed, reducing daily customer service workload.",
+            "cta": "Start Building FAQ Bot",
+            "ctaSecondary": "Get Started for Free",
+            "imageAlt": "FAQ chatbot with automated response system"
+          },
+          "sectionTitle": "Key Features",
+          "sectionSubtitle": "From structured management to human handoff, FAQ PinBot provides an efficient common questions solution for your team",
+          "features": {
+            "structuredFAQ": {
+              "title": "Structured FAQ Management",
+              "description": "Quickly trigger precise replies with keywords, suitable for various common question scenarios.",
+              "benefits": {
+                "fixedInfo": "Support fixed information like business hours, pricing, and shipping",
+                "keywordTrigger": "Keyword triggers prevent incorrect answers",
+                "consistency": "Improve reply consistency and efficiency"
+              },
+              "imageAlt": "Structured FAQ management system"
+            },
+            "multiFormat": {
+              "title": "Multi-Format Reply Capability",
+              "description": "Deliver information in the most suitable format to improve understanding and interaction efficiency.",
+              "benefits": {
+                "richMedia": "Support text + image formats",
+                "buttons": "Support buttons for quick navigation and routing",
+                "carousel": "Support carousel displays for multiple content items"
+              },
+              "imageAlt": "Multi-format reply display"
+            },
+            "humanHandoff": {
+              "title": "Seamless Human Handoff",
+              "description": "When the Bot cannot answer, immediately transfer to human agents to handle complex needs.",
+              "benefits": {
+                "autoDetect": "Automatically detect unanswerable questions",
+                "contextView": "Agents can view context to continue conversations",
+                "noLoss": "Ensure users don't leave due to no response"
+              },
+              "imageAlt": "FAQ Bot seamless handoff with human agents"
+            },
+            "eventDesign": {
+              "title": "Event & Traffic-Focused Design",
+              "description": "Suitable for promotional events and high-traffic scenarios, FAQs can be quickly created and updated.",
+              "benefits": {
+                "quickEdit": "FAQs can be quickly edited and maintained in the backend",
+                "integration": "Integrate with PinBoard / Chat Widget as event entry points",
+                "reduceLoad": "Reduce repetitive customer service questions during high-traffic periods"
+              },
+              "imageAlt": "Event-focused FAQ Bot design"
+            }
+          },
+          "useCases": {
+            "title": "Use Cases",
+            "storeWebsite": {
+              "title": "Store & Official Website FAQs",
+              "description": "Auto-reply to fixed information like business hours, locations, and service items, reducing manual handling of trivial questions."
+            },
+            "ecommerce": {
+              "title": "E-commerce Shipping & Order Instructions",
+              "description": "Quickly provide shopping FAQs like delivery methods, shipping fees, arrival times, and return/exchange processes."
+            },
+            "eventPromotion": {
+              "title": "Event Registration & Promotional Traffic",
+              "description": "During events, automatically answer common questions about rules, conditions, and deadlines, improving traffic handling capacity."
+            }
+          },
+          "cta": {
+            "title": "Enable FAQ Chatbot Now",
+            "button": "Create My FAQ Bot"
+          }
+        },
         "pinBoardPage": {
           "hero": {
             "title": "Your Personalized Link Hub for Customer Engagement",
