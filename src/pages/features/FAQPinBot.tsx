@@ -18,24 +18,24 @@ const FAQPinBot = () => {
             <div className="max-w-4xl mx-auto">
               <div className="animate-fade-in text-center mb-8">
                 <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-[72px] font-bold tracking-wide mb-6 text-foreground leading-normal lg:leading-[1.2]">
-                  {t('features.chatPage.relatedFeatures.faqPinbotPage.hero.title')}
+                  {t('features.faqPinbotPage.hero.title')}
                 </h1>
                 <p className="text-base sm:text-lg text-muted-foreground mb-8">
-                  {t('features.chatPage.relatedFeatures.faqPinbotPage.hero.subtitle')}
+                  {t('features.faqPinbotPage.hero.subtitle')}
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
                   <Button size="lg" className="bg-[#02B13F] hover:bg-[#029f38] text-white text-base sm:text-lg">
-                    {t('features.chatPage.relatedFeatures.faqPinbotPage.hero.cta')}
+                    {t('features.faqPinbotPage.hero.cta')}
                   </Button>
                   <Button size="lg" variant="outline" className="text-base sm:text-lg">
-                    {t('features.chatPage.relatedFeatures.faqPinbotPage.hero.ctaSecondary')}
+                    {t('features.faqPinbotPage.hero.ctaSecondary')}
                   </Button>
                 </div>
               </div>
               <div className="min-h-64 sm:min-h-96 flex items-center justify-center animate-fade-in">
                 <img
                   src="/lovable-uploads/0dca5dad-cf11-450c-97cd-79537e02a5e0.png"
-                  alt={t('features.chatPage.relatedFeatures.faqPinbotPage.hero.imageAlt')}
+                  alt={t('features.faqPinbotPage.hero.imageAlt')}
                   className="max-h-full max-w-full object-contain rounded-lg shadow-lg"
                 />
               </div>
@@ -48,10 +48,10 @@ const FAQPinBot = () => {
           <div className="container mx-auto">
             <div className="text-center mb-20">
             <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[48px] font-bold tracking-wide leading-normal lg:leading-[1.2] mb-4">
-              {t('features.chatPage.relatedFeatures.faqPinbotPage.sectionTitle')}
+              {t('features.faqPinbotPage.sectionTitle')}
             </h2>
             <p className="text-base sm:text-lg text-muted-foreground max-w-2xl mx-auto">
-              {t('features.chatPage.relatedFeatures.faqPinbotPage.sectionSubtitle')}
+              {t('features.faqPinbotPage.sectionSubtitle')}
             </p>
           </div>
 
@@ -62,30 +62,30 @@ const FAQPinBot = () => {
                 <HelpCircle className="w-7 h-7 text-[#02B13F]" />
               </div>
               <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold mb-4">
-                {t('features.chatPage.relatedFeatures.faqPinbotPage.features.structuredFAQ.title')}
+                {t('features.faqPinbotPage.features.structuredFAQ.title')}
               </h3>
               <p className="text-sm sm:text-base text-muted-foreground mb-6">
-                {t('features.chatPage.relatedFeatures.faqPinbotPage.features.structuredFAQ.description')}
+                {t('features.faqPinbotPage.features.structuredFAQ.description')}
               </p>
               <ul className="space-y-3 text-muted-foreground">
                 <li className="flex items-start gap-3">
                   <span className="text-[#02B13F] mt-1">✓</span>
-                  <span>{t('features.chatPage.relatedFeatures.faqPinbotPage.features.structuredFAQ.benefits.fixedInfo')}</span>
+                  <span>{t('features.faqPinbotPage.features.structuredFAQ.benefits.fixedInfo')}</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-[#02B13F] mt-1">✓</span>
-                  <span>{t('features.chatPage.relatedFeatures.faqPinbotPage.features.structuredFAQ.benefits.keywordTrigger')}</span>
+                  <span>{t('features.faqPinbotPage.features.structuredFAQ.benefits.keywordTrigger')}</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-[#02B13F] mt-1">✓</span>
-                  <span>{t('features.chatPage.relatedFeatures.faqPinbotPage.features.structuredFAQ.benefits.consistency')}</span>
+                  <span>{t('features.faqPinbotPage.features.structuredFAQ.benefits.consistency')}</span>
                 </li>
               </ul>
             </div>
             <div className="order-1 lg:order-2">
               <img
                 src="/lovable-uploads/chat_management.png"
-                alt={t('features.chatPage.relatedFeatures.faqPinbotPage.features.structuredFAQ.imageAlt')}
+                alt={t('features.faqPinbotPage.features.structuredFAQ.imageAlt')}
                 className="w-full rounded-2xl shadow-xl"
               />
             </div>
@@ -98,30 +98,30 @@ const FAQPinBot = () => {
                 <Image className="w-7 h-7 text-[#02B13F]" />
               </div>
               <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold mb-4">
-                {t('features.chatPage.relatedFeatures.faqPinbotPage.features.multiFormat.title')}
+                {t('features.faqPinbotPage.features.multiFormat.title')}
               </h3>
               <p className="text-sm sm:text-base text-muted-foreground mb-6">
-                {t('features.chatPage.relatedFeatures.faqPinbotPage.features.multiFormat.description')}
+                {t('features.faqPinbotPage.features.multiFormat.description')}
               </p>
               <ul className="space-y-3 text-muted-foreground">
                 <li className="flex items-start gap-3">
                   <span className="text-[#02B13F] mt-1">✓</span>
-                  <span>{t('features.chatPage.relatedFeatures.faqPinbotPage.features.multiFormat.benefits.richMedia')}</span>
+                  <span>{t('features.faqPinbotPage.features.multiFormat.benefits.richMedia')}</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-[#02B13F] mt-1">✓</span>
-                  <span>{t('features.chatPage.relatedFeatures.faqPinbotPage.features.multiFormat.benefits.buttons')}</span>
+                  <span>{t('features.faqPinbotPage.features.multiFormat.benefits.buttons')}</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-[#02B13F] mt-1">✓</span>
-                  <span>{t('features.chatPage.relatedFeatures.faqPinbotPage.features.multiFormat.benefits.carousel')}</span>
+                  <span>{t('features.faqPinbotPage.features.multiFormat.benefits.carousel')}</span>
                 </li>
               </ul>
             </div>
             <div className="order-1">
               <img
                 src="/lovable-uploads/chatroom-team-management-hero.png"
-                alt={t('features.chatPage.relatedFeatures.faqPinbotPage.features.multiFormat.imageAlt')}
+                alt={t('features.faqPinbotPage.features.multiFormat.imageAlt')}
                 className="w-full rounded-2xl shadow-xl"
               />
             </div>
@@ -134,30 +134,30 @@ const FAQPinBot = () => {
                 <Users className="w-7 h-7 text-[#02B13F]" />
               </div>
               <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold mb-4">
-                {t('features.chatPage.relatedFeatures.faqPinbotPage.features.humanHandoff.title')}
+                {t('features.faqPinbotPage.features.humanHandoff.title')}
               </h3>
               <p className="text-sm sm:text-base text-muted-foreground mb-6">
-                {t('features.chatPage.relatedFeatures.faqPinbotPage.features.humanHandoff.description')}
+                {t('features.faqPinbotPage.features.humanHandoff.description')}
               </p>
               <ul className="space-y-3 text-muted-foreground">
                 <li className="flex items-start gap-3">
                   <span className="text-[#02B13F] mt-1">✓</span>
-                  <span>{t('features.chatPage.relatedFeatures.faqPinbotPage.features.humanHandoff.benefits.autoDetect')}</span>
+                  <span>{t('features.faqPinbotPage.features.humanHandoff.benefits.autoDetect')}</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-[#02B13F] mt-1">✓</span>
-                  <span>{t('features.chatPage.relatedFeatures.faqPinbotPage.features.humanHandoff.benefits.contextView')}</span>
+                  <span>{t('features.faqPinbotPage.features.humanHandoff.benefits.contextView')}</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-[#02B13F] mt-1">✓</span>
-                  <span>{t('features.chatPage.relatedFeatures.faqPinbotPage.features.humanHandoff.benefits.noLoss')}</span>
+                  <span>{t('features.faqPinbotPage.features.humanHandoff.benefits.noLoss')}</span>
                 </li>
               </ul>
             </div>
             <div className="order-1 lg:order-2">
               <img
                 src="/lovable-uploads/customer-feedback-analytics-hero.png"
-                alt={t('features.chatPage.relatedFeatures.faqPinbotPage.features.humanHandoff.imageAlt')}
+                alt={t('features.faqPinbotPage.features.humanHandoff.imageAlt')}
                 className="w-full rounded-2xl shadow-xl"
               />
             </div>
@@ -170,30 +170,30 @@ const FAQPinBot = () => {
                 <Zap className="w-7 h-7 text-[#02B13F]" />
               </div>
               <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold mb-4">
-                {t('features.chatPage.relatedFeatures.faqPinbotPage.features.eventDesign.title')}
+                {t('features.faqPinbotPage.features.eventDesign.title')}
               </h3>
               <p className="text-sm sm:text-base text-muted-foreground mb-6">
-                {t('features.chatPage.relatedFeatures.faqPinbotPage.features.eventDesign.description')}
+                {t('features.faqPinbotPage.features.eventDesign.description')}
               </p>
               <ul className="space-y-3 text-muted-foreground">
                 <li className="flex items-start gap-3">
                   <span className="text-[#02B13F] mt-1">✓</span>
-                  <span>{t('features.chatPage.relatedFeatures.faqPinbotPage.features.eventDesign.benefits.quickEdit')}</span>
+                  <span>{t('features.faqPinbotPage.features.eventDesign.benefits.quickEdit')}</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-[#02B13F] mt-1">✓</span>
-                  <span>{t('features.chatPage.relatedFeatures.faqPinbotPage.features.eventDesign.benefits.integration')}</span>
+                  <span>{t('features.faqPinbotPage.features.eventDesign.benefits.integration')}</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-[#02B13F] mt-1">✓</span>
-                  <span>{t('features.chatPage.relatedFeatures.faqPinbotPage.features.eventDesign.benefits.reduceLoad')}</span>
+                  <span>{t('features.faqPinbotPage.features.eventDesign.benefits.reduceLoad')}</span>
                 </li>
               </ul>
             </div>
             <div className="order-1">
               <img
                 src="/lovable-uploads/lead-capture-survey-hero.png"
-                alt={t('features.chatPage.relatedFeatures.faqPinbotPage.features.eventDesign.imageAlt')}
+                alt={t('features.faqPinbotPage.features.eventDesign.imageAlt')}
                 className="w-full rounded-2xl shadow-xl"
               />
             </div>
@@ -206,7 +206,7 @@ const FAQPinBot = () => {
           <div className="container mx-auto">
             <div className="text-center mb-12">
             <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[48px] font-bold tracking-wide leading-normal lg:leading-[1.2] mb-6">
-              {t('features.chatPage.relatedFeatures.faqPinbotPage.useCases.title')}
+              {t('features.faqPinbotPage.useCases.title')}
             </h2>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
@@ -216,12 +216,12 @@ const FAQPinBot = () => {
                   <MessageCircle className="w-7 h-7 text-[#02B13F]" />
                 </div>
                 <CardTitle className="text-lg sm:text-xl md:text-2xl lg:text-3xl">
-                  {t('features.chatPage.relatedFeatures.faqPinbotPage.useCases.storeWebsite.title')}
+                  {t('features.faqPinbotPage.useCases.storeWebsite.title')}
                 </CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-sm sm:text-base text-muted-foreground">
-                  {t('features.chatPage.relatedFeatures.faqPinbotPage.useCases.storeWebsite.description')}
+                  {t('features.faqPinbotPage.useCases.storeWebsite.description')}
                 </p>
               </CardContent>
             </Card>
@@ -232,12 +232,12 @@ const FAQPinBot = () => {
                   <Bot className="w-7 h-7 text-[#02B13F]" />
                 </div>
                 <CardTitle className="text-lg sm:text-xl md:text-2xl lg:text-3xl">
-                  {t('features.chatPage.relatedFeatures.faqPinbotPage.useCases.ecommerce.title')}
+                  {t('features.faqPinbotPage.useCases.ecommerce.title')}
                 </CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-sm sm:text-base text-muted-foreground">
-                  {t('features.chatPage.relatedFeatures.faqPinbotPage.useCases.ecommerce.description')}
+                  {t('features.faqPinbotPage.useCases.ecommerce.description')}
                 </p>
               </CardContent>
             </Card>
@@ -248,12 +248,12 @@ const FAQPinBot = () => {
                   <LifeBuoy className="w-7 h-7 text-[#02B13F]" />
                 </div>
                 <CardTitle className="text-lg sm:text-xl md:text-2xl lg:text-3xl">
-                  {t('features.chatPage.relatedFeatures.faqPinbotPage.useCases.eventPromotion.title')}
+                  {t('features.faqPinbotPage.useCases.eventPromotion.title')}
                 </CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-sm sm:text-base text-muted-foreground">
-                  {t('features.chatPage.relatedFeatures.faqPinbotPage.useCases.eventPromotion.description')}
+                  {t('features.faqPinbotPage.useCases.eventPromotion.description')}
                 </p>
               </CardContent>
             </Card>
@@ -269,10 +269,10 @@ const FAQPinBot = () => {
               <HelpCircle className="w-8 h-8 text-[#02B13F]" />
             </div>
             <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[48px] font-bold tracking-wide leading-normal lg:leading-[1.2] mb-8">
-              {t('features.chatPage.relatedFeatures.faqPinbotPage.cta.title')}
+              {t('features.faqPinbotPage.cta.title')}
             </h2>
             <Button size="lg" className="bg-[#02B13F] hover:bg-[#029f38] text-white text-base sm:text-lg min-w-[200px]">
-              {t('features.chatPage.relatedFeatures.faqPinbotPage.cta.button')}
+              {t('features.faqPinbotPage.cta.button')}
             </Button>
           </div>
           </div>

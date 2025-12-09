@@ -652,6 +652,71 @@
             "title": "開始打造你的團隊協作流程",
             "button": "立即開始"
           }
+        },
+        "analyticsPage": {
+          "hero": {
+            "title": "收集回饋並發掘洞察",
+            "subtitle": "執行問卷調查、收集回應並追蹤表現數據，提升客戶參與度。",
+            "cta": "查看數據分析儀表板",
+            "ctaSecondary": "了解更多",
+            "imageAlt": "包含詳細指標與圖表的完整數據分析儀表板"
+          },
+          "sectionTitle": "強大的數據分析功能",
+          "sectionSubtitle": "完整的工具來收集回饋、追蹤表現並發掘洞察",
+          "features": {
+            "conversationalSurveys": {
+              "title": "對話式問卷",
+              "description": "多種問題類型，以聊天式問卷格式呈現"
+            },
+            "visualResults": {
+              "title": "視覺化結果",
+              "description": "視覺化結果，支援匯出與交叉分析功能"
+            },
+            "integratedData": {
+              "title": "整合數據",
+              "description": "結合點擊、互動與問卷數據"
+            },
+            "timeFiltered": {
+              "title": "時間篩選分析",
+              "description": "視覺化分析，支援自訂時間篩選器"
+            }
+          },
+          "examples": {
+            "customerSatisfaction": {
+              "title": "客戶滿意度追蹤",
+              "description": "執行客戶滿意度問卷調查，搭配趨勢分析以提升服務品質。",
+              "imageAlt": "客戶滿意度星級評分問卷介面"
+            },
+            "interactiveSurveys": {
+              "title": "互動式活動問卷",
+              "description": "在活動期間建立吸引人的問卷，收集回饋、提升參與度，並更深入了解你的受眾。",
+              "imageAlt": "多種問題類型的互動式問卷介面"
+            },
+            "performanceTracking": {
+              "title": "表現追蹤",
+              "description": "追蹤所有接觸點的點擊、互動與參與表現。",
+              "imageAlt": "表現成長追蹤與數據分析洞察"
+            }
+          },
+          "relatedFeatures": {
+            "title": "相關功能",
+            "pinBoard": {
+              "title": "PinBoard",
+              "description": "追蹤連結點擊與參與指標"
+            },
+            "chatWidget": {
+              "title": "Chat Widget",
+              "description": "直接將聊天嵌入您的網站"
+            },
+            "chatroomManagement": {
+              "title": "聊天室管理",
+              "description": "匯出客戶數據進行分析"
+            }
+          },
+          "cta": {
+            "title": "準備好解鎖數據洞察了嗎？",
+            "button": "開始使用數據分析"
+          }
         }
       },
     "industries": {

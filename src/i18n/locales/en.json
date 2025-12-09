@@ -652,6 +652,71 @@
             "title": "Start Building Your Team Collaboration Workflow",
             "button": "Get Started Now"
           }
+        },
+        "analyticsPage": {
+          "hero": {
+            "title": "Collect Feedback and Discover Insights",
+            "subtitle": "Run surveys, gather responses, and track performance data to improve customer engagement.",
+            "cta": "View Analytics Dashboard",
+            "ctaSecondary": "Learn More",
+            "imageAlt": "Comprehensive analytics dashboard with detailed metrics and graphs"
+          },
+          "sectionTitle": "Powerful Analytics Features",
+          "sectionSubtitle": "Comprehensive tools to collect feedback, track performance, and discover insights",
+          "features": {
+            "conversationalSurveys": {
+              "title": "Conversational Surveys",
+              "description": "Multiple question types in chat-like survey format"
+            },
+            "visualResults": {
+              "title": "Visual Results",
+              "description": "Visualized results with export and cross-analysis capabilities"
+            },
+            "integratedData": {
+              "title": "Integrated Data",
+              "description": "Combine clicks, interactions, and survey data"
+            },
+            "timeFiltered": {
+              "title": "Time-filtered Analytics",
+              "description": "Visual analytics with customizable time filters"
+            }
+          },
+          "examples": {
+            "customerSatisfaction": {
+              "title": "Customer Satisfaction Tracking",
+              "description": "Run customer satisfaction surveys with trend analysis to improve service quality.",
+              "imageAlt": "Customer satisfaction star rating survey interface"
+            },
+            "interactiveSurveys": {
+              "title": "Interactive Event Surveys",
+              "description": "Create engaging surveys during events to gather feedback, boost participation, and better understand your audience.",
+              "imageAlt": "Interactive survey interface with multiple question types"
+            },
+            "performanceTracking": {
+              "title": "Performance Tracking",
+              "description": "Track clicks, interactions, and engagement performance across all touchpoints.",
+              "imageAlt": "Performance growth tracking and analytics insights"
+            }
+          },
+          "relatedFeatures": {
+            "title": "Related Features",
+            "pinBoard": {
+              "title": "PinBoard",
+              "description": "Track link clicks and engagement metrics"
+            },
+            "chatWidget": {
+              "title": "Chat Widget",
+              "description": "Embed chat directly into your website"
+            },
+            "chatroomManagement": {
+              "title": "Chatroom Management",
+              "description": "Export customer data for analysis"
+            }
+          },
+          "cta": {
+            "title": "Ready to Unlock Data Insights?",
+            "button": "Start Analytics"
+          }
         }
       },
     "industries": {

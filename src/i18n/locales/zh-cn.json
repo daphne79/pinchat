@@ -600,6 +600,71 @@
         "button": "开始使用"
       }
     },
+    "analyticsPage": {
+      "hero": {
+        "title": "收集反馈并发掘洞察",
+        "subtitle": "执行问卷调查、收集回应并追踪表现数据，提升客户参与度。",
+        "cta": "查看数据分析仪表板",
+        "ctaSecondary": "了解更多",
+        "imageAlt": "包含详细指标与图表的完整数据分析仪表板"
+      },
+      "sectionTitle": "强大的数据分析功能",
+      "sectionSubtitle": "完整的工具来收集反馈、追踪表现并发掘洞察",
+      "features": {
+        "conversationalSurveys": {
+          "title": "对话式问卷",
+          "description": "多种问题类型，以聊天式问卷格式呈现"
+        },
+        "visualResults": {
+          "title": "可视化结果",
+          "description": "可视化结果，支持导出与交叉分析功能"
+        },
+        "integratedData": {
+          "title": "整合数据",
+          "description": "结合点击、互动与问卷数据"
+        },
+        "timeFiltered": {
+          "title": "时间筛选分析",
+          "description": "可视化分析，支持自定义时间筛选器"
+        }
+      },
+      "examples": {
+        "customerSatisfaction": {
+          "title": "客户满意度追踪",
+          "description": "执行客户满意度问卷调查，搭配趋势分析以提升服务品质。",
+          "imageAlt": "客户满意度星级评分问卷界面"
+        },
+        "interactiveSurveys": {
+          "title": "互动式活动问卷",
+          "description": "在活动期间建立吸引人的问卷，收集反馈、提升参与度，并更深入了解你的受众。",
+          "imageAlt": "多种问题类型的互动式问卷界面"
+        },
+        "performanceTracking": {
+          "title": "表现追踪",
+          "description": "追踪所有接触点的点击、互动与参与表现。",
+          "imageAlt": "表现成长追踪与数据分析洞察"
+        }
+      },
+      "relatedFeatures": {
+        "title": "相关功能",
+        "pinBoard": {
+          "title": "PinBoard",
+          "description": "追踪链接点击与参与指标"
+        },
+        "chatWidget": {
+          "title": "Chat Widget",
+          "description": "直接将聊天嵌入您的网站"
+        },
+        "chatroomManagement": {
+          "title": "聊天室管理",
+          "description": "导出客户数据进行分析"
+        }
+      },
+      "cta": {
+        "title": "准备好解锁数据洞察了吗？",
+        "button": "开始使用数据分析"
+      }
+    },
     "subAccountPage": {
       "hero": {
         "title": "让团队协作更高效、更安全",

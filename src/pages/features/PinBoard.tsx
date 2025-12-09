@@ -18,24 +18,24 @@ const PinBoard = () => {
             <div className="max-w-4xl mx-auto">
               <div className="animate-fade-in text-center mb-8">
                 <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-[72px] font-bold tracking-wide mb-6 text-foreground leading-normal lg:leading-[1.2]">
-                  {t('features.chatPage.relatedFeatures.pinBoardPage.hero.title')}
+                  {t('features.pinBoardPage.hero.title')}
                 </h1>
                 <p className="text-base sm:text-lg text-muted-foreground mb-8">
-                  {t('features.chatPage.relatedFeatures.pinBoardPage.hero.subtitle')}
+                  {t('features.pinBoardPage.hero.subtitle')}
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
                   <Button size="lg" className="bg-[#02B13F] hover:bg-[#029f38] text-white text-base sm:text-lg">
-                    {t('features.chatPage.relatedFeatures.pinBoardPage.hero.cta')}
+                    {t('features.pinBoardPage.hero.cta')}
                   </Button>
                   <Button size="lg" variant="outline" className="text-base sm:text-lg">
-                    {t('features.chatPage.relatedFeatures.pinBoardPage.hero.ctaSecondary')}
+                    {t('features.pinBoardPage.hero.ctaSecondary')}
                   </Button>
                 </div>
               </div>
               <div className="min-h-64 sm:min-h-96 flex items-center justify-center animate-fade-in">
                 <img 
                   src="/lovable-uploads/a943b569-9b16-4e87-8372-5c99b676e584.png" 
-                  alt={t('features.chatPage.relatedFeatures.pinBoardPage.hero.imageAlt')} 
+                  alt={t('features.pinBoardPage.hero.imageAlt')} 
                   className="max-h-full max-w-full object-contain rounded-lg shadow-lg" 
                 />
               </div>
@@ -48,10 +48,10 @@ const PinBoard = () => {
           <div className="container mx-auto">
             <div className="text-center mb-20">
             <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[48px] font-bold tracking-wide leading-normal lg:leading-[1.2] mb-4">
-              {t('features.chatPage.relatedFeatures.pinBoardPage.sectionTitle')}
+              {t('features.pinBoardPage.sectionTitle')}
             </h2>
             <p className="text-base sm:text-lg text-muted-foreground max-w-2xl mx-auto">
-              {t('features.chatPage.relatedFeatures.pinBoardPage.sectionSubtitle')}
+              {t('features.pinBoardPage.sectionSubtitle')}
             </p>
           </div>
 
@@ -62,30 +62,30 @@ const PinBoard = () => {
                 <Palette className="w-7 h-7 text-[#02B13F]" />
               </div>
               <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold mb-4">
-                {t('features.chatPage.relatedFeatures.pinBoardPage.features.flexibleBrandedLayouts.title')}
+                {t('features.pinBoardPage.features.flexibleBrandedLayouts.title')}
               </h3>
               <p className="text-sm sm:text-base text-muted-foreground mb-6">
-                {t('features.chatPage.relatedFeatures.pinBoardPage.features.flexibleBrandedLayouts.description')}
+                {t('features.pinBoardPage.features.flexibleBrandedLayouts.description')}
               </p>
               <ul className="space-y-3 text-muted-foreground">
                 <li className="flex items-start gap-3">
                   <span className="text-[#02B13F] mt-1">✓</span>
-                  <span>{t('features.chatPage.relatedFeatures.pinBoardPage.features.flexibleBrandedLayouts.benefits.multipleLayouts')}</span>
+                  <span>{t('features.pinBoardPage.features.flexibleBrandedLayouts.benefits.multipleLayouts')}</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-[#02B13F] mt-1">✓</span>
-                  <span>{t('features.chatPage.relatedFeatures.pinBoardPage.features.flexibleBrandedLayouts.benefits.fullControl')}</span>
+                  <span>{t('features.pinBoardPage.features.flexibleBrandedLayouts.benefits.fullControl')}</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-[#02B13F] mt-1">✓</span>
-                  <span>{t('features.chatPage.relatedFeatures.pinBoardPage.features.flexibleBrandedLayouts.benefits.mobileFirst')}</span>
+                  <span>{t('features.pinBoardPage.features.flexibleBrandedLayouts.benefits.mobileFirst')}</span>
                 </li>
               </ul>
             </div>
             <div className="order-1 lg:order-2">
               <img 
                 src="/lovable-uploads/89dcdb0f-d1e9-43b5-b79d-2af42fb8cdcf.png" 
-                alt={t('features.chatPage.relatedFeatures.pinBoardPage.features.flexibleBrandedLayouts.imageAlt')} 
+                alt={t('features.pinBoardPage.features.flexibleBrandedLayouts.imageAlt')} 
                 className="w-full rounded-2xl shadow-xl"
               />
             </div>
@@ -98,30 +98,30 @@ const PinBoard = () => {
                 <Link2 className="w-7 h-7 text-[#02B13F]" />
               </div>
               <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold mb-4">
-                {t('features.chatPage.relatedFeatures.pinBoardPage.features.centralizedActions.title')}
+                {t('features.pinBoardPage.features.centralizedActions.title')}
               </h3>
               <p className="text-sm sm:text-base text-muted-foreground mb-6">
-                {t('features.chatPage.relatedFeatures.pinBoardPage.features.centralizedActions.description')}
+                {t('features.pinBoardPage.features.centralizedActions.description')}
               </p>
               <ul className="space-y-3 text-muted-foreground">
                 <li className="flex items-start gap-3">
                   <span className="text-[#02B13F] mt-1">✓</span>
-                  <span>{t('features.chatPage.relatedFeatures.pinBoardPage.features.centralizedActions.benefits.showcaseLinks')}</span>
+                  <span>{t('features.pinBoardPage.features.centralizedActions.benefits.showcaseLinks')}</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-[#02B13F] mt-1">✓</span>
-                  <span>{t('features.chatPage.relatedFeatures.pinBoardPage.features.centralizedActions.benefits.reduceFriction')}</span>
+                  <span>{t('features.pinBoardPage.features.centralizedActions.benefits.reduceFriction')}</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-[#02B13F] mt-1">✓</span>
-                  <span>{t('features.chatPage.relatedFeatures.pinBoardPage.features.centralizedActions.benefits.perfectForCampaigns')}</span>
+                  <span>{t('features.pinBoardPage.features.centralizedActions.benefits.perfectForCampaigns')}</span>
                 </li>
               </ul>
             </div>
             <div className="order-1">
               <img 
                 src="/lovable-uploads/d7d8f729-883d-4769-9c7d-ee5b6d044222.png" 
-                alt={t('features.chatPage.relatedFeatures.pinBoardPage.features.centralizedActions.imageAlt')} 
+                alt={t('features.pinBoardPage.features.centralizedActions.imageAlt')} 
                 className="w-full rounded-2xl shadow-xl"
               />
             </div>
@@ -134,30 +134,30 @@ const PinBoard = () => {
                 <MessageCircle className="w-7 h-7 text-[#02B13F]" />
               </div>
               <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold mb-4">
-                {t('features.chatPage.relatedFeatures.pinBoardPage.features.builtInChatEntry.title')}
+                {t('features.pinBoardPage.features.builtInChatEntry.title')}
               </h3>
               <p className="text-sm sm:text-base text-muted-foreground mb-6">
-                {t('features.chatPage.relatedFeatures.pinBoardPage.features.builtInChatEntry.description')}
+                {t('features.pinBoardPage.features.builtInChatEntry.description')}
               </p>
               <ul className="space-y-3 text-muted-foreground">
                 <li className="flex items-start gap-3">
                   <span className="text-[#02B13F] mt-1">✓</span>
-                  <span>{t('features.chatPage.relatedFeatures.pinBoardPage.features.builtInChatEntry.benefits.launchInstantChat')}</span>
+                  <span>{t('features.pinBoardPage.features.builtInChatEntry.benefits.launchInstantChat')}</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-[#02B13F] mt-1">✓</span>
-                  <span>{t('features.chatPage.relatedFeatures.pinBoardPage.features.builtInChatEntry.benefits.supportAIOrHuman')}</span>
+                  <span>{t('features.pinBoardPage.features.builtInChatEntry.benefits.supportAIOrHuman')}</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-[#02B13F] mt-1">✓</span>
-                  <span>{t('features.chatPage.relatedFeatures.pinBoardPage.features.builtInChatEntry.benefits.minimizeDropOff')}</span>
+                  <span>{t('features.pinBoardPage.features.builtInChatEntry.benefits.minimizeDropOff')}</span>
                 </li>
               </ul>
             </div>
             <div className="order-1 lg:order-2">
               <img 
                 src="/lovable-uploads/a943b569-9b16-4e87-8372-5c99b676e584.png" 
-                alt={t('features.chatPage.relatedFeatures.pinBoardPage.features.builtInChatEntry.imageAlt')} 
+                alt={t('features.pinBoardPage.features.builtInChatEntry.imageAlt')} 
                 className="w-full rounded-2xl shadow-xl"
               />
             </div>
@@ -170,30 +170,30 @@ const PinBoard = () => {
                 <BarChart3 className="w-7 h-7 text-[#02B13F]" />
               </div>
               <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold mb-4">
-                {t('features.chatPage.relatedFeatures.pinBoardPage.features.insightfulAnalytics.title')}
+                {t('features.pinBoardPage.features.insightfulAnalytics.title')}
               </h3>
               <p className="text-sm sm:text-base text-muted-foreground mb-6">
-                {t('features.chatPage.relatedFeatures.pinBoardPage.features.insightfulAnalytics.description')}
+                {t('features.pinBoardPage.features.insightfulAnalytics.description')}
               </p>
               <ul className="space-y-3 text-muted-foreground">
                 <li className="flex items-start gap-3">
                   <span className="text-[#02B13F] mt-1">✓</span>
-                  <span>{t('features.chatPage.relatedFeatures.pinBoardPage.features.insightfulAnalytics.benefits.viewLinkEngagement')}</span>
+                  <span>{t('features.pinBoardPage.features.insightfulAnalytics.benefits.viewLinkEngagement')}</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-[#02B13F] mt-1">✓</span>
-                  <span>{t('features.chatPage.relatedFeatures.pinBoardPage.features.insightfulAnalytics.benefits.identifyHighPerforming')}</span>
+                  <span>{t('features.pinBoardPage.features.insightfulAnalytics.benefits.identifyHighPerforming')}</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-[#02B13F] mt-1">✓</span>
-                  <span>{t('features.chatPage.relatedFeatures.pinBoardPage.features.insightfulAnalytics.benefits.makeDataDriven')}</span>
+                  <span>{t('features.pinBoardPage.features.insightfulAnalytics.benefits.makeDataDriven')}</span>
                 </li>
               </ul>
             </div>
             <div className="order-1">
               <img 
                 src="/lovable-uploads/9a684b2b-549b-40c9-9241-1630df37fe86.png" 
-                alt={t('features.chatPage.relatedFeatures.pinBoardPage.features.insightfulAnalytics.imageAlt')} 
+                alt={t('features.pinBoardPage.features.insightfulAnalytics.imageAlt')} 
                 className="w-full rounded-2xl shadow-xl"
               />
             </div>
@@ -206,7 +206,7 @@ const PinBoard = () => {
           <div className="container mx-auto">
             <div className="text-center mb-12">
             <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[48px] font-bold tracking-wide leading-normal lg:leading-[1.2] mb-6">
-              {t('features.chatPage.relatedFeatures.pinBoardPage.useCases.title')}
+              {t('features.pinBoardPage.useCases.title')}
             </h2>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
@@ -216,12 +216,12 @@ const PinBoard = () => {
                   <Globe className="w-7 h-7 text-[#02B13F]" />
                 </div>
                 <CardTitle className="text-lg sm:text-xl md:text-2xl lg:text-3xl">
-                  {t('features.chatPage.relatedFeatures.pinBoardPage.useCases.socialMediaBioLink.title')}
+                  {t('features.pinBoardPage.useCases.socialMediaBioLink.title')}
                 </CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-sm sm:text-base text-muted-foreground">
-                  {t('features.chatPage.relatedFeatures.pinBoardPage.useCases.socialMediaBioLink.description')}
+                  {t('features.pinBoardPage.useCases.socialMediaBioLink.description')}
                 </p>
               </CardContent>
             </Card>
@@ -232,12 +232,12 @@ const PinBoard = () => {
                   <FileText className="w-7 h-7 text-[#02B13F]" />
                 </div>
                 <CardTitle className="text-lg sm:text-xl md:text-2xl lg:text-3xl">
-                  {t('features.chatPage.relatedFeatures.pinBoardPage.useCases.campaignLandingPage.title')}
+                  {t('features.pinBoardPage.useCases.campaignLandingPage.title')}
                 </CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-sm sm:text-base text-muted-foreground">
-                  {t('features.chatPage.relatedFeatures.pinBoardPage.useCases.campaignLandingPage.description')}
+                  {t('features.pinBoardPage.useCases.campaignLandingPage.description')}
                 </p>
               </CardContent>
             </Card>
@@ -248,12 +248,12 @@ const PinBoard = () => {
                   <Users className="w-7 h-7 text-[#02B13F]" />
                 </div>
                 <CardTitle className="text-lg sm:text-xl md:text-2xl lg:text-3xl">
-                  {t('features.chatPage.relatedFeatures.pinBoardPage.useCases.customerOnboardingHub.title')}
+                  {t('features.pinBoardPage.useCases.customerOnboardingHub.title')}
                 </CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-sm sm:text-base text-muted-foreground">
-                  {t('features.chatPage.relatedFeatures.pinBoardPage.useCases.customerOnboardingHub.description')}
+                  {t('features.pinBoardPage.useCases.customerOnboardingHub.description')}
                 </p>
               </CardContent>
             </Card>
@@ -269,10 +269,10 @@ const PinBoard = () => {
               <Sparkles className="w-8 h-8 text-[#02B13F]" />
             </div>
             <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[48px] font-bold tracking-wide leading-normal lg:leading-[1.2] mb-8">
-              {t('features.chatPage.relatedFeatures.pinBoardPage.cta.title')}
+              {t('features.pinBoardPage.cta.title')}
             </h2>
             <Button size="lg" className="bg-[#02B13F] hover:bg-[#029f38] text-white text-base sm:text-lg min-w-[200px]">
-              {t('features.chatPage.relatedFeatures.pinBoardPage.cta.button')}
+              {t('features.pinBoardPage.cta.button')}
             </Button>
           </div>
           </div>
