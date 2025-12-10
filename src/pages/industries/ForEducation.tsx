@@ -165,64 +165,64 @@ const ForEducation = () => {
             </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
             <Link 
-              to="/features/ai-pinbot" 
+              to="/industries/retail-ecommerce" 
               className="group rounded-lg overflow-hidden border bg-card hover:shadow-lg transition-all duration-300"
             >
               <div className="aspect-video bg-muted overflow-hidden">
                 <img 
                   src="/lovable-uploads/f4f43fc8-86f7-459a-8ba8-a97d9cc3610d.png" 
-                  alt="AI PinBot" 
+                  alt="Retail & E-commerce" 
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                 />
               </div>
               <div className="p-6">
                 <h3 className="font-semibold text-foreground text-lg mb-2 group-hover:text-primary transition-colors">
-                  {t('education.exploreMore.feature1.title')}
+                  {t('education.exploreMore.retailEcommerce.title')}
                 </h3>
                 <p className="text-sm text-muted-foreground">
-                  {t('education.exploreMore.feature1.subtitle')}
+                  {t('education.exploreMore.retailEcommerce.description')}
                 </p>
               </div>
             </Link>
             
             <Link 
-              to="/features/chat-widget" 
+              to="/industries/service-industries" 
               className="group rounded-lg overflow-hidden border bg-card hover:shadow-lg transition-all duration-300"
             >
               <div className="aspect-video bg-muted overflow-hidden">
                 <img 
-                  src="/lovable-uploads/f4f43fc8-86f7-459a-8ba8-a97d9cc3610d.png" 
-                  alt="Chat Widget" 
+                  src="/lovable-uploads/8816cd40-a898-4f73-91de-ea0b84f6aeac.png" 
+                  alt="Service Industries" 
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                 />
               </div>
               <div className="p-6">
                 <h3 className="font-semibold text-foreground text-lg mb-2 group-hover:text-primary transition-colors">
-                  {t('education.exploreMore.feature2.title')}
+                  {t('education.exploreMore.serviceIndustries.title')}
                 </h3>
                 <p className="text-sm text-muted-foreground">
-                  {t('education.exploreMore.feature2.subtitle')}
+                  {t('education.exploreMore.serviceIndustries.description')}
                 </p>
               </div>
             </Link>
             
             <Link 
-              to="/features/faq-pinbot" 
+              to="/industries/healthcare" 
               className="group rounded-lg overflow-hidden border bg-card hover:shadow-lg transition-all duration-300"
             >
               <div className="aspect-video bg-muted overflow-hidden">
                 <img 
-                  src="/lovable-uploads/f4f43fc8-86f7-459a-8ba8-a97d9cc3610d.png" 
-                  alt="FAQ PinBot" 
+                  src="/lovable-uploads/83071566-9a01-4643-a61a-b6e2437b6199.png" 
+                  alt="Healthcare" 
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                 />
               </div>
               <div className="p-6">
                 <h3 className="font-semibold text-foreground text-lg mb-2 group-hover:text-primary transition-colors">
-                  {t('education.exploreMore.feature3.title')}
+                  {t('education.exploreMore.healthcare.title')}
                 </h3>
                 <p className="text-sm text-muted-foreground">
-                  {t('education.exploreMore.feature3.subtitle')}
+                  {t('education.exploreMore.healthcare.description')}
                 </p>
               </div>
             </Link>

@@ -165,64 +165,64 @@ const ForEvents = () => {
             </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
             <Link 
-              to="/features/ai-pinbot" 
+              to="/industries/retail-ecommerce" 
               className="group rounded-lg overflow-hidden border bg-card hover:shadow-lg transition-all duration-300"
             >
               <div className="aspect-video bg-muted overflow-hidden">
                 <img 
-                  src="/lovable-uploads/a1960abd-93f1-4a03-b109-230d06508316.png" 
-                  alt="AI PinBot" 
+                  src="/lovable-uploads/f4f43fc8-86f7-459a-8ba8-a97d9cc3610d.png" 
+                  alt="Retail & E-commerce" 
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                 />
               </div>
               <div className="p-6">
                 <h3 className="font-semibold text-foreground text-lg mb-2 group-hover:text-primary transition-colors">
-                  {t('events.exploreMore.aiPinbot.title')}
+                  {t('events.exploreMore.retailEcommerce.title')}
                 </h3>
                 <p className="text-sm text-muted-foreground">
-                  {t('events.exploreMore.aiPinbot.subtitle')}
+                  {t('events.exploreMore.retailEcommerce.description')}
                 </p>
               </div>
             </Link>
             
             <Link 
-              to="/features/chat-widget" 
+              to="/industries/professional-services" 
               className="group rounded-lg overflow-hidden border bg-card hover:shadow-lg transition-all duration-300"
             >
               <div className="aspect-video bg-muted overflow-hidden">
                 <img 
-                  src="/lovable-uploads/a1960abd-93f1-4a03-b109-230d06508316.png" 
-                  alt="Chat Widget" 
+                  src="/lovable-uploads/0c488cfa-6ba1-4c50-b52e-2437906a8102.png" 
+                  alt="Professional Services" 
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                 />
               </div>
               <div className="p-6">
                 <h3 className="font-semibold text-foreground text-lg mb-2 group-hover:text-primary transition-colors">
-                  {t('events.exploreMore.chatWidget.title')}
+                  {t('events.exploreMore.professionalServices.title')}
                 </h3>
                 <p className="text-sm text-muted-foreground">
-                  {t('events.exploreMore.chatWidget.subtitle')}
+                  {t('events.exploreMore.professionalServices.description')}
                 </p>
               </div>
             </Link>
             
             <Link 
-              to="/features/pinboard" 
+              to="/industries/real-estate" 
               className="group rounded-lg overflow-hidden border bg-card hover:shadow-lg transition-all duration-300"
             >
               <div className="aspect-video bg-muted overflow-hidden">
                 <img 
-                  src="/lovable-uploads/a1960abd-93f1-4a03-b109-230d06508316.png" 
-                  alt="PinBoard" 
+                  src="/lovable-uploads/b1eef0e6-e922-4863-bc03-f92dd32f0f46.png" 
+                  alt="Real Estate" 
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                 />
               </div>
               <div className="p-6">
                 <h3 className="font-semibold text-foreground text-lg mb-2 group-hover:text-primary transition-colors">
-                  {t('events.exploreMore.pinBoard.title')}
+                  {t('events.exploreMore.realEstate.title')}
                 </h3>
                 <p className="text-sm text-muted-foreground">
-                  {t('events.exploreMore.pinBoard.subtitle')}
+                  {t('events.exploreMore.realEstate.description')}
                 </p>
               </div>
             </Link>

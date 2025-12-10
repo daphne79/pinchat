@@ -165,64 +165,64 @@ const ForHealthcare = () => {
             </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
             <Link 
-              to="/features/ai-pinbot" 
+              to="/industries/service-industries" 
               className="group rounded-lg overflow-hidden border bg-card hover:shadow-lg transition-all duration-300"
             >
               <div className="aspect-video bg-muted overflow-hidden">
                 <img 
-                  src="/lovable-uploads/83071566-9a01-4643-a61a-b6e2437b6199.png" 
-                  alt="AI PinBot" 
+                  src="/lovable-uploads/8816cd40-a898-4f73-91de-ea0b84f6aeac.png" 
+                  alt="Service Industries" 
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                 />
               </div>
               <div className="p-6">
                 <h3 className="font-semibold text-foreground text-lg mb-2 group-hover:text-primary transition-colors">
-                  {t('healthcare.exploreMore.feature1.title')}
+                  {t('healthcare.exploreMore.serviceIndustries.title')}
                 </h3>
                 <p className="text-sm text-muted-foreground">
-                  {t('healthcare.exploreMore.feature1.subtitle')}
+                  {t('healthcare.exploreMore.serviceIndustries.description')}
                 </p>
               </div>
             </Link>
             
             <Link 
-              to="/features/chat-widget" 
+              to="/industries/education" 
               className="group rounded-lg overflow-hidden border bg-card hover:shadow-lg transition-all duration-300"
             >
               <div className="aspect-video bg-muted overflow-hidden">
                 <img 
-                  src="/lovable-uploads/83071566-9a01-4643-a61a-b6e2437b6199.png" 
-                  alt="Chat Widget" 
+                  src="/lovable-uploads/325ad0e3-2e4d-41f2-bba0-d068115d2b8e.png" 
+                  alt="Education" 
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                 />
               </div>
               <div className="p-6">
                 <h3 className="font-semibold text-foreground text-lg mb-2 group-hover:text-primary transition-colors">
-                  {t('healthcare.exploreMore.feature2.title')}
+                  {t('healthcare.exploreMore.education.title')}
                 </h3>
                 <p className="text-sm text-muted-foreground">
-                  {t('healthcare.exploreMore.feature2.subtitle')}
+                  {t('healthcare.exploreMore.education.description')}
                 </p>
               </div>
             </Link>
             
             <Link 
-              to="/features/pinboard" 
+              to="/industries/events" 
               className="group rounded-lg overflow-hidden border bg-card hover:shadow-lg transition-all duration-300"
             >
               <div className="aspect-video bg-muted overflow-hidden">
                 <img 
-                  src="/lovable-uploads/83071566-9a01-4643-a61a-b6e2437b6199.png" 
-                  alt="PinBoard" 
+                  src="/lovable-uploads/a1960abd-93f1-4a03-b109-230d06508316.png" 
+                  alt="Events" 
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                 />
               </div>
               <div className="p-6">
                 <h3 className="font-semibold text-foreground text-lg mb-2 group-hover:text-primary transition-colors">
-                  {t('healthcare.exploreMore.feature3.title')}
+                  {t('healthcare.exploreMore.events.title')}
                 </h3>
                 <p className="text-sm text-muted-foreground">
-                  {t('healthcare.exploreMore.feature3.subtitle')}
+                  {t('healthcare.exploreMore.events.description')}
                 </p>
               </div>
             </Link>

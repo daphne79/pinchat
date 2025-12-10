@@ -1031,17 +1031,17 @@
     },
     "exploreMore": {
       "title": "探索更多 PinChat 應用方式",
-      "aiPinbot": {
-        "title": "AI 客服機器人",
-        "description": "自動回覆常見問題並支援多語與人工接手，讓房仲在高詢問量時仍維持即時回覆品質。"
+      "b2bCommercial": {
+        "title": "PinChat B2B 解決方案",
+        "description": "提升商務溝通效率，縮短商務往返時間。"
       },
-      "chatWidget": {
-        "title": "Chat Widget",
-        "description": "在物件頁或官網嵌入即時聊天入口，將瀏覽訪客轉換為對話與潛在買家，並可拖曳避免遮擋內容。"
+      "professionalServices": {
+        "title": "PinChat 專業服務解決方案",
+        "description": "提升諮詢與導入體驗，協助客戶快速了解服務內容。"
       },
-      "pinBoard": {
-        "title": "PinBoard 多連結頁",
-        "description": "集中呈現預約看房、物件清單與行銷按鈕，提供更清晰的導流路徑，提升買家後續操作率。"
+      "serviceIndustries": {
+        "title": "PinChat 服務業解決方案",
+        "description": "管理服務前後的顧客詢問，維持流暢體驗。"
       }
     },
     "cta": {
@@ -1166,18 +1166,18 @@
       }
     },
     "exploreMore": {
-      "title": "探索更多功能",
-      "aiPinbot": {
-        "title": "AI PinBot",
-        "subtitle": "自動化 FAQ、支援多語言並可人工接手，降低活動前後的詢問壓力。"
+      "title": "探索更多 PinChat 應用方式",
+      "retailEcommerce": {
+        "title": "PinChat 零售與電商解決方案",
+        "description": "回覆商品與訂單相關問題，協助購買前後的關鍵溝通。"
       },
-      "chatWidget": {
-        "title": "Chat Widget",
-        "subtitle": "將即時聊天嵌入活動網站，提供快速支援並提升參與轉換。"
+      "professionalServices": {
+        "title": "PinChat 專業服務解決方案",
+        "description": "提升諮詢與導入體驗，協助客戶快速了解服務內容。"
       },
-      "pinBoard": {
-        "title": "PinBoard 歡迎頁",
-        "subtitle": "整合報名、行銷與活動重點資訊至單一入口，提升導流效率。"
+      "realEstate": {
+        "title": "PinChat 房地產解決方案",
+        "description": "即時提升物件詢問效率，協助房仲團隊快速提供資訊。"
       }
     },
     "cta": {
@@ -1235,17 +1235,17 @@
     },
     "exploreMore": {
       "title": "探索更多 PinChat 應用方式",
-      "feature1": {
-        "title": "讓 AI 提升教學互動",
-        "subtitle": "自動回應課程資訊與常見疑問，協助教師更快速開啟深度討論。"
+      "retailEcommerce": {
+        "title": "PinChat 零售與電商解決方案",
+        "description": "回覆商品與訂單相關問題，協助購買前後的關鍵溝通。"
       },
-      "feature2": {
-        "title": "整合所有學習交流",
-        "subtitle": "將 LINE、IG、Messenger、WhatsApp 訊息集中在一個介面，讓教學溝通更連續。"
+      "serviceIndustries": {
+        "title": "PinChat 服務業解決方案",
+        "description": "管理服務前後的顧客詢問，維持流暢體驗。"
       },
-      "feature3": {
-        "title": "課後回饋更容易蒐集",
-        "subtitle": "以聊天式問卷收集學生意見，協助教師優化課程內容與互動設計。"
+      "healthcare": {
+        "title": "PinChat 醫療解決方案",
+        "description": "協助醫療團隊在就診各階段保持即時聯繫。"
       }
     },
     "cta": {
@@ -1302,18 +1302,18 @@
       }
     },
     "exploreMore": {
-      "title": "探索更多功能",
-      "feature1": {
-        "title": "AI 客服機器人",
-        "subtitle": "自動回覆大量常見問題，並支援人工接手，以更快速、更智慧的方式提供協助。"
+      "title": "探索更多 PinChat 應用方式",
+      "serviceIndustries": {
+        "title": "PinChat 服務業解決方案",
+        "description": "管理服務前後的顧客詢問，維持流暢體驗。"
       },
-      "feature2": {
-        "title": "多平台訊息整合",
-        "subtitle": "整合所有使用者訊息來源，打造一致、不中斷的服務體驗，提升整體回覆效率。"
+      "education": {
+        "title": "PinChat 教育解決方案",
+        "description": "整合學生與家長訊息，簡化校內外溝通。"
       },
-      "feature3": {
-        "title": "對話式問卷蒐集",
-        "subtitle": "用更自然的互動方式蒐集需求與回饋，讓資料更完整、填答更容易。"
+      "events": {
+        "title": "PinChat 活動解決方案",
+        "description": "優化活動全流程溝通，提升參與者體驗。"
       }
     },
     "cta": {
@@ -1371,17 +1371,17 @@
     },
     "exploreMore": {
       "title": "探索更多 PinChat 應用方式",
-      "aiPinbot": {
-        "title": "AI 客服機器人",
-        "subtitle": "協助處理行政性問題，如收費資訊、流程說明與基本服務介紹。"
+      "b2bCommercial": {
+        "title": "PinChat B2B 解決方案",
+        "description": "提升商務溝通效率，縮短商務往返時間。"
       },
-      "chatWidget": {
-        "title": "網頁客服插件",
-        "subtitle": "在網站提供即時諮詢入口，引導訪客快速進入 onboarding 流程。"
+      "realEstate": {
+        "title": "PinChat 房地產解決方案",
+        "description": "即時提升物件詢問效率，協助房仲團隊快速提供資訊。"
       },
-      "survey": {
-        "title": "Survey 問卷",
-        "subtitle": "以對話式問卷收集客戶背景資料，協助團隊理解需求並做好導入準備。"
+      "events": {
+        "title": "PinChat 活動解決方案",
+        "description": "優化活動全流程溝通，提升參與者體驗。"
       }
     },
     "cta": {
@@ -1439,17 +1439,17 @@
     },
     "exploreMore": {
       "title": "探索更多 PinChat 應用方式",
-      "aiAutomation": {
-        "title": "AI 客服自動化",
-        "subtitle": "以 AI 先處理常見商務問題，降低銷售與客服負擔，讓團隊更專注在真正需要人工處理的商機對話。"
+      "professionalServices": {
+        "title": "PinChat 專業服務解決方案",
+        "description": "提升諮詢與導入體驗，協助客戶快速了解服務內容。"
       },
-      "crossPlatform": {
-        "title": "跨平台訊息整合",
-        "subtitle": "集中管理多平台訊息來源，避免團隊因平台切換而遺漏客戶需求，提高商務流程完整性。"
+      "realEstate": {
+        "title": "PinChat 房地產解決方案",
+        "description": "即時提升物件詢問效率，協助房仲團隊快速提供資訊。"
       },
-      "conversationalSurvey": {
-        "title": "對話式問卷",
-        "subtitle": "以簡潔的對話式問卷收集客戶需求資訊，協助銷售在洽談前快速掌握客戶背景與規格要求。"
+      "events": {
+        "title": "PinChat 活動解決方案",
+        "description": "優化活動全流程溝通，提升參與者體驗。"
       }
     },
     "cta": {

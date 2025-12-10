@@ -1031,17 +1031,17 @@
     },
     "exploreMore": {
       "title": "Explore more ways to use PinChat",
-      "aiPinbot": {
-        "title": "AI Customer Service Bot",
-        "description": "Automatically reply to common questions with multi-language support and human handoff, maintaining instant response quality even during high inquiry volumes."
+      "b2bCommercial": {
+        "title": "PinChat for B2B",
+        "description": "Enhance business communication efficiency, shortening business turnaround time."
       },
-      "chatWidget": {
-        "title": "Chat Widget",
-        "description": "Embed instant chat entry on property pages or official websites, converting browsing visitors into conversations and potential buyers, with draggable positioning to avoid blocking content."
+      "professionalServices": {
+        "title": "PinChat for Professional Services",
+        "description": "Enhance consultation and onboarding experience, helping clients quickly understand service offerings."
       },
-      "pinBoard": {
-        "title": "PinBoard Multi-link Page",
-        "description": "Centrally display property viewing bookings, property listings, and marketing buttons, providing clearer conversion paths and improving buyer follow-up action rates."
+      "serviceIndustries": {
+        "title": "PinChat for Service Industries",
+        "description": "Manage customer inquiries before and after every visit."
       }
     },
     "cta": {
@@ -1166,18 +1166,18 @@
       }
     },
     "exploreMore": {
-      "title": "Explore More Features",
-      "aiPinbot": {
-        "title": "AI PinBot",
-        "subtitle": "Automate FAQs, support multiple languages with human handoff, reducing inquiry pressure before and after events."
+      "title": "Explore more ways to use PinChat",
+      "retailEcommerce": {
+        "title": "PinChat for Retail & E-commerce",
+        "description": "Respond to product and order-related questions, supporting key communication before and after purchase."
       },
-      "chatWidget": {
-        "title": "Chat Widget",
-        "subtitle": "Embed real-time chat into event websites, providing quick support and improving participation conversion."
+      "professionalServices": {
+        "title": "PinChat for Professional Services",
+        "description": "Enhance consultation and onboarding experience, helping clients quickly understand service offerings."
       },
-      "pinBoard": {
-        "title": "PinBoard Welcome Page",
-        "subtitle": "Integrate registration, marketing, and key event information into a single entry point, improving traffic efficiency."
+      "realEstate": {
+        "title": "PinChat for Real Estate",
+        "description": "Instantly improve property inquiry efficiency, helping real estate teams quickly provide information."
       }
     },
     "cta": {
@@ -1235,17 +1235,17 @@
     },
     "exploreMore": {
       "title": "Explore more ways to use PinChat",
-      "feature1": {
-        "title": "Enhance teaching interactions with AI",
-        "subtitle": "Automatically respond to course information and common questions, helping teachers quickly initiate deeper discussions."
+      "retailEcommerce": {
+        "title": "PinChat for Retail & E-commerce",
+        "description": "Respond to product and order-related questions, supporting key communication before and after purchase."
       },
-      "feature2": {
-        "title": "Integrate all learning communications",
-        "subtitle": "Centralize LINE, IG, Messenger, and WhatsApp messages in one interface, making teaching communication more continuous."
+      "serviceIndustries": {
+        "title": "PinChat for Service Industries",
+        "description": "Manage customer inquiries before and after every visit."
       },
-      "feature3": {
-        "title": "Easier post-class feedback collection",
-        "subtitle": "Collect student feedback through conversational surveys, helping teachers optimize course content and interaction design."
+      "healthcare": {
+        "title": "PinChat for Healthcare",
+        "description": "Support efficient patient communication across the care journey."
       }
     },
     "cta": {
@@ -1302,18 +1302,18 @@
       }
     },
     "exploreMore": {
-      "title": "Explore More Features",
-      "feature1": {
-        "title": "AI Customer Service Bot",
-        "subtitle": "Automatically respond to large volumes of common questions with human handoff support, providing assistance in a faster and smarter way."
+      "title": "Explore more ways to use PinChat",
+      "serviceIndustries": {
+        "title": "PinChat for Service Industries",
+        "description": "Manage customer inquiries before and after every visit."
       },
-      "feature2": {
-        "title": "Multi-platform Message Integration",
-        "subtitle": "Integrate all user message sources to create consistent, uninterrupted service experiences and improve overall response efficiency."
+      "education": {
+        "title": "PinChat for Education",
+        "description": "Streamline student and parent communication both inside and outside the classroom."
       },
-      "feature3": {
-        "title": "Conversational Survey Collection",
-        "subtitle": "Collect needs and feedback through more natural interaction methods, making data more complete and responses easier."
+      "events": {
+        "title": "PinChat for Events",
+        "description": "Optimize full-event communication flow, enhancing participant experience."
       }
     },
     "cta": {
@@ -1371,17 +1371,17 @@
     },
     "exploreMore": {
       "title": "Explore more ways to use PinChat",
-      "aiAutomation": {
-        "title": "AI Customer Service Automation",
-        "subtitle": "Use AI to handle common business questions first, reducing sales and customer service burden, allowing teams to focus more on business conversations that truly require human handling."
+      "professionalServices": {
+        "title": "PinChat for Professional Services",
+        "description": "Enhance consultation and onboarding experience, helping clients quickly understand service offerings."
       },
-      "crossPlatform": {
-        "title": "Cross-Platform Message Integration",
-        "subtitle": "Centralize management of multi-platform message sources to avoid teams missing customer needs due to platform switching, improving business process completeness."
+      "realEstate": {
+        "title": "PinChat for Real Estate",
+        "description": "Instantly improve property inquiry efficiency, helping real estate teams quickly provide information."
       },
-      "conversationalSurvey": {
-        "title": "Conversational Survey",
-        "subtitle": "Use concise conversational surveys to collect customer requirement information, helping sales quickly understand customer background and specification requirements before negotiations."
+      "events": {
+        "title": "PinChat for Events",
+        "description": "Optimize full-event communication flow, enhancing participant experience."
       }
     },
     "cta": {
@@ -1439,17 +1439,17 @@
     },
     "exploreMore": {
       "title": "Explore more ways to use PinChat",
-      "aiPinbot": {
-        "title": "AI Customer Service Bot",
-        "subtitle": "Help handle administrative questions such as pricing information, process descriptions, and basic service introductions."
+      "b2bCommercial": {
+        "title": "PinChat for B2B",
+        "description": "Enhance business communication efficiency, shortening business turnaround time."
       },
-      "chatWidget": {
-        "title": "Chat Widget",
-        "subtitle": "Provide instant consultation entry on websites, guiding visitors to quickly enter the onboarding process."
+      "realEstate": {
+        "title": "PinChat for Real Estate",
+        "description": "Instantly improve property inquiry efficiency, helping real estate teams quickly provide information."
       },
-      "survey": {
-        "title": "Survey",
-        "subtitle": "Collect client background information through conversational surveys, helping teams understand needs and prepare for onboarding."
+      "events": {
+        "title": "PinChat for Events",
+        "description": "Optimize full-event communication flow, enhancing participant experience."
       }
     },
     "cta": {

@@ -165,64 +165,64 @@ const ForProfessionalServices = () => {
             </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
             <Link 
-              to="/features/ai-pinbot" 
+              to="/industries/b2b-commercial" 
               className="group rounded-lg overflow-hidden border bg-card hover:shadow-lg transition-all duration-300"
             >
               <div className="aspect-video bg-muted overflow-hidden">
                 <img 
-                  src="/lovable-uploads/0c488cfa-6ba1-4c50-b52e-2437906a8102.png" 
-                  alt="AI PinBot" 
+                  src="/lovable-uploads/48658c77-a953-49d3-8bc6-b3b56379bea1.png" 
+                  alt="B2B Commercial" 
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                 />
               </div>
               <div className="p-6">
                 <h3 className="font-semibold text-foreground text-lg mb-2 group-hover:text-primary transition-colors">
-                  {t('professionalServices.exploreMore.aiPinbot.title')}
+                  {t('professionalServices.exploreMore.b2bCommercial.title')}
                 </h3>
                 <p className="text-sm text-muted-foreground">
-                  {t('professionalServices.exploreMore.aiPinbot.subtitle')}
+                  {t('professionalServices.exploreMore.b2bCommercial.description')}
                 </p>
               </div>
             </Link>
             
             <Link 
-              to="/features/chat-widget" 
+              to="/industries/real-estate" 
               className="group rounded-lg overflow-hidden border bg-card hover:shadow-lg transition-all duration-300"
             >
               <div className="aspect-video bg-muted overflow-hidden">
                 <img 
-                  src="/lovable-uploads/0c488cfa-6ba1-4c50-b52e-2437906a8102.png" 
-                  alt="Chat Widget" 
+                  src="/lovable-uploads/b1eef0e6-e922-4863-bc03-f92dd32f0f46.png" 
+                  alt="Real Estate" 
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                 />
               </div>
               <div className="p-6">
                 <h3 className="font-semibold text-foreground text-lg mb-2 group-hover:text-primary transition-colors">
-                  {t('professionalServices.exploreMore.chatWidget.title')}
+                  {t('professionalServices.exploreMore.realEstate.title')}
                 </h3>
                 <p className="text-sm text-muted-foreground">
-                  {t('professionalServices.exploreMore.chatWidget.subtitle')}
+                  {t('professionalServices.exploreMore.realEstate.description')}
                 </p>
               </div>
             </Link>
             
             <Link 
-              to="/solutions/lead-capture-surveys" 
+              to="/industries/events" 
               className="group rounded-lg overflow-hidden border bg-card hover:shadow-lg transition-all duration-300"
             >
               <div className="aspect-video bg-muted overflow-hidden">
                 <img 
-                  src="/lovable-uploads/0c488cfa-6ba1-4c50-b52e-2437906a8102.png" 
-                  alt="Survey" 
+                  src="/lovable-uploads/a1960abd-93f1-4a03-b109-230d06508316.png" 
+                  alt="Events" 
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                 />
               </div>
               <div className="p-6">
                 <h3 className="font-semibold text-foreground text-lg mb-2 group-hover:text-primary transition-colors">
-                  {t('professionalServices.exploreMore.survey.title')}
+                  {t('professionalServices.exploreMore.events.title')}
                 </h3>
                 <p className="text-sm text-muted-foreground">
-                  {t('professionalServices.exploreMore.survey.subtitle')}
+                  {t('professionalServices.exploreMore.events.description')}
                 </p>
               </div>
             </Link>

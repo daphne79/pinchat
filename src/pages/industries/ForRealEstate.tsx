@@ -165,64 +165,64 @@ const ForRealEstate = () => {
             </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
             <Link 
-              to="/features/ai-pinbot" 
+              to="/industries/b2b-commercial" 
               className="group rounded-lg overflow-hidden border bg-card hover:shadow-lg transition-all duration-300"
             >
               <div className="aspect-video bg-muted overflow-hidden">
                 <img 
-                  src="/lovable-uploads/b1eef0e6-e922-4863-bc03-f92dd32f0f46.png" 
-                  alt="AI Customer Service Bot" 
+                  src="/lovable-uploads/48658c77-a953-49d3-8bc6-b3b56379bea1.png" 
+                  alt="B2B Commercial" 
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                 />
               </div>
               <div className="p-6">
                 <h3 className="font-semibold text-foreground text-lg mb-2 group-hover:text-primary transition-colors">
-                  {t('realEstate.exploreMore.aiPinbot.title')}
+                  {t('realEstate.exploreMore.b2bCommercial.title')}
                 </h3>
                 <p className="text-sm text-muted-foreground">
-                  {t('realEstate.exploreMore.aiPinbot.description')}
+                  {t('realEstate.exploreMore.b2bCommercial.description')}
                 </p>
               </div>
             </Link>
             
             <Link 
-              to="/features/chat-widget" 
+              to="/industries/professional-services" 
               className="group rounded-lg overflow-hidden border bg-card hover:shadow-lg transition-all duration-300"
             >
               <div className="aspect-video bg-muted overflow-hidden">
                 <img 
-                  src="/lovable-uploads/b1eef0e6-e922-4863-bc03-f92dd32f0f46.png" 
-                  alt="Chat Widget" 
+                  src="/lovable-uploads/0c488cfa-6ba1-4c50-b52e-2437906a8102.png" 
+                  alt="Professional Services" 
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                 />
               </div>
               <div className="p-6">
                 <h3 className="font-semibold text-foreground text-lg mb-2 group-hover:text-primary transition-colors">
-                  {t('realEstate.exploreMore.chatWidget.title')}
+                  {t('realEstate.exploreMore.professionalServices.title')}
                 </h3>
                 <p className="text-sm text-muted-foreground">
-                  {t('realEstate.exploreMore.chatWidget.description')}
+                  {t('realEstate.exploreMore.professionalServices.description')}
                 </p>
               </div>
             </Link>
             
             <Link 
-              to="/features/pinboard" 
+              to="/industries/service-industries" 
               className="group rounded-lg overflow-hidden border bg-card hover:shadow-lg transition-all duration-300"
             >
               <div className="aspect-video bg-muted overflow-hidden">
                 <img 
-                  src="/lovable-uploads/b1eef0e6-e922-4863-bc03-f92dd32f0f46.png" 
-                  alt="PinBoard Multi-link Page" 
+                  src="/lovable-uploads/8816cd40-a898-4f73-91de-ea0b84f6aeac.png" 
+                  alt="Service Industries" 
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                 />
               </div>
               <div className="p-6">
                 <h3 className="font-semibold text-foreground text-lg mb-2 group-hover:text-primary transition-colors">
-                  {t('realEstate.exploreMore.pinBoard.title')}
+                  {t('realEstate.exploreMore.serviceIndustries.title')}
                 </h3>
                 <p className="text-sm text-muted-foreground">
-                  {t('realEstate.exploreMore.pinBoard.description')}
+                  {t('realEstate.exploreMore.serviceIndustries.description')}
                 </p>
               </div>
             </Link>

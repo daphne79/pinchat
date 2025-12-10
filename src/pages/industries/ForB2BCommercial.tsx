@@ -165,64 +165,64 @@ const ForB2BCommercial = () => {
             </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
             <Link 
-              to="/features/ai-pinbot" 
+              to="/industries/professional-services" 
               className="group rounded-lg overflow-hidden border bg-card hover:shadow-lg transition-all duration-300"
             >
               <div className="aspect-video bg-muted overflow-hidden">
                 <img 
-                  src="/lovable-uploads/48658c77-a953-49d3-8bc6-b3b56379bea1.png" 
-                  alt="AI Customer Service Automation" 
+                  src="/lovable-uploads/0c488cfa-6ba1-4c50-b52e-2437906a8102.png" 
+                  alt="Professional Services" 
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                 />
               </div>
               <div className="p-6">
                 <h3 className="font-semibold text-foreground text-lg mb-2 group-hover:text-primary transition-colors">
-                  {t('b2bCommercial.exploreMore.aiAutomation.title')}
+                  {t('b2bCommercial.exploreMore.professionalServices.title')}
                 </h3>
                 <p className="text-sm text-muted-foreground">
-                  {t('b2bCommercial.exploreMore.aiAutomation.subtitle')}
+                  {t('b2bCommercial.exploreMore.professionalServices.description')}
                 </p>
               </div>
             </Link>
             
             <Link 
-              to="/features/chat-widget" 
+              to="/industries/real-estate" 
               className="group rounded-lg overflow-hidden border bg-card hover:shadow-lg transition-all duration-300"
             >
               <div className="aspect-video bg-muted overflow-hidden">
                 <img 
-                  src="/lovable-uploads/48658c77-a953-49d3-8bc6-b3b56379bea1.png" 
-                  alt="Cross-platform Message Integration" 
+                  src="/lovable-uploads/b1eef0e6-e922-4863-bc03-f92dd32f0f46.png" 
+                  alt="Real Estate" 
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                 />
               </div>
               <div className="p-6">
                 <h3 className="font-semibold text-foreground text-lg mb-2 group-hover:text-primary transition-colors">
-                  {t('b2bCommercial.exploreMore.crossPlatform.title')}
+                  {t('b2bCommercial.exploreMore.realEstate.title')}
                 </h3>
                 <p className="text-sm text-muted-foreground">
-                  {t('b2bCommercial.exploreMore.crossPlatform.subtitle')}
+                  {t('b2bCommercial.exploreMore.realEstate.description')}
                 </p>
               </div>
             </Link>
             
             <Link 
-              to="/features/faq-pinbot" 
+              to="/industries/events" 
               className="group rounded-lg overflow-hidden border bg-card hover:shadow-lg transition-all duration-300"
             >
               <div className="aspect-video bg-muted overflow-hidden">
                 <img 
-                  src="/lovable-uploads/48658c77-a953-49d3-8bc6-b3b56379bea1.png" 
-                  alt="Conversational Survey" 
+                  src="/lovable-uploads/a1960abd-93f1-4a03-b109-230d06508316.png" 
+                  alt="Events" 
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                 />
               </div>
               <div className="p-6">
                 <h3 className="font-semibold text-foreground text-lg mb-2 group-hover:text-primary transition-colors">
-                  {t('b2bCommercial.exploreMore.conversationalSurvey.title')}
+                  {t('b2bCommercial.exploreMore.events.title')}
                 </h3>
                 <p className="text-sm text-muted-foreground">
-                  {t('b2bCommercial.exploreMore.conversationalSurvey.subtitle')}
+                  {t('b2bCommercial.exploreMore.events.description')}
                 </p>
               </div>
             </Link>
