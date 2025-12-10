@@ -981,6 +981,74 @@
       "button": "免費開始使用"
     }
   },
+  "serviceIndustries": {
+    "hero": {
+      "breadcrumb": "PinChat 服務業解決方案",
+      "title": "讓服務溝通更順暢",
+      "subtitle": "從預約前諮詢、服務中協作到服務後回訪，PinChat 協助團隊統一管理所有聊天渠道，並以 AI 處理重複問題、加速回覆效率，讓每一次服務互動都更清楚、更即時、更一致。",
+      "cta": "開始免費試用"
+    },
+    "whyUse": {
+      "title": "為什麼服務團隊選擇 PinChat",
+      "items": {
+        "integratePlatforms": "整合多平台來訊至同一視窗",
+        "autoReply": "自動回覆價格、流程與常見問題",
+        "reduceCosts": "降低電話量與重工回覆成本",
+        "consistentQuality": "維持服務前後一致的溝通品質"
+      }
+    },
+    "planEngagement": {
+      "title": "規劃從詢問到回訪的服務流程",
+      "description": "PinChat 協助服務團隊以一致、透明、可追蹤的方式與顧客互動。從顧客第一次詢問到完成服務後的需求回訪，所有訊息都能無縫整合在同一系統中，減少資訊落差並強化整體體驗。",
+      "unifyInfo": {
+        "title": "整合團隊的服務資訊",
+        "description": "將客服、門市與服務人員的回覆方式、流程說明與常見內容集中管理，避免各分店、各人員自行維護不同版本的資訊。"
+      },
+      "instantReply": {
+        "title": "即時回覆顧客常見問題",
+        "description": "使用 AI Bot 或 FAQ Bot 回答營業時間、服務內容、方案介紹與預約方式，提高初步回覆的速度並減少人工負擔。"
+      },
+      "clearDetails": {
+        "title": "清晰傳達服務細節",
+        "description": "透過聊天提供圖文、價格表、流程說明與注意事項，讓顧客在到店或開始服務前就充分了解所有必要資訊。"
+      }
+    },
+    "serviceAcceleration": {
+      "title": "別讓溝通拖慢你的服務",
+      "description": "對服務業而言，回覆速度與資訊一致性直接影響體驗品質。PinChat 以 AI、自動化流程與統一界面協助團隊減少重複性溝通，並加速整體服務節奏。",
+      "improveEfficiency": {
+        "title": "提升回覆效率",
+        "description": "讓顧客更快取得重要資訊，縮短等待時間與不必要的來回確認。"
+      },
+      "reduceGaps": {
+        "title": "降低溝通落差",
+        "description": "以統一資訊來源、模板與 AI 協助，確保每位顧客在不同門市與不同服務人員之間都能得到一致的回答。"
+      },
+      "trackableProcess": {
+        "title": "建立可追蹤的服務流程",
+        "description": "對話、備註與記錄都集中在同一平台，讓團隊能快速接手任何未完成的服務需求。"
+      }
+    },
+    "exploreMore": {
+      "title": "探索更多 PinChat 應用方式",
+      "retailEcommerce": {
+        "title": "PinChat 零售與電商解決方案",
+        "description": "回覆商品與訂單相關問題，協助購買前後的關鍵溝通。"
+      },
+      "education": {
+        "title": "PinChat 教育解決方案",
+        "description": "提供課程諮詢與行政協助，支援多語系家庭的協作需求。"
+      },
+      "healthcare": {
+        "title": "PinChat 醫療解決方案",
+        "description": "回覆非醫療性行政問題，如門診時間與流程指引。"
+      }
+    },
+    "cta": {
+      "title": "用 PinChat 建立更強大的服務關係",
+      "button": "立即開始"
+    }
+  },
   "cta": {
     "title": "準備好轉變您的顧客溝通方式了嗎？",
     "subtitle": "簡化對話流程，用 AI 賦能團隊，輕鬆成長您的業務。",

@@ -981,6 +981,74 @@
       "button": "Get PinChat for Free"
     }
   },
+  "serviceIndustries": {
+    "hero": {
+      "breadcrumb": "PinChat for Service Industry",
+      "title": "Streamline service communication",
+      "subtitle": "From pre-booking inquiries to in-service collaboration and post-service follow-ups, PinChat helps teams unify all chat channels, handle repetitive questions with AI, and accelerate response efficiency—making every service interaction clearer, faster, and more consistent.",
+      "cta": "Start Free Trial"
+    },
+    "whyUse": {
+      "title": "Why Service Teams Use PinChat",
+      "items": {
+        "integratePlatforms": "Integrate messages from multiple platforms into one window",
+        "autoReply": "Automatically reply to pricing, processes, and common questions",
+        "reduceCosts": "Reduce call volume and repetitive response costs",
+        "consistentQuality": "Maintain consistent communication quality before and after service"
+      }
+    },
+    "planEngagement": {
+      "title": "Plan your service flow from inquiry to follow-up",
+      "description": "PinChat helps service teams interact with customers in a consistent, transparent, and trackable way. From the customer's first inquiry to post-service follow-ups, all messages are seamlessly integrated in one system, reducing information gaps and enhancing the overall experience.",
+      "unifyInfo": {
+        "title": "Unify your team's service information",
+        "description": "Centralize response methods, process descriptions, and common content from customer service, stores, and service staff to avoid different branches and personnel maintaining different versions of information."
+      },
+      "instantReply": {
+        "title": "Instantly reply to common customer questions",
+        "description": "Use AI Bot or FAQ Bot to answer business hours, service content, plan introductions, and booking methods, improving initial response speed and reducing manual workload."
+      },
+      "clearDetails": {
+        "title": "Clearly communicate service details",
+        "description": "Provide images, price lists, process descriptions, and important notes through chat, so customers fully understand all necessary information before arriving or starting service."
+      }
+    },
+    "serviceAcceleration": {
+      "title": "Don't let communication slow down your service",
+      "description": "For service industries, response speed and information consistency directly impact experience quality. PinChat uses AI, automated workflows, and a unified interface to help teams reduce repetitive communication and accelerate overall service pace.",
+      "improveEfficiency": {
+        "title": "Improve response efficiency",
+        "description": "Help customers get important information faster, reducing wait times and unnecessary back-and-forth confirmations."
+      },
+      "reduceGaps": {
+        "title": "Reduce communication gaps",
+        "description": "With unified information sources, templates, and AI assistance, ensure every customer receives consistent answers across different stores and service staff."
+      },
+      "trackableProcess": {
+        "title": "Build trackable service processes",
+        "description": "Conversations, notes, and records are all centralized on one platform, allowing teams to quickly take over any unfinished service requests."
+      }
+    },
+    "exploreMore": {
+      "title": "Explore more ways to use PinChat",
+      "retailEcommerce": {
+        "title": "PinChat for Retail & E-commerce",
+        "description": "Respond to product and order-related questions, supporting key communication before and after purchase."
+      },
+      "education": {
+        "title": "PinChat for Education",
+        "description": "Provide course consultation and administrative support, meeting the collaboration needs of multilingual families."
+      },
+      "healthcare": {
+        "title": "PinChat for Healthcare",
+        "description": "Respond to non-medical administrative questions, such as clinic hours and process guidance."
+      }
+    },
+    "cta": {
+      "title": "Build stronger service relationships with PinChat",
+      "button": "Get Started Now"
+    }
+  },
   "cta": {
     "title": "Ready to Transform Your Customer Communication?",
     "subtitle": "Simplify conversations, empower your team with AI, and grow your business effortlessly.",

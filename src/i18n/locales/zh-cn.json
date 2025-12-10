@@ -1016,6 +1016,74 @@
   "button": "免费开始使用"
 }
 },
+"serviceIndustries": {
+  "hero": {
+    "breadcrumb": "PinChat 服务业解决方案",
+    "title": "让服务沟通更顺畅",
+    "subtitle": "从预约前咨询、服务中协作到服务后回访，PinChat 协助团队统一管理所有聊天渠道，并以 AI 处理重复问题、加速回覆效率，让每一次服务互动都更清楚、更即时、更一致。",
+    "cta": "开始免费试用"
+  },
+  "whyUse": {
+    "title": "为什么服务团队选择 PinChat",
+    "items": {
+      "integratePlatforms": "整合多平台来讯至同一视窗",
+      "autoReply": "自动回覆价格、流程与常见问题",
+      "reduceCosts": "降低电话量与重工回覆成本",
+      "consistentQuality": "维持服务前后一致的沟通品质"
+    }
+  },
+  "planEngagement": {
+    "title": "规划从询问到回访的服务流程",
+    "description": "PinChat 协助服务团队以一致、透明、可追踪的方式与顾客互动。从顾客第一次询问到完成服务后的需求回访，所有讯息都能无缝整合在同一系统中，减少资讯落差并强化整体体验。",
+    "unifyInfo": {
+      "title": "整合团队的服务资讯",
+      "description": "将客服、门市与服务人员的回覆方式、流程说明与常见内容集中管理，避免各分店、各人员自行维护不同版本的资讯。"
+    },
+    "instantReply": {
+      "title": "即时回覆顾客常见问题",
+      "description": "使用 AI Bot 或 FAQ Bot 回答营业时间、服务内容、方案介绍与预约方式，提高初步回覆的速度并减少人工负担。"
+    },
+    "clearDetails": {
+      "title": "清晰传达服务细节",
+      "description": "透过聊天提供图文、价格表、流程说明与注意事项，让顾客在到店或开始服务前就充分了解所有必要资讯。"
+    }
+  },
+  "serviceAcceleration": {
+    "title": "别让沟通拖慢你的服务",
+    "description": "对服务业而言，回覆速度与资讯一致性直接影响体验品质。PinChat 以 AI、自动化流程与统一界面协助团队减少重复性沟通，并加速整体服务节奏。",
+    "improveEfficiency": {
+      "title": "提升回覆效率",
+      "description": "让顾客更快取得重要资讯，缩短等待时间与不必要的来回确认。"
+    },
+    "reduceGaps": {
+      "title": "降低沟通落差",
+      "description": "以统一资讯来源、模板与 AI 协助，确保每位顾客在不同门市与不同服务人员之间都能得到一致的回答。"
+    },
+    "trackableProcess": {
+      "title": "建立可追踪的服务流程",
+      "description": "对话、备注与记录都集中在同一平台，让团队能快速接手任何未完成的服务需求。"
+    }
+  },
+  "exploreMore": {
+    "title": "探索更多 PinChat 应用方式",
+    "retailEcommerce": {
+      "title": "PinChat 零售与电商解决方案",
+      "description": "回覆商品与订单相关问题，协助购买前后的关键沟通。"
+    },
+    "education": {
+      "title": "PinChat 教育解决方案",
+      "description": "提供课程咨询与行政协助，支援多语系家庭的协作需求。"
+    },
+    "healthcare": {
+      "title": "PinChat 医疗解决方案",
+      "description": "回覆非医疗性行政问题，如门诊时间与流程指引。"
+    }
+  },
+  "cta": {
+    "title": "用 PinChat 建立更强大的服务关系",
+    "button": "立即开始"
+  }
+},
 "cta": {
 "title": "准备好转变您的顾客沟通方式了吗？",
 "subtitle": "简化对话流程，用 AI 赋能团队，轻松成长您的业务。",
