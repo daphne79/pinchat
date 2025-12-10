@@ -1117,6 +1117,74 @@
       "button": "立即開始"
     }
   },
+  "professionalServices": {
+    "hero": {
+      "breadcrumb": "PinChat 專業服務解決方案",
+      "title": "提升諮詢與導入體驗",
+      "subtitle": "專業服務團隊面對大量初次諮詢、收費方式詢問與流程導覽需求。PinChat 透過集中訊息與標準化回覆，引導客戶快速了解服務內容，並協助團隊省下大量行政時間，將心力投入真正需要專業判斷的分析與諮詢工作。",
+      "cta": "開始使用 PinChat"
+    },
+    "whyUse": {
+      "title": "為什麼專業服務團隊選擇 PinChat",
+      "items": {
+        "centralizeInquiries": "統一管理多平台客戶初次諮詢",
+        "aiReply": "AI 回覆行政性問題減少重複工作量",
+        "consistentInfo": "提供一致且清楚的服務與收費介紹",
+        "trackOnboarding": "協助掌握客戶 onboarding 進度狀態"
+      }
+    },
+    "usage": {
+      "title": "協助客戶順利了解服務並進入合作流程",
+      "description": "在專業服務產業，初次諮詢的清晰度與資訊取得速度，會直接影響客戶對服務的理解與信任。PinChat 透過整合訊息來源與可設定的標準化回答，協助團隊引導客戶掌握收費方式、服務內容與流程，減少溝通落差並提升導入體驗。",
+      "quickReply": {
+        "title": "快速回覆收費方式與合作流程",
+        "description": "AI PinBot 依據預先設定的 FAQ 回覆常見行政性問題，例如計費方式、服務範圍、準備文件與諮詢流程，讓客戶能立即取得核心資訊。"
+      },
+      "consistentService": {
+        "title": "提供一致的服務介紹與標準內容",
+        "description": "使用預設回覆、卡片訊息或 FAQ，將服務說明標準化，避免不同團隊成員給出不同版本的資訊，確保客戶理解一致且完整。"
+      },
+      "centralizeMessages": {
+        "title": "集中管理訊息並清楚分類客戶狀態",
+        "description": "整合 LINE、Messenger、WhatsApp 與網站諮詢至同一介面，並以標籤或資料夾區分不同 onboarding 階段，方便團隊快速追蹤每位客戶的進度。"
+      }
+    },
+    "benefits": {
+      "title": "提升導入效率並專注於高價值服務",
+      "description": "PinChat 減少重複溝通與資訊提供所耗費的時間，使專業團隊能專注在真正需要策略、分析或判斷的專業工作，同時讓客戶更快理解服務並順利開始合作。",
+      "improveResponse": {
+        "title": "提高初次諮詢的回應品質與速度",
+        "description": "AI 與預設回覆協助提供明確答案，加速客戶理解並縮短回覆等待時間。"
+      },
+      "enhanceTrust": {
+        "title": "強化服務透明度與客戶信任感",
+        "description": "標準化的費用、流程與服務說明，使客戶在合作前即可掌握全貌，提高決策效率。"
+      },
+      "reduceCosts": {
+        "title": "降低團隊的行政與資訊重複成本",
+        "description": "減少重複性問題處理與平台切換，使團隊能將更多時間投入高價值的諮詢服務。"
+      }
+    },
+    "exploreMore": {
+      "title": "探索更多 PinChat 應用方式",
+      "aiPinbot": {
+        "title": "AI 客服機器人",
+        "subtitle": "協助處理行政性問題，如收費資訊、流程說明與基本服務介紹。"
+      },
+      "chatWidget": {
+        "title": "網頁客服插件",
+        "subtitle": "在網站提供即時諮詢入口，引導訪客快速進入 onboarding 流程。"
+      },
+      "survey": {
+        "title": "Survey 問卷",
+        "subtitle": "以對話式問卷收集客戶背景資料，協助團隊理解需求並做好導入準備。"
+      }
+    },
+    "cta": {
+      "title": "開始打造順暢的 onboarding 體驗",
+      "button": "立即開始使用"
+    }
+  },
   "b2bCommercial": {
     "hero": {
       "breadcrumb": "PinChat B2B 解決方案",
