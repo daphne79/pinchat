@@ -1117,6 +1117,74 @@
       "button": "立即開始"
     }
   },
+  "events": {
+    "hero": {
+      "breadcrumb": "PinChat 活動解決方案",
+      "title": "優化活動全流程溝通",
+      "subtitle": "活動前、中、後的所有資訊需求，都能透過 PinChat 快速統一管理。從參加者 FAQ、自動導流、現場查詢到活動後回饋蒐集，協助主辦方以更高效率提供支援並提升整體體驗。",
+      "cta": "開始使用 PinChat"
+    },
+    "whyUse": {
+      "title": "為什麼活動業選擇 PinChat",
+      "items": {
+        "centralizeMessages": "集中管理多平台訊息，降低活動高峰期的諮詢壓力",
+        "autoReply": "自動回覆常見問題，快速提供場地、時程與票務資訊",
+        "effectiveFlow": "透過 Chat Widget 與 PinBoard 有效導流報名與活動頁",
+        "feedbackCollection": "以對話式問卷蒐集回饋，提升後續活動優化效率"
+      }
+    },
+    "usage": {
+      "title": "打造清晰、即時且可擴展的活動溝通流程",
+      "description": "PinChat 協助活動團隊在不同活動階段提供即時資訊、管理大量訪客詢問並增加互動深度。從導流到現場支援，再到活動後追蹤，都能有效提升參與者體驗與團隊效率。",
+      "beforeEvent": {
+        "title": "活動前：提升導流成效與資訊清晰度",
+        "description": "透過 PinBoard 多連結頁指向報名頁、注意事項、活動介紹；Chat Widget 與 AI PinBot 自動回答 FAQ，減少客服負擔並提升轉換。"
+      },
+      "duringEvent": {
+        "title": "活動中：即時回答參加者需求",
+        "description": "以 AI PinBot 快速提供場地資訊、入場流程、場次時程等內容；必要時可人工接手，確保大量訊息湧入時也能維持順暢溝通。"
+      },
+      "afterEvent": {
+        "title": "活動後：蒐集回饋並導入後續行銷",
+        "description": "使用對話式問卷蒐集回饋；並以聊天入口引導用戶至精選內容或下一場活動資訊，提升留存與參與度。"
+      }
+    },
+    "benefits": {
+      "title": "提升參與體驗並降低營運壓力",
+      "description": "無論是大型展會、講座、促銷活動或線上直播，PinChat 能協助活動團隊用更低的成本達成更高品質的參與者體驗，並讓流程管理更具彈性與延展性。",
+      "reduceBurden": {
+        "title": "降低人工負擔並縮短回應時間",
+        "description": "AI PinBot 支援活動 FAQ 與自動語言偵測，處理大量重複問題並即時回覆，讓工作人員能專注於現場營運。"
+      },
+      "improveAccessibility": {
+        "title": "提升活動資訊可及性與導流效率",
+        "description": "PinBoard 導向報名與宣傳連結；Chat Widget 維持網站流量轉換，確保參與者可在最短時間取得需要的資訊。"
+      },
+      "expandValue": {
+        "title": "擴大活動後續價值",
+        "description": "藉由調查回饋與聊天數據了解參加者需求，協助團隊持續改善內容，並推進下一階段的活動互動或營銷策略。"
+      }
+    },
+    "exploreMore": {
+      "title": "探索更多功能",
+      "aiPinbot": {
+        "title": "AI PinBot",
+        "subtitle": "自動化 FAQ、支援多語言並可人工接手，降低活動前後的詢問壓力。"
+      },
+      "chatWidget": {
+        "title": "Chat Widget",
+        "subtitle": "將即時聊天嵌入活動網站，提供快速支援並提升參與轉換。"
+      },
+      "pinBoard": {
+        "title": "PinBoard 歡迎頁",
+        "subtitle": "整合報名、行銷與活動重點資訊至單一入口，提升導流效率。"
+      }
+    },
+    "cta": {
+      "title": "用更高效率打造下一場成功活動",
+      "button": "立即開始"
+    }
+  },
   "professionalServices": {
     "hero": {
       "breadcrumb": "PinChat 專業服務解決方案",

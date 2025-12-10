@@ -1152,6 +1152,74 @@
     "button": "立即开始"
   }
 },
+"events": {
+  "hero": {
+    "breadcrumb": "PinChat 活动解决方案",
+    "title": "优化活动全流程沟通",
+    "subtitle": "活动前、中、后的所有资讯需求，都能透过 PinChat 快速统一管理。从参加者 FAQ、自动导流、现场查询到活动后回馈蒐集，协助主办方以更高效率提供支援并提升整体体验。",
+    "cta": "开始使用 PinChat"
+  },
+  "whyUse": {
+    "title": "为什么活动业选择 PinChat",
+    "items": {
+      "centralizeMessages": "集中管理多平台讯息，降低活动高峰期的咨询压力",
+      "autoReply": "自动回覆常见问题，快速提供场地、时程与票务资讯",
+      "effectiveFlow": "透过 Chat Widget 与 PinBoard 有效导流报名与活动页",
+      "feedbackCollection": "以对话式问卷蒐集回馈，提升后续活动优化效率"
+    }
+  },
+  "usage": {
+    "title": "打造清晰、即时且可扩展的活动沟通流程",
+    "description": "PinChat 协助活动团队在不同活动阶段提供即时资讯、管理大量访客询问并增加互动深度。从导流到现场支援，再到活动后追踪，都能有效提升参与者体验与团队效率。",
+    "beforeEvent": {
+      "title": "活动前：提升导流成效与资讯清晰度",
+      "description": "透过 PinBoard 多连结页指向报名页、注意事项、活动介绍；Chat Widget 与 AI PinBot 自动回答 FAQ，减少客服负担并提升转换。"
+    },
+    "duringEvent": {
+      "title": "活动中：即时回答参加者需求",
+      "description": "以 AI PinBot 快速提供场地资讯、入场流程、场次时程等内容；必要时可人工接手，确保大量讯息涌入时也能维持顺畅沟通。"
+    },
+    "afterEvent": {
+      "title": "活动后：蒐集回馈并导入后续行销",
+      "description": "使用对话式问卷蒐集回馈；并以聊天入口引导用户至精选内容或下一场活动资讯，提升留存与参与度。"
+    }
+  },
+  "benefits": {
+    "title": "提升参与体验并降低营运压力",
+    "description": "无论是大型展会、讲座、促销活动或线上直播，PinChat 能协助活动团队用更低的成本达成更高品质的参与者体验，并让流程管理更具弹性与延展性。",
+    "reduceBurden": {
+      "title": "降低人工负担并缩短回应时间",
+      "description": "AI PinBot 支援活动 FAQ 与自动语言侦测，处理大量重复问题并即时回覆，让工作人员能专注于现场营运。"
+    },
+    "improveAccessibility": {
+      "title": "提升活动资讯可及性与导流效率",
+      "description": "PinBoard 导向报名与宣传连结；Chat Widget 维持网站流量转换，确保参与者可在最短时间取得需要的资讯。"
+    },
+    "expandValue": {
+      "title": "扩大活动后续价值",
+      "description": "藉由调查回馈与聊天数据了解参加者需求，协助团队持续改善内容，并推进下一阶段的活动互动或营销策略。"
+    }
+  },
+  "exploreMore": {
+    "title": "探索更多功能",
+    "aiPinbot": {
+      "title": "AI PinBot",
+      "subtitle": "自动化 FAQ、支援多语言并可人工接手，降低活动前后的询问压力。"
+    },
+    "chatWidget": {
+      "title": "Chat Widget",
+      "subtitle": "将即时聊天嵌入活动网站，提供快速支援并提升参与转换。"
+    },
+    "pinBoard": {
+      "title": "PinBoard 欢迎页",
+      "subtitle": "整合报名、行销与活动重点资讯至单一入口，提升导流效率。"
+    }
+  },
+  "cta": {
+    "title": "用更高效率打造下一场成功活动",
+    "button": "立即开始"
+  }
+},
 "professionalServices": {
   "hero": {
     "breadcrumb": "PinChat 专业服务解决方案",

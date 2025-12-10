@@ -1117,6 +1117,74 @@
       "button": "Get Started Now"
     }
   },
+  "events": {
+    "hero": {
+      "breadcrumb": "PinChat for Events",
+      "title": "Optimize event communication across the entire journey",
+      "subtitle": "All information needs before, during, and after events can be quickly unified and managed through PinChat. From attendee FAQs, automated traffic routing, on-site inquiries to post-event feedback collection, helping organizers provide support more efficiently and enhance the overall experience.",
+      "cta": "Get Started with PinChat"
+    },
+    "whyUse": {
+      "title": "Why Events Choose PinChat",
+      "items": {
+        "centralizeMessages": "Centralize multi-platform messages to reduce inquiry pressure during peak event periods",
+        "autoReply": "Automatically reply to common questions, quickly providing venue, schedule, and ticketing information",
+        "effectiveFlow": "Effectively drive registrations and event pages through Chat Widget and PinBoard",
+        "feedbackCollection": "Collect feedback through conversational surveys, improving efficiency for subsequent event optimization"
+      }
+    },
+    "usage": {
+      "title": "Build a clear, real-time, and scalable event communication flow",
+      "description": "PinChat helps event teams provide real-time information, manage large volumes of visitor inquiries, and increase interaction depth at different event stages. From traffic routing to on-site support, to post-event tracking, it effectively enhances participant experience and team efficiency.",
+      "beforeEvent": {
+        "title": "Before Event: Enhance Traffic Effectiveness and Information Clarity",
+        "description": "Use PinBoard multi-link pages to direct to registration pages, important notices, and event introductions; Chat Widget and AI PinBot automatically answer FAQs, reducing customer service burden and improving conversion."
+      },
+      "duringEvent": {
+        "title": "During Event: Instantly Answer Attendee Needs",
+        "description": "Use AI PinBot to quickly provide venue information, entry procedures, session schedules, and more; human handoff is available when needed, ensuring smooth communication even when large volumes of messages flood in."
+      },
+      "afterEvent": {
+        "title": "After Event: Collect Feedback and Drive Follow-up Marketing",
+        "description": "Use conversational surveys to collect feedback; guide users to featured content or next event information through chat entry points, improving retention and engagement."
+      }
+    },
+    "benefits": {
+      "title": "Enhance Participation Experience and Reduce Operational Pressure",
+      "description": "Whether it's large-scale exhibitions, seminars, promotional events, or online livestreams, PinChat helps event teams achieve higher-quality participant experiences at lower costs, making process management more flexible and scalable.",
+      "reduceBurden": {
+        "title": "Reduce Manual Burden and Shorten Response Time",
+        "description": "AI PinBot supports event FAQs and automatic language detection, handling large volumes of repetitive questions and responding instantly, allowing staff to focus on on-site operations."
+      },
+      "improveAccessibility": {
+        "title": "Improve Event Information Accessibility and Traffic Efficiency",
+        "description": "PinBoard directs to registration and promotional links; Chat Widget maintains website traffic conversion, ensuring participants can access needed information in the shortest time."
+      },
+      "expandValue": {
+        "title": "Expand Post-Event Value",
+        "description": "Understand attendee needs through survey feedback and chat data, helping teams continuously improve content and advance next-stage event interactions or marketing strategies."
+      }
+    },
+    "exploreMore": {
+      "title": "Explore More Features",
+      "aiPinbot": {
+        "title": "AI PinBot",
+        "subtitle": "Automate FAQs, support multiple languages with human handoff, reducing inquiry pressure before and after events."
+      },
+      "chatWidget": {
+        "title": "Chat Widget",
+        "subtitle": "Embed real-time chat into event websites, providing quick support and improving participation conversion."
+      },
+      "pinBoard": {
+        "title": "PinBoard Welcome Page",
+        "subtitle": "Integrate registration, marketing, and key event information into a single entry point, improving traffic efficiency."
+      }
+    },
+    "cta": {
+      "title": "Build your next successful event with greater efficiency",
+      "button": "Get Started Now"
+    }
+  },
   "b2bCommercial": {
     "hero": {
       "breadcrumb": "PinChat for B2B",
