@@ -1049,6 +1049,74 @@
       "button": "立即開始"
     }
   },
+  "b2bCommercial": {
+    "hero": {
+      "breadcrumb": "PinChat B2B 解決方案",
+      "title": "提升商務溝通效率",
+      "subtitle": "面對大量規格、MOQ、價格階層等反覆詢問，PinChat 協助 B2B 團隊整合多平台訊息、建立可控的 AI FAQ，並透過標籤與資料夾讓洽談進度更清晰，讓你的團隊能以更快、更一致的方式回應客戶，縮短商務往返時間。",
+      "cta": "開始使用 PinChat"
+    },
+    "whyUse": {
+      "title": "為什麼 B2B 團隊選擇 PinChat",
+      "items": {
+        "centralizeMessages": "集中管理跨平台商務訊息",
+        "aiQuickReply": "AI 快速回覆常見規格與詢價問題",
+        "tagsFolders": "標籤與資料夾強化商務案件整理",
+        "multilingual": "支援多語訊息辨識與翻譯"
+      }
+    },
+    "usage": {
+      "title": "讓商務對話更清晰、更一致",
+      "description": "B2B 商務往返常涉及多人協作、規格確認、反覆詢問與跨語系客戶。PinChat 提供可控的 AI 應答、多平台整合與更完善的對話管理能力，協助團隊以更高效率處理每一次洽談。",
+      "centralizeConversations": {
+        "title": "集中管理所有商務對話",
+        "description": "整合 LINE、Messenger、WhatsApp 與網站訪客訊息於單一收件匣，避免訊息分散，提高商務團隊對洽談進度的掌握度。"
+      },
+      "aiReply": {
+        "title": "以 AI 回覆重複性的詢問",
+        "description": "AI PinBot 能依據你設定的產品資料回覆常見問題，如 MOQ、基礎規格、材質、交期說明等，減少銷售人員處理重複問答的負擔。"
+      },
+      "tagsFolders": {
+        "title": "以標籤與資料夾管理客戶分類",
+        "description": "利用標籤標示客戶需求、洽談階段或產品類型，搭配資料夾整理對話，使團隊更快速找到重要訊息。"
+      }
+    },
+    "benefits": {
+      "title": "加速商務溝通，縮短洽談週期",
+      "description": "PinChat 不只協助降低反覆問答的時間，也讓團隊更有效分工、掌握每一筆商務對話，讓決策更快、合作更順暢。",
+      "fasterResponse": {
+        "title": "縮短回覆時間，提高成交效率",
+        "description": "AI 與人工共同支援的模式，確保客戶問題能快速獲得處理，降低因等待而流失的商機。"
+      },
+      "teamCollaboration": {
+        "title": "讓團隊更容易協作",
+        "description": "透過資料夾與標籤整理客戶話題，團隊成員可快速接手對話並掌握上下文，協作更加順暢。"
+      },
+      "multilingual": {
+        "title": "跨語系溝通不再是障礙",
+        "description": "AI 自動偵測多語訊息並支援翻譯，協助你與海外客戶維持一致清晰的商務溝通品質。"
+      }
+    },
+    "exploreMore": {
+      "title": "探索更多 PinChat 應用方式",
+      "aiAutomation": {
+        "title": "AI 客服自動化",
+        "subtitle": "以 AI 先處理常見商務問題，降低銷售與客服負擔，讓團隊更專注在真正需要人工處理的商機對話。"
+      },
+      "crossPlatform": {
+        "title": "跨平台訊息整合",
+        "subtitle": "集中管理多平台訊息來源，避免團隊因平台切換而遺漏客戶需求，提高商務流程完整性。"
+      },
+      "conversationalSurvey": {
+        "title": "對話式問卷",
+        "subtitle": "以簡潔的對話式問卷收集客戶需求資訊，協助銷售在洽談前快速掌握客戶背景與規格要求。"
+      }
+    },
+    "cta": {
+      "title": "開始提升商務對話品質",
+      "button": "立即體驗 PinChat"
+    }
+  },
   "cta": {
     "title": "準備好轉變您的顧客溝通方式了嗎？",
     "subtitle": "簡化對話流程，用 AI 賦能團隊，輕鬆成長您的業務。",

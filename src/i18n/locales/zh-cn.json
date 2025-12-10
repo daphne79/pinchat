@@ -1084,6 +1084,74 @@
     "button": "立即开始"
   }
 },
+"b2bCommercial": {
+  "hero": {
+    "breadcrumb": "PinChat B2B 解决方案",
+    "title": "提升商务沟通效率",
+    "subtitle": "面对大量规格、MOQ、价格阶层等反复询问，PinChat 协助 B2B 团队整合多平台讯息、建立可控的 AI FAQ，并透过标签与资料夹让洽谈进度更清晰，让你的团队能以更快、更一致的方式回应客户，缩短商务往返时间。",
+    "cta": "开始使用 PinChat"
+  },
+  "whyUse": {
+    "title": "为什么 B2B 团队选择 PinChat",
+    "items": {
+      "centralizeMessages": "集中管理跨平台商务讯息",
+      "aiQuickReply": "AI 快速回覆常见规格与询价问题",
+      "tagsFolders": "标签与资料夹强化商务案件整理",
+      "multilingual": "支援多语讯息辨识与翻译"
+    }
+  },
+  "usage": {
+    "title": "让商务对话更清晰、更一致",
+    "description": "B2B 商务往返常涉及多人协作、规格确认、反复询问与跨语系客户。PinChat 提供可控的 AI 应答、多平台整合与更完善的对话管理能力，协助团队以更高效率处理每一次洽谈。",
+    "centralizeConversations": {
+      "title": "集中管理所有商务对话",
+      "description": "整合 LINE、Messenger、WhatsApp 与网站访客讯息于单一收件匣，避免讯息分散，提高商务团队对洽谈进度的掌握度。"
+    },
+    "aiReply": {
+      "title": "以 AI 回覆重复性的询问",
+      "description": "AI PinBot 能依据你设定的产品资料回覆常见问题，如 MOQ、基础规格、材质、交期说明等，减少销售人员处理重复问答的负担。"
+    },
+    "tagsFolders": {
+      "title": "以标签与资料夹管理客户分类",
+      "description": "利用标签标示客户需求、洽谈阶段或产品类型，搭配资料夹整理对话，使团队更快速找到重要讯息。"
+    }
+  },
+  "benefits": {
+    "title": "加速商务沟通，缩短洽谈周期",
+    "description": "PinChat 不只协助降低反复问答的时间，也让团队更有效分工、掌握每一笔商务对话，让决策更快、合作更顺畅。",
+    "fasterResponse": {
+      "title": "缩短回覆时间，提高成交效率",
+      "description": "AI 与人工共同支援的模式，确保客户问题能快速获得处理，降低因等待而流失的商机。"
+    },
+    "teamCollaboration": {
+      "title": "让团队更容易协作",
+      "description": "透过资料夹与标签整理客户话题，团队成员可快速接手对话并掌握上下文，协作更加顺畅。"
+    },
+    "multilingual": {
+      "title": "跨语系沟通不再是障碍",
+      "description": "AI 自动侦测多语讯息并支援翻译，协助你与海外客户维持一致清晰的商务沟通品质。"
+    }
+  },
+  "exploreMore": {
+    "title": "探索更多 PinChat 应用方式",
+    "aiAutomation": {
+      "title": "AI 客服自动化",
+      "subtitle": "以 AI 先处理常见商务问题，降低销售与客服负担，让团队更专注在真正需要人工处理的商机对话。"
+    },
+    "crossPlatform": {
+      "title": "跨平台讯息整合",
+      "subtitle": "集中管理多平台讯息来源，避免团队因平台切换而遗漏客户需求，提高商务流程完整性。"
+    },
+    "conversationalSurvey": {
+      "title": "对话式问卷",
+      "subtitle": "以简洁的对话式问卷收集客户需求资讯，协助销售在洽谈前快速掌握客户背景与规格要求。"
+    }
+  },
+  "cta": {
+    "title": "开始提升商务对话品质",
+    "button": "立即体验 PinChat"
+  }
+},
 "cta": {
 "title": "准备好转变您的顾客沟通方式了吗？",
 "subtitle": "简化对话流程，用 AI 赋能团队，轻松成长您的业务。",

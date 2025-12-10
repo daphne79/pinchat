@@ -1049,6 +1049,74 @@
       "button": "Get Started Now"
     }
   },
+  "b2bCommercial": {
+    "hero": {
+      "breadcrumb": "PinChat for B2B",
+      "title": "Enhance Business Communication Efficiency",
+      "subtitle": "Facing repeated inquiries about specifications, MOQ, pricing tiers, and more, PinChat helps B2B teams integrate multi-platform messages, build controllable AI FAQs, and make negotiation progress clearer through tags and folders, enabling your team to respond to customers faster and more consistently, shortening business turnaround time.",
+      "cta": "Get Started with PinChat"
+    },
+    "whyUse": {
+      "title": "Why B2B Use PinChat",
+      "items": {
+        "centralizeMessages": "Centralize cross-platform business messages",
+        "aiQuickReply": "AI quickly replies to common specification and pricing inquiries",
+        "tagsFolders": "Tags and folders enhance business case organization",
+        "multilingual": "Support multilingual message recognition and translation"
+      }
+    },
+    "usage": {
+      "title": "Make Business Conversations Clearer and More Consistent",
+      "description": "B2B business exchanges often involve multi-person collaboration, specification confirmation, repeated inquiries, and cross-language clients. PinChat provides controllable AI responses, multi-platform integration, and better conversation management capabilities to help teams handle each negotiation more efficiently.",
+      "centralizeConversations": {
+        "title": "Centralize All Business Conversations",
+        "description": "Integrate LINE, Messenger, WhatsApp, and website visitor messages into a single inbox to avoid message fragmentation and improve the business team's grasp of negotiation progress."
+      },
+      "aiReply": {
+        "title": "Use AI to Reply to Repetitive Inquiries",
+        "description": "AI PinBot can reply to common questions based on your product data settings, such as MOQ, basic specifications, materials, delivery time explanations, etc., reducing the burden on sales staff handling repetitive Q&A."
+      },
+      "tagsFolders": {
+        "title": "Manage Customer Classification with Tags and Folders",
+        "description": "Use tags to mark customer needs, negotiation stages, or product types, combined with folders to organize conversations, enabling teams to find important messages more quickly."
+      }
+    },
+    "benefits": {
+      "title": "Accelerate Business Communication, Shorten Negotiation Cycles",
+      "description": "PinChat not only helps reduce the time spent on repeated Q&A but also enables teams to divide work more effectively and grasp every business conversation, making decisions faster and collaboration smoother.",
+      "fasterResponse": {
+        "title": "Shorten Response Time, Improve Conversion Efficiency",
+        "description": "The mode of AI and human support ensures customer questions can be handled quickly, reducing business opportunities lost due to waiting."
+      },
+      "teamCollaboration": {
+        "title": "Make Team Collaboration Easier",
+        "description": "Through folders and tags organizing customer topics, team members can quickly take over conversations and grasp context, making collaboration smoother."
+      },
+      "multilingual": {
+        "title": "Cross-Language Communication is No Longer a Barrier",
+        "description": "AI automatically detects multilingual messages and supports translation, helping you maintain consistent and clear business communication quality with overseas clients."
+      }
+    },
+    "exploreMore": {
+      "title": "Explore more ways to use PinChat",
+      "aiAutomation": {
+        "title": "AI Customer Service Automation",
+        "subtitle": "Use AI to handle common business questions first, reducing sales and customer service burden, allowing teams to focus more on business conversations that truly require human handling."
+      },
+      "crossPlatform": {
+        "title": "Cross-Platform Message Integration",
+        "subtitle": "Centralize management of multi-platform message sources to avoid teams missing customer needs due to platform switching, improving business process completeness."
+      },
+      "conversationalSurvey": {
+        "title": "Conversational Survey",
+        "subtitle": "Use concise conversational surveys to collect customer requirement information, helping sales quickly understand customer background and specification requirements before negotiations."
+      }
+    },
+    "cta": {
+      "title": "Start Improving Business Conversation Quality",
+      "button": "Experience PinChat Now"
+    }
+  },
   "cta": {
     "title": "Ready to Transform Your Customer Communication?",
     "subtitle": "Simplify conversations, empower your team with AI, and grow your business effortlessly.",
