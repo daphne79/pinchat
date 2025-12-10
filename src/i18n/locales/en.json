@@ -1389,6 +1389,74 @@
       "button": "Experience PinChat Now"
     }
   },
+  "professionalServices": {
+    "hero": {
+      "breadcrumb": "PinChat for Professional Services",
+      "title": "Enhance consultation and onboarding experience",
+      "subtitle": "Professional service teams face high volumes of initial consultations, pricing inquiries, and process guidance needs. PinChat helps teams centralize messages and standardize responses, guiding clients to quickly understand service offerings while saving teams significant administrative time, allowing them to focus on analysis and consultation work that truly requires professional judgment.",
+      "cta": "Get Started with PinChat"
+    },
+    "whyUse": {
+      "title": "Why Professional Service Teams Choose PinChat",
+      "items": {
+        "centralizeInquiries": "Centralize multi-platform initial client consultations",
+        "aiReply": "AI replies to administrative questions reduce repetitive workload",
+        "consistentInfo": "Provide consistent and clear service and pricing introductions",
+        "trackOnboarding": "Help track client onboarding progress and status"
+      }
+    },
+    "usage": {
+      "title": "Help clients smoothly understand services and enter the collaboration process",
+      "description": "In professional services, the clarity of initial consultations and speed of information access directly impact clients' understanding and trust in services. PinChat helps teams guide clients to understand pricing, service content, and processes through integrated message sources and configurable standardized responses, reducing communication gaps and enhancing onboarding experience.",
+      "quickReply": {
+        "title": "Quickly reply to pricing and collaboration processes",
+        "description": "AI PinBot replies to common administrative questions based on pre-configured FAQs, such as billing methods, service scope, required documents, and consultation processes, enabling clients to immediately access core information."
+      },
+      "consistentService": {
+        "title": "Provide consistent service introductions and standardized content",
+        "description": "Use preset replies, card messages, or FAQs to standardize service descriptions, avoiding different team members providing different versions of information, ensuring clients receive consistent and complete understanding."
+      },
+      "centralizeMessages": {
+        "title": "Centralize message management and clearly categorize client status",
+        "description": "Integrate LINE, Messenger, WhatsApp, and website consultations into a single interface, and use tags or folders to distinguish different onboarding stages, making it easy for teams to quickly track each client's progress."
+      }
+    },
+    "benefits": {
+      "title": "Improve onboarding efficiency and focus on high-value services",
+      "description": "PinChat reduces time spent on repetitive communication and information provision, enabling professional teams to focus on professional work that truly requires strategy, analysis, or judgment, while helping clients understand services faster and smoothly begin collaboration.",
+      "improveResponse": {
+        "title": "Improve initial consultation response quality and speed",
+        "description": "AI and preset replies help provide clear answers, accelerating client understanding and reducing response wait times."
+      },
+      "enhanceTrust": {
+        "title": "Strengthen service transparency and client trust",
+        "description": "Standardized pricing, processes, and service descriptions enable clients to grasp the full picture before collaboration, improving decision-making efficiency."
+      },
+      "reduceCosts": {
+        "title": "Reduce team administrative and information repetition costs",
+        "description": "Reduce repetitive question handling and platform switching, enabling teams to invest more time in high-value consultation services."
+      }
+    },
+    "exploreMore": {
+      "title": "Explore more ways to use PinChat",
+      "aiPinbot": {
+        "title": "AI Customer Service Bot",
+        "subtitle": "Help handle administrative questions such as pricing information, process descriptions, and basic service introductions."
+      },
+      "chatWidget": {
+        "title": "Chat Widget",
+        "subtitle": "Provide instant consultation entry on websites, guiding visitors to quickly enter the onboarding process."
+      },
+      "survey": {
+        "title": "Survey",
+        "subtitle": "Collect client background information through conversational surveys, helping teams understand needs and prepare for onboarding."
+      }
+    },
+    "cta": {
+      "title": "Start building a smooth onboarding experience",
+      "button": "Get Started Now"
+    }
+  },
   "cta": {
     "title": "Ready to Transform Your Customer Communication?",
     "subtitle": "Simplify conversations, empower your team with AI, and grow your business effortlessly.",
