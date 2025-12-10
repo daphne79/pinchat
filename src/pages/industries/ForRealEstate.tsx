@@ -1,109 +1,248 @@
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import { Home, Calendar, FileImage, MessageSquare } from "lucide-react";
+import { Check } from "lucide-react";
 import FeatureNavigation from "@/components/FeatureNavigation";
 import Footer from "@/components/Footer";
-import { useTranslationDirect } from '@/hooks/useTranslationDirect';
 import { useLanguageFont } from '@/hooks/useLanguageFont';
+import { useTranslationDirect } from '@/hooks/useTranslationDirect';
 
 const ForRealEstate = () => {
   const { t } = useTranslationDirect();
   const { fontClass } = useLanguageFont();
+
   return (
-    <div className="min-h-screen bg-background">
+    <div className={`min-h-screen bg-background ${fontClass}`}>
       <FeatureNavigation />
       
-      {/* Hero Section */}
-      <main className="py-16 md:py-24 px-4 sm:px-6 md:px-8 lg:px-12">
-        <div className="container mx-auto">
-          <section className="text-center mb-16">
-            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-[72px] font-bold tracking-wide text-foreground mb-4 leading-normal lg:leading-[1.2]">
-              Turn Conversations Into Property Viewings
-            </h1>
-            <p className="text-base sm:text-lg text-muted-foreground mb-8 max-w-3xl mx-auto">
-              Respond to property questions, share details and brochures, and stay connected with prospects — all through a simple chat experience.
-            </p>
-            <div className="flex justify-center">
+      <main>
+        {/* Hero Section */}
+        <section className="py-16 md:py-24 px-4 sm:px-6 md:px-8 lg:px-12 bg-background">
+          <div className="container mx-auto">
+            <div className="text-center mb-12">
+              <p className="text-sm font-medium text-muted-foreground mb-4 uppercase tracking-wide">
+                {t('realEstate.hero.breadcrumb')}
+              </p>
+              <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-[72px] font-bold tracking-wide text-foreground mb-6 leading-normal lg:leading-[1.2]">
+                {t('realEstate.hero.title')}
+              </h1>
+              <p className="text-base sm:text-lg text-muted-foreground mb-8 max-w-3xl mx-auto">
+                {t('realEstate.hero.subtitle')}
+              </p>
               <Button size="lg" className="text-base sm:text-lg">
-                Get Started
+                {t('realEstate.hero.cta')}
               </Button>
             </div>
-          </section>
+          
+            {/* Hero Image */}
+            <div className="mt-16 rounded-lg overflow-hidden">
+              <img 
+                src="/lovable-uploads/b1eef0e6-e922-4863-bc03-f92dd32f0f46.png" 
+                alt="Real estate agent consultation interface" 
+                className="w-full h-auto"
+              />
+            </div>
+          </div>
+        </section>
 
-          {/* Hero Image */}
-          <section className="mb-16 text-center">
-            <img 
-              src="/lovable-uploads/b1eef0e6-e922-4863-bc03-f92dd32f0f46.png" 
-              alt="Real estate agent consultation interface" 
-              className="mx-auto max-w-4xl w-full h-auto"
-            />
-          </section>
+        {/* Why Real Estate teams use PinChat */}
+        <section className="py-20 px-4 sm:px-6 md:px-8 lg:px-12 bg-muted/30">
+          <div className="container mx-auto">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[48px] font-bold tracking-wide leading-normal lg:leading-[1.2] text-foreground mb-12 text-center">
+              {t('realEstate.whyUse.title')}
+            </h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-3xl mx-auto">
+            <div className="flex items-start gap-3">
+              <Check className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
+              <p className="text-lg text-foreground">{t('realEstate.whyUse.items.integratePlatforms')}</p>
+            </div>
+            <div className="flex items-start gap-3">
+              <Check className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
+              <p className="text-lg text-foreground">{t('realEstate.whyUse.items.aiReply')}</p>
+            </div>
+            <div className="flex items-start gap-3">
+              <Check className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
+              <p className="text-lg text-foreground">{t('realEstate.whyUse.items.conversationalSurvey')}</p>
+            </div>
+            <div className="flex items-start gap-3">
+              <Check className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
+              <p className="text-base sm:text-lg text-foreground">{t('realEstate.whyUse.items.manageLeads')}</p>
+            </div>
+          </div>
+          </div>
+        </section>
 
-          {/* Key Benefits */}
-          <section className="py-16">
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-              <div className="text-center">
-                <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Home className="w-8 h-8 text-primary" />
+        {/* PinChat 在此情境下的使用方式 - Left/Right Layout */}
+        <section className="py-24 bg-background px-4 sm:px-6 md:px-8 lg:px-12">
+          <div className="container mx-auto">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+              <div>
+                <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[48px] font-bold tracking-wide leading-normal lg:leading-[1.2] text-foreground mb-6">
+                  {t('realEstate.planEngagement.title')}
+                </h2>
+                <p className="text-base sm:text-lg text-muted-foreground mb-8">
+                  {t('realEstate.planEngagement.description')}
+                </p>
+                <div className="space-y-6">
+                  <div>
+                    <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-foreground mb-2">{t('realEstate.planEngagement.aiReply.title')}</h3>
+                    <p className="text-sm sm:text-base text-muted-foreground">
+                      {t('realEstate.planEngagement.aiReply.description')}
+                    </p>
+                  </div>
+                  <div>
+                    <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-foreground mb-2">{t('realEstate.planEngagement.bookingLink.title')}</h3>
+                    <p className="text-sm sm:text-base text-muted-foreground">
+                      {t('realEstate.planEngagement.bookingLink.description')}
+                    </p>
+                  </div>
+                  <div>
+                    <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-foreground mb-2">{t('realEstate.planEngagement.manageRecords.title')}</h3>
+                    <p className="text-sm sm:text-base text-muted-foreground">
+                      {t('realEstate.planEngagement.manageRecords.description')}
+                    </p>
+                  </div>
                 </div>
-                <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-foreground mb-2">Property Availability</h3>
-                <p className="text-sm sm:text-base text-muted-foreground">Answer questions about listed properties and availability</p>
               </div>
-              <div className="text-center">
-                <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Calendar className="w-8 h-8 text-primary" />
-                </div>
-                <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-foreground mb-2">Viewing Appointments</h3>
-                <p className="text-sm sm:text-base text-muted-foreground">Schedule property tours directly through chat</p>
-              </div>
-              <div className="text-center">
-                <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <FileImage className="w-8 h-8 text-primary" />
-                </div>
-                <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-foreground mb-2">Property Details</h3>
-                <p className="text-sm sm:text-base text-muted-foreground">Share brochures, photos, and links with prospective buyers or renters</p>
-              </div>
-              <div className="text-center">
-                <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <MessageSquare className="w-8 h-8 text-primary" />
-                </div>
-                <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-foreground mb-2">Client Feedback</h3>
-                <p className="text-sm sm:text-base text-muted-foreground">Collect comments after property visits to better understand buyer needs</p>
+              <div className="rounded-lg overflow-hidden">
+                <img 
+                  src="/lovable-uploads/b1eef0e6-e922-4863-bc03-f92dd32f0f46.png" 
+                  alt="Real estate customer service dashboard" 
+                  className="w-full h-auto"
+                />
               </div>
             </div>
-          </section>
+          </div>
+        </section>
 
-          {/* Use Cases */}
-          <section className="py-16">
-            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[48px] font-bold tracking-wide leading-normal lg:leading-[1.2] text-center text-foreground mb-12">Perfect For</h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-              <div className="p-6 bg-card rounded-lg border">
-                <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-foreground mb-2">Property Sales</h3>
-                <p className="text-sm sm:text-base text-muted-foreground">Connect with potential buyers and schedule property viewings instantly.</p>
+        {/* PinChat 在此情境下帶來的效益 - Right/Left Layout */}
+        <section className="py-24 bg-muted/30 px-4 sm:px-6 md:px-8 lg:px-12">
+          <div className="container mx-auto">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+              <div className="order-2 lg:order-1 rounded-lg overflow-hidden">
+                <img 
+                  src="/lovable-uploads/b1eef0e6-e922-4863-bc03-f92dd32f0f46.png" 
+                  alt="Real estate engagement dashboard" 
+                  className="w-full h-auto"
+                />
               </div>
-              <div className="p-6 bg-card rounded-lg border">
-                <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-foreground mb-2">Rental Properties</h3>
-                <p className="text-sm sm:text-base text-muted-foreground">Handle rental inquiries and apartment viewing appointments efficiently.</p>
-              </div>
-              <div className="p-6 bg-card rounded-lg border">
-                <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-foreground mb-2">Commercial Real Estate</h3>
-                <p className="text-sm sm:text-base text-muted-foreground">Manage business property inquiries and commercial space consultations.</p>
-              </div>
-              <div className="p-6 bg-card rounded-lg border">
-                <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-foreground mb-2">Agent Communication</h3>
-                <p className="text-sm sm:text-base text-muted-foreground">Streamline agent-client communication and follow-up processes.</p>
+              <div className="order-1 lg:order-2">
+                <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[48px] font-bold tracking-wide leading-normal lg:leading-[1.2] text-foreground mb-6">
+                  {t('realEstate.salesAcceleration.title')}
+                </h2>
+                <p className="text-base sm:text-lg text-muted-foreground mb-8">
+                  {t('realEstate.salesAcceleration.description')}
+                </p>
+                <div className="space-y-6">
+                  <div>
+                    <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-foreground mb-2">{t('realEstate.salesAcceleration.fasterResponse.title')}</h3>
+                    <p className="text-sm sm:text-base text-muted-foreground">
+                      {t('realEstate.salesAcceleration.fasterResponse.description')}
+                    </p>
+                  </div>
+                  <div>
+                    <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-foreground mb-2">{t('realEstate.salesAcceleration.reduceWork.title')}</h3>
+                    <p className="text-sm sm:text-base text-muted-foreground">
+                      {t('realEstate.salesAcceleration.reduceWork.description')}
+                    </p>
+                  </div>
+                  <div>
+                    <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-foreground mb-2">{t('realEstate.salesAcceleration.organizedTracking.title')}</h3>
+                    <p className="text-sm sm:text-base text-muted-foreground">
+                      {t('realEstate.salesAcceleration.organizedTracking.description')}
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
-          </section>
+          </div>
+        </section>
 
-          {/* CTA Section */}
-          <section className="text-center py-16 bg-muted/50 rounded-lg">
-            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[48px] font-bold tracking-wide leading-normal lg:leading-[1.2] text-foreground mb-8">{t('industries.realEstatePage.cta.title')}</h2>
-            <Button size="lg" className="text-base sm:text-lg">
-              {t('industries.realEstatePage.cta.button')}
-            </Button>
-          </section>
-        </div>
+        {/* Explore more ways to use PinChat */}
+        <section className="py-24 bg-background px-4 sm:px-6 md:px-8 lg:px-12">
+          <div className="container mx-auto">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[48px] font-bold tracking-wide leading-normal lg:leading-[1.2] text-foreground mb-12 text-center">
+              {t('realEstate.exploreMore.title')}
+            </h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+            <Link 
+              to="/features/ai-pinbot" 
+              className="group rounded-lg overflow-hidden border bg-card hover:shadow-lg transition-all duration-300"
+            >
+              <div className="aspect-video bg-muted overflow-hidden">
+                <img 
+                  src="/lovable-uploads/b1eef0e6-e922-4863-bc03-f92dd32f0f46.png" 
+                  alt="AI Customer Service Bot" 
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                />
+              </div>
+              <div className="p-6">
+                <h3 className="font-semibold text-foreground text-lg mb-2 group-hover:text-primary transition-colors">
+                  {t('realEstate.exploreMore.aiPinbot.title')}
+                </h3>
+                <p className="text-sm text-muted-foreground">
+                  {t('realEstate.exploreMore.aiPinbot.description')}
+                </p>
+              </div>
+            </Link>
+            
+            <Link 
+              to="/features/chat-widget" 
+              className="group rounded-lg overflow-hidden border bg-card hover:shadow-lg transition-all duration-300"
+            >
+              <div className="aspect-video bg-muted overflow-hidden">
+                <img 
+                  src="/lovable-uploads/b1eef0e6-e922-4863-bc03-f92dd32f0f46.png" 
+                  alt="Chat Widget" 
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                />
+              </div>
+              <div className="p-6">
+                <h3 className="font-semibold text-foreground text-lg mb-2 group-hover:text-primary transition-colors">
+                  {t('realEstate.exploreMore.chatWidget.title')}
+                </h3>
+                <p className="text-sm text-muted-foreground">
+                  {t('realEstate.exploreMore.chatWidget.description')}
+                </p>
+              </div>
+            </Link>
+            
+            <Link 
+              to="/features/pinboard" 
+              className="group rounded-lg overflow-hidden border bg-card hover:shadow-lg transition-all duration-300"
+            >
+              <div className="aspect-video bg-muted overflow-hidden">
+                <img 
+                  src="/lovable-uploads/b1eef0e6-e922-4863-bc03-f92dd32f0f46.png" 
+                  alt="PinBoard Multi-link Page" 
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                />
+              </div>
+              <div className="p-6">
+                <h3 className="font-semibold text-foreground text-lg mb-2 group-hover:text-primary transition-colors">
+                  {t('realEstate.exploreMore.pinBoard.title')}
+                </h3>
+                <p className="text-sm text-muted-foreground">
+                  {t('realEstate.exploreMore.pinBoard.description')}
+                </p>
+              </div>
+            </Link>
+          </div>
+          </div>
+        </section>
+
+        {/* Final CTA */}
+        <section className="bg-primary/10 py-20 px-4 sm:px-6 md:px-8 lg:px-12">
+          <div className="container mx-auto">
+            <div className="max-w-4xl mx-auto rounded-2xl bg-card border p-12 text-center">
+              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[48px] font-bold tracking-wide leading-normal lg:leading-[1.2] text-foreground mb-8">
+                {t('realEstate.cta.title')}
+              </h2>
+              <Button size="lg" className="text-base sm:text-lg">
+                {t('realEstate.cta.button')}
+              </Button>
+            </div>
+          </div>
+        </section>
       </main>
       <Footer />
     </div>

@@ -981,6 +981,74 @@
       "button": "免費開始使用"
     }
   },
+  "realEstate": {
+    "hero": {
+      "breadcrumb": "PinChat 房地產解決方案",
+      "title": "即時提升物件詢問效率",
+      "subtitle": "房仲團隊每天需回覆大量物件資訊、看房流程與預約需求。PinChat 透過 AI 回覆、整合式聊天室與多入口導流工具，協助快速提供資訊、掌握買家需求並維持一致的專業溝通體驗，減少前期溝通時間，讓業務更專注於成交推進。",
+      "cta": "立即開始體驗"
+    },
+    "whyUse": {
+      "title": "為什麼房地產團隊選擇 PinChat",
+      "items": {
+        "integratePlatforms": "整合 LINE／Messenger／WhatsApp 訊息至單一收件匣",
+        "aiReply": "AI 即時回覆物件與看房流程常見問題",
+        "conversationalSurvey": "以對話式問卷蒐集預算與偏好等關鍵需求",
+        "manageLeads": "透過標籤與資料夾管理潛在買家洽談進度"
+      }
+    },
+    "planEngagement": {
+      "title": "支援從物件詢問到預約前的完整溝通流程",
+      "description": "PinChat 整合多平台訊息並支援 AI、自動化 FAQ 與導流工具，協助房仲在高詢問量下仍保持清楚、迅速且一致的回覆流程，讓買家充分理解物件資訊並順利進入預約或後續洽談。",
+      "aiReply": {
+        "title": "以 AI 回覆物件與看房常見問題",
+        "description": "AI PinBot 可依設定的內容回覆物件資訊、價格、開放時間與看房流程等重複性問題，並在需要人工協助時切換給業務，使買家能持續獲得一致的回覆品質。"
+      },
+      "bookingLink": {
+        "title": "提供預約連結並掌握買家需求",
+        "description": "聊天按鈕可直接引導買家進入聊天室，透過對話式問卷快速蒐集預算與偏好等基本需求；PinBoard 多連結頁則用於導流至預約看房、物件清單或行銷頁面，協助買家更順暢地完成下一步。"
+      },
+      "manageRecords": {
+        "title": "集中管理洽談紀錄並提升追蹤效率",
+        "description": "所有平台訊息皆整併至單一收件匣，搭配標籤、資料夾與訊息搜尋，可依「新詢問」「待安排看房」「高意願」等分類快速找到對話，使團隊協作更清晰且不遺漏任何商機。"
+      }
+    },
+    "salesAcceleration": {
+      "title": "讓每一位買家的詢問都能被即時回應",
+      "description": "PinChat 透過 AI、自動化工具與整合式聊天管理，大幅減少重複行政溝通，使房仲團隊能更快速掌握買家需求並將時間集中在更具意願的客戶身上。",
+      "fasterResponse": {
+        "title": "加快回覆速度，提升買家第一印象",
+        "description": "即時回覆常見問題，使買家在決策初期即可獲得必要資訊，減少等待造成的流失。"
+      },
+      "reduceWork": {
+        "title": "減少重複行政工作，專注成交推進",
+        "description": "透過自動化 FAQ、聊天按鈕與導流頁面處理基本資訊需求，讓業務有更多時間專注後續溝通。"
+      },
+      "organizedTracking": {
+        "title": "保持對話內容有序，提升追蹤效率",
+        "description": "以標籤、資料夾與訊息搜尋快速定位買家類型與洽談狀態，使團隊能更有效率地安排後續跟進。"
+      }
+    },
+    "exploreMore": {
+      "title": "探索更多 PinChat 應用方式",
+      "aiPinbot": {
+        "title": "AI 客服機器人",
+        "description": "自動回覆常見問題並支援多語與人工接手，讓房仲在高詢問量時仍維持即時回覆品質。"
+      },
+      "chatWidget": {
+        "title": "Chat Widget",
+        "description": "在物件頁或官網嵌入即時聊天入口，將瀏覽訪客轉換為對話與潛在買家，並可拖曳避免遮擋內容。"
+      },
+      "pinBoard": {
+        "title": "PinBoard 多連結頁",
+        "description": "集中呈現預約看房、物件清單與行銷按鈕，提供更清晰的導流路徑，提升買家後續操作率。"
+      }
+    },
+    "cta": {
+      "title": "加速每一次物件洽詢",
+      "button": "立即開始體驗"
+    }
+  },
   "serviceIndustries": {
     "hero": {
       "breadcrumb": "PinChat 服務業解決方案",

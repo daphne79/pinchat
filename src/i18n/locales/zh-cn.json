@@ -1016,6 +1016,74 @@
   "button": "免费开始使用"
 }
 },
+"realEstate": {
+"hero": {
+  "breadcrumb": "PinChat 房地产解决方案",
+  "title": "即时提升物件询问效率",
+  "subtitle": "房仲团队每天需回覆大量物件资讯、看房流程与预约需求。PinChat 透过 AI 回覆、整合式聊天室与多入口导流工具，协助快速提供资讯、掌握买家需求并维持一致的专业沟通体验，减少前期沟通时间，让业务更专注于成交推进。",
+  "cta": "立即开始体验"
+},
+"whyUse": {
+  "title": "为什么房地产团队选择 PinChat",
+  "items": {
+    "integratePlatforms": "整合 LINE／Messenger／WhatsApp 讯息至单一收件匣",
+    "aiReply": "AI 即时回覆物件与看房流程常见问题",
+    "conversationalSurvey": "以对话式问卷蒐集预算与偏好等关键需求",
+    "manageLeads": "透过标签与资料夹管理潜在买家洽谈进度"
+  }
+},
+"planEngagement": {
+  "title": "支援从物件询问到预约前的完整沟通流程",
+  "description": "PinChat 整合多平台讯息并支援 AI、自动化 FAQ 与导流工具，协助房仲在高询问量下仍保持清楚、迅速且一致的回覆流程，让买家充分理解物件资讯并顺利进入预约或后续洽谈。",
+  "aiReply": {
+    "title": "以 AI 回覆物件与看房常见问题",
+    "description": "AI PinBot 可依设定的内容回覆物件资讯、价格、开放时间与看房流程等重复性问题，并在需要人工协助时切换给业务，使买家能持续获得一致的回覆品质。"
+  },
+  "bookingLink": {
+    "title": "提供预约连结并掌握买家需求",
+    "description": "聊天按钮可直接引导买家进入聊天室，透过对话式问卷快速蒐集预算与偏好等基本需求；PinBoard 多连结页则用于导流至预约看房、物件清单或行销页面，协助买家更顺畅地完成下一步。"
+  },
+  "manageRecords": {
+    "title": "集中管理洽谈纪录并提升追踪效率",
+    "description": "所有平台讯息皆整併至单一收件匣，搭配标签、资料夹与讯息搜寻，可依「新询问」「待安排看房」「高意愿」等分类快速找到对话，使团队协作更清晰且不遗漏任何商机。"
+  }
+},
+"salesAcceleration": {
+  "title": "让每一位买家的询问都能被即时回应",
+  "description": "PinChat 透过 AI、自动化工具与整合式聊天管理，大幅减少重复行政沟通，使房仲团队能更快速掌握买家需求并将时间集中在更具意愿的客户身上。",
+  "fasterResponse": {
+    "title": "加快回覆速度，提升买家第一印象",
+    "description": "即时回覆常见问题，使买家在决策初期即可获得必要资讯，减少等待造成的流失。"
+  },
+  "reduceWork": {
+    "title": "减少重复行政工作，专注成交推进",
+    "description": "透过自动化 FAQ、聊天按钮与导流页面处理基本资讯需求，让业务有更多时间专注后续沟通。"
+  },
+  "organizedTracking": {
+    "title": "保持对话内容有序，提升追踪效率",
+    "description": "以标签、资料夹与讯息搜寻快速定位买家类型与洽谈状态，使团队能更有效率地安排后续跟进。"
+  }
+},
+"exploreMore": {
+  "title": "探索更多 PinChat 应用方式",
+  "aiPinbot": {
+    "title": "AI 客服机器人",
+    "description": "自动回覆常见问题并支援多语与人工接手，让房仲在高询问量时仍维持即时回覆品质。"
+  },
+  "chatWidget": {
+    "title": "Chat Widget",
+    "description": "在物件页或官网嵌入即时聊天入口，将浏览访客转换为对话与潜在买家，并可拖曳避免遮挡内容。"
+  },
+  "pinBoard": {
+    "title": "PinBoard 多连结页",
+    "description": "集中呈现预约看房、物件清单与行销按钮，提供更清晰的导流路径，提升买家后续操作率。"
+  }
+},
+"cta": {
+  "title": "加速每一次物件洽询",
+  "button": "立即开始体验"
+}
+},
 "serviceIndustries": {
   "hero": {
     "breadcrumb": "PinChat 服务业解决方案",

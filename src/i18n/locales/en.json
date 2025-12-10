@@ -981,6 +981,74 @@
       "button": "Get PinChat for Free"
     }
   },
+  "realEstate": {
+    "hero": {
+      "breadcrumb": "PinChat for Real Estate",
+      "title": "Instantly improve property inquiry efficiency",
+      "subtitle": "Real estate teams need to respond to numerous property inquiries, viewing schedules, and booking requests daily. PinChat helps teams quickly provide information, understand buyer needs, and maintain consistent professional communication through AI responses, integrated chatrooms, and multi-entry conversion tools—reducing upfront communication time so agents can focus on closing deals.",
+      "cta": "Start Free Trial"
+    },
+    "whyUse": {
+      "title": "Why Real Estate Use PinChat",
+      "items": {
+        "integratePlatforms": "Integrate LINE, Messenger, and WhatsApp messages into a single inbox",
+        "aiReply": "AI instantly replies to common property and viewing process questions",
+        "conversationalSurvey": "Collect key requirements like budget and preferences through conversational surveys",
+        "manageLeads": "Manage potential buyer negotiation progress with tags and folders"
+      }
+    },
+    "planEngagement": {
+      "title": "Support the complete communication flow from property inquiries to pre-booking",
+      "description": "PinChat integrates multi-platform messages and supports AI, automated FAQs, and conversion tools, helping real estate agents maintain clear, fast, and consistent response processes even under high inquiry volumes, enabling buyers to fully understand property information and smoothly proceed to bookings or follow-up discussions.",
+      "aiReply": {
+        "title": "Reply to common property and viewing questions with AI",
+        "description": "AI PinBot can reply to repetitive questions about property information, pricing, viewing hours, and viewing processes based on configured content, and seamlessly hand over to agents when human assistance is needed, ensuring buyers consistently receive quality responses."
+      },
+      "bookingLink": {
+        "title": "Provide booking links and capture buyer needs",
+        "description": "Chat buttons can directly guide buyers into chatrooms, quickly collecting basic requirements like budget and preferences through conversational surveys; PinBoard multi-link pages are used to direct traffic to property viewing bookings, property listings, or marketing pages, helping buyers smoothly complete the next steps."
+      },
+      "manageRecords": {
+        "title": "Centralize negotiation records and improve tracking efficiency",
+        "description": "All platform messages are consolidated into a single inbox, and with tags, folders, and message search, conversations can be quickly found by categories like \"New Inquiry,\" \"Pending Viewing Arrangement,\" \"High Interest,\" making team collaboration clearer and ensuring no opportunities are missed."
+      }
+    },
+    "salesAcceleration": {
+      "title": "Ensure every buyer inquiry gets an instant response",
+      "description": "PinChat significantly reduces repetitive administrative communication through AI, automation tools, and integrated chat management, enabling real estate teams to quickly understand buyer needs and focus their time on more interested clients.",
+      "fasterResponse": {
+        "title": "Speed up responses and improve buyer first impressions",
+        "description": "Instantly reply to common questions, enabling buyers to get necessary information early in their decision-making process, reducing drop-offs caused by waiting."
+      },
+      "reduceWork": {
+        "title": "Reduce repetitive administrative work and focus on closing deals",
+        "description": "Handle basic information needs through automated FAQs, chat buttons, and conversion pages, giving agents more time to focus on follow-up communication."
+      },
+      "organizedTracking": {
+        "title": "Keep conversations organized and improve tracking efficiency",
+        "description": "Quickly locate buyer types and negotiation status with tags, folders, and message search, enabling teams to more efficiently arrange follow-ups."
+      }
+    },
+    "exploreMore": {
+      "title": "Explore more ways to use PinChat",
+      "aiPinbot": {
+        "title": "AI Customer Service Bot",
+        "description": "Automatically reply to common questions with multi-language support and human handoff, maintaining instant response quality even during high inquiry volumes."
+      },
+      "chatWidget": {
+        "title": "Chat Widget",
+        "description": "Embed instant chat entry on property pages or official websites, converting browsing visitors into conversations and potential buyers, with draggable positioning to avoid blocking content."
+      },
+      "pinBoard": {
+        "title": "PinBoard Multi-link Page",
+        "description": "Centrally display property viewing bookings, property listings, and marketing buttons, providing clearer conversion paths and improving buyer follow-up action rates."
+      }
+    },
+    "cta": {
+      "title": "Accelerate every property inquiry",
+      "button": "Start Free Trial"
+    }
+  },
   "serviceIndustries": {
     "hero": {
       "breadcrumb": "PinChat for Service Industry",
