@@ -1185,6 +1185,74 @@
       "button": "Get Started Now"
     }
   },
+  "healthcare": {
+    "hero": {
+      "breadcrumb": "PinChat for Healthcare",
+      "title": "Make health service communication faster and better",
+      "subtitle": "PinChat helps the healthcare industry create instant, professional, and highly efficient communication experiences. From course introductions and program explanations to common Q&A, through AI and cross-platform integration, teams save time and users feel more at ease.",
+      "cta": "Upgrade Communication Efficiency Now"
+    },
+    "whyUse": {
+      "title": "Why Healthcare Teams Choose PinChat",
+      "items": {
+        "reduceBurden": "Reduce response burden and shorten user wait times",
+        "aiInfo": "AI automatically provides health education and wellness program information",
+        "multilingual": "Cross-language support to expand serviceable populations",
+        "focusOnValue": "Enable teams to focus on higher-value professional services"
+      }
+    },
+    "usage": {
+      "title": "Build more effective health communication workflows",
+      "description": "Whether you're a clinic, fitness brand, nutritionist, mental health counselor, or wellness center, PinChat can help you improve consultation conversion, optimize course guidance, provide instant service information, and gain deeper insights into user needs through surveys, comprehensively enhancing interaction quality and brand experience.",
+      "step1": {
+        "title": "Provide instant information and program introductions",
+        "description": "AI Bot instantly responds to health education content, course introductions, and wellness program information, helping your brand quickly demonstrate professionalism while reducing the time your team spends handling repetitive questions."
+      },
+      "step2": {
+        "title": "Integrate all user message sources",
+        "description": "Centralize management of message sources from LINE, Messenger, WhatsApp, and website chat, allowing your team to easily manage all conversations and provide consistent, uninterrupted service experiences."
+      },
+      "step3": {
+        "title": "Collect more complete needs and intentions",
+        "description": "Use conversational surveys to collect user needs, course intentions, and experience feedback, helping brands make more accurate service adjustments and follow-up guidance, improving overall interaction effectiveness."
+      }
+    },
+    "benefits": {
+      "title": "Amplify service efficiency and create better health experiences",
+      "description": "Through AI, automation, and message integration, PinChat helps the healthcare industry provide more instant, smooth, and professional interactions. You'll significantly reduce administrative costs while building more consistent and trustworthy brand communication.",
+      "benefit1": {
+        "title": "Easily handle high-frequency repetitive questions",
+        "description": "AI can quickly respond to common questions, freeing your team from extensive administrative work and allowing them to invest time in more important user interactions."
+      },
+      "benefit2": {
+        "title": "Strengthen brand professionalism and consistency",
+        "description": "Through standardized responses and cross-language support, provide more consistent and trustworthy interaction experiences, making brand value more visible."
+      },
+      "benefit3": {
+        "title": "Improve course conversion and interaction efficiency",
+        "description": "Integrate chat, surveys, and traffic routing tools to help you more efficiently drive course registrations, track intentions, and improve overall interaction effectiveness."
+      }
+    },
+    "exploreMore": {
+      "title": "Explore More Features",
+      "feature1": {
+        "title": "AI Customer Service Bot",
+        "subtitle": "Automatically respond to large volumes of common questions with human handoff support, providing assistance in a faster and smarter way."
+      },
+      "feature2": {
+        "title": "Multi-platform Message Integration",
+        "subtitle": "Integrate all user message sources to create consistent, uninterrupted service experiences and improve overall response efficiency."
+      },
+      "feature3": {
+        "title": "Conversational Survey Collection",
+        "subtitle": "Collect needs and feedback through more natural interaction methods, making data more complete and responses easier."
+      }
+    },
+    "cta": {
+      "title": "Make your health services faster and smarter",
+      "button": "Get Started Now"
+    }
+  },
   "b2bCommercial": {
     "hero": {
       "breadcrumb": "PinChat for B2B",
