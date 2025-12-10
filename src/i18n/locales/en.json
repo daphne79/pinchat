@@ -1185,6 +1185,74 @@
       "button": "Get Started Now"
     }
   },
+  "education": {
+    "hero": {
+      "breadcrumb": "PinChat for Education",
+      "title": "Build more engaging learning interactions",
+      "subtitle": "PinChat creates a smoother learning dialogue space for educational institutions, connecting pre-class preparation, in-class interaction, and post-class Q&A. Students can grasp key points and ask questions anytime, while teachers can respond more efficiently, extend content, and improve overall learning outcomes and engagement.",
+      "cta": "Start Enhancing Learning Interactions"
+    },
+    "whyUse": {
+      "title": "Why Education Uses PinChat",
+      "items": {
+        "amplifyLearning": "Amplify learning exchanges beyond the classroom",
+        "centralizeDiscussions": "Centralize student discussions and Q&A",
+        "aiFirst": "AI handles repetitive questions first",
+        "continuousTouchpoints": "Create more continuous learning touchpoints"
+      }
+    },
+    "usage": {
+      "title": "Extend learning interactions from pre-class to post-class",
+      "description": "PinChat connects every learning node in a course, from pre-class preparation and in-class Q&A to post-class extended discussions, all conducted in real-time and smoothly. Through AI and centralized message management, teachers can communicate with students more efficiently and create a more immersive learning experience.",
+      "beforeClass": {
+        "title": "Make pre-class preparation more focused",
+        "description": "Teachers can use PinChat to push key reminders, and students can quickly ask about material sources, preparation focus, or concepts they don't understand, ensuring smoother content connection in class."
+      },
+      "duringClass": {
+        "title": "Uninterrupted Q&A inside and outside the classroom",
+        "description": "Students can ask questions at any time, with AI first assisting in answering common course information, and teachers then supplementing key messages, increasing overall course interaction density."
+      },
+      "afterClass": {
+        "title": "Make post-class discussions more contextual",
+        "description": "Use tags and search functions to quickly review discussion topics. Teachers can extend explanations after class and guide students to focus on important concepts."
+      }
+    },
+    "benefits": {
+      "title": "Create more continuous and proactive learning participation",
+      "description": "PinChat creates multiple interaction touchpoints for courses, making learning no longer limited to class time. Students can participate more proactively, while teachers can invest more energy in the teaching content itself.",
+      "engagement": {
+        "title": "Increase student engagement and interaction momentum",
+        "description": "Through instant messaging and cross-platform convenience, students can ask questions more comfortably, reducing communication barriers and increasing overall engagement."
+      },
+      "responseSpeed": {
+        "title": "Accelerate response speed and enhance course experience",
+        "description": "AI handles basic questions, reducing teachers' time spent on repetitive replies. Students can quickly access information, making the course experience smoother."
+      },
+      "community": {
+        "title": "Build stronger course community sense",
+        "description": "Clear message organization and historical context make course discussions easier to sustain. Students can maintain communication between classes, enhancing overall sense of belonging and engagement."
+      }
+    },
+    "exploreMore": {
+      "title": "Explore more ways to use PinChat",
+      "feature1": {
+        "title": "Enhance teaching interactions with AI",
+        "subtitle": "Automatically respond to course information and common questions, helping teachers quickly initiate deeper discussions."
+      },
+      "feature2": {
+        "title": "Integrate all learning communications",
+        "subtitle": "Centralize LINE, IG, Messenger, and WhatsApp messages in one interface, making teaching communication more continuous."
+      },
+      "feature3": {
+        "title": "Easier post-class feedback collection",
+        "subtitle": "Collect student feedback through conversational surveys, helping teachers optimize course content and interaction design."
+      }
+    },
+    "cta": {
+      "title": "Make every interaction an extension of learning",
+      "button": "Start Enhancing Learning Interactions"
+    }
+  },
   "healthcare": {
     "hero": {
       "breadcrumb": "PinChat for Healthcare",

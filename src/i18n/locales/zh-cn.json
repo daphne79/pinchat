@@ -1220,6 +1220,74 @@
     "button": "立即开始"
   }
 },
+"education": {
+  "hero": {
+    "breadcrumb": "PinChat 教育业解决方案",
+    "title": "打造更高黏着的学习互动",
+    "subtitle": "PinChat 为教育机构打造更顺畅的学习对话空间，串接课前预习、课堂互动与课后提问，让学生能随时掌握重点、提问疑惑，而教师也能以更高效率回应问题、延伸补充内容，提升整体学习成效与参与度。",
+    "cta": "开始提升学习互动"
+  },
+  "whyUse": {
+    "title": "为什么教育业使用 PinChat",
+    "items": {
+      "amplifyLearning": "放大课堂以外的学习交流",
+      "centralizeDiscussions": "集中学生讨论与问答",
+      "aiFirst": "AI 先行回答重复问题",
+      "continuousTouchpoints": "打造更持续的学习触点"
+    }
+  },
+  "usage": {
+    "title": "让学习互动从课前延伸到课后",
+    "description": "PinChat 将课程的每个学习节点串起来，从课前预习、课堂问答到课后延伸讨论，都能以即时、流畅的方式进行。透过 AI 与集中式讯息管理，教师能更有效率地与学生沟通，并打造更沉浸的学习体验。",
+    "beforeClass": {
+      "title": "让课前预习更有方向",
+      "description": "教师可用 PinChat 推送重点提示，学生也能快速询问教材来源、预习重点或不理解的概念，确保上课内容更顺利衔接。"
+    },
+    "duringClass": {
+      "title": "课堂内外的问答不中断",
+      "description": "学生可在任何时刻提出问题，AI 先协助回答常见课程资讯，教师再补充关键讯息，提升整体课程互动密度。"
+    },
+    "afterClass": {
+      "title": "让课后讨论更有脉络",
+      "description": "利用标签与搜寻功能快速回顾讨论主题，教师能在课程结束后延伸说明，也能引导学生聚焦在重要观念上。"
+    }
+  },
+  "benefits": {
+    "title": "打造更持续、更主动的学习参与",
+    "description": "PinChat 为课程建立多个互动触点，使学习不再局限于课堂时间。学生能更主动参与，教师则能投入更多心力在教学内容本身。",
+    "engagement": {
+      "title": "提升学生参与度与互动动能",
+      "description": "透过即时讯息与跨平台便利性，学生能更自在提出问题，降低沟通障碍并提升整体投入感。"
+    },
+    "responseSpeed": {
+      "title": "加速回应速度并提升课程体验",
+      "description": "AI 处理基础性提问，减少教师重复回覆的时间。学生能快速获取资讯，课程体验更流畅。"
+    },
+    "community": {
+      "title": "建立更强的课程社群感",
+      "description": "清晰的讯息整理与历史脉络让课程讨论更容易持续，学生在课堂之间也能保持交流，提升整体归属感与黏着度。"
+    }
+  },
+  "exploreMore": {
+    "title": "探索更多 PinChat 应用方式",
+    "feature1": {
+      "title": "让 AI 提升教学互动",
+      "subtitle": "自动回应课程资讯与常见疑问，协助教师更快速开启深度讨论。"
+    },
+    "feature2": {
+      "title": "整合所有学习交流",
+      "subtitle": "将 LINE、IG、Messenger、WhatsApp 讯息集中在一个介面，让教学沟通更连续。"
+    },
+    "feature3": {
+      "title": "课后回馈更容易蒐集",
+      "subtitle": "以聊天式问卷收集学生意见，协助教师优化课程内容与互动设计。"
+    }
+  },
+  "cta": {
+    "title": "让每一次互动都成为学习的延伸",
+    "button": "开始提升学习互动"
+  }
+},
 "healthcare": {
   "hero": {
     "breadcrumb": "PinChat 医疗保健产业方案",

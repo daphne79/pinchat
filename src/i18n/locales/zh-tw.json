@@ -1185,6 +1185,74 @@
       "button": "立即開始"
     }
   },
+  "education": {
+    "hero": {
+      "breadcrumb": "PinChat 教育業解決方案",
+      "title": "打造更高黏著的學習互動",
+      "subtitle": "PinChat 為教育機構打造更順暢的學習對話空間，串接課前預習、課堂互動與課後提問，讓學生能隨時掌握重點、提問疑惑，而教師也能以更高效率回應問題、延伸補充內容，提升整體學習成效與參與度。",
+      "cta": "開始提升學習互動"
+    },
+    "whyUse": {
+      "title": "為什麼教育業使用 PinChat",
+      "items": {
+        "amplifyLearning": "放大課堂以外的學習交流",
+        "centralizeDiscussions": "集中學生討論與問答",
+        "aiFirst": "AI 先行回答重複問題",
+        "continuousTouchpoints": "打造更持續的學習觸點"
+      }
+    },
+    "usage": {
+      "title": "讓學習互動從課前延伸到課後",
+      "description": "PinChat 將課程的每個學習節點串起來，從課前預習、課堂問答到課後延伸討論，都能以即時、流暢的方式進行。透過 AI 與集中式訊息管理，教師能更有效率地與學生溝通，並打造更沉浸的學習體驗。",
+      "beforeClass": {
+        "title": "讓課前預習更有方向",
+        "description": "教師可用 PinChat 推送重點提示，學生也能快速詢問教材來源、預習重點或不理解的概念，確保上課內容更順利銜接。"
+      },
+      "duringClass": {
+        "title": "課堂內外的問答不中斷",
+        "description": "學生可在任何時刻提出問題，AI 先協助回答常見課程資訊，教師再補充關鍵訊息，提升整體課程互動密度。"
+      },
+      "afterClass": {
+        "title": "讓課後討論更有脈絡",
+        "description": "利用標籤與搜尋功能快速回顧討論主題，教師能在課程結束後延伸說明，也能引導學生聚焦在重要觀念上。"
+      }
+    },
+    "benefits": {
+      "title": "打造更持續、更主動的學習參與",
+      "description": "PinChat 為課程建立多個互動觸點，使學習不再局限於課堂時間。學生能更主動參與，教師則能投入更多心力在教學內容本身。",
+      "engagement": {
+        "title": "提升學生參與度與互動動能",
+        "description": "透過即時訊息與跨平台便利性，學生能更自在提出問題，降低溝通障礙並提升整體投入感。"
+      },
+      "responseSpeed": {
+        "title": "加速回應速度並提升課程體驗",
+        "description": "AI 處理基礎性提問，減少教師重複回覆的時間。學生能快速獲取資訊，課程體驗更流暢。"
+      },
+      "community": {
+        "title": "建立更強的課程社群感",
+        "description": "清晰的訊息整理與歷史脈絡讓課程討論更容易持續，學生在課堂之間也能保持交流，提升整體歸屬感與黏著度。"
+      }
+    },
+    "exploreMore": {
+      "title": "探索更多 PinChat 應用方式",
+      "feature1": {
+        "title": "讓 AI 提升教學互動",
+        "subtitle": "自動回應課程資訊與常見疑問，協助教師更快速開啟深度討論。"
+      },
+      "feature2": {
+        "title": "整合所有學習交流",
+        "subtitle": "將 LINE、IG、Messenger、WhatsApp 訊息集中在一個介面，讓教學溝通更連續。"
+      },
+      "feature3": {
+        "title": "課後回饋更容易蒐集",
+        "subtitle": "以聊天式問卷收集學生意見，協助教師優化課程內容與互動設計。"
+      }
+    },
+    "cta": {
+      "title": "讓每一次互動都成為學習的延伸",
+      "button": "開始提升學習互動"
+    }
+  },
   "healthcare": {
     "hero": {
       "breadcrumb": "PinChat 醫療保健產業方案",

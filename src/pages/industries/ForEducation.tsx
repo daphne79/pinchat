@@ -1,109 +1,248 @@
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import { GraduationCap, MessageSquare, Users, BarChart } from "lucide-react";
+import { Check } from "lucide-react";
 import FeatureNavigation from "@/components/FeatureNavigation";
 import Footer from "@/components/Footer";
-import { useTranslationDirect } from '@/hooks/useTranslationDirect';
 import { useLanguageFont } from '@/hooks/useLanguageFont';
+import { useTranslationDirect } from '@/hooks/useTranslationDirect';
 
 const ForEducation = () => {
   const { t } = useTranslationDirect();
   const { fontClass } = useLanguageFont();
+
   return (
-    <div className="min-h-screen bg-background">
+    <div className={`min-h-screen bg-background ${fontClass}`}>
       <FeatureNavigation />
       
-      {/* Hero Section */}
-      <main className="py-16 md:py-24 px-4 sm:px-6 md:px-8 lg:px-12">
-        <div className="container mx-auto">
-          <section className="text-center mb-16">
-            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-[72px] font-bold tracking-wide text-foreground mb-4 leading-normal lg:leading-[1.2]">
-              Connect With Students Inside and Outside the Classroom
-            </h1>
-            <p className="text-base sm:text-lg text-muted-foreground mb-8 max-w-3xl mx-auto">
-              From course inquiries to class discussions and post-class surveys, make learning more interactive and accessible for students and parents.
-            </p>
-            <div className="flex justify-center">
+      <main>
+        {/* Hero Section */}
+        <section className="py-16 md:py-24 px-4 sm:px-6 md:px-8 lg:px-12 bg-background">
+          <div className="container mx-auto">
+            <div className="text-center mb-12">
+              <p className="text-sm font-medium text-muted-foreground mb-4 uppercase tracking-wide">
+                {t('education.hero.breadcrumb')}
+              </p>
+              <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-[72px] font-bold tracking-wide text-foreground mb-6 leading-normal lg:leading-[1.2]">
+                {t('education.hero.title')}
+              </h1>
+              <p className="text-base sm:text-lg text-muted-foreground mb-8 max-w-3xl mx-auto">
+                {t('education.hero.subtitle')}
+              </p>
               <Button size="lg" className="text-base sm:text-lg">
-                Get Started
+                {t('education.hero.cta')}
               </Button>
             </div>
-          </section>
+          
+            {/* Hero Image */}
+            <div className="mt-16 rounded-lg overflow-hidden">
+              <img 
+                src="/lovable-uploads/325ad0e3-2e4d-41f2-bba0-d068115d2b8e.png" 
+                alt="Educational setting with teacher-student chat interface" 
+                className="w-full h-auto"
+              />
+            </div>
+          </div>
+        </section>
 
-          {/* Hero Image */}
-          <section className="mb-16 text-center">
-            <img 
-              src="/lovable-uploads/325ad0e3-2e4d-41f2-bba0-d068115d2b8e.png" 
-              alt="Educational setting with teacher-student chat interface" 
-              className="mx-auto max-w-4xl w-full h-auto"
-            />
-          </section>
+        {/* Why Education Use PinChat */}
+        <section className="py-20 px-4 sm:px-6 md:px-8 lg:px-12 bg-muted/30">
+          <div className="container mx-auto">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[48px] font-bold tracking-wide leading-normal lg:leading-[1.2] text-foreground mb-12 text-center">
+              {t('education.whyUse.title')}
+            </h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-3xl mx-auto">
+            <div className="flex items-start gap-3">
+              <Check className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
+              <p className="text-lg text-foreground">{t('education.whyUse.items.amplifyLearning')}</p>
+            </div>
+            <div className="flex items-start gap-3">
+              <Check className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
+              <p className="text-lg text-foreground">{t('education.whyUse.items.centralizeDiscussions')}</p>
+            </div>
+            <div className="flex items-start gap-3">
+              <Check className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
+              <p className="text-lg text-foreground">{t('education.whyUse.items.aiFirst')}</p>
+            </div>
+            <div className="flex items-start gap-3">
+              <Check className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
+              <p className="text-base sm:text-lg text-foreground">{t('education.whyUse.items.continuousTouchpoints')}</p>
+            </div>
+          </div>
+          </div>
+        </section>
 
-          {/* Key Benefits */}
-          <section className="py-16">
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-              <div className="text-center">
-                <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <MessageSquare className="w-8 h-8 text-primary" />
+        {/* PinChat 在此情境下的使用方式 - Left/Right Layout */}
+        <section className="py-24 bg-background px-4 sm:px-6 md:px-8 lg:px-12">
+          <div className="container mx-auto">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+              <div>
+                <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[48px] font-bold tracking-wide leading-normal lg:leading-[1.2] text-foreground mb-6">
+                  {t('education.usage.title')}
+                </h2>
+                <p className="text-base sm:text-lg text-muted-foreground mb-8">
+                  {t('education.usage.description')}
+                </p>
+                <div className="space-y-6">
+                  <div>
+                    <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-foreground mb-2">{t('education.usage.beforeClass.title')}</h3>
+                    <p className="text-sm sm:text-base text-muted-foreground">
+                      {t('education.usage.beforeClass.description')}
+                    </p>
+                  </div>
+                  <div>
+                    <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-foreground mb-2">{t('education.usage.duringClass.title')}</h3>
+                    <p className="text-sm sm:text-base text-muted-foreground">
+                      {t('education.usage.duringClass.description')}
+                    </p>
+                  </div>
+                  <div>
+                    <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-foreground mb-2">{t('education.usage.afterClass.title')}</h3>
+                    <p className="text-sm sm:text-base text-muted-foreground">
+                      {t('education.usage.afterClass.description')}
+                    </p>
+                  </div>
                 </div>
-                <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-foreground mb-2">Enrollment Questions</h3>
-                <p className="text-sm sm:text-base text-muted-foreground">Handle inquiries about course content, fees, and registration process</p>
               </div>
-              <div className="text-center">
-                <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Users className="w-8 h-8 text-primary" />
-                </div>
-                <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-foreground mb-2">Class Updates</h3>
-                <p className="text-sm sm:text-base text-muted-foreground">Share timetables, schedule changes, and important reminders with students</p>
-              </div>
-              <div className="text-center">
-                <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <BarChart className="w-8 h-8 text-primary" />
-                </div>
-                <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-foreground mb-2">Student Feedback</h3>
-                <p className="text-sm sm:text-base text-muted-foreground">Gather feedback or ratings from students and parents after courses</p>
-              </div>
-              <div className="text-center">
-                <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <GraduationCap className="w-8 h-8 text-primary" />
-                </div>
-                <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-foreground mb-2">Group Discussions</h3>
-                <p className="text-sm sm:text-base text-muted-foreground">Support Q&A and collaborative discussions during class projects</p>
+              <div className="rounded-lg overflow-hidden">
+                <img 
+                  src="/lovable-uploads/325ad0e3-2e4d-41f2-bba0-d068115d2b8e.png" 
+                  alt="Educational communication interface" 
+                  className="w-full h-auto"
+                />
               </div>
             </div>
-          </section>
+          </div>
+        </section>
 
-          {/* Use Cases */}
-          <section className="py-16">
-            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[48px] font-bold tracking-wide leading-normal lg:leading-[1.2] text-center text-foreground mb-12">Perfect For</h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-              <div className="p-6 bg-card rounded-lg border">
-                <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-foreground mb-2">Course Consultation</h3>
-                <p className="text-sm sm:text-base text-muted-foreground">Provide guidance on course selection and academic planning.</p>
+        {/* PinChat 在此情境下帶來的效益 - Right/Left Layout */}
+        <section className="py-24 bg-muted/30 px-4 sm:px-6 md:px-8 lg:px-12">
+          <div className="container mx-auto">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+              <div className="order-2 lg:order-1 rounded-lg overflow-hidden">
+                <img 
+                  src="/lovable-uploads/325ad0e3-2e4d-41f2-bba0-d068115d2b8e.png" 
+                  alt="Student engagement dashboard" 
+                  className="w-full h-auto"
+                />
               </div>
-              <div className="p-6 bg-card rounded-lg border">
-                <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-foreground mb-2">In-Class Discussion</h3>
-                <p className="text-sm sm:text-base text-muted-foreground">Facilitate real-time classroom participation and Q&A sessions.</p>
-              </div>
-              <div className="p-6 bg-card rounded-lg border">
-                <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-foreground mb-2">Post-Class Survey</h3>
-                <p className="text-sm sm:text-base text-muted-foreground">Collect feedback to improve teaching methods and course content.</p>
-              </div>
-              <div className="p-6 bg-card rounded-lg border">
-                <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-foreground mb-2">Administrative Support</h3>
-                <p className="text-sm sm:text-base text-muted-foreground">Handle enrollment, scheduling, and academic administrative queries.</p>
+              <div className="order-1 lg:order-2">
+                <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[48px] font-bold tracking-wide leading-normal lg:leading-[1.2] text-foreground mb-6">
+                  {t('education.benefits.title')}
+                </h2>
+                <p className="text-base sm:text-lg text-muted-foreground mb-8">
+                  {t('education.benefits.description')}
+                </p>
+                <div className="space-y-6">
+                  <div>
+                    <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-foreground mb-2">{t('education.benefits.engagement.title')}</h3>
+                    <p className="text-sm sm:text-base text-muted-foreground">
+                      {t('education.benefits.engagement.description')}
+                    </p>
+                  </div>
+                  <div>
+                    <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-foreground mb-2">{t('education.benefits.responseSpeed.title')}</h3>
+                    <p className="text-sm sm:text-base text-muted-foreground">
+                      {t('education.benefits.responseSpeed.description')}
+                    </p>
+                  </div>
+                  <div>
+                    <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-foreground mb-2">{t('education.benefits.community.title')}</h3>
+                    <p className="text-sm sm:text-base text-muted-foreground">
+                      {t('education.benefits.community.description')}
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
-          </section>
+          </div>
+        </section>
 
-          {/* CTA Section */}
-          <section className="text-center py-16 bg-muted/50 rounded-lg">
-            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[48px] font-bold tracking-wide leading-normal lg:leading-[1.2] text-foreground mb-8">{t('industries.educationPage.cta.title')}</h2>
-            <Button size="lg" className="text-base sm:text-lg">
-              {t('industries.educationPage.cta.button')}
-            </Button>
-          </section>
-        </div>
+        {/* Explore more ways to use PinChat */}
+        <section className="py-24 bg-background px-4 sm:px-6 md:px-8 lg:px-12">
+          <div className="container mx-auto">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[48px] font-bold tracking-wide leading-normal lg:leading-[1.2] text-foreground mb-12 text-center">
+              {t('education.exploreMore.title')}
+            </h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+            <Link 
+              to="/features/ai-pinbot" 
+              className="group rounded-lg overflow-hidden border bg-card hover:shadow-lg transition-all duration-300"
+            >
+              <div className="aspect-video bg-muted overflow-hidden">
+                <img 
+                  src="/lovable-uploads/f4f43fc8-86f7-459a-8ba8-a97d9cc3610d.png" 
+                  alt="AI PinBot" 
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                />
+              </div>
+              <div className="p-6">
+                <h3 className="font-semibold text-foreground text-lg mb-2 group-hover:text-primary transition-colors">
+                  {t('education.exploreMore.feature1.title')}
+                </h3>
+                <p className="text-sm text-muted-foreground">
+                  {t('education.exploreMore.feature1.subtitle')}
+                </p>
+              </div>
+            </Link>
+            
+            <Link 
+              to="/features/chat-widget" 
+              className="group rounded-lg overflow-hidden border bg-card hover:shadow-lg transition-all duration-300"
+            >
+              <div className="aspect-video bg-muted overflow-hidden">
+                <img 
+                  src="/lovable-uploads/f4f43fc8-86f7-459a-8ba8-a97d9cc3610d.png" 
+                  alt="Chat Widget" 
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                />
+              </div>
+              <div className="p-6">
+                <h3 className="font-semibold text-foreground text-lg mb-2 group-hover:text-primary transition-colors">
+                  {t('education.exploreMore.feature2.title')}
+                </h3>
+                <p className="text-sm text-muted-foreground">
+                  {t('education.exploreMore.feature2.subtitle')}
+                </p>
+              </div>
+            </Link>
+            
+            <Link 
+              to="/features/faq-pinbot" 
+              className="group rounded-lg overflow-hidden border bg-card hover:shadow-lg transition-all duration-300"
+            >
+              <div className="aspect-video bg-muted overflow-hidden">
+                <img 
+                  src="/lovable-uploads/f4f43fc8-86f7-459a-8ba8-a97d9cc3610d.png" 
+                  alt="FAQ PinBot" 
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                />
+              </div>
+              <div className="p-6">
+                <h3 className="font-semibold text-foreground text-lg mb-2 group-hover:text-primary transition-colors">
+                  {t('education.exploreMore.feature3.title')}
+                </h3>
+                <p className="text-sm text-muted-foreground">
+                  {t('education.exploreMore.feature3.subtitle')}
+                </p>
+              </div>
+            </Link>
+          </div>
+          </div>
+        </section>
+
+        {/* Final CTA */}
+        <section className="bg-primary/10 py-20 px-4 sm:px-6 md:px-8 lg:px-12">
+          <div className="container mx-auto">
+            <div className="max-w-4xl mx-auto rounded-2xl bg-card border p-12 text-center">
+              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[48px] font-bold tracking-wide leading-normal lg:leading-[1.2] text-foreground mb-8">
+                {t('education.cta.title')}
+              </h2>
+              <Button size="lg" className="text-base sm:text-lg">
+                {t('education.cta.button')}
+              </Button>
+            </div>
+          </div>
+        </section>
       </main>
       <Footer />
     </div>
