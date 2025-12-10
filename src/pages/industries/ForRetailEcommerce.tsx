@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import { MessageSquare, Calendar, Star, Heart, Check, ShoppingCart, TrendingUp, Users } from "lucide-react";
+import { Check } from "lucide-react";
 import FeatureNavigation from "@/components/FeatureNavigation";
 import Footer from "@/components/Footer";
 import { useLanguageFont } from '@/hooks/useLanguageFont';
@@ -16,7 +16,7 @@ const ForRetailEcommerce = () => {
       
       <main>
         {/* Hero Section */}
-        <section className="py-16 md:py-24 px-4 sm:px-6 md:px-8 lg:px-12">
+        <section className="py-16 md:py-24 px-4 sm:px-6 md:px-8 lg:px-12 bg-background">
           <div className="container mx-auto">
             <div className="text-center mb-12">
               <p className="text-sm font-medium text-muted-foreground mb-4 uppercase tracking-wide">
@@ -45,7 +45,7 @@ const ForRetailEcommerce = () => {
         </section>
 
         {/* Why Retail teams use PinChat */}
-        <section className="py-20 px-4 sm:px-6 md:px-8 lg:px-12">
+        <section className="py-20 px-4 sm:px-6 md:px-8 lg:px-12 bg-muted/30">
           <div className="container mx-auto">
             <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[48px] font-bold tracking-wide leading-normal lg:leading-[1.2] text-foreground mb-12 text-center">
               {t('retailEcommerce.whyUse.title')}
@@ -72,7 +72,7 @@ const ForRetailEcommerce = () => {
         </section>
 
         {/* Plan your customer engagement - Left/Right Layout */}
-        <section className="py-20 bg-muted/30 px-4 sm:px-6 md:px-8 lg:px-12">
+        <section className="py-24 bg-background px-4 sm:px-6 md:px-8 lg:px-12">
           <div className="container mx-auto">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div>
@@ -114,55 +114,8 @@ const ForRetailEcommerce = () => {
           </div>
         </section>
 
-        {/* Features Section */}
-        <section className="py-20 px-4 sm:px-6 md:px-8 lg:px-12">
-          <div className="container mx-auto">
-            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[48px] font-bold tracking-wide leading-normal lg:leading-[1.2] text-foreground mb-12 text-center">
-              {t('retailEcommerce.features.title')}
-            </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            <div>
-              <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
-                <MessageSquare className="w-6 h-6 text-primary" />
-              </div>
-              <h3 className="font-semibold text-foreground mb-2">{t('retailEcommerce.features.productInquiries.title')}</h3>
-              <p className="text-sm text-muted-foreground">
-                {t('retailEcommerce.features.productInquiries.description')}
-              </p>
-            </div>
-            <div>
-              <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
-                <Calendar className="w-6 h-6 text-primary" />
-              </div>
-              <h3 className="font-semibold text-foreground mb-2">{t('retailEcommerce.features.orderTracking.title')}</h3>
-              <p className="text-sm text-muted-foreground">
-                {t('retailEcommerce.features.orderTracking.description')}
-              </p>
-            </div>
-            <div>
-              <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
-                <Star className="w-6 h-6 text-primary" />
-              </div>
-              <h3 className="font-semibold text-foreground mb-2">{t('retailEcommerce.features.campaigns.title')}</h3>
-              <p className="text-sm text-muted-foreground">
-                {t('retailEcommerce.features.campaigns.description')}
-              </p>
-            </div>
-            <div>
-              <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
-                <Heart className="w-6 h-6 text-primary" />
-              </div>
-              <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-foreground mb-2">{t('retailEcommerce.features.loyalty.title')}</h3>
-              <p className="text-sm sm:text-base text-muted-foreground">
-                {t('retailEcommerce.features.loyalty.description')}
-              </p>
-            </div>
-          </div>
-          </div>
-        </section>
-
         {/* Don't let communication slow down sales - Right/Left Layout */}
-        <section className="py-20 bg-muted/30 px-4 sm:px-6 md:px-8 lg:px-12">
+        <section className="py-24 bg-muted/30 px-4 sm:px-6 md:px-8 lg:px-12">
           <div className="container mx-auto">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div className="order-2 lg:order-1 rounded-lg overflow-hidden">
@@ -211,7 +164,7 @@ const ForRetailEcommerce = () => {
         </section>
 
         {/* Explore more ways to use PinChat */}
-        <section className="py-20 px-4 sm:px-6 md:px-8 lg:px-12">
+        <section className="py-24 bg-background px-4 sm:px-6 md:px-8 lg:px-12">
           <div className="container mx-auto">
             <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[48px] font-bold tracking-wide leading-normal lg:leading-[1.2] text-foreground mb-12 text-center">
               {t('retailEcommerce.exploreMore.title')}
@@ -284,7 +237,7 @@ const ForRetailEcommerce = () => {
         </section>
 
         {/* Final CTA */}
-        <section className="bg-primary/5 py-16 px-4 sm:px-6 md:px-8 lg:px-12">
+        <section className="bg-primary/10 py-20 px-4 sm:px-6 md:px-8 lg:px-12">
           <div className="container mx-auto">
             <div className="max-w-4xl mx-auto rounded-2xl bg-card border p-12 text-center">
               <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[48px] font-bold tracking-wide leading-normal lg:leading-[1.2] text-foreground mb-8">
