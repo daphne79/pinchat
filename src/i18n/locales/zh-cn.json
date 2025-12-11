@@ -886,9 +886,86 @@
   }
 },
 "chatroomTeamManagementPage": {
+  "hero": {
+    "breadcrumb": "PinChat 团队沟通分工解决方案",
+    "title": "强化团队协作流程",
+    "subtitle": "以标签、资料夹与权限管理，打造清晰有序的客服协作流程。无论是分工、分类或跨部门协作，都能在单一介面中高效完成，让每位成员更快找到关键对话并专注处理客户需求。",
+    "cta": "开始提升团队效率"
+  },
+  "challenges": {
+    "title": "团队沟通分工的挑战",
+    "items": {
+      "hardToFind": "对话量大时难以快速找到重要讯息",
+      "collaborationChaos": "跨部门或多人协作流程容易混乱",
+      "lackConsistentWorkflow": "讯息与任务缺乏一致的分工方式",
+      "noPermissionControl": "无法有效控管不同成员的操作权限"
+    }
+  },
+  "howPinChatHelps": {
+    "title": "PinChat 如何协助",
+    "description": "PinChat 透过标签、资料夹与权限管理，协助团队以一致的方式整理对话与分配工作。每位成员都能快速找到相关讯息，确保协作流畅不脱节，并维持客服流程的效率与品质。",
+    "unifiedTags": {
+      "title": "使用标签统一分类对话",
+      "description": "以标签管理不同客群、询问内容或案件阶段，让成员能以一致分类方式快速定位对话，降低遗漏或重复处理的风险，维持稳定且清晰的协作流程。"
+    },
+    "folderOrganization": {
+      "title": "以资料夹组织不同任务流程",
+      "description": "透过资料夹整理各类对话，例如销售线索、客服案件或专案沟通，使团队能以更直觉的方式维护工作进度，并快速检视重要讯息。"
+    },
+    "rolePermissions": {
+      "title": "角色与权限确保资讯安全",
+      "description": "透过子帐号与权限控管，限制成员可存取的功能与资料，维持清楚职责分工，同时降低敏感资讯外流或误操作的风险。"
+    }
+  },
+  "benefits": {
+    "title": "使用 PinChat 的效益",
+    "description": "PinChat 协助团队建立一致的对话管理方式，从分类、搜寻到协作流程都更具效率。透过清楚分工与更快的资讯取得，使团队能将更多时间投入真正重要的客户沟通与服务品质。",
+    "improveCollaboration": {
+      "title": "提升团队协作效率",
+      "description": "所有讯息都有结构化分类，让团队接手与协作更顺畅。"
+    },
+    "reduceMissedRepeats": {
+      "title": "降低遗漏与重复处理",
+      "description": "分类明确、搜寻快速，确保关键对话不被忽略。"
+    },
+    "scalableWorkflow": {
+      "title": "建立可扩张的客服流程",
+      "description": "适合从小团队到成长型组织采用，维持稳定作业品质。"
+    }
+  },
+  "recommendedFeatures": {
+    "title": "推荐相关功能",
+    "teamPermissions": {
+      "title": "团队权限管理",
+      "description": "以角色与权限控管管理团队成员操作范围，维持清楚分工与资讯安全。"
+    },
+    "tagsFolders": {
+      "title": "标签与资料夹整理",
+      "description": "用标签与资料夹快速分类对话，提高搜寻速度并减少协作混乱。"
+    },
+    "customerServiceLoad": {
+      "title": "掌握客服负载",
+      "description": "查看对话量与来源变化，做出更精准的团队调度与资源分配。"
+    }
+  },
+  "exploreUseCases": {
+    "title": "探索其他使用情境",
+    "streamlineService": {
+      "title": "精简客服流程",
+      "description": "以 AI 自动回复常见问题，减少团队负担并加速处理速度。"
+    },
+    "unifiedMessages": {
+      "title": "统一多平台讯息",
+      "description": "整合 LINE、IG、Messenger、WhatsApp，减少切换、集中协作。"
+    },
+    "analyzeFeedback": {
+      "title": "分析反馈优化服务",
+      "description": "以数据找出常见问题与改善方向，强化整体服务体验。"
+    }
+  },
   "cta": {
-    "title": "让您的团队更有组织",
-    "button": "整理我的聊天"
+    "title": "开始打造高效协作流程",
+    "button": "立即免费试用"
   }
 },
 "customerFeedbackAnalyticsPage": {

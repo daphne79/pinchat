@@ -868,9 +868,86 @@
       }
     },
     "chatroomTeamManagementPage": {
+      "hero": {
+        "breadcrumb": "PinChat 團隊溝通分工解決方案",
+        "title": "強化團隊協作流程",
+        "subtitle": "以標籤、資料夾與權限管理，打造清晰有序的客服協作流程。無論是分工、分類或跨部門協作，都能在單一介面中高效完成，讓每位成員更快找到關鍵對話並專注處理客戶需求。",
+        "cta": "開始提升團隊效率"
+      },
+      "challenges": {
+        "title": "團隊溝通分工的挑戰",
+        "items": {
+          "hardToFind": "對話量大時難以快速找到重要訊息",
+          "collaborationChaos": "跨部門或多人協作流程容易混亂",
+          "lackConsistentWorkflow": "訊息與任務缺乏一致的分工方式",
+          "noPermissionControl": "無法有效控管不同成員的操作權限"
+        }
+      },
+      "howPinChatHelps": {
+        "title": "PinChat 如何協助",
+        "description": "PinChat 透過標籤、資料夾與權限管理，協助團隊以一致的方式整理對話與分配工作。每位成員都能快速找到相關訊息，確保協作流暢不脫節，並維持客服流程的效率與品質。",
+        "unifiedTags": {
+          "title": "使用標籤統一分類對話",
+          "description": "以標籤管理不同客群、詢問內容或案件階段，讓成員能以一致分類方式快速定位對話，降低遺漏或重複處理的風險，維持穩定且清晰的協作流程。"
+        },
+        "folderOrganization": {
+          "title": "以資料夾組織不同任務流程",
+          "description": "透過資料夾整理各類對話，例如銷售線索、客服案件或專案溝通，使團隊能以更直覺的方式維護工作進度，並快速檢視重要訊息。"
+        },
+        "rolePermissions": {
+          "title": "角色與權限確保資訊安全",
+          "description": "透過子帳號與權限控管，限制成員可存取的功能與資料，維持清楚職責分工，同時降低敏感資訊外流或誤操作的風險。"
+        }
+      },
+      "benefits": {
+        "title": "使用 PinChat 的效益",
+        "description": "PinChat 協助團隊建立一致的對話管理方式，從分類、搜尋到協作流程都更具效率。透過清楚分工與更快的資訊取得，使團隊能將更多時間投入真正重要的客戶溝通與服務品質。",
+        "improveCollaboration": {
+          "title": "提升團隊協作效率",
+          "description": "所有訊息都有結構化分類，讓團隊接手與協作更順暢。"
+        },
+        "reduceMissedRepeats": {
+          "title": "降低遺漏與重複處理",
+          "description": "分類明確、搜尋快速，確保關鍵對話不被忽略。"
+        },
+        "scalableWorkflow": {
+          "title": "建立可擴張的客服流程",
+          "description": "適合從小團隊到成長型組織採用，維持穩定作業品質。"
+        }
+      },
+      "recommendedFeatures": {
+        "title": "推薦相關功能",
+        "teamPermissions": {
+          "title": "團隊權限管理",
+          "description": "以角色與權限控管管理團隊成員操作範圍，維持清楚分工與資訊安全。"
+        },
+        "tagsFolders": {
+          "title": "標籤與資料夾整理",
+          "description": "用標籤與資料夾快速分類對話，提高搜尋速度並減少協作混亂。"
+        },
+        "customerServiceLoad": {
+          "title": "掌握客服負載",
+          "description": "查看對話量與來源變化，做出更精準的團隊調度與資源分配。"
+        }
+      },
+      "exploreUseCases": {
+        "title": "探索其他使用情境",
+        "streamlineService": {
+          "title": "精簡客服流程",
+          "description": "以 AI 自動回覆常見問題，減少團隊負擔並加速處理速度。"
+        },
+        "unifiedMessages": {
+          "title": "統一多平台訊息",
+          "description": "整合 LINE、IG、Messenger、WhatsApp，減少切換、集中協作。"
+        },
+        "analyzeFeedback": {
+          "title": "分析回饋優化服務",
+          "description": "以數據找出常見問題與改善方向，強化整體服務體驗。"
+        }
+      },
       "cta": {
-        "title": "讓您的團隊更有組織",
-        "button": "整理我的聊天"
+        "title": "開始打造高效協作流程",
+        "button": "立即免費試用"
       }
     },
     "customerFeedbackAnalyticsPage": {

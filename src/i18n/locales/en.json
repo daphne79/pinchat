@@ -868,9 +868,86 @@
       }
     },
     "chatroomTeamManagementPage": {
+      "hero": {
+        "breadcrumb": "PinChat Team Communication & Workflow Solution",
+        "title": "Enhance Team Collaboration Workflow",
+        "subtitle": "Create a clear and organized customer service collaboration process through tags, folders, and permission management. Whether it's task distribution, categorization, or cross-department collaboration, everything can be efficiently completed in a single interface, enabling each member to quickly find key conversations and focus on handling customer needs.",
+        "cta": "Start Improving Team Efficiency"
+      },
+      "challenges": {
+        "title": "Challenges of Team Communication & Workflow",
+        "items": {
+          "hardToFind": "Difficult to quickly find important messages when conversation volume is high",
+          "collaborationChaos": "Cross-department or multi-person collaboration workflows are prone to chaos",
+          "lackConsistentWorkflow": "Messages and tasks lack consistent workflow methods",
+          "noPermissionControl": "Unable to effectively control operation permissions for different members"
+        }
+      },
+      "howPinChatHelps": {
+        "title": "How PinChat Helps",
+        "description": "PinChat helps teams organize conversations and assign work consistently through tags, folders, and permission management. Every member can quickly find relevant messages, ensuring smooth collaboration without gaps, and maintaining the efficiency and quality of customer service processes.",
+        "unifiedTags": {
+          "title": "Use Tags to Unify Conversation Categories",
+          "description": "Manage different customer groups, inquiry types, or case stages with tags, enabling members to quickly locate conversations through consistent categorization, reducing the risk of missed or duplicate processing, and maintaining a stable and clear collaboration workflow."
+        },
+        "folderOrganization": {
+          "title": "Organize Different Task Workflows with Folders",
+          "description": "Organize various conversations through folders, such as sales leads, customer service cases, or project communications, enabling teams to maintain work progress more intuitively and quickly review important messages."
+        },
+        "rolePermissions": {
+          "title": "Roles and Permissions Ensure Information Security",
+          "description": "Through sub-accounts and permission controls, limit the functions and data that members can access, maintain clear role division, while reducing the risk of sensitive information leakage or misoperation."
+        }
+      },
+      "benefits": {
+        "title": "Benefits of Using PinChat",
+        "description": "PinChat helps teams establish consistent conversation management methods, making categorization, search, and collaboration workflows more efficient. Through clear task division and faster information access, teams can invest more time in truly important customer communication and service quality.",
+        "improveCollaboration": {
+          "title": "Improve Team Collaboration Efficiency",
+          "description": "All messages have structured categorization, making team handoffs and collaboration smoother."
+        },
+        "reduceMissedRepeats": {
+          "title": "Reduce Missed and Duplicate Processing",
+          "description": "Clear categorization and fast search ensure key conversations are not overlooked."
+        },
+        "scalableWorkflow": {
+          "title": "Build Scalable Customer Service Workflows",
+          "description": "Suitable for adoption from small teams to growing organizations, maintaining stable operational quality."
+        }
+      },
+      "recommendedFeatures": {
+        "title": "Recommended Related Features",
+        "teamPermissions": {
+          "title": "Team Permission Management",
+          "description": "Manage team member operation scope through roles and permission controls, maintaining clear task division and information security."
+        },
+        "tagsFolders": {
+          "title": "Tags and Folder Organization",
+          "description": "Quickly categorize conversations with tags and folders, improving search speed and reducing collaboration chaos."
+        },
+        "customerServiceLoad": {
+          "title": "Monitor Customer Service Load",
+          "description": "View conversation volume and source changes to make more precise team scheduling and resource allocation."
+        }
+      },
+      "exploreUseCases": {
+        "title": "Explore Other Use Cases",
+        "streamlineService": {
+          "title": "Streamline Customer Service Process",
+          "description": "Use AI to automatically reply to common questions, reducing team burden and accelerating processing speed."
+        },
+        "unifiedMessages": {
+          "title": "Unify Multi-Platform Messages",
+          "description": "Integrate LINE, IG, Messenger, WhatsApp to reduce switching and centralize collaboration."
+        },
+        "analyzeFeedback": {
+          "title": "Analyze Feedback to Optimize Service",
+          "description": "Use data to identify common issues and improvement directions, strengthening overall service experience."
+        }
+      },
       "cta": {
-        "title": "Get Your Team Organized",
-        "button": "Organize My Chats"
+        "title": "Start Building Efficient Collaboration Workflows",
+        "button": "Start Free Trial Now"
       }
     },
     "customerFeedbackAnalyticsPage": {
