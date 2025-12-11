@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import { MessageSquare, Inbox, Users, Zap } from "lucide-react";
+import { AlertCircle, Bot, FolderTree, Inbox, MessageSquare, Search, Zap } from "lucide-react";
 import FeatureNavigation from "@/components/FeatureNavigation";
 import Footer from "@/components/Footer";
 import { useTranslationDirect } from '@/hooks/useTranslationDirect';
@@ -10,100 +10,283 @@ const MultichannelMessagingHub = () => {
   const { t } = useTranslationDirect();
   const { fontClass } = useLanguageFont();
   return (
-    <div className="min-h-screen bg-background">
+    <div className={`min-h-screen bg-background ${fontClass}`}>
       <FeatureNavigation />
       
-      {/* Hero Section */}
-      <main className="py-16 md:py-24 px-4 sm:px-6 md:px-8 lg:px-12">
-        <div className="container mx-auto">
-          <section className="text-center mb-16">
-            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-[72px] font-bold tracking-wide text-foreground mb-4 leading-normal lg:leading-[1.2]">
-              Manage All Messages in One Place
-            </h1>
-            <p className="text-base sm:text-lg text-muted-foreground mb-8 max-w-3xl mx-auto">
-              Connect LINE, Messenger, WhatsApp, and your website into a single inbox.
-            </p>
-            <div className="flex justify-center">
+      <main>
+        {/* Hero Section */}
+        <section className="py-16 md:py-24 px-4 sm:px-6 md:px-8 lg:px-12 bg-background">
+          <div className="container mx-auto">
+            <div className="text-center mb-12">
+              <p className="text-sm font-medium text-muted-foreground mb-4 uppercase tracking-wide">
+                {t('solutions.multichannelMessagingPage.hero.breadcrumb')}
+              </p>
+              <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-[72px] font-bold tracking-wide text-foreground mb-6 leading-normal lg:leading-[1.2]">
+                {t('solutions.multichannelMessagingPage.hero.title')}
+              </h1>
+              <p className="text-base sm:text-lg text-muted-foreground mb-8 max-w-3xl mx-auto">
+                {t('solutions.multichannelMessagingPage.hero.subtitle')}
+              </p>
               <Button size="lg" className="text-base sm:text-lg">
-                Get Started
+                {t('solutions.multichannelMessagingPage.hero.cta')}
               </Button>
             </div>
-          </section>
+          
+            {/* Hero Image */}
+            <div className="mt-16 rounded-lg overflow-hidden">
+              <img 
+                src="/lovable-uploads/a61b9a5a-7234-4e21-b05a-03750511fa6b.png" 
+                alt="Multi-channel messaging dashboard interface" 
+                className="w-full h-auto"
+              />
+            </div>
+          </div>
+        </section>
 
-          {/* Hero Image */}
-          <section className="mb-16 text-center">
-            <img 
-              src="/lovable-uploads/a61b9a5a-7234-4e21-b05a-03750511fa6b.png" 
-              alt="Multi-channel messaging dashboard interface" 
-              className="mx-auto max-w-4xl w-full h-auto"
-            />
-          </section>
-
-          {/* Key Benefits */}
-          <section className="py-16">
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-              <div className="text-center">
-                <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Inbox className="w-8 h-8 text-primary" />
-                </div>
-                <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-foreground mb-2">Unified Inbox</h3>
-                <p className="text-sm sm:text-base text-muted-foreground">All channels in one place for easy management</p>
+        {/* Section 1: 挑戰 */}
+        <section className="py-20 px-4 sm:px-6 md:px-8 lg:px-12 bg-muted/30">
+          <div className="container mx-auto">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[48px] font-bold tracking-wide leading-normal lg:leading-[1.2] text-foreground mb-12 text-center">
+              {t('solutions.multichannelMessagingPage.challenges.title')}
+            </h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-3xl mx-auto">
+              <div className="flex items-start gap-3">
+                <AlertCircle className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
+                <p className="text-lg text-foreground">{t('solutions.multichannelMessagingPage.challenges.items.dispersed')}</p>
               </div>
-              <div className="text-center">
-                <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Zap className="w-8 h-8 text-primary" />
-                </div>
-                <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-foreground mb-2">Faster Replies</h3>
-                <p className="text-sm sm:text-base text-muted-foreground">No platform switching, respond instantly</p>
+              <div className="flex items-start gap-3">
+                <AlertCircle className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
+                <p className="text-lg text-foreground">{t('solutions.multichannelMessagingPage.challenges.items.efficiency')}</p>
               </div>
-              <div className="text-center">
-                <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <MessageSquare className="w-8 h-8 text-primary" />
-                </div>
-                <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-foreground mb-2">Consistent Experience</h3>
-                <p className="text-sm sm:text-base text-muted-foreground">Same quality service across all channels</p>
+              <div className="flex items-start gap-3">
+                <AlertCircle className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
+                <p className="text-lg text-foreground">{t('solutions.multichannelMessagingPage.challenges.items.context')}</p>
               </div>
-              <div className="text-center">
-                <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Users className="w-8 h-8 text-primary" />
-                </div>
-                <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-foreground mb-2">Multi-user Access</h3>
-                <p className="text-sm sm:text-base text-muted-foreground">Team collaboration with sub-account management</p>
+              <div className="flex items-start gap-3">
+                <AlertCircle className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
+                <p className="text-base sm:text-lg text-foreground">{t('solutions.multichannelMessagingPage.challenges.items.consistency')}</p>
               </div>
             </div>
-          </section>
+          </div>
+        </section>
 
-          {/* Usage Scenarios */}
-          <section className="py-16">
-            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[48px] font-bold tracking-wide leading-normal lg:leading-[1.2] text-center text-foreground mb-12">Perfect For</h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-              <div className="p-6 bg-card rounded-lg border">
-                <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-foreground mb-2">Small Business Daily Operations</h3>
-                <p className="text-sm sm:text-base text-muted-foreground">Small business answering messages from multiple platforms daily.</p>
+        {/* Section 2: PinChat 如何協助 */}
+        <section className="py-24 bg-background px-4 sm:px-6 md:px-8 lg:px-12">
+          <div className="container mx-auto">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+              <div>
+                <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[48px] font-bold tracking-wide leading-normal lg:leading-[1.2] text-foreground mb-6">
+                  {t('solutions.multichannelMessagingPage.howPinChatHelps.title')}
+                </h2>
+                <p className="text-base sm:text-lg text-muted-foreground mb-8">
+                  {t('solutions.multichannelMessagingPage.howPinChatHelps.description')}
+                </p>
+                <div className="space-y-6">
+                  <div>
+                    <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-foreground mb-2">
+                      {t('solutions.multichannelMessagingPage.howPinChatHelps.integrateAll.title')}
+                    </h3>
+                    <p className="text-sm sm:text-base text-muted-foreground">
+                      {t('solutions.multichannelMessagingPage.howPinChatHelps.integrateAll.description')}
+                    </p>
+                  </div>
+                  <div>
+                    <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-foreground mb-2">
+                      {t('solutions.multichannelMessagingPage.howPinChatHelps.improveEfficiency.title')}
+                    </h3>
+                    <p className="text-sm sm:text-base text-muted-foreground">
+                      {t('solutions.multichannelMessagingPage.howPinChatHelps.improveEfficiency.description')}
+                    </p>
+                  </div>
+                  <div>
+                    <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-foreground mb-2">
+                      {t('solutions.multichannelMessagingPage.howPinChatHelps.smartReply.title')}
+                    </h3>
+                    <p className="text-sm sm:text-base text-muted-foreground">
+                      {t('solutions.multichannelMessagingPage.howPinChatHelps.smartReply.description')}
+                    </p>
+                  </div>
+                </div>
               </div>
-              <div className="p-6 bg-card rounded-lg border">
-                <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-foreground mb-2">E-commerce Customer Service</h3>
-                <p className="text-sm sm:text-base text-muted-foreground">E-commerce store handling pre-sales and after-sales chats.</p>
-              </div>
-              <div className="p-6 bg-card rounded-lg border">
-                <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-foreground mb-2">Event & Campaign Support</h3>
-                <p className="text-sm sm:text-base text-muted-foreground">Event or campaign live Q&A.</p>
-              </div>
-              <div className="p-6 bg-card rounded-lg border">
-                <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-foreground mb-2">Social Media Campaigns</h3>
-                <p className="text-sm sm:text-base text-muted-foreground">Social media promotion replies and inquiries.</p>
+              <div className="rounded-lg overflow-hidden">
+                <img 
+                  src="/lovable-uploads/a61b9a5a-7234-4e21-b05a-03750511fa6b.png" 
+                  alt="PinChat multichannel messaging solution" 
+                  className="w-full h-auto"
+                />
               </div>
             </div>
-          </section>
+          </div>
+        </section>
 
-          {/* CTA Section */}
-          <section className="text-center py-16 bg-muted/50 rounded-lg">
-            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[48px] font-bold tracking-wide leading-normal lg:leading-[1.2] text-foreground mb-8">{t('solutions.multichannelMessagingPage.cta.title')}</h2>
-            <Button size="lg" className="text-base sm:text-lg">
-              {t('solutions.multichannelMessagingPage.cta.button')}
-            </Button>
-          </section>
-        </div>
+        {/* Section 3: 使用 PinChat 的效益 */}
+        <section className="py-24 bg-muted/30 px-4 sm:px-6 md:px-8 lg:px-12">
+          <div className="container mx-auto">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+              <div className="order-2 lg:order-1 rounded-lg overflow-hidden">
+                <img 
+                  src="/lovable-uploads/a61b9a5a-7234-4e21-b05a-03750511fa6b.png" 
+                  alt="PinChat benefits dashboard" 
+                  className="w-full h-auto"
+                />
+              </div>
+              <div className="order-1 lg:order-2">
+                <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[48px] font-bold tracking-wide leading-normal lg:leading-[1.2] text-foreground mb-6">
+                  {t('solutions.multichannelMessagingPage.benefits.title')}
+                </h2>
+                <p className="text-base sm:text-lg text-muted-foreground mb-8">
+                  {t('solutions.multichannelMessagingPage.benefits.description')}
+                </p>
+                <div className="space-y-6">
+                  <div>
+                    <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-foreground mb-2">
+                      {t('solutions.multichannelMessagingPage.benefits.reduceGaps.title')}
+                    </h3>
+                    <p className="text-sm sm:text-base text-muted-foreground">
+                      {t('solutions.multichannelMessagingPage.benefits.reduceGaps.description')}
+                    </p>
+                  </div>
+                  <div>
+                    <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-foreground mb-2">
+                      {t('solutions.multichannelMessagingPage.benefits.reduceTime.title')}
+                    </h3>
+                    <p className="text-sm sm:text-base text-muted-foreground">
+                      {t('solutions.multichannelMessagingPage.benefits.reduceTime.description')}
+                    </p>
+                  </div>
+                  <div>
+                    <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-foreground mb-2">
+                      {t('solutions.multichannelMessagingPage.benefits.consistentBrand.title')}
+                    </h3>
+                    <p className="text-sm sm:text-base text-muted-foreground">
+                      {t('solutions.multichannelMessagingPage.benefits.consistentBrand.description')}
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* 推薦相關功能 */}
+        <section className="py-24 bg-background px-4 sm:px-6 md:px-8 lg:px-12">
+          <div className="container mx-auto">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[48px] font-bold tracking-wide leading-normal lg:leading-[1.2] text-foreground mb-12 text-center">
+              {t('solutions.multichannelMessagingPage.recommendedFeatures.title')}
+            </h2>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+              <div className="p-6 bg-card rounded-lg border">
+                <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mb-4">
+                  <Bot className="w-6 h-6 text-primary" />
+                </div>
+                <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-foreground mb-2">
+                  {t('solutions.multichannelMessagingPage.recommendedFeatures.aiBot.title')}
+                </h3>
+                <p className="text-sm sm:text-base text-muted-foreground">
+                  {t('solutions.multichannelMessagingPage.recommendedFeatures.aiBot.description')}
+                </p>
+              </div>
+              <div className="p-6 bg-card rounded-lg border">
+                <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mb-4">
+                  <MessageSquare className="w-6 h-6 text-primary" />
+                </div>
+                <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-foreground mb-2">
+                  {t('solutions.multichannelMessagingPage.recommendedFeatures.websiteChat.title')}
+                </h3>
+                <p className="text-sm sm:text-base text-muted-foreground">
+                  {t('solutions.multichannelMessagingPage.recommendedFeatures.websiteChat.description')}
+                </p>
+              </div>
+              <div className="p-6 bg-card rounded-lg border">
+                <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mb-4">
+                  <FolderTree className="w-6 h-6 text-primary" />
+                </div>
+                <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-foreground mb-2">
+                  {t('solutions.multichannelMessagingPage.recommendedFeatures.chatroomManagement.title')}
+                </h3>
+                <p className="text-sm sm:text-base text-muted-foreground">
+                  {t('solutions.multichannelMessagingPage.recommendedFeatures.chatroomManagement.description')}
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* 探索其他使用情境 */}
+        <section className="py-24 bg-background px-4 sm:px-6 md:px-8 lg:px-12">
+          <div className="container mx-auto">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[48px] font-bold tracking-wide leading-normal lg:leading-[1.2] text-foreground mb-12 text-center">
+              {t('solutions.multichannelMessagingPage.exploreUseCases.title')}
+            </h2>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+              <div className="group rounded-lg overflow-hidden border bg-card hover:shadow-lg transition-all duration-300">
+                <div className="aspect-video bg-muted overflow-hidden">
+                  <img 
+                    src="/lovable-uploads/f4f43fc8-86f7-459a-8ba8-a97d9cc3610d.png" 
+                    alt={t('solutions.multichannelMessagingPage.exploreUseCases.customerAutomation.title')}
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                  />
+                </div>
+                <div className="p-6">
+                  <h3 className="font-semibold text-foreground text-lg mb-2 group-hover:text-primary transition-colors">
+                    {t('solutions.multichannelMessagingPage.exploreUseCases.customerAutomation.title')}
+                  </h3>
+                  <p className="text-sm text-muted-foreground">
+                    {t('solutions.multichannelMessagingPage.exploreUseCases.customerAutomation.description')}
+                  </p>
+                </div>
+              </div>
+              <div className="group rounded-lg overflow-hidden border bg-card hover:shadow-lg transition-all duration-300">
+                <div className="aspect-video bg-muted overflow-hidden">
+                  <img 
+                    src="/lovable-uploads/f4f43fc8-86f7-459a-8ba8-a97d9cc3610d.png" 
+                    alt={t('solutions.multichannelMessagingPage.exploreUseCases.leadCapture.title')}
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                  />
+                </div>
+                <div className="p-6">
+                  <h3 className="font-semibold text-foreground text-lg mb-2 group-hover:text-primary transition-colors">
+                    {t('solutions.multichannelMessagingPage.exploreUseCases.leadCapture.title')}
+                  </h3>
+                  <p className="text-sm text-muted-foreground">
+                    {t('solutions.multichannelMessagingPage.exploreUseCases.leadCapture.description')}
+                  </p>
+                </div>
+              </div>
+              <div className="group rounded-lg overflow-hidden border bg-card hover:shadow-lg transition-all duration-300">
+                <div className="aspect-video bg-muted overflow-hidden">
+                  <img 
+                    src="/lovable-uploads/f4f43fc8-86f7-459a-8ba8-a97d9cc3610d.png" 
+                    alt={t('solutions.multichannelMessagingPage.exploreUseCases.teamCollaboration.title')}
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                  />
+                </div>
+                <div className="p-6">
+                  <h3 className="font-semibold text-foreground text-lg mb-2 group-hover:text-primary transition-colors">
+                    {t('solutions.multichannelMessagingPage.exploreUseCases.teamCollaboration.title')}
+                  </h3>
+                  <p className="text-sm text-muted-foreground">
+                    {t('solutions.multichannelMessagingPage.exploreUseCases.teamCollaboration.description')}
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Final CTA */}
+        <section className="bg-primary/10 py-20 px-4 sm:px-6 md:px-8 lg:px-12">
+          <div className="container mx-auto">
+            <div className="max-w-4xl mx-auto rounded-2xl bg-card border p-12 text-center">
+              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[48px] font-bold tracking-wide leading-normal lg:leading-[1.2] text-foreground mb-8">
+                {t('solutions.multichannelMessagingPage.cta.title')}
+              </h2>
+              <Button size="lg" className="text-base sm:text-lg">
+                {t('solutions.multichannelMessagingPage.cta.button')}
+              </Button>
+            </div>
+          </div>
+        </section>
       </main>
       <Footer />
     </div>

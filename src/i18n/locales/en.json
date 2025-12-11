@@ -886,9 +886,86 @@
       }
     },
     "multichannelMessagingPage": {
+      "hero": {
+        "breadcrumb": "PinChat Multichannel Messaging Management Solution",
+        "title": "Centralize All Cross-Platform Messages",
+        "subtitle": "Scattered multichannel messages make tracking difficult and responses delayed. PinChat consolidates all conversations into a single interface, helping teams respond faster, maintain consistent service quality, and significantly improve customer service efficiency and customer experience.",
+        "cta": "Start Integrating Messages"
+      },
+      "challenges": {
+        "title": "Challenges in Cross-Platform Message Management",
+        "items": {
+          "dispersed": "Messages come from diverse and scattered sources",
+          "efficiency": "Platform switching reduces efficiency",
+          "context": "Conversation context is difficult to fully grasp",
+          "consistency": "Service quality is hard to maintain consistently"
+        }
+      },
+      "howPinChatHelps": {
+        "title": "Integrate All Messages in One Interface",
+        "description": "PinChat centralizes all messages from social media and websites, effectively organizing conversations through tags, folders, and search functions. Smart replies can handle common questions, allowing customer service to focus on interactions that require human communication.",
+        "integrateAll": {
+          "title": "Integrate All Social Media and Website Messages",
+          "description": "Centralize all social media and website conversations into a unified inbox, enabling customer service to quickly view and process messages, reducing the burden of cross-platform switching and making overall workflows smoother."
+        },
+        "improveEfficiency": {
+          "title": "Improve Customer Service Response Efficiency with Tools",
+          "description": "Use tags, folders, and search functions to organize large volumes of conversations, enabling teams to quickly find important messages and respond more efficiently, reducing delays and missed risks."
+        },
+        "smartReply": {
+          "title": "Seamless Collaboration Between Smart Replies and Human Agents",
+          "description": "Smart replies can handle common questions and seamlessly switch to human assistance when needed, reducing team workload while maintaining clear and consistent customer responses."
+        }
+      },
+      "benefits": {
+        "title": "Comprehensively Improve Customer Service Efficiency and Quality",
+        "description": "Unified message management reduces processing time, lowers error risks, and helps teams maintain consistent service quality across all channels, making customer experience smoother and significantly improving response speed.",
+        "reduceGaps": {
+          "title": "Reduce Communication Gaps and Preserve Context",
+          "description": "All historical messages and context are fully preserved, enabling different team members to quickly understand customer status and take over seamlessly, reducing repeated inquiries and information gaps."
+        },
+        "reduceTime": {
+          "title": "Significantly Reduce Message Processing Time",
+          "description": "View all messages through a single interface, reducing interruptions from cross-platform switching, enabling customer service to focus on processing large volumes of messages and accelerating overall response speed."
+        },
+        "consistentBrand": {
+          "title": "Maintain Consistent and Professional Brand Experience",
+          "description": "Regardless of which channel customers contact from, they receive the same quality responses and service, helping businesses maintain a more unified and trustworthy brand experience."
+        }
+      },
+      "recommendedFeatures": {
+        "title": "Recommended Related Features",
+        "aiBot": {
+          "title": "AI Customer Service Bot",
+          "description": "Automatically reply to common questions to reduce customer service workload, and seamlessly switch to human assistance when needed, making the overall customer service process smoother."
+        },
+        "websiteChat": {
+          "title": "Website Live Chat Tool",
+          "description": "Enable website visitors to start conversations instantly, increasing inquiry volume and interaction rates, while centralizing all messages back to the same interface for management."
+        },
+        "chatroomManagement": {
+          "title": "Chatroom Management",
+          "description": "Effectively organize messages using tags, folders, and search functions, enabling teams to quickly find important conversations and improve overall processing efficiency."
+        }
+      },
+      "exploreUseCases": {
+        "title": "Explore Other Use Cases",
+        "customerAutomation": {
+          "title": "Customer Service Automation",
+          "description": "Smart replies can handle large volumes of common questions, reducing manual workload while retaining the flexibility for human agents to take over instantly, improving overall customer service efficiency."
+        },
+        "leadCapture": {
+          "title": "Lead Generation and Information Collection",
+          "description": "Collect customer information through conversational surveys, making responses more natural, improving data quality, and enabling instant conversion to follow-up actions."
+        },
+        "teamCollaboration": {
+          "title": "Team Communication and Division of Labor",
+          "description": "Assist team division of labor through tags, folders, and permission controls, making customer service processes more organized and comprehensively improving response efficiency."
+        }
+      },
       "cta": {
-        "title": "Ready to Centralize Your Messages?",
-        "button": "Get Started Free"
+        "title": "Start Integrating All Customer Service Messages",
+        "button": "Activate PinChat Now"
       }
     }
   },
