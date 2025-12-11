@@ -785,9 +785,86 @@
     "leadCaptureSurveys": "Lead Capture Surveys",
     "multichannelMessaging": "Multichannel Messaging Hub",
     "aiCustomerServicePage": {
+      "hero": {
+        "breadcrumb": "PinChat Customer Service Automation Solution",
+        "title": "Build High-Efficiency Customer Service with AI",
+        "subtitle": "Full human customer service is hard to scale, while pure AI struggles to cover all scenarios. PinChat combines AI responses with human handoff in a hybrid customer service workflow, balancing efficiency, quality, and flexibility to help businesses quickly improve overall service experience.",
+        "cta": "Start Using AI Responses"
+      },
+      "challenges": {
+        "title": "Challenges of Customer Service Automation",
+        "items": {
+          "repetitive": "Repetitive questions consume significant time, making it difficult for teams to maintain efficiency.",
+          "scalability": "Full human customer service cannot scale, while pure AI solutions struggle to handle complex needs.",
+          "fragmentation": "Messages across multiple platforms are fragmented, making it difficult to integrate customer service workflows consistently.",
+          "scatteredInfo": "Website and document information is scattered and cannot be directly applied to automation."
+        }
+      },
+      "howPinChatHelps": {
+        "title": "How PinChat Helps",
+        "description": "PinChat addresses the four major challenges of customer service automation—scattered information, inconsistent responses, excessive human workload, and cross-platform integration difficulties—through a hybrid customer service workflow: 'Data Consolidation → AI Responses → Human Handoff → Multi-Platform Integration'.",
+        "consolidateInfo": {
+          "title": "Consolidate Scattered Website and Document Information",
+          "description": "Support importing content from websites, uploading PDF/Word/CSV files, or manually adding Q&A pairs, consolidating originally scattered information into a unified source that AI can use, ensuring consistent and controllable responses."
+        },
+        "aiHandling": {
+          "title": "Handle Large Volumes of Repetitive Questions with AI",
+          "description": "AI can respond to common questions 24/7, quickly handling large volumes of repetitive inquiries. When judgment or more complex scenarios are needed, human customer service can immediately take over, balancing efficiency and quality, avoiding the experience gap caused by excessive pure human workload or pure AI limitations."
+        },
+        "unifiedInbox": {
+          "title": "Integrate All Customer Service Channels into a Single Inbox",
+          "description": "Centralize LINE, Messenger, WhatsApp, Instagram, and website conversations for management, avoiding the need for customer service to switch between platforms. Both AI responses and human handoff can operate under a unified workflow, improving overall support efficiency."
+        }
+      },
+      "benefits": {
+        "title": "Benefits of Using PinChat",
+        "description": "The hybrid customer service model allows businesses to achieve the best balance between efficiency, quality, and cost while improving overall customer experience.",
+        "reduceCosts": {
+          "title": "Reduce Labor Costs and Workload",
+          "description": "AI handles repetitive questions, allowing customer service staff to focus on more important customer communication."
+        },
+        "consistentQuality": {
+          "title": "Maintain Consistent and Accurate Response Quality",
+          "description": "Response content is based on consolidated data sources from the business, avoiding discrepancies due to staff turnover."
+        },
+        "satisfaction": {
+          "title": "Improve Customer Satisfaction",
+          "description": "Faster responses and smoother experiences enable customers to receive better service at every touchpoint."
+        }
+      },
+      "recommendedFeatures": {
+        "title": "Recommended Related Features",
+        "aiPinBot": {
+          "title": "AI PinBot",
+          "description": "Intelligently responds to common questions, supports multi-language detection and human handoff, serving as the core capability for customer service automation."
+        },
+        "chatroomManagement": {
+          "title": "Chatroom Management",
+          "description": "Effectively organize conversations with tags and folders, making human handoff faster and collaboration smoother."
+        },
+        "multichannelInbox": {
+          "title": "Multichannel Inbox",
+          "description": "Integrates LINE, Messenger, WhatsApp, Instagram, and Web messages, unifying management of cross-platform customer service needs."
+        }
+      },
+      "exploreUseCases": {
+        "title": "Explore Other Use Cases",
+        "leadCapture": {
+          "title": "Lead Capture Surveys",
+          "description": "Collect potential customer information through conversational surveys, improving conversion efficiency."
+        },
+        "feedbackCollection": {
+          "title": "Feedback Collection",
+          "description": "Organize survey and conversation responses to help teams quickly identify common issues and service bottlenecks."
+        },
+        "workflowManagement": {
+          "title": "Workflow Management",
+          "description": "Organize conversations with tags and folders, making customer service collaboration workflows clearer and more efficient."
+        }
+      },
       "cta": {
-        "title": "Ready to Deploy Your AI Assistant?",
-        "button": "Build My Bot Now"
+        "title": "Start Your Customer Service Automation Process Now",
+        "button": "Start Free"
       }
     },
     "chatroomTeamManagementPage": {

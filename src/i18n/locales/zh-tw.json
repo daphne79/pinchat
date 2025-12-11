@@ -785,9 +785,86 @@
     "leadCaptureSurveys": "潛在客戶調查",
     "multichannelMessaging": "多渠道訊息中心",
     "aiCustomerServicePage": {
+      "hero": {
+        "breadcrumb": "PinChat 客服自動化解決方案",
+        "title": "用 AI 打造高效率客服",
+        "subtitle": "全人工客服難以擴張，全 AI 又不易涵蓋所有情境。PinChat 以混合式客服流程結合 AI 回覆與人工接手，兼具效率、品質與彈性，協助企業快速提升整體服務體驗。",
+        "cta": "開始使用 AI 回覆"
+      },
+      "challenges": {
+        "title": "客服自動化的挑戰",
+        "items": {
+          "repetitive": "重複性問題佔據大量時間，使團隊難以維持效率。",
+          "scalability": "全人工客服無法規模化，而純 AI 方案又難以處理複雜需求。",
+          "fragmentation": "多平台訊息分散，使客服流程難以一致整合。",
+          "scatteredInfo": "網站與文件資訊分散，無法直接應用於自動化。"
+        }
+      },
+      "howPinChatHelps": {
+        "title": "PinChat 如何協助",
+        "description": "PinChat 以「資料統整 → AI 回覆 → 人工接手 → 多平台整合」的混合式客服流程，正面解決客服自動化面臨的四大挑戰：資訊分散、回覆不一致、人工負擔過高，以及跨平台難以整合的問題。",
+        "consolidateInfo": {
+          "title": "統整分散的網站與文件資訊",
+          "description": "支援從網站匯入內容、上傳 PDF／Word／CSV 等文件，或手動新增問答，將原本分散的資訊整合成 AI 可使用的統一來源，確保回覆一致且可控。"
+        },
+        "aiHandling": {
+          "title": "以 AI 處理大量重複性問題",
+          "description": "AI 能 24/7 回覆常見問題，快速處理大量重複詢問；遇到需要判斷或更複雜的情境時，人工客服可立即接手，兼顧效率與品質，避免純人工負擔過高或全 AI 限制造成體驗落差。"
+        },
+        "unifiedInbox": {
+          "title": "整合所有客服通路於單一收件匣",
+          "description": "將 LINE、Messenger、WhatsApp、IG 與網站對話集中管理，避免客服在各平台來回切換，使 AI 回覆與人工接手都能在統一流程下運作，提升整體支援效率。"
+        }
+      },
+      "benefits": {
+        "title": "使用 PinChat 的效益",
+        "description": "混合式客服模式讓企業在效率、品質與成本之間取得最佳平衡，同時提升顧客整體體驗。",
+        "reduceCosts": {
+          "title": "降低人工成本與工作量",
+          "description": "AI 處理重複問題，使客服人員能專注於更重要的客戶溝通。"
+        },
+        "consistentQuality": {
+          "title": "維持一致且準確的回覆品質",
+          "description": "回覆內容基於企業統整後的資料來源，不因人員更替而產生落差。"
+        },
+        "satisfaction": {
+          "title": "提升客戶滿意度",
+          "description": "更快的回覆與更流暢的體驗，使客戶在每個接觸點都獲得更好的服務。"
+        }
+      },
+      "recommendedFeatures": {
+        "title": "推薦相關功能",
+        "aiPinBot": {
+          "title": "AI PinBot",
+          "description": "智慧回覆常見問題、支援多語偵測與人工接手，是客服自動化的核心能力。"
+        },
+        "chatroomManagement": {
+          "title": "聊天室管理",
+          "description": "以標籤與資料夾有效整理對話，使人工接手更迅速、協作更順暢。"
+        },
+        "multichannelInbox": {
+          "title": "多渠道收件匣",
+          "description": "整合 LINE、Messenger、WhatsApp、IG 與 Web 訊息，統一管理跨平台客服需求。"
+        }
+      },
+      "exploreUseCases": {
+        "title": "探索其他使用情境",
+        "leadCapture": {
+          "title": "導流問卷",
+          "description": "以對話式問卷蒐集潛在客戶資訊，提高轉換效率。"
+        },
+        "feedbackCollection": {
+          "title": "回饋分析",
+          "description": "整理問卷與對話回覆，協助團隊快速掌握常見問題與服務瓶頸。"
+        },
+        "workflowManagement": {
+          "title": "聊天室工作管理",
+          "description": "以標籤與資料夾組織對話，使客服協作流程更清晰、更有效率。"
+        }
+      },
       "cta": {
-        "title": "準備好部署您的 AI 助手了嗎？",
-        "button": "立即建立我的機器人"
+        "title": "立即啟動您的客服自動化流程",
+        "button": "免費開始使用"
       }
     },
     "chatroomTeamManagementPage": {

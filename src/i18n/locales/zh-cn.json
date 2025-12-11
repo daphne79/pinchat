@@ -803,9 +803,86 @@
 "leadCaptureSurveys": "潜在客户调查",
 "multichannelMessaging": "多渠道消息中心",
 "aiCustomerServicePage": {
+  "hero": {
+    "breadcrumb": "PinChat 客服自动化解决方案",
+    "title": "用 AI 打造高效率客服",
+    "subtitle": "全人工客服难以扩张，全 AI 又不易涵盖所有情境。PinChat 以混合式客服流程结合 AI 回复与人工接手，兼具效率、品质与弹性，协助企业快速提升整体服务体验。",
+    "cta": "开始使用 AI 回复"
+  },
+  "challenges": {
+    "title": "客服自动化的挑战",
+    "items": {
+      "repetitive": "重复性问题占据大量时间，使团队难以维持效率。",
+      "scalability": "全人工客服无法规模化，而纯 AI 方案又难以处理复杂需求。",
+      "fragmentation": "多平台消息分散，使客服流程难以一致整合。",
+      "scatteredInfo": "网站与文件信息分散，无法直接应用于自动化。"
+    }
+  },
+  "howPinChatHelps": {
+    "title": "PinChat 如何协助",
+    "description": "PinChat 以「资料统整 → AI 回复 → 人工接手 → 多平台整合」的混合式客服流程，正面解决客服自动化面临的四大挑战：信息分散、回复不一致、人工负担过高，以及跨平台难以整合的问题。",
+    "consolidateInfo": {
+      "title": "统整分散的网站与文件信息",
+      "description": "支持从网站导入内容、上传 PDF／Word／CSV 等文件，或手动新增问答，将原本分散的信息整合成 AI 可使用的统一来源，确保回复一致且可控。"
+    },
+    "aiHandling": {
+      "title": "以 AI 处理大量重复性问题",
+      "description": "AI 能 24/7 回复常见问题，快速处理大量重复询问；遇到需要判断或更复杂的情境时，人工客服可立即接手，兼顾效率与品质，避免纯人工负担过高或全 AI 限制造成体验落差。"
+    },
+    "unifiedInbox": {
+      "title": "整合所有客服通路于单一收件箱",
+      "description": "将 LINE、Messenger、WhatsApp、IG 与网站对话集中管理，避免客服在各平台来回切换，使 AI 回复与人工接手都能在统一流程下运作，提升整体支援效率。"
+    }
+  },
+  "benefits": {
+    "title": "使用 PinChat 的效益",
+    "description": "混合式客服模式让企业在效率、品质与成本之间取得最佳平衡，同时提升顾客整体体验。",
+    "reduceCosts": {
+      "title": "降低人工成本与工作量",
+      "description": "AI 处理重复问题，使客服人员能专注于更重要的客户沟通。"
+    },
+    "consistentQuality": {
+      "title": "维持一致且准确的回复品质",
+      "description": "回复内容基于企业统整后的数据来源，不因人员更替而产生落差。"
+    },
+    "satisfaction": {
+      "title": "提升客户满意度",
+      "description": "更快的回复与更流畅的体验，使客户在每个接触点都获得更好的服务。"
+    }
+  },
+  "recommendedFeatures": {
+    "title": "推荐相关功能",
+    "aiPinBot": {
+      "title": "AI PinBot",
+      "description": "智慧回复常见问题、支持多语侦测与人工接手，是客服自动化的核心能力。"
+    },
+    "chatroomManagement": {
+      "title": "聊天室管理",
+      "description": "以标签与文件夹有效整理对话，使人工接手更迅速、协作更顺畅。"
+    },
+    "multichannelInbox": {
+      "title": "多渠道收件箱",
+      "description": "整合 LINE、Messenger、WhatsApp、IG 与 Web 消息，统一管理跨平台客服需求。"
+    }
+  },
+  "exploreUseCases": {
+    "title": "探索其他使用情境",
+    "leadCapture": {
+      "title": "导流问卷",
+      "description": "以对话式问卷搜集潜在客户信息，提高转换效率。"
+    },
+    "feedbackCollection": {
+      "title": "反馈分析",
+      "description": "整理问卷与对话回复，协助团队快速掌握常见问题与服务瓶颈。"
+    },
+    "workflowManagement": {
+      "title": "聊天室工作管理",
+      "description": "以标签与文件夹组织对话，使客服协作流程更清晰、更有效率。"
+    }
+  },
   "cta": {
-    "title": "准备好部署您的 AI 助手了吗？",
-    "button": "立即创建我的机器人"
+    "title": "立即启动您的客服自动化流程",
+    "button": "免费开始使用"
   }
 },
 "chatroomTeamManagementPage": {
