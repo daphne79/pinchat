@@ -880,9 +880,86 @@
       }
     },
     "leadCaptureSurveysPage": {
+      "hero": {
+        "breadcrumb": "PinChat Lead Capture & Information Collection Solution",
+        "title": "Turn Every Lead into Effective Engagement",
+        "subtitle": "Say goodbye to low response rates and scattered data. Transform your lead generation process into a highly interactive, high-return information collection experience. PinChat naturally guides visitors through conversational flows, helping businesses obtain higher-quality, actionable information.",
+        "cta": "Get Started Now"
+      },
+      "challenges": {
+        "title": "Challenges in Lead Generation & Information Collection",
+        "items": {
+          "lowResponseRate": "Traditional forms are lengthy and lack interactivity, resulting in low response rates",
+          "scatteredEntries": "Lead entry points are scattered, making it difficult to centrally guide visitors to the next step",
+          "lackFeedback": "Lack of real-time feedback makes it hard to increase user engagement and completion willingness",
+          "scatteredData": "Collected information is scattered, making follow-up tracking and marketing utilization difficult"
+        }
+      },
+      "howPinChatHelps": {
+        "title": "How PinChat Helps",
+        "description": "PinChat transforms lead generation into a highly interactive information collection experience through multi-entry lead generation, conversational surveys, and data integration capabilities. Obtain usable data through natural guidance and support subsequent conversion and marketing initiatives.",
+        "multiEntry": {
+          "title": "More Centralized Multi-Entry Lead Generation",
+          "description": "Integrate Chat Widget, PinBoard, and social media entry points to guide visitors into a unified interactive flow, improving lead concentration and reducing drop-off rates."
+        },
+        "conversationalSurvey": {
+          "title": "Conversational Surveys Improve Response Rates",
+          "description": "Guide users step-by-step through surveys in a chat-like format, reducing completion pressure and increasing response willingness. Suitable for needs collection, event registration, and pre-sales interactions."
+        },
+        "dataIntegration": {
+          "title": "Data Integration for Easier Follow-up Use",
+          "description": "Survey and chat content are automatically consolidated in the backend, clearly presenting sources and response records, enabling more efficient subsequent marketing promotion and follow-up."
+        }
+      },
+      "benefits": {
+        "title": "Benefits of Using PinChat",
+        "description": "Improve lead quality through interactive flows and obtain more complete customer information. PinChat helps businesses build a data foundation that extends to marketing and conversion strategies, making lead generation truly deliver subsequent results.",
+        "improveEfficiency": {
+          "title": "Improve Lead Generation & Engagement Efficiency",
+          "description": "Enhance lead concentration and participation quality through a unified interactive entry point."
+        },
+        "completeInfo": {
+          "title": "Obtain More Complete Customer Information",
+          "description": "Increase response rates and collect structured data through high-interaction flows."
+        },
+        "supportMarketing": {
+          "title": "Support Subsequent Marketing & Follow-up",
+          "description": "Integrated information is easier to use for targeted promotion and subsequent marketing."
+        }
+      },
+      "recommendedFeatures": {
+        "title": "Recommended Related Features",
+        "conversationalSurvey": {
+          "title": "Conversational Surveys",
+          "subtitle": "Improve response rates through chat-like experiences, suitable for needs collection, event registration, and lead generation flow design."
+        },
+        "websiteConversion": {
+          "title": "Improve Website Conversion",
+          "subtitle": "Guide visitors into interactive flows with customizable website chat widgets and improve lead generation efficiency."
+        },
+        "unifiedEntry": {
+          "title": "Create a Single Lead Entry Point",
+          "subtitle": "Integrate all entry points with multi-link pages and provide chat buttons to strengthen lead generation and engagement."
+        }
+      },
+      "exploreUseCases": {
+        "title": "Explore Other Use Cases",
+        "customerService": {
+          "title": "Customer Service Automation",
+          "subtitle": "Reduce repetitive responses with AI and FAQ bots, and support complete customer service workflows with human handoff."
+        },
+        "messageIntegration": {
+          "title": "Message Integration Management",
+          "subtitle": "Integrate multi-platform messages in a single backend to improve processing efficiency and avoid platform switching."
+        },
+        "customerInsights": {
+          "title": "Customer Feedback Insights",
+          "subtitle": "Analyze survey and chat content trends to help businesses optimize service decisions."
+        }
+      },
       "cta": {
-        "title": "Start Capturing Better Leads Today",
-        "button": "Create My Survey"
+        "title": "Improve Lead Generation & Data Results with Better Interactive Flows",
+        "button": "Get Started Now"
       }
     },
     "multichannelMessagingPage": {

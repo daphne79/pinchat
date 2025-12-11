@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import { Users, MessageSquare, FileText, Download } from "lucide-react";
+import { AlertCircle, FileText, Globe, Link2, Bot, Inbox, BarChart } from "lucide-react";
 import FeatureNavigation from "@/components/FeatureNavigation";
 import Footer from "@/components/Footer";
 import { useTranslationDirect } from '@/hooks/useTranslationDirect';
@@ -10,100 +10,283 @@ const LeadCaptureSurveys = () => {
   const { t } = useTranslationDirect();
   const { fontClass } = useLanguageFont();
   return (
-    <div className="min-h-screen bg-background">
+    <div className={`min-h-screen bg-background ${fontClass}`}>
       <FeatureNavigation />
       
-      {/* Hero Section */}
-      <main className="py-16 md:py-24 px-4 sm:px-6 md:px-8 lg:px-12">
-        <div className="container mx-auto">
-          <section className="text-center mb-16">
-            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-[72px] font-bold tracking-wide text-foreground mb-4 leading-normal lg:leading-[1.2]">
-              Capture Leads While You Chat
-            </h1>
-            <p className="text-base sm:text-lg text-muted-foreground mb-8 max-w-3xl mx-auto">
-              Conversational forms that feel natural.
-            </p>
-            <div className="flex justify-center">
+      <main>
+        {/* Hero Section */}
+        <section className="py-16 md:py-24 px-4 sm:px-6 md:px-8 lg:px-12 bg-background">
+          <div className="container mx-auto">
+            <div className="text-center mb-12">
+              <p className="text-sm font-medium text-muted-foreground mb-4 uppercase tracking-wide">
+                {t('solutions.leadCaptureSurveysPage.hero.breadcrumb')}
+              </p>
+              <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-[72px] font-bold tracking-wide text-foreground mb-6 leading-normal lg:leading-[1.2]">
+                {t('solutions.leadCaptureSurveysPage.hero.title')}
+              </h1>
+              <p className="text-base sm:text-lg text-muted-foreground mb-8 max-w-3xl mx-auto">
+                {t('solutions.leadCaptureSurveysPage.hero.subtitle')}
+              </p>
               <Button size="lg" className="text-base sm:text-lg">
-                Get Started
+                {t('solutions.leadCaptureSurveysPage.hero.cta')}
               </Button>
             </div>
-          </section>
+          
+            {/* Hero Image */}
+            <div className="mt-16 rounded-lg overflow-hidden">
+              <img 
+                src="/lovable-uploads/e56b55a0-a523-4d27-89ec-f87622f38283.png" 
+                alt="Lead capture survey interface in chat conversation" 
+                className="w-full h-auto"
+              />
+            </div>
+          </div>
+        </section>
 
-          {/* Hero Image */}
-          <section className="mb-16 text-center">
-            <img 
-              src="/lovable-uploads/e56b55a0-a523-4d27-89ec-f87622f38283.png" 
-              alt="Lead capture survey interface in chat conversation" 
-              className="mx-auto max-w-4xl w-full h-auto"
-            />
-          </section>
-
-          {/* Key Benefits */}
-          <section className="py-16">
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-              <div className="text-center">
-                <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Users className="w-8 h-8 text-primary" />
-                </div>
-                <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-foreground mb-2">Seamless Data Collection</h3>
-                <p className="text-sm sm:text-base text-muted-foreground">Gather customer details without leaving chat</p>
+        {/* Section 1: 挑戰 */}
+        <section className="py-20 px-4 sm:px-6 md:px-8 lg:px-12 bg-muted/30">
+          <div className="container mx-auto">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[48px] font-bold tracking-wide leading-normal lg:leading-[1.2] text-foreground mb-12 text-center">
+              {t('solutions.leadCaptureSurveysPage.challenges.title')}
+            </h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-3xl mx-auto">
+              <div className="flex items-start gap-3">
+                <AlertCircle className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
+                <p className="text-lg text-foreground">{t('solutions.leadCaptureSurveysPage.challenges.items.lowResponseRate')}</p>
               </div>
-              <div className="text-center">
-                <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <FileText className="w-8 h-8 text-primary" />
-                </div>
-                <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-foreground mb-2">Custom Survey Questions</h3>
-                <p className="text-sm sm:text-base text-muted-foreground">Create surveys tailored to your needs</p>
+              <div className="flex items-start gap-3">
+                <AlertCircle className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
+                <p className="text-lg text-foreground">{t('solutions.leadCaptureSurveysPage.challenges.items.scatteredEntries')}</p>
               </div>
-              <div className="text-center">
-                <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <MessageSquare className="w-8 h-8 text-primary" />
-                </div>
-                <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-foreground mb-2">Smart Follow-ups</h3>
-                <p className="text-sm sm:text-base text-muted-foreground">Respond based on customer answers</p>
+              <div className="flex items-start gap-3">
+                <AlertCircle className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
+                <p className="text-lg text-foreground">{t('solutions.leadCaptureSurveysPage.challenges.items.lackFeedback')}</p>
               </div>
-              <div className="text-center">
-                <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Download className="w-8 h-8 text-primary" />
-                </div>
-                <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-foreground mb-2">Easy Export</h3>
-                <p className="text-sm sm:text-base text-muted-foreground">Export data for CRM and marketing use</p>
+              <div className="flex items-start gap-3">
+                <AlertCircle className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
+                <p className="text-base sm:text-lg text-foreground">{t('solutions.leadCaptureSurveysPage.challenges.items.scatteredData')}</p>
               </div>
             </div>
-          </section>
+          </div>
+        </section>
 
-          {/* Usage Scenarios */}
-          <section className="py-16">
-            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[48px] font-bold tracking-wide leading-normal lg:leading-[1.2] text-center text-foreground mb-12">Perfect For</h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-              <div className="p-6 bg-card rounded-lg border">
-                <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-foreground mb-2">Retail Loyalty Programs</h3>
-                <p className="text-sm sm:text-base text-muted-foreground">Retail shop collecting customer contact info for loyalty program.</p>
+        {/* Section 2: PinChat 如何協助 */}
+        <section className="py-24 bg-background px-4 sm:px-6 md:px-8 lg:px-12">
+          <div className="container mx-auto">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+              <div>
+                <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[48px] font-bold tracking-wide leading-normal lg:leading-[1.2] text-foreground mb-6">
+                  {t('solutions.leadCaptureSurveysPage.howPinChatHelps.title')}
+                </h2>
+                <p className="text-base sm:text-lg text-muted-foreground mb-8">
+                  {t('solutions.leadCaptureSurveysPage.howPinChatHelps.description')}
+                </p>
+                <div className="space-y-6">
+                  <div>
+                    <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-foreground mb-2">
+                      {t('solutions.leadCaptureSurveysPage.howPinChatHelps.multiEntry.title')}
+                    </h3>
+                    <p className="text-sm sm:text-base text-muted-foreground">
+                      {t('solutions.leadCaptureSurveysPage.howPinChatHelps.multiEntry.description')}
+                    </p>
+                  </div>
+                  <div>
+                    <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-foreground mb-2">
+                      {t('solutions.leadCaptureSurveysPage.howPinChatHelps.conversationalSurvey.title')}
+                    </h3>
+                    <p className="text-sm sm:text-base text-muted-foreground">
+                      {t('solutions.leadCaptureSurveysPage.howPinChatHelps.conversationalSurvey.description')}
+                    </p>
+                  </div>
+                  <div>
+                    <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-foreground mb-2">
+                      {t('solutions.leadCaptureSurveysPage.howPinChatHelps.dataIntegration.title')}
+                    </h3>
+                    <p className="text-sm sm:text-base text-muted-foreground">
+                      {t('solutions.leadCaptureSurveysPage.howPinChatHelps.dataIntegration.description')}
+                    </p>
+                  </div>
+                </div>
               </div>
-              <div className="p-6 bg-card rounded-lg border">
-                <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-foreground mb-2">Post-Event Feedback</h3>
-                <p className="text-sm sm:text-base text-muted-foreground">Post-event attendee feedback collection.</p>
-              </div>
-              <div className="p-6 bg-card rounded-lg border">
-                <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-foreground mb-2">E-commerce Preferences</h3>
-                <p className="text-sm sm:text-base text-muted-foreground">E-commerce collecting buyer preferences.</p>
-              </div>
-              <div className="p-6 bg-card rounded-lg border">
-                <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-foreground mb-2">Service Quote Collection</h3>
-                <p className="text-sm sm:text-base text-muted-foreground">Service provider gathering contact info before sending manual quote.</p>
+              <div className="rounded-lg overflow-hidden">
+                <img 
+                  src="/lovable-uploads/e56b55a0-a523-4d27-89ec-f87622f38283.png" 
+                  alt="PinChat lead capture solution" 
+                  className="w-full h-auto"
+                />
               </div>
             </div>
-          </section>
+          </div>
+        </section>
 
-          {/* CTA Section */}
-          <section className="text-center py-16 bg-muted/50 rounded-lg">
-            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[48px] font-bold tracking-wide leading-normal lg:leading-[1.2] text-foreground mb-8">{t('solutions.leadCaptureSurveysPage.cta.title')}</h2>
-            <Button size="lg" className="text-base sm:text-lg">
-              {t('solutions.leadCaptureSurveysPage.cta.button')}
-            </Button>
-          </section>
-        </div>
+        {/* Section 3: 使用 PinChat 的效益 */}
+        <section className="py-24 bg-muted/30 px-4 sm:px-6 md:px-8 lg:px-12">
+          <div className="container mx-auto">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+              <div className="order-2 lg:order-1 rounded-lg overflow-hidden">
+                <img 
+                  src="/lovable-uploads/e56b55a0-a523-4d27-89ec-f87622f38283.png" 
+                  alt="PinChat benefits dashboard" 
+                  className="w-full h-auto"
+                />
+              </div>
+              <div className="order-1 lg:order-2">
+                <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[48px] font-bold tracking-wide leading-normal lg:leading-[1.2] text-foreground mb-6">
+                  {t('solutions.leadCaptureSurveysPage.benefits.title')}
+                </h2>
+                <p className="text-base sm:text-lg text-muted-foreground mb-8">
+                  {t('solutions.leadCaptureSurveysPage.benefits.description')}
+                </p>
+                <div className="space-y-6">
+                  <div>
+                    <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-foreground mb-2">
+                      {t('solutions.leadCaptureSurveysPage.benefits.improveEfficiency.title')}
+                    </h3>
+                    <p className="text-sm sm:text-base text-muted-foreground">
+                      {t('solutions.leadCaptureSurveysPage.benefits.improveEfficiency.description')}
+                    </p>
+                  </div>
+                  <div>
+                    <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-foreground mb-2">
+                      {t('solutions.leadCaptureSurveysPage.benefits.completeInfo.title')}
+                    </h3>
+                    <p className="text-sm sm:text-base text-muted-foreground">
+                      {t('solutions.leadCaptureSurveysPage.benefits.completeInfo.description')}
+                    </p>
+                  </div>
+                  <div>
+                    <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-foreground mb-2">
+                      {t('solutions.leadCaptureSurveysPage.benefits.supportMarketing.title')}
+                    </h3>
+                    <p className="text-sm sm:text-base text-muted-foreground">
+                      {t('solutions.leadCaptureSurveysPage.benefits.supportMarketing.description')}
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* 推薦相關功能 */}
+        <section className="py-24 bg-background px-4 sm:px-6 md:px-8 lg:px-12">
+          <div className="container mx-auto">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[48px] font-bold tracking-wide leading-normal lg:leading-[1.2] text-foreground mb-12 text-center">
+              {t('solutions.leadCaptureSurveysPage.recommendedFeatures.title')}
+            </h2>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+              <div className="p-6 bg-card rounded-lg border">
+                <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mb-4">
+                  <FileText className="w-6 h-6 text-primary" />
+                </div>
+                <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-foreground mb-2">
+                  {t('solutions.leadCaptureSurveysPage.recommendedFeatures.conversationalSurvey.title')}
+                </h3>
+                <p className="text-sm sm:text-base text-muted-foreground">
+                  {t('solutions.leadCaptureSurveysPage.recommendedFeatures.conversationalSurvey.subtitle')}
+                </p>
+              </div>
+              <div className="p-6 bg-card rounded-lg border">
+                <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mb-4">
+                  <Globe className="w-6 h-6 text-primary" />
+                </div>
+                <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-foreground mb-2">
+                  {t('solutions.leadCaptureSurveysPage.recommendedFeatures.websiteConversion.title')}
+                </h3>
+                <p className="text-sm sm:text-base text-muted-foreground">
+                  {t('solutions.leadCaptureSurveysPage.recommendedFeatures.websiteConversion.subtitle')}
+                </p>
+              </div>
+              <div className="p-6 bg-card rounded-lg border">
+                <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mb-4">
+                  <Link2 className="w-6 h-6 text-primary" />
+                </div>
+                <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-foreground mb-2">
+                  {t('solutions.leadCaptureSurveysPage.recommendedFeatures.unifiedEntry.title')}
+                </h3>
+                <p className="text-sm sm:text-base text-muted-foreground">
+                  {t('solutions.leadCaptureSurveysPage.recommendedFeatures.unifiedEntry.subtitle')}
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* 探索其他使用情境 */}
+        <section className="py-24 bg-background px-4 sm:px-6 md:px-8 lg:px-12">
+          <div className="container mx-auto">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[48px] font-bold tracking-wide leading-normal lg:leading-[1.2] text-foreground mb-12 text-center">
+              {t('solutions.leadCaptureSurveysPage.exploreUseCases.title')}
+            </h2>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+              <div className="group rounded-lg overflow-hidden border bg-card hover:shadow-lg transition-all duration-300">
+                <div className="aspect-video bg-muted overflow-hidden">
+                  <img 
+                    src="/lovable-uploads/f4f43fc8-86f7-459a-8ba8-a97d9cc3610d.png" 
+                    alt={t('solutions.leadCaptureSurveysPage.exploreUseCases.customerService.title')}
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                  />
+                </div>
+                <div className="p-6">
+                  <h3 className="font-semibold text-foreground text-lg mb-2 group-hover:text-primary transition-colors">
+                    {t('solutions.leadCaptureSurveysPage.exploreUseCases.customerService.title')}
+                  </h3>
+                  <p className="text-sm text-muted-foreground">
+                    {t('solutions.leadCaptureSurveysPage.exploreUseCases.customerService.subtitle')}
+                  </p>
+                </div>
+              </div>
+              <div className="group rounded-lg overflow-hidden border bg-card hover:shadow-lg transition-all duration-300">
+                <div className="aspect-video bg-muted overflow-hidden">
+                  <img 
+                    src="/lovable-uploads/f4f43fc8-86f7-459a-8ba8-a97d9cc3610d.png" 
+                    alt={t('solutions.leadCaptureSurveysPage.exploreUseCases.messageIntegration.title')}
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                  />
+                </div>
+                <div className="p-6">
+                  <h3 className="font-semibold text-foreground text-lg mb-2 group-hover:text-primary transition-colors">
+                    {t('solutions.leadCaptureSurveysPage.exploreUseCases.messageIntegration.title')}
+                  </h3>
+                  <p className="text-sm text-muted-foreground">
+                    {t('solutions.leadCaptureSurveysPage.exploreUseCases.messageIntegration.subtitle')}
+                  </p>
+                </div>
+              </div>
+              <div className="group rounded-lg overflow-hidden border bg-card hover:shadow-lg transition-all duration-300">
+                <div className="aspect-video bg-muted overflow-hidden">
+                  <img 
+                    src="/lovable-uploads/f4f43fc8-86f7-459a-8ba8-a97d9cc3610d.png" 
+                    alt={t('solutions.leadCaptureSurveysPage.exploreUseCases.customerInsights.title')}
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                  />
+                </div>
+                <div className="p-6">
+                  <h3 className="font-semibold text-foreground text-lg mb-2 group-hover:text-primary transition-colors">
+                    {t('solutions.leadCaptureSurveysPage.exploreUseCases.customerInsights.title')}
+                  </h3>
+                  <p className="text-sm text-muted-foreground">
+                    {t('solutions.leadCaptureSurveysPage.exploreUseCases.customerInsights.subtitle')}
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Final CTA */}
+        <section className="bg-primary/10 py-20 px-4 sm:px-6 md:px-8 lg:px-12">
+          <div className="container mx-auto">
+            <div className="max-w-4xl mx-auto rounded-2xl bg-card border p-12 text-center">
+              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[48px] font-bold tracking-wide leading-normal lg:leading-[1.2] text-foreground mb-8">
+                {t('solutions.leadCaptureSurveysPage.cta.title')}
+              </h2>
+              <Button size="lg" className="text-base sm:text-lg">
+                {t('solutions.leadCaptureSurveysPage.cta.button')}
+              </Button>
+            </div>
+          </div>
+        </section>
       </main>
       <Footer />
     </div>

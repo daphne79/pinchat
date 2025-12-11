@@ -880,9 +880,86 @@
       }
     },
     "leadCaptureSurveysPage": {
+      "hero": {
+        "breadcrumb": "PinChat 導流與資訊蒐集解決方案",
+        "title": "讓每次導流都變成有效互動",
+        "subtitle": "告別低填答率與分散資料，將導流流程轉化為高互動、高回收的資訊蒐集體驗。PinChat 以對話式流程自然引導訪客參與，協助商家取得更具品質的可用資訊。",
+        "cta": "立即開始使用"
+      },
+      "challenges": {
+        "title": "導流與資訊蒐集的挑戰",
+        "items": {
+          "lowResponseRate": "傳統表單流程冗長，缺乏互動導致填答率低落",
+          "scatteredEntries": "導流入口分散，無法集中引導訪客完成下一步",
+          "lackFeedback": "缺少即時回饋，難以提升使用者參與與完成意願",
+          "scatteredData": "蒐集後的資訊分散，後續追蹤與行銷運用困難"
+        }
+      },
+      "howPinChatHelps": {
+        "title": "PinChat 如何協助",
+        "description": "PinChat 以多入口導流、對話式問卷與資料整合能力，讓導流流程轉化為高互動的資訊蒐集體驗。透過自然引導取得可用資料，並協助後續轉換與行銷推動。",
+        "multiEntry": {
+          "title": "多入口導流更集中",
+          "description": "整合網頁客服插件、歡迎頁面與社群入口，引導訪客進入統一的互動流程，提升導流集中度並降低流失。"
+        },
+        "conversationalSurvey": {
+          "title": "對話式問卷提升填答率",
+          "description": "以聊天式引導逐步完成問卷，減少填寫壓力並提升回覆意願，適用於需求蒐集、活動報名與銷售前互動。"
+        },
+        "dataIntegration": {
+          "title": "資料整合更易後續運用",
+          "description": "問卷與聊天內容自動彙整於後台，清楚呈現來源與回覆紀錄，使後續行銷推廣與跟進能更有效率地進行。"
+        }
+      },
+      "benefits": {
+        "title": "使用 PinChat 的效益",
+        "description": "以互動式流程提升導流品質，並取得更完整的客戶資訊。PinChat 協助商家建立可延伸到行銷與轉換策略的資料基礎，使導流真正帶來後續成效。",
+        "improveEfficiency": {
+          "title": "提升導流與互動效率",
+          "description": "以統一互動入口提升導流集中度與參與品質。"
+        },
+        "completeInfo": {
+          "title": "取得更完整的客戶資訊",
+          "description": "透過高互動流程提升填答率並收集結構化資料。"
+        },
+        "supportMarketing": {
+          "title": "支援後續行銷與跟進",
+          "description": "整合資訊更容易運用於分眾推廣與後續行銷。"
+        }
+      },
+      "recommendedFeatures": {
+        "title": "推薦相關功能",
+        "conversationalSurvey": {
+          "title": "對話式問卷",
+          "subtitle": "以聊天體驗提升填答率，適合需求蒐集、活動報名與導流流程設計。"
+        },
+        "websiteConversion": {
+          "title": "提升網站轉換",
+          "subtitle": "以可自訂的網站聊天插件引導訪客進入互動流程並提高導流效率。"
+        },
+        "unifiedEntry": {
+          "title": "打造單一導流入口",
+          "subtitle": "以多連結頁整合所有入口並提供聊天按鈕，強化導流與互動。"
+        }
+      },
+      "exploreUseCases": {
+        "title": "探索其他使用情境",
+        "customerService": {
+          "title": "客服自動化",
+          "subtitle": "以 AI 與 FAQ 機器人減少重複回覆，並支援人工接手的完整客服流程。"
+        },
+        "messageIntegration": {
+          "title": "訊息整合管理",
+          "subtitle": "將多平台訊息整合於單一後台，提升處理效率並避免平台切換。"
+        },
+        "customerInsights": {
+          "title": "顧客回饋洞察",
+          "subtitle": "分析問卷與聊天內容趨勢，協助商家優化服務決策。"
+        }
+      },
       "cta": {
-        "title": "今天就開始捕捉更好的潛在客戶",
-        "button": "建立我的調查"
+        "title": "以更好的互動流程提升導流與資料成效",
+        "button": "立即開始使用"
       }
     },
     "multichannelMessagingPage": {

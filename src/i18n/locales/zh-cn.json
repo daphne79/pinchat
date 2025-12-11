@@ -898,9 +898,86 @@
   }
 },
 "leadCaptureSurveysPage": {
+  "hero": {
+    "breadcrumb": "PinChat 导流与信息收集解决方案",
+    "title": "让每次导流都变成有效互动",
+    "subtitle": "告别低填答率与分散数据，将导流流程转化为高互动、高回收的信息收集体验。PinChat 以对话式流程自然引导访客参与，协助商家取得更具品质的可用信息。",
+    "cta": "立即开始使用"
+  },
+  "challenges": {
+    "title": "导流与信息收集的挑战",
+    "items": {
+      "lowResponseRate": "传统表单流程冗长，缺乏互动导致填答率低落",
+      "scatteredEntries": "导流入口分散，无法集中引导访客完成下一步",
+      "lackFeedback": "缺少即时反馈，难以提升使用者参与与完成意愿",
+      "scatteredData": "收集后的信息分散，后续追踪与营销运用困难"
+    }
+  },
+  "howPinChatHelps": {
+    "title": "PinChat 如何协助",
+    "description": "PinChat 以多入口导流、对话式问卷与数据整合能力，让导流流程转化为高互动的信息收集体验。通过自然引导取得可用数据，并协助后续转换与营销推动。",
+    "multiEntry": {
+      "title": "多入口导流更集中",
+      "description": "整合网页客服插件、欢迎页面与社群入口，引导访客进入统一的互动流程，提升导流集中度并降低流失。"
+    },
+    "conversationalSurvey": {
+      "title": "对话式问卷提升填答率",
+      "description": "以聊天式引导逐步完成问卷，减少填写压力并提升回复意愿，适用于需求收集、活动报名与销售前互动。"
+    },
+    "dataIntegration": {
+      "title": "数据整合更易后续运用",
+      "description": "问卷与聊天内容自动汇总于后台，清楚呈现来源与回复记录，使后续营销推广与跟进能更有效率地进行。"
+    }
+  },
+  "benefits": {
+    "title": "使用 PinChat 的效益",
+    "description": "以互动式流程提升导流品质，并取得更完整的客户信息。PinChat 协助商家建立可延伸到营销与转换策略的数据基础，使导流真正带来后续成效。",
+    "improveEfficiency": {
+      "title": "提升导流与互动效率",
+      "description": "以统一互动入口提升导流集中度与参与品质。"
+    },
+    "completeInfo": {
+      "title": "取得更完整的客户信息",
+      "description": "通过高互动流程提升填答率并收集结构化数据。"
+    },
+    "supportMarketing": {
+      "title": "支持后续营销与跟进",
+      "description": "整合信息更容易运用于分众推广与后续营销。"
+    }
+  },
+  "recommendedFeatures": {
+    "title": "推荐相关功能",
+    "conversationalSurvey": {
+      "title": "对话式问卷",
+      "subtitle": "以聊天体验提升填答率，适合需求收集、活动报名与导流流程设计。"
+    },
+    "websiteConversion": {
+      "title": "提升网站转换",
+      "subtitle": "以可自订的网站聊天插件引导访客进入互动流程并提高导流效率。"
+    },
+    "unifiedEntry": {
+      "title": "打造单一导流入口",
+      "subtitle": "以多链接页整合所有入口并提供聊天按钮，强化导流与互动。"
+    }
+  },
+  "exploreUseCases": {
+    "title": "探索其他使用情境",
+    "customerService": {
+      "title": "客服自动化",
+      "subtitle": "以 AI 与 FAQ 机器人减少重复回复，并支持人工接手的完整客服流程。"
+    },
+    "messageIntegration": {
+      "title": "消息整合管理",
+      "subtitle": "将多平台消息整合于单一后台，提升处理效率并避免平台切换。"
+    },
+    "customerInsights": {
+      "title": "顾客反馈洞察",
+      "subtitle": "分析问卷与聊天内容趋势，协助商家优化服务决策。"
+    }
+  },
   "cta": {
-    "title": "今天就开始捕捉更好的潜在客户",
-    "button": "创建我的调查"
+    "title": "以更好的互动流程提升导流与数据成效",
+    "button": "立即开始使用"
   }
 },
 "multichannelMessagingPage": {
