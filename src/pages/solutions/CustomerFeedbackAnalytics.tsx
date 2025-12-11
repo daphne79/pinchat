@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { AlertCircle, Bot, BarChart, FileText } from "lucide-react";
 import FeatureNavigation from "@/components/FeatureNavigation";
@@ -174,7 +175,7 @@ const CustomerFeedbackAnalytics = () => {
               {t('solutions.customerFeedbackAnalyticsPage.recommendedFeatures.title')}
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
-              <div className="p-6 bg-card rounded-lg border">
+              <Link to="/features/ai-pinbot" className="p-6 bg-card rounded-lg border hover:border-primary/50 hover:shadow-md transition-all cursor-pointer">
                 <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mb-4">
                   <Bot className="w-6 h-6 text-primary" />
                 </div>
@@ -184,8 +185,8 @@ const CustomerFeedbackAnalytics = () => {
                 <p className="text-sm sm:text-base text-muted-foreground">
                   {t('solutions.customerFeedbackAnalyticsPage.recommendedFeatures.aiPinBot.subtitle')}
                 </p>
-              </div>
-              <div className="p-6 bg-card rounded-lg border">
+              </Link>
+              <Link to="/solutions/lead-capture-surveys" className="p-6 bg-card rounded-lg border hover:border-primary/50 hover:shadow-md transition-all cursor-pointer">
                 <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mb-4">
                   <FileText className="w-6 h-6 text-primary" />
                 </div>
@@ -195,8 +196,8 @@ const CustomerFeedbackAnalytics = () => {
                 <p className="text-sm sm:text-base text-muted-foreground">
                   {t('solutions.customerFeedbackAnalyticsPage.recommendedFeatures.survey.subtitle')}
                 </p>
-              </div>
-              <div className="p-6 bg-card rounded-lg border">
+              </Link>
+              <Link to="/features/analytics" className="p-6 bg-card rounded-lg border hover:border-primary/50 hover:shadow-md transition-all cursor-pointer">
                 <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mb-4">
                   <BarChart className="w-6 h-6 text-primary" />
                 </div>
@@ -206,7 +207,7 @@ const CustomerFeedbackAnalytics = () => {
                 <p className="text-sm sm:text-base text-muted-foreground">
                   {t('solutions.customerFeedbackAnalyticsPage.recommendedFeatures.dataAnalysis.subtitle')}
                 </p>
-              </div>
+              </Link>
             </div>
           </div>
         </section>

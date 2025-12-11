@@ -186,7 +186,7 @@ const LeadCaptureSurveys = () => {
                   {t('solutions.leadCaptureSurveysPage.recommendedFeatures.conversationalSurvey.subtitle')}
                 </p>
               </div>
-              <div className="p-6 bg-card rounded-lg border">
+              <Link to="/features/chat-widget" className="p-6 bg-card rounded-lg border hover:border-primary/50 hover:shadow-md transition-all cursor-pointer">
                 <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mb-4">
                   <Globe className="w-6 h-6 text-primary" />
                 </div>
@@ -196,8 +196,8 @@ const LeadCaptureSurveys = () => {
                 <p className="text-sm sm:text-base text-muted-foreground">
                   {t('solutions.leadCaptureSurveysPage.recommendedFeatures.websiteConversion.subtitle')}
                 </p>
-              </div>
-              <div className="p-6 bg-card rounded-lg border">
+              </Link>
+              <Link to="/features/pinboard" className="p-6 bg-card rounded-lg border hover:border-primary/50 hover:shadow-md transition-all cursor-pointer">
                 <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mb-4">
                   <Link2 className="w-6 h-6 text-primary" />
                 </div>
@@ -207,7 +207,7 @@ const LeadCaptureSurveys = () => {
                 <p className="text-sm sm:text-base text-muted-foreground">
                   {t('solutions.leadCaptureSurveysPage.recommendedFeatures.unifiedEntry.subtitle')}
                 </p>
-              </div>
+              </Link>
             </div>
           </div>
         </section>

@@ -944,9 +944,9 @@
       "title": "聊天室管理",
       "description": "以标签与文件夹有效整理对话，使人工接手更迅速、协作更顺畅。"
     },
-    "multichannelInbox": {
-      "title": "多渠道收件箱",
-      "description": "整合 LINE、Messenger、WhatsApp、IG 与 Web 消息，统一管理跨平台客服需求。"
+    "chatWidget": {
+      "title": "网站聊天工具",
+      "description": "启用即时网站对话以增加询问与互动，并集中管理所有消息。"
     }
   },
   "exploreUseCases": {

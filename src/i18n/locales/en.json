@@ -917,18 +917,18 @@
         }
       },
       "recommendedFeatures": {
-        "title": "Recommended Related Features",
+        "title": "Recommended Features",
         "aiPinBot": {
-          "title": "AI PinBot",
+          "title": "AI Auto Reply",
           "description": "Intelligently responds to common questions with multi-language detection and human handoff for customer service automation."
         },
         "chatroomManagement": {
           "title": "Chatroom Management",
           "description": "Organize conversations with tags and folders for faster handoff and smoother collaboration."
         },
-        "multichannelInbox": {
-          "title": "Multichannel Inbox",
-          "description": "Integrates LINE, Messenger, WhatsApp, Instagram, and Web messages for unified cross-platform management."
+        "chatWidget": {
+          "title": "Website Chat Widget",
+          "description": "Enable instant website conversations to increase inquiries and interactions, with centralized message management."
         }
       },
       "exploreUseCases": {
@@ -1000,17 +1000,17 @@
         }
       },
       "recommendedFeatures": {
-        "title": "Recommended Related Features",
+        "title": "Recommended Features",
         "teamPermissions": {
-          "title": "Team Permission Management",
+          "title": "Sub-Account & Team Management",
           "description": "Manage team member access with roles and permissions for clear task division and information security."
         },
         "tagsFolders": {
-          "title": "Tags and Folder Organization",
+          "title": "Chatroom Tags & Folders",
           "description": "Categorize conversations with tags and folders to improve search speed and collaboration."
         },
         "customerServiceLoad": {
-          "title": "Monitor Customer Service Load",
+          "title": "Analytics Dashboard",
           "description": "View conversation volume and source changes for precise team scheduling and resource allocation."
         }
       },
@@ -1083,17 +1083,17 @@
         }
       },
       "recommendedFeatures": {
-        "title": "Recommended Related Features",
+        "title": "Recommended Features",
         "aiPinBot": {
-          "title": "AI PinBot",
+          "title": "AI Customer Service Bot",
           "subtitle": "AI answers common questions with human handoff, reducing repetitive responses and collecting customer needs."
         },
         "survey": {
-          "title": "Survey",
+          "title": "Conversational Survey Tool",
           "subtitle": "Increase response rates through conversational flows to collect customer feedback for analysis and decisions."
         },
         "dataAnalysis": {
-          "title": "Data Analysis",
+          "title": "Analytics Dashboard",
           "subtitle": "View chat volume, sources, and click behavior to understand interaction trends and optimize service."
         }
       },
@@ -1166,17 +1166,17 @@
         }
       },
       "recommendedFeatures": {
-        "title": "Recommended Related Features",
+        "title": "Recommended Features",
         "conversationalSurvey": {
           "title": "Conversational Surveys",
           "subtitle": "Improve response rates through chat-like experiences for needs collection, registration, and lead generation."
         },
         "websiteConversion": {
-          "title": "Improve Website Conversion",
+          "title": "Website Chat Widget",
           "subtitle": "Use customizable chat widgets to guide visitors into interactive flows and improve lead generation."
         },
         "unifiedEntry": {
-          "title": "Create a Single Lead Entry Point",
+          "title": "PinBoard Landing Page",
           "subtitle": "Integrate entry points and chat buttons on multi-link pages to strengthen lead generation and engagement."
         }
       },
@@ -1249,7 +1249,7 @@
         }
       },
       "recommendedFeatures": {
-        "title": "Recommended Related Features",
+        "title": "Recommended Features",
         "aiBot": {
           "title": "AI Customer Service Bot",
           "description": "Automatically reply to common questions to reduce workload, with seamless human handoff when needed."

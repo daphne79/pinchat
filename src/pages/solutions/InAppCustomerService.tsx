@@ -175,7 +175,7 @@ const InAppCustomerService = () => {
               {t('solutions.inAppCustomerServicePage.recommendedFeatures.title')}
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
-              <div className="p-6 bg-card rounded-lg border">
+              <Link to="/features/ai-pinbot" className="p-6 bg-card rounded-lg border hover:border-primary/50 hover:shadow-md transition-all cursor-pointer">
                 <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mb-4">
                   <Bot className="w-6 h-6 text-primary" />
                 </div>
@@ -185,8 +185,8 @@ const InAppCustomerService = () => {
                 <p className="text-sm sm:text-base text-muted-foreground">
                   {t('solutions.inAppCustomerServicePage.recommendedFeatures.aiAutoReply.description')}
                 </p>
-              </div>
-              <div className="p-6 bg-card rounded-lg border">
+              </Link>
+              <Link to="/features/chatroom-management" className="p-6 bg-card rounded-lg border hover:border-primary/50 hover:shadow-md transition-all cursor-pointer">
                 <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mb-4">
                   <FolderTree className="w-6 h-6 text-primary" />
                 </div>
@@ -196,8 +196,8 @@ const InAppCustomerService = () => {
                 <p className="text-sm sm:text-base text-muted-foreground">
                   {t('solutions.inAppCustomerServicePage.recommendedFeatures.chatroomManagement.description')}
                 </p>
-              </div>
-              <div className="p-6 bg-card rounded-lg border">
+              </Link>
+              <Link to="/solutions/lead-capture-surveys" className="p-6 bg-card rounded-lg border hover:border-primary/50 hover:shadow-md transition-all cursor-pointer">
                 <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mb-4">
                   <MessageSquare className="w-6 h-6 text-primary" />
                 </div>
@@ -207,7 +207,7 @@ const InAppCustomerService = () => {
                 <p className="text-sm sm:text-base text-muted-foreground">
                   {t('solutions.inAppCustomerServicePage.recommendedFeatures.conversationalSurvey.description')}
                 </p>
-              </div>
+              </Link>
             </div>
           </div>
         </section>

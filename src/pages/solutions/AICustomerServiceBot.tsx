@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import { AlertCircle, Bot, FolderTree, Inbox } from "lucide-react";
+import { AlertCircle, Bot, FolderTree, MessageSquare } from "lucide-react";
 import FeatureNavigation from "@/components/FeatureNavigation";
 import Footer from "@/components/Footer";
 import { useTranslationDirect } from '@/hooks/useTranslationDirect';
@@ -175,7 +175,7 @@ const AICustomerServiceBot = () => {
               {t('solutions.aiCustomerServicePage.recommendedFeatures.title')}
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
-              <div className="p-6 bg-card rounded-lg border">
+              <Link to="/features/ai-pinbot" className="p-6 bg-card rounded-lg border hover:border-primary/50 hover:shadow-md transition-all cursor-pointer">
                 <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mb-4">
                   <Bot className="w-6 h-6 text-primary" />
                 </div>
@@ -185,8 +185,8 @@ const AICustomerServiceBot = () => {
                 <p className="text-sm sm:text-base text-muted-foreground">
                   {t('solutions.aiCustomerServicePage.recommendedFeatures.aiPinBot.description')}
                 </p>
-              </div>
-              <div className="p-6 bg-card rounded-lg border">
+              </Link>
+              <Link to="/features/chatroom-management" className="p-6 bg-card rounded-lg border hover:border-primary/50 hover:shadow-md transition-all cursor-pointer">
                 <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mb-4">
                   <FolderTree className="w-6 h-6 text-primary" />
                 </div>
@@ -196,18 +196,18 @@ const AICustomerServiceBot = () => {
                 <p className="text-sm sm:text-base text-muted-foreground">
                   {t('solutions.aiCustomerServicePage.recommendedFeatures.chatroomManagement.description')}
                 </p>
-              </div>
-              <div className="p-6 bg-card rounded-lg border">
+              </Link>
+              <Link to="/features/chat-widget" className="p-6 bg-card rounded-lg border hover:border-primary/50 hover:shadow-md transition-all cursor-pointer">
                 <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mb-4">
-                  <Inbox className="w-6 h-6 text-primary" />
+                  <MessageSquare className="w-6 h-6 text-primary" />
                 </div>
                 <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-foreground mb-2">
-                  {t('solutions.aiCustomerServicePage.recommendedFeatures.multichannelInbox.title')}
+                  {t('solutions.aiCustomerServicePage.recommendedFeatures.chatWidget.title')}
                 </h3>
                 <p className="text-sm sm:text-base text-muted-foreground">
-                  {t('solutions.aiCustomerServicePage.recommendedFeatures.multichannelInbox.description')}
+                  {t('solutions.aiCustomerServicePage.recommendedFeatures.chatWidget.description')}
                 </p>
-              </div>
+              </Link>
             </div>
           </div>
         </section>
