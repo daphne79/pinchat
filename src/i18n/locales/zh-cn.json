@@ -892,9 +892,86 @@
   }
 },
 "customerFeedbackAnalyticsPage": {
+  "hero": {
+    "breadcrumb": "PinChat 顾客反馈洞察解决方案",
+    "title": "掌握反馈，精准优化体验",
+    "subtitle": "通过聊天内容与对话式问卷快速收集顾客声音，协助团队识别常见问题与需求趋势，以数据为基础持续优化服务流程，打造更一致且高品质的体验。",
+    "cta": "立即提升洞察力"
+  },
+  "challenges": {
+    "title": "顾客反馈洞察的挑战",
+    "items": {
+      "scatteredData": "反馈资料分散，无法快速整理",
+      "identifyRepeatedIssues": "难以从大量对话中识别重复问题",
+      "lowResponseRate": "问卷回复率低、资料不完整",
+      "lackActionableInsights": "缺乏可依据的行动洞察方向"
+    }
+  },
+  "howPinChatHelps": {
+    "title": "PinChat 如何协助",
+    "description": "PinChat 将聊天内容与问卷资料统整于单一平台，协助团队快速观察反馈趋势、判断常见问题并了解顾客需求。以清晰的资料可视化与动态调查流程，让反馈收集更有效率。",
+    "autoIntegration": {
+      "title": "自动整合聊天与问卷资料",
+      "description": "集中管理所有反馈来源，包含聊天内容与问卷纪录，快速掌握顾客需求变化并追踪长期趋势。"
+    },
+    "conversationalSurvey": {
+      "title": "高完成率的对话式问卷",
+      "description": "以自然的聊天方式引导填答，提高回复率并减少中途中断，协助取得更完整、可采用的顾客反馈。"
+    },
+    "centralizedView": {
+      "title": "集中呈现重复意见与互动数据",
+      "description": "将常见反馈与互动数据整合于同一视图，让团队迅速理解顾客需求与反馈的变化轨迹，支持更精准的服务优化。"
+    }
+  },
+  "benefits": {
+    "title": "使用 PinChat 的效益",
+    "description": "PinChat 让顾客反馈收集与分析流程更简洁，有助于识别服务缺口并提升整体体验。以即时洞察支撑决策，使团队能更快速调整内容、服务或流程。",
+    "reduceTime": {
+      "title": "缩短反馈整理时间",
+      "description": "统整零散资料并简化分析流程，让团队能更快取得可执行的洞察，专注于改善体验。"
+    },
+    "improveConsistency": {
+      "title": "提升服务一致性与品质",
+      "description": "通过顾客反馈观察常见问题，协助调整内容、流程与讯息，打造一致且更精准的服务体验。"
+    },
+    "supportDecision": {
+      "title": "支持更完善的决策与优化",
+      "description": "依据反馈趋势持续调整服务，让每项优化都有明确依据，提高整体营运效率与顾客满意度。"
+    }
+  },
+  "recommendedFeatures": {
+    "title": "推荐相关功能",
+    "aiPinBot": {
+      "title": "AI 聊天机器人",
+      "subtitle": "以 AI 协助回答常见问题并支持人工接手，减少重复回复并收集顾客提出的核心需求。"
+    },
+    "survey": {
+      "title": "问卷",
+      "subtitle": "以对话式流程提高填答率，轻松收集顾客意见、需求与反馈，用于分析与决策。"
+    },
+    "dataAnalysis": {
+      "title": "数据分析",
+      "subtitle": "集中查看聊天量、来源与点击行为，理解顾客互动趋势并强化服务优化方向。"
+    }
+  },
+  "exploreUseCases": {
+    "title": "探索其他使用情境",
+    "customerServiceAutomation": {
+      "title": "客服自动化",
+      "subtitle": "以 AI 与人工协作方式回复常见问题，降低客服负担并提升整体回复效率。"
+    },
+    "messageIntegration": {
+      "title": "讯息整合管理",
+      "subtitle": "整合多平台对话至单一介面，确保沟通不中断，并能更全面检视客户互动脉络。"
+    },
+    "leadCapture": {
+      "title": "导流与信息收集",
+      "subtitle": "以聊天与对话式问卷引导互动，提升完成率并收集更完整的顾客资料。"
+    }
+  },
   "cta": {
-    "title": "开始做出数据驱动的决策",
-    "button": "查看我的分析"
+    "title": "开始打造以反馈为核心的服务体验",
+    "button": "立即开始使用"
   }
 },
 "leadCaptureSurveysPage": {

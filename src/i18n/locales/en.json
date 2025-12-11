@@ -874,9 +874,86 @@
       }
     },
     "customerFeedbackAnalyticsPage": {
+      "hero": {
+        "breadcrumb": "PinChat Customer Feedback Insights Solution",
+        "title": "Master Feedback, Optimize Experiences Precisely",
+        "subtitle": "Quickly collect customer voices through chat content and conversational surveys, helping teams identify common issues and demand trends. Continuously optimize service processes based on data to create more consistent and high-quality experiences.",
+        "cta": "Enhance Insights Now"
+      },
+      "challenges": {
+        "title": "Challenges of Customer Feedback Insights",
+        "items": {
+          "scatteredData": "Feedback data is scattered and cannot be quickly organized",
+          "identifyRepeatedIssues": "Difficult to identify repeated issues from large volumes of conversations",
+          "lowResponseRate": "Low survey response rates and incomplete data",
+          "lackActionableInsights": "Lack of actionable insights to guide decisions"
+        }
+      },
+      "howPinChatHelps": {
+        "title": "How PinChat Helps",
+        "description": "PinChat consolidates chat content and survey data on a single platform, helping teams quickly observe feedback trends, identify common issues, and understand customer needs. With clear data visualization and dynamic survey processes, feedback collection becomes more efficient.",
+        "autoIntegration": {
+          "title": "Automatically Integrate Chat and Survey Data",
+          "description": "Centralize management of all feedback sources, including chat content and survey records, quickly grasp changes in customer needs and track long-term trends."
+        },
+        "conversationalSurvey": {
+          "title": "High Completion Rate Conversational Surveys",
+          "description": "Guide responses naturally through chat, increase response rates and reduce mid-process drop-offs, helping to obtain more complete and actionable customer feedback."
+        },
+        "centralizedView": {
+          "title": "Centralized View of Repeated Opinions and Interaction Data",
+          "description": "Integrate common feedback and interaction data in the same view, allowing teams to quickly understand customer needs and feedback trends, supporting more precise service optimization."
+        }
+      },
+      "benefits": {
+        "title": "Benefits of Using PinChat",
+        "description": "PinChat makes customer feedback collection and analysis processes more streamlined, helping to identify service gaps and improve overall experience. Support decisions with real-time insights, enabling teams to adjust content, services, or processes more quickly.",
+        "reduceTime": {
+          "title": "Reduce Feedback Organization Time",
+          "description": "Consolidate scattered data and simplify analysis processes, allowing teams to obtain actionable insights faster and focus on improving experiences."
+        },
+        "improveConsistency": {
+          "title": "Improve Service Consistency and Quality",
+          "description": "Observe common issues through customer feedback, helping to adjust content, processes, and messages to create consistent and more precise service experiences."
+        },
+        "supportDecision": {
+          "title": "Support Better Decision-Making and Optimization",
+          "description": "Continuously adjust services based on feedback trends, ensuring every optimization has clear justification, improving overall operational efficiency and customer satisfaction."
+        }
+      },
+      "recommendedFeatures": {
+        "title": "Recommended Related Features",
+        "aiPinBot": {
+          "title": "AI PinBot",
+          "subtitle": "Use AI to help answer common questions and support human handoff, reducing repetitive responses and collecting core customer needs."
+        },
+        "survey": {
+          "title": "Survey",
+          "subtitle": "Increase response rates through conversational flows, easily collect customer opinions, needs, and feedback for analysis and decision-making."
+        },
+        "dataAnalysis": {
+          "title": "Data Analysis",
+          "subtitle": "Centrally view chat volume, sources, and click behavior to understand customer interaction trends and strengthen service optimization directions."
+        }
+      },
+      "exploreUseCases": {
+        "title": "Explore Other Use Cases",
+        "customerServiceAutomation": {
+          "title": "Customer Service Automation",
+          "subtitle": "Respond to common questions through AI and human collaboration, reducing customer service burden and improving overall response efficiency."
+        },
+        "messageIntegration": {
+          "title": "Message Integration Management",
+          "subtitle": "Integrate multi-platform conversations into a single interface, ensuring uninterrupted communication and more comprehensive review of customer interaction context."
+        },
+        "leadCapture": {
+          "title": "Lead Capture & Information Collection",
+          "subtitle": "Guide interactions through chat and conversational surveys, increase completion rates and collect more complete customer data."
+        }
+      },
       "cta": {
-        "title": "Start Making Data-Driven Decisions",
-        "button": "View My Analytics"
+        "title": "Start Building Feedback-Centric Service Experiences",
+        "button": "Get Started Now"
       }
     },
     "leadCaptureSurveysPage": {

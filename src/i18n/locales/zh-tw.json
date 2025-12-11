@@ -874,9 +874,86 @@
       }
     },
     "customerFeedbackAnalyticsPage": {
+      "hero": {
+        "breadcrumb": "PinChat 顧客回饋洞察解決方案",
+        "title": "掌握回饋，精準優化體驗",
+        "subtitle": "透過聊天內容與對話式問卷快速蒐集顧客聲音，協助團隊辨識常見問題與需求趨勢，以數據為基礎持續優化服務流程，打造更一致且高品質的體驗。",
+        "cta": "立即提升洞察力"
+      },
+      "challenges": {
+        "title": "顧客回饋洞察的挑戰",
+        "items": {
+          "scatteredData": "回饋資料分散，無法快速整理",
+          "identifyRepeatedIssues": "難以從大量對話中辨識重複問題",
+          "lowResponseRate": "問卷回覆率低、資料不完整",
+          "lackActionableInsights": "缺乏可依據的行動洞察方向"
+        }
+      },
+      "howPinChatHelps": {
+        "title": "PinChat 如何協助",
+        "description": "PinChat 將聊天內容與問卷資料統整於單一平台，協助團隊快速觀察回饋趨勢、判斷常見問題並了解顧客需求。以清晰的資料視覺化與動態調查流程，讓回饋蒐集更有效率。",
+        "autoIntegration": {
+          "title": "自動整合聊天與問卷資料",
+          "description": "集中管理所有回饋來源，包含聊天內容與問卷紀錄，快速掌握顧客需求變化並追蹤長期趨勢。"
+        },
+        "conversationalSurvey": {
+          "title": "高完成率的對話式問卷",
+          "description": "以自然的聊天方式引導填答，提高回覆率並減少中途中斷，協助取得更完整、可採用的顧客回饋。"
+        },
+        "centralizedView": {
+          "title": "集中呈現重複意見與互動數據",
+          "description": "將常見回饋與互動數據整合於同一視圖，讓團隊迅速理解顧客需求與回饋的變化軌跡，支持更精準的服務優化。"
+        }
+      },
+      "benefits": {
+        "title": "使用 PinChat 的效益",
+        "description": "PinChat 讓顧客回饋蒐集與分析流程更簡潔，有助於識別服務缺口並提升整體體驗。以即時洞察支撐決策，使團隊能更快速調整內容、服務或流程。",
+        "reduceTime": {
+          "title": "縮短回饋整理時間",
+          "description": "統整零散資料並簡化分析流程，讓團隊能更快取得可執行的洞察，專注於改善體驗。"
+        },
+        "improveConsistency": {
+          "title": "提升服務一致性與品質",
+          "description": "透過顧客回饋觀察常見問題，協助調整內容、流程與訊息，打造一致且更精準的服務體驗。"
+        },
+        "supportDecision": {
+          "title": "支持更完善的決策與優化",
+          "description": "依據回饋趨勢持續調整服務，讓每項優化都有明確依據，提高整體營運效率與顧客滿意度。"
+        }
+      },
+      "recommendedFeatures": {
+        "title": "推薦相關功能",
+        "aiPinBot": {
+          "title": "AI 聊天機器人",
+          "subtitle": "以 AI 協助回答常見問題並支援人工接手，減少重複回覆並收集顧客提出的核心需求。"
+        },
+        "survey": {
+          "title": "問卷",
+          "subtitle": "以對話式流程提高填答率，輕鬆蒐集顧客意見、需求與回饋，用於分析與決策。"
+        },
+        "dataAnalysis": {
+          "title": "數據分析",
+          "subtitle": "集中查看聊天量、來源與點擊行為，理解顧客互動趨勢並強化服務優化方向。"
+        }
+      },
+      "exploreUseCases": {
+        "title": "探索其他使用情境",
+        "customerServiceAutomation": {
+          "title": "客服自動化",
+          "subtitle": "以 AI 與人工協作方式回覆常見問題，降低客服負擔並提升整體回覆效率。"
+        },
+        "messageIntegration": {
+          "title": "訊息整合管理",
+          "subtitle": "整合多平台對話至單一介面，確保溝通不中斷，並能更全面檢視客戶互動脈絡。"
+        },
+        "leadCapture": {
+          "title": "導流與資訊蒐集",
+          "subtitle": "以聊天與對話式問卷引導互動，提升完成率並收集更完整的顧客資料。"
+        }
+      },
       "cta": {
-        "title": "開始做出數據驅動的決策",
-        "button": "查看我的分析"
+        "title": "開始打造以回饋為核心的服務體驗",
+        "button": "立即開始使用"
       }
     },
     "leadCaptureSurveysPage": {

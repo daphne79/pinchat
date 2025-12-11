@@ -1,6 +1,5 @@
-import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import { BarChart, Eye, Target, TrendingUp } from "lucide-react";
+import { AlertCircle, Bot, BarChart, FileText } from "lucide-react";
 import FeatureNavigation from "@/components/FeatureNavigation";
 import Footer from "@/components/Footer";
 import { useTranslationDirect } from '@/hooks/useTranslationDirect';
@@ -10,100 +9,283 @@ const CustomerFeedbackAnalytics = () => {
   const { t } = useTranslationDirect();
   const { fontClass } = useLanguageFont();
   return (
-    <div className="min-h-screen bg-background">
+    <div className={`min-h-screen bg-background ${fontClass}`}>
       <FeatureNavigation />
       
-      {/* Hero Section */}
-      <main className="py-16 md:py-24 px-4 sm:px-6 md:px-8 lg:px-12">
-        <div className="container mx-auto">
-          <section className="text-center mb-16">
-            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-[72px] font-bold tracking-wide text-foreground mb-4 leading-normal lg:leading-[1.2]">
-              Understand and Improve Customer Interactions
-            </h1>
-            <p className="text-base sm:text-lg text-muted-foreground mb-8 max-w-3xl mx-auto">
-              Track every click, view, and survey response to gain actionable insights.
-            </p>
-            <div className="flex justify-center">
+      <main>
+        {/* Hero Section */}
+        <section className="py-16 md:py-24 px-4 sm:px-6 md:px-8 lg:px-12 bg-background">
+          <div className="container mx-auto">
+            <div className="text-center mb-12">
+              <p className="text-sm font-medium text-muted-foreground mb-4 uppercase tracking-wide">
+                {t('solutions.customerFeedbackAnalyticsPage.hero.breadcrumb')}
+              </p>
+              <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-[72px] font-bold tracking-wide text-foreground mb-6 leading-normal lg:leading-[1.2]">
+                {t('solutions.customerFeedbackAnalyticsPage.hero.title')}
+              </h1>
+              <p className="text-base sm:text-lg text-muted-foreground mb-8 max-w-3xl mx-auto">
+                {t('solutions.customerFeedbackAnalyticsPage.hero.subtitle')}
+              </p>
               <Button size="lg" className="text-base sm:text-lg">
-                Get Started
+                {t('solutions.customerFeedbackAnalyticsPage.hero.cta')}
               </Button>
             </div>
-          </section>
+          
+            {/* Hero Image */}
+            <div className="mt-16 rounded-lg overflow-hidden">
+              <img 
+                src="/lovable-uploads/c4bdeedf-e89d-4da0-8aa9-7836171381e3.png" 
+                alt="Customer feedback analytics dashboard" 
+                className="w-full h-auto"
+              />
+            </div>
+          </div>
+        </section>
 
-          {/* Hero Image */}
-          <section className="mb-16 text-center">
-            <img 
-              src="/lovable-uploads/c4bdeedf-e89d-4da0-8aa9-7836171381e3.png" 
-              alt="Analytics dashboard showing customer interaction metrics" 
-              className="mx-auto max-w-4xl w-full h-auto"
-            />
-          </section>
-
-          {/* Key Benefits */}
-          <section className="py-16">
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-              <div className="text-center">
-                <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <BarChart className="w-8 h-8 text-primary" />
-                </div>
-                <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-foreground mb-2">Real-time Analytics</h3>
-                <p className="text-sm sm:text-base text-muted-foreground">Monitor interaction data as it happens.</p>
+        {/* Section 1: 挑戰 */}
+        <section className="py-20 px-4 sm:px-6 md:px-8 lg:px-12 bg-muted/30">
+          <div className="container mx-auto">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[48px] font-bold tracking-wide leading-normal lg:leading-[1.2] text-foreground mb-12 text-center">
+              {t('solutions.customerFeedbackAnalyticsPage.challenges.title')}
+            </h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-3xl mx-auto">
+              <div className="flex items-start gap-3">
+                <AlertCircle className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
+                <p className="text-lg text-foreground">{t('solutions.customerFeedbackAnalyticsPage.challenges.items.scatteredData')}</p>
               </div>
-              <div className="text-center">
-                <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Eye className="w-8 h-8 text-primary" />
-                </div>
-                <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-foreground mb-2">PinBoard Click Data</h3>
-                <p className="text-sm sm:text-base text-muted-foreground">Track which links get the most engagement</p>
+              <div className="flex items-start gap-3">
+                <AlertCircle className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
+                <p className="text-lg text-foreground">{t('solutions.customerFeedbackAnalyticsPage.challenges.items.identifyRepeatedIssues')}</p>
               </div>
-              <div className="text-center">
-                <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Target className="w-8 h-8 text-primary" />
-                </div>
-                <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-foreground mb-2">Content Performance</h3>
-                <p className="text-sm sm:text-base text-muted-foreground">Measure engagement across your links and pages to identify what works best.</p>
+              <div className="flex items-start gap-3">
+                <AlertCircle className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
+                <p className="text-lg text-foreground">{t('solutions.customerFeedbackAnalyticsPage.challenges.items.lowResponseRate')}</p>
               </div>
-              <div className="text-center">
-                <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <TrendingUp className="w-8 h-8 text-primary" />
-                </div>
-                <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-foreground mb-2">Satisfaction Trends</h3>
-                <p className="text-sm sm:text-base text-muted-foreground">Review customer satisfaction trends based on survey responses over time.</p>
+              <div className="flex items-start gap-3">
+                <AlertCircle className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
+                <p className="text-base sm:text-lg text-foreground">{t('solutions.customerFeedbackAnalyticsPage.challenges.items.lackActionableInsights')}</p>
               </div>
             </div>
-          </section>
+          </div>
+        </section>
 
-          {/* Usage Scenarios */}
-          <section className="py-16">
-            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[48px] font-bold tracking-wide leading-normal lg:leading-[1.2] text-center text-foreground mb-12">Perfect For</h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-              <div className="p-6 bg-card rounded-lg border">
-                <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-foreground mb-2">PinBoard Link Tracking</h3>
-                <p className="text-sm sm:text-base text-muted-foreground">Track clicks on promotional links from PinBoard.</p>
+        {/* Section 2: PinChat 如何協助 */}
+        <section className="py-24 bg-background px-4 sm:px-6 md:px-8 lg:px-12">
+          <div className="container mx-auto">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+              <div>
+                <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[48px] font-bold tracking-wide leading-normal lg:leading-[1.2] text-foreground mb-6">
+                  {t('solutions.customerFeedbackAnalyticsPage.howPinChatHelps.title')}
+                </h2>
+                <p className="text-base sm:text-lg text-muted-foreground mb-8">
+                  {t('solutions.customerFeedbackAnalyticsPage.howPinChatHelps.description')}
+                </p>
+                <div className="space-y-6">
+                  <div>
+                    <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-foreground mb-2">
+                      {t('solutions.customerFeedbackAnalyticsPage.howPinChatHelps.autoIntegration.title')}
+                    </h3>
+                    <p className="text-sm sm:text-base text-muted-foreground">
+                      {t('solutions.customerFeedbackAnalyticsPage.howPinChatHelps.autoIntegration.description')}
+                    </p>
+                  </div>
+                  <div>
+                    <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-foreground mb-2">
+                      {t('solutions.customerFeedbackAnalyticsPage.howPinChatHelps.conversationalSurvey.title')}
+                    </h3>
+                    <p className="text-sm sm:text-base text-muted-foreground">
+                      {t('solutions.customerFeedbackAnalyticsPage.howPinChatHelps.conversationalSurvey.description')}
+                    </p>
+                  </div>
+                  <div>
+                    <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-foreground mb-2">
+                      {t('solutions.customerFeedbackAnalyticsPage.howPinChatHelps.centralizedView.title')}
+                    </h3>
+                    <p className="text-sm sm:text-base text-muted-foreground">
+                      {t('solutions.customerFeedbackAnalyticsPage.howPinChatHelps.centralizedView.description')}
+                    </p>
+                  </div>
+                </div>
               </div>
-              <div className="p-6 bg-card rounded-lg border">
-                <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-foreground mb-2">Survey Response Rate</h3>
-                <p className="text-sm sm:text-base text-muted-foreground">Measure how many customers respond to your surveys.</p>
-              </div>
-              <div className="p-6 bg-card rounded-lg border">
-                <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-foreground mb-2">Link Comparison</h3>
-                <p className="text-sm sm:text-base text-muted-foreground">Compare engagement between different shared links.</p>
-              </div>
-              <div className="p-6 bg-card rounded-lg border">
-                <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-foreground mb-2">Customer Satisfaction Tracking</h3>
-                <p className="text-sm sm:text-base text-muted-foreground">Review survey results to understand satisfaction levels and improve service quality.</p>
+              <div className="rounded-lg overflow-hidden">
+                <img 
+                  src="/lovable-uploads/c4bdeedf-e89d-4da0-8aa9-7836171381e3.png" 
+                  alt="PinChat customer feedback analytics solution" 
+                  className="w-full h-auto"
+                />
               </div>
             </div>
-          </section>
+          </div>
+        </section>
 
-          {/* CTA Section */}
-          <section className="text-center py-16 bg-muted/50 rounded-lg">
-            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[48px] font-bold tracking-wide leading-normal lg:leading-[1.2] text-foreground mb-8">{t('solutions.customerFeedbackAnalyticsPage.cta.title')}</h2>
-            <Button size="lg" className="text-base sm:text-lg">
-              {t('solutions.customerFeedbackAnalyticsPage.cta.button')}
-            </Button>
-          </section>
-        </div>
+        {/* Section 3: 使用 PinChat 的效益 */}
+        <section className="py-24 bg-muted/30 px-4 sm:px-6 md:px-8 lg:px-12">
+          <div className="container mx-auto">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+              <div className="order-2 lg:order-1 rounded-lg overflow-hidden">
+                <img 
+                  src="/lovable-uploads/c4bdeedf-e89d-4da0-8aa9-7836171381e3.png" 
+                  alt="PinChat benefits dashboard" 
+                  className="w-full h-auto"
+                />
+              </div>
+              <div className="order-1 lg:order-2">
+                <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[48px] font-bold tracking-wide leading-normal lg:leading-[1.2] text-foreground mb-6">
+                  {t('solutions.customerFeedbackAnalyticsPage.benefits.title')}
+                </h2>
+                <p className="text-base sm:text-lg text-muted-foreground mb-8">
+                  {t('solutions.customerFeedbackAnalyticsPage.benefits.description')}
+                </p>
+                <div className="space-y-6">
+                  <div>
+                    <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-foreground mb-2">
+                      {t('solutions.customerFeedbackAnalyticsPage.benefits.reduceTime.title')}
+                    </h3>
+                    <p className="text-sm sm:text-base text-muted-foreground">
+                      {t('solutions.customerFeedbackAnalyticsPage.benefits.reduceTime.description')}
+                    </p>
+                  </div>
+                  <div>
+                    <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-foreground mb-2">
+                      {t('solutions.customerFeedbackAnalyticsPage.benefits.improveConsistency.title')}
+                    </h3>
+                    <p className="text-sm sm:text-base text-muted-foreground">
+                      {t('solutions.customerFeedbackAnalyticsPage.benefits.improveConsistency.description')}
+                    </p>
+                  </div>
+                  <div>
+                    <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-foreground mb-2">
+                      {t('solutions.customerFeedbackAnalyticsPage.benefits.supportDecision.title')}
+                    </h3>
+                    <p className="text-sm sm:text-base text-muted-foreground">
+                      {t('solutions.customerFeedbackAnalyticsPage.benefits.supportDecision.description')}
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* 推薦相關功能 */}
+        <section className="py-24 bg-background px-4 sm:px-6 md:px-8 lg:px-12">
+          <div className="container mx-auto">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[48px] font-bold tracking-wide leading-normal lg:leading-[1.2] text-foreground mb-12 text-center">
+              {t('solutions.customerFeedbackAnalyticsPage.recommendedFeatures.title')}
+            </h2>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+              <div className="p-6 bg-card rounded-lg border">
+                <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mb-4">
+                  <Bot className="w-6 h-6 text-primary" />
+                </div>
+                <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-foreground mb-2">
+                  {t('solutions.customerFeedbackAnalyticsPage.recommendedFeatures.aiPinBot.title')}
+                </h3>
+                <p className="text-sm sm:text-base text-muted-foreground">
+                  {t('solutions.customerFeedbackAnalyticsPage.recommendedFeatures.aiPinBot.subtitle')}
+                </p>
+              </div>
+              <div className="p-6 bg-card rounded-lg border">
+                <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mb-4">
+                  <FileText className="w-6 h-6 text-primary" />
+                </div>
+                <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-foreground mb-2">
+                  {t('solutions.customerFeedbackAnalyticsPage.recommendedFeatures.survey.title')}
+                </h3>
+                <p className="text-sm sm:text-base text-muted-foreground">
+                  {t('solutions.customerFeedbackAnalyticsPage.recommendedFeatures.survey.subtitle')}
+                </p>
+              </div>
+              <div className="p-6 bg-card rounded-lg border">
+                <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mb-4">
+                  <BarChart className="w-6 h-6 text-primary" />
+                </div>
+                <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-foreground mb-2">
+                  {t('solutions.customerFeedbackAnalyticsPage.recommendedFeatures.dataAnalysis.title')}
+                </h3>
+                <p className="text-sm sm:text-base text-muted-foreground">
+                  {t('solutions.customerFeedbackAnalyticsPage.recommendedFeatures.dataAnalysis.subtitle')}
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* 探索其他使用情境 */}
+        <section className="py-24 bg-background px-4 sm:px-6 md:px-8 lg:px-12">
+          <div className="container mx-auto">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[48px] font-bold tracking-wide leading-normal lg:leading-[1.2] text-foreground mb-12 text-center">
+              {t('solutions.customerFeedbackAnalyticsPage.exploreUseCases.title')}
+            </h2>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+              <div className="group rounded-lg overflow-hidden border bg-card hover:shadow-lg transition-all duration-300">
+                <div className="aspect-video bg-muted overflow-hidden">
+                  <img 
+                    src="/lovable-uploads/f4f43fc8-86f7-459a-8ba8-a97d9cc3610d.png" 
+                    alt={t('solutions.customerFeedbackAnalyticsPage.exploreUseCases.customerServiceAutomation.title')}
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                  />
+                </div>
+                <div className="p-6">
+                  <h3 className="font-semibold text-foreground text-lg mb-2 group-hover:text-primary transition-colors">
+                    {t('solutions.customerFeedbackAnalyticsPage.exploreUseCases.customerServiceAutomation.title')}
+                  </h3>
+                  <p className="text-sm text-muted-foreground">
+                    {t('solutions.customerFeedbackAnalyticsPage.exploreUseCases.customerServiceAutomation.subtitle')}
+                  </p>
+                </div>
+              </div>
+              <div className="group rounded-lg overflow-hidden border bg-card hover:shadow-lg transition-all duration-300">
+                <div className="aspect-video bg-muted overflow-hidden">
+                  <img 
+                    src="/lovable-uploads/f4f43fc8-86f7-459a-8ba8-a97d9cc3610d.png" 
+                    alt={t('solutions.customerFeedbackAnalyticsPage.exploreUseCases.messageIntegration.title')}
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                  />
+                </div>
+                <div className="p-6">
+                  <h3 className="font-semibold text-foreground text-lg mb-2 group-hover:text-primary transition-colors">
+                    {t('solutions.customerFeedbackAnalyticsPage.exploreUseCases.messageIntegration.title')}
+                  </h3>
+                  <p className="text-sm text-muted-foreground">
+                    {t('solutions.customerFeedbackAnalyticsPage.exploreUseCases.messageIntegration.subtitle')}
+                  </p>
+                </div>
+              </div>
+              <div className="group rounded-lg overflow-hidden border bg-card hover:shadow-lg transition-all duration-300">
+                <div className="aspect-video bg-muted overflow-hidden">
+                  <img 
+                    src="/lovable-uploads/f4f43fc8-86f7-459a-8ba8-a97d9cc3610d.png" 
+                    alt={t('solutions.customerFeedbackAnalyticsPage.exploreUseCases.leadCapture.title')}
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                  />
+                </div>
+                <div className="p-6">
+                  <h3 className="font-semibold text-foreground text-lg mb-2 group-hover:text-primary transition-colors">
+                    {t('solutions.customerFeedbackAnalyticsPage.exploreUseCases.leadCapture.title')}
+                  </h3>
+                  <p className="text-sm text-muted-foreground">
+                    {t('solutions.customerFeedbackAnalyticsPage.exploreUseCases.leadCapture.subtitle')}
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Final CTA */}
+        <section className="bg-primary/10 py-20 px-4 sm:px-6 md:px-8 lg:px-12">
+          <div className="container mx-auto">
+            <div className="max-w-4xl mx-auto rounded-2xl bg-card border p-12 text-center">
+              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[48px] font-bold tracking-wide leading-normal lg:leading-[1.2] text-foreground mb-8">
+                {t('solutions.customerFeedbackAnalyticsPage.cta.title')}
+              </h2>
+              <Button size="lg" className="text-base sm:text-lg">
+                {t('solutions.customerFeedbackAnalyticsPage.cta.button')}
+              </Button>
+            </div>
+          </div>
+        </section>
       </main>
       <Footer />
     </div>
