@@ -789,78 +789,78 @@
       "hero": {
         "breadcrumb": "PinChat In-App Customer Service Solution",
         "title": "Provide Real-Time Customer Support in Your App",
-        "subtitle": "Seamlessly integrate customer service workflows into your app, allowing users to initiate conversations and receive assistance directly during their operations. With PinChat, eliminate native development costs and quickly create a consistent, smooth in-app customer service experience.",
+        "subtitle": "Integrate customer service workflows into your app without native development—eliminate engineering costs for consistent, smooth in-app support.",
         "cta": "Enable Customer Service"
       },
       "challenges": {
         "title": "Challenges of In-App Customer Service",
         "items": {
-          "highCost": "Building a custom customer service system requires significant engineering and maintenance costs",
-          "inconsistent": "Cross-platform customer service experiences are often inconsistent and difficult to unify",
-          "userLoss": "Users need to leave the app to contact support, leading to drop-offs",
-          "scatteredMessages": "Messages scattered across multiple platforms make it difficult to track conversation history"
+          "highCost": "Custom customer service systems require significant engineering and maintenance costs",
+          "inconsistent": "Cross-platform customer service experiences often inconsistent and hard to unify",
+          "userLoss": "Users leaving app to contact support causes drop-offs",
+          "scatteredMessages": "Multi-platform message fragmentation makes conversation tracking difficult"
         }
       },
       "howPinChatHelps": {
         "title": "How PinChat Helps",
-        "description": "PinChat helps businesses quickly integrate in-app customer service workflows, launching conversations through embedded integration and unifying cross-platform messages with AI automation, reducing development and maintenance costs while providing a consistent and scalable customer service experience.",
+        "description": "Quickly integrate in-app customer service with embedded integration, cross-platform message unification, and AI automation—reducing costs while providing consistent, scalable support.",
         "quickLaunch": {
           "title": "Quickly Launch Customer Service in Your App",
-          "description": "Embed PinChat directly into your app without native development, providing complete customer service chat functionality including messages, media, annotations, and other interactive capabilities."
+          "description": "Embed PinChat without native development for complete chat functionality—messages, media, annotations, and interactive capabilities."
         },
         "enhanceUX": {
           "title": "Enhance In-App User Experience",
-          "description": "Users can receive immediate assistance during their workflow without leaving the app, effectively improving problem resolution speed and overall user experience."
+          "description": "Users get immediate assistance without leaving the app—improving problem resolution speed and overall experience."
         },
         "pushNotification": {
           "title": "Boost Return Rates with Push Notifications",
-          "description": "Businesses can use their app's push notification system to guide users back to customer service conversations, strengthening interaction completion rates at key touchpoints."
+          "description": "Use your app's push notification system to guide users back to customer service conversations at key touchpoints."
         }
       },
       "benefits": {
         "title": "Benefits of Using PinChat",
-        "description": "PinChat helps businesses centrally manage all in-app customer service messages, improve customer service efficiency through automation and workflow tools, reduce development costs, while providing users with a smoother and more reliable in-app communication experience.",
+        "description": "Centrally manage in-app customer service messages, improve efficiency with automation and workflow tools, reduce development costs, and provide smoother communication.",
         "reduceBurden": {
           "title": "Reduce System Development and Maintenance Burden",
-          "description": "Businesses don't need to invest significant resources in building custom customer service systems. A single integration provides ongoing access to PinChat updates and feature expansions."
+          "description": "Avoid building custom systems—one integration provides ongoing PinChat updates and features."
         },
         "improveSatisfaction": {
           "title": "Improve Customer Satisfaction and Retention",
-          "description": "Provide a smooth in-app customer service experience, enabling users to receive immediate assistance when encountering issues, reducing churn and improving overall satisfaction."
+          "description": "Smooth in-app experience with immediate assistance reduces churn and improves satisfaction."
         },
         "centralizedManagement": {
           "title": "Centrally Manage All Customer Service Messages",
-          "description": "In-app messages can be centrally managed, categorized, and searched in the PinChat backend, making it easier for customer service teams to manage workload and user history."
+          "description": "Centrally manage, categorize, and search in-app messages in PinChat backend for easier workload and history management."
         }
       },
       "recommendedFeatures": {
         "title": "Recommended Features",
         "aiAutoReply": {
           "title": "AI Auto Reply",
-          "description": "Use AI to reply to common questions with multi-language recognition support, reducing manual workload and enhancing in-app customer service response speed."
+          "description": "AI replies to common questions with multi-language support, reducing workload and response time."
         },
         "chatroomManagement": {
           "title": "Chatroom Management",
-          "description": "Organize large volumes of customer service messages with tags and folders, helping teams quickly find conversations that need attention."
+          "description": "Organize messages with tags and folders to quickly find conversations that need attention."
         },
         "conversationalSurvey": {
           "title": "Conversational Surveys",
-          "description": "Collect user information or feedback through conversational interactions for lead generation, needs analysis, or subsequent marketing applications."
+          "description": "Collect user information and feedback through conversational interactions for lead generation and marketing."
         }
       },
       "exploreUseCases": {
         "title": "Explore Other Use Cases",
         "customerServiceAutomation": {
           "title": "Customer Service Automation",
-          "description": "Use AI to automatically reply to common questions with human handoff support, improving customer service processing efficiency."
+          "description": "AI replies to common questions with human handoff support, improving efficiency."
         },
         "messageIntegration": {
           "title": "Message Integration Management",
-          "description": "Integrate messages from your app with LINE, IG, Messenger, and WhatsApp, reducing the need to switch between multiple platforms."
+          "description": "Integrate messages from your app with LINE, IG, Messenger, and WhatsApp in one place."
         },
         "leadGeneration": {
           "title": "Lead Generation and Information Collection",
-          "description": "Improve response rates through conversational workflows and collect user information that aids in subsequent analysis and marketing."
+          "description": "Improve response rates through conversational workflows and collect user information for analysis and marketing."
         }
       },
       "cta": {
@@ -872,78 +872,78 @@
       "hero": {
         "breadcrumb": "PinChat Customer Service Automation Solution",
         "title": "Build High-Efficiency Customer Service with AI",
-        "subtitle": "Full human customer service is hard to scale, while pure AI struggles to cover all scenarios. PinChat combines AI responses with human handoff in a hybrid customer service workflow, balancing efficiency, quality, and flexibility to help businesses quickly improve overall service experience.",
+        "subtitle": "Combine AI responses with human handoff for balanced efficiency, quality, and flexibility in customer service.",
         "cta": "Start Using AI Responses"
       },
       "challenges": {
         "title": "Challenges of Customer Service Automation",
         "items": {
-          "repetitive": "Repetitive questions consume significant time, making it difficult for teams to maintain efficiency.",
-          "scalability": "Full human customer service cannot scale, while pure AI solutions struggle to handle complex needs.",
-          "fragmentation": "Messages across multiple platforms are fragmented, making it difficult to integrate customer service workflows consistently.",
-          "scatteredInfo": "Website and document information is scattered and cannot be directly applied to automation."
+          "repetitive": "Repetitive questions drain team efficiency",
+          "scalability": "Human service doesn't scale; pure AI struggles with complexity",
+          "fragmentation": "Multi-platform message fragmentation",
+          "scatteredInfo": "Scattered website and document information"
         }
       },
       "howPinChatHelps": {
         "title": "How PinChat Helps",
-        "description": "PinChat addresses the four major challenges of customer service automation—scattered information, inconsistent responses, excessive human workload, and cross-platform integration difficulties—through a hybrid customer service workflow: 'Data Consolidation → AI Responses → Human Handoff → Multi-Platform Integration'.",
+        "description": "Address customer service automation challenges with a hybrid workflow: Data Consolidation → AI Responses → Human Handoff → Multi-Platform Integration.",
         "consolidateInfo": {
           "title": "Consolidate Scattered Website and Document Information",
-          "description": "Support importing content from websites, uploading PDF/Word/CSV files, or manually adding Q&A pairs, consolidating originally scattered information into a unified source that AI can use, ensuring consistent and controllable responses."
+          "description": "Import website content, upload PDF/Word/CSV files, or add Q&A pairs to create a unified AI knowledge source with consistent, controllable responses."
         },
         "aiHandling": {
           "title": "Handle Large Volumes of Repetitive Questions with AI",
-          "description": "AI can respond to common questions 24/7, quickly handling large volumes of repetitive inquiries. When judgment or more complex scenarios are needed, human customer service can immediately take over, balancing efficiency and quality, avoiding the experience gap caused by excessive pure human workload or pure AI limitations."
+          "description": "AI responds to common questions 24/7; human service takes over for complex scenarios—balancing efficiency and quality."
         },
         "unifiedInbox": {
           "title": "Integrate All Customer Service Channels into a Single Inbox",
-          "description": "Centralize LINE, Messenger, WhatsApp, Instagram, and website conversations for management, avoiding the need for customer service to switch between platforms. Both AI responses and human handoff can operate under a unified workflow, improving overall support efficiency."
+          "description": "Centralize LINE, Messenger, WhatsApp, Instagram, and website conversations—no platform switching needed for AI or human responses."
         }
       },
       "benefits": {
         "title": "Benefits of Using PinChat",
-        "description": "The hybrid customer service model allows businesses to achieve the best balance between efficiency, quality, and cost while improving overall customer experience.",
+        "description": "Achieve the best balance between efficiency, quality, and cost with a hybrid customer service model.",
         "reduceCosts": {
           "title": "Reduce Labor Costs and Workload",
-          "description": "AI handles repetitive questions, allowing customer service staff to focus on more important customer communication."
+          "description": "AI handles repetitive questions so staff can focus on important customer communication."
         },
         "consistentQuality": {
           "title": "Maintain Consistent and Accurate Response Quality",
-          "description": "Response content is based on consolidated data sources from the business, avoiding discrepancies due to staff turnover."
+          "description": "Responses based on consolidated data sources avoid discrepancies from staff turnover."
         },
         "satisfaction": {
           "title": "Improve Customer Satisfaction",
-          "description": "Faster responses and smoother experiences enable customers to receive better service at every touchpoint."
+          "description": "Faster responses and smoother experiences deliver better service at every touchpoint."
         }
       },
       "recommendedFeatures": {
         "title": "Recommended Related Features",
         "aiPinBot": {
           "title": "AI PinBot",
-          "description": "Intelligently responds to common questions, supports multi-language detection and human handoff, serving as the core capability for customer service automation."
+          "description": "Intelligently responds to common questions with multi-language detection and human handoff for customer service automation."
         },
         "chatroomManagement": {
           "title": "Chatroom Management",
-          "description": "Effectively organize conversations with tags and folders, making human handoff faster and collaboration smoother."
+          "description": "Organize conversations with tags and folders for faster handoff and smoother collaboration."
         },
         "multichannelInbox": {
           "title": "Multichannel Inbox",
-          "description": "Integrates LINE, Messenger, WhatsApp, Instagram, and Web messages, unifying management of cross-platform customer service needs."
+          "description": "Integrates LINE, Messenger, WhatsApp, Instagram, and Web messages for unified cross-platform management."
         }
       },
       "exploreUseCases": {
         "title": "Explore Other Use Cases",
         "leadCapture": {
           "title": "Lead Capture Surveys",
-          "description": "Collect potential customer information through conversational surveys, improving conversion efficiency."
+          "description": "Collect lead information through conversational surveys, improving conversion efficiency."
         },
         "feedbackCollection": {
           "title": "Feedback Collection",
-          "description": "Organize survey and conversation responses to help teams quickly identify common issues and service bottlenecks."
+          "description": "Organize survey and conversation responses to quickly identify common issues and service bottlenecks."
         },
         "workflowManagement": {
           "title": "Workflow Management",
-          "description": "Organize conversations with tags and folders, making customer service collaboration workflows clearer and more efficient."
+          "description": "Organize conversations with tags and folders for clearer, more efficient collaboration."
         }
       },
       "cta": {
@@ -955,78 +955,78 @@
       "hero": {
         "breadcrumb": "PinChat Team Communication & Workflow Solution",
         "title": "Enhance Team Collaboration Workflow",
-        "subtitle": "Create a clear and organized customer service collaboration process through tags, folders, and permission management. Whether it's task distribution, categorization, or cross-department collaboration, everything can be efficiently completed in a single interface, enabling each member to quickly find key conversations and focus on handling customer needs.",
+        "subtitle": "Organize conversations with unified tags, hierarchical folders, and granular permissions for efficient team collaboration.",
         "cta": "Start Improving Team Efficiency"
       },
       "challenges": {
         "title": "Challenges of Team Communication & Workflow",
         "items": {
-          "hardToFind": "Difficult to quickly find important messages when conversation volume is high",
-          "collaborationChaos": "Cross-department or multi-person collaboration workflows are prone to chaos",
+          "hardToFind": "Hard to find important messages in high-volume conversations",
+          "collaborationChaos": "Cross-department collaboration workflows prone to chaos",
           "lackConsistentWorkflow": "Messages and tasks lack consistent workflow methods",
-          "noPermissionControl": "Unable to effectively control operation permissions for different members"
+          "noPermissionControl": "No effective permission control for different members"
         }
       },
       "howPinChatHelps": {
         "title": "How PinChat Helps",
-        "description": "PinChat helps teams organize conversations and assign work consistently through tags, folders, and permission management. Every member can quickly find relevant messages, ensuring smooth collaboration without gaps, and maintaining the efficiency and quality of customer service processes.",
+        "description": "Organize conversations and assign work consistently with tags, folders, and permission management for smooth collaboration and efficient customer service.",
         "unifiedTags": {
           "title": "Use Tags to Unify Conversation Categories",
-          "description": "Manage different customer groups, inquiry types, or case stages with tags, enabling members to quickly locate conversations through consistent categorization, reducing the risk of missed or duplicate processing, and maintaining a stable and clear collaboration workflow."
+          "description": "Manage customer groups, inquiry types, or case stages with tags for quick location and consistent categorization—reducing missed or duplicate processing."
         },
         "folderOrganization": {
           "title": "Organize Different Task Workflows with Folders",
-          "description": "Organize various conversations through folders, such as sales leads, customer service cases, or project communications, enabling teams to maintain work progress more intuitively and quickly review important messages."
+          "description": "Organize sales leads, customer service cases, or project communications in folders to maintain work progress intuitively."
         },
         "rolePermissions": {
           "title": "Roles and Permissions Ensure Information Security",
-          "description": "Through sub-accounts and permission controls, limit the functions and data that members can access, maintain clear role division, while reducing the risk of sensitive information leakage or misoperation."
+          "description": "Limit member access to functions and data via sub-accounts and permission controls, maintaining clear role division and reducing information risks."
         }
       },
       "benefits": {
         "title": "Benefits of Using PinChat",
-        "description": "PinChat helps teams establish consistent conversation management methods, making categorization, search, and collaboration workflows more efficient. Through clear task division and faster information access, teams can invest more time in truly important customer communication and service quality.",
+        "description": "Establish consistent conversation management with efficient categorization, search, and collaboration workflows for better customer communication and service quality.",
         "improveCollaboration": {
           "title": "Improve Team Collaboration Efficiency",
-          "description": "All messages have structured categorization, making team handoffs and collaboration smoother."
+          "description": "Structured message categorization makes team handoffs and collaboration smoother."
         },
         "reduceMissedRepeats": {
           "title": "Reduce Missed and Duplicate Processing",
-          "description": "Clear categorization and fast search ensure key conversations are not overlooked."
+          "description": "Clear categorization and fast search ensure key conversations aren't overlooked."
         },
         "scalableWorkflow": {
           "title": "Build Scalable Customer Service Workflows",
-          "description": "Suitable for adoption from small teams to growing organizations, maintaining stable operational quality."
+          "description": "Scales from small teams to growing organizations while maintaining stable operational quality."
         }
       },
       "recommendedFeatures": {
         "title": "Recommended Related Features",
         "teamPermissions": {
           "title": "Team Permission Management",
-          "description": "Manage team member operation scope through roles and permission controls, maintaining clear task division and information security."
+          "description": "Manage team member access with roles and permissions for clear task division and information security."
         },
         "tagsFolders": {
           "title": "Tags and Folder Organization",
-          "description": "Quickly categorize conversations with tags and folders, improving search speed and reducing collaboration chaos."
+          "description": "Categorize conversations with tags and folders to improve search speed and collaboration."
         },
         "customerServiceLoad": {
           "title": "Monitor Customer Service Load",
-          "description": "View conversation volume and source changes to make more precise team scheduling and resource allocation."
+          "description": "View conversation volume and source changes for precise team scheduling and resource allocation."
         }
       },
       "exploreUseCases": {
         "title": "Explore Other Use Cases",
         "streamlineService": {
           "title": "Streamline Customer Service Process",
-          "description": "Use AI to automatically reply to common questions, reducing team burden and accelerating processing speed."
+          "description": "AI replies to common questions, reducing team burden and response time."
         },
         "unifiedMessages": {
           "title": "Unify Multi-Platform Messages",
-          "description": "Integrate LINE, IG, Messenger, WhatsApp to reduce switching and centralize collaboration."
+          "description": "Integrate LINE, IG, Messenger, and WhatsApp for centralized collaboration."
         },
         "analyzeFeedback": {
           "title": "Analyze Feedback to Optimize Service",
-          "description": "Use data to identify common issues and improvement directions, strengthening overall service experience."
+          "description": "Identify common issues and improvements through data to enhance service experience."
         }
       },
       "cta": {
@@ -1086,30 +1086,30 @@
         "title": "Recommended Related Features",
         "aiPinBot": {
           "title": "AI PinBot",
-          "subtitle": "Use AI to help answer common questions and support human handoff, reducing repetitive responses and collecting core customer needs."
+          "subtitle": "AI answers common questions with human handoff, reducing repetitive responses and collecting customer needs."
         },
         "survey": {
           "title": "Survey",
-          "subtitle": "Increase response rates through conversational flows, easily collect customer opinions, needs, and feedback for analysis and decision-making."
+          "subtitle": "Increase response rates through conversational flows to collect customer feedback for analysis and decisions."
         },
         "dataAnalysis": {
           "title": "Data Analysis",
-          "subtitle": "Centrally view chat volume, sources, and click behavior to understand customer interaction trends and strengthen service optimization directions."
+          "subtitle": "View chat volume, sources, and click behavior to understand interaction trends and optimize service."
         }
       },
       "exploreUseCases": {
         "title": "Explore Other Use Cases",
         "customerServiceAutomation": {
           "title": "Customer Service Automation",
-          "subtitle": "Respond to common questions through AI and human collaboration, reducing customer service burden and improving overall response efficiency."
+          "subtitle": "AI and human collaboration respond to common questions, reducing service burden and improving efficiency."
         },
         "messageIntegration": {
           "title": "Message Integration Management",
-          "subtitle": "Integrate multi-platform conversations into a single interface, ensuring uninterrupted communication and more comprehensive review of customer interaction context."
+          "subtitle": "Integrate multi-platform conversations into a single interface for uninterrupted communication and complete context."
         },
         "leadCapture": {
           "title": "Lead Capture & Information Collection",
-          "subtitle": "Guide interactions through chat and conversational surveys, increase completion rates and collect more complete customer data."
+          "subtitle": "Use chat and conversational surveys to increase completion rates and collect complete customer data."
         }
       },
       "cta": {
@@ -1121,78 +1121,78 @@
       "hero": {
         "breadcrumb": "PinChat Lead Capture & Information Collection Solution",
         "title": "Turn Every Lead into Effective Engagement",
-        "subtitle": "Say goodbye to low response rates and scattered data. Transform your lead generation process into a highly interactive, high-return information collection experience. PinChat naturally guides visitors through conversational flows, helping businesses obtain higher-quality, actionable information.",
+        "subtitle": "Transform lead generation with highly interactive conversational flows for better response rates and actionable information.",
         "cta": "Get Started Now"
       },
       "challenges": {
         "title": "Challenges in Lead Generation & Information Collection",
         "items": {
-          "lowResponseRate": "Traditional forms are lengthy and lack interactivity, resulting in low response rates",
-          "scatteredEntries": "Lead entry points are scattered, making it difficult to centrally guide visitors to the next step",
-          "lackFeedback": "Lack of real-time feedback makes it hard to increase user engagement and completion willingness",
-          "scatteredData": "Collected information is scattered, making follow-up tracking and marketing utilization difficult"
+          "lowResponseRate": "Lengthy traditional forms lack interactivity, lowering response rates",
+          "scatteredEntries": "Scattered lead entry points make centralized visitor guidance difficult",
+          "lackFeedback": "No real-time feedback reduces engagement and completion willingness",
+          "scatteredData": "Scattered collected information hinders follow-up and marketing"
         }
       },
       "howPinChatHelps": {
         "title": "How PinChat Helps",
-        "description": "PinChat transforms lead generation into a highly interactive information collection experience through multi-entry lead generation, conversational surveys, and data integration capabilities. Obtain usable data through natural guidance and support subsequent conversion and marketing initiatives.",
+        "description": "Transform lead generation with multi-entry points, conversational surveys, and data integration for natural guidance and conversion support.",
         "multiEntry": {
           "title": "More Centralized Multi-Entry Lead Generation",
-          "description": "Integrate Chat Widget, PinBoard, and social media entry points to guide visitors into a unified interactive flow, improving lead concentration and reducing drop-off rates."
+          "description": "Integrate Chat Widget, PinBoard, and social media entry points into a unified flow—improving concentration and reducing drop-offs."
         },
         "conversationalSurvey": {
           "title": "Conversational Surveys Improve Response Rates",
-          "description": "Guide users step-by-step through surveys in a chat-like format, reducing completion pressure and increasing response willingness. Suitable for needs collection, event registration, and pre-sales interactions."
+          "description": "Guide users step-by-step in chat-like format, reducing completion pressure—ideal for needs collection, event registration, and pre-sales."
         },
         "dataIntegration": {
           "title": "Data Integration for Easier Follow-up Use",
-          "description": "Survey and chat content are automatically consolidated in the backend, clearly presenting sources and response records, enabling more efficient subsequent marketing promotion and follow-up."
+          "description": "Automatically consolidate survey and chat content with clear source and response records for efficient marketing and follow-up."
         }
       },
       "benefits": {
         "title": "Benefits of Using PinChat",
-        "description": "Improve lead quality through interactive flows and obtain more complete customer information. PinChat helps businesses build a data foundation that extends to marketing and conversion strategies, making lead generation truly deliver subsequent results.",
+        "description": "Improve lead quality and obtain complete customer information for marketing and conversion strategies that deliver results.",
         "improveEfficiency": {
           "title": "Improve Lead Generation & Engagement Efficiency",
-          "description": "Enhance lead concentration and participation quality through a unified interactive entry point."
+          "description": "Unified interactive entry point enhances lead concentration and participation quality."
         },
         "completeInfo": {
           "title": "Obtain More Complete Customer Information",
-          "description": "Increase response rates and collect structured data through high-interaction flows."
+          "description": "High-interaction flows increase response rates and collect structured data."
         },
         "supportMarketing": {
           "title": "Support Subsequent Marketing & Follow-up",
-          "description": "Integrated information is easier to use for targeted promotion and subsequent marketing."
+          "description": "Integrated information enables targeted promotion and subsequent marketing."
         }
       },
       "recommendedFeatures": {
         "title": "Recommended Related Features",
         "conversationalSurvey": {
           "title": "Conversational Surveys",
-          "subtitle": "Improve response rates through chat-like experiences, suitable for needs collection, event registration, and lead generation flow design."
+          "subtitle": "Improve response rates through chat-like experiences for needs collection, registration, and lead generation."
         },
         "websiteConversion": {
           "title": "Improve Website Conversion",
-          "subtitle": "Guide visitors into interactive flows with customizable website chat widgets and improve lead generation efficiency."
+          "subtitle": "Use customizable chat widgets to guide visitors into interactive flows and improve lead generation."
         },
         "unifiedEntry": {
           "title": "Create a Single Lead Entry Point",
-          "subtitle": "Integrate all entry points with multi-link pages and provide chat buttons to strengthen lead generation and engagement."
+          "subtitle": "Integrate entry points and chat buttons on multi-link pages to strengthen lead generation and engagement."
         }
       },
       "exploreUseCases": {
         "title": "Explore Other Use Cases",
         "customerService": {
           "title": "Customer Service Automation",
-          "subtitle": "Reduce repetitive responses with AI and FAQ bots, and support complete customer service workflows with human handoff."
+          "subtitle": "AI and FAQ bots reduce repetitive responses and support complete workflows with human handoff."
         },
         "messageIntegration": {
           "title": "Message Integration Management",
-          "subtitle": "Integrate multi-platform messages in a single backend to improve processing efficiency and avoid platform switching."
+          "subtitle": "Integrate multi-platform messages in one backend to improve efficiency and avoid switching."
         },
         "customerInsights": {
           "title": "Customer Feedback Insights",
-          "subtitle": "Analyze survey and chat content trends to help businesses optimize service decisions."
+          "subtitle": "Analyze survey and chat content trends to optimize service decisions."
         }
       },
       "cta": {
@@ -1204,78 +1204,78 @@
       "hero": {
         "breadcrumb": "PinChat Multichannel Messaging Management Solution",
         "title": "Centralize All Cross-Platform Messages",
-        "subtitle": "Scattered multichannel messages make tracking difficult and responses delayed. PinChat consolidates all conversations into a single interface, helping teams respond faster, maintain consistent service quality, and significantly improve customer service efficiency and customer experience.",
+        "subtitle": "Unify customer messages from LINE, WhatsApp, Messenger, and Instagram in one inbox for faster responses and consistent service.",
         "cta": "Start Integrating Messages"
       },
       "challenges": {
         "title": "Challenges in Cross-Platform Message Management",
         "items": {
-          "dispersed": "Messages come from diverse and scattered sources",
+          "dispersed": "Diverse, scattered message sources",
           "efficiency": "Platform switching reduces efficiency",
-          "context": "Conversation context is difficult to fully grasp",
-          "consistency": "Service quality is hard to maintain consistently"
+          "context": "Difficult to grasp full conversation context",
+          "consistency": "Hard to maintain consistent service quality"
         }
       },
       "howPinChatHelps": {
         "title": "Integrate All Messages in One Interface",
-        "description": "PinChat centralizes all messages from social media and websites, effectively organizing conversations through tags, folders, and search functions. Smart replies can handle common questions, allowing customer service to focus on interactions that require human communication.",
+        "description": "Centralize social media and website messages; organize with tags, folders, and search; handle common questions with smart replies for human-focused interactions.",
         "integrateAll": {
           "title": "Integrate All Social Media and Website Messages",
-          "description": "Centralize all social media and website conversations into a unified inbox, enabling customer service to quickly view and process messages, reducing the burden of cross-platform switching and making overall workflows smoother."
+          "description": "Centralize all conversations in a unified inbox to quickly view and process messages without cross-platform switching."
         },
         "improveEfficiency": {
           "title": "Improve Customer Service Response Efficiency with Tools",
-          "description": "Use tags, folders, and search functions to organize large volumes of conversations, enabling teams to quickly find important messages and respond more efficiently, reducing delays and missed risks."
+          "description": "Organize high-volume conversations with tags, folders, and search to quickly find important messages and reduce delays."
         },
         "smartReply": {
           "title": "Seamless Collaboration Between Smart Replies and Human Agents",
-          "description": "Smart replies can handle common questions and seamlessly switch to human assistance when needed, reducing team workload while maintaining clear and consistent customer responses."
+          "description": "Smart replies handle common questions; seamlessly switch to human assistance when needed for consistent responses."
         }
       },
       "benefits": {
         "title": "Comprehensively Improve Customer Service Efficiency and Quality",
-        "description": "Unified message management reduces processing time, lowers error risks, and helps teams maintain consistent service quality across all channels, making customer experience smoother and significantly improving response speed.",
+        "description": "Unified management reduces processing time and error risks while maintaining consistent service quality across channels for faster responses.",
         "reduceGaps": {
           "title": "Reduce Communication Gaps and Preserve Context",
-          "description": "All historical messages and context are fully preserved, enabling different team members to quickly understand customer status and take over seamlessly, reducing repeated inquiries and information gaps."
+          "description": "Preserve all historical messages and context so team members can quickly understand customer status and take over seamlessly."
         },
         "reduceTime": {
           "title": "Significantly Reduce Message Processing Time",
-          "description": "View all messages through a single interface, reducing interruptions from cross-platform switching, enabling customer service to focus on processing large volumes of messages and accelerating overall response speed."
+          "description": "Single interface eliminates cross-platform interruptions, letting customer service focus on high-volume message processing."
         },
         "consistentBrand": {
           "title": "Maintain Consistent and Professional Brand Experience",
-          "description": "Regardless of which channel customers contact from, they receive the same quality responses and service, helping businesses maintain a more unified and trustworthy brand experience."
+          "description": "Deliver the same quality responses and service across all channels for a unified, trustworthy brand experience."
         }
       },
       "recommendedFeatures": {
         "title": "Recommended Related Features",
         "aiBot": {
           "title": "AI Customer Service Bot",
-          "description": "Automatically reply to common questions to reduce customer service workload, and seamlessly switch to human assistance when needed, making the overall customer service process smoother."
+          "description": "Automatically reply to common questions to reduce workload, with seamless human handoff when needed."
         },
         "websiteChat": {
           "title": "Website Live Chat Tool",
-          "description": "Enable website visitors to start conversations instantly, increasing inquiry volume and interaction rates, while centralizing all messages back to the same interface for management."
+          "description": "Enable instant website conversations to increase inquiries and interactions, with centralized message management."
         },
         "chatroomManagement": {
           "title": "Chatroom Management",
-          "description": "Effectively organize messages using tags, folders, and search functions, enabling teams to quickly find important conversations and improve overall processing efficiency."
+          "description": "Organize messages with tags, folders, and search to quickly find important conversations and improve efficiency."
         }
       },
       "exploreUseCases": {
         "title": "Explore Other Use Cases",
         "customerAutomation": {
           "title": "Customer Service Automation",
-          "description": "Smart replies can handle large volumes of common questions, reducing manual workload while retaining the flexibility for human agents to take over instantly, improving overall customer service efficiency."
+          "description": "Smart replies handle high volumes of common questions, reducing workload while allowing instant human takeover."
         },
         "leadCapture": {
           "title": "Lead Generation and Information Collection",
-          "description": "Collect customer information through conversational surveys, making responses more natural, improving data quality, and enabling instant conversion to follow-up actions."
+          "description": "Collect customer information through conversational surveys for natural responses, better data quality, and quick follow-up."
         },
         "teamCollaboration": {
           "title": "Team Communication and Division of Labor",
-          "description": "Assist team division of labor through tags, folders, and permission controls, making customer service processes more organized and comprehensively improving response efficiency."
+          "description": "Use tags, folders, and permissions for organized processes and improved response efficiency."
         }
       },
       "cta": {
@@ -1362,32 +1362,32 @@
     "hero": {
       "breadcrumb": "PinChat for Retail & E-commerce",
       "title": "Sell smarter with AI-powered customer chat",
-      "subtitle": "From online stores to retail counters, PinChat helps your team connect instantly with shoppers, automate FAQs, and boost sales with personalized AI conversations.",
+      "subtitle": "Connect instantly with shoppers, automate FAQs, and boost sales with personalized AI—from online stores to retail counters.",
       "cta": "Get PinChat for Free"
     },
     "whyUse": {
       "title": "Why Retail & E-commerce teams use PinChat",
       "items": {
-        "engage": "Engage customers from browsing to post-purchase with personalized chat experiences.",
-        "instantAnswers": "Answer FAQs instantly with AI-powered responses.",
-        "orderUpdates": "Keep customers informed about their order status through automated messages.",
-        "campaigns": "Automate campaign replies and track performance effortlessly."
+        "engage": "Engage customers from browsing to post-purchase with personalized chat.",
+        "instantAnswers": "Answer FAQs instantly with AI responses.",
+        "orderUpdates": "Keep customers informed with automated order updates.",
+        "campaigns": "Automate campaign replies and track performance."
       }
     },
     "planEngagement": {
       "title": "Plan your customer engagement",
-      "description": "Make better customer service decisions by increasing team transparency and delivering consistent communication — whether it's product questions, order updates, or support requests.",
+      "description": "Make better service decisions with transparent teams and consistent communication across product questions, orders, and support.",
       "alignTeam": {
         "title": "Align your team",
-        "description": "Keep your team in sync as you handle inquiries, review customer needs, and align on your service strategy."
+        "description": "Keep your team in sync while handling inquiries and reviewing customer needs."
       },
       "respondFaster": {
         "title": "Respond faster",
-        "description": "Determine what questions are priority and what can be handled by AI assistants, responding via instant messaging."
+        "description": "Prioritize questions and delegate to AI assistants via instant messaging."
       },
       "diveDetails": {
         "title": "Dive into the details",
-        "description": "Share product specs, order timelines, and service protocols so everyone knows how you'll serve your customers."
+        "description": "Share product specs, order timelines, and service protocols for consistent customer service."
       }
     },
     "features": {
@@ -1410,23 +1410,23 @@
       }
     },
     "salesAcceleration": {
-      "title": "Don't let communication slow down sales",
-      "description": "Empower your team to respond faster, close more sales, and keep shoppers coming back — all powered by AI automation and streamlined chat workflows.",
+      "title": "Accelerate sales with faster communication",
+      "description": "Respond faster, close more sales, and keep shoppers coming back with AI automation and streamlined chat.",
       "swiftExecution": {
         "title": "Drive swift execution",
-        "description": "Break through blockers and keep your team on track sending quick updates, order confirmations, and more over instant messaging."
+        "description": "Keep your team on track with quick updates, order confirmations, and more via instant messaging."
       },
       "productive": {
-        "title": "Make service more productive",
-        "description": "Share critical context before customer inquiries so you can dive straight into solving their needs."
+        "title": "Make service productive",
+        "description": "Share critical context before inquiries to solve customer needs faster."
       },
       "responseCycles": {
         "title": "Accelerate response cycles",
-        "description": "Reduce back-and-forth by providing instant answers in context and addressing customer concerns immediately."
+        "description": "Provide instant answers and address customer concerns immediately."
       },
       "returns": {
         "title": "Handle returns efficiently",
-        "description": "Document return requests and process refunds quickly so your team can focus on building customer relationships."
+        "description": "Document requests and process refunds quickly to focus on building relationships."
       }
     },
     "exploreMore": {
@@ -1437,7 +1437,7 @@
       },
       "education": {
         "title": "PinChat for Education",
-        "description": "Streamline student and parent communication both inside and outside the classroom."
+        "description": "Streamline student and parent communication inside and outside the classroom."
       },
       "healthcare": {
         "title": "PinChat for Healthcare",
@@ -1453,49 +1453,49 @@
   "realEstate": {
     "hero": {
       "breadcrumb": "PinChat for Real Estate",
-      "title": "Instantly improve property inquiry efficiency",
-      "subtitle": "Real estate teams need to respond to numerous property inquiries, viewing schedules, and booking requests daily. PinChat helps teams quickly provide information, understand buyer needs, and maintain consistent professional communication through AI responses, integrated chatrooms, and multi-entry conversion tools—reducing upfront communication time so agents can focus on closing deals.",
+      "title": "Streamline property inquiries instantly",
+      "subtitle": "Respond to property inquiries, schedules, and bookings faster with AI and integrated chatrooms—freeing agents to close more deals.",
       "cta": "Start Free Trial"
     },
     "whyUse": {
       "title": "Why Real Estate Use PinChat",
       "items": {
-        "integratePlatforms": "Integrate LINE, Messenger, and WhatsApp messages into a single inbox",
-        "aiReply": "AI instantly replies to common property and viewing process questions",
-        "conversationalSurvey": "Collect key requirements like budget and preferences through conversational surveys",
-        "manageLeads": "Manage potential buyer negotiation progress with tags and folders"
+        "integratePlatforms": "Integrate LINE, Messenger, and WhatsApp in one inbox",
+        "aiReply": "AI instantly replies to property and viewing questions",
+        "conversationalSurvey": "Collect budget and preferences via conversational surveys",
+        "manageLeads": "Manage buyer negotiation progress with tags and folders"
       }
     },
     "planEngagement": {
       "title": "Support the complete communication flow from property inquiries to pre-booking",
-      "description": "PinChat integrates multi-platform messages and supports AI, automated FAQs, and conversion tools, helping real estate agents maintain clear, fast, and consistent response processes even under high inquiry volumes, enabling buyers to fully understand property information and smoothly proceed to bookings or follow-up discussions.",
+      "description": "Integrate multi-platform messages with AI, automated FAQs, and conversion tools for clear, fast, consistent responses—even under high inquiry volumes.",
       "aiReply": {
         "title": "Reply to common property and viewing questions with AI",
-        "description": "AI PinBot can reply to repetitive questions about property information, pricing, viewing hours, and viewing processes based on configured content, and seamlessly hand over to agents when human assistance is needed, ensuring buyers consistently receive quality responses."
+        "description": "AI PinBot handles repetitive questions about property info, pricing, viewing hours, and processes; seamlessly hands off to agents when needed."
       },
       "bookingLink": {
         "title": "Provide booking links and capture buyer needs",
-        "description": "Chat buttons can directly guide buyers into chatrooms, quickly collecting basic requirements like budget and preferences through conversational surveys; PinBoard multi-link pages are used to direct traffic to property viewing bookings, property listings, or marketing pages, helping buyers smoothly complete the next steps."
+        "description": "Guide buyers into chatrooms via chat buttons; collect budget and preferences through surveys; direct traffic to bookings, listings, or marketing pages via PinBoard."
       },
       "manageRecords": {
         "title": "Centralize negotiation records and improve tracking efficiency",
-        "description": "All platform messages are consolidated into a single inbox, and with tags, folders, and message search, conversations can be quickly found by categories like \"New Inquiry,\" \"Pending Viewing Arrangement,\" \"High Interest,\" making team collaboration clearer and ensuring no opportunities are missed."
+        "description": "Consolidate all platform messages in one inbox; use tags, folders, and search to find conversations by status like \"New Inquiry\" or \"High Interest.\""
       }
     },
     "salesAcceleration": {
       "title": "Ensure every buyer inquiry gets an instant response",
-      "description": "PinChat significantly reduces repetitive administrative communication through AI, automation tools, and integrated chat management, enabling real estate teams to quickly understand buyer needs and focus their time on more interested clients.",
+      "description": "AI, automation, and integrated chat reduce repetitive communication—enabling teams to understand buyer needs and focus on interested clients.",
       "fasterResponse": {
         "title": "Speed up responses and improve buyer first impressions",
-        "description": "Instantly reply to common questions, enabling buyers to get necessary information early in their decision-making process, reducing drop-offs caused by waiting."
+        "description": "Instantly reply to common questions so buyers get necessary information early, reducing drop-offs from waiting."
       },
       "reduceWork": {
         "title": "Reduce repetitive administrative work and focus on closing deals",
-        "description": "Handle basic information needs through automated FAQs, chat buttons, and conversion pages, giving agents more time to focus on follow-up communication."
+        "description": "Handle basic needs via automated FAQs, chat buttons, and conversion pages for more follow-up communication time."
       },
       "organizedTracking": {
         "title": "Keep conversations organized and improve tracking efficiency",
-        "description": "Quickly locate buyer types and negotiation status with tags, folders, and message search, enabling teams to more efficiently arrange follow-ups."
+        "description": "Locate buyer types and negotiation status quickly with tags, folders, and search for efficient follow-ups."
       }
     },
     "exploreMore": {
@@ -1506,7 +1506,7 @@
       },
       "professionalServices": {
         "title": "PinChat for Professional Services",
-        "description": "Enhance consultation and onboarding experience, helping clients quickly understand service offerings."
+        "description": "Enhance consultation and onboarding to help clients understand service offerings faster."
       },
       "serviceIndustries": {
         "title": "PinChat for Service Industries",
@@ -1522,48 +1522,48 @@
     "hero": {
       "breadcrumb": "PinChat for Service Industry",
       "title": "Streamline service communication",
-      "subtitle": "From pre-booking inquiries to in-service collaboration and post-service follow-ups, PinChat helps teams unify all chat channels, handle repetitive questions with AI, and accelerate response efficiency—making every service interaction clearer, faster, and more consistent.",
+      "subtitle": "Unify all chat channels, handle repetitive questions with AI, and accelerate responses—from pre-booking inquiries to post-service follow-ups.",
       "cta": "Start Free Trial"
     },
     "whyUse": {
       "title": "Why Service Teams Use PinChat",
       "items": {
-        "integratePlatforms": "Integrate messages from multiple platforms into one window",
-        "autoReply": "Automatically reply to pricing, processes, and common questions",
+        "integratePlatforms": "Integrate multi-platform messages in one window",
+        "autoReply": "Auto-reply to pricing, processes, and common questions",
         "reduceCosts": "Reduce call volume and repetitive response costs",
-        "consistentQuality": "Maintain consistent communication quality before and after service"
+        "consistentQuality": "Maintain consistent communication quality throughout service"
       }
     },
     "planEngagement": {
       "title": "Plan your service flow from inquiry to follow-up",
-      "description": "PinChat helps service teams interact with customers in a consistent, transparent, and trackable way. From the customer's first inquiry to post-service follow-ups, all messages are seamlessly integrated in one system, reducing information gaps and enhancing the overall experience.",
+      "description": "Interact with customers consistently and transparently from first inquiry to post-service follow-up, with all messages integrated in one system.",
       "unifyInfo": {
         "title": "Unify your team's service information",
-        "description": "Centralize response methods, process descriptions, and common content from customer service, stores, and service staff to avoid different branches and personnel maintaining different versions of information."
+        "description": "Centralize response methods and process descriptions to ensure consistent information across branches and personnel."
       },
       "instantReply": {
         "title": "Instantly reply to common customer questions",
-        "description": "Use AI Bot or FAQ Bot to answer business hours, service content, plan introductions, and booking methods, improving initial response speed and reducing manual workload."
+        "description": "Use AI or FAQ Bot to answer hours, service content, and booking methods—improving response speed and reducing manual workload."
       },
       "clearDetails": {
         "title": "Clearly communicate service details",
-        "description": "Provide images, price lists, process descriptions, and important notes through chat, so customers fully understand all necessary information before arriving or starting service."
+        "description": "Share images, price lists, process descriptions, and important notes via chat so customers understand everything before service."
       }
     },
     "serviceAcceleration": {
-      "title": "Don't let communication slow down your service",
-      "description": "For service industries, response speed and information consistency directly impact experience quality. PinChat uses AI, automated workflows, and a unified interface to help teams reduce repetitive communication and accelerate overall service pace.",
+      "title": "Accelerate service with faster communication",
+      "description": "Response speed and consistency directly impact service quality. AI, automated workflows, and unified interface reduce repetitive communication.",
       "improveEfficiency": {
         "title": "Improve response efficiency",
-        "description": "Help customers get important information faster, reducing wait times and unnecessary back-and-forth confirmations."
+        "description": "Get customers important information faster, reducing wait times and unnecessary confirmations."
       },
       "reduceGaps": {
         "title": "Reduce communication gaps",
-        "description": "With unified information sources, templates, and AI assistance, ensure every customer receives consistent answers across different stores and service staff."
+        "description": "Unified information sources, templates, and AI ensure consistent answers across stores and staff."
       },
       "trackableProcess": {
         "title": "Build trackable service processes",
-        "description": "Conversations, notes, and records are all centralized on one platform, allowing teams to quickly take over any unfinished service requests."
+        "description": "Centralize conversations, notes, and records to quickly take over unfinished service requests."
       }
     },
     "exploreMore": {
@@ -1574,7 +1574,7 @@
       },
       "education": {
         "title": "PinChat for Education",
-        "description": "Provide course consultation and administrative support, meeting the collaboration needs of multilingual families."
+        "description": "Provide course consultation and administrative support for multilingual families."
       },
       "healthcare": {
         "title": "PinChat for Healthcare",
@@ -1590,48 +1590,48 @@
     "hero": {
       "breadcrumb": "PinChat for Events",
       "title": "Optimize event communication across the entire journey",
-      "subtitle": "All information needs before, during, and after events can be quickly unified and managed through PinChat. From attendee FAQs, automated traffic routing, on-site inquiries to post-event feedback collection, helping organizers provide support more efficiently and enhance the overall experience.",
+      "subtitle": "Unify event communication—from FAQs and routing to on-site support and post-event feedback—in one efficient platform.",
       "cta": "Get Started with PinChat"
     },
     "whyUse": {
       "title": "Why Events Choose PinChat",
       "items": {
-        "centralizeMessages": "Centralize multi-platform messages to reduce inquiry pressure during peak event periods",
-        "autoReply": "Automatically reply to common questions, quickly providing venue, schedule, and ticketing information",
-        "effectiveFlow": "Effectively drive registrations and event pages through Chat Widget and PinBoard",
-        "feedbackCollection": "Collect feedback through conversational surveys, improving efficiency for subsequent event optimization"
+        "centralizeMessages": "Centralize multi-platform messages during peak event periods",
+        "autoReply": "Auto-reply with venue, schedule, and ticketing information",
+        "effectiveFlow": "Drive registrations through Chat Widget and PinBoard",
+        "feedbackCollection": "Collect feedback via conversational surveys for event optimization"
       }
     },
     "usage": {
       "title": "Build a clear, real-time, and scalable event communication flow",
-      "description": "PinChat helps event teams provide real-time information, manage large volumes of visitor inquiries, and increase interaction depth at different event stages. From traffic routing to on-site support, to post-event tracking, it effectively enhances participant experience and team efficiency.",
+      "description": "Provide real-time information, manage high-volume inquiries, and deepen interaction at every event stage—from traffic routing to on-site support and post-event tracking.",
       "beforeEvent": {
         "title": "Before Event: Enhance Traffic Effectiveness and Information Clarity",
-        "description": "Use PinBoard multi-link pages to direct to registration pages, important notices, and event introductions; Chat Widget and AI PinBot automatically answer FAQs, reducing customer service burden and improving conversion."
+        "description": "Direct traffic to registration, notices, and introductions with PinBoard; auto-answer FAQs with Chat Widget and AI PinBot."
       },
       "duringEvent": {
         "title": "During Event: Instantly Answer Attendee Needs",
-        "description": "Use AI PinBot to quickly provide venue information, entry procedures, session schedules, and more; human handoff is available when needed, ensuring smooth communication even when large volumes of messages flood in."
+        "description": "Quickly provide venue info, entry procedures, and schedules with AI PinBot; seamless human handoff for complex inquiries."
       },
       "afterEvent": {
         "title": "After Event: Collect Feedback and Drive Follow-up Marketing",
-        "description": "Use conversational surveys to collect feedback; guide users to featured content or next event information through chat entry points, improving retention and engagement."
+        "description": "Collect feedback via surveys; guide users to featured content or next event info through chat to improve retention."
       }
     },
     "benefits": {
       "title": "Enhance Participation Experience and Reduce Operational Pressure",
-      "description": "Whether it's large-scale exhibitions, seminars, promotional events, or online livestreams, PinChat helps event teams achieve higher-quality participant experiences at lower costs, making process management more flexible and scalable.",
+      "description": "Achieve higher-quality participant experiences at lower costs with flexible, scalable process management—from exhibitions and seminars to promotions and livestreams.",
       "reduceBurden": {
         "title": "Reduce Manual Burden and Shorten Response Time",
-        "description": "AI PinBot supports event FAQs and automatic language detection, handling large volumes of repetitive questions and responding instantly, allowing staff to focus on on-site operations."
+        "description": "AI PinBot handles high-volume FAQs with automatic language detection, freeing staff for on-site operations."
       },
       "improveAccessibility": {
         "title": "Improve Event Information Accessibility and Traffic Efficiency",
-        "description": "PinBoard directs to registration and promotional links; Chat Widget maintains website traffic conversion, ensuring participants can access needed information in the shortest time."
+        "description": "Direct traffic to registration and promotional links via PinBoard; maintain website conversion with Chat Widget."
       },
       "expandValue": {
         "title": "Expand Post-Event Value",
-        "description": "Understand attendee needs through survey feedback and chat data, helping teams continuously improve content and advance next-stage event interactions or marketing strategies."
+        "description": "Understand attendee needs via survey feedback and chat data to improve content and drive future interactions."
       }
     },
     "exploreMore": {
@@ -1642,11 +1642,11 @@
       },
       "professionalServices": {
         "title": "PinChat for Professional Services",
-        "description": "Enhance consultation and onboarding experience, helping clients quickly understand service offerings."
+        "description": "Enhance consultation and onboarding to help clients understand service offerings faster."
       },
       "realEstate": {
         "title": "PinChat for Real Estate",
-        "description": "Instantly improve property inquiry efficiency, helping real estate teams quickly provide information."
+        "description": "Improve property inquiry efficiency for faster information delivery."
       }
     },
     "cta": {
@@ -1658,48 +1658,48 @@
     "hero": {
       "breadcrumb": "PinChat for Education",
       "title": "Build more engaging learning interactions",
-      "subtitle": "PinChat creates a smoother learning dialogue space for educational institutions, connecting pre-class preparation, in-class interaction, and post-class Q&A. Students can grasp key points and ask questions anytime, while teachers can respond more efficiently, extend content, and improve overall learning outcomes and engagement.",
+      "subtitle": "Connect pre-class preparation, in-class interaction, and post-class Q&A in one smooth learning space with AI and centralized messaging.",
       "cta": "Start Enhancing Learning Interactions"
     },
     "whyUse": {
       "title": "Why Education Uses PinChat",
       "items": {
-        "amplifyLearning": "Amplify learning exchanges beyond the classroom",
+        "amplifyLearning": "Extend learning exchanges beyond the classroom",
         "centralizeDiscussions": "Centralize student discussions and Q&A",
         "aiFirst": "AI handles repetitive questions first",
-        "continuousTouchpoints": "Create more continuous learning touchpoints"
+        "continuousTouchpoints": "Create continuous learning touchpoints"
       }
     },
     "usage": {
       "title": "Extend learning interactions from pre-class to post-class",
-      "description": "PinChat connects every learning node in a course, from pre-class preparation and in-class Q&A to post-class extended discussions, all conducted in real-time and smoothly. Through AI and centralized message management, teachers can communicate with students more efficiently and create a more immersive learning experience.",
+      "description": "Connect every learning node—from pre-class prep and in-class Q&A to post-class discussions—with AI and centralized messaging for efficient, immersive learning.",
       "beforeClass": {
         "title": "Make pre-class preparation more focused",
-        "description": "Teachers can use PinChat to push key reminders, and students can quickly ask about material sources, preparation focus, or concepts they don't understand, ensuring smoother content connection in class."
+        "description": "Push key reminders and answer student questions about materials, preparation focus, and unclear concepts for smoother in-class connections."
       },
       "duringClass": {
         "title": "Uninterrupted Q&A inside and outside the classroom",
-        "description": "Students can ask questions at any time, with AI first assisting in answering common course information, and teachers then supplementing key messages, increasing overall course interaction density."
+        "description": "AI handles common course questions first; teachers supplement key messages to increase interaction density."
       },
       "afterClass": {
         "title": "Make post-class discussions more contextual",
-        "description": "Use tags and search functions to quickly review discussion topics. Teachers can extend explanations after class and guide students to focus on important concepts."
+        "description": "Use tags and search to review topics; teachers extend explanations and guide students to important concepts."
       }
     },
     "benefits": {
       "title": "Create more continuous and proactive learning participation",
-      "description": "PinChat creates multiple interaction touchpoints for courses, making learning no longer limited to class time. Students can participate more proactively, while teachers can invest more energy in the teaching content itself.",
+      "description": "Create multiple interaction touchpoints beyond class time—students participate more proactively while teachers focus on teaching content.",
       "engagement": {
         "title": "Increase student engagement and interaction momentum",
-        "description": "Through instant messaging and cross-platform convenience, students can ask questions more comfortably, reducing communication barriers and increasing overall engagement."
+        "description": "Instant messaging and cross-platform convenience reduce communication barriers and increase engagement."
       },
       "responseSpeed": {
         "title": "Accelerate response speed and enhance course experience",
-        "description": "AI handles basic questions, reducing teachers' time spent on repetitive replies. Students can quickly access information, making the course experience smoother."
+        "description": "AI handles basic questions, freeing teachers from repetitive replies while students access information faster."
       },
       "community": {
         "title": "Build stronger course community sense",
-        "description": "Clear message organization and historical context make course discussions easier to sustain. Students can maintain communication between classes, enhancing overall sense of belonging and engagement."
+        "description": "Clear message organization and history sustain course discussions and maintain communication between classes."
       }
     },
     "exploreMore": {
@@ -1726,48 +1726,48 @@
     "hero": {
       "breadcrumb": "PinChat for Healthcare",
       "title": "Make health service communication faster and better",
-      "subtitle": "PinChat helps the healthcare industry create instant, professional, and highly efficient communication experiences. From course introductions and program explanations to common Q&A, through AI and cross-platform integration, teams save time and users feel more at ease.",
+      "subtitle": "Create instant, professional healthcare communication with AI-powered Q&A, course introductions, and cross-platform integration.",
       "cta": "Upgrade Communication Efficiency Now"
     },
     "whyUse": {
       "title": "Why Healthcare Teams Choose PinChat",
       "items": {
-        "reduceBurden": "Reduce response burden and shorten user wait times",
-        "aiInfo": "AI automatically provides health education and wellness program information",
-        "multilingual": "Cross-language support to expand serviceable populations",
-        "focusOnValue": "Enable teams to focus on higher-value professional services"
+        "reduceBurden": "Reduce response burden and shorten wait times",
+        "aiInfo": "AI provides health education and wellness program information",
+        "multilingual": "Cross-language support expands serviceable populations",
+        "focusOnValue": "Focus teams on higher-value professional services"
       }
     },
     "usage": {
       "title": "Build more effective health communication workflows",
-      "description": "Whether you're a clinic, fitness brand, nutritionist, mental health counselor, or wellness center, PinChat can help you improve consultation conversion, optimize course guidance, provide instant service information, and gain deeper insights into user needs through surveys, comprehensively enhancing interaction quality and brand experience.",
+      "description": "Improve consultation conversion, optimize course guidance, provide instant service information, and gain deeper user insights—for clinics, fitness brands, nutritionists, counselors, and wellness centers.",
       "step1": {
         "title": "Provide instant information and program introductions",
-        "description": "AI Bot instantly responds to health education content, course introductions, and wellness program information, helping your brand quickly demonstrate professionalism while reducing the time your team spends handling repetitive questions."
+        "description": "AI Bot instantly responds to health education, course introductions, and wellness programs—demonstrating professionalism while reducing repetitive handling."
       },
       "step2": {
         "title": "Integrate all user message sources",
-        "description": "Centralize management of message sources from LINE, Messenger, WhatsApp, and website chat, allowing your team to easily manage all conversations and provide consistent, uninterrupted service experiences."
+        "description": "Centralize LINE, Messenger, WhatsApp, and website chat for easy conversation management and consistent service."
       },
       "step3": {
         "title": "Collect more complete needs and intentions",
-        "description": "Use conversational surveys to collect user needs, course intentions, and experience feedback, helping brands make more accurate service adjustments and follow-up guidance, improving overall interaction effectiveness."
+        "description": "Collect user needs, course intentions, and feedback via conversational surveys for accurate service adjustments and follow-up."
       }
     },
     "benefits": {
       "title": "Amplify service efficiency and create better health experiences",
-      "description": "Through AI, automation, and message integration, PinChat helps the healthcare industry provide more instant, smooth, and professional interactions. You'll significantly reduce administrative costs while building more consistent and trustworthy brand communication.",
+      "description": "AI, automation, and message integration enable instant, smooth, professional interactions—reducing administrative costs while building consistent, trustworthy communication.",
       "benefit1": {
         "title": "Easily handle high-frequency repetitive questions",
-        "description": "AI can quickly respond to common questions, freeing your team from extensive administrative work and allowing them to invest time in more important user interactions."
+        "description": "AI quickly responds to common questions, freeing your team for more important user interactions."
       },
       "benefit2": {
         "title": "Strengthen brand professionalism and consistency",
-        "description": "Through standardized responses and cross-language support, provide more consistent and trustworthy interaction experiences, making brand value more visible."
+        "description": "Standardized responses and cross-language support provide consistent, trustworthy interactions."
       },
       "benefit3": {
         "title": "Improve course conversion and interaction efficiency",
-        "description": "Integrate chat, surveys, and traffic routing tools to help you more efficiently drive course registrations, track intentions, and improve overall interaction effectiveness."
+        "description": "Integrate chat, surveys, and traffic routing to drive registrations, track intentions, and improve effectiveness."
       }
     },
     "exploreMore": {
@@ -1778,7 +1778,7 @@
       },
       "education": {
         "title": "PinChat for Education",
-        "description": "Streamline student and parent communication both inside and outside the classroom."
+        "description": "Streamline student and parent communication inside and outside the classroom."
       },
       "events": {
         "title": "PinChat for Events",
@@ -1794,59 +1794,59 @@
     "hero": {
       "breadcrumb": "PinChat for B2B",
       "title": "Enhance Business Communication Efficiency",
-      "subtitle": "Facing repeated inquiries about specifications, MOQ, pricing tiers, and more, PinChat helps B2B teams integrate multi-platform messages, build controllable AI FAQs, and make negotiation progress clearer through tags and folders, enabling your team to respond to customers faster and more consistently, shortening business turnaround time.",
+      "subtitle": "Integrate multi-platform messages, build controllable AI FAQs, and track negotiation progress with tags and folders—for faster, more consistent responses.",
       "cta": "Get Started with PinChat"
     },
     "whyUse": {
       "title": "Why B2B Use PinChat",
       "items": {
         "centralizeMessages": "Centralize cross-platform business messages",
-        "aiQuickReply": "AI quickly replies to common specification and pricing inquiries",
-        "tagsFolders": "Tags and folders enhance business case organization",
-        "multilingual": "Support multilingual message recognition and translation"
+        "aiQuickReply": "AI handles common specification and pricing inquiries",
+        "tagsFolders": "Tags and folders organize business cases",
+        "multilingual": "Multilingual message recognition and translation"
       }
     },
     "usage": {
       "title": "Make Business Conversations Clearer and More Consistent",
-      "description": "B2B business exchanges often involve multi-person collaboration, specification confirmation, repeated inquiries, and cross-language clients. PinChat provides controllable AI responses, multi-platform integration, and better conversation management capabilities to help teams handle each negotiation more efficiently.",
+      "description": "Handle multi-person collaboration, specification confirmation, repeated inquiries, and cross-language clients with AI responses, multi-platform integration, and better conversation management.",
       "centralizeConversations": {
         "title": "Centralize All Business Conversations",
-        "description": "Integrate LINE, Messenger, WhatsApp, and website visitor messages into a single inbox to avoid message fragmentation and improve the business team's grasp of negotiation progress."
+        "description": "Integrate LINE, Messenger, WhatsApp, and website messages in one inbox to avoid fragmentation and improve negotiation tracking."
       },
       "aiReply": {
         "title": "Use AI to Reply to Repetitive Inquiries",
-        "description": "AI PinBot can reply to common questions based on your product data settings, such as MOQ, basic specifications, materials, delivery time explanations, etc., reducing the burden on sales staff handling repetitive Q&A."
+        "description": "AI PinBot handles common questions like MOQ, specifications, materials, and delivery times based on product data settings."
       },
       "tagsFolders": {
         "title": "Manage Customer Classification with Tags and Folders",
-        "description": "Use tags to mark customer needs, negotiation stages, or product types, combined with folders to organize conversations, enabling teams to find important messages more quickly."
+        "description": "Mark customer needs, negotiation stages, or product types with tags; organize conversations with folders for quick access."
       }
     },
     "benefits": {
       "title": "Accelerate Business Communication, Shorten Negotiation Cycles",
-      "description": "PinChat not only helps reduce the time spent on repeated Q&A but also enables teams to divide work more effectively and grasp every business conversation, making decisions faster and collaboration smoother.",
+      "description": "Reduce time on repeated Q&A, divide work effectively, and grasp every business conversation for faster decisions and smoother collaboration.",
       "fasterResponse": {
         "title": "Shorten Response Time, Improve Conversion Efficiency",
-        "description": "The mode of AI and human support ensures customer questions can be handled quickly, reducing business opportunities lost due to waiting."
+        "description": "AI and human support handle customer questions quickly, reducing opportunities lost to waiting."
       },
       "teamCollaboration": {
         "title": "Make Team Collaboration Easier",
-        "description": "Through folders and tags organizing customer topics, team members can quickly take over conversations and grasp context, making collaboration smoother."
+        "description": "Folders and tags help team members quickly take over conversations and grasp context."
       },
       "multilingual": {
         "title": "Cross-Language Communication is No Longer a Barrier",
-        "description": "AI automatically detects multilingual messages and supports translation, helping you maintain consistent and clear business communication quality with overseas clients."
+        "description": "AI detects multilingual messages and supports translation for consistent, clear overseas communication."
       }
     },
     "exploreMore": {
       "title": "Explore more ways to use PinChat",
       "professionalServices": {
         "title": "PinChat for Professional Services",
-        "description": "Enhance consultation and onboarding experience, helping clients quickly understand service offerings."
+        "description": "Enhance consultation and onboarding to help clients understand service offerings faster."
       },
       "realEstate": {
         "title": "PinChat for Real Estate",
-        "description": "Instantly improve property inquiry efficiency, helping real estate teams quickly provide information."
+        "description": "Improve property inquiry efficiency for faster information delivery."
       },
       "events": {
         "title": "PinChat for Events",
@@ -1862,48 +1862,48 @@
     "hero": {
       "breadcrumb": "PinChat for Professional Services",
       "title": "Enhance consultation and onboarding experience",
-      "subtitle": "Professional service teams face high volumes of initial consultations, pricing inquiries, and process guidance needs. PinChat helps teams centralize messages and standardize responses, guiding clients to quickly understand service offerings while saving teams significant administrative time, allowing them to focus on analysis and consultation work that truly requires professional judgment.",
+      "subtitle": "Centralize messages, standardize responses, and guide clients through service offerings with AI—freeing your team for work requiring professional judgment.",
       "cta": "Get Started with PinChat"
     },
     "whyUse": {
       "title": "Why Professional Service Teams Choose PinChat",
       "items": {
-        "centralizeInquiries": "Centralize multi-platform initial client consultations",
-        "aiReply": "AI replies to administrative questions reduce repetitive workload",
-        "consistentInfo": "Provide consistent and clear service and pricing introductions",
-        "trackOnboarding": "Help track client onboarding progress and status"
+        "centralizeInquiries": "Centralize multi-platform client consultations",
+        "aiReply": "AI handles administrative questions, reducing repetitive workload",
+        "consistentInfo": "Deliver consistent service and pricing information",
+        "trackOnboarding": "Track client onboarding progress and status"
       }
     },
     "usage": {
       "title": "Help clients smoothly understand services and enter the collaboration process",
-      "description": "In professional services, the clarity of initial consultations and speed of information access directly impact clients' understanding and trust in services. PinChat helps teams guide clients to understand pricing, service content, and processes through integrated message sources and configurable standardized responses, reducing communication gaps and enhancing onboarding experience.",
+      "description": "Guide clients through pricing, service content, and processes with integrated messages and standardized responses—reducing communication gaps and enhancing onboarding.",
       "quickReply": {
         "title": "Quickly reply to pricing and collaboration processes",
-        "description": "AI PinBot replies to common administrative questions based on pre-configured FAQs, such as billing methods, service scope, required documents, and consultation processes, enabling clients to immediately access core information."
+        "description": "AI PinBot handles billing methods, service scope, required documents, and consultation processes based on pre-configured FAQs."
       },
       "consistentService": {
         "title": "Provide consistent service introductions and standardized content",
-        "description": "Use preset replies, card messages, or FAQs to standardize service descriptions, avoiding different team members providing different versions of information, ensuring clients receive consistent and complete understanding."
+        "description": "Use preset replies and FAQs to standardize service descriptions across team members for consistent client understanding."
       },
       "centralizeMessages": {
         "title": "Centralize message management and clearly categorize client status",
-        "description": "Integrate LINE, Messenger, WhatsApp, and website consultations into a single interface, and use tags or folders to distinguish different onboarding stages, making it easy for teams to quickly track each client's progress."
+        "description": "Integrate LINE, Messenger, WhatsApp, and website consultations; use tags and folders to track onboarding stages."
       }
     },
     "benefits": {
       "title": "Improve onboarding efficiency and focus on high-value services",
-      "description": "PinChat reduces time spent on repetitive communication and information provision, enabling professional teams to focus on professional work that truly requires strategy, analysis, or judgment, while helping clients understand services faster and smoothly begin collaboration.",
+      "description": "Reduce time on repetitive communication to focus on strategy, analysis, and judgment—while helping clients understand services faster.",
       "improveResponse": {
         "title": "Improve initial consultation response quality and speed",
-        "description": "AI and preset replies help provide clear answers, accelerating client understanding and reducing response wait times."
+        "description": "AI and preset replies provide clear answers, accelerating client understanding."
       },
       "enhanceTrust": {
         "title": "Strengthen service transparency and client trust",
-        "description": "Standardized pricing, processes, and service descriptions enable clients to grasp the full picture before collaboration, improving decision-making efficiency."
+        "description": "Standardized pricing and processes help clients grasp the full picture before collaboration."
       },
       "reduceCosts": {
         "title": "Reduce team administrative and information repetition costs",
-        "description": "Reduce repetitive question handling and platform switching, enabling teams to invest more time in high-value consultation services."
+        "description": "Minimize repetitive handling and platform switching for more high-value consultation time."
       }
     },
     "exploreMore": {
@@ -1914,7 +1914,7 @@
       },
       "realEstate": {
         "title": "PinChat for Real Estate",
-        "description": "Instantly improve property inquiry efficiency, helping real estate teams quickly provide information."
+        "description": "Improve property inquiry efficiency for faster information delivery."
       },
       "events": {
         "title": "PinChat for Events",
