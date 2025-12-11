@@ -21,6 +21,7 @@ import SubAccount from "./pages/features/SubAccount";
 import Pricing from "./pages/Pricing";
 
 // Solution Pages
+import InAppCustomerService from "./pages/solutions/InAppCustomerService";
 import MultichannelMessagingHub from "./pages/solutions/MultichannelMessagingHub";
 import AICustomerServiceBot from "./pages/solutions/AICustomerServiceBot";
 import LeadCaptureSurveys from "./pages/solutions/LeadCaptureSurveys";
@@ -67,6 +68,7 @@ const App = () => (
           <Route path="/features/sub-account" element={<SubAccount />} />
           
           {/* Solution Routes */}
+          <Route path="/solutions/in-app-customer-service" element={<InAppCustomerService />} />
           <Route path="/solutions/multichannel-messaging-hub" element={<MultichannelMessagingHub />} />
           <Route path="/solutions/ai-customer-service-bot" element={<AICustomerServiceBot />} />
           <Route path="/solutions/lead-capture-surveys" element={<LeadCaptureSurveys />} />

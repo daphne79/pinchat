@@ -779,11 +779,95 @@
     }
   },
   "solutions": {
+    "inAppCustomerService": "In-App Customer Service",
     "aiCustomerService": "AI Customer Service Bot",
     "chatroomTeamManagement": "Chatroom Team Management",
     "customerFeedbackAnalytics": "Customer Feedback Analytics",
     "leadCaptureSurveys": "Lead Capture Surveys",
     "multichannelMessaging": "Multichannel Messaging Hub",
+    "inAppCustomerServicePage": {
+      "hero": {
+        "breadcrumb": "PinChat In-App Customer Service Solution",
+        "title": "Provide Real-Time Customer Support in Your App",
+        "subtitle": "Seamlessly integrate customer service workflows into your app, allowing users to initiate conversations and receive assistance directly during their operations. With PinChat, eliminate native development costs and quickly create a consistent, smooth in-app customer service experience.",
+        "cta": "Enable Customer Service"
+      },
+      "challenges": {
+        "title": "Challenges of In-App Customer Service",
+        "items": {
+          "highCost": "Building a custom customer service system requires significant engineering and maintenance costs",
+          "inconsistent": "Cross-platform customer service experiences are often inconsistent and difficult to unify",
+          "userLoss": "Users need to leave the app to contact support, leading to drop-offs",
+          "scatteredMessages": "Messages scattered across multiple platforms make it difficult to track conversation history"
+        }
+      },
+      "howPinChatHelps": {
+        "title": "How PinChat Helps",
+        "description": "PinChat helps businesses quickly integrate in-app customer service workflows, launching conversations through embedded integration and unifying cross-platform messages with AI automation, reducing development and maintenance costs while providing a consistent and scalable customer service experience.",
+        "quickLaunch": {
+          "title": "Quickly Launch Customer Service in Your App",
+          "description": "Embed PinChat directly into your app without native development, providing complete customer service chat functionality including messages, media, annotations, and other interactive capabilities."
+        },
+        "enhanceUX": {
+          "title": "Enhance In-App User Experience",
+          "description": "Users can receive immediate assistance during their workflow without leaving the app, effectively improving problem resolution speed and overall user experience."
+        },
+        "pushNotification": {
+          "title": "Boost Return Rates with Push Notifications",
+          "description": "Businesses can use their app's push notification system to guide users back to customer service conversations, strengthening interaction completion rates at key touchpoints."
+        }
+      },
+      "benefits": {
+        "title": "Benefits of Using PinChat",
+        "description": "PinChat helps businesses centrally manage all in-app customer service messages, improve customer service efficiency through automation and workflow tools, reduce development costs, while providing users with a smoother and more reliable in-app communication experience.",
+        "reduceBurden": {
+          "title": "Reduce System Development and Maintenance Burden",
+          "description": "Businesses don't need to invest significant resources in building custom customer service systems. A single integration provides ongoing access to PinChat updates and feature expansions."
+        },
+        "improveSatisfaction": {
+          "title": "Improve Customer Satisfaction and Retention",
+          "description": "Provide a smooth in-app customer service experience, enabling users to receive immediate assistance when encountering issues, reducing churn and improving overall satisfaction."
+        },
+        "centralizedManagement": {
+          "title": "Centrally Manage All Customer Service Messages",
+          "description": "In-app messages can be centrally managed, categorized, and searched in the PinChat backend, making it easier for customer service teams to manage workload and user history."
+        }
+      },
+      "recommendedFeatures": {
+        "title": "Recommended Features",
+        "aiAutoReply": {
+          "title": "AI Auto Reply",
+          "description": "Use AI to reply to common questions with multi-language recognition support, reducing manual workload and enhancing in-app customer service response speed."
+        },
+        "chatroomManagement": {
+          "title": "Chatroom Management",
+          "description": "Organize large volumes of customer service messages with tags and folders, helping teams quickly find conversations that need attention."
+        },
+        "conversationalSurvey": {
+          "title": "Conversational Surveys",
+          "description": "Collect user information or feedback through conversational interactions for lead generation, needs analysis, or subsequent marketing applications."
+        }
+      },
+      "exploreUseCases": {
+        "title": "Explore Other Use Cases",
+        "customerServiceAutomation": {
+          "title": "Customer Service Automation",
+          "description": "Use AI to automatically reply to common questions with human handoff support, improving customer service processing efficiency."
+        },
+        "messageIntegration": {
+          "title": "Message Integration Management",
+          "description": "Integrate messages from your app with LINE, IG, Messenger, and WhatsApp, reducing the need to switch between multiple platforms."
+        },
+        "leadGeneration": {
+          "title": "Lead Generation and Information Collection",
+          "description": "Improve response rates through conversational workflows and collect user information that aids in subsequent analysis and marketing."
+        }
+      },
+      "cta": {
+        "title": "Give Your App a Complete Customer Service Experience",
+        "button": "Get Started with PinChat"
+      }
+    },
     "aiCustomerServicePage": {
       "hero": {
         "breadcrumb": "PinChat Customer Service Automation Solution",

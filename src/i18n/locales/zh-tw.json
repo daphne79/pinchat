@@ -779,11 +779,95 @@
     }
   },
   "solutions": {
+    "inAppCustomerService": "App 內客服解決方案",
     "aiCustomerService": "AI 客戶服務機器人",
     "chatroomTeamManagement": "聊天室團隊管理",
     "customerFeedbackAnalytics": "客戶回饋分析",
     "leadCaptureSurveys": "潛在客戶調查",
     "multichannelMessaging": "多渠道訊息中心",
+    "inAppCustomerServicePage": {
+      "hero": {
+        "breadcrumb": "PinChat App 內客服解決方案",
+        "title": "在 App 中提供即時客服支援",
+        "subtitle": "將客服流程無縫導入 App，使用者可在操作過程中直接啟動對話並獲得協助。透過 PinChat 免去原生開發成本，快速打造一致、流暢的 App 內客服體驗。",
+        "cta": "開始啟用客服"
+      },
+      "challenges": {
+        "title": "App 內客服的挑戰",
+        "items": {
+          "highCost": "自建客服系統需投入大量工程與維運成本",
+          "inconsistent": "跨平台客服體驗容易不一致、難以統整",
+          "userLoss": "使用者需離開 App 才能聯繫客服造成流失",
+          "scatteredMessages": "訊息分散於多平台，難以追蹤對話紀錄"
+        }
+      },
+      "howPinChatHelps": {
+        "title": "PinChat 如何協助",
+        "description": "PinChat 協助企業快速導入 App 內客服流程，以內嵌方式啟動對話並整合跨平台訊息與 AI 自動化，降低開發與維運成本，同時提供一致且可延展的客服體驗。",
+        "quickLaunch": {
+          "title": "快速在 App 中啟動客服",
+          "description": "透過內嵌方式將 PinChat 直接開啟於 App 中，不需原生開發即可提供完整客服聊天功能，包含訊息、媒體、標註等互動能力。"
+        },
+        "enhanceUX": {
+          "title": "提升 App 內使用者體驗",
+          "description": "使用者可在操作流程中即時獲得協助，無需跳轉至外部平台，有效提升問題解決速度與整體操作體驗。"
+        },
+        "pushNotification": {
+          "title": "可搭配推播強化回訪率",
+          "description": "企業可使用自身 App 的推播系統引導使用者回到客服對話，強化關鍵節點的互動完成率。"
+        }
+      },
+      "benefits": {
+        "title": "使用 PinChat 的效益",
+        "description": "PinChat 幫助企業集中管理所有 App 內客服訊息，並透過自動化與流程工具提升客服效率，減少開發成本，同時讓使用者享有更順暢、更可靠的 App 內溝通體驗。",
+        "reduceBurden": {
+          "title": "降低系統開發與維護負擔",
+          "description": "企業不需投入大量資源自建客服系統，單次整合即可持續享有 PinChat 的更新與功能擴充。"
+        },
+        "improveSatisfaction": {
+          "title": "提升客戶滿意度與留存",
+          "description": "提供流暢的 App 內客服體驗，使使用者在遇到問題時能立即獲得協助，降低流失率並提升整體滿意度。"
+        },
+        "centralizedManagement": {
+          "title": "集中管理所有客服訊息",
+          "description": "App 內訊息可於 PinChat 後台統一管理、分類與搜尋，使客服團隊更容易掌控工作量與使用者歷史。"
+        }
+      },
+      "recommendedFeatures": {
+        "title": "推薦相關功能",
+        "aiAutoReply": {
+          "title": "AI 自動回覆",
+          "description": "以 AI 回覆常見問題並支援多語言辨識，降低人工負擔並強化 App 內的客服回應速度。"
+        },
+        "chatroomManagement": {
+          "title": "聊天室管理",
+          "description": "以標籤與資料夾整理大量客服訊息，協助團隊快速找到需要處理的對話。"
+        },
+        "conversationalSurvey": {
+          "title": "對話式問卷",
+          "description": "透過對話式互動蒐集使用者資訊或意見，用於導流、需求分析或後續行銷應用。"
+        }
+      },
+      "exploreUseCases": {
+        "title": "探索其他使用情境",
+        "customerServiceAutomation": {
+          "title": "客服自動化",
+          "description": "以 AI 自動回覆常見問題並支援人工接手，提高客服處理效率。"
+        },
+        "messageIntegration": {
+          "title": "訊息整合管理",
+          "description": "整合 App 與 LINE／IG／Messenger／WhatsApp 訊息，減少多平台切換。"
+        },
+        "leadGeneration": {
+          "title": "導流與資訊蒐集",
+          "description": "以對話式流程提升填答率，並蒐集有助於後續分析與行銷的使用者資訊。"
+        }
+      },
+      "cta": {
+        "title": "讓 App 擁有完整客服體驗",
+        "button": "開始使用 PinChat"
+      }
+    },
     "aiCustomerServicePage": {
       "hero": {
         "breadcrumb": "PinChat 客服自動化解決方案",

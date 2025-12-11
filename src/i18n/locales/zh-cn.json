@@ -796,13 +796,97 @@
   }
 }
 },
-"solutions": {
-"aiCustomerService": "AI 客户服务机器人",
-"chatroomTeamManagement": "聊天室团队管理",
-"customerFeedbackAnalytics": "客户反馈分析",
-"leadCaptureSurveys": "潜在客户调查",
-"multichannelMessaging": "多渠道消息中心",
-"aiCustomerServicePage": {
+  "solutions": {
+    "inAppCustomerService": "App 内客服解决方案",
+    "aiCustomerService": "AI 客户服务机器人",
+    "chatroomTeamManagement": "聊天室团队管理",
+    "customerFeedbackAnalytics": "客户反馈分析",
+    "leadCaptureSurveys": "潜在客户调查",
+    "multichannelMessaging": "多渠道消息中心",
+    "inAppCustomerServicePage": {
+      "hero": {
+        "breadcrumb": "PinChat App 内客服解决方案",
+        "title": "在 App 中提供即时客服支持",
+        "subtitle": "将客服流程无缝导入 App，用户可在操作过程中直接启动对话并获得协助。通过 PinChat 免去原生开发成本，快速打造一致、流畅的 App 内客服体验。",
+        "cta": "开始启用客服"
+      },
+      "challenges": {
+        "title": "App 内客服的挑战",
+        "items": {
+          "highCost": "自建客服系统需投入大量工程与运维成本",
+          "inconsistent": "跨平台客服体验容易不一致、难以统整",
+          "userLoss": "用户需离开 App 才能联系客服造成流失",
+          "scatteredMessages": "消息分散于多平台，难以追踪对话记录"
+        }
+      },
+      "howPinChatHelps": {
+        "title": "PinChat 如何协助",
+        "description": "PinChat 协助企业快速导入 App 内客服流程，以内嵌方式启动对话并整合跨平台消息与 AI 自动化，降低开发与运维成本，同时提供一致且可延展的客服体验。",
+        "quickLaunch": {
+          "title": "快速在 App 中启动客服",
+          "description": "通过内嵌方式将 PinChat 直接开启于 App 中，不需原生开发即可提供完整客服聊天功能，包含消息、媒体、标注等互动能力。"
+        },
+        "enhanceUX": {
+          "title": "提升 App 内用户体验",
+          "description": "用户可在操作流程中即时获得协助，无需跳转至外部平台，有效提升问题解决速度与整体操作体验。"
+        },
+        "pushNotification": {
+          "title": "可搭配推送强化回访率",
+          "description": "企业可使用自身 App 的推送系统引导用户回到客服对话，强化关键节点的互动完成率。"
+        }
+      },
+      "benefits": {
+        "title": "使用 PinChat 的效益",
+        "description": "PinChat 帮助企业集中管理所有 App 内客服消息，并通过自动化与流程工具提升客服效率，减少开发成本，同时让用户享有更顺畅、更可靠的 App 内沟通体验。",
+        "reduceBurden": {
+          "title": "降低系统开发与维护负担",
+          "description": "企业不需投入大量资源自建客服系统，单次整合即可持续享有 PinChat 的更新与功能扩充。"
+        },
+        "improveSatisfaction": {
+          "title": "提升客户满意度与留存",
+          "description": "提供流畅的 App 内客服体验，使用户在遇到问题时能立即获得协助，降低流失率并提升整体满意度。"
+        },
+        "centralizedManagement": {
+          "title": "集中管理所有客服消息",
+          "description": "App 内消息可于 PinChat 后台统一管理、分类与搜索，使客服团队更容易掌控工作量与用户历史。"
+        }
+      },
+      "recommendedFeatures": {
+        "title": "推荐相关功能",
+        "aiAutoReply": {
+          "title": "AI 自动回复",
+          "description": "以 AI 回复常见问题并支持多语言识别，降低人工负担并强化 App 内的客服响应速度。"
+        },
+        "chatroomManagement": {
+          "title": "聊天室管理",
+          "description": "以标签与文件夹整理大量客服消息，协助团队快速找到需要处理的对话。"
+        },
+        "conversationalSurvey": {
+          "title": "对话式问卷",
+          "description": "通过对话式互动收集用户信息或意见，用于导流、需求分析或后续营销应用。"
+        }
+      },
+      "exploreUseCases": {
+        "title": "探索其他使用情境",
+        "customerServiceAutomation": {
+          "title": "客服自动化",
+          "description": "以 AI 自动回复常见问题并支持人工接手，提高客服处理效率。"
+        },
+        "messageIntegration": {
+          "title": "消息整合管理",
+          "description": "整合 App 与 LINE／IG／Messenger／WhatsApp 消息，减少多平台切换。"
+        },
+        "leadGeneration": {
+          "title": "导流与信息收集",
+          "description": "以对话式流程提升填答率，并收集有助于后续分析与营销的用户信息。"
+        }
+      },
+      "cta": {
+        "title": "让 App 拥有完整客服体验",
+        "button": "开始使用 PinChat"
+      }
+    },
+    "aiCustomerServicePage": {
   "hero": {
     "breadcrumb": "PinChat 客服自动化解决方案",
     "title": "用 AI 打造高效率客服",

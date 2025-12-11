@@ -168,6 +168,11 @@ const FeatureNavigation = () => {
                         <h3 className="text-xs font-medium text-muted-foreground mb-2 block">{tFixed('nav.useCase')}</h3>
                         <div className="grid gap-2">
                           <NavigationMenuLink asChild>
+                            <Link to="/solutions/in-app-customer-service" className="block rounded-md p-3 hover:bg-accent hover:text-accent-foreground transition-colors">
+                              <div className="font-medium text-sm">{tFixed('solutions.inAppCustomerService')}</div>
+                            </Link>
+                          </NavigationMenuLink>
+                          <NavigationMenuLink asChild>
                             <Link to="/solutions/ai-customer-service-bot" className="block rounded-md p-3 hover:bg-accent hover:text-accent-foreground transition-colors">
                               <div className="font-medium text-sm">{tFixed('solutions.aiCustomerService')}</div>
                             </Link>
@@ -284,6 +289,9 @@ const FeatureNavigation = () => {
                     </div>
                     <div>
                       <span className="text-xs font-medium text-muted-foreground mb-2 block">{tFixed('nav.useCase')}</span>
+                      <Link to="/solutions/in-app-customer-service" className="block rounded-md p-2 hover:bg-accent hover:text-accent-foreground transition-colors">
+                        {tFixed('solutions.inAppCustomerService')}
+                      </Link>
                       <Link to="/solutions/ai-customer-service-bot" className="block rounded-md p-2 hover:bg-accent hover:text-accent-foreground transition-colors">
                         {tFixed('solutions.aiCustomerService')}
                       </Link>
