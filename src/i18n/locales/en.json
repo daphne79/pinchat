@@ -68,7 +68,7 @@
       "exploreFeatures": {
         "title": "Explore Other Features",
         "aiPinBot": {
-          "title": "AI PinBot Automated Customer Service",
+          "title": "AI Chatbot Automated Customer Service",
           "description": "Answer common questions, support multiple languages, and seamlessly hand off to human agents, letting teams focus on complex needs."
         },
         "chatWidget": {
@@ -76,7 +76,7 @@
           "description": "Quickly embed a draggable, customizable chat interface on your website to boost visitor engagement and conversion efficiency."
         },
         "pinBoard": {
-          "title": "PinBoard Multi-Link Marketing Page",
+          "title": "Welcome Page Multi-Link Marketing",
           "description": "Create a multi-link page for traffic routing and brand information display, with chat entry points to enhance customer interaction."
         }
       },
@@ -144,7 +144,7 @@
           "description": "Embed chat directly into your website"
         },
         "aiPinbot": {
-          "title": "AI PinBot",
+          "title": "AI Chatbot",
           "description": "Automate conversations with AI assistance"
         }
       },
@@ -168,7 +168,7 @@
           "description": "Let all chat interfaces fully reflect your brand personality, creating a more consistent and trustworthy interaction experience.",
           "benefits": {
             "customize": "Customize primary colors, fonts, and UI details",
-            "apply": "Apply to Chat, Widget, and PinBoard",
+            "apply": "Apply to Chat, Widget, and Welcome Page",
             "enhance": "Enhance brand recognition and professional image"
           },
           "imageAlt": "Unified brand visual settings"
@@ -178,7 +178,7 @@
           "description": "Present all interaction pages with your official domain, instantly boosting visitor trust and professionalism.",
           "benefits": {
             "setup": "Quickly set up your brand-exclusive domain",
-            "apply": "Apply to Chat and PinBoard",
+            "apply": "Apply to Chat and Welcome Page",
             "build": "Build a more credible brand experience"
           },
           "imageAlt": "Exclusive domain settings"
@@ -198,7 +198,7 @@
           "description": "Paid plans can completely remove PinChat brand elements, creating a clean, complete, official experience that's exclusively yours.",
           "benefits": {
             "hide": "Hide all PinChat brand text",
-            "apply": "Apply to Chat and PinBoard",
+            "apply": "Apply to Chat and Welcome Page",
             "create": "Create a premium white-label interaction interface"
           },
           "imageAlt": "Remove brand marking settings"
@@ -252,7 +252,7 @@
               }
             },
             "feature3": {
-              "title": "Integrate AI PinBot for 24/7 Auto-Reply",
+              "title": "Integrate AI Chatbot for 24/7 Auto-Reply",
               "description": "AI can instantly answer common questions and hand off to human agents when needed, reducing customer service burden and improving overall response efficiency.",
               "benefits": {
                 "aiResponse": "AI Bot handles common questions instantly",
@@ -294,12 +294,12 @@
           "hero": {
             "title": "Smarter conversations, less workload",
             "subtitle": "Deliver AI-powered chats that respond instantly, hand off to humans when needed, and adapt to your brand across channels.",
-            "cta": "Try AI PinBot",
+            "cta": "Try AI Chatbot",
             "ctaSecondary": "Get Started for Free",
             "imageAlt": "AI chatbot with human handover collaboration"
           },
           "sectionTitle": "Key Features",
-          "sectionSubtitle": "From automated responses to human handoff, AI PinBot provides complete conversational support for your team",
+          "sectionSubtitle": "From automated responses to human handoff, AI Chatbot provides complete conversational support for your team",
           "features": {
             "unifiedKnowledge": {
               "title": "Unified Knowledge Sources",
@@ -344,7 +344,7 @@
           },
           "integrations": {
             "title": "Works Wherever You Chat",
-            "subtitle": "AI PinBot works across LINE, Messenger, Instagram, WhatsApp, and your PinChat web chat — all conversations unified in one place."
+            "subtitle": "AI Chatbot works across LINE, Messenger, Instagram, WhatsApp, and your PinChat web chat — all conversations unified in one place."
           },
           "useCases": {
             "title": "Versatile for All Your Use Cases",
@@ -363,7 +363,7 @@
           },
           "cta": {
             "title": "Empower Your Support Team with AI",
-            "subtitle": "Start using AI PinBot today and deliver faster, smarter, and more human customer experiences.",
+            "subtitle": "Start using AI Chatbot today and deliver faster, smarter, and more human customer experiences.",
             "button": "Try for Free"
           }
         },
@@ -413,7 +413,7 @@
               "description": "Suitable for promotional events and high-traffic scenarios, FAQs can be quickly created and updated.",
               "benefits": {
                 "quickEdit": "FAQs can be quickly edited and maintained in the backend",
-                "integration": "Integrate with PinBoard / Chat Widget as event entry points",
+                "integration": "Integrate with Welcome Page / Chat Widget as event entry points",
                 "reduceLoad": "Reduce repetitive customer service questions during high-traffic periods"
               },
               "imageAlt": "Event-focused FAQ Bot design"
@@ -443,12 +443,12 @@
           "hero": {
             "title": "Your Personalized Link Hub for Customer Engagement",
             "subtitle": "Create a branded, mobile-ready link page that unifies actions, boosts conversions, and drives seamless conversations.",
-            "cta": "Create My PinBoard",
+            "cta": "Create My Welcome Page",
             "ctaSecondary": "Learn More",
-            "imageAlt": "PinBoard personalized link hub interface"
+            "imageAlt": "Welcome Page personalized link hub interface"
           },
           "sectionTitle": "Key Features",
-          "sectionSubtitle": "Everything you need to create a powerful, conversion-focused link page",
+          "sectionSubtitle": "Create a branded, high-conversion link hub that consolidates all key actions and enhances customer engagement",
           "features": {
             "flexibleBrandedLayouts": {
               "title": "Flexible Layout & Branding",
@@ -475,27 +475,27 @@
               "description": "Convert traffic into real conversations with a native chat button that directs every visitor straight into your PinChat inbox for immediate support.",
               "benefits": {
                 "launchInstantChat": "One-tap access to chat in PinChat",
-                "supportAIOrHuman": "Support AI PinBot and human agents",
+                "supportAIOrHuman": "Support AI Chatbot and human agents",
                 "minimizeDropOff": "Reduce drop-off with instant engagement"
               },
-              "imageAlt": "Built-in chat entry button on PinBoard"
+              "imageAlt": "Built-in chat entry button on Welcome Page"
             },
             "insightfulAnalytics": {
               "title": "Traffic & Engagement Insights",
-              "description": "Track visitor behavior, link performance, and engagement metrics to continuously refine your PinBoard and improve conversion outcomes.",
+              "description": "Track visitor behavior, link performance, and engagement metrics to continuously refine your Welcome Page and improve conversion outcomes.",
               "benefits": {
                 "viewLinkEngagement": "Measure link clicks and visitor trends",
                 "identifyHighPerforming": "Identify top-performing content",
                 "makeDataDriven": "Optimize actions with clear insights"
               },
-              "imageAlt": "PinBoard analytics dashboard with engagement metrics"
+              "imageAlt": "Welcome Page analytics dashboard with engagement metrics"
             }
           },
           "useCases": {
             "title": "Versatile for All Your Use Cases",
             "socialMediaBioLink": {
               "title": "Turn Social Followers Into Engaged Customers",
-              "description": "Use PinBoard as your \"link in bio\" to guide users from profiles to chat and key actions instantly."
+              "description": "Use Welcome Page as your \"link in bio\" to guide users from profiles to chat and key actions instantly."
             },
             "campaignLandingPage": {
               "title": "A Quick-Launch Page for Promotions and Events",
@@ -508,7 +508,7 @@
           },
           "cta": {
             "title": "Create a branded link hub in minutes",
-            "button": "Create My PinBoard"
+            "button": "Create My Welcome Page"
           }
         },
         "chatroomManagementPage": {
@@ -519,7 +519,7 @@
             "imageAlt": "Chatroom management interface"
           },
           "sectionTitle": "Key Features",
-          "sectionSubtitle": "Organize conversations efficiently with powerful management tools",
+          "sectionSubtitle": "Centralize all conversations with tags, categories, and search features to help your team handle customer needs more efficiently",
           "features": {
             "chatLabels": {
               "title": "Better Organization with Chat Labels",
@@ -661,7 +661,7 @@
             "imageAlt": "PinChat Analytics dashboard"
           },
           "sectionTitle": "Key Features",
-          "sectionSubtitle": "Complete analytics tools to help you understand service status and continuously optimize",
+          "sectionSubtitle": "Gain deep insights into conversation data and user behavior to understand service performance and continuously optimize your operations",
           "features": {
             "chatInsights": {
               "title": "Chat Volume and Interaction Trends",
@@ -685,13 +685,13 @@
             },
             "linkPerformance": {
               "title": "Button and Link Click Insights",
-              "description": "Link click analysis designed specifically for PinBoard (welcome page), helping you understand the actual traffic performance of each button and quickly adjust traffic strategies.",
+              "description": "Link click analysis designed specifically for Welcome Page, helping you understand the actual traffic performance of each button and quickly adjust traffic strategies.",
               "benefits": {
-                "clickTracking": "Track actual click counts for each button and link on PinBoard",
-                "behaviorAnalysis": "Analyze visitor traffic behavior and preferences within PinBoard",
-                "effectEvaluation": "Evaluate PinBoard button configuration and campaign traffic effectiveness"
+                "clickTracking": "Track actual click counts for each button and link on Welcome Page",
+                "behaviorAnalysis": "Analyze visitor traffic behavior and preferences within Welcome Page",
+                "effectEvaluation": "Evaluate Welcome Page button configuration and campaign traffic effectiveness"
               },
-              "imageAlt": "PinBoard button and link click insights analysis"
+              "imageAlt": "Welcome Page button and link click insights analysis"
             },
             "surveyAnalytics": {
               "title": "Survey Responses and User Feedback",

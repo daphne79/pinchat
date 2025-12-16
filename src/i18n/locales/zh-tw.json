@@ -26,7 +26,7 @@
         "imageAlt": "PinChat 聊天系統介面"
       },
       "keyFeatures": {
-        "title": "核心功能",
+        "title": "主要功能特色",
         "subtitle": "為客服團隊打造的完整聊天解決方案",
         "feature1": {
           "title": "支援一對一與群組聊天",
@@ -68,7 +68,7 @@
       "exploreFeatures": {
         "title": "探索其他功能",
         "aiPinBot": {
-          "title": "AI PinBot 自動化客服助理",
+          "title": "AI 聊天機器人自動化客服",
           "description": "協助回答常見問題、支援多語系並可無縫切換人工接手，讓團隊更專注於複雜需求。"
         },
         "chatWidget": {
@@ -76,7 +76,7 @@
           "description": "在網站上快速嵌入可拖曳、可客製化的聊天介面，提升訪客互動與轉換效率。"
         },
         "pinBoard": {
-          "title": "PinBoard 多連結行銷頁面",
+          "title": "歡迎頁面多連結行銷",
           "description": "打造可導流、可呈現品牌資訊的多連結頁，並加入聊天入口提升顧客互動。"
         }
       },
@@ -161,14 +161,14 @@
         "imageAlt": "品牌自訂設定介面"
       },
       "keyFeatures": {
-        "title": "核心功能",
+        "title": "主要功能特色",
         "subtitle": "完整掌控品牌呈現的每個細節",
         "feature1": {
           "title": "統一品牌視覺",
           "description": "讓所有聊天介面完整呈現品牌個性，打造更一致、可信賴的互動體驗。",
           "benefits": {
             "customize": "自訂主色、字體與 UI 細節",
-            "apply": "套用於 Chat、Widget、PinBoard",
+            "apply": "套用於聊天功能、網頁客服插件、歡迎頁面",
             "enhance": "強化品牌辨識度與專業形象"
           },
           "imageAlt": "統一品牌視覺設定"
@@ -178,7 +178,7 @@
           "description": "以官方網域呈現所有互動頁面，立即提升訪客對品牌的信任感與專業度。",
           "benefits": {
             "setup": "快速設定品牌專屬 domain",
-            "apply": "套用於 Chat 與 PinBoard",
+            "apply": "套用於聊天功能與歡迎頁面",
             "build": "建立更高可信度的品牌體驗"
           },
           "imageAlt": "專屬網域設定"
@@ -198,7 +198,7 @@
           "description": "付費方案可完全移除 PinChat 品牌元素，打造純淨、完整、專屬於你的官方體驗。",
           "benefits": {
             "hide": "隱藏所有 PinChat 品牌字樣",
-            "apply": "套用於 Chat 與 PinBoard",
+            "apply": "套用於聊天功能與歡迎頁面",
             "create": "打造更高級的白標互動介面"
           },
           "imageAlt": "移除品牌標記設定"
@@ -231,7 +231,7 @@
             "cta": "開始使用網頁客服插件"
           },
           "keyFeatures": {
-            "title": "核心功能",
+            "title": "主要功能特色",
             "subtitle": "為網站打造的完整聊天解決方案",
             "feature1": {
               "title": "一行程式碼即可啟用",
@@ -294,12 +294,12 @@
           "hero": {
             "title": "更聰明的對話，更輕鬆的客服體驗",
             "subtitle": "AI 即時回覆、智慧交接、跨平台支援，為你的品牌打造專屬的客服體驗。",
-            "cta": "立即體驗 AI PinBot",
+            "cta": "立即體驗 AI 聊天機器人",
             "ctaSecondary": "免費開始",
             "imageAlt": "AI 聊天機器人與真人客服協作"
           },
           "sectionTitle": "主要功能特色",
-          "sectionSubtitle": "從自動回覆到真人接手，AI PinBot 為你的團隊提供完整的對話解決方案",
+          "sectionSubtitle": "從自動回覆到真人接手，AI 聊天機器人為你的團隊提供完整的對話解決方案",
           "features": {
             "unifiedKnowledge": {
               "title": "統一知識來源",
@@ -344,7 +344,7 @@
           },
           "integrations": {
             "title": "運行於你使用的所有平台",
-            "subtitle": "AI PinBot 可在 LINE、Messenger、Instagram、WhatsApp、以及 PinChat 網頁聊天室上運作，所有訊息集中管理。"
+            "subtitle": "AI 聊天機器人可在 LINE、Messenger、Instagram、WhatsApp、以及 PinChat 網頁聊天室上運作，所有訊息集中管理。"
           },
           "useCases": {
             "title": "適用於真實客服情境",
@@ -363,7 +363,7 @@
           },
           "cta": {
             "title": "讓你的客服團隊更聰明",
-            "subtitle": "立即啟用 AI PinBot，讓品牌服務更即時、更有溫度。",
+            "subtitle": "立即啟用 AI 聊天機器人，讓品牌服務更即時、更有溫度。",
             "button": "立即免費試用"
           }
         },
@@ -413,7 +413,7 @@
               "description": "適合促銷活動與大量訪客情境，FAQ 可快速建立與更新。",
               "benefits": {
                 "quickEdit": "FAQ 可於後台快速編輯與維護",
-                "integration": "搭配 PinBoard／Chat Widget 作為活動入口",
+                "integration": "搭配歡迎頁面／Chat Widget 作為活動入口",
                 "reduceLoad": "減少高流量期間的重複客服問題"
               },
               "imageAlt": "活動專用 FAQ Bot 設計"
@@ -447,8 +447,8 @@
             "ctaSecondary": "了解更多",
             "imageAlt": "歡迎頁面 個人化連結中心介面"
           },
-          "sectionTitle": "核心功能",
-          "sectionSubtitle": "建立強大、以轉換為導向的連結頁面所需的一切",
+          "sectionTitle": "主要功能特色",
+          "sectionSubtitle": "打造品牌化、高轉換的連結中心，整合所有關鍵行動並提升客戶互動",
           "features": {
             "flexibleBrandedLayouts": {
               "title": "靈活版面與品牌設計",
@@ -519,7 +519,7 @@
             "imageAlt": "聊天室管理介面"
           },
           "sectionTitle": "主要功能特色",
-          "sectionSubtitle": "以強大的管理工具有效率地組織對話",
+          "sectionSubtitle": "集中管理所有對話，透過標籤、分類與搜尋功能，讓團隊更有效率地處理客戶需求",
           "features": {
             "chatLabels": {
               "title": "聊天標籤更好分類",
@@ -590,7 +590,7 @@
             "imageAlt": "子帳號管理與團隊協作介面"
           },
           "keyFeatures": {
-            "title": "核心功能",
+            "title": "主要功能特色",
             "subtitle": "完整的團隊協作與權限管理解決方案",
             "feature1": {
               "title": "新增成員更快速、無負擔",
@@ -660,8 +660,8 @@
             "cta": "開始分析成效",
             "imageAlt": "PinChat Analytics 數據分析儀表板"
           },
-          "sectionTitle": "核心功能",
-          "sectionSubtitle": "完整的數據分析工具，協助你掌握服務現況並持續優化",
+          "sectionTitle": "主要功能特色",
+          "sectionSubtitle": "深入洞察對話數據與用戶行為，協助你掌握服務成效並持續優化營運策略",
           "features": {
             "chatInsights": {
               "title": "聊天量與互動趨勢",
@@ -685,13 +685,13 @@
             },
             "linkPerformance": {
               "title": "按鈕與連結點擊洞察",
-              "description": "專為 PinBoard（歡迎頁面）設計的連結點擊分析，協助你掌握每個按鈕的實際導流成效，並快速調整導流策略。",
+              "description": "專為歡迎頁面設計的連結點擊分析，協助你掌握每個按鈕的實際導流成效，並快速調整導流策略。",
               "benefits": {
-                "clickTracking": "追蹤 PinBoard 上各按鈕與連結的實際點擊數",
-                "behaviorAnalysis": "分析訪客在 PinBoard 內的導流行為與偏好",
-                "effectEvaluation": "評估 PinBoard 按鈕配置與活動導流效果"
+                "clickTracking": "追蹤歡迎頁面上各按鈕與連結的實際點擊數",
+                "behaviorAnalysis": "分析訪客在歡迎頁面內的導流行為與偏好",
+                "effectEvaluation": "評估歡迎頁面按鈕配置與活動導流效果"
               },
-              "imageAlt": "PinBoard 按鈕與連結點擊洞察分析"
+              "imageAlt": "歡迎頁面按鈕與連結點擊洞察分析"
             },
             "surveyAnalytics": {
               "title": "問卷回覆與使用者意見",
@@ -919,7 +919,7 @@
       "recommendedFeatures": {
         "title": "推薦相關功能",
         "aiPinBot": {
-          "title": "AI PinBot",
+          "title": "AI 聊天機器人",
           "description": "智慧回覆常見問題、支援多語偵測與人工接手，是客服自動化的核心能力。"
         },
         "chatroomManagement": {
