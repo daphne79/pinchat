@@ -36,7 +36,7 @@ const AIPinBot = () => {
                 <img 
                   src={getAssetPath("/lovable-uploads/ai-customer-service-bot-hero.png")} 
                   alt={t('features.aiPinbotPage.hero.imageAlt')} 
-                  className="max-h-full max-w-full object-contain rounded-lg shadow-lg" 
+                  className="max-h-full max-w-full object-contain" 
                 />
               </div>
             </div>
@@ -58,7 +58,7 @@ const AIPinBot = () => {
           {/* Feature 1: Unified Knowledge Sources - Text Left, Visual Right */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center mb-32 animate-fade-in">
             <div className="order-2 lg:order-1">
-              <div className="w-14 h-14 bg-[#02B13F]/10 rounded-2xl flex items-center justify-center mb-6">
+              <div className="w-14 h-14 bg-[#02B13F]/10 flex items-center justify-center mb-6">
                 <FileText className="w-7 h-7 text-[#02B13F]" />
               </div>
               <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold mb-4">
@@ -86,7 +86,7 @@ const AIPinBot = () => {
               <img 
                 src={getAssetPath("/lovable-uploads/chat_management.png")} 
                 alt={t('features.aiPinbotPage.features.unifiedKnowledge.imageAlt')} 
-                className="w-full rounded-2xl shadow-xl"
+                className="w-full"
               />
             </div>
           </div>
@@ -94,7 +94,7 @@ const AIPinBot = () => {
           {/* Feature 2: Smart FAQ Automation - Text Right, Visual Left */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center mb-32 animate-fade-in">
             <div className="order-2">
-              <div className="w-14 h-14 bg-[#02B13F]/10 rounded-2xl flex items-center justify-center mb-6">
+              <div className="w-14 h-14 bg-[#02B13F]/10 flex items-center justify-center mb-6">
                 <Bot className="w-7 h-7 text-[#02B13F]" />
               </div>
               <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold mb-4">
@@ -122,7 +122,7 @@ const AIPinBot = () => {
               <img 
                 src={getAssetPath("/lovable-uploads/chatroom-team-management-hero.png")} 
                 alt={t('features.aiPinbotPage.features.smartFAQ.imageAlt')} 
-                className="w-full rounded-2xl shadow-xl"
+                className="w-full"
               />
             </div>
           </div>
@@ -130,7 +130,7 @@ const AIPinBot = () => {
           {/* Feature 3: Context-Aware AI Memory - Text Left, Visual Right */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center mb-32 animate-fade-in">
             <div className="order-2 lg:order-1">
-              <div className="w-14 h-14 bg-[#02B13F]/10 rounded-2xl flex items-center justify-center mb-6">
+              <div className="w-14 h-14 bg-[#02B13F]/10 flex items-center justify-center mb-6">
                 <Brain className="w-7 h-7 text-[#02B13F]" />
               </div>
               <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold mb-4">
@@ -158,7 +158,7 @@ const AIPinBot = () => {
               <img 
                 src={getAssetPath("/lovable-uploads/customer-feedback-analytics-hero.png")} 
                 alt={t('features.aiPinbotPage.features.contextAwareMemory.imageAlt')} 
-                className="w-full rounded-2xl shadow-xl"
+                className="w-full"
               />
             </div>
           </div>
@@ -166,7 +166,7 @@ const AIPinBot = () => {
           {/* Feature 4: Seamless Human Handoff - Text Right, Visual Left */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center animate-fade-in">
             <div className="order-2">
-              <div className="w-14 h-14 bg-[#02B13F]/10 rounded-2xl flex items-center justify-center mb-6">
+              <div className="w-14 h-14 bg-[#02B13F]/10 flex items-center justify-center mb-6">
                 <Users className="w-7 h-7 text-[#02B13F]" />
               </div>
               <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold mb-4">
@@ -194,7 +194,7 @@ const AIPinBot = () => {
               <img 
                 src={getAssetPath("/lovable-uploads/lead-capture-survey-hero.png")} 
                 alt={t('features.aiPinbotPage.features.humanHandoff.imageAlt')} 
-                className="w-full rounded-2xl shadow-xl"
+                className="w-full"
               />
             </div>
           </div>
@@ -215,7 +215,7 @@ const AIPinBot = () => {
           <div className="grid grid-cols-2 md:grid-cols-5 gap-8 items-center justify-items-center max-w-4xl mx-auto">
             {['LINE', 'Messenger', 'Instagram', 'WhatsApp', 'Web Chat'].map((platform, idx) => (
               <div key={idx} className="flex flex-col items-center gap-3">
-                <div className="w-20 h-20 bg-muted rounded-2xl flex items-center justify-center">
+                <div className="w-20 h-20 bg-muted flex items-center justify-center">
                   <MessageCircle className="w-10 h-10 text-muted-foreground" />
                 </div>
                 <span className="text-sm font-medium">{platform}</span>

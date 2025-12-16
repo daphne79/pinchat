@@ -34,7 +34,7 @@ const ChatWidget = () => {
                 <img
                   src={getAssetPath("/lovable-uploads/567624dd-5545-4f61-8e0d-86f4513f673d.png")}
                   alt="Chat Widget 介面"
-                  className="max-h-full max-w-full object-contain rounded-lg shadow-lg"
+                  className="max-h-full max-w-full object-contain"
                 />
               </div>
             </div>
@@ -56,7 +56,7 @@ const ChatWidget = () => {
           {/* Feature 1: One Line of Code - Text Left, Visual Right */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center mb-32 animate-fade-in">
             <div className="order-2 lg:order-1">
-              <div className="w-14 h-14 bg-[#02B13F]/10 rounded-2xl flex items-center justify-center mb-6">
+              <div className="w-14 h-14 bg-[#02B13F]/10 flex items-center justify-center mb-6">
                 <Code className="w-7 h-7 text-[#02B13F]" />
               </div>
               <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold mb-4">
@@ -84,7 +84,7 @@ const ChatWidget = () => {
               <img
                 src={getAssetPath("/lovable-uploads/567624dd-5545-4f61-8e0d-86f4513f673d.png")}
                 alt="一行程式碼安裝"
-                className="w-full rounded-2xl shadow-xl"
+                className="w-full"
               />
             </div>
           </div>
@@ -92,7 +92,7 @@ const ChatWidget = () => {
           {/* Feature 2: Full Customization - Text Right, Visual Left */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center mb-32 animate-fade-in">
             <div className="order-2">
-              <div className="w-14 h-14 bg-[#02B13F]/10 rounded-2xl flex items-center justify-center mb-6">
+              <div className="w-14 h-14 bg-[#02B13F]/10 flex items-center justify-center mb-6">
                 <MessageSquare className="w-7 h-7 text-[#02B13F]" />
               </div>
               <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold mb-4">
@@ -120,7 +120,7 @@ const ChatWidget = () => {
               <img
                 src={getAssetPath("/lovable-uploads/80bf9a84-1b53-4ce8-a90d-e35b64f9bede.png")}
                 alt="全面客製化"
-                className="w-full rounded-2xl shadow-xl"
+                className="w-full"
               />
             </div>
           </div>
@@ -128,7 +128,7 @@ const ChatWidget = () => {
           {/* Feature 3: AI Integration - Text Left, Visual Right */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center mb-32 animate-fade-in">
             <div className="order-2 lg:order-1">
-              <div className="w-14 h-14 bg-[#02B13F]/10 rounded-2xl flex items-center justify-center mb-6">
+              <div className="w-14 h-14 bg-[#02B13F]/10 flex items-center justify-center mb-6">
                 <Bot className="w-7 h-7 text-[#02B13F]" />
               </div>
               <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold mb-4">
@@ -156,7 +156,7 @@ const ChatWidget = () => {
               <img
                 src={getAssetPath("/lovable-uploads/9c291ddb-6f79-4def-a631-bacb9ba5ae36.png")}
                 alt="AI PinBot 整合"
-                className="w-full rounded-2xl shadow-xl"
+                className="w-full"
               />
             </div>
           </div>
@@ -164,7 +164,7 @@ const ChatWidget = () => {
           {/* Feature 4: Conversion Optimization - Text Right, Visual Left */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center animate-fade-in">
             <div className="order-2">
-              <div className="w-14 h-14 bg-[#02B13F]/10 rounded-2xl flex items-center justify-center mb-6">
+              <div className="w-14 h-14 bg-[#02B13F]/10 flex items-center justify-center mb-6">
                 <BarChart3 className="w-7 h-7 text-[#02B13F]" />
               </div>
               <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold mb-4">
@@ -192,7 +192,7 @@ const ChatWidget = () => {
               <img
                 src={getAssetPath("/lovable-uploads/8dbcaac0-c9fe-4b49-b27d-23157b741613.png")}
                 alt="提升轉換"
-                className="w-full rounded-2xl shadow-xl"
+                className="w-full"
               />
             </div>
           </div>

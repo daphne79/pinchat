@@ -34,7 +34,7 @@ const SubAccount = () => {
                 <img
                   src={getAssetPath("/lovable-uploads/6ae22272-9807-4c3d-bbae-315dca582a9d.png")}
                   alt={t('features.subAccountPage.hero.imageAlt')}
-                  className="max-h-full max-w-full object-contain rounded-lg shadow-lg"
+                  className="max-h-full max-w-full object-contain"
                 />
               </div>
             </div>
@@ -56,7 +56,7 @@ const SubAccount = () => {
           {/* Feature 1: Quick Member Addition - Text Left, Visual Right */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center mb-32 animate-fade-in">
             <div className="order-2 lg:order-1">
-              <div className="w-14 h-14 bg-[#02B13F]/10 rounded-2xl flex items-center justify-center mb-6">
+              <div className="w-14 h-14 bg-[#02B13F]/10 flex items-center justify-center mb-6">
                 <UserPlus className="w-7 h-7 text-[#02B13F]" />
               </div>
               <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold mb-4">
@@ -84,7 +84,7 @@ const SubAccount = () => {
               <img
                 src={getAssetPath("/lovable-uploads/d1ad25e5-2193-4b5d-878b-bbc0164990b0.png")}
                 alt={t('features.subAccountPage.keyFeatures.feature1.imageAlt')}
-                className="w-full rounded-2xl shadow-xl"
+                className="w-full"
               />
             </div>
           </div>
@@ -92,7 +92,7 @@ const SubAccount = () => {
           {/* Feature 2: Roles and Permissions - Text Right, Visual Left */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center mb-32 animate-fade-in">
             <div className="order-2">
-              <div className="w-14 h-14 bg-[#02B13F]/10 rounded-2xl flex items-center justify-center mb-6">
+              <div className="w-14 h-14 bg-[#02B13F]/10 flex items-center justify-center mb-6">
                 <Shield className="w-7 h-7 text-[#02B13F]" />
               </div>
               <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold mb-4">
@@ -120,7 +120,7 @@ const SubAccount = () => {
               <img
                 src={getAssetPath("/lovable-uploads/63b5db4a-d281-4ef4-9cd3-df8a81abf9c7.png")}
                 alt={t('features.subAccountPage.keyFeatures.feature2.imageAlt')}
-                className="w-full rounded-2xl shadow-xl"
+                className="w-full"
               />
             </div>
           </div>
@@ -128,7 +128,7 @@ const SubAccount = () => {
           {/* Feature 3: Cross-team Support - Text Left, Visual Right */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center mb-32 animate-fade-in">
             <div className="order-2 lg:order-1">
-              <div className="w-14 h-14 bg-[#02B13F]/10 rounded-2xl flex items-center justify-center mb-6">
+              <div className="w-14 h-14 bg-[#02B13F]/10 flex items-center justify-center mb-6">
                 <Users className="w-7 h-7 text-[#02B13F]" />
               </div>
               <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold mb-4">
@@ -156,7 +156,7 @@ const SubAccount = () => {
               <img
                 src={getAssetPath("/lovable-uploads/b6ba0595-a6d8-41b5-a24a-f050e7100d45.png")}
                 alt={t('features.subAccountPage.keyFeatures.feature3.imageAlt')}
-                className="w-full rounded-2xl shadow-xl"
+                className="w-full"
               />
             </div>
           </div>
@@ -164,7 +164,7 @@ const SubAccount = () => {
           {/* Feature 4: Data and Account Security - Text Right, Visual Left */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center animate-fade-in">
             <div className="order-2">
-              <div className="w-14 h-14 bg-[#02B13F]/10 rounded-2xl flex items-center justify-center mb-6">
+              <div className="w-14 h-14 bg-[#02B13F]/10 flex items-center justify-center mb-6">
                 <Lock className="w-7 h-7 text-[#02B13F]" />
               </div>
               <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold mb-4">
@@ -192,7 +192,7 @@ const SubAccount = () => {
               <img
                 src={getAssetPath("/lovable-uploads/6ae22272-9807-4c3d-bbae-315dca582a9d.png")}
                 alt={t('features.subAccountPage.keyFeatures.feature4.imageAlt')}
-                className="w-full rounded-2xl shadow-xl"
+                className="w-full"
               />
             </div>
           </div>

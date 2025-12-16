@@ -35,7 +35,7 @@ const ForHealthcare = () => {
             </div>
           
             {/* Hero Image */}
-            <div className="mt-16 rounded-lg overflow-hidden">
+            <div className="mt-16 overflow-hidden">
               <img 
                 src={getAssetPath("/lovable-uploads/83071566-9a01-4643-a61a-b6e2437b6199.png")} 
                 alt="Healthcare communication interface" 
@@ -119,7 +119,7 @@ const ForHealthcare = () => {
         <section className="py-24 bg-muted/30 px-4 sm:px-6 md:px-8 lg:px-12">
           <div className="container mx-auto">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-              <div className="order-2 lg:order-1 rounded-lg overflow-hidden">
+              <div className="order-2 lg:order-1 overflow-hidden">
                 <img 
                   src={getAssetPath("/lovable-uploads/83071566-9a01-4643-a61a-b6e2437b6199.png")} 
                   alt="Healthcare management dashboard" 
@@ -167,7 +167,7 @@ const ForHealthcare = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
             <Link 
               to="/industries/service-industries" 
-              className="group rounded-lg overflow-hidden border bg-card hover:shadow-lg transition-all duration-300"
+              className="group overflow-hidden border bg-card hover:shadow-lg transition-all duration-300"
             >
               <div className="aspect-video bg-muted overflow-hidden">
                 <img 
@@ -188,7 +188,7 @@ const ForHealthcare = () => {
             
             <Link 
               to="/industries/education" 
-              className="group rounded-lg overflow-hidden border bg-card hover:shadow-lg transition-all duration-300"
+              className="group overflow-hidden border bg-card hover:shadow-lg transition-all duration-300"
             >
               <div className="aspect-video bg-muted overflow-hidden">
                 <img 
@@ -209,7 +209,7 @@ const ForHealthcare = () => {
             
             <Link 
               to="/industries/events" 
-              className="group rounded-lg overflow-hidden border bg-card hover:shadow-lg transition-all duration-300"
+              className="group overflow-hidden border bg-card hover:shadow-lg transition-all duration-300"
             >
               <div className="aspect-video bg-muted overflow-hidden">
                 <img 
@@ -234,7 +234,7 @@ const ForHealthcare = () => {
         {/* Final CTA */}
         <section className="bg-primary/10 py-20 px-4 sm:px-6 md:px-8 lg:px-12">
           <div className="container mx-auto">
-            <div className="max-w-4xl mx-auto rounded-2xl bg-card border p-12 text-center">
+            <div className="max-w-4xl mx-auto bg-card border p-12 text-center">
               <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[48px] font-bold tracking-wide leading-normal lg:leading-[1.2] text-foreground mb-8">
                 {t('healthcare.cta.title')}
               </h2>

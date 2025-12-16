@@ -9,7 +9,10 @@
     "build:dev": "vite build --mode development",
     "lint": "eslint .",
     "preview": "vite preview",
-    "test:i18n": "node scripts/test-i18n.mjs"
+    "test:i18n": "node scripts/test-i18n.mjs",
+    "analyze-images": "node scripts/analyze-images.mjs",
+    "apply-images": "node scripts/apply-image-assignments.mjs",
+    "update-image-config": "node scripts/update-image-config.mjs"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",

@@ -34,7 +34,7 @@ const Analytics = () => {
                 <img 
                   src={getAssetPath("/lovable-uploads/b1acf01e-622e-46d0-be79-527db756bbf9.png")} 
                   alt={t('features.analyticsPage.hero.imageAlt')} 
-                  className="max-h-full max-w-full object-contain rounded-lg shadow-lg" 
+                  className="max-h-full max-w-full object-contain" 
                 />
               </div>
             </div>
@@ -56,7 +56,7 @@ const Analytics = () => {
           {/* Feature 1: 聊天量與互動指標 - Text Left, Visual Right */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center mb-32 animate-fade-in">
             <div className="order-2 lg:order-1">
-              <div className="w-14 h-14 bg-[#02B13F]/10 rounded-2xl flex items-center justify-center mb-6">
+              <div className="w-14 h-14 bg-[#02B13F]/10 flex items-center justify-center mb-6">
                 <BarChart3 className="w-7 h-7 text-[#02B13F]" />
               </div>
               <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold mb-4">
@@ -84,7 +84,7 @@ const Analytics = () => {
               <img 
                 src={getAssetPath("/lovable-uploads/b11af36d-c1ef-4c17-a61b-b399d92b755f.png")} 
                 alt={t('features.analyticsPage.features.chatInsights.imageAlt')} 
-                className="w-full rounded-2xl shadow-xl"
+                className="w-full"
               />
             </div>
           </div>
@@ -92,7 +92,7 @@ const Analytics = () => {
           {/* Feature 2: 訪客屬性與流量概況 - Text Right, Visual Left */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center mb-32 animate-fade-in">
             <div className="order-2">
-              <div className="w-14 h-14 bg-[#02B13F]/10 rounded-2xl flex items-center justify-center mb-6">
+              <div className="w-14 h-14 bg-[#02B13F]/10 flex items-center justify-center mb-6">
                 <Globe className="w-7 h-7 text-[#02B13F]" />
               </div>
               <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold mb-4">
@@ -120,7 +120,7 @@ const Analytics = () => {
               <img 
                 src={getAssetPath("/lovable-uploads/db797c1d-b1f5-4add-a175-18f58f93b1b1.png")} 
                 alt={t('features.analyticsPage.features.trafficSource.imageAlt')} 
-                className="w-full rounded-2xl shadow-xl"
+                className="w-full"
               />
             </div>
           </div>
@@ -128,7 +128,7 @@ const Analytics = () => {
           {/* Feature 3: 連結與導流表現 - Text Left, Visual Right */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center mb-32 animate-fade-in">
             <div className="order-2 lg:order-1">
-              <div className="w-14 h-14 bg-[#02B13F]/10 rounded-2xl flex items-center justify-center mb-6">
+              <div className="w-14 h-14 bg-[#02B13F]/10 flex items-center justify-center mb-6">
                 <Link2 className="w-7 h-7 text-[#02B13F]" />
               </div>
               <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold mb-4">
@@ -156,7 +156,7 @@ const Analytics = () => {
               <img 
                 src={getAssetPath("/lovable-uploads/9cb91d42-3650-4d07-a90f-93eabef1199a.png")} 
                 alt={t('features.analyticsPage.features.linkPerformance.imageAlt')} 
-                className="w-full rounded-2xl shadow-xl"
+                className="w-full"
               />
             </div>
           </div>
@@ -164,7 +164,7 @@ const Analytics = () => {
           {/* Feature 4: 問卷回覆與滿意度洞察 - Text Right, Visual Left */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center animate-fade-in">
             <div className="order-2">
-              <div className="w-14 h-14 bg-[#02B13F]/10 rounded-2xl flex items-center justify-center mb-6">
+              <div className="w-14 h-14 bg-[#02B13F]/10 flex items-center justify-center mb-6">
                 <FileText className="w-7 h-7 text-[#02B13F]" />
               </div>
               <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold mb-4">
@@ -192,7 +192,7 @@ const Analytics = () => {
               <img 
                 src={getAssetPath("/lovable-uploads/b1acf01e-622e-46d0-be79-527db756bbf9.png")} 
                 alt={t('features.analyticsPage.features.surveyAnalytics.imageAlt')} 
-                className="w-full rounded-2xl shadow-xl"
+                className="w-full"
               />
             </div>
           </div>

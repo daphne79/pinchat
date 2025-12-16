@@ -34,7 +34,7 @@ const Branding = () => {
                 <img
                   src={getAssetPath("/lovable-uploads/0f86e706-3c73-418b-828f-4952b0f9ade6.png")}
                   alt={t('features.brandingPage.hero.imageAlt')}
-                  className="max-h-full max-w-full object-contain rounded-lg shadow-lg"
+                  className="max-h-full max-w-full object-contain"
                 />
               </div>
             </div>
@@ -56,7 +56,7 @@ const Branding = () => {
           {/* Feature 1: Brand Appearance - Text Left, Visual Right */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center mb-32 animate-fade-in">
             <div className="order-2 lg:order-1">
-              <div className="w-14 h-14 bg-[#02B13F]/10 rounded-2xl flex items-center justify-center mb-6">
+              <div className="w-14 h-14 bg-[#02B13F]/10 flex items-center justify-center mb-6">
                 <Palette className="w-7 h-7 text-[#02B13F]" />
               </div>
               <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold mb-4">
@@ -84,7 +84,7 @@ const Branding = () => {
               <img
                 src={getAssetPath("/lovable-uploads/dbcc8025-ef88-46dd-80cc-6de6c3dc2e5e.png")}
                 alt={t('features.brandingPage.keyFeatures.feature1.imageAlt')}
-                className="w-full rounded-2xl shadow-xl"
+                className="w-full"
               />
             </div>
           </div>
@@ -92,7 +92,7 @@ const Branding = () => {
           {/* Feature 2: Custom Domain - Text Right, Visual Left */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center mb-32 animate-fade-in">
             <div className="order-2">
-              <div className="w-14 h-14 bg-[#02B13F]/10 rounded-2xl flex items-center justify-center mb-6">
+              <div className="w-14 h-14 bg-[#02B13F]/10 flex items-center justify-center mb-6">
                 <Globe className="w-7 h-7 text-[#02B13F]" />
               </div>
               <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold mb-4">
@@ -120,7 +120,7 @@ const Branding = () => {
               <img
                 src={getAssetPath("/lovable-uploads/6439e1b7-b813-4217-8c9b-c19291cb92c5.png")}
                 alt={t('features.brandingPage.keyFeatures.feature2.imageAlt')}
-                className="w-full rounded-2xl shadow-xl"
+                className="w-full"
               />
             </div>
           </div>
@@ -128,7 +128,7 @@ const Branding = () => {
           {/* Feature 3: SEO Meta Settings - Text Left, Visual Right */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center mb-32 animate-fade-in">
             <div className="order-2 lg:order-1">
-              <div className="w-14 h-14 bg-[#02B13F]/10 rounded-2xl flex items-center justify-center mb-6">
+              <div className="w-14 h-14 bg-[#02B13F]/10 flex items-center justify-center mb-6">
                 <FileText className="w-7 h-7 text-[#02B13F]" />
               </div>
               <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold mb-4">
@@ -156,7 +156,7 @@ const Branding = () => {
               <img
                 src={getAssetPath("/lovable-uploads/4a477088-32cc-47e1-a04a-1b540d456ddd.png")}
                 alt={t('features.brandingPage.keyFeatures.feature3.imageAlt')}
-                className="w-full rounded-2xl shadow-xl"
+                className="w-full"
               />
             </div>
           </div>
@@ -164,7 +164,7 @@ const Branding = () => {
           {/* Feature 4: Remove PinChat Branding - Text Right, Visual Left */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center animate-fade-in">
             <div className="order-2">
-              <div className="w-14 h-14 bg-[#02B13F]/10 rounded-2xl flex items-center justify-center mb-6">
+              <div className="w-14 h-14 bg-[#02B13F]/10 flex items-center justify-center mb-6">
                 <Shield className="w-7 h-7 text-[#02B13F]" />
               </div>
               <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold mb-4">
@@ -192,7 +192,7 @@ const Branding = () => {
               <img
                 src={getAssetPath("/lovable-uploads/0f86e706-3c73-418b-828f-4952b0f9ade6.png")}
                 alt={t('features.brandingPage.keyFeatures.feature4.imageAlt')}
-                className="w-full rounded-2xl shadow-xl"
+                className="w-full"
               />
             </div>
           </div>

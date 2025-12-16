@@ -37,7 +37,7 @@ const FAQPinBot = () => {
                 <img
                   src={getAssetPath("/lovable-uploads/0dca5dad-cf11-450c-97cd-79537e02a5e0.png")}
                   alt={t('features.faqPinbotPage.hero.imageAlt')}
-                  className="max-h-full max-w-full object-contain rounded-lg shadow-lg"
+                  className="max-h-full max-w-full object-contain"
                 />
               </div>
             </div>
@@ -59,7 +59,7 @@ const FAQPinBot = () => {
           {/* Feature 1: Structured FAQ Management - Text Left, Visual Right */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center mb-32 animate-fade-in">
             <div className="order-2 lg:order-1">
-              <div className="w-14 h-14 bg-[#02B13F]/10 rounded-2xl flex items-center justify-center mb-6">
+              <div className="w-14 h-14 bg-[#02B13F]/10 flex items-center justify-center mb-6">
                 <HelpCircle className="w-7 h-7 text-[#02B13F]" />
               </div>
               <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold mb-4">
@@ -87,7 +87,7 @@ const FAQPinBot = () => {
               <img
                 src={getAssetPath("/lovable-uploads/chat_management.png")}
                 alt={t('features.faqPinbotPage.features.structuredFAQ.imageAlt')}
-                className="w-full rounded-2xl shadow-xl"
+                className="w-full"
               />
             </div>
           </div>
@@ -95,7 +95,7 @@ const FAQPinBot = () => {
           {/* Feature 2: Multi-format Reply Capability - Text Right, Visual Left */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center mb-32 animate-fade-in">
             <div className="order-2">
-              <div className="w-14 h-14 bg-[#02B13F]/10 rounded-2xl flex items-center justify-center mb-6">
+              <div className="w-14 h-14 bg-[#02B13F]/10 flex items-center justify-center mb-6">
                 <Image className="w-7 h-7 text-[#02B13F]" />
               </div>
               <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold mb-4">
@@ -123,7 +123,7 @@ const FAQPinBot = () => {
               <img
                 src={getAssetPath("/lovable-uploads/chatroom-team-management-hero.png")}
                 alt={t('features.faqPinbotPage.features.multiFormat.imageAlt')}
-                className="w-full rounded-2xl shadow-xl"
+                className="w-full"
               />
             </div>
           </div>
@@ -131,7 +131,7 @@ const FAQPinBot = () => {
           {/* Feature 3: Seamless Human Handoff - Text Left, Visual Right */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center mb-32 animate-fade-in">
             <div className="order-2 lg:order-1">
-              <div className="w-14 h-14 bg-[#02B13F]/10 rounded-2xl flex items-center justify-center mb-6">
+              <div className="w-14 h-14 bg-[#02B13F]/10 flex items-center justify-center mb-6">
                 <Users className="w-7 h-7 text-[#02B13F]" />
               </div>
               <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold mb-4">
@@ -159,7 +159,7 @@ const FAQPinBot = () => {
               <img
                 src={getAssetPath("/lovable-uploads/customer-feedback-analytics-hero.png")}
                 alt={t('features.faqPinbotPage.features.humanHandoff.imageAlt')}
-                className="w-full rounded-2xl shadow-xl"
+                className="w-full"
               />
             </div>
           </div>
@@ -167,7 +167,7 @@ const FAQPinBot = () => {
           {/* Feature 4: Event & Traffic Design - Text Right, Visual Left */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center animate-fade-in">
             <div className="order-2">
-              <div className="w-14 h-14 bg-[#02B13F]/10 rounded-2xl flex items-center justify-center mb-6">
+              <div className="w-14 h-14 bg-[#02B13F]/10 flex items-center justify-center mb-6">
                 <Zap className="w-7 h-7 text-[#02B13F]" />
               </div>
               <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold mb-4">
@@ -195,7 +195,7 @@ const FAQPinBot = () => {
               <img
                 src={getAssetPath("/lovable-uploads/lead-capture-survey-hero.png")}
                 alt={t('features.faqPinbotPage.features.eventDesign.imageAlt')}
-                className="w-full rounded-2xl shadow-xl"
+                className="w-full"
               />
             </div>
           </div>

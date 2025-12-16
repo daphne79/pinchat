@@ -37,7 +37,7 @@ const PinBoard = () => {
                 <img 
                   src={getAssetPath("/lovable-uploads/a943b569-9b16-4e87-8372-5c99b676e584.png")} 
                   alt={t('features.pinBoardPage.hero.imageAlt')} 
-                  className="max-h-full max-w-full object-contain rounded-lg shadow-lg" 
+                  className="max-h-full max-w-full object-contain" 
                 />
               </div>
             </div>
@@ -59,7 +59,7 @@ const PinBoard = () => {
           {/* Feature 1: Flexible Branded Layouts - Text Left, Visual Right */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center mb-32 animate-fade-in">
             <div className="order-2 lg:order-1">
-              <div className="w-14 h-14 bg-[#02B13F]/10 rounded-2xl flex items-center justify-center mb-6">
+              <div className="w-14 h-14 bg-[#02B13F]/10 flex items-center justify-center mb-6">
                 <Palette className="w-7 h-7 text-[#02B13F]" />
               </div>
               <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold mb-4">
@@ -87,7 +87,7 @@ const PinBoard = () => {
               <img 
                 src={getAssetPath("/lovable-uploads/89dcdb0f-d1e9-43b5-b79d-2af42fb8cdcf.png")} 
                 alt={t('features.pinBoardPage.features.flexibleBrandedLayouts.imageAlt')} 
-                className="w-full rounded-2xl shadow-xl"
+                className="w-full"
               />
             </div>
           </div>
@@ -95,7 +95,7 @@ const PinBoard = () => {
           {/* Feature 2: Centralized Actions - Text Right, Visual Left */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center mb-32 animate-fade-in">
             <div className="order-2">
-              <div className="w-14 h-14 bg-[#02B13F]/10 rounded-2xl flex items-center justify-center mb-6">
+              <div className="w-14 h-14 bg-[#02B13F]/10 flex items-center justify-center mb-6">
                 <Link2 className="w-7 h-7 text-[#02B13F]" />
               </div>
               <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold mb-4">
@@ -123,7 +123,7 @@ const PinBoard = () => {
               <img 
                 src={getAssetPath("/lovable-uploads/d7d8f729-883d-4769-9c7d-ee5b6d044222.png")} 
                 alt={t('features.pinBoardPage.features.centralizedActions.imageAlt')} 
-                className="w-full rounded-2xl shadow-xl"
+                className="w-full"
               />
             </div>
           </div>
@@ -131,7 +131,7 @@ const PinBoard = () => {
           {/* Feature 3: Built-In Chat Entry - Text Left, Visual Right */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center mb-32 animate-fade-in">
             <div className="order-2 lg:order-1">
-              <div className="w-14 h-14 bg-[#02B13F]/10 rounded-2xl flex items-center justify-center mb-6">
+              <div className="w-14 h-14 bg-[#02B13F]/10 flex items-center justify-center mb-6">
                 <MessageCircle className="w-7 h-7 text-[#02B13F]" />
               </div>
               <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold mb-4">
@@ -159,7 +159,7 @@ const PinBoard = () => {
               <img 
                 src={getAssetPath("/lovable-uploads/a943b569-9b16-4e87-8372-5c99b676e584.png")} 
                 alt={t('features.pinBoardPage.features.builtInChatEntry.imageAlt')} 
-                className="w-full rounded-2xl shadow-xl"
+                className="w-full"
               />
             </div>
           </div>
@@ -167,7 +167,7 @@ const PinBoard = () => {
           {/* Feature 4: Insightful Analytics - Text Right, Visual Left */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center animate-fade-in">
             <div className="order-2">
-              <div className="w-14 h-14 bg-[#02B13F]/10 rounded-2xl flex items-center justify-center mb-6">
+              <div className="w-14 h-14 bg-[#02B13F]/10 flex items-center justify-center mb-6">
                 <BarChart3 className="w-7 h-7 text-[#02B13F]" />
               </div>
               <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold mb-4">
@@ -195,7 +195,7 @@ const PinBoard = () => {
               <img 
                 src={getAssetPath("/lovable-uploads/9a684b2b-549b-40c9-9241-1630df37fe86.png")} 
                 alt={t('features.pinBoardPage.features.insightfulAnalytics.imageAlt')} 
-                className="w-full rounded-2xl shadow-xl"
+                className="w-full"
               />
             </div>
           </div>

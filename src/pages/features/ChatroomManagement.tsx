@@ -33,7 +33,7 @@ const ChatroomManagement = () => {
                 <img 
                   src={getAssetPath("/lovable-uploads/chat_management.png")} 
                   alt={t('features.chatroomManagementPage.hero.imageAlt')} 
-                  className="max-h-full max-w-full object-contain rounded-lg shadow-lg" 
+                  className="max-h-full max-w-full object-contain" 
                 />
               </div>
             </div>
@@ -55,7 +55,7 @@ const ChatroomManagement = () => {
           {/* Feature 1: Chat Labels - Text Left, Visual Right */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center mb-32 animate-fade-in">
             <div className="order-2 lg:order-1">
-              <div className="w-14 h-14 bg-[#02B13F]/10 rounded-2xl flex items-center justify-center mb-6">
+              <div className="w-14 h-14 bg-[#02B13F]/10 flex items-center justify-center mb-6">
                 <Tag className="w-7 h-7 text-[#02B13F]" />
               </div>
               <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold mb-4">
@@ -83,7 +83,7 @@ const ChatroomManagement = () => {
               <img 
                 src={getAssetPath("/lovable-uploads/chat_management.png")} 
                 alt={t('features.chatroomManagementPage.features.chatLabels.imageAlt')} 
-                className="w-full rounded-2xl shadow-xl"
+                className="w-full"
               />
             </div>
           </div>
@@ -91,7 +91,7 @@ const ChatroomManagement = () => {
           {/* Feature 2: Folder Grouping - Text Right, Visual Left */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center mb-32 animate-fade-in">
             <div className="order-2">
-              <div className="w-14 h-14 bg-[#02B13F]/10 rounded-2xl flex items-center justify-center mb-6">
+              <div className="w-14 h-14 bg-[#02B13F]/10 flex items-center justify-center mb-6">
                 <FolderOpen className="w-7 h-7 text-[#02B13F]" />
               </div>
               <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold mb-4">
@@ -119,7 +119,7 @@ const ChatroomManagement = () => {
               <img 
                 src={getAssetPath("/lovable-uploads/project-based-folders.png")} 
                 alt={t('features.chatroomManagementPage.features.folderGrouping.imageAlt')} 
-                className="w-full rounded-2xl shadow-xl"
+                className="w-full"
               />
             </div>
           </div>
@@ -127,7 +127,7 @@ const ChatroomManagement = () => {
           {/* Feature 3: Quick Search - Text Left, Visual Right */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center mb-32 animate-fade-in">
             <div className="order-2 lg:order-1">
-              <div className="w-14 h-14 bg-[#02B13F]/10 rounded-2xl flex items-center justify-center mb-6">
+              <div className="w-14 h-14 bg-[#02B13F]/10 flex items-center justify-center mb-6">
                 <Search className="w-7 h-7 text-[#02B13F]" />
               </div>
               <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold mb-4">
@@ -155,7 +155,7 @@ const ChatroomManagement = () => {
               <img 
                 src={getAssetPath("/lovable-uploads/conversation-archive.png")} 
                 alt={t('features.chatroomManagementPage.features.quickSearch.imageAlt')} 
-                className="w-full rounded-2xl shadow-xl"
+                className="w-full"
               />
             </div>
           </div>
@@ -163,7 +163,7 @@ const ChatroomManagement = () => {
           {/* Feature 4: Clean Space - Text Right, Visual Left */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center animate-fade-in">
             <div className="order-2">
-              <div className="w-14 h-14 bg-[#02B13F]/10 rounded-2xl flex items-center justify-center mb-6">
+              <div className="w-14 h-14 bg-[#02B13F]/10 flex items-center justify-center mb-6">
                 <Archive className="w-7 h-7 text-[#02B13F]" />
               </div>
               <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold mb-4">
@@ -191,7 +191,7 @@ const ChatroomManagement = () => {
               <img 
                 src={getAssetPath("/lovable-uploads/vip-customer-tracking.png")} 
                 alt={t('features.chatroomManagementPage.features.cleanSpace.imageAlt')} 
-                className="w-full rounded-2xl shadow-xl"
+                className="w-full"
               />
             </div>
           </div>

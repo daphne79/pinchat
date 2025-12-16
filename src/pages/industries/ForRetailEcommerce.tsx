@@ -35,7 +35,7 @@ const ForRetailEcommerce = () => {
             </div>
           
             {/* Hero Image */}
-            <div className="mt-16 rounded-lg overflow-hidden">
+            <div className="mt-16 overflow-hidden">
               <img 
                 src={getAssetPath("/lovable-uploads/f4f43fc8-86f7-459a-8ba8-a97d9cc3610d.png")} 
                 alt="Retail and e-commerce customer service interface" 
@@ -119,7 +119,7 @@ const ForRetailEcommerce = () => {
         <section className="py-24 bg-muted/30 px-4 sm:px-6 md:px-8 lg:px-12">
           <div className="container mx-auto">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-              <div className="order-2 lg:order-1 rounded-lg overflow-hidden">
+              <div className="order-2 lg:order-1 overflow-hidden">
                 <img 
                   src={getAssetPath("/lovable-uploads/f4f43fc8-86f7-459a-8ba8-a97d9cc3610d.png")} 
                   alt="Customer engagement dashboard" 
@@ -173,7 +173,7 @@ const ForRetailEcommerce = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
             <Link 
               to="/industries/service-industries" 
-              className="group rounded-lg overflow-hidden border bg-card hover:shadow-lg transition-all duration-300"
+              className="group overflow-hidden border bg-card hover:shadow-lg transition-all duration-300"
             >
               <div className="aspect-video bg-muted overflow-hidden">
                 <img 
@@ -194,7 +194,7 @@ const ForRetailEcommerce = () => {
             
             <Link 
               to="/industries/education" 
-              className="group rounded-lg overflow-hidden border bg-card hover:shadow-lg transition-all duration-300"
+              className="group overflow-hidden border bg-card hover:shadow-lg transition-all duration-300"
             >
               <div className="aspect-video bg-muted overflow-hidden">
                 <img 
@@ -215,7 +215,7 @@ const ForRetailEcommerce = () => {
             
             <Link 
               to="/industries/healthcare" 
-              className="group rounded-lg overflow-hidden border bg-card hover:shadow-lg transition-all duration-300"
+              className="group overflow-hidden border bg-card hover:shadow-lg transition-all duration-300"
             >
               <div className="aspect-video bg-muted overflow-hidden">
                 <img 
@@ -240,7 +240,7 @@ const ForRetailEcommerce = () => {
         {/* Final CTA */}
         <section className="bg-primary/10 py-20 px-4 sm:px-6 md:px-8 lg:px-12">
           <div className="container mx-auto">
-            <div className="max-w-4xl mx-auto rounded-2xl bg-card border p-12 text-center">
+            <div className="max-w-4xl mx-auto bg-card border p-12 text-center">
               <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[48px] font-bold tracking-wide leading-normal lg:leading-[1.2] text-foreground mb-8">
                 {t('retailEcommerce.cta.title')}
               </h2>

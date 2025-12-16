@@ -34,7 +34,7 @@ const CustomerFeedbackAnalytics = () => {
             </div>
           
             {/* Hero Image */}
-            <div className="mt-16 rounded-lg overflow-hidden">
+            <div className="mt-16 overflow-hidden">
               <img 
                 src={getAssetPath("/lovable-uploads/c4bdeedf-e89d-4da0-8aa9-7836171381e3.png")} 
                 alt="Customer feedback analytics dashboard" 
@@ -124,7 +124,7 @@ const CustomerFeedbackAnalytics = () => {
         <section className="py-24 bg-muted/30 px-4 sm:px-6 md:px-8 lg:px-12">
           <div className="container mx-auto">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-              <div className="order-2 lg:order-1 rounded-lg overflow-hidden">
+              <div className="order-2 lg:order-1 overflow-hidden">
                 <img 
                   src={getAssetPath("/lovable-uploads/c4bdeedf-e89d-4da0-8aa9-7836171381e3.png")} 
                   alt="PinChat benefits dashboard" 
@@ -176,7 +176,7 @@ const CustomerFeedbackAnalytics = () => {
               {t('solutions.customerFeedbackAnalyticsPage.recommendedFeatures.title')}
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
-              <Link to="/features/ai-pinbot" className="p-6 bg-card rounded-lg border hover:border-primary/50 hover:shadow-md transition-all cursor-pointer">
+              <Link to="/features/ai-pinbot" className="p-6 bg-card border hover:border-primary/50 hover:shadow-md transition-all cursor-pointer">
                 <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mb-4">
                   <Bot className="w-6 h-6 text-primary" />
                 </div>
@@ -187,7 +187,7 @@ const CustomerFeedbackAnalytics = () => {
                   {t('solutions.customerFeedbackAnalyticsPage.recommendedFeatures.aiPinBot.subtitle')}
                 </p>
               </Link>
-              <Link to="/solutions/lead-capture-surveys" className="p-6 bg-card rounded-lg border hover:border-primary/50 hover:shadow-md transition-all cursor-pointer">
+              <Link to="/solutions/lead-capture-surveys" className="p-6 bg-card border hover:border-primary/50 hover:shadow-md transition-all cursor-pointer">
                 <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mb-4">
                   <FileText className="w-6 h-6 text-primary" />
                 </div>
@@ -198,7 +198,7 @@ const CustomerFeedbackAnalytics = () => {
                   {t('solutions.customerFeedbackAnalyticsPage.recommendedFeatures.survey.subtitle')}
                 </p>
               </Link>
-              <Link to="/features/analytics" className="p-6 bg-card rounded-lg border hover:border-primary/50 hover:shadow-md transition-all cursor-pointer">
+              <Link to="/features/analytics" className="p-6 bg-card border hover:border-primary/50 hover:shadow-md transition-all cursor-pointer">
                 <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mb-4">
                   <BarChart className="w-6 h-6 text-primary" />
                 </div>
@@ -220,7 +220,7 @@ const CustomerFeedbackAnalytics = () => {
               {t('solutions.customerFeedbackAnalyticsPage.exploreUseCases.title')}
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
-              <div className="group rounded-lg overflow-hidden border bg-card hover:shadow-lg transition-all duration-300">
+              <div className="group overflow-hidden border bg-card hover:shadow-lg transition-all duration-300">
                 <div className="aspect-video bg-muted overflow-hidden">
                   <img 
                     src={getAssetPath("/lovable-uploads/f4f43fc8-86f7-459a-8ba8-a97d9cc3610d.png")} 
@@ -237,7 +237,7 @@ const CustomerFeedbackAnalytics = () => {
                   </p>
                 </div>
               </div>
-              <div className="group rounded-lg overflow-hidden border bg-card hover:shadow-lg transition-all duration-300">
+              <div className="group overflow-hidden border bg-card hover:shadow-lg transition-all duration-300">
                 <div className="aspect-video bg-muted overflow-hidden">
                   <img 
                     src={getAssetPath("/lovable-uploads/f4f43fc8-86f7-459a-8ba8-a97d9cc3610d.png")} 
@@ -254,7 +254,7 @@ const CustomerFeedbackAnalytics = () => {
                   </p>
                 </div>
               </div>
-              <div className="group rounded-lg overflow-hidden border bg-card hover:shadow-lg transition-all duration-300">
+              <div className="group overflow-hidden border bg-card hover:shadow-lg transition-all duration-300">
                 <div className="aspect-video bg-muted overflow-hidden">
                   <img 
                     src={getAssetPath("/lovable-uploads/f4f43fc8-86f7-459a-8ba8-a97d9cc3610d.png")} 
@@ -278,7 +278,7 @@ const CustomerFeedbackAnalytics = () => {
         {/* Final CTA */}
         <section className="bg-primary/10 py-20 px-4 sm:px-6 md:px-8 lg:px-12">
           <div className="container mx-auto">
-            <div className="max-w-4xl mx-auto rounded-2xl bg-card border p-12 text-center">
+            <div className="max-w-4xl mx-auto bg-card border p-12 text-center">
               <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[48px] font-bold tracking-wide leading-normal lg:leading-[1.2] text-foreground mb-8">
                 {t('solutions.customerFeedbackAnalyticsPage.cta.title')}
               </h2>

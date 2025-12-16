@@ -32,9 +32,9 @@ const Chat = () => {
               </div>
               <div className="min-h-64 sm:min-h-96 flex items-center justify-center animate-fade-in">
                 <img
-                  src={getAssetPath("/lovable-uploads/chat_management.png")}
+                  src={getAssetPath("/lovable-uploads/chat-hero.png")}
                   alt="PinChat 聊天系統介面"
-                  className="max-h-full max-w-full object-contain rounded-lg shadow-lg"
+                  className="max-h-full max-w-full object-contain"
                 />
               </div>
             </div>
@@ -56,7 +56,7 @@ const Chat = () => {
           {/* Feature 1: One-on-One & Group Chat - Text Left, Visual Right */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center mb-32 animate-fade-in">
             <div className="order-2 lg:order-1">
-              <div className="w-14 h-14 bg-[#02B13F]/10 rounded-2xl flex items-center justify-center mb-6">
+              <div className="w-14 h-14 bg-[#02B13F]/10 flex items-center justify-center mb-6">
                 <Users className="w-7 h-7 text-[#02B13F]" />
               </div>
               <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold mb-4">
@@ -82,9 +82,9 @@ const Chat = () => {
             </div>
             <div className="order-1 lg:order-2">
               <img
-                src={getAssetPath("/lovable-uploads/chatroom-team-management-hero.png")}
+                src={getAssetPath("/lovable-uploads/aa66a1b3-b7b1-4897-a7b7-c7f85c930a5a.png")}
                 alt="一對一與群組聊天功能"
-                className="w-full rounded-2xl shadow-xl"
+                className="w-full"
               />
             </div>
           </div>
@@ -92,7 +92,7 @@ const Chat = () => {
           {/* Feature 2: Multimedia Support - Text Right, Visual Left */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center mb-32 animate-fade-in">
             <div className="order-2">
-              <div className="w-14 h-14 bg-[#02B13F]/10 rounded-2xl flex items-center justify-center mb-6">
+              <div className="w-14 h-14 bg-[#02B13F]/10 flex items-center justify-center mb-6">
                 <Image className="w-7 h-7 text-[#02B13F]" />
               </div>
               <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold mb-4">
@@ -118,9 +118,9 @@ const Chat = () => {
             </div>
             <div className="order-1">
               <img
-                src={getAssetPath("/lovable-uploads/customer-feedback-analytics-hero.png")}
+                src={getAssetPath("/lovable-uploads/754a4248-0d54-4240-bda0-4fa19180bda5.png")}
                 alt="多媒體訊息支援"
-                className="w-full rounded-2xl shadow-xl"
+                className="w-full"
               />
             </div>
           </div>
@@ -128,7 +128,7 @@ const Chat = () => {
           {/* Feature 3: Customizable UI - Text Left, Visual Right */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center mb-32 animate-fade-in">
             <div className="order-2 lg:order-1">
-              <div className="w-14 h-14 bg-[#02B13F]/10 rounded-2xl flex items-center justify-center mb-6">
+              <div className="w-14 h-14 bg-[#02B13F]/10 flex items-center justify-center mb-6">
                 <Settings className="w-7 h-7 text-[#02B13F]" />
               </div>
               <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold mb-4">
@@ -156,7 +156,7 @@ const Chat = () => {
               <img
                 src={getAssetPath("/lovable-uploads/lead-capture-survey-hero.png")}
                 alt="可客製化的聊天介面"
-                className="w-full rounded-2xl shadow-xl"
+                className="w-full"
               />
             </div>
           </div>
@@ -164,7 +164,7 @@ const Chat = () => {
           {/* Feature 4: Efficiency-Focused Design - Text Right, Visual Left */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center animate-fade-in">
             <div className="order-2">
-              <div className="w-14 h-14 bg-[#02B13F]/10 rounded-2xl flex items-center justify-center mb-6">
+              <div className="w-14 h-14 bg-[#02B13F]/10 flex items-center justify-center mb-6">
                 <Zap className="w-7 h-7 text-[#02B13F]" />
               </div>
               <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold mb-4">
@@ -190,9 +190,9 @@ const Chat = () => {
             </div>
             <div className="order-1">
               <img
-                src={getAssetPath("/lovable-uploads/ai-customer-service-bot-hero.png")}
+                src={getAssetPath("/lovable-uploads/05e51b6c-6cdf-4411-8dab-c74e9d4c41f0.png")}
                 alt="提升對話互動品質的設計"
-                className="w-full rounded-2xl shadow-xl"
+                className="w-full"
               />
             </div>
           </div>
@@ -275,7 +275,7 @@ const Chat = () => {
           </div>
           </div>
         </section>
-      </main>
+</main>
       <Footer />
     </>;
 };

@@ -1,0 +1,157 @@
+{
+  "assignments": [
+    {
+      "image": "754a4248-0d54-4240-bda0-4fa19180bda5.png",
+      "page": "Chat",
+      "section": "feature2",
+      "alt": "",
+      "className": ""
+    },
+    {
+      "image": "05e51b6c-6cdf-4411-8dab-c74e9d4c41f0.png",
+      "page": "Chat",
+      "section": "feature4",
+      "alt": "",
+      "className": ""
+    },
+    {
+      "image": "aa66a1b3-b7b1-4897-a7b7-c7f85c930a5a.png",
+      "page": "Chat",
+      "section": "feature1",
+      "alt": "",
+      "className": ""
+    }
+  ],
+  "pageSections": {
+    "Index": {
+      "hero": "首頁 Hero 區塊",
+      "valueBlock1": "核心價值 1 - 一鍵連接",
+      "valueBlock2": "核心價值 2 - 跨平台整合",
+      "valueBlock3": "核心價值 3 - AI 客服",
+      "valueBlock4": "核心價值 4 - 數據管理"
+    },
+    "About": {
+      "hero": "關於我們 Hero 區塊"
+    },
+    "AIPinBot": {
+      "hero": "AI PinBot Hero 區塊",
+      "feature1": "功能 1 - 統一知識來源",
+      "feature2": "功能 2 - 智能 FAQ",
+      "feature3": "功能 3 - 多語言支持",
+      "feature4": "功能 4 - 實時學習",
+      "feature5": "功能 5 - 分析報告"
+    },
+    "Analytics": {
+      "hero": "分析頁面 Hero 區塊",
+      "feature1": "功能 1",
+      "feature2": "功能 2",
+      "feature3": "功能 3",
+      "feature4": "功能 4",
+      "feature5": "功能 5"
+    },
+    "Branding": {
+      "hero": "品牌頁面 Hero 區塊",
+      "feature1": "功能 1",
+      "feature2": "功能 2",
+      "feature3": "功能 3",
+      "feature4": "功能 4",
+      "feature5": "功能 5"
+    },
+    "Chat": {
+      "hero": "聊天頁面 Hero 區塊",
+      "feature1": "功能 1",
+      "feature2": "功能 2",
+      "feature3": "功能 3",
+      "feature4": "功能 4",
+      "feature5": "功能 5"
+    },
+    "ChatWidget": {
+      "hero": "聊天小工具 Hero 區塊",
+      "feature1": "功能 1",
+      "feature2": "功能 2",
+      "feature3": "功能 3",
+      "feature4": "功能 4",
+      "feature5": "功能 5"
+    },
+    "ChatroomManagement": {
+      "hero": "聊天室管理 Hero 區塊",
+      "feature1": "功能 1",
+      "feature2": "功能 2",
+      "feature3": "功能 3",
+      "feature4": "功能 4",
+      "feature5": "功能 5"
+    },
+    "FAQPinBot": {
+      "hero": "FAQ PinBot Hero 區塊",
+      "feature1": "功能 1",
+      "feature2": "功能 2",
+      "feature3": "功能 3",
+      "feature4": "功能 4",
+      "feature5": "功能 5"
+    },
+    "PinBoard": {
+      "hero": "PinBoard Hero 區塊",
+      "feature1": "功能 1",
+      "feature2": "功能 2",
+      "feature3": "功能 3",
+      "feature4": "功能 4",
+      "feature5": "功能 5"
+    },
+    "SubAccount": {
+      "hero": "子帳號 Hero 區塊",
+      "feature1": "功能 1",
+      "feature2": "功能 2",
+      "feature3": "功能 3",
+      "feature4": "功能 4",
+      "feature5": "功能 5"
+    },
+    "ForB2BCommercial": {
+      "hero": "B2B 商業 Hero 區塊",
+      "useCase1": "使用案例 1",
+      "useCase2": "使用案例 2",
+      "useCase3": "使用案例 3"
+    },
+    "ForEducation": {
+      "hero": "教育 Hero 區塊",
+      "useCase1": "使用案例 1",
+      "useCase2": "使用案例 2",
+      "useCase3": "使用案例 3"
+    },
+    "ForEvents": {
+      "hero": "活動 Hero 區塊",
+      "useCase1": "使用案例 1",
+      "useCase2": "使用案例 2",
+      "useCase3": "使用案例 3"
+    },
+    "ForHealthcare": {
+      "hero": "醫療 Hero 區塊",
+      "useCase1": "使用案例 1",
+      "useCase2": "使用案例 2",
+      "useCase3": "使用案例 3"
+    },
+    "ForProfessionalServices": {
+      "hero": "專業服務 Hero 區塊",
+      "useCase1": "使用案例 1",
+      "useCase2": "使用案例 2",
+      "useCase3": "使用案例 3"
+    },
+    "ForRealEstate": {
+      "hero": "房地產 Hero 區塊",
+      "useCase1": "使用案例 1",
+      "useCase2": "使用案例 2",
+      "useCase3": "使用案例 3"
+    },
+    "ForRetailEcommerce": {
+      "hero": "零售電商 Hero 區塊",
+      "useCase1": "使用案例 1",
+      "useCase2": "使用案例 2",
+      "useCase3": "使用案例 3"
+    },
+    "ForServiceIndustries": {
+      "hero": "服務業 Hero 區塊",
+      "useCase1": "使用案例 1",
+      "useCase2": "使用案例 2",
+      "useCase3": "使用案例 3"
+    }
+  }
+}
