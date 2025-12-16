@@ -72,7 +72,7 @@
           "description": "协助回答常见问题、支持多语系并可无缝切换人工接手，让团队更专注于复杂需求。"
         },
         "chatWidget": {
-          "title": "Chat Widget 网站聊天入口",
+          "title": "网页客服插件网站聊天入口",
           "description": "在网站上快速嵌入可拖曳、可客制化的聊天界面，提升访客互动与转换效率。"
         },
         "pinBoard": {
@@ -246,7 +246,8 @@
       "hero": {
         "title": "在网站上与每位访客即时连线",
         "subtitle": "以可客制、可拖曳、可接 AI 的网页客服插件，将网站访客转换成真正的对话与商机。",
-        "cta": "开始使用网页客服插件"
+        "cta": "开始使用网页客服插件",
+        "imageAlt": "网页客服插件界面"
       },
       "keyFeatures": {
         "title": "主要功能特色",
@@ -431,7 +432,7 @@
           "description": "适合促销活动与大量访客场景，FAQ 可快速创建与更新。",
           "benefits": {
             "quickEdit": "FAQ 可于后台快速编辑与维护",
-            "integration": "搭配欢迎页面／Chat Widget 作为活动入口",
+            "integration": "搭配欢迎页面／网页客服插件作为活动入口",
             "reduceLoad": "减少高流量期间的重复客服问题"
           },
           "imageAlt": "活动专用 FAQ Bot 设计"
@@ -1510,7 +1511,7 @@
   },
   "bookingLink": {
     "title": "提供预约连结并掌握买家需求",
-    "description": "聊天按钮可直接引导买家进入聊天室，透过对话式问卷快速蒐集预算与偏好等基本需求；PinBoard 多连结页则用于导流至预约看房、物件清单或行销页面，协助买家更顺畅地完成下一步。"
+    "description": "聊天按钮可直接引导买家进入聊天室，透过对话式问卷快速蒐集预算与偏好等基本需求；欢迎页面多连结页则用于导流至预约看房、物件清单或行销页面，协助买家更顺畅地完成下一步。"
   },
   "manageRecords": {
     "title": "集中管理洽谈纪录并提升追踪效率",
@@ -1633,7 +1634,7 @@
     "items": {
       "centralizeMessages": "集中管理多平台讯息，降低活动高峰期的咨询压力",
       "autoReply": "自动回覆常见问题，快速提供场地、时程与票务资讯",
-      "effectiveFlow": "透过 Chat Widget 与 PinBoard 有效导流报名与活动页",
+      "effectiveFlow": "透过网页客服插件与欢迎页面有效导流报名与活动页",
       "feedbackCollection": "以对话式问卷蒐集回馈，提升后续活动优化效率"
     }
   },
@@ -1642,7 +1643,7 @@
     "description": "PinChat 协助活动团队在不同活动阶段提供即时资讯、管理大量访客询问并增加互动深度。从导流到现场支援，再到活动后追踪，都能有效提升参与者体验与团队效率。",
     "beforeEvent": {
       "title": "活动前：提升导流成效与资讯清晰度",
-      "description": "透过 PinBoard 多连结页指向报名页、注意事项、活动介绍；Chat Widget 与 AI PinBot 自动回答 FAQ，减少客服负担并提升转换。"
+      "description": "透过欢迎页面多连结页指向报名页、注意事项、活动介绍；网页客服插件与 AI PinBot 自动回答 FAQ，减少客服负担并提升转换。"
     },
     "duringEvent": {
       "title": "活动中：即时回答参加者需求",
@@ -1662,7 +1663,7 @@
     },
     "improveAccessibility": {
       "title": "提升活动资讯可及性与导流效率",
-      "description": "PinBoard 导向报名与宣传连结；Chat Widget 维持网站流量转换，确保参与者可在最短时间取得需要的资讯。"
+      "description": "欢迎页面导向报名与宣传连结；网页客服插件维持网站流量转换，确保参与者可在最短时间取得需要的资讯。"
     },
     "expandValue": {
       "title": "扩大活动后续价值",

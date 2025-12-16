@@ -228,7 +228,8 @@
           "hero": {
             "title": "Connect with Every Visitor on Your Website in Real Time",
             "subtitle": "Turn website visitors into real conversations and opportunities with a customizable, draggable, AI-powered Chat Widget.",
-            "cta": "Get Started with Chat Widget"
+            "cta": "Get Started with Chat Widget",
+            "imageAlt": "Chat Widget Interface"
           },
           "keyFeatures": {
             "title": "Key Features",
@@ -1138,7 +1139,7 @@
         "description": "Transform lead generation with multi-entry points, conversational surveys, and data integration for natural guidance and conversion support.",
         "multiEntry": {
           "title": "More Centralized Multi-Entry Lead Generation",
-          "description": "Integrate Chat Widget, PinBoard, and social media entry points into a unified flow—improving concentration and reducing drop-offs."
+          "description": "Integrate Chat Widget, Welcome Page, and social media entry points into a unified flow—improving concentration and reducing drop-offs."
         },
         "conversationalSurvey": {
           "title": "Conversational Surveys Improve Response Rates",
@@ -1176,7 +1177,7 @@
           "subtitle": "Use customizable chat widgets to guide visitors into interactive flows and improve lead generation."
         },
         "unifiedEntry": {
-          "title": "PinBoard Landing Page",
+          "title": "Welcome Page",
           "subtitle": "Integrate entry points and chat buttons on multi-link pages to strengthen lead generation and engagement."
         }
       },
@@ -1475,7 +1476,7 @@
       },
       "bookingLink": {
         "title": "Provide booking links and capture buyer needs",
-        "description": "Guide buyers into chatrooms via chat buttons; collect budget and preferences through surveys; direct traffic to bookings, listings, or marketing pages via PinBoard."
+        "description": "Guide buyers into chatrooms via chat buttons; collect budget and preferences through surveys; direct traffic to bookings, listings, or marketing pages via Welcome Page."
       },
       "manageRecords": {
         "title": "Centralize negotiation records and improve tracking efficiency",
@@ -1598,7 +1599,7 @@
       "items": {
         "centralizeMessages": "Centralize multi-platform messages during peak event periods",
         "autoReply": "Auto-reply with venue, schedule, and ticketing information",
-        "effectiveFlow": "Drive registrations through Chat Widget and PinBoard",
+        "effectiveFlow": "Drive registrations through Chat Widget and Welcome Page",
         "feedbackCollection": "Collect feedback via conversational surveys for event optimization"
       }
     },
@@ -1607,7 +1608,7 @@
       "description": "Provide real-time information, manage high-volume inquiries, and deepen interaction at every event stage—from traffic routing to on-site support and post-event tracking.",
       "beforeEvent": {
         "title": "Before Event: Enhance Traffic Effectiveness and Information Clarity",
-        "description": "Direct traffic to registration, notices, and introductions with PinBoard; auto-answer FAQs with Chat Widget and AI PinBot."
+        "description": "Direct traffic to registration, notices, and introductions with Welcome Page; auto-answer FAQs with Chat Widget and AI PinBot."
       },
       "duringEvent": {
         "title": "During Event: Instantly Answer Attendee Needs",
@@ -1627,7 +1628,7 @@
       },
       "improveAccessibility": {
         "title": "Improve Event Information Accessibility and Traffic Efficiency",
-        "description": "Direct traffic to registration and promotional links via PinBoard; maintain website conversion with Chat Widget."
+        "description": "Direct traffic to registration and promotional links via Welcome Page; maintain website conversion with Chat Widget."
       },
       "expandValue": {
         "title": "Expand Post-Event Value",
@@ -2137,7 +2138,7 @@
       "mau5000": "5,000 MAU",
       "exportChatData": "Export chat data",
       "customizedChatLink": "Customized chat link",
-      "customizedPinBoard": "Customized PinBoard",
+      "customizedPinBoard": "Customized Welcome Page",
       "basicAnalytics": "Basic analytics",
       "allFunctionsOfFree": "All features of Free plan",
       "allFunctionsOfStarter": "All features of Starter plan",
@@ -2177,7 +2178,7 @@
         "chatTags": "Chat tags"
       },
       "customization": {
-        "pinBoard": "PinBoard",
+        "pinBoard": "Welcome Page",
         "customChatroomLinks": "Custom chatroom links",
         "customAppearance": "Custom appearance",
         "websiteWidget": "Website widget",

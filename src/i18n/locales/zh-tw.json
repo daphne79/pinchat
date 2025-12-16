@@ -72,7 +72,7 @@
           "description": "協助回答常見問題、支援多語系並可無縫切換人工接手，讓團隊更專注於複雜需求。"
         },
         "chatWidget": {
-          "title": "Chat Widget 網站聊天入口",
+          "title": "網頁客服插件網站聊天入口",
           "description": "在網站上快速嵌入可拖曳、可客製化的聊天介面，提升訪客互動與轉換效率。"
         },
         "pinBoard": {
@@ -228,7 +228,8 @@
           "hero": {
             "title": "在網站上與每位訪客即時連線",
             "subtitle": "以可客製、可拖曳、可接 AI 的網頁客服插件，將網站訪客轉換成真正的對話與商機。",
-            "cta": "開始使用網頁客服插件"
+            "cta": "開始使用網頁客服插件",
+            "imageAlt": "網頁客服插件介面"
           },
           "keyFeatures": {
             "title": "主要功能特色",
@@ -413,7 +414,7 @@
               "description": "適合促銷活動與大量訪客情境，FAQ 可快速建立與更新。",
               "benefits": {
                 "quickEdit": "FAQ 可於後台快速編輯與維護",
-                "integration": "搭配歡迎頁面／Chat Widget 作為活動入口",
+                "integration": "搭配歡迎頁面／網頁客服插件作為活動入口",
                 "reduceLoad": "減少高流量期間的重複客服問題"
               },
               "imageAlt": "活動專用 FAQ Bot 設計"
@@ -1475,7 +1476,7 @@
       },
       "bookingLink": {
         "title": "提供預約連結並掌握買家需求",
-        "description": "聊天按鈕可直接引導買家進入聊天室，透過對話式問卷快速蒐集預算與偏好等基本需求；PinBoard 多連結頁則用於導流至預約看房、物件清單或行銷頁面，協助買家更順暢地完成下一步。"
+        "description": "聊天按鈕可直接引導買家進入聊天室，透過對話式問卷快速蒐集預算與偏好等基本需求；歡迎頁面多連結頁則用於導流至預約看房、物件清單或行銷頁面，協助買家更順暢地完成下一步。"
       },
       "manageRecords": {
         "title": "集中管理洽談紀錄並提升追蹤效率",
@@ -1598,7 +1599,7 @@
       "items": {
         "centralizeMessages": "集中管理多平台訊息，降低活動高峰期的諮詢壓力",
         "autoReply": "自動回覆常見問題，快速提供場地、時程與票務資訊",
-        "effectiveFlow": "透過 Chat Widget 與 PinBoard 有效導流報名與活動頁",
+        "effectiveFlow": "透過網頁客服插件與歡迎頁面有效導流報名與活動頁",
         "feedbackCollection": "以對話式問卷蒐集回饋，提升後續活動優化效率"
       }
     },
@@ -1607,7 +1608,7 @@
       "description": "PinChat 協助活動團隊在不同活動階段提供即時資訊、管理大量訪客詢問並增加互動深度。從導流到現場支援，再到活動後追蹤，都能有效提升參與者體驗與團隊效率。",
       "beforeEvent": {
         "title": "活動前：提升導流成效與資訊清晰度",
-        "description": "透過 PinBoard 多連結頁指向報名頁、注意事項、活動介紹；Chat Widget 與 AI PinBot 自動回答 FAQ，減少客服負擔並提升轉換。"
+        "description": "透過歡迎頁面多連結頁指向報名頁、注意事項、活動介紹；網頁客服插件與 AI PinBot 自動回答 FAQ，減少客服負擔並提升轉換。"
       },
       "duringEvent": {
         "title": "活動中：即時回答參加者需求",
@@ -1627,7 +1628,7 @@
       },
       "improveAccessibility": {
         "title": "提升活動資訊可及性與導流效率",
-        "description": "PinBoard 導向報名與宣傳連結；Chat Widget 維持網站流量轉換，確保參與者可在最短時間取得需要的資訊。"
+        "description": "歡迎頁面導向報名與宣傳連結；網頁客服插件維持網站流量轉換，確保參與者可在最短時間取得需要的資訊。"
       },
       "expandValue": {
         "title": "擴大活動後續價值",
@@ -2137,7 +2138,7 @@
       "mau5000": "5,000 月活躍用戶",
       "exportChatData": "匯出聊天資料",
       "customizedChatLink": "客製化聊天連結",
-      "customizedPinBoard": "客製化 PinBoard",
+      "customizedPinBoard": "客製化歡迎頁面",
       "basicAnalytics": "基本分析",
       "allFunctionsOfFree": "包含免費方案的所有功能",
       "allFunctionsOfStarter": "包含入門方案的所有功能",

@@ -33,7 +33,7 @@ const ChatWidget = () => {
               <div className="min-h-64 sm:min-h-96 flex items-center justify-center animate-fade-in">
                 <img
                   src={getAssetPath("/lovable-uploads/567624dd-5545-4f61-8e0d-86f4513f673d.png")}
-                  alt="Chat Widget 介面"
+                  alt={t('features.chatWidgetPage.hero.imageAlt')}
                   className="max-h-full max-w-full object-contain"
                 />
               </div>
@@ -273,18 +273,6 @@ const ChatWidget = () => {
               {t('features.chatWidgetPage.cta.button')}
             </Button>
           </div>
-          </div>
-        </section>
-      
-        {/* feature1 */}
-        <section className="py-16 px-4">
-          <div className="container mx-auto">
-            <img 
-              src={getAssetPath("/lovable-uploads/50299fb5-4a7e-41a7-8d52-1f79b652d31c.png")} 
-              alt="50299fb5-4a7e-41a7-8d52-1f79b652d31c" 
-              className="w-full h-auto" 
-              loading="lazy" 
-            />
           </div>
         </section>
 </main>
