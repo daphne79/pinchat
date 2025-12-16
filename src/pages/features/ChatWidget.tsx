@@ -82,7 +82,7 @@ const ChatWidget = () => {
             </div>
             <div className="order-1 lg:order-2">
               <img
-                src={getAssetPath("/lovable-uploads/567624dd-5545-4f61-8e0d-86f4513f673d.png")}
+                src={getAssetPath("/lovable-uploads/chat-widget-setting.png")}
                 alt="一行程式碼安裝"
                 className="w-full"
               />
@@ -118,7 +118,7 @@ const ChatWidget = () => {
             </div>
             <div className="order-1">
               <img
-                src={getAssetPath("/lovable-uploads/80bf9a84-1b53-4ce8-a90d-e35b64f9bede.png")}
+                src={getAssetPath("/lovable-uploads/chat-widget-customization.png")}
                 alt="全面客製化"
                 className="w-full"
               />
@@ -154,8 +154,8 @@ const ChatWidget = () => {
             </div>
             <div className="order-1 lg:order-2">
               <img
-                src={getAssetPath("/lovable-uploads/9c291ddb-6f79-4def-a631-bacb9ba5ae36.png")}
-                alt="AI PinBot 整合"
+                src={getAssetPath("/lovable-uploads/chat-widget-ai-bot.png")}
+                alt="AI 聊天機器人整合"
                 className="w-full"
               />
             </div>
@@ -190,7 +190,7 @@ const ChatWidget = () => {
             </div>
             <div className="order-1">
               <img
-                src={getAssetPath("/lovable-uploads/8dbcaac0-c9fe-4b49-b27d-23157b741613.png")}
+                src={getAssetPath("/lovable-uploads/chat-widget-analysis.png")}
                 alt="提升轉換"
                 className="w-full"
               />
@@ -275,7 +275,19 @@ const ChatWidget = () => {
           </div>
           </div>
         </section>
-      </main>
+      
+        {/* feature1 */}
+        <section className="py-16 px-4">
+          <div className="container mx-auto">
+            <img 
+              src={getAssetPath("/lovable-uploads/50299fb5-4a7e-41a7-8d52-1f79b652d31c.png")} 
+              alt="50299fb5-4a7e-41a7-8d52-1f79b652d31c" 
+              className="w-full h-auto" 
+              loading="lazy" 
+            />
+          </div>
+        </section>
+</main>
       <Footer />
     </>;
 };

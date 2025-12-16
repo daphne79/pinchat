@@ -227,24 +227,24 @@
     "chatWidgetPage": {
           "hero": {
             "title": "在網站上與每位訪客即時連線",
-            "subtitle": "以可客製、可拖曳、可接 AI 的 Chat Widget,將網站訪客轉換成真正的對話與商機。",
-            "cta": "開始使用 Chat Widget"
+            "subtitle": "以可客製、可拖曳、可接 AI 的網頁客服插件，將網站訪客轉換成真正的對話與商機。",
+            "cta": "開始使用網頁客服插件"
           },
           "keyFeatures": {
             "title": "核心功能",
             "subtitle": "為網站打造的完整聊天解決方案",
             "feature1": {
               "title": "一行程式碼即可啟用",
-              "description": "只需要貼上一行程式碼,即可讓網站立即擁有可拖曳、不遮擋內容的聊天視窗,確保訪客在不影響閱讀的情況下隨時展開對話。",
+              "description": "只需要貼上一行程式碼，即可讓網站立即擁有可拖曳、不遮擋內容的聊天視窗，確保訪客在不影響閱讀的情況下隨時展開對話。",
               "benefits": {
-                "quickInstall": "一行程式碼快速安裝 Chat Widget",
+                "quickInstall": "一行程式碼快速安裝網頁客服插件",
                 "draggable": "拖曳視窗避免遮擋網站內容",
                 "userExperience": "維持最佳的瀏覽與互動體驗"
               }
             },
             "feature2": {
               "title": "全面客製化品牌體驗",
-              "description": "透過顏色、字體與 UI 設定讓 Widget 完美融入網站風格,提供一致且專業的品牌印象。",
+              "description": "透過顏色、字體與 UI 設定讓網頁客服插件完美融入網站風格，提供一致且專業的品牌印象。",
               "benefits": {
                 "customization": "顏色、字體與 UI 完整可調",
                 "branding": "支援自訂歡迎語與客服資訊",
@@ -252,17 +252,17 @@
               }
             },
             "feature3": {
-              "title": "接入 AI PinBot,自動回覆 24/7",
-              "description": "AI 能即時回答常見問題,並在需要時交由人工接手,降低客服負擔並提升整體回覆效率。",
+              "title": "接入 AI 聊天機器人，24/7 自動回覆",
+              "description": "AI 能即時回答常見問題，並在需要時交由人工接手，降低客服負擔並提升整體回覆效率。",
               "benefits": {
-                "aiResponse": "AI Bot 即時處理常見問題",
-                "handoff": "AI ↔ 人工客服可自由切換",
+                "aiResponse": "AI 聊天機器人即時處理常見問題",
+                "handoff": "AI 與人工客服可自由切換",
                 "efficiency": "提升回覆速度並節省人力成本"
               }
             },
             "feature4": {
               "title": "提升轉換的即時溝通入口",
-              "description": "在訪客需要協助的當下提供對話入口,提升諮詢量與互動深度,讓網站成為真正的轉換起點。",
+              "description": "在訪客需要協助的當下提供對話入口，提升諮詢量與互動深度，讓網站成為真正的轉換起點。",
               "benefits": {
                 "engagement": "即時對話提升詢問與互動量",
                 "tracking": "支援來源追蹤與行為分析",
@@ -274,20 +274,20 @@
             "title": "探索其他功能",
             "pinBoard": {
               "title": "打造品牌化多連結頁",
-              "description": "集中導流連結與聊天入口,提升社群流量的轉換效率。"
+              "description": "集中導流連結與聊天入口，提升社群流量的轉換效率。"
             },
             "aiPinBot": {
               "title": "自動化客服與智慧回覆",
-              "description": "提供 FAQ、語言偵測與人工切換,提升客服效率。"
+              "description": "提供 FAQ、語言偵測與人工切換，提升客服效率。"
             },
             "dataAnalysis": {
               "title": "掌握聊天與轉換成效",
-              "description": "查看訪客來源、互動曲線與聊天分析,提高決策準確度。"
+              "description": "查看訪客來源、互動曲線與聊天分析，提高決策準確度。"
             }
           },
           "cta": {
             "title": "為您的網站建立更即時的對話體驗",
-            "button": "啟用 Chat Widget"
+            "button": "啟用網頁客服插件"
           }
         },
         "aiPinbotPage": {

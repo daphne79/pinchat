@@ -275,6 +275,42 @@ const Chat = () => {
           </div>
           </div>
         </section>
+
+        {/* feature2 */}
+        <section className="py-16 px-4">
+          <div className="container mx-auto">
+            <img 
+              src={getAssetPath("/lovable-uploads/754a4248-0d54-4240-bda0-4fa19180bda5.png")} 
+              alt="754a4248-0d54-4240-bda0-4fa19180bda5" 
+              className="w-full h-auto" 
+              loading="lazy" 
+            />
+          </div>
+        </section>
+
+        {/* feature4 */}
+        <section className="py-16 px-4">
+          <div className="container mx-auto">
+            <img 
+              src={getAssetPath("/lovable-uploads/05e51b6c-6cdf-4411-8dab-c74e9d4c41f0.png")} 
+              alt="05e51b6c-6cdf-4411-8dab-c74e9d4c41f0" 
+              className="w-full h-auto" 
+              loading="lazy" 
+            />
+          </div>
+        </section>
+
+        {/* feature1 */}
+        <section className="py-16 px-4">
+          <div className="container mx-auto">
+            <img 
+              src={getAssetPath("/lovable-uploads/aa66a1b3-b7b1-4897-a7b7-c7f85c930a5a.png")} 
+              alt="aa66a1b3-b7b1-4897-a7b7-c7f85c930a5a" 
+              className="w-full h-auto" 
+              loading="lazy" 
+            />
+          </div>
+        </section>
 </main>
       <Footer />
     </>;
