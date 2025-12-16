@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import FeatureNavigation from "@/components/FeatureNavigation";
 import Footer from "@/components/Footer";
+import ExploreFeatures from "@/components/ExploreFeatures";
 import { Palette, Globe, FileText, Shield, MessageCircle, Bot, Link2 } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import { getAssetPath } from '@/lib/assetPath';
@@ -200,64 +201,7 @@ const Branding = () => {
         </section>
 
         {/* Explore Other Features Section */}
-        <section className="py-20 px-4 sm:px-6 md:px-8 lg:px-12 bg-muted/30">
-          <div className="container mx-auto">
-            <div className="text-center mb-12">
-            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[48px] font-bold tracking-wide leading-normal lg:leading-[1.2] mb-6">
-              {t('features.brandingPage.exploreFeatures.title')}
-            </h2>
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
-            <Card className="border-none shadow-sm">
-              <CardHeader>
-                <div className="w-14 h-14 bg-[#02B13F]/10 rounded-xl flex items-center justify-center mb-4">
-                  <MessageCircle className="w-7 h-7 text-[#02B13F]" />
-                </div>
-                <CardTitle className="text-lg sm:text-xl md:text-2xl lg:text-3xl">
-                  {t('features.brandingPage.exploreFeatures.chatWidget.title')}
-                </CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="text-sm sm:text-base text-muted-foreground">
-                  {t('features.brandingPage.exploreFeatures.chatWidget.description')}
-                </p>
-              </CardContent>
-            </Card>
-
-            <Card className="border-none shadow-sm">
-              <CardHeader>
-                <div className="w-14 h-14 bg-[#02B13F]/10 rounded-xl flex items-center justify-center mb-4">
-                  <Bot className="w-7 h-7 text-[#02B13F]" />
-                </div>
-                <CardTitle className="text-lg sm:text-xl md:text-2xl lg:text-3xl">
-                  {t('features.brandingPage.exploreFeatures.aiPinBot.title')}
-                </CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="text-sm sm:text-base text-muted-foreground">
-                  {t('features.brandingPage.exploreFeatures.aiPinBot.description')}
-                </p>
-              </CardContent>
-            </Card>
-
-            <Card className="border-none shadow-sm">
-              <CardHeader>
-                <div className="w-14 h-14 bg-[#02B13F]/10 rounded-xl flex items-center justify-center mb-4">
-                  <Link2 className="w-7 h-7 text-[#02B13F]" />
-                </div>
-                <CardTitle className="text-lg sm:text-xl md:text-2xl lg:text-3xl">
-                  {t('features.brandingPage.exploreFeatures.pinBoard.title')}
-                </CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="text-sm sm:text-base text-muted-foreground">
-                  {t('features.brandingPage.exploreFeatures.pinBoard.description')}
-                </p>
-              </CardContent>
-            </Card>
-          </div>
-          </div>
-        </section>
+        <ExploreFeatures currentFeature="branding" />
 
         {/* Final CTA Section */}
         <section className="py-20 px-4 sm:px-6 md:px-8 lg:px-12">

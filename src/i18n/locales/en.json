@@ -78,6 +78,14 @@
         "pinBoard": {
           "title": "Welcome Page Multi-Link Marketing",
           "description": "Create a multi-link page for traffic routing and brand information display, with chat entry points to enhance customer interaction."
+        },
+        "branding": {
+          "title": "Branding & Customization",
+          "description": "Customize chat interfaces, widgets, and welcome pages to match your brand identity and create a consistent user experience."
+        },
+        "dataAnalysis": {
+          "title": "Comprehensive Analytics",
+          "description": "Gain deep insights into chat volume, traffic sources, survey responses, and interaction performance with clear charts."
         }
       },
       "benefits": {
@@ -206,17 +214,25 @@
       },
       "exploreFeatures": {
         "title": "Explore Other Features",
+        "chat": {
+          "title": "Real-Time Chat System",
+          "description": "Enable one-on-one and group chats with multimedia support and customizable UI for seamless brand-user interactions."
+        },
         "chatWidget": {
           "title": "Boost Website Conversion",
           "description": "With customizable, draggable website chat widgets, quickly convert visitors into conversations and leads."
+        },
+        "pinBoard": {
+          "title": "Centralize All Brand Links",
+          "description": "Create a brand multi-link entry point that integrates traffic routing, information, and chat, enhancing the value of every click."
         },
         "aiPinBot": {
           "title": "Automated Customer Service Replies",
           "description": "Intelligently handle FAQs, support multiple languages, and enable human handoff—the best way to improve customer service efficiency."
         },
-        "pinBoard": {
-          "title": "Centralize All Brand Links",
-          "description": "Create a brand multi-link entry point that integrates traffic routing, information, and chat, enhancing the value of every click."
+        "dataAnalysis": {
+          "title": "Comprehensive Analytics",
+          "description": "Gain deep insights into chat volume, traffic sources, survey responses, and interaction performance with clear charts."
         }
       },
       "cta": {
@@ -284,6 +300,14 @@
             "dataAnalysis": {
               "title": "Master Chat & Conversion Performance",
               "description": "View visitor sources, interaction curves, and chat analysis to improve decision accuracy."
+            },
+            "branding": {
+              "title": "Branding & Customization",
+              "description": "Customize chat interfaces, widgets, and welcome pages to match your brand identity and create a consistent user experience."
+            },
+            "chat": {
+              "title": "Real-Time Chat System",
+              "description": "Enable one-on-one and group chats with multimedia support and customizable UI for seamless brand-user interactions."
             }
           },
           "cta": {
@@ -347,19 +371,27 @@
             "title": "Works Wherever You Chat",
             "subtitle": "AI Chatbot works across LINE, Messenger, Instagram, WhatsApp, and your PinChat web chat — all conversations unified in one place."
           },
-          "useCases": {
-            "title": "Versatile for All Your Use Cases",
-            "websiteEngagement": {
-              "title": "Website Engagement",
-              "description": "Instant replies boost conversion."
+          "exploreFeatures": {
+            "title": "Explore Other Features",
+            "chat": {
+              "title": "Real-Time Chat System",
+              "description": "Enable one-on-one and group chats with multimedia support and customizable UI for seamless brand-user interactions."
             },
-            "customerSupportFlow": {
-              "title": "Customer Support Flow",
-              "description": "AI filters, humans solve."
+            "chatWidget": {
+              "title": "Website Chat Widget",
+              "description": "Quickly embed a draggable, customizable chat interface on your website to boost visitor engagement and conversion efficiency."
             },
-            "postPurchaseHelp": {
-              "title": "Post-Purchase Help",
-              "description": "Faster answers, smoother follow-up."
+            "faqPinbot": {
+              "title": "FAQ Chatbot",
+              "description": "A keyword-triggered FAQ Chatbot that centrally manages repetitive questions and can seamlessly hand off to human agents."
+            },
+            "dataAnalysis": {
+              "title": "Comprehensive Analytics",
+              "description": "Gain deep insights into chat volume, traffic sources, survey responses, and interaction performance with clear charts."
+            },
+            "chatroomManagement": {
+              "title": "Chatroom Management",
+              "description": "Master all chat contexts with labels, folders, and quick search for efficient customer service workflows."
             }
           },
           "cta": {
@@ -420,19 +452,27 @@
               "imageAlt": "Event-focused FAQ Bot design"
             }
           },
-          "useCases": {
-            "title": "Use Cases",
-            "storeWebsite": {
-              "title": "Store & Official Website FAQs",
-              "description": "Auto-reply to fixed information like business hours, locations, and service items, reducing manual handling of trivial questions."
+          "exploreFeatures": {
+            "title": "Explore Other Features",
+            "aiPinBot": {
+              "title": "AI Chatbot",
+              "description": "Deliver AI-powered chats that respond instantly, hand off to humans when needed, and adapt to your brand across channels."
             },
-            "ecommerce": {
-              "title": "E-commerce Shipping & Order Instructions",
-              "description": "Quickly provide shopping FAQs like delivery methods, shipping fees, arrival times, and return/exchange processes."
+            "chat": {
+              "title": "Real-Time Chat System",
+              "description": "Enable one-on-one and group chats with multimedia support and customizable UI for seamless brand-user interactions."
             },
-            "eventPromotion": {
-              "title": "Event Registration & Promotional Traffic",
-              "description": "During events, automatically answer common questions about rules, conditions, and deadlines, improving traffic handling capacity."
+            "chatWidget": {
+              "title": "Website Chat Widget",
+              "description": "Quickly embed a draggable, customizable chat interface on your website to boost visitor engagement and conversion efficiency."
+            },
+            "dataAnalysis": {
+              "title": "Comprehensive Analytics",
+              "description": "Gain deep insights into chat volume, traffic sources, survey responses, and interaction performance with clear charts."
+            },
+            "chatroomManagement": {
+              "title": "Chatroom Management",
+              "description": "Master all chat contexts with labels, folders, and quick search for efficient customer service workflows."
             }
           },
           "cta": {
@@ -492,19 +532,27 @@
               "imageAlt": "Welcome Page analytics dashboard with engagement metrics"
             }
           },
-          "useCases": {
-            "title": "Versatile for All Your Use Cases",
-            "socialMediaBioLink": {
-              "title": "Turn Social Followers Into Engaged Customers",
-              "description": "Use Welcome Page as your \"link in bio\" to guide users from profiles to chat and key actions instantly."
+          "exploreFeatures": {
+            "title": "Explore Other Features",
+            "chatWidget": {
+              "title": "Website Chat Widget",
+              "description": "Quickly embed a draggable, customizable chat interface on your website to boost visitor engagement and conversion efficiency."
             },
-            "campaignLandingPage": {
-              "title": "A Quick-Launch Page for Promotions and Events",
-              "description": "Publish a lightweight, branded landing page without engineering work and connect it directly to chat."
+            "aiPinBot": {
+              "title": "AI Chatbot",
+              "description": "Deliver AI-powered chats that respond instantly, hand off to humans when needed, and adapt to your brand across channels."
             },
-            "customerOnboardingHub": {
-              "title": "Centralize Resources for New Customers",
-              "description": "Provide docs, FAQs, and chat access in one place to streamline onboarding and reduce support load."
+            "dataAnalysis": {
+              "title": "Comprehensive Analytics",
+              "description": "Gain deep insights into chat volume, traffic sources, survey responses, and interaction performance with clear charts."
+            },
+            "chat": {
+              "title": "Real-Time Chat System",
+              "description": "Enable one-on-one and group chats with multimedia support and customizable UI for seamless brand-user interactions."
+            },
+            "branding": {
+              "title": "Branding & Customization",
+              "description": "Customize your chat interface, widget, and welcome page to match your brand identity and create a consistent user experience."
             }
           },
           "cta": {
@@ -563,19 +611,27 @@
               "imageAlt": "Clean chat space interface"
             }
           },
-          "useCases": {
-            "title": "Use Cases",
-            "customerServiceCenter": {
-              "title": "Customer Service Team's Message Organization Center",
-              "description": "Help customer service quickly categorize large volumes of messages with labels and folders, maintaining efficient responses even during peak hours."
+          "exploreFeatures": {
+            "title": "Explore Other Features",
+            "subAccount": {
+              "title": "Sub-Account Management",
+              "description": "Easily manage multiple members' operational scope through role and permission controls for efficient team collaboration."
             },
-            "salesManagement": {
-              "title": "More Organized Sales Lead Management",
-              "description": "Categorize potential customers by progress, enabling each salesperson to clearly track status and improve conversion rates."
+            "dataAnalysis": {
+              "title": "Comprehensive Analytics",
+              "description": "Gain deep insights into chat volume, traffic sources, survey responses, and interaction performance with clear charts."
             },
-            "crossTeamCollaboration": {
-              "title": "Smoother Cross-Team Collaboration",
-              "description": "Clear chat structure enables teams to quickly grasp background information during handoffs and collaboration, ensuring no important messages are missed."
+            "aiPinBot": {
+              "title": "AI Chatbot",
+              "description": "Deliver AI-powered chats that respond instantly, hand off to humans when needed, and adapt to your brand across channels."
+            },
+            "chat": {
+              "title": "Real-Time Chat System",
+              "description": "Enable one-on-one and group chats with multimedia support and customizable UI for seamless brand-user interactions."
+            },
+            "faqPinbot": {
+              "title": "FAQ Chatbot",
+              "description": "A keyword-triggered FAQ Chatbot that centrally manages repetitive questions and can seamlessly hand off to human agents."
             }
           },
           "cta": {
@@ -636,17 +692,25 @@
           },
           "exploreFeatures": {
             "title": "Explore Other Features",
-            "aiPinBot": {
-              "title": "Automatically Handle Common Questions",
-              "description": "Use multilingual AI to automatically reply to FAQs, and seamlessly hand over to humans when needed, reducing customer service burden while maintaining consistent reply quality."
-            },
             "chatroomManagement": {
               "title": "Quickly Organize All Chatrooms",
               "description": "Use labels and folders to clearly categorize large volumes of conversations, improving customer service search, reply, and tracking efficiency."
             },
-            "analytics": {
-              "title": "Master Interaction and Traffic Performance",
-              "description": "Extract insights from chat volume, sources, and click performance to help you optimize sales and customer service strategies."
+            "dataAnalysis": {
+              "title": "Comprehensive Analytics",
+              "description": "Gain deep insights into chat volume, traffic sources, survey responses, and interaction performance with clear charts."
+            },
+            "chat": {
+              "title": "Real-Time Chat System",
+              "description": "Enable one-on-one and group chats with multimedia support and customizable UI for seamless brand-user interactions."
+            },
+            "aiPinBot": {
+              "title": "AI Chatbot",
+              "description": "Deliver AI-powered chats that respond instantly, hand off to humans when needed, and adapt to your brand across channels."
+            },
+            "branding": {
+              "title": "Branding & Customization",
+              "description": "Customize chat interfaces, widgets, and welcome pages to match your brand identity and create a consistent user experience."
             }
           },
           "cta": {
@@ -705,19 +769,27 @@
               "imageAlt": "Survey responses and user feedback analysis"
             }
           },
-          "useCases": {
-            "title": "Versatile for All Your Use Cases",
-            "optimizeService": {
-              "title": "Optimize Customer Service and Operations",
-              "description": "Quickly identify peak hours and key entry points through chat volume analysis and source tracking, helping you allocate resources and improve response efficiency."
+          "exploreFeatures": {
+            "title": "Explore Other Features",
+            "chat": {
+              "title": "Real-Time Chat System",
+              "description": "Enable one-on-one and group chats with multimedia support and customizable UI for seamless brand-user interactions."
             },
-            "boostMarketing": {
-              "title": "Enhance Marketing Campaign Performance",
-              "description": "Clearly determine which campaigns, materials, or channels deliver the best conversions through link clicks and interaction trends, making budget allocation more effective."
+            "chatWidget": {
+              "title": "Website Chat Widget",
+              "description": "Quickly embed a draggable, customizable chat interface on your website to boost visitor engagement and conversion efficiency."
             },
-            "accelerateProduct": {
-              "title": "Accelerate Product Strategy Iteration",
-              "description": "Integrate survey responses, user behavior, and interaction data to quickly identify demand trends and make more accurate product adjustments."
+            "aiPinBot": {
+              "title": "AI Chatbot",
+              "description": "Deliver AI-powered chats that respond instantly, hand off to humans when needed, and adapt to your brand across channels."
+            },
+            "chatroomManagement": {
+              "title": "Chatroom Management",
+              "description": "Master all chat contexts with labels, folders, and quick search for efficient customer service workflows."
+            },
+            "subAccount": {
+              "title": "Sub-Account Management",
+              "description": "Easily manage multiple members' operational scope through role and permission controls for efficient team collaboration."
             }
           },
           "cta": {

@@ -78,6 +78,14 @@
         "pinBoard": {
           "title": "欢迎页面多链接营销",
           "description": "打造可导流、可呈现品牌信息的多链接页，并加入聊天入口提升顾客互动。"
+        },
+        "branding": {
+          "title": "品牌与定制",
+          "description": "自定义聊天界面、插件与欢迎页面，使其符合你的品牌识别，打造一致的用户体验。"
+        },
+        "dataAnalysis": {
+          "title": "完整数据分析",
+          "description": "深入洞察聊天量、流量来源、问卷回复与互动表现，通过清晰的图表了解服务成效并持续优化营运。"
         }
       },
       "benefits": {
@@ -145,19 +153,27 @@
               "imageAlt": "整洁聊天空间界面"
             }
           },
-          "useCases": {
-            "title": "适用场景",
-            "customerServiceCenter": {
-              "title": "客服团队的讯息整理中心",
-              "description": "以标签与文件夹协助客服快速分类大量讯息，在高峰时段仍能维持高效率回复。"
+          "exploreFeatures": {
+            "title": "探索其他功能",
+            "subAccount": {
+              "title": "子账号管理",
+              "description": "通过角色与权限控制轻松管理多位成员的营运范围，实现高效的团队协作。"
             },
-            "salesManagement": {
-              "title": "销售进件管理更有条理",
-              "description": "将潜在客户依进度分类，让每位销售都能清晰掌握追踪状态并提升成交率。"
+            "dataAnalysis": {
+              "title": "完整数据分析",
+              "description": "深入洞察聊天量、流量来源、问卷回复与互动表现，通过清晰的图表了解服务成效并持续优化营运。"
             },
-            "crossTeamCollaboration": {
-              "title": "跨团队协作更顺畅",
-              "description": "清楚的聊天结构让团队在交接与合作时能快速掌握背景资讯，不漏接任何重要讯息。"
+            "aiPinBot": {
+              "title": "AI 聊天机器人",
+              "description": "提供 AI 驱动的聊天，即时回应，需要时交由人工处理，并能适应你的品牌跨平台运作。"
+            },
+            "chat": {
+              "title": "即时聊天系统",
+              "description": "支持一对一与群组聊天、多媒体消息与可调整的界面，让品牌与用户保持自然、即时且高品质的双向互动。"
+            },
+            "faqPinbot": {
+              "title": "FAQ 聊天机器人",
+              "description": "以关键词触发的 FAQ 聊天机器人，集中管理重复问题，并可在需要时无缝交由人工客服接手。"
             }
           },
           "cta": {
@@ -224,17 +240,25 @@
       },
       "exploreFeatures": {
         "title": "探索其他功能",
+        "chat": {
+          "title": "即时聊天系统",
+          "description": "支持一对一与群组聊天、多媒体消息与可调整的界面，让品牌与用户保持自然、即时且高品质的双向互动。"
+        },
         "chatWidget": {
           "title": "提升网站转换",
           "description": "以可自定义、可拖曳的网站聊天插件，快速将访客转化为对话与客源。"
+        },
+        "pinBoard": {
+          "title": "集中所有品牌链接",
+          "description": "打造品牌多链接入口，整合导流、信息与聊天，提升每一次点击的价值。"
         },
         "aiPinBot": {
           "title": "自动化客服回复",
           "description": "智能处理 FAQ、支持多语言并可人工接手，是提升客服效率的最佳方式。"
         },
-        "pinBoard": {
-          "title": "集中所有品牌链接",
-          "description": "打造品牌多链接入口，整合导流、信息与聊天，提升每一次点击的价值。"
+        "dataAnalysis": {
+          "title": "完整数据分析",
+          "description": "深入洞察聊天量、流量来源、问卷回复与互动表现，通过清晰的图表了解服务成效并持续优化营运。"
         }
       },
       "cta": {
@@ -302,6 +326,14 @@
         "dataAnalysis": {
           "title": "掌握聊天与转换成效",
           "description": "查看访客来源、互动曲线与聊天分析，提高决策准确度。"
+        },
+        "branding": {
+          "title": "品牌与定制",
+          "description": "自定义聊天界面、插件与欢迎页面，使其符合你的品牌识别，打造一致的用户体验。"
+        },
+        "chat": {
+          "title": "即时聊天系统",
+          "description": "支持一对一与群组聊天、多媒体消息与可调整的界面，让品牌与用户保持自然、即时且高品质的双向互动。"
         }
       },
       "cta": {
@@ -365,19 +397,27 @@
         "title": "在您聊天的任何地方工作",
         "subtitle": "AI 聊天机器人可在 LINE、Messenger、Instagram、WhatsApp 和您的 PinChat 网页聊天中运行——所有对话统一在一个地方。"
       },
-      "useCases": {
-        "title": "适用于真实客服场景",
-        "websiteEngagement": {
-          "title": "网站互动",
-          "description": "即时回复提升转化率。"
+      "exploreFeatures": {
+        "title": "探索其他功能",
+        "chat": {
+          "title": "即时聊天系统",
+          "description": "支持一对一与群组聊天、多媒体消息与可调整的界面，让品牌与用户保持自然、即时且高品质的双向互动。"
         },
-        "customerSupportFlow": {
-          "title": "客服流程",
-          "description": "AI 过滤，人工解决。"
+        "chatWidget": {
+          "title": "网页客服插件",
+          "description": "在网站上快速嵌入可拖曳、可客制化的聊天界面，提升访客互动与转换效率。"
         },
-        "postPurchaseHelp": {
-          "title": "售后协助",
-          "description": "更快回复，更顺畅的后续服务。"
+        "faqPinbot": {
+          "title": "FAQ 聊天机器人",
+          "description": "以关键词触发的 FAQ 聊天机器人，集中管理重复问题，并可在需要时无缝交由人工客服接手。"
+        },
+        "dataAnalysis": {
+          "title": "完整数据分析",
+          "description": "深入洞察聊天量、流量来源、问卷回复与互动表现，通过清晰的图表了解服务成效并持续优化营运。"
+        },
+        "chatroomManagement": {
+          "title": "聊天室管理",
+          "description": "以标签、文件夹与快速搜索掌握所有聊天脉络，让客服与销售团队能更快找到重要讯息。"
         }
       },
       "cta": {
@@ -389,13 +429,13 @@
     "faqPinbotPage": {
       "hero": {
         "title": "快速自动回复常见问题",
-        "subtitle": "以关键词触发的 FAQ Chatbot，集中管理营业时间、价格、物流、预约流程等重复问题。支持图文、按钮与卡片呈现，并可在需要时由人工客服接手处理，降低日常客服负担。",
+        "subtitle": "以关键词触发的 FAQ 聊天机器人，集中管理营业时间、价格、物流、预约流程等重复问题。支持图文、按钮与卡片呈现，并可在需要时由人工客服接手处理，降低日常客服负担。",
         "cta": "开始创建 FAQ Bot",
         "ctaSecondary": "免费开始",
         "imageAlt": "FAQ 聊天机器人与自动回复系统"
       },
       "sectionTitle": "主要功能特色",
-      "sectionSubtitle": "从结构化管理到人工接手，FAQ PinBot 为您的团队提供高效的常见问题解决方案",
+      "sectionSubtitle": "从结构化管理到人工接手，FAQ 聊天机器人为您的团队提供高效的常见问题解决方案",
       "features": {
         "structuredFAQ": {
           "title": "结构化 FAQ 管理",
@@ -438,23 +478,31 @@
           "imageAlt": "活动专用 FAQ Bot 设计"
         }
       },
-      "useCases": {
-        "title": "适用场景",
-        "storeWebsite": {
-          "title": "门店与官方网站常见问题",
-          "description": "自动回复营业时间、地点、服务项目等固定信息，减少人工处理琐碎问题。"
+      "exploreFeatures": {
+        "title": "探索其他功能",
+        "aiPinBot": {
+          "title": "AI 聊天机器人",
+          "description": "提供 AI 驱动的聊天，即时回应，需要时交由人工处理，并能适应你的品牌跨平台运作。"
         },
-        "ecommerce": {
-          "title": "电商物流与下单说明",
-          "description": "快速提供配送方式、运费、到货时间、退换货流程等购物 FAQ。"
+        "chat": {
+          "title": "即时聊天系统",
+          "description": "支持一对一与群组聊天、多媒体消息与可调整的界面，让品牌与用户保持自然、即时且高品质的双向互动。"
         },
-        "eventPromotion": {
-          "title": "活动注册与促销导流",
-          "description": "活动期间可自动回答规则、条件、截止时间等常见问题，提高流量处理能力。"
+        "chatWidget": {
+          "title": "网页客服插件",
+          "description": "在网站上快速嵌入可拖曳、可客制化的聊天界面，提升访客互动与转换效率。"
+        },
+        "dataAnalysis": {
+          "title": "完整数据分析",
+          "description": "深入洞察聊天量、流量来源、问卷回复与互动表现，通过清晰的图表了解服务成效并持续优化营运。"
+        },
+        "chatroomManagement": {
+          "title": "聊天室管理",
+          "description": "以标签、文件夹与快速搜索掌握所有聊天脉络，让客服与销售团队能更快找到重要讯息。"
         }
       },
       "cta": {
-        "title": "立即启用 FAQ Chatbot",
+        "title": "立即启用 FAQ 聊天机器人",
         "button": "创建我的 FAQ Bot"
       }
     },
@@ -510,19 +558,27 @@
           "imageAlt": "包含参与度指标的欢迎页面 分析仪表板"
         }
       },
-      "useCases": {
-        "title": "适用多元使用场景",
-        "socialMediaBioLink": {
-          "title": "将社交关注者转换为参与客户",
-          "description": "使用欢迎页面 作为您的「个人简介链接」，引导用户从个人资料立即进入聊天和关键行动。"
+      "exploreFeatures": {
+        "title": "探索其他功能",
+        "chatWidget": {
+          "title": "网页客服插件",
+          "description": "在网站上快速嵌入可拖曳、可客制化的聊天界面，提升访客互动与转换效率。"
         },
-        "campaignLandingPage": {
-          "title": "快速启动的活动和事件页面",
-          "description": "无需工程工作即可发布轻量级、品牌化的登陆页面，并直接连接到聊天。"
+        "aiPinBot": {
+          "title": "AI 聊天机器人",
+          "description": "提供 AI 驱动的聊天，即时回应，需要时交由人工处理，并能适应你的品牌跨平台运作。"
         },
-        "customerOnboardingHub": {
-          "title": "为新客户集中资源",
-          "description": "在一个地方提供文档、常见问题和聊天访问，以简化入门流程并减少支持负担。"
+        "dataAnalysis": {
+          "title": "完整数据分析",
+          "description": "深入洞察聊天量、流量来源、问卷回复与互动表现，通过清晰的图表了解服务成效并持续优化营运。"
+        },
+        "chat": {
+          "title": "即时聊天系统",
+          "description": "支持一对一与群组聊天、多媒体消息与可调整的界面，让品牌与用户保持自然、即时且高品质的双向互动。"
+        },
+        "branding": {
+          "title": "品牌与定制",
+          "description": "自定义聊天界面、插件与欢迎页面，使其符合你的品牌识别，打造一致的用户体验。"
         }
       },
       "cta": {
@@ -581,19 +637,27 @@
           "imageAlt": "整洁聊天空间界面"
         }
       },
-      "useCases": {
-        "title": "适用场景",
-        "customerServiceCenter": {
-          "title": "客服团队的讯息整理中心",
-          "description": "以标签与文件夹协助客服快速分类大量讯息，在高峰时段仍能维持高效率回复。"
+      "exploreFeatures": {
+        "title": "探索其他功能",
+        "subAccount": {
+          "title": "子账号管理",
+          "description": "通过角色与权限控制轻松管理多位成员的营运范围，实现高效的团队协作。"
         },
-        "salesManagement": {
-          "title": "销售进件管理更有条理",
-          "description": "将潜在客户依进度分类，让每位销售都能清晰掌握追踪状态并提升成交率。"
+        "dataAnalysis": {
+          "title": "完整数据分析",
+          "description": "深入洞察聊天量、流量来源、问卷回复与互动表现，通过清晰的图表了解服务成效并持续优化营运。"
         },
-        "crossTeamCollaboration": {
-          "title": "跨团队协作更顺畅",
-          "description": "清楚的聊天结构让团队在交接与合作时能快速掌握背景资讯，不漏接任何重要讯息。"
+        "aiPinBot": {
+          "title": "AI 聊天机器人",
+          "description": "提供 AI 驱动的聊天，即时回应，需要时交由人工处理，并能适应你的品牌跨平台运作。"
+        },
+        "chat": {
+          "title": "即时聊天系统",
+          "description": "支持一对一与群组聊天、多媒体消息与可调整的界面，让品牌与用户保持自然、即时且高品质的双向互动。"
+        },
+        "faqPinbot": {
+          "title": "FAQ 聊天机器人",
+          "description": "以关键词触发的 FAQ 聊天机器人，集中管理重复问题，并可在需要时无缝交由人工客服接手。"
         }
       },
       "cta": {
@@ -606,7 +670,7 @@
         "title": "全方位数据洞察，一站掌握互动成效",
         "subtitle": "以清晰的图表与完整的行为数据，深入了解聊天量、来源、问卷回复等互动表现，协助你快速找出流量来源、优化客服流程并提升转换成果。",
         "cta": "开始分析成效",
-        "imageAlt": "PinChat Analytics 数据分析仪表板"
+        "imageAlt": "PinChat 数据分析仪表板"
       },
       "sectionTitle": "主要功能特色",
       "sectionSubtitle": "深入洞察对话数据与用户行为，协助你掌握服务成效并持续优化营运策略",
@@ -652,19 +716,27 @@
           "imageAlt": "问卷回复与用户意见分析"
         }
       },
-      "useCases": {
-        "title": "适用于各种使用情境",
-        "optimizeService": {
-          "title": "优化客服与运营流程",
-          "description": "通过聊天量分析与来源追踪，快速辨识高峰时段与关键入口，协助配置人力并改善回复效率。"
+      "exploreFeatures": {
+        "title": "探索其他功能",
+        "chat": {
+          "title": "即时聊天系统",
+          "description": "支持一对一与群组聊天、多媒体消息与可调整的界面，让品牌与用户保持自然、即时且高品质的双向互动。"
         },
-        "boostMarketing": {
-          "title": "提升营销活动表现",
-          "description": "通过链接点击与互动趋势，清楚判断哪个活动、素材或渠道带来最佳转换，让预算运用更有效。"
+        "chatWidget": {
+          "title": "网页客服插件",
+          "description": "在网站上快速嵌入可拖曳、可客制化的聊天界面，提升访客互动与转换效率。"
         },
-        "accelerateProduct": {
-          "title": "加速产品策略迭代",
-          "description": "整合问卷回复、用户行为与互动数据，协助你快速找出需求趋势，做出更准确的产品调整。"
+        "aiPinBot": {
+          "title": "AI 聊天机器人",
+          "description": "提供 AI 驱动的聊天，即时回应，需要时交由人工处理，并能适应你的品牌跨平台运作。"
+        },
+        "chatroomManagement": {
+          "title": "聊天室管理",
+          "description": "以标签、文件夹与快速搜索掌握所有聊天脉络，让客服与销售团队能更快找到重要讯息。"
+        },
+        "subAccount": {
+          "title": "子账号管理",
+          "description": "通过角色与权限控制轻松管理多位成员的营运范围，实现高效的团队协作。"
         }
       },
       "cta": {
@@ -725,17 +797,25 @@
       },
       "exploreFeatures": {
         "title": "探索其他功能",
-        "aiPinBot": {
-          "title": "自动处理常见问题",
-          "description": "以多语系 AI 自动回复 FAQ，并在需要时由人工无缝接手，降低客服负担并维持一致回复品质。"
-        },
         "chatroomManagement": {
           "title": "快速整理所有聊天室",
           "description": "用标签与文件夹清晰分类大量对话，提升客服搜索、回复与追踪效率。"
         },
-        "analytics": {
-          "title": "掌握互动与流量表现",
-          "description": "从聊天量、来源与点击成效中挖掘洞察，协助你优化销售与客服策略。"
+        "dataAnalysis": {
+          "title": "完整数据分析",
+          "description": "深入洞察聊天量、流量来源、问卷回复与互动表现，通过清晰的图表了解服务成效并持续优化营运。"
+        },
+        "chat": {
+          "title": "即时聊天系统",
+          "description": "支持一对一与群组聊天、多媒体消息与可调整的界面，让品牌与用户保持自然、即时且高品质的双向互动。"
+        },
+        "aiPinBot": {
+          "title": "AI 聊天机器人",
+          "description": "提供 AI 驱动的聊天，即时回应，需要时交由人工处理，并能适应你的品牌跨平台运作。"
+        },
+        "branding": {
+          "title": "品牌与定制",
+          "description": "自定义聊天界面、插件与欢迎页面，使其符合你的品牌识别，打造一致的用户体验。"
         }
       },
       "cta": {
@@ -1390,7 +1470,7 @@
 "valueBlock2Title": "跨平台讯息整合",
 "valueBlock2Desc": "将 LINE、IG、Messenger、WhatsApp 的对话集中到 PinChat，不必再切换不同平台。客服团队能在单一介面管理所有讯息，掌握完整对话脉络。",
 "valueBlock3Title": "AI 客服，轻松建立",
-"valueBlock3Desc": "只需贴上你的官网连结，就能自动生成 AI PinBot，协助回覆常见问题，并支援真人客服随时接手，快速提升服务效率。",
+"valueBlock3Desc": "只需贴上你的官网连结，就能自动生成 AI 聊天机器人，协助回覆常见问题，并支援真人客服随时接手，快速提升服务效率。",
 "valueBlock4Title": "对话与顾客资料管理",
 "valueBlock4Desc": "支援子帐号分工、聊天室分类与标签管理，让团队能更清楚分配任务、追踪对话进度，并集中顾客资料，避免记录零散难找。"
 },
@@ -1507,7 +1587,7 @@
   "description": "PinChat 整合多平台讯息并支援 AI、自动化 FAQ 与导流工具，协助房仲在高询问量下仍保持清楚、迅速且一致的回覆流程，让买家充分理解物件资讯并顺利进入预约或后续洽谈。",
   "aiReply": {
     "title": "以 AI 回覆物件与看房常见问题",
-    "description": "AI PinBot 可依设定的内容回覆物件资讯、价格、开放时间与看房流程等重复性问题，并在需要人工协助时切换给业务，使买家能持续获得一致的回覆品质。"
+    "description": "AI 聊天机器人可依设定的内容回覆物件资讯、价格、开放时间与看房流程等重复性问题，并在需要人工协助时切换给业务，使买家能持续获得一致的回覆品质。"
   },
   "bookingLink": {
     "title": "提供预约连结并掌握买家需求",
@@ -1643,11 +1723,11 @@
     "description": "PinChat 协助活动团队在不同活动阶段提供即时资讯、管理大量访客询问并增加互动深度。从导流到现场支援，再到活动后追踪，都能有效提升参与者体验与团队效率。",
     "beforeEvent": {
       "title": "活动前：提升导流成效与资讯清晰度",
-      "description": "透过欢迎页面多连结页指向报名页、注意事项、活动介绍；网页客服插件与 AI PinBot 自动回答 FAQ，减少客服负担并提升转换。"
+      "description": "透过欢迎页面多连结页指向报名页、注意事项、活动介绍；网页客服插件与 AI 聊天机器人自动回答常见问题，减少客服负担并提升转换。"
     },
     "duringEvent": {
       "title": "活动中：即时回答参加者需求",
-      "description": "以 AI PinBot 快速提供场地资讯、入场流程、场次时程等内容；必要时可人工接手，确保大量讯息涌入时也能维持顺畅沟通。"
+      "description": "以 AI 聊天机器人快速提供场地资讯、入场流程、场次时程等内容；必要时可人工接手，确保大量讯息涌入时也能维持顺畅沟通。"
     },
     "afterEvent": {
       "title": "活动后：蒐集回馈并导入后续行销",
@@ -1659,7 +1739,7 @@
     "description": "无论是大型展会、讲座、促销活动或线上直播，PinChat 能协助活动团队用更低的成本达成更高品质的参与者体验，并让流程管理更具弹性与延展性。",
     "reduceBurden": {
       "title": "降低人工负担并缩短回应时间",
-      "description": "AI PinBot 支援活动 FAQ 与自动语言侦测，处理大量重复问题并即时回覆，让工作人员能专注于现场营运。"
+      "description": "AI 聊天机器人支援活动常见问题与自动语言侦测，处理大量重复问题并即时回覆，让工作人员能专注于现场营运。"
     },
     "improveAccessibility": {
       "title": "提升活动资讯可及性与导流效率",
@@ -1847,7 +1927,7 @@
     "description": "在专业服务产业，初次咨询的清晰度与资讯取得速度，会直接影响客户对服务的理解与信任。PinChat 透过整合讯息来源与可设定的标准化回答，协助团队引导客户掌握收费方式、服务内容与流程，减少沟通落差并提升导入体验。",
     "quickReply": {
       "title": "快速回覆收费方式与合作流程",
-      "description": "AI PinBot 依据预先设定的 FAQ 回覆常见行政性问题，例如计费方式、服务范围、准备文件与咨询流程，让客户能立即取得核心资讯。"
+      "description": "AI 聊天机器人依据预先设定的常见问题回覆常见行政性问题，例如计费方式、服务范围、准备文件与咨询流程，让客户能立即取得核心资讯。"
     },
     "consistentService": {
       "title": "提供一致的服务介绍与标准内容",
@@ -1919,7 +1999,7 @@
     },
     "aiReply": {
       "title": "以 AI 回覆重复性的询问",
-      "description": "AI PinBot 能依据你设定的产品资料回覆常见问题，如 MOQ、基础规格、材质、交期说明等，减少销售人员处理重复问答的负担。"
+      "description": "AI 聊天机器人能依据你设定的产品资料回覆常见问题，如最小订购量、基础规格、材质、交期说明等，减少销售人员处理重复问答的负担。"
     },
     "tagsFolders": {
       "title": "以标签与资料夹管理客户分类",
@@ -1971,169 +2051,170 @@
 },
 "about": {
 "hero": {
-  "title": "Empowering Every Conversation",
-  "subtitle": "PinChat was founded with a vision to make business communication simple, meaningful, and accessible for everyone. We believe every conversation has the power to build trust and drive growth.",
-  "startFreeToday": "Start Free Today",
-  "contactUs": "Contact Us"
+  "title": "賦能每一次對話",
+  "subtitle": "PinChat 成立於一個願景：讓商業溝通變得簡單、有意義且人人可及。我們相信每一次對話都有建立信任和推動成長的力量。",
+  "startFreeToday": "今天免費開始",
+  "contactUs": "聯繫我們"
 },
 "mission": {
-  "quote": "We are committed to building the world's most intuitive and efficient communication platform, enabling every conversation to flow seamlessly and create value.",
-  "label": "Our Mission"
+  "quote": "我們致力於打造世界上最直觀、最高效的溝通平台，讓每一次對話都能流暢進行並創造價值。",
+  "label": "我們的使命"
 },
 "numbers": {
-  "title": "PinChat by the Numbers",
+  "title": "PinChat 數據一覽",
   "yearFounded": {
     "value": "2020",
-    "label": "Year Founded",
-    "description": "Started with a vision to simplify business communication"
+    "label": "成立年份",
+    "description": "以簡化商業溝通的願景開始"
   },
   "countriesServed": {
     "value": "20+",
-    "label": "Countries Served",
-    "description": "Global reach across multiple continents and time zones"
+    "label": "服務國家",
+    "description": "跨越多個大洲和時區的全球覆蓋"
   },
   "monthlyConversations": {
     "value": "3000+",
-    "label": "Monthly Conversations",
-    "description": "Average conversations facilitated through our platform"
+    "label": "每月對話數",
+    "description": "透過我們平台促進的平均對話數"
   }
 },
 "journey": {
-  "title": "Our Journey",
-  "subtitle": "From inception to becoming a trusted communication platform",
+  "title": "我們的旅程",
+  "subtitle": "從創立到成為值得信賴的溝通平台",
   "origins": {
-    "title": "PinChat Origins",
-    "description": "PinChat was born from a simple observation: conversations between businesses and customers were often fragmented and difficult to manage. Our initial idea started as lightweight chatrooms shared via short links or QR codes—making it effortless for merchants and consumers to connect without technical barriers."
+    "title": "PinChat 的起源",
+    "description": "PinChat 源於一個簡單的觀察：企業與顧客之間的對話經常支離破碎且難以管理。我們最初的想法是透過短連結或 QR code 分享的輕量聊天室——讓商家和消費者無需技術障礙即可輕鬆連接。"
   },
   "milestones": {
     "2019": {
-      "title": "2019 – Version 1",
-      "description": "Completed the first backend version, laying the foundation for PinChat."
+      "title": "2019 – 第一版",
+      "description": "完成第一個後端版本，為 PinChat 奠定基礎。"
     },
     "2020": {
-      "title": "2020 – First Customers",
-      "description": "Continued iterations and improvements, welcoming our very first customers."
+      "title": "2020 – 首批客戶",
+      "description": "持續迭代與改進，歡迎我們的首批客戶。"
     },
     "2022": {
-      "title": "2022 – Expansion & Recognition",
-      "description": "Launched third-party integrations and payment features. Officially listed on AppSumo, gaining international exposure."
+      "title": "2022 – 擴展與認可",
+      "description": "推出第三方整合和支付功能。正式在 AppSumo 上架，獲得國際曝光。"
     },
     "2025": {
-      "title": "2025 – AI PinBot",
-      "description": "Released AI PinBot, introducing advanced conversational intelligence to empower businesses with smarter customer support."
+      "title": "2025 – AI 聊天機器人",
+      "description": "發布 AI 聊天機器人，引入先進的對話智能，讓企業擁有更智能的客戶支援。"
     },
-    "title": "PinChat Milestones"
+    "title": "PinChat 里程碑"
   }
 },
 "values": {
-  "title": "Our Values",
-  "subtitle": "The principles that guide everything we do",
+  "title": "我們的價值觀",
+  "subtitle": "指導我們一切行動的原則",
   "simplicity": {
-    "title": "Simplicity",
-    "description": "We believe powerful tools should be easy to use. No complexity, just results."
+    "title": "簡約",
+    "description": "我們相信強大的工具應該易於使用。沒有複雜性，只有結果。"
   },
   "innovation": {
-    "title": "Innovation",
-    "description": "Constantly evolving our platform to meet the changing needs of modern businesses."
+    "title": "創新",
+    "description": "持續演進我們的平台，以滿足現代企業不斷變化的需求。"
   },
   "trust": {
-    "title": "Trust",
-    "description": "Security and reliability are at the core of everything we build and deliver."
+    "title": "信任",
+    "description": "安全性和可靠性是我們構建和交付一切的核心。"
   },
   "globalReach": {
-    "title": "Global Reach",
-    "description": "Connecting businesses and customers worldwide, transcending geographical boundaries."
+    "title": "全球覆蓋",
+    "description": "連接世界各地的企業和客戶，超越地理界限。"
   }
 },
 "team": {
-  "title": "Our Team Culture",
-  "subtitle": "We're a diverse team of passionate individuals united by a common goal: making business communication effortless and effective.",
+  "title": "我們的團隊文化",
+  "subtitle": "我們是一支多元化的熱情團隊，由共同目標團結在一起：讓企業溝通變得輕鬆且有效。",
   "collaborative": {
-    "title": "Collaborative",
-    "description": "We work together across time zones and cultures to build something amazing."
+    "title": "協作",
+    "description": "我們跨越時區和文化一起工作，打造令人驚艷的產品。"
   },
   "customerFocused": {
-    "title": "Customer-Focused",
-    "description": "Every decision we make starts with understanding our customers' needs."
+    "title": "以客戶為中心",
+    "description": "我們做出的每個決策都從理解客戶需求開始。"
   },
   "resultsDriven": {
-    "title": "Results-Driven",
-    "description": "We measure success by the impact we create for businesses and their customers."
+    "title": "結果導向",
+    "description": "我們通過為企業及其客戶創造的影響來衡量成功。"
   }
 },
 "cta": {
-  "title": "Join us in transforming customer communication",
-  "subtitle": "Ready to experience the power of unified messaging? Start your free trial today and see how PinChat can transform your customer relationships.",
-  "startFree": "Start Free",
-  "contactUs": "Contact Us"
+  "title": "與我們一起轉變客戶溝通",
+  "subtitle": "準備好體驗統一訊息的力量？今天開始免費試用，看看 PinChat 如何轉變您的客戶關係。",
+  "startFree": "免費開始",
+  "contactUs": "聯繫我們"
 }
 },
 "contact": {
 "success": {
-  "title": "Thank you for contacting us!",
-  "description": "Our team will get back to you within 48 working hours.",
-  "checkSpam": "If you haven't received our reply, please check if it is in your spam folder.",
-  "backToHome": "Back to Home"
+  "title": "感謝您聯繫我們！",
+  "description": "我們的團隊將在 48 個工作小時內回覆您。",
+  "checkSpam": "如果您還沒有收到我們的回覆，請檢查是否在垃圾郵件資料夾中。",
+  "backToHome": "返回首頁"
 },
 "hero": {
-  "badge": "Get in touch with our team",
-  "title": "Contact us anytime",
-  "subtitle": "We're here to help you discover how PinChat can transform your customer communication. Whether you want to learn more about our features, schedule a personalized demo, or find the perfect solution for your business needs, our team is ready to assist you.",
+  "badge": "與我們的團隊取得聯繫",
+  "title": "隨時聯繫我們",
+  "subtitle": "我們隨時為您服務，幫助您了解 PinChat 如何轉變您的客戶溝通。無論您想了解更多功能、安排個人化演示，還是尋找適合您業務需求的完美解決方案，我們的團隊都準備好協助您。",
   "reasons": {
-    "learnMore": "Learn more about our product",
-    "scheduleMeeting": "Schedule a meeting with us",
-    "findSolution": "Find the right solution for you",
-    "productQuestions": "Product-related questions",
-    "partnerships": "Partnership opportunities",
-    "support": "General support inquiries"
+    "learnMore": "了解更多產品資訊",
+    "scheduleMeeting": "與我們安排會議",
+    "findSolution": "找到適合您的解決方案",
+    "productQuestions": "產品相關問題",
+    "partnerships": "合作機會",
+    "support": "一般支援詢問"
   },
   "responseTime": {
-    "title": "Response Time Commitment",
-    "description": "We will reply within 48 working hours. If you haven't received our reply, please check your spam folder."
+    "title": "回覆時間承諾",
+    "description": "我們將在 48 個工作小時內回覆。如果您還沒有收到我們的回覆，請檢查您的垃圾郵件資料夾。"
   }
 },
 "form": {
-  "title": "Let's start the conversation",
-  "subtitle": "Fill out the form below and we'll get back to you soon.",
-  "requestType": "What is your request about?",
+  "title": "讓我們開始對話",
+  "subtitle": "填寫下方表單，我們會盡快回覆您。",
+  "requestType": "您的請求是關於什麼？",
   "requestTypeOptions": {
-    "learnMore": "Learn more about our product",
-    "scheduleMeeting": "Schedule a meeting with us",
-    "findSolution": "Find the right solution that suits your needs",
-    "partnerships": "Offer partnerships",
-    "productQuestions": "Other product-related questions"
+    "learnMore": "了解更多產品資訊",
+    "scheduleMeeting": "與我們安排會議",
+    "findSolution": "找到適合您需求的解決方案",
+    "partnerships": "提供合作機會",
+    "productQuestions": "其他產品相關問題"
   },
-  "email": "Email",
-  "company": "Company",
-  "jobTitle": "Job Title",
-  "firstName": "First Name",
-  "lastName": "Last Name",
-  "country": "Country",
-  "howDidYouFindUs": "How did you find us?",
-  "message": "Message",
-  "submit": "Submit",
-  "pleaseSelect": "Please select",
-  "required": "Required",
-  "validEmail": "Please enter a valid email address",
-  "maxChars": "must be {{max}} characters or less",
-  "minChars": "Please provide more details (minimum {{min}} characters)",
-  "emailRequired": "Email is required",
-  "companyRequired": "Company name is required",
-  "jobTitleRequired": "Job title is required",
-  "firstNameRequired": "First name is required",
-  "lastNameRequired": "Last name is required",
-  "countryRequired": "Please select your country",
-  "howDidYouFindUsRequired": "Please select how you found us",
+  "email": "電子郵件",
+  "company": "公司",
+  "jobTitle": "職位",
+  "firstName": "名字",
+  "lastName": "姓氏",
+  "country": "國家",
+  "howDidYouFindUs": "您是如何找到我們的？",
   "howDidYouFindUsOptions": {
-    "searchEngine": "Search Engine",
-    "socialMedia": "Social Media",
-    "onlineAds": "Online Ads",
-    "events": "Virtual or In-person Events",
-    "wordOfMouth": "Word of Mouth",
-    "other": "Other"
+    "searchEngine": "搜尋引擎",
+    "socialMedia": "社交媒體",
+    "onlineAds": "線上廣告",
+    "events": "虛擬或實體活動",
+    "wordOfMouth": "口碑推薦",
+    "other": "其他"
   },
-  "messagePlaceholder": "Please describe your needs, questions, or how we can help you...",
-  "submitting": "Submitting..."
+  "message": "訊息",
+  "messagePlaceholder": "請描述您的需求、問題或我們如何協助您...",
+  "submit": "提交",
+  "submitting": "提交中...",
+  "pleaseSelect": "請選擇",
+  "required": "必填",
+  "validEmail": "請輸入有效的電子郵件地址",
+  "maxChars": "必須不超過 {{max}} 個字元",
+  "minChars": "請提供更多詳情（最少 {{min}} 個字元）",
+  "requestTypeRequired": "請選擇您的請求的內容",
+  "emailRequired": "電子郵件為必填項",
+  "companyRequired": "公司名稱為必填項",
+  "jobTitleRequired": "職位為必填項",
+  "firstNameRequired": "名字為必填項",
+  "lastNameRequired": "姓氏為必填項",
+  "countryRequired": "請選擇您的國家",
+  "howDidYouFindUsRequired": "請選擇您是如何找到我們的"
 }
 },
 "pricing": {

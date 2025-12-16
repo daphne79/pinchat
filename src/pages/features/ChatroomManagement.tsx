@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import FeatureNavigation from "@/components/FeatureNavigation";
 import Footer from "@/components/Footer";
+import ExploreFeatures from "@/components/ExploreFeatures";
 import { FolderOpen, Tag, Search, BarChart3, LifeBuoy, Users, Archive, Sparkles } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import { getAssetPath } from '@/lib/assetPath';
@@ -198,65 +199,8 @@ const ChatroomManagement = () => {
           </div>
         </section>
 
-        {/* Use Case Section */}
-        <section className="py-20 px-4 sm:px-6 md:px-8 lg:px-12 bg-muted/30">
-          <div className="container mx-auto">
-            <div className="text-center mb-12">
-            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[48px] font-bold tracking-wide leading-normal lg:leading-[1.2] mb-6">
-              {t('features.chatroomManagementPage.useCases.title')}
-            </h2>
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
-            <Card className="border-none shadow-sm">
-              <CardHeader>
-                <div className="w-14 h-14 bg-[#02B13F]/10 rounded-xl flex items-center justify-center mb-4">
-                  <LifeBuoy className="w-7 h-7 text-[#02B13F]" />
-                </div>
-                <CardTitle className="text-lg sm:text-xl md:text-2xl lg:text-3xl">
-                  {t('features.chatroomManagementPage.useCases.customerServiceCenter.title')}
-                </CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="text-sm sm:text-base text-muted-foreground">
-                  {t('features.chatroomManagementPage.useCases.customerServiceCenter.description')}
-                </p>
-              </CardContent>
-            </Card>
-
-            <Card className="border-none shadow-sm">
-              <CardHeader>
-                <div className="w-14 h-14 bg-[#02B13F]/10 rounded-xl flex items-center justify-center mb-4">
-                  <BarChart3 className="w-7 h-7 text-[#02B13F]" />
-                </div>
-                <CardTitle className="text-lg sm:text-xl md:text-2xl lg:text-3xl">
-                  {t('features.chatroomManagementPage.useCases.salesManagement.title')}
-                </CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="text-sm sm:text-base text-muted-foreground">
-                  {t('features.chatroomManagementPage.useCases.salesManagement.description')}
-                </p>
-              </CardContent>
-            </Card>
-
-            <Card className="border-none shadow-sm">
-              <CardHeader>
-                <div className="w-14 h-14 bg-[#02B13F]/10 rounded-xl flex items-center justify-center mb-4">
-                  <Users className="w-7 h-7 text-[#02B13F]" />
-                </div>
-                <CardTitle className="text-lg sm:text-xl md:text-2xl lg:text-3xl">
-                  {t('features.chatroomManagementPage.useCases.crossTeamCollaboration.title')}
-                </CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="text-sm sm:text-base text-muted-foreground">
-                  {t('features.chatroomManagementPage.useCases.crossTeamCollaboration.description')}
-                </p>
-              </CardContent>
-            </Card>
-          </div>
-          </div>
-        </section>
+        {/* Explore Other Features Section */}
+        <ExploreFeatures currentFeature="chatroomManagement" />
 
         {/* Final CTA Section */}
         <section className="py-20 px-4 sm:px-6 md:px-8 lg:px-12">
