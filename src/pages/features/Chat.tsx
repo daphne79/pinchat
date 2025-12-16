@@ -154,7 +154,7 @@ const Chat = () => {
             </div>
             <div className="order-1 lg:order-2">
               <img
-                src={getAssetPath("/lovable-uploads/lead-capture-survey-hero.png")}
+                src={getAssetPath("/lovable-uploads/chat-customizations.png")}
                 alt="可客製化的聊天介面"
                 className="w-full"
               />
