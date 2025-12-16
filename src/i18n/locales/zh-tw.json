@@ -443,9 +443,9 @@
           "hero": {
             "title": "您的個人化連結中心，提升客戶互動",
             "subtitle": "建立一個品牌化、行動裝置就緒的連結頁面，統一所有行動、提升轉換率，並推動無縫對話。",
-            "cta": "建立我的 PinBoard",
+            "cta": "建立我的歡迎頁面",
             "ctaSecondary": "了解更多",
-            "imageAlt": "PinBoard 個人化連結中心介面"
+            "imageAlt": "歡迎頁面 個人化連結中心介面"
           },
           "sectionTitle": "核心功能",
           "sectionSubtitle": "建立強大、以轉換為導向的連結頁面所需的一切",
@@ -475,27 +475,27 @@
               "description": "透過原生聊天按鈕將流量轉換為真實對話，直接引導每位訪客進入您的 PinChat 收件匣，獲得即時支援。",
               "benefits": {
                 "launchInstantChat": "一鍵存取 PinChat 聊天",
-                "supportAIOrHuman": "支援 AI PinBot 和人工客服",
+                "supportAIOrHuman": "支援 AI 聊天機器人和人工客服",
                 "minimizeDropOff": "透過即時互動減少跳出率"
               },
-              "imageAlt": "PinBoard 上的內建聊天入口按鈕"
+              "imageAlt": "歡迎頁面 上的內建聊天入口按鈕"
             },
             "insightfulAnalytics": {
               "title": "流量與參與度洞察",
-              "description": "追蹤訪客行為、連結效能和參與度指標，持續優化您的 PinBoard 並改善轉換成果。",
+              "description": "追蹤訪客行為、連結效能和參與度指標，持續優化您的歡迎頁面 並改善轉換成果。",
               "benefits": {
                 "viewLinkEngagement": "測量連結點擊和訪客趨勢",
                 "identifyHighPerforming": "識別表現最佳的內容",
                 "makeDataDriven": "透過清晰的洞察優化行動"
               },
-              "imageAlt": "包含參與度指標的 PinBoard 分析儀表板"
+              "imageAlt": "包含參與度指標的歡迎頁面 分析儀表板"
             }
           },
           "useCases": {
             "title": "適用多元使用場景",
             "socialMediaBioLink": {
               "title": "將社群追蹤者轉換為參與客戶",
-              "description": "使用 PinBoard 作為您的「個人簡介連結」，引導使用者從個人資料立即進入聊天和關鍵行動。"
+              "description": "使用歡迎頁面 作為您的「個人簡介連結」，引導使用者從個人資料立即進入聊天和關鍵行動。"
             },
             "campaignLandingPage": {
               "title": "快速啟動的活動和事件頁面",
@@ -508,7 +508,7 @@
           },
           "cta": {
             "title": "幾分鐘內建立品牌化連結中心",
-            "button": "建立我的 PinBoard"
+            "button": "建立我的歡迎頁面"
           }
         },
         "chatroomManagementPage": {

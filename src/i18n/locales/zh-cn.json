@@ -461,9 +461,9 @@
       "hero": {
         "title": "您的个性化链接中心，提升客户互动",
         "subtitle": "创建一个品牌化、移动设备就绪的链接页面，统一所有行动、提升转化率，并推动无缝对话。",
-        "cta": "创建我的 PinBoard",
+        "cta": "创建我的欢迎页面",
         "ctaSecondary": "了解更多",
-        "imageAlt": "PinBoard 个性化链接中心界面"
+        "imageAlt": "欢迎页面 个性化链接中心界面"
       },
       "sectionTitle": "核心功能",
       "sectionSubtitle": "创建强大、以转化为导向的链接页面所需的一切",
@@ -493,27 +493,27 @@
           "description": "通过原生聊天按钮将流量转换为真实对话，直接引导每位访客进入您的 PinChat 收件箱，获得即时支持。",
           "benefits": {
             "launchInstantChat": "一键访问 PinChat 聊天",
-            "supportAIOrHuman": "支持 AI PinBot 和人工客服",
+            "supportAIOrHuman": "支持 AI 聊天机器人和人工客服",
             "minimizeDropOff": "通过即时互动减少跳出率"
           },
-          "imageAlt": "PinBoard 上的内置聊天入口按钮"
+          "imageAlt": "欢迎页面 上的内置聊天入口按钮"
         },
         "insightfulAnalytics": {
           "title": "流量与参与度洞察",
-          "description": "追踪访客行为、链接性能和参与度指标，持续优化您的 PinBoard 并改善转化成果。",
+          "description": "追踪访客行为、链接性能和参与度指标，持续优化您的欢迎页面 并改善转化成果。",
           "benefits": {
             "viewLinkEngagement": "测量链接点击和访客趋势",
             "identifyHighPerforming": "识别表现最佳的内容",
             "makeDataDriven": "通过清晰的洞察优化行动"
           },
-          "imageAlt": "包含参与度指标的 PinBoard 分析仪表板"
+          "imageAlt": "包含参与度指标的欢迎页面 分析仪表板"
         }
       },
       "useCases": {
         "title": "适用多元使用场景",
         "socialMediaBioLink": {
           "title": "将社交关注者转换为参与客户",
-          "description": "使用 PinBoard 作为您的「个人简介链接」，引导用户从个人资料立即进入聊天和关键行动。"
+          "description": "使用欢迎页面 作为您的「个人简介链接」，引导用户从个人资料立即进入聊天和关键行动。"
         },
         "campaignLandingPage": {
           "title": "快速启动的活动和事件页面",
@@ -526,7 +526,7 @@
       },
       "cta": {
         "title": "几分钟内创建品牌化链接中心",
-        "button": "创建我的 PinBoard"
+        "button": "创建我的欢迎页面"
       }
     },
     "chatroomManagementPage": {
