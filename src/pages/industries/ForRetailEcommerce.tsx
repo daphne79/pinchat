@@ -5,6 +5,7 @@ import FeatureNavigation from "@/components/FeatureNavigation";
 import Footer from "@/components/Footer";
 import { useLanguageFont } from '@/hooks/useLanguageFont';
 import { useTranslationDirect } from '@/hooks/useTranslationDirect';
+import { getAssetPath } from '@/lib/assetPath';
 
 const ForRetailEcommerce = () => {
   const { t } = useTranslationDirect();
@@ -36,7 +37,7 @@ const ForRetailEcommerce = () => {
             {/* Hero Image */}
             <div className="mt-16 rounded-lg overflow-hidden">
               <img 
-                src="/lovable-uploads/f4f43fc8-86f7-459a-8ba8-a97d9cc3610d.png" 
+                src={getAssetPath("/lovable-uploads/f4f43fc8-86f7-459a-8ba8-a97d9cc3610d.png")} 
                 alt="Retail and e-commerce customer service interface" 
                 className="w-full h-auto"
               />
@@ -105,7 +106,7 @@ const ForRetailEcommerce = () => {
               </div>
               <div className="rounded-lg overflow-hidden">
                 <img 
-                  src="/lovable-uploads/f4f43fc8-86f7-459a-8ba8-a97d9cc3610d.png" 
+                  src={getAssetPath("/lovable-uploads/f4f43fc8-86f7-459a-8ba8-a97d9cc3610d.png")} 
                   alt="Customer service dashboard" 
                   className="w-full h-auto"
                 />
@@ -120,7 +121,7 @@ const ForRetailEcommerce = () => {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div className="order-2 lg:order-1 rounded-lg overflow-hidden">
                 <img 
-                  src="/lovable-uploads/f4f43fc8-86f7-459a-8ba8-a97d9cc3610d.png" 
+                  src={getAssetPath("/lovable-uploads/f4f43fc8-86f7-459a-8ba8-a97d9cc3610d.png")} 
                   alt="Customer engagement dashboard" 
                   className="w-full h-auto"
                 />
@@ -176,7 +177,7 @@ const ForRetailEcommerce = () => {
             >
               <div className="aspect-video bg-muted overflow-hidden">
                 <img 
-                  src="/lovable-uploads/f4f43fc8-86f7-459a-8ba8-a97d9cc3610d.png" 
+                  src={getAssetPath("/lovable-uploads/f4f43fc8-86f7-459a-8ba8-a97d9cc3610d.png")} 
                   alt="Service Industries" 
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                 />
@@ -197,7 +198,7 @@ const ForRetailEcommerce = () => {
             >
               <div className="aspect-video bg-muted overflow-hidden">
                 <img 
-                  src="/lovable-uploads/f4f43fc8-86f7-459a-8ba8-a97d9cc3610d.png" 
+                  src={getAssetPath("/lovable-uploads/f4f43fc8-86f7-459a-8ba8-a97d9cc3610d.png")} 
                   alt="Education" 
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                 />
@@ -218,7 +219,7 @@ const ForRetailEcommerce = () => {
             >
               <div className="aspect-video bg-muted overflow-hidden">
                 <img 
-                  src="/lovable-uploads/f4f43fc8-86f7-459a-8ba8-a97d9cc3610d.png" 
+                  src={getAssetPath("/lovable-uploads/f4f43fc8-86f7-459a-8ba8-a97d9cc3610d.png")} 
                   alt="Healthcare" 
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                 />

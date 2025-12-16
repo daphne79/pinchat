@@ -5,6 +5,7 @@ import FeatureNavigation from "@/components/FeatureNavigation";
 import Footer from "@/components/Footer";
 import { useLanguageFont } from '@/hooks/useLanguageFont';
 import { useTranslationDirect } from '@/hooks/useTranslationDirect';
+import { getAssetPath } from '@/lib/assetPath';
 
 const About = () => {
   const { t } = useTranslationDirect();
@@ -35,7 +36,7 @@ const About = () => {
           </div>
           <div className="relative">
             <img 
-              src="/lovable-uploads/bf8b9ee8-745e-48f5-a01e-5656ac985798.png" 
+              src={getAssetPath("/lovable-uploads/bf8b9ee8-745e-48f5-a01e-5656ac985798.png")} 
               alt="3D illustration of smartphone with colorful chat bubbles floating around, representing PinChat messaging platform" 
               loading="lazy" 
               className="mx-auto max-w-4xl w-full h-auto"

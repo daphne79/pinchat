@@ -5,6 +5,7 @@ import FeatureNavigation from "@/components/FeatureNavigation";
 import Footer from "@/components/Footer";
 import { useTranslationDirect } from '@/hooks/useTranslationDirect';
 import { useLanguageFont } from '@/hooks/useLanguageFont';
+import { getAssetPath } from '@/lib/assetPath';
 
 const LeadCaptureSurveys = () => {
   const { t } = useTranslationDirect();
@@ -35,7 +36,7 @@ const LeadCaptureSurveys = () => {
             {/* Hero Image */}
             <div className="mt-16 rounded-lg overflow-hidden">
               <img 
-                src="/lovable-uploads/e56b55a0-a523-4d27-89ec-f87622f38283.png" 
+                src={getAssetPath("/lovable-uploads/e56b55a0-a523-4d27-89ec-f87622f38283.png")} 
                 alt="Lead capture survey interface in chat conversation" 
                 className="w-full h-auto"
               />
@@ -110,7 +111,7 @@ const LeadCaptureSurveys = () => {
               </div>
               <div className="rounded-lg overflow-hidden">
                 <img 
-                  src="/lovable-uploads/e56b55a0-a523-4d27-89ec-f87622f38283.png" 
+                  src={getAssetPath("/lovable-uploads/e56b55a0-a523-4d27-89ec-f87622f38283.png")} 
                   alt="PinChat lead capture solution" 
                   className="w-full h-auto"
                 />
@@ -125,7 +126,7 @@ const LeadCaptureSurveys = () => {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div className="order-2 lg:order-1 rounded-lg overflow-hidden">
                 <img 
-                  src="/lovable-uploads/e56b55a0-a523-4d27-89ec-f87622f38283.png" 
+                  src={getAssetPath("/lovable-uploads/e56b55a0-a523-4d27-89ec-f87622f38283.png")} 
                   alt="PinChat benefits dashboard" 
                   className="w-full h-auto"
                 />
@@ -222,7 +223,7 @@ const LeadCaptureSurveys = () => {
               <div className="group rounded-lg overflow-hidden border bg-card hover:shadow-lg transition-all duration-300">
                 <div className="aspect-video bg-muted overflow-hidden">
                   <img 
-                    src="/lovable-uploads/f4f43fc8-86f7-459a-8ba8-a97d9cc3610d.png" 
+                    src={getAssetPath("/lovable-uploads/f4f43fc8-86f7-459a-8ba8-a97d9cc3610d.png")} 
                     alt={t('solutions.leadCaptureSurveysPage.exploreUseCases.customerService.title')}
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                   />
@@ -239,7 +240,7 @@ const LeadCaptureSurveys = () => {
               <div className="group rounded-lg overflow-hidden border bg-card hover:shadow-lg transition-all duration-300">
                 <div className="aspect-video bg-muted overflow-hidden">
                   <img 
-                    src="/lovable-uploads/f4f43fc8-86f7-459a-8ba8-a97d9cc3610d.png" 
+                    src={getAssetPath("/lovable-uploads/f4f43fc8-86f7-459a-8ba8-a97d9cc3610d.png")} 
                     alt={t('solutions.leadCaptureSurveysPage.exploreUseCases.messageIntegration.title')}
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                   />
@@ -256,7 +257,7 @@ const LeadCaptureSurveys = () => {
               <div className="group rounded-lg overflow-hidden border bg-card hover:shadow-lg transition-all duration-300">
                 <div className="aspect-video bg-muted overflow-hidden">
                   <img 
-                    src="/lovable-uploads/f4f43fc8-86f7-459a-8ba8-a97d9cc3610d.png" 
+                    src={getAssetPath("/lovable-uploads/f4f43fc8-86f7-459a-8ba8-a97d9cc3610d.png")} 
                     alt={t('solutions.leadCaptureSurveysPage.exploreUseCases.customerInsights.title')}
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                   />

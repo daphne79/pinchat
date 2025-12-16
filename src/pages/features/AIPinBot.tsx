@@ -5,6 +5,7 @@ import FeatureNavigation from "@/components/FeatureNavigation";
 import Footer from "@/components/Footer";
 import { Bot, MessageCircle, Settings, Users, Zap, Globe, LifeBuoy, Sparkles, FileText, Brain } from "lucide-react";
 import { useTranslation } from "react-i18next";
+import { getAssetPath } from '@/lib/assetPath';
 const AIPinBot = () => {
   const { t } = useTranslation();
 
@@ -33,7 +34,7 @@ const AIPinBot = () => {
               </div>
               <div className="min-h-64 sm:min-h-96 flex items-center justify-center animate-fade-in">
                 <img 
-                  src="/lovable-uploads/ai-customer-service-bot-hero.png" 
+                  src={getAssetPath("/lovable-uploads/ai-customer-service-bot-hero.png")} 
                   alt={t('features.aiPinbotPage.hero.imageAlt')} 
                   className="max-h-full max-w-full object-contain rounded-lg shadow-lg" 
                 />
@@ -83,7 +84,7 @@ const AIPinBot = () => {
             </div>
             <div className="order-1 lg:order-2">
               <img 
-                src="/lovable-uploads/chat_management.png" 
+                src={getAssetPath("/lovable-uploads/chat_management.png")} 
                 alt={t('features.aiPinbotPage.features.unifiedKnowledge.imageAlt')} 
                 className="w-full rounded-2xl shadow-xl"
               />
@@ -119,7 +120,7 @@ const AIPinBot = () => {
             </div>
             <div className="order-1">
               <img 
-                src="/lovable-uploads/chatroom-team-management-hero.png" 
+                src={getAssetPath("/lovable-uploads/chatroom-team-management-hero.png")} 
                 alt={t('features.aiPinbotPage.features.smartFAQ.imageAlt')} 
                 className="w-full rounded-2xl shadow-xl"
               />
@@ -155,7 +156,7 @@ const AIPinBot = () => {
             </div>
             <div className="order-1 lg:order-2">
               <img 
-                src="/lovable-uploads/customer-feedback-analytics-hero.png" 
+                src={getAssetPath("/lovable-uploads/customer-feedback-analytics-hero.png")} 
                 alt={t('features.aiPinbotPage.features.contextAwareMemory.imageAlt')} 
                 className="w-full rounded-2xl shadow-xl"
               />
@@ -191,7 +192,7 @@ const AIPinBot = () => {
             </div>
             <div className="order-1">
               <img 
-                src="/lovable-uploads/lead-capture-survey-hero.png" 
+                src={getAssetPath("/lovable-uploads/lead-capture-survey-hero.png")} 
                 alt={t('features.aiPinbotPage.features.humanHandoff.imageAlt')} 
                 className="w-full rounded-2xl shadow-xl"
               />

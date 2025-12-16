@@ -3,6 +3,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { Globe } from "lucide-react";
 import { useTranslation } from 'react-i18next';
 import { useLanguageFont } from '@/hooks/useLanguageFont';
+import { getAssetPath } from '@/lib/assetPath';
 
 const Footer = () => {
   const { t, i18n } = useTranslation();
@@ -56,7 +57,7 @@ const Footer = () => {
       <div className="container mx-auto grid gap-8 md:grid-cols-4">
         <div>
           <div className="flex items-center gap-2">
-            <img src="/lovable-uploads/25304deb-b462-4c04-a4a7-b39375759f10.png" alt="PinChat Logo" className="h-8 w-auto" />
+            <img src={getAssetPath("/lovable-uploads/25304deb-b462-4c04-a4a7-b39375759f10.png")} alt="PinChat Logo" className="h-8 w-auto" />
           </div>
               <p className="mt-3 text-sm text-muted-foreground">{tFixed('footer.description')}</p>
             </div>

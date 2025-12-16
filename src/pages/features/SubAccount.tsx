@@ -5,6 +5,7 @@ import FeatureNavigation from "@/components/FeatureNavigation";
 import Footer from "@/components/Footer";
 import { UserPlus, Shield, Users, Lock, Bot, MessageSquare, BarChart3 } from "lucide-react";
 import { useTranslation } from "react-i18next";
+import { getAssetPath } from '@/lib/assetPath';
 
 const SubAccount = () => {
   const { t } = useTranslation();
@@ -31,7 +32,7 @@ const SubAccount = () => {
               </div>
               <div className="min-h-64 sm:min-h-96 flex items-center justify-center animate-fade-in">
                 <img
-                  src="/lovable-uploads/6ae22272-9807-4c3d-bbae-315dca582a9d.png"
+                  src={getAssetPath("/lovable-uploads/6ae22272-9807-4c3d-bbae-315dca582a9d.png")}
                   alt={t('features.subAccountPage.hero.imageAlt')}
                   className="max-h-full max-w-full object-contain rounded-lg shadow-lg"
                 />
@@ -81,7 +82,7 @@ const SubAccount = () => {
             </div>
             <div className="order-1 lg:order-2">
               <img
-                src="/lovable-uploads/d1ad25e5-2193-4b5d-878b-bbc0164990b0.png"
+                src={getAssetPath("/lovable-uploads/d1ad25e5-2193-4b5d-878b-bbc0164990b0.png")}
                 alt={t('features.subAccountPage.keyFeatures.feature1.imageAlt')}
                 className="w-full rounded-2xl shadow-xl"
               />
@@ -117,7 +118,7 @@ const SubAccount = () => {
             </div>
             <div className="order-1">
               <img
-                src="/lovable-uploads/63b5db4a-d281-4ef4-9cd3-df8a81abf9c7.png"
+                src={getAssetPath("/lovable-uploads/63b5db4a-d281-4ef4-9cd3-df8a81abf9c7.png")}
                 alt={t('features.subAccountPage.keyFeatures.feature2.imageAlt')}
                 className="w-full rounded-2xl shadow-xl"
               />
@@ -153,7 +154,7 @@ const SubAccount = () => {
             </div>
             <div className="order-1 lg:order-2">
               <img
-                src="/lovable-uploads/b6ba0595-a6d8-41b5-a24a-f050e7100d45.png"
+                src={getAssetPath("/lovable-uploads/b6ba0595-a6d8-41b5-a24a-f050e7100d45.png")}
                 alt={t('features.subAccountPage.keyFeatures.feature3.imageAlt')}
                 className="w-full rounded-2xl shadow-xl"
               />
@@ -189,7 +190,7 @@ const SubAccount = () => {
             </div>
             <div className="order-1">
               <img
-                src="/lovable-uploads/6ae22272-9807-4c3d-bbae-315dca582a9d.png"
+                src={getAssetPath("/lovable-uploads/6ae22272-9807-4c3d-bbae-315dca582a9d.png")}
                 alt={t('features.subAccountPage.keyFeatures.feature4.imageAlt')}
                 className="w-full rounded-2xl shadow-xl"
               />

@@ -5,6 +5,7 @@ import FeatureNavigation from "@/components/FeatureNavigation";
 import Footer from "@/components/Footer";
 import { useTranslationDirect } from '@/hooks/useTranslationDirect';
 import { useLanguageFont } from '@/hooks/useLanguageFont';
+import { getAssetPath } from '@/lib/assetPath';
 
 const MultichannelMessagingHub = () => {
   const { t } = useTranslationDirect();
@@ -35,7 +36,7 @@ const MultichannelMessagingHub = () => {
             {/* Hero Image */}
             <div className="mt-16 rounded-lg overflow-hidden">
               <img 
-                src="/lovable-uploads/a61b9a5a-7234-4e21-b05a-03750511fa6b.png" 
+                src={getAssetPath("/lovable-uploads/a61b9a5a-7234-4e21-b05a-03750511fa6b.png")} 
                 alt="Multi-channel messaging dashboard interface" 
                 className="w-full h-auto"
               />
@@ -110,7 +111,7 @@ const MultichannelMessagingHub = () => {
               </div>
               <div className="rounded-lg overflow-hidden">
                 <img 
-                  src="/lovable-uploads/a61b9a5a-7234-4e21-b05a-03750511fa6b.png" 
+                  src={getAssetPath("/lovable-uploads/a61b9a5a-7234-4e21-b05a-03750511fa6b.png")} 
                   alt="PinChat multichannel messaging solution" 
                   className="w-full h-auto"
                 />
@@ -125,7 +126,7 @@ const MultichannelMessagingHub = () => {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div className="order-2 lg:order-1 rounded-lg overflow-hidden">
                 <img 
-                  src="/lovable-uploads/a61b9a5a-7234-4e21-b05a-03750511fa6b.png" 
+                  src={getAssetPath("/lovable-uploads/a61b9a5a-7234-4e21-b05a-03750511fa6b.png")} 
                   alt="PinChat benefits dashboard" 
                   className="w-full h-auto"
                 />
@@ -222,7 +223,7 @@ const MultichannelMessagingHub = () => {
               <div className="group rounded-lg overflow-hidden border bg-card hover:shadow-lg transition-all duration-300">
                 <div className="aspect-video bg-muted overflow-hidden">
                   <img 
-                    src="/lovable-uploads/f4f43fc8-86f7-459a-8ba8-a97d9cc3610d.png" 
+                    src={getAssetPath("/lovable-uploads/f4f43fc8-86f7-459a-8ba8-a97d9cc3610d.png")} 
                     alt={t('solutions.multichannelMessagingPage.exploreUseCases.customerAutomation.title')}
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                   />
@@ -239,7 +240,7 @@ const MultichannelMessagingHub = () => {
               <div className="group rounded-lg overflow-hidden border bg-card hover:shadow-lg transition-all duration-300">
                 <div className="aspect-video bg-muted overflow-hidden">
                   <img 
-                    src="/lovable-uploads/f4f43fc8-86f7-459a-8ba8-a97d9cc3610d.png" 
+                    src={getAssetPath("/lovable-uploads/f4f43fc8-86f7-459a-8ba8-a97d9cc3610d.png")} 
                     alt={t('solutions.multichannelMessagingPage.exploreUseCases.leadCapture.title')}
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                   />
@@ -256,7 +257,7 @@ const MultichannelMessagingHub = () => {
               <div className="group rounded-lg overflow-hidden border bg-card hover:shadow-lg transition-all duration-300">
                 <div className="aspect-video bg-muted overflow-hidden">
                   <img 
-                    src="/lovable-uploads/f4f43fc8-86f7-459a-8ba8-a97d9cc3610d.png" 
+                    src={getAssetPath("/lovable-uploads/f4f43fc8-86f7-459a-8ba8-a97d9cc3610d.png")} 
                     alt={t('solutions.multichannelMessagingPage.exploreUseCases.teamCollaboration.title')}
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                   />

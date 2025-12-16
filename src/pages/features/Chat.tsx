@@ -5,6 +5,7 @@ import FeatureNavigation from "@/components/FeatureNavigation";
 import Footer from "@/components/Footer";
 import { MessageSquare, Users, Image, Settings, Search, Tag, Zap, Bot, ExternalLink, Link2 } from "lucide-react";
 import { useTranslation } from "react-i18next";
+import { getAssetPath } from '@/lib/assetPath';
 
 const Chat = () => {
   const { t } = useTranslation();
@@ -31,7 +32,7 @@ const Chat = () => {
               </div>
               <div className="min-h-64 sm:min-h-96 flex items-center justify-center animate-fade-in">
                 <img
-                  src="/lovable-uploads/chat_management.png"
+                  src={getAssetPath("/lovable-uploads/chat_management.png")}
                   alt="PinChat 聊天系統介面"
                   className="max-h-full max-w-full object-contain rounded-lg shadow-lg"
                 />
@@ -81,7 +82,7 @@ const Chat = () => {
             </div>
             <div className="order-1 lg:order-2">
               <img
-                src="/lovable-uploads/chatroom-team-management-hero.png"
+                src={getAssetPath("/lovable-uploads/chatroom-team-management-hero.png")}
                 alt="一對一與群組聊天功能"
                 className="w-full rounded-2xl shadow-xl"
               />
@@ -117,7 +118,7 @@ const Chat = () => {
             </div>
             <div className="order-1">
               <img
-                src="/lovable-uploads/customer-feedback-analytics-hero.png"
+                src={getAssetPath("/lovable-uploads/customer-feedback-analytics-hero.png")}
                 alt="多媒體訊息支援"
                 className="w-full rounded-2xl shadow-xl"
               />
@@ -153,7 +154,7 @@ const Chat = () => {
             </div>
             <div className="order-1 lg:order-2">
               <img
-                src="/lovable-uploads/lead-capture-survey-hero.png"
+                src={getAssetPath("/lovable-uploads/lead-capture-survey-hero.png")}
                 alt="可客製化的聊天介面"
                 className="w-full rounded-2xl shadow-xl"
               />
@@ -189,7 +190,7 @@ const Chat = () => {
             </div>
             <div className="order-1">
               <img
-                src="/lovable-uploads/ai-customer-service-bot-hero.png"
+                src={getAssetPath("/lovable-uploads/ai-customer-service-bot-hero.png")}
                 alt="提升對話互動品質的設計"
                 className="w-full rounded-2xl shadow-xl"
               />

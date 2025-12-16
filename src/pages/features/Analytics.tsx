@@ -5,6 +5,7 @@ import FeatureNavigation from "@/components/FeatureNavigation";
 import Footer from "@/components/Footer";
 import { BarChart3, TrendingUp, Globe, Link2, FileText, Settings, Target, Zap, Sparkles } from "lucide-react";
 import { useTranslation } from "react-i18next";
+import { getAssetPath } from '@/lib/assetPath';
 
 const Analytics = () => {
   const { t } = useTranslation();
@@ -31,7 +32,7 @@ const Analytics = () => {
               </div>
               <div className="min-h-64 sm:min-h-96 flex items-center justify-center animate-fade-in">
                 <img 
-                  src="/lovable-uploads/b1acf01e-622e-46d0-be79-527db756bbf9.png" 
+                  src={getAssetPath("/lovable-uploads/b1acf01e-622e-46d0-be79-527db756bbf9.png")} 
                   alt={t('features.analyticsPage.hero.imageAlt')} 
                   className="max-h-full max-w-full object-contain rounded-lg shadow-lg" 
                 />
@@ -81,7 +82,7 @@ const Analytics = () => {
             </div>
             <div className="order-1 lg:order-2">
               <img 
-                src="/lovable-uploads/b11af36d-c1ef-4c17-a61b-b399d92b755f.png" 
+                src={getAssetPath("/lovable-uploads/b11af36d-c1ef-4c17-a61b-b399d92b755f.png")} 
                 alt={t('features.analyticsPage.features.chatInsights.imageAlt')} 
                 className="w-full rounded-2xl shadow-xl"
               />
@@ -117,7 +118,7 @@ const Analytics = () => {
             </div>
             <div className="order-1">
               <img 
-                src="/lovable-uploads/db797c1d-b1f5-4add-a175-18f58f93b1b1.png" 
+                src={getAssetPath("/lovable-uploads/db797c1d-b1f5-4add-a175-18f58f93b1b1.png")} 
                 alt={t('features.analyticsPage.features.trafficSource.imageAlt')} 
                 className="w-full rounded-2xl shadow-xl"
               />
@@ -153,7 +154,7 @@ const Analytics = () => {
             </div>
             <div className="order-1 lg:order-2">
               <img 
-                src="/lovable-uploads/9cb91d42-3650-4d07-a90f-93eabef1199a.png" 
+                src={getAssetPath("/lovable-uploads/9cb91d42-3650-4d07-a90f-93eabef1199a.png")} 
                 alt={t('features.analyticsPage.features.linkPerformance.imageAlt')} 
                 className="w-full rounded-2xl shadow-xl"
               />
@@ -189,7 +190,7 @@ const Analytics = () => {
             </div>
             <div className="order-1">
               <img 
-                src="/lovable-uploads/b1acf01e-622e-46d0-be79-527db756bbf9.png" 
+                src={getAssetPath("/lovable-uploads/b1acf01e-622e-46d0-be79-527db756bbf9.png")} 
                 alt={t('features.analyticsPage.features.surveyAnalytics.imageAlt')} 
                 className="w-full rounded-2xl shadow-xl"
               />

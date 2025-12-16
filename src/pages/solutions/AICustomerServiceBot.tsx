@@ -5,6 +5,7 @@ import FeatureNavigation from "@/components/FeatureNavigation";
 import Footer from "@/components/Footer";
 import { useTranslationDirect } from '@/hooks/useTranslationDirect';
 import { useLanguageFont } from '@/hooks/useLanguageFont';
+import { getAssetPath } from '@/lib/assetPath';
 
 const AICustomerServiceBot = () => {
   const { t } = useTranslationDirect();
@@ -35,7 +36,7 @@ const AICustomerServiceBot = () => {
             {/* Hero Image */}
             <div className="mt-16 rounded-lg overflow-hidden">
               <img 
-                src="/lovable-uploads/f841ccd3-3ed7-4baf-89d3-f7cd498203dc.png" 
+                src={getAssetPath("/lovable-uploads/f841ccd3-3ed7-4baf-89d3-f7cd498203dc.png")} 
                 alt="AI chatbot interface showing automated responses" 
                 className="w-full h-auto"
               />
@@ -110,7 +111,7 @@ const AICustomerServiceBot = () => {
               </div>
               <div className="rounded-lg overflow-hidden">
                 <img 
-                  src="/lovable-uploads/f841ccd3-3ed7-4baf-89d3-f7cd498203dc.png" 
+                  src={getAssetPath("/lovable-uploads/f841ccd3-3ed7-4baf-89d3-f7cd498203dc.png")} 
                   alt="PinChat customer service solution" 
                   className="w-full h-auto"
                 />
@@ -125,7 +126,7 @@ const AICustomerServiceBot = () => {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div className="order-2 lg:order-1 rounded-lg overflow-hidden">
                 <img 
-                  src="/lovable-uploads/f841ccd3-3ed7-4baf-89d3-f7cd498203dc.png" 
+                  src={getAssetPath("/lovable-uploads/f841ccd3-3ed7-4baf-89d3-f7cd498203dc.png")} 
                   alt="PinChat benefits dashboard" 
                   className="w-full h-auto"
                 />
@@ -222,7 +223,7 @@ const AICustomerServiceBot = () => {
               <div className="group rounded-lg overflow-hidden border bg-card hover:shadow-lg transition-all duration-300">
                 <div className="aspect-video bg-muted overflow-hidden">
                   <img 
-                    src="/lovable-uploads/f4f43fc8-86f7-459a-8ba8-a97d9cc3610d.png" 
+                    src={getAssetPath("/lovable-uploads/f4f43fc8-86f7-459a-8ba8-a97d9cc3610d.png")} 
                     alt={t('solutions.aiCustomerServicePage.exploreUseCases.leadCapture.title')}
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                   />
@@ -239,7 +240,7 @@ const AICustomerServiceBot = () => {
               <div className="group rounded-lg overflow-hidden border bg-card hover:shadow-lg transition-all duration-300">
                 <div className="aspect-video bg-muted overflow-hidden">
                   <img 
-                    src="/lovable-uploads/f4f43fc8-86f7-459a-8ba8-a97d9cc3610d.png" 
+                    src={getAssetPath("/lovable-uploads/f4f43fc8-86f7-459a-8ba8-a97d9cc3610d.png")} 
                     alt={t('solutions.aiCustomerServicePage.exploreUseCases.feedbackCollection.title')}
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                   />
@@ -256,7 +257,7 @@ const AICustomerServiceBot = () => {
               <div className="group rounded-lg overflow-hidden border bg-card hover:shadow-lg transition-all duration-300">
                 <div className="aspect-video bg-muted overflow-hidden">
                   <img 
-                    src="/lovable-uploads/f4f43fc8-86f7-459a-8ba8-a97d9cc3610d.png" 
+                    src={getAssetPath("/lovable-uploads/f4f43fc8-86f7-459a-8ba8-a97d9cc3610d.png")} 
                     alt={t('solutions.aiCustomerServicePage.exploreUseCases.workflowManagement.title')}
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                   />

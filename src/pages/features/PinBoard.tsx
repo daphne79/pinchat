@@ -5,6 +5,7 @@ import FeatureNavigation from "@/components/FeatureNavigation";
 import Footer from "@/components/Footer";
 import { Palette, Link2, MessageCircle, BarChart3, Sparkles, Globe, Users, FileText } from "lucide-react";
 import { useTranslation } from "react-i18next";
+import { getAssetPath } from '@/lib/assetPath';
 
 const PinBoard = () => {
   const { t } = useTranslation();
@@ -34,7 +35,7 @@ const PinBoard = () => {
               </div>
               <div className="min-h-64 sm:min-h-96 flex items-center justify-center animate-fade-in">
                 <img 
-                  src="/lovable-uploads/a943b569-9b16-4e87-8372-5c99b676e584.png" 
+                  src={getAssetPath("/lovable-uploads/a943b569-9b16-4e87-8372-5c99b676e584.png")} 
                   alt={t('features.pinBoardPage.hero.imageAlt')} 
                   className="max-h-full max-w-full object-contain rounded-lg shadow-lg" 
                 />
@@ -84,7 +85,7 @@ const PinBoard = () => {
             </div>
             <div className="order-1 lg:order-2">
               <img 
-                src="/lovable-uploads/89dcdb0f-d1e9-43b5-b79d-2af42fb8cdcf.png" 
+                src={getAssetPath("/lovable-uploads/89dcdb0f-d1e9-43b5-b79d-2af42fb8cdcf.png")} 
                 alt={t('features.pinBoardPage.features.flexibleBrandedLayouts.imageAlt')} 
                 className="w-full rounded-2xl shadow-xl"
               />
@@ -120,7 +121,7 @@ const PinBoard = () => {
             </div>
             <div className="order-1">
               <img 
-                src="/lovable-uploads/d7d8f729-883d-4769-9c7d-ee5b6d044222.png" 
+                src={getAssetPath("/lovable-uploads/d7d8f729-883d-4769-9c7d-ee5b6d044222.png")} 
                 alt={t('features.pinBoardPage.features.centralizedActions.imageAlt')} 
                 className="w-full rounded-2xl shadow-xl"
               />
@@ -156,7 +157,7 @@ const PinBoard = () => {
             </div>
             <div className="order-1 lg:order-2">
               <img 
-                src="/lovable-uploads/a943b569-9b16-4e87-8372-5c99b676e584.png" 
+                src={getAssetPath("/lovable-uploads/a943b569-9b16-4e87-8372-5c99b676e584.png")} 
                 alt={t('features.pinBoardPage.features.builtInChatEntry.imageAlt')} 
                 className="w-full rounded-2xl shadow-xl"
               />
@@ -192,7 +193,7 @@ const PinBoard = () => {
             </div>
             <div className="order-1">
               <img 
-                src="/lovable-uploads/9a684b2b-549b-40c9-9241-1630df37fe86.png" 
+                src={getAssetPath("/lovable-uploads/9a684b2b-549b-40c9-9241-1630df37fe86.png")} 
                 alt={t('features.pinBoardPage.features.insightfulAnalytics.imageAlt')} 
                 className="w-full rounded-2xl shadow-xl"
               />

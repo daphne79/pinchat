@@ -5,6 +5,7 @@ import FeatureNavigation from "@/components/FeatureNavigation";
 import Footer from "@/components/Footer";
 import { useTranslationDirect } from '@/hooks/useTranslationDirect';
 import { useLanguageFont } from '@/hooks/useLanguageFont';
+import { getAssetPath } from '@/lib/assetPath';
 
 const ChatroomTeamManagement = () => {
   const { t } = useTranslationDirect();
@@ -35,7 +36,7 @@ const ChatroomTeamManagement = () => {
             {/* Hero Image */}
             <div className="mt-16 rounded-lg overflow-hidden">
               <img 
-                src="/lovable-uploads/6da4b416-cb61-490c-97f0-0b99b7589ba0.png" 
+                src={getAssetPath("/lovable-uploads/6da4b416-cb61-490c-97f0-0b99b7589ba0.png")} 
                 alt="Team management dashboard with organized chat folders" 
                 className="w-full h-auto"
               />
@@ -110,7 +111,7 @@ const ChatroomTeamManagement = () => {
               </div>
               <div className="rounded-lg overflow-hidden">
                 <img 
-                  src="/lovable-uploads/6da4b416-cb61-490c-97f0-0b99b7589ba0.png" 
+                  src={getAssetPath("/lovable-uploads/6da4b416-cb61-490c-97f0-0b99b7589ba0.png")} 
                   alt="PinChat team management solution" 
                   className="w-full h-auto"
                 />
@@ -125,7 +126,7 @@ const ChatroomTeamManagement = () => {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div className="order-2 lg:order-1 rounded-lg overflow-hidden">
                 <img 
-                  src="/lovable-uploads/6da4b416-cb61-490c-97f0-0b99b7589ba0.png" 
+                  src={getAssetPath("/lovable-uploads/6da4b416-cb61-490c-97f0-0b99b7589ba0.png")} 
                   alt="PinChat benefits dashboard" 
                   className="w-full h-auto"
                 />
@@ -222,7 +223,7 @@ const ChatroomTeamManagement = () => {
               <div className="group rounded-lg overflow-hidden border bg-card hover:shadow-lg transition-all duration-300">
                 <div className="aspect-video bg-muted overflow-hidden">
                   <img 
-                    src="/lovable-uploads/f4f43fc8-86f7-459a-8ba8-a97d9cc3610d.png" 
+                    src={getAssetPath("/lovable-uploads/f4f43fc8-86f7-459a-8ba8-a97d9cc3610d.png")} 
                     alt={t('solutions.chatroomTeamManagementPage.exploreUseCases.streamlineService.title')}
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                   />
@@ -239,7 +240,7 @@ const ChatroomTeamManagement = () => {
               <div className="group rounded-lg overflow-hidden border bg-card hover:shadow-lg transition-all duration-300">
                 <div className="aspect-video bg-muted overflow-hidden">
                   <img 
-                    src="/lovable-uploads/f4f43fc8-86f7-459a-8ba8-a97d9cc3610d.png" 
+                    src={getAssetPath("/lovable-uploads/f4f43fc8-86f7-459a-8ba8-a97d9cc3610d.png")} 
                     alt={t('solutions.chatroomTeamManagementPage.exploreUseCases.unifiedMessages.title')}
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                   />
@@ -256,7 +257,7 @@ const ChatroomTeamManagement = () => {
               <div className="group rounded-lg overflow-hidden border bg-card hover:shadow-lg transition-all duration-300">
                 <div className="aspect-video bg-muted overflow-hidden">
                   <img 
-                    src="/lovable-uploads/f4f43fc8-86f7-459a-8ba8-a97d9cc3610d.png" 
+                    src={getAssetPath("/lovable-uploads/f4f43fc8-86f7-459a-8ba8-a97d9cc3610d.png")} 
                     alt={t('solutions.chatroomTeamManagementPage.exploreUseCases.analyzeFeedback.title')}
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                   />

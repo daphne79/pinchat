@@ -8,6 +8,7 @@ import Footer from "@/components/Footer";
 import { useTranslation } from 'react-i18next';
 import { useLanguageFont } from '@/hooks/useLanguageFont';
 import { useMemo } from 'react';
+import { getAssetPath } from '@/lib/assetPath';
 
 const Index = () => {
   const { t, i18n } = useTranslation();
@@ -52,7 +53,7 @@ const Index = () => {
             </Button>
           </div>
           <div className="relative mt-6">
-            <img src="/lovable-uploads/41f11286-f5a0-47b2-9b1b-90be39b7b6d1.png" alt="PinChat business messaging interface with conversations and stickers" loading="lazy" className="block mx-auto max-w-full w-auto h-auto object-contain" />
+            <img src={getAssetPath("/lovable-uploads/41f11286-f5a0-47b2-9b1b-90be39b7b6d1.png")} alt="PinChat business messaging interface with conversations and stickers" loading="lazy" className="block mx-auto max-w-full w-auto h-auto object-contain" />
           </div>
         </section>
 
@@ -75,7 +76,7 @@ const Index = () => {
                     </p>
                   </div>
                   <div className="flex items-center justify-center">
-                    <img src="/lovable-uploads/4d4918e0-370f-4455-984a-0f7c3a652a9b.png" alt="PinChat quick connect via link or QR code" loading="lazy" className="block max-w-full max-h-[600px] md:max-h-[700px] w-auto h-auto object-contain" />
+                    <img src={getAssetPath("/lovable-uploads/4d4918e0-370f-4455-984a-0f7c3a652a9b.png")} alt="PinChat quick connect via link or QR code" loading="lazy" className="block max-w-full max-h-[600px] md:max-h-[700px] w-auto h-auto object-contain" />
                   </div>
                 </div>
               </article>
@@ -84,7 +85,7 @@ const Index = () => {
               <article>
                 <div className="grid items-center md:grid-cols-2 gap-8 md:gap-12">
                   <div className="flex items-center justify-center order-1 md:order-1">
-                    <img src="/lovable-uploads/e90160c2-2914-4cb8-98c3-b8153ca9bddc.png" alt="PinChat cross-platform integration" loading="lazy" className="block max-w-full max-h-[600px] md:max-h-[700px] w-auto h-auto object-contain" />
+                    <img src={getAssetPath("/lovable-uploads/e90160c2-2914-4cb8-98c3-b8153ca9bddc.png")} alt="PinChat cross-platform integration" loading="lazy" className="block max-w-full max-h-[600px] md:max-h-[700px] w-auto h-auto object-contain" />
                   </div>
                   <div className="px-4 md:px-0 order-2 md:order-2">
                     <div className="flex flex-col">
@@ -115,7 +116,7 @@ const Index = () => {
                     </p>
                   </div>
                   <div className="flex items-center justify-center">
-                    <img src="/lovable-uploads/2b911e4f-407b-43af-83ac-4186949b6a14.png" alt="PinChat AI chatbot" loading="lazy" className="block max-w-full max-h-[600px] md:max-h-[700px] w-auto h-auto object-contain" />
+                    <img src={getAssetPath("/lovable-uploads/2b911e4f-407b-43af-83ac-4186949b6a14.png")} alt="PinChat AI chatbot" loading="lazy" className="block max-w-full max-h-[600px] md:max-h-[700px] w-auto h-auto object-contain" />
                   </div>
                 </div>
               </article>
@@ -124,7 +125,7 @@ const Index = () => {
               <article>
                 <div className="grid items-center md:grid-cols-2 gap-8 md:gap-12">
                   <div className="flex items-center justify-center order-1 md:order-1">
-                    <img src="/lovable-uploads/folder_and_tags.png" alt="PinChat conversation and customer data management" loading="lazy" className="block max-w-full max-h-[600px] md:max-h-[700px] w-auto h-auto object-contain" />
+                    <img src={getAssetPath("/lovable-uploads/folder_and_tags.png")} alt="PinChat conversation and customer data management" loading="lazy" className="block max-w-full max-h-[600px] md:max-h-[700px] w-auto h-auto object-contain" />
                   </div>
                   <div className="px-4 md:px-0 order-2 md:order-2">
                     <div className="flex flex-col">

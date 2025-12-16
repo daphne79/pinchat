@@ -5,6 +5,7 @@ import FeatureNavigation from "@/components/FeatureNavigation";
 import Footer from "@/components/Footer";
 import { Code, Bot, BarChart3, Link2, MessageSquare } from "lucide-react";
 import { useTranslation } from "react-i18next";
+import { getAssetPath } from '@/lib/assetPath';
 
 const ChatWidget = () => {
   const { t } = useTranslation();
@@ -31,7 +32,7 @@ const ChatWidget = () => {
               </div>
               <div className="min-h-64 sm:min-h-96 flex items-center justify-center animate-fade-in">
                 <img
-                  src="/lovable-uploads/567624dd-5545-4f61-8e0d-86f4513f673d.png"
+                  src={getAssetPath("/lovable-uploads/567624dd-5545-4f61-8e0d-86f4513f673d.png")}
                   alt="Chat Widget 介面"
                   className="max-h-full max-w-full object-contain rounded-lg shadow-lg"
                 />
@@ -81,7 +82,7 @@ const ChatWidget = () => {
             </div>
             <div className="order-1 lg:order-2">
               <img
-                src="/lovable-uploads/567624dd-5545-4f61-8e0d-86f4513f673d.png"
+                src={getAssetPath("/lovable-uploads/567624dd-5545-4f61-8e0d-86f4513f673d.png")}
                 alt="一行程式碼安裝"
                 className="w-full rounded-2xl shadow-xl"
               />
@@ -117,7 +118,7 @@ const ChatWidget = () => {
             </div>
             <div className="order-1">
               <img
-                src="/lovable-uploads/80bf9a84-1b53-4ce8-a90d-e35b64f9bede.png"
+                src={getAssetPath("/lovable-uploads/80bf9a84-1b53-4ce8-a90d-e35b64f9bede.png")}
                 alt="全面客製化"
                 className="w-full rounded-2xl shadow-xl"
               />
@@ -153,7 +154,7 @@ const ChatWidget = () => {
             </div>
             <div className="order-1 lg:order-2">
               <img
-                src="/lovable-uploads/9c291ddb-6f79-4def-a631-bacb9ba5ae36.png"
+                src={getAssetPath("/lovable-uploads/9c291ddb-6f79-4def-a631-bacb9ba5ae36.png")}
                 alt="AI PinBot 整合"
                 className="w-full rounded-2xl shadow-xl"
               />
@@ -189,7 +190,7 @@ const ChatWidget = () => {
             </div>
             <div className="order-1">
               <img
-                src="/lovable-uploads/8dbcaac0-c9fe-4b49-b27d-23157b741613.png"
+                src={getAssetPath("/lovable-uploads/8dbcaac0-c9fe-4b49-b27d-23157b741613.png")}
                 alt="提升轉換"
                 className="w-full rounded-2xl shadow-xl"
               />

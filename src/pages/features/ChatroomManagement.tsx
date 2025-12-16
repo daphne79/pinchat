@@ -4,6 +4,7 @@ import FeatureNavigation from "@/components/FeatureNavigation";
 import Footer from "@/components/Footer";
 import { FolderOpen, Tag, Search, BarChart3, LifeBuoy, Users, Archive, Sparkles } from "lucide-react";
 import { useTranslation } from "react-i18next";
+import { getAssetPath } from '@/lib/assetPath';
 
 const ChatroomManagement = () => {
   const { t } = useTranslation();
@@ -30,7 +31,7 @@ const ChatroomManagement = () => {
               </div>
               <div className="min-h-64 sm:min-h-96 flex items-center justify-center animate-fade-in">
                 <img 
-                  src="/lovable-uploads/chat_management.png" 
+                  src={getAssetPath("/lovable-uploads/chat_management.png")} 
                   alt={t('features.chatroomManagementPage.hero.imageAlt')} 
                   className="max-h-full max-w-full object-contain rounded-lg shadow-lg" 
                 />
@@ -80,7 +81,7 @@ const ChatroomManagement = () => {
             </div>
             <div className="order-1 lg:order-2">
               <img 
-                src="/lovable-uploads/chat_management.png" 
+                src={getAssetPath("/lovable-uploads/chat_management.png")} 
                 alt={t('features.chatroomManagementPage.features.chatLabels.imageAlt')} 
                 className="w-full rounded-2xl shadow-xl"
               />
@@ -116,7 +117,7 @@ const ChatroomManagement = () => {
             </div>
             <div className="order-1">
               <img 
-                src="/lovable-uploads/project-based-folders.png" 
+                src={getAssetPath("/lovable-uploads/project-based-folders.png")} 
                 alt={t('features.chatroomManagementPage.features.folderGrouping.imageAlt')} 
                 className="w-full rounded-2xl shadow-xl"
               />
@@ -152,7 +153,7 @@ const ChatroomManagement = () => {
             </div>
             <div className="order-1 lg:order-2">
               <img 
-                src="/lovable-uploads/conversation-archive.png" 
+                src={getAssetPath("/lovable-uploads/conversation-archive.png")} 
                 alt={t('features.chatroomManagementPage.features.quickSearch.imageAlt')} 
                 className="w-full rounded-2xl shadow-xl"
               />
@@ -188,7 +189,7 @@ const ChatroomManagement = () => {
             </div>
             <div className="order-1">
               <img 
-                src="/lovable-uploads/vip-customer-tracking.png" 
+                src={getAssetPath("/lovable-uploads/vip-customer-tracking.png")} 
                 alt={t('features.chatroomManagementPage.features.cleanSpace.imageAlt')} 
                 className="w-full rounded-2xl shadow-xl"
               />

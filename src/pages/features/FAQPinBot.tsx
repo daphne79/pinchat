@@ -5,6 +5,7 @@ import FeatureNavigation from "@/components/FeatureNavigation";
 import Footer from "@/components/Footer";
 import { HelpCircle, Zap, Users, Image, Bot, MessageCircle, LifeBuoy } from "lucide-react";
 import { useTranslation } from "react-i18next";
+import { getAssetPath } from '@/lib/assetPath';
 
 const FAQPinBot = () => {
   const { t } = useTranslation();
@@ -34,7 +35,7 @@ const FAQPinBot = () => {
               </div>
               <div className="min-h-64 sm:min-h-96 flex items-center justify-center animate-fade-in">
                 <img
-                  src="/lovable-uploads/0dca5dad-cf11-450c-97cd-79537e02a5e0.png"
+                  src={getAssetPath("/lovable-uploads/0dca5dad-cf11-450c-97cd-79537e02a5e0.png")}
                   alt={t('features.faqPinbotPage.hero.imageAlt')}
                   className="max-h-full max-w-full object-contain rounded-lg shadow-lg"
                 />
@@ -84,7 +85,7 @@ const FAQPinBot = () => {
             </div>
             <div className="order-1 lg:order-2">
               <img
-                src="/lovable-uploads/chat_management.png"
+                src={getAssetPath("/lovable-uploads/chat_management.png")}
                 alt={t('features.faqPinbotPage.features.structuredFAQ.imageAlt')}
                 className="w-full rounded-2xl shadow-xl"
               />
@@ -120,7 +121,7 @@ const FAQPinBot = () => {
             </div>
             <div className="order-1">
               <img
-                src="/lovable-uploads/chatroom-team-management-hero.png"
+                src={getAssetPath("/lovable-uploads/chatroom-team-management-hero.png")}
                 alt={t('features.faqPinbotPage.features.multiFormat.imageAlt')}
                 className="w-full rounded-2xl shadow-xl"
               />
@@ -156,7 +157,7 @@ const FAQPinBot = () => {
             </div>
             <div className="order-1 lg:order-2">
               <img
-                src="/lovable-uploads/customer-feedback-analytics-hero.png"
+                src={getAssetPath("/lovable-uploads/customer-feedback-analytics-hero.png")}
                 alt={t('features.faqPinbotPage.features.humanHandoff.imageAlt')}
                 className="w-full rounded-2xl shadow-xl"
               />
@@ -192,7 +193,7 @@ const FAQPinBot = () => {
             </div>
             <div className="order-1">
               <img
-                src="/lovable-uploads/lead-capture-survey-hero.png"
+                src={getAssetPath("/lovable-uploads/lead-capture-survey-hero.png")}
                 alt={t('features.faqPinbotPage.features.eventDesign.imageAlt')}
                 className="w-full rounded-2xl shadow-xl"
               />

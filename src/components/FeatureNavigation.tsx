@@ -6,6 +6,7 @@ import { Menu, ChevronDown } from "lucide-react";
 import { useState, useMemo } from "react";
 import { useTranslation } from 'react-i18next';
 import { useLanguageFont } from '@/hooks/useLanguageFont';
+import { getAssetPath } from '@/lib/assetPath';
 import {
   NavigationMenu,
   NavigationMenuContent,
@@ -44,7 +45,7 @@ const FeatureNavigation = () => {
       <div className="container mx-auto flex h-16 items-center justify-between">
         <Link to="/" className="flex items-center gap-2" aria-label="PinChat Home">
           <img 
-            src="/lovable-uploads/25304deb-b462-4c04-a4a7-b39375759f10.png" 
+            src={getAssetPath("/lovable-uploads/25304deb-b462-4c04-a4a7-b39375759f10.png")} 
             alt="PinChat Logo" 
             className="h-8 w-auto"
           />

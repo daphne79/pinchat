@@ -5,6 +5,7 @@ import FeatureNavigation from "@/components/FeatureNavigation";
 import Footer from "@/components/Footer";
 import { useLanguageFont } from '@/hooks/useLanguageFont';
 import { useTranslationDirect } from '@/hooks/useTranslationDirect';
+import { getAssetPath } from '@/lib/assetPath';
 
 const ForProfessionalServices = () => {
   const { t } = useTranslationDirect();
@@ -36,7 +37,7 @@ const ForProfessionalServices = () => {
             {/* Hero Image */}
             <div className="mt-16 rounded-lg overflow-hidden">
               <img 
-                src="/lovable-uploads/0c488cfa-6ba1-4c50-b52e-2437906a8102.png" 
+                src={getAssetPath("/lovable-uploads/0c488cfa-6ba1-4c50-b52e-2437906a8102.png")} 
                 alt="Professional services customer service interface" 
                 className="w-full h-auto"
               />
@@ -105,7 +106,7 @@ const ForProfessionalServices = () => {
               </div>
               <div className="rounded-lg overflow-hidden">
                 <img 
-                  src="/lovable-uploads/0c488cfa-6ba1-4c50-b52e-2437906a8102.png" 
+                  src={getAssetPath("/lovable-uploads/0c488cfa-6ba1-4c50-b52e-2437906a8102.png")} 
                   alt="Professional services customer service dashboard" 
                   className="w-full h-auto"
                 />
@@ -120,7 +121,7 @@ const ForProfessionalServices = () => {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div className="order-2 lg:order-1 rounded-lg overflow-hidden">
                 <img 
-                  src="/lovable-uploads/0c488cfa-6ba1-4c50-b52e-2437906a8102.png" 
+                  src={getAssetPath("/lovable-uploads/0c488cfa-6ba1-4c50-b52e-2437906a8102.png")} 
                   alt="Professional services onboarding dashboard" 
                   className="w-full h-auto"
                 />
@@ -170,7 +171,7 @@ const ForProfessionalServices = () => {
             >
               <div className="aspect-video bg-muted overflow-hidden">
                 <img 
-                  src="/lovable-uploads/48658c77-a953-49d3-8bc6-b3b56379bea1.png" 
+                  src={getAssetPath("/lovable-uploads/48658c77-a953-49d3-8bc6-b3b56379bea1.png")} 
                   alt="B2B Commercial" 
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                 />
@@ -191,7 +192,7 @@ const ForProfessionalServices = () => {
             >
               <div className="aspect-video bg-muted overflow-hidden">
                 <img 
-                  src="/lovable-uploads/b1eef0e6-e922-4863-bc03-f92dd32f0f46.png" 
+                  src={getAssetPath("/lovable-uploads/b1eef0e6-e922-4863-bc03-f92dd32f0f46.png")} 
                   alt="Real Estate" 
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                 />
@@ -212,7 +213,7 @@ const ForProfessionalServices = () => {
             >
               <div className="aspect-video bg-muted overflow-hidden">
                 <img 
-                  src="/lovable-uploads/a1960abd-93f1-4a03-b109-230d06508316.png" 
+                  src={getAssetPath("/lovable-uploads/a1960abd-93f1-4a03-b109-230d06508316.png")} 
                   alt="Events" 
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                 />

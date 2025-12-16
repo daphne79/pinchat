@@ -5,6 +5,7 @@ import FeatureNavigation from "@/components/FeatureNavigation";
 import Footer from "@/components/Footer";
 import { useLanguageFont } from '@/hooks/useLanguageFont';
 import { useTranslationDirect } from '@/hooks/useTranslationDirect';
+import { getAssetPath } from '@/lib/assetPath';
 
 const ForEducation = () => {
   const { t } = useTranslationDirect();
@@ -36,7 +37,7 @@ const ForEducation = () => {
             {/* Hero Image */}
             <div className="mt-16 rounded-lg overflow-hidden">
               <img 
-                src="/lovable-uploads/325ad0e3-2e4d-41f2-bba0-d068115d2b8e.png" 
+                src={getAssetPath("/lovable-uploads/325ad0e3-2e4d-41f2-bba0-d068115d2b8e.png")} 
                 alt="Educational setting with teacher-student chat interface" 
                 className="w-full h-auto"
               />
@@ -105,7 +106,7 @@ const ForEducation = () => {
               </div>
               <div className="rounded-lg overflow-hidden">
                 <img 
-                  src="/lovable-uploads/325ad0e3-2e4d-41f2-bba0-d068115d2b8e.png" 
+                  src={getAssetPath("/lovable-uploads/325ad0e3-2e4d-41f2-bba0-d068115d2b8e.png")} 
                   alt="Educational communication interface" 
                   className="w-full h-auto"
                 />
@@ -120,7 +121,7 @@ const ForEducation = () => {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div className="order-2 lg:order-1 rounded-lg overflow-hidden">
                 <img 
-                  src="/lovable-uploads/325ad0e3-2e4d-41f2-bba0-d068115d2b8e.png" 
+                  src={getAssetPath("/lovable-uploads/325ad0e3-2e4d-41f2-bba0-d068115d2b8e.png")} 
                   alt="Student engagement dashboard" 
                   className="w-full h-auto"
                 />
@@ -170,7 +171,7 @@ const ForEducation = () => {
             >
               <div className="aspect-video bg-muted overflow-hidden">
                 <img 
-                  src="/lovable-uploads/f4f43fc8-86f7-459a-8ba8-a97d9cc3610d.png" 
+                  src={getAssetPath("/lovable-uploads/f4f43fc8-86f7-459a-8ba8-a97d9cc3610d.png")} 
                   alt="Retail & E-commerce" 
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                 />
@@ -191,7 +192,7 @@ const ForEducation = () => {
             >
               <div className="aspect-video bg-muted overflow-hidden">
                 <img 
-                  src="/lovable-uploads/8816cd40-a898-4f73-91de-ea0b84f6aeac.png" 
+                  src={getAssetPath("/lovable-uploads/8816cd40-a898-4f73-91de-ea0b84f6aeac.png")} 
                   alt="Service Industries" 
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                 />
@@ -212,7 +213,7 @@ const ForEducation = () => {
             >
               <div className="aspect-video bg-muted overflow-hidden">
                 <img 
-                  src="/lovable-uploads/83071566-9a01-4643-a61a-b6e2437b6199.png" 
+                  src={getAssetPath("/lovable-uploads/83071566-9a01-4643-a61a-b6e2437b6199.png")} 
                   alt="Healthcare" 
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                 />
