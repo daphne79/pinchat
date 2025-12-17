@@ -83,7 +83,7 @@ const FAQPinBot = () => {
             </div>
             <div className="order-1 lg:order-2">
               <img
-                src={getAssetPath("/lovable-uploads/chat_management.png")}
+                src={getAssetPath("/lovable-uploads/faq-chatbot-auto-reply.png")}
                 alt={t('features.faqPinbotPage.features.structuredFAQ.imageAlt')}
                 className="w-full"
               />
@@ -191,7 +191,7 @@ const FAQPinBot = () => {
             </div>
             <div className="order-1">
               <img
-                src={getAssetPath("/lovable-uploads/lead-capture-survey-hero.png")}
+                src={getAssetPath("/lovable-uploads/faq-chatbot-event-support-automation.png")}
                 alt={t('features.faqPinbotPage.features.eventDesign.imageAlt')}
                 className="w-full"
               />
