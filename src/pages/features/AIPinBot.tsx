@@ -28,9 +28,6 @@ const AIPinBot = () => {
                   <Button size="lg" className="bg-[#02B13F] hover:bg-[#029f38] text-white text-base sm:text-lg">
                     {t('features.aiPinbotPage.hero.cta')}
                   </Button>
-                  <Button size="lg" variant="outline" className="text-base sm:text-lg">
-                    {t('features.aiPinbotPage.hero.ctaSecondary')}
-                  </Button>
                 </div>
               </div>
               <div className="min-h-64 sm:min-h-96 flex items-center justify-center animate-fade-in">
@@ -193,7 +190,7 @@ const AIPinBot = () => {
             </div>
             <div className="order-1">
               <img 
-                src={getAssetPath("/lovable-uploads/lead-capture-survey-hero.png")} 
+                src={getAssetPath("/lovable-uploads/ai-chatbot-customer-support-efficiency.png")} 
                 alt={t('features.aiPinbotPage.features.humanHandoff.imageAlt')} 
                 className="w-full"
               />

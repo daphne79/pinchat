@@ -1,34 +1,5 @@
 {
-  "assignments": [
-    {
-      "image": "754a4248-0d54-4240-bda0-4fa19180bda5.png",
-      "page": "Chat",
-      "section": "feature2",
-      "alt": "",
-      "className": ""
-    },
-    {
-      "image": "05e51b6c-6cdf-4411-8dab-c74e9d4c41f0.png",
-      "page": "Chat",
-      "section": "feature4",
-      "alt": "",
-      "className": ""
-    },
-    {
-      "image": "aa66a1b3-b7b1-4897-a7b7-c7f85c930a5a.png",
-      "page": "Chat",
-      "section": "feature1",
-      "alt": "",
-      "className": ""
-    },
-    {
-      "image": "50299fb5-4a7e-41a7-8d52-1f79b652d31c.png",
-      "page": "ChatWidget",
-      "section": "feature1",
-      "alt": "",
-      "className": ""
-    }
-  ],
+  "assignments": [],
   "pageSections": {
     "Index": {
       "hero": "首頁 Hero 區塊",

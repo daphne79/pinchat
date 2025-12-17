@@ -29,14 +29,11 @@ const PinBoard = () => {
                   <Button size="lg" className="bg-[#02B13F] hover:bg-[#029f38] text-white text-base sm:text-lg">
                     {t('features.pinBoardPage.hero.cta')}
                   </Button>
-                  <Button size="lg" variant="outline" className="text-base sm:text-lg">
-                    {t('features.pinBoardPage.hero.ctaSecondary')}
-                  </Button>
                 </div>
               </div>
               <div className="min-h-64 sm:min-h-96 flex items-center justify-center animate-fade-in">
                 <img 
-                  src={getAssetPath("/lovable-uploads/a943b569-9b16-4e87-8372-5c99b676e584.png")} 
+                  src={getAssetPath("/lovable-uploads/pinboard-hero.png")} 
                   alt={t('features.pinBoardPage.hero.imageAlt')} 
                   className="max-h-full max-w-full object-contain" 
                 />
@@ -158,7 +155,7 @@ const PinBoard = () => {
             </div>
             <div className="order-1 lg:order-2">
               <img 
-                src={getAssetPath("/lovable-uploads/a943b569-9b16-4e87-8372-5c99b676e584.png")} 
+                src={getAssetPath("/lovable-uploads/pinboard-built-in-chat.png")} 
                 alt={t('features.pinBoardPage.features.builtInChatEntry.imageAlt')} 
                 className="w-full"
               />
@@ -222,7 +219,7 @@ const PinBoard = () => {
           </div>
           </div>
         </section>
-      </main>
+</main>
       <Footer />
     </>;
 };

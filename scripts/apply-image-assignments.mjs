@@ -52,6 +52,7 @@ assignments.forEach(assignment => {
 });
 
 let totalApplied = 0;
+const allAppliedAssignments = []; // 記錄所有已應用的配置
 
 // 處理每個頁面
 for (const [page, pageAssignments] of Object.entries(assignmentsByPage)) {
@@ -80,44 +81,140 @@ for (const [page, pageAssignments] of Object.entries(assignmentsByPage)) {
   }
   
   // 為每個分配生成圖片代碼
+  const appliedAssignments = []; // 記錄已成功應用的配置
+  
   for (const assignment of pageAssignments) {
     const imagePath = `/lovable-uploads/${assignment.image}`;
+    const imageFileName = assignment.image;
+    
+    // 檢查圖片是否已經在代碼中使用
+    if (content.includes(`lovable-uploads/${imageFileName}`)) {
+      console.log(`  ⊙ ${page} - ${assignment.section}: ${imageFileName} (已在代碼中使用，跳過)`);
+      appliedAssignments.push(assignment); // 標記為已應用
+      continue;
+    }
+    
     const altText = assignment.alt || assignment.image.replace('.png', '');
     const className = assignment.className || 'w-full h-auto';
     
     // 生成圖片標籤
     const imgTag = `<img \n              src={getAssetPath("${imagePath}")} \n              alt="${altText}" \n              className="${className}" \n              loading="lazy" \n            />`;
     
-    // 根據 section 找到插入位置
-    const sectionComment = `{/* ${assignment.section} */}`;
-    const sectionPattern = new RegExp(`(\\{/\\*\\s*${assignment.section.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\s*\\*\\/}[\\s\\S]*?)(?=\\{/\\*|</section>|</div>|$)`, 'i');
+    // 改進的 section 查找邏輯
+    let insertIndex = -1;
+    let foundSection = false;
     
-    if (content.includes(sectionComment)) {
-      // 如果找到 section 註釋，在附近插入
-      const sectionMatch = content.match(sectionPattern);
-      if (sectionMatch) {
-        // 檢查是否已經有圖片
-        if (!sectionMatch[0].includes(`lovable-uploads/${assignment.image}`)) {
-          // 在 section 內容中尋找合適的插入位置
-          const insertPattern = new RegExp(`(\\{/\\*\\s*${assignment.section.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\s*\\*\\/}[\\s\\S]*?)(<div[^>]*className[^>]*>\\s*)(?=<img|</div>)`, 'i');
-          const insertMatch = content.match(insertPattern);
-          
-          if (insertMatch) {
-            // 在 div 標籤後插入圖片
-            const insertIndex = insertMatch.index + insertMatch[0].length;
+    // 標準化 section 名稱
+    const normalizedSection = assignment.section.toLowerCase().trim();
+    
+    // 對於 hero section
+    if (normalizedSection === 'hero') {
+      // 查找 Hero Section 註釋
+      const heroCommentPattern = /\{\/\*\s*Hero\s+Section\s*\*\/}/i;
+      const heroCommentMatch = content.match(heroCommentPattern);
+      
+      if (heroCommentMatch) {
+        // 在 Hero Section 中查找圖片區域（min-h div）
+        const afterHeroComment = content.slice(heroCommentMatch.index);
+        const heroImageDivPattern = /<div[^>]*min-h[^>]*>[\s\S]*?(<img[^>]*>|<\/div>)/i;
+        const heroImageMatch = afterHeroComment.match(heroImageDivPattern);
+        
+        if (heroImageMatch) {
+          if (heroImageMatch[0].includes('<img')) {
+            // 替換現有圖片
+            const imgMatch = afterHeroComment.match(/<img[^>]*>/i);
+            if (imgMatch) {
+              insertIndex = heroCommentMatch.index + imgMatch.index;
+              content = content.slice(0, insertIndex) + 
+                       imgTag.replace(/\n\s+/g, '\n                ') + 
+                       content.slice(insertIndex + imgMatch[0].length);
+              modified = true;
+              totalApplied++;
+              appliedAssignments.push(assignment);
+              console.log(`  ✓ ${page} - ${assignment.section}: ${imageFileName} (替換現有圖片)`);
+              foundSection = true;
+            }
+          } else {
+            // 在 div 內插入
+            const divEnd = heroImageMatch[0].indexOf('</div>');
+            insertIndex = heroCommentMatch.index + heroImageMatch.index + heroImageMatch[1].length;
             content = content.slice(0, insertIndex) + 
-                      `\n            ${imgTag}\n          ` + 
-                      content.slice(insertIndex);
+                     `\n                ${imgTag}\n              ` + 
+                     content.slice(insertIndex);
             modified = true;
             totalApplied++;
-            console.log(`  ✓ ${page} - ${assignment.section}: ${assignment.image}`);
+            appliedAssignments.push(assignment);
+            console.log(`  ✓ ${page} - ${assignment.section}: ${imageFileName}`);
+            foundSection = true;
           }
-        } else {
-          console.log(`  ⊙ ${page} - ${assignment.section}: ${assignment.image} (已存在)`);
         }
       }
-    } else {
-      // 如果找不到 section，在文件末尾的 </main> 之前插入
+    } 
+    // 對於 feature1-4
+    else if (normalizedSection.startsWith('feature')) {
+      const featureNum = normalizedSection.replace('feature', '').trim();
+      
+      if (/^[1-4]$/.test(featureNum)) {
+        // 查找 "Feature N:" 註釋（不區分大小寫，允許冒號後的文字）
+        const featureCommentPattern = new RegExp(`\\{/\\*\\s*Feature\\s+${featureNum}[^}]*\\*\\/}`, 'i');
+        const featureCommentMatch = content.match(featureCommentPattern);
+        
+        if (featureCommentMatch) {
+          // 在註釋後查找包含圖片的 div（通常是 order-1 或 order-2）
+          const afterFeatureComment = content.slice(featureCommentMatch.index + featureCommentMatch[0].length);
+          
+          // 查找該 feature 區塊中的圖片 div
+          // Feature 區塊通常是：註釋 -> grid div -> 兩個 order div，圖片在其中一個
+          const featureBlockPattern = /<div[^>]*grid[^>]*>[\s\S]*?<\/div>/i;
+          const featureBlockMatch = afterFeatureComment.match(featureBlockPattern);
+          
+          if (featureBlockMatch) {
+            // 在 feature block 中查找圖片 div（order-1 或 order-2）
+            // 優先查找包含圖片的 div，如果沒有則查找空的 div
+            const imgDivWithImgPattern = /<div[^>]*order-[12][^>]*>[\s\S]*?<img[^>]*>/i;
+            const imgDivWithImgMatch = featureBlockMatch[0].match(imgDivWithImgPattern);
+            
+            if (imgDivWithImgMatch) {
+              // 替換現有圖片
+              const existingImg = imgDivWithImgMatch[0].match(/<img[^>]*>/i);
+              if (existingImg) {
+                insertIndex = featureCommentMatch.index + featureCommentMatch[0].length + 
+                             featureBlockMatch.index + imgDivWithImgMatch.index + existingImg.index;
+                content = content.slice(0, insertIndex) + 
+                         imgTag.replace(/\n\s+/g, '\n                ') + 
+                         content.slice(insertIndex + existingImg[0].length);
+                modified = true;
+                totalApplied++;
+                appliedAssignments.push(assignment);
+                console.log(`  ✓ ${page} - ${assignment.section}: ${imageFileName} (替換現有圖片)`);
+                foundSection = true;
+              }
+            } else {
+              // 查找空的圖片 div（order-1 或 order-2），在開始標籤後插入
+              const imgDivPattern = /<div[^>]*order-[12][^>]*>/i;
+              const imgDivMatch = featureBlockMatch[0].match(imgDivPattern);
+              
+              if (imgDivMatch) {
+                // 在 div 開始標籤後插入
+                insertIndex = featureCommentMatch.index + featureCommentMatch[0].length + 
+                             featureBlockMatch.index + imgDivMatch.index + imgDivMatch[0].length;
+                content = content.slice(0, insertIndex) + 
+                         `\n                ${imgTag}\n              ` + 
+                         content.slice(insertIndex);
+                modified = true;
+                totalApplied++;
+                appliedAssignments.push(assignment);
+                console.log(`  ✓ ${page} - ${assignment.section}: ${imageFileName}`);
+                foundSection = true;
+              }
+            }
+          }
+        }
+      }
+    }
+    
+    // 如果找不到 section，在文件末尾插入
+    if (!foundSection) {
       console.warn(`  ⚠️  找不到 section "${assignment.section}" 在 ${page}，將在文件末尾插入`);
       const mainEndIndex = content.lastIndexOf('</main>');
       if (mainEndIndex > 0) {
@@ -125,17 +222,42 @@ for (const [page, pageAssignments] of Object.entries(assignmentsByPage)) {
         content = content.slice(0, mainEndIndex) + sectionDiv + content.slice(mainEndIndex);
         modified = true;
         totalApplied++;
-        console.log(`  ✓ ${page} - ${assignment.section}: ${assignment.image} (新增 section)`);
+        appliedAssignments.push(assignment);
+        console.log(`  ✓ ${page} - ${assignment.section}: ${imageFileName} (新增 section)`);
       }
     }
   }
   
+  // 記錄已應用的配置，用於後續清理
   if (modified) {
     writeFileSync(join(process.cwd(), filePath), content, 'utf-8');
     console.log(`\n✅ 已更新: ${filePath}\n`);
   }
+  
+  // 將已應用的配置添加到總列表
+  allAppliedAssignments.push(...appliedAssignments);
 }
 
 console.log(`\n🎉 完成！共應用了 ${totalApplied} 個圖片分配`);
+
+// 從配置中移除已應用的配置
+if (allAppliedAssignments.length > 0) {
+  const remainingAssignments = assignments.filter(assignment => {
+    return !allAppliedAssignments.some(applied => 
+      applied.image === assignment.image && 
+      applied.page === assignment.page && 
+      applied.section === assignment.section
+    );
+  });
+  
+  if (remainingAssignments.length < assignments.length) {
+    const removedCount = assignments.length - remainingAssignments.length;
+    config.assignments = remainingAssignments;
+    writeFileSync(configPath, JSON.stringify(config, null, 2), 'utf-8');
+    console.log(`\n🧹 已從配置中移除 ${removedCount} 個已應用的圖片分配`);
+    console.log(`📋 剩餘 ${remainingAssignments.length} 個待應用的配置`);
+  }
+}
+
 console.log(`\n💡 提示: 請檢查生成的代碼，確保圖片位置正確。`);
 

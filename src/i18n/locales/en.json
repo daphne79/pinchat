@@ -22,7 +22,7 @@
       "hero": {
         "title": "Chat System for Real-Time Brand-User Engagement",
         "subtitle": "Seamless one-on-one and group chats, multimedia messaging, and customizable interface experiences that keep brands connected naturally, instantly, and with quality in every interaction.",
-        "cta": "Get Started",
+        "cta": "Get Started for Free",
         "imageAlt": "PinChat chat system interface"
       },
       "keyFeatures": {
@@ -165,7 +165,7 @@
       "hero": {
         "title": "Create a Consistent Brand Experience",
         "subtitle": "With brand-specific colors, fonts, domains, and Meta settings, every interaction stays consistent and trustworthy, creating more professional brand touchpoints.",
-        "cta": "Start Setup",
+        "cta": "Get Started for Free",
         "imageAlt": "Brand customization settings interface"
       },
       "keyFeatures": {
@@ -244,7 +244,7 @@
           "hero": {
             "title": "Connect with Every Visitor on Your Website in Real Time",
             "subtitle": "Turn website visitors into real conversations and opportunities with a customizable, draggable, AI-powered Chat Widget.",
-            "cta": "Get Started with Chat Widget",
+            "cta": "Get Started for Free",
             "imageAlt": "Chat Widget Interface"
           },
           "keyFeatures": {
@@ -319,7 +319,7 @@
           "hero": {
             "title": "Smarter conversations, less workload",
             "subtitle": "Deliver AI-powered chats that respond instantly, hand off to humans when needed, and adapt to your brand across channels.",
-            "cta": "Try AI Chatbot",
+            "cta": "Get Started for Free",
             "ctaSecondary": "Get Started for Free",
             "imageAlt": "AI chatbot with human handover collaboration"
           },
@@ -404,7 +404,7 @@
           "hero": {
             "title": "Quick Auto-Reply for Common Questions",
             "subtitle": "A keyword-triggered FAQ Chatbot that centrally manages repetitive questions like business hours, pricing, shipping, and booking processes. Supports text-image formats, buttons, and carousel displays, and can seamlessly hand off to human agents when needed, reducing daily customer service workload.",
-            "cta": "Start Building FAQ Bot",
+            "cta": "Get Started for Free",
             "ctaSecondary": "Get Started for Free",
             "imageAlt": "FAQ chatbot with automated response system"
           },
@@ -484,7 +484,7 @@
           "hero": {
             "title": "Your Personalized Link Hub for Customer Engagement",
             "subtitle": "Create a branded, mobile-ready link page that unifies actions, boosts conversions, and drives seamless conversations.",
-            "cta": "Create My Welcome Page",
+            "cta": "Get Started for Free",
             "ctaSecondary": "Learn More",
             "imageAlt": "Welcome Page personalized link hub interface"
           },
@@ -564,7 +564,7 @@
           "hero": {
             "title": "Centralize Every Conversation",
             "subtitle": "Master all chat contexts with labels, folders, and quick search, enabling customer service and sales teams to find important messages faster and maintain high-quality communication workflows.",
-            "cta": "Start Managing",
+            "cta": "Get Started for Free",
             "imageAlt": "Chatroom management interface"
           },
           "sectionTitle": "Key Features",
@@ -643,7 +643,7 @@
           "hero": {
             "title": "Make Team Collaboration More Efficient and Secure",
             "subtitle": "Easily manage multiple members' operational scope through role and permission controls, ensuring smooth and consistent customer service and sales processes while maintaining data security and brand professionalism.",
-            "cta": "Create Team Account",
+            "cta": "Get Started for Free",
             "imageAlt": "Sub-account management and team collaboration interface"
           },
           "keyFeatures": {
@@ -722,7 +722,7 @@
           "hero": {
             "title": "Comprehensive Data Insights, All in One Place",
             "subtitle": "Gain deep insights into chat volume, traffic sources, survey responses, and interaction performance with clear charts and comprehensive behavioral data. Quickly identify traffic sources, optimize customer service workflows, and improve conversion results.",
-            "cta": "Start Analyzing Performance",
+            "cta": "Get Started for Free",
             "imageAlt": "PinChat Analytics dashboard"
           },
           "sectionTitle": "Key Features",

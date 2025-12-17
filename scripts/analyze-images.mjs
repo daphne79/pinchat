@@ -21,13 +21,6 @@ for (const file of codeFiles) {
   }
 }
 
-// 分類圖片
-const used = images.filter(img => usedImages.has(img));
-const unused = images.filter(img => !usedImages.has(img));
-
-console.log(`已使用的圖片: ${used.length}`);
-console.log(`未使用的圖片: ${unused.length}\n`);
-
 // 讀取現有的配置
 const configPath = join(process.cwd(), 'image-assignments.json');
 let assignments = [];
@@ -35,8 +28,18 @@ let pageSections = {};
 
 if (existsSync(configPath)) {
   const config = JSON.parse(readFileSync(configPath, 'utf-8'));
-  assignments = config.assignments || [];
+  // 過濾掉不存在的圖片配置
+  assignments = (config.assignments || []).filter(assignment => {
+    const imagePath = join(imageDir, assignment.image);
+    return existsSync(imagePath);
+  });
   pageSections = config.pageSections || {};
+  
+  // 如果有被過濾掉的配置，提示用戶
+  const removedCount = (config.assignments || []).length - assignments.length;
+  if (removedCount > 0) {
+    console.log(`⚠️  已移除 ${removedCount} 個不存在的圖片配置`);
+  }
 } else {
   // 如果配置文件不存在，使用默認配置
   const defaultConfig = JSON.parse(readFileSync(join(process.cwd(), 'image-assignments.json'), 'utf-8'));
@@ -56,6 +59,23 @@ assignments.forEach(assignment => {
   }
   imageAssignments[assignment.image].push(assignment);
 });
+
+// 分類圖片
+const used = images.filter(img => usedImages.has(img));
+// 未使用的圖片：不在代碼中使用，且沒有位置指定
+const unused = images.filter(img => {
+  if (usedImages.has(img)) {
+    return false; // 已使用，不是未使用
+  }
+  // 如果有位置指定，也不算未使用（應該顯示在「已指定」tab）
+  if (imageAssignments[img] && imageAssignments[img].length > 0) {
+    return false;
+  }
+  return true;
+});
+
+console.log(`已使用的圖片: ${used.length}`);
+console.log(`未使用的圖片: ${unused.length}\n`);
 
 // 生成頁面選項 HTML
 function generatePageOptions() {
@@ -404,6 +424,20 @@ const html = `<!DOCTYPE html>
       <div class="stat unused">未使用: ${unused.length}</div>
       <div class="stat assigned">已指定: ${Object.keys(imageAssignments).length}</div>
     </div>
+    <div style="margin-top: 15px; display: flex; gap: 10px; flex-wrap: wrap;">
+      <button class="btn btn-primary" onclick="refreshImageList()" style="margin-top: 0;">
+        🔄 刷新圖片列表
+      </button>
+      <button class="btn btn-secondary" onclick="exportConfig()" style="margin-top: 0;">
+        📋 複製配置指令
+      </button>
+      <button class="btn btn-primary" onclick="saveConfigFromHeader()" style="margin-top: 0; background: #1976d2;">
+        💾 保存配置
+      </button>
+      <button class="btn btn-primary" onclick="applyToWebpage()" style="margin-top: 0; background: #388e3c;">
+        🌐 應用到網頁
+      </button>
+    </div>
   </div>
 
   <input type="text" class="search-box" id="searchBox" placeholder="搜尋圖片名稱...">
@@ -572,11 +606,18 @@ const html = `<!DOCTYPE html>
         <button class="copy-btn" onclick="copyCommand()" id="copyCommandBtn">複製指令</button>
         <div class="command-display" id="commandDisplay"></div>
       </div>
-      <div class="instruction-text" style="margin-top: 15px; padding: 10px; background: #fff3cd; border-radius: 4px;">
-        <strong>💡 使用說明：</strong><br>
-        1. 點擊「複製指令」按鈕複製上面的命令<br>
+      <div class="instruction-text" id="configInstruction" style="margin-top: 15px; padding: 10px; background: #fff3cd; border-radius: 4px;">
+        <strong>💡 完整流程說明：</strong><br>
+        <strong>步驟 1 - 保存配置：</strong><br>
+        1. 點擊「保存配置」按鈕，命令會自動複製到剪貼板<br>
         2. 在終端中貼上並執行該命令<br>
-        3. 系統會自動更新配置並重新生成圖片查看器
+        3. 系統會自動更新 <strong>image-assignments.json</strong> 文件<br><br>
+        <strong>步驟 2 - 應用到網頁：</strong><br>
+        4. 點擊「應用到網頁」按鈕，命令會自動複製到剪貼板<br>
+        5. 在終端中貼上並執行該命令<br>
+        6. 系統會將配置應用到實際的代碼文件中（圖片會插入到對應的頁面）<br>
+        7. 執行完成後，刷新瀏覽器頁面查看效果<br><br>
+        <strong>⚠️ 重要：</strong>如果不執行命令，配置變更只會存在於記憶體中，不會保存到文件或應用到網頁。
       </div>
       <div class="instruction-text" style="margin-top: 20px;">
         <strong>或者</strong>，如果您想查看完整的 JSON 配置：
@@ -587,7 +628,8 @@ const html = `<!DOCTYPE html>
       </div>
       <div class="modal-actions">
         <button type="button" class="btn btn-secondary" onclick="closeConfigModal()">稍後保存</button>
-        <button type="button" class="btn btn-primary" onclick="saveAndReload()">保存並重新載入</button>
+        <button type="button" class="btn btn-primary" onclick="saveAndReload()">保存配置</button>
+        <button type="button" class="btn btn-primary" onclick="applyToWebpage()" style="background: #388e3c;">應用到網頁</button>
       </div>
     </div>
   </div>
@@ -735,8 +777,24 @@ const html = `<!DOCTYPE html>
       // 立即更新頁面顯示 - 移除該 assignment 的 UI 元素
       updateAssignmentDisplay(image, page, section);
       
-      // 顯示配置模態框
+      // 顯示配置模態框，並強調需要保存
       showConfigModal();
+      
+      // 在模態框顯示後，更新提示訊息
+      setTimeout(() => {
+        const instruction = document.getElementById('configInstruction');
+        if (instruction) {
+          instruction.style.background = '#ffebee';
+          instruction.style.border = '2px solid #f44336';
+          instruction.innerHTML = '<strong>⚠️ 重要提示：</strong><br>' +
+            '您已移除位置指定，但配置尚未保存到 <strong>image-assignments.json</strong> 文件。<br><br>' +
+            '<strong>請立即執行以下步驟：</strong><br>' +
+            '1. 點擊「保存並重新載入」按鈕（命令會自動複製）<br>' +
+            '2. 在終端中執行該命令<br>' +
+            '3. 刷新瀏覽器頁面<br><br>' +
+            '如果不執行命令，移除操作不會保存到文件，重新載入頁面後會恢復原狀。';
+        }
+      }, 100);
     }
     
     function updateAssignmentDisplay(image, page, section) {
@@ -771,6 +829,21 @@ const html = `<!DOCTYPE html>
               // 移除 assigned 狀態標籤
               const statusBadges = card.querySelectorAll('.status-assigned');
               statusBadges.forEach(badge => badge.remove());
+              
+              // 如果該圖片在「已指定」tab 中，移除它
+              const assignedSection = document.getElementById('assigned-section');
+              if (assignedSection) {
+                const assignedCards = assignedSection.querySelectorAll('.image-card');
+                assignedCards.forEach(assignedCard => {
+                  const assignedImgName = assignedCard.querySelector('.image-name').textContent;
+                  if (assignedImgName === image) {
+                    assignedCard.remove();
+                  }
+                });
+              }
+              
+              // 更新計數
+              updateAssignedTabCount();
             } else {
               // 更新 assigned 狀態標籤的數量
               const assignedBadge = card.querySelector('.status-assigned');
@@ -778,10 +851,52 @@ const html = `<!DOCTYPE html>
                 const remainingCount = assignmentsList.querySelectorAll('.assignment-item').length;
                 assignedBadge.textContent = '📍 已指定 (' + remainingCount + ')';
               }
+              
+              // 更新計數
+              updateAssignedTabCount();
             }
           }
         }
       });
+      
+      // 更新統計數字和 tab 計數
+      updateAssignedTabCount();
+    }
+    
+    function updateAssignedTabCount() {
+      // 計算當前還有多少圖片有位置指定（且未使用）
+      const assignedImages = new Set();
+      const usedImages = new Set();
+      
+      // 先找出所有已使用的圖片
+      document.querySelectorAll('.image-card').forEach(card => {
+        const imgName = card.querySelector('.image-name').textContent;
+        const statusUsed = card.querySelector('.status-used');
+        if (statusUsed) {
+          usedImages.add(imgName);
+        }
+      });
+      
+      // 計算未使用且有位置指定的圖片
+      assignments.forEach(a => {
+        if (!usedImages.has(a.image)) {
+          assignedImages.add(a.image);
+        }
+      });
+      
+      const count = assignedImages.size;
+      
+      // 更新 tab 標籤
+      const assignedTab = document.querySelector('.tab[onclick*="assigned"]');
+      if (assignedTab) {
+        assignedTab.textContent = '已指定 (' + count + ')';
+      }
+      
+      // 更新統計數字
+      const assignedStat = document.querySelector('.stat.assigned');
+      if (assignedStat) {
+        assignedStat.textContent = '已指定: ' + count;
+      }
     }
 
     function showConfigModal() {
@@ -808,6 +923,25 @@ const html = `<!DOCTYPE html>
       // 如果需要重新載入以查看更新後的配置，請手動刷新頁面
     }
     
+    function saveConfigFromHeader() {
+      // 從 header 按鈕調用，直接保存配置
+      const config = {
+        assignments: assignments,
+        pageSections: pageSections
+      };
+      
+      const configJson = JSON.stringify(config, null, 2);
+      const singleLineJson = JSON.stringify(configJson);
+      const command = 'echo ' + singleLineJson + ' | npm run update-image-config';
+      
+      // 複製命令到剪貼板
+      navigator.clipboard.writeText(command).then(() => {
+        alert('配置命令已複製到剪貼板！\\n\\n📋 請在終端中執行以下命令：\\n\\n' + command + '\\n\\n✅ 這個命令會保存配置到 image-assignments.json 文件。\\n\\n💡 保存完成後，您可以點擊「應用到網頁」按鈕來將配置應用到實際的代碼文件。');
+      }).catch(() => {
+        prompt('請複製以下命令並在終端中執行：', command);
+      });
+    }
+    
     function saveAndReload() {
       const config = {
         assignments: assignments,
@@ -822,13 +956,29 @@ const html = `<!DOCTYPE html>
       
       // 複製命令到剪貼板
       navigator.clipboard.writeText(command).then(() => {
-        alert('配置命令已複製到剪貼板！\\n\\n請在終端中執行該命令來保存配置，然後重新載入頁面。');
-        closeConfigModal();
+        alert('配置命令已複製到剪貼板！\\n\\n請在終端中執行該命令來保存配置到 image-assignments.json。\\n\\n保存完成後，您可以點擊「應用到網頁」按鈕來將配置應用到實際的代碼文件。');
+        // 不關閉模態框，讓用戶可以繼續操作
       }).catch(() => {
         // 降級方案：顯示命令讓用戶手動複製
         const commandText = document.getElementById('commandDisplay').textContent;
         prompt('請複製以下命令並在終端中執行：', commandText);
-        closeConfigModal();
+      });
+    }
+    
+    function applyToWebpage() {
+      const command = 'npm run apply-images';
+      
+      // 複製命令到剪貼板
+      navigator.clipboard.writeText(command).then(() => {
+        alert('應用命令已複製到剪貼板！\\n\\n📋 請在終端中執行以下命令：\\n\\n' + command + '\\n\\n✅ 這個命令會將 image-assignments.json 中的配置應用到實際的代碼文件中。\\n\\n💡 提示：\\n1. 請先確保已經保存配置到 image-assignments.json（點擊「保存配置」按鈕）\\n2. 執行此命令後，圖片會自動插入到對應的頁面文件中\\n3. 執行完成後，刷新瀏覽器頁面查看效果');
+        // 如果模態框是打開的，關閉它
+        const modal = document.getElementById('configModal');
+        if (modal && modal.classList.contains('active')) {
+          closeConfigModal();
+        }
+      }).catch(() => {
+        // 降級方案：顯示命令讓用戶手動複製
+        prompt('請複製以下命令並在終端中執行：', command);
       });
     }
 
@@ -887,17 +1037,23 @@ const html = `<!DOCTYPE html>
     function exportConfig() {
       showConfigModal();
     }
-
-    // 添加導出配置按鈕到 header
-    document.addEventListener('DOMContentLoaded', function() {
-      const header = document.querySelector('.header');
-      const exportBtn = document.createElement('button');
-      exportBtn.className = 'btn btn-primary';
-      exportBtn.textContent = '複製配置指令';
-      exportBtn.style.marginTop = '10px';
-      exportBtn.onclick = exportConfig;
-      header.appendChild(exportBtn);
-    });
+    
+    function refreshImageList() {
+      const command = 'npm run analyze-images';
+      
+      // 複製命令到剪貼板
+      navigator.clipboard.writeText(command).then(() => {
+        const message = '刷新命令已複製到剪貼板！\\n\\n' +
+          '📋 請在終端中執行以下命令：\\n' + command + '\\n\\n' +
+          '✅ 執行完成後，請點擊瀏覽器的「重新載入」按鈕（或按 F5）來查看更新後的圖片列表。\\n\\n' +
+          '💡 提示：執行命令後，圖片查看器會自動重新生成，然後您只需要刷新瀏覽器頁面即可。';
+        alert(message);
+      }).catch(() => {
+        // 降級方案：顯示命令讓用戶手動複製
+        const message = '請複製以下命令並在終端中執行：\\n\\n' + command + '\\n\\n執行完成後，請刷新瀏覽器頁面。';
+        prompt(message, command);
+      });
+    }
 
     // 點擊配置模態框外部關閉
     document.getElementById('configModal').addEventListener('click', function(e) {

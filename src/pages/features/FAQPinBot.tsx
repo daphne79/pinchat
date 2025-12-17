@@ -29,9 +29,6 @@ const FAQPinBot = () => {
                   <Button size="lg" className="bg-[#02B13F] hover:bg-[#029f38] text-white text-base sm:text-lg">
                     {t('features.faqPinbotPage.hero.cta')}
                   </Button>
-                  <Button size="lg" variant="outline" className="text-base sm:text-lg">
-                    {t('features.faqPinbotPage.hero.ctaSecondary')}
-                  </Button>
                 </div>
               </div>
               <div className="min-h-64 sm:min-h-96 flex items-center justify-center animate-fade-in">

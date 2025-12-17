@@ -328,18 +328,32 @@
   <div class="header">
     <h1>📸 PinChat 圖片查看器</h1>
     <div class="stats">
-      <div class="stat total">總數: 56</div>
-      <div class="stat used">已使用: 55</div>
+      <div class="stat total">總數: 58</div>
+      <div class="stat used">已使用: 56</div>
       <div class="stat unused">未使用: 1</div>
       <div class="stat assigned">已指定: 1</div>
+    </div>
+    <div style="margin-top: 15px; display: flex; gap: 10px; flex-wrap: wrap;">
+      <button class="btn btn-primary" onclick="refreshImageList()" style="margin-top: 0;">
+        🔄 刷新圖片列表
+      </button>
+      <button class="btn btn-secondary" onclick="exportConfig()" style="margin-top: 0;">
+        📋 複製配置指令
+      </button>
+      <button class="btn btn-primary" onclick="saveConfigFromHeader()" style="margin-top: 0; background: #1976d2;">
+        💾 保存配置
+      </button>
+      <button class="btn btn-primary" onclick="applyToWebpage()" style="margin-top: 0; background: #388e3c;">
+        🌐 應用到網頁
+      </button>
     </div>
   </div>
 
   <input type="text" class="search-box" id="searchBox" placeholder="搜尋圖片名稱...">
 
   <div class="tabs">
-    <div class="tab active" onclick="showSection('all')">全部圖片 (56)</div>
-    <div class="tab" onclick="showSection('used')">已使用 (55)</div>
+    <div class="tab active" onclick="showSection('all')">全部圖片 (58)</div>
+    <div class="tab" onclick="showSection('used')">已使用 (56)</div>
     <div class="tab" onclick="showSection('unused')">未使用 (1)</div>
     <div class="tab" onclick="showSection('assigned')">已指定 (1)</div>
   </div>
@@ -541,33 +555,6 @@
               <div class="image-actions">
                 <button class="btn btn-primary" onclick="openAssignModal('4d4918e0-370f-4455-984a-0f7c3a652a9b.png')">指定位置</button>
                 
-              </div>
-            </div>
-          </div>
-        
-          <div class="image-card" data-name="50299fb5-4a7e-41a7-8d52-1f79b652d31c.png">
-            <img src="/pinchat/lovable-uploads/50299fb5-4a7e-41a7-8d52-1f79b652d31c.png" alt="50299fb5-4a7e-41a7-8d52-1f79b652d31c.png" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'300\' height=\'200\'%3E%3Ctext x=\'50%25\' y=\'50%25\' text-anchor=\'middle\'%3E圖片載入失敗%3C/text%3E%3C/svg%3E'">
-            <div class="image-info">
-              <div class="image-name">50299fb5-4a7e-41a7-8d52-1f79b652d31c.png</div>
-              <div>
-                <span class="image-status status-unused">
-                  ○ 未使用
-                </span>
-                <span class="image-status status-assigned">📍 已指定 (1)</span>
-              </div>
-              
-                <div class="assignments-list">
-                  
-                    <div class="assignment-item">
-                      <span>ChatWidget - feature1</span>
-                      <button class="remove-btn" onclick="removeAssignment('50299fb5-4a7e-41a7-8d52-1f79b652d31c.png', 'ChatWidget', 'feature1')">移除</button>
-                    </div>
-                  
-                </div>
-              
-              <div class="image-actions">
-                <button class="btn btn-primary" onclick="openAssignModal('50299fb5-4a7e-41a7-8d52-1f79b652d31c.png')">指定位置</button>
-                <button class="btn btn-secondary" onclick="exportConfig()">導出配置</button>
               </div>
             </div>
           </div>
@@ -811,8 +798,8 @@
             <div class="image-info">
               <div class="image-name">a943b569-9b16-4e87-8372-5c99b676e584.png</div>
               <div>
-                <span class="image-status status-used">
-                  ✓ 已使用
+                <span class="image-status status-unused">
+                  ○ 未使用
                 </span>
                 
               </div>
@@ -838,6 +825,33 @@
               <div class="image-actions">
                 <button class="btn btn-primary" onclick="openAssignModal('aa66a1b3-b7b1-4897-a7b7-c7f85c930a5a.png')">指定位置</button>
                 
+              </div>
+            </div>
+          </div>
+        
+          <div class="image-card" data-name="ai-chatbot-customer-support-efficiency.png">
+            <img src="/pinchat/lovable-uploads/ai-chatbot-customer-support-efficiency.png" alt="ai-chatbot-customer-support-efficiency.png" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'300\' height=\'200\'%3E%3Ctext x=\'50%25\' y=\'50%25\' text-anchor=\'middle\'%3E圖片載入失敗%3C/text%3E%3C/svg%3E'">
+            <div class="image-info">
+              <div class="image-name">ai-chatbot-customer-support-efficiency.png</div>
+              <div>
+                <span class="image-status status-unused">
+                  ○ 未使用
+                </span>
+                <span class="image-status status-assigned">📍 已指定 (1)</span>
+              </div>
+              
+                <div class="assignments-list">
+                  
+                    <div class="assignment-item">
+                      <span>AIPinBot - feature4</span>
+                      <button class="remove-btn" onclick="removeAssignment('ai-chatbot-customer-support-efficiency.png', 'AIPinBot', 'feature4')">移除</button>
+                    </div>
+                  
+                </div>
+              
+              <div class="image-actions">
+                <button class="btn btn-primary" onclick="openAssignModal('ai-chatbot-customer-support-efficiency.png')">指定位置</button>
+                <button class="btn btn-secondary" onclick="exportConfig()">導出配置</button>
               </div>
             </div>
           </div>
@@ -1323,6 +1337,42 @@
               
               <div class="image-actions">
                 <button class="btn btn-primary" onclick="openAssignModal('lead-capture-survey-hero.png')">指定位置</button>
+                
+              </div>
+            </div>
+          </div>
+        
+          <div class="image-card" data-name="pinboard-built-in-chat.png">
+            <img src="/pinchat/lovable-uploads/pinboard-built-in-chat.png" alt="pinboard-built-in-chat.png" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'300\' height=\'200\'%3E%3Ctext x=\'50%25\' y=\'50%25\' text-anchor=\'middle\'%3E圖片載入失敗%3C/text%3E%3C/svg%3E'">
+            <div class="image-info">
+              <div class="image-name">pinboard-built-in-chat.png</div>
+              <div>
+                <span class="image-status status-used">
+                  ✓ 已使用
+                </span>
+                
+              </div>
+              
+              <div class="image-actions">
+                <button class="btn btn-primary" onclick="openAssignModal('pinboard-built-in-chat.png')">指定位置</button>
+                
+              </div>
+            </div>
+          </div>
+        
+          <div class="image-card" data-name="pinboard-hero.png">
+            <img src="/pinchat/lovable-uploads/pinboard-hero.png" alt="pinboard-hero.png" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'300\' height=\'200\'%3E%3Ctext x=\'50%25\' y=\'50%25\' text-anchor=\'middle\'%3E圖片載入失敗%3C/text%3E%3C/svg%3E'">
+            <div class="image-info">
+              <div class="image-name">pinboard-hero.png</div>
+              <div>
+                <span class="image-status status-used">
+                  ✓ 已使用
+                </span>
+                
+              </div>
+              
+              <div class="image-actions">
+                <button class="btn btn-primary" onclick="openAssignModal('pinboard-hero.png')">指定位置</button>
                 
               </div>
             </div>
@@ -1754,22 +1804,6 @@
             </div>
           </div>
         
-          <div class="image-card" data-name="a943b569-9b16-4e87-8372-5c99b676e584.png">
-            <img src="/pinchat/lovable-uploads/a943b569-9b16-4e87-8372-5c99b676e584.png" alt="a943b569-9b16-4e87-8372-5c99b676e584.png" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'300\' height=\'200\'%3E%3Ctext x=\'50%25\' y=\'50%25\' text-anchor=\'middle\'%3E圖片載入失敗%3C/text%3E%3C/svg%3E'">
-            <div class="image-info">
-              <div class="image-name">a943b569-9b16-4e87-8372-5c99b676e584.png</div>
-              <div>
-                <span class="image-status status-used">✓ 已使用</span>
-                
-              </div>
-              
-              <div class="image-actions">
-                <button class="btn btn-primary" onclick="openAssignModal('a943b569-9b16-4e87-8372-5c99b676e584.png')">指定位置</button>
-                
-              </div>
-            </div>
-          </div>
-        
           <div class="image-card" data-name="aa66a1b3-b7b1-4897-a7b7-c7f85c930a5a.png">
             <img src="/pinchat/lovable-uploads/aa66a1b3-b7b1-4897-a7b7-c7f85c930a5a.png" alt="aa66a1b3-b7b1-4897-a7b7-c7f85c930a5a.png" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'300\' height=\'200\'%3E%3Ctext x=\'50%25\' y=\'50%25\' text-anchor=\'middle\'%3E圖片載入失敗%3C/text%3E%3C/svg%3E'">
             <div class="image-info">
@@ -2218,6 +2252,38 @@
             </div>
           </div>
         
+          <div class="image-card" data-name="pinboard-built-in-chat.png">
+            <img src="/pinchat/lovable-uploads/pinboard-built-in-chat.png" alt="pinboard-built-in-chat.png" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'300\' height=\'200\'%3E%3Ctext x=\'50%25\' y=\'50%25\' text-anchor=\'middle\'%3E圖片載入失敗%3C/text%3E%3C/svg%3E'">
+            <div class="image-info">
+              <div class="image-name">pinboard-built-in-chat.png</div>
+              <div>
+                <span class="image-status status-used">✓ 已使用</span>
+                
+              </div>
+              
+              <div class="image-actions">
+                <button class="btn btn-primary" onclick="openAssignModal('pinboard-built-in-chat.png')">指定位置</button>
+                
+              </div>
+            </div>
+          </div>
+        
+          <div class="image-card" data-name="pinboard-hero.png">
+            <img src="/pinchat/lovable-uploads/pinboard-hero.png" alt="pinboard-hero.png" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'300\' height=\'200\'%3E%3Ctext x=\'50%25\' y=\'50%25\' text-anchor=\'middle\'%3E圖片載入失敗%3C/text%3E%3C/svg%3E'">
+            <div class="image-info">
+              <div class="image-name">pinboard-hero.png</div>
+              <div>
+                <span class="image-status status-used">✓ 已使用</span>
+                
+              </div>
+              
+              <div class="image-actions">
+                <button class="btn btn-primary" onclick="openAssignModal('pinboard-hero.png')">指定位置</button>
+                
+              </div>
+            </div>
+          </div>
+        
           <div class="image-card" data-name="project-based-folders.png">
             <img src="/pinchat/lovable-uploads/project-based-folders.png" alt="project-based-folders.png" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'300\' height=\'200\'%3E%3Ctext x=\'50%25\' y=\'50%25\' text-anchor=\'middle\'%3E圖片載入失敗%3C/text%3E%3C/svg%3E'">
             <div class="image-info">
@@ -2256,27 +2322,18 @@
   <div id="unused-section" class="section">
     <div class="gallery" id="unused-gallery">
       
-          <div class="image-card" data-name="50299fb5-4a7e-41a7-8d52-1f79b652d31c.png">
-            <img src="/pinchat/lovable-uploads/50299fb5-4a7e-41a7-8d52-1f79b652d31c.png" alt="50299fb5-4a7e-41a7-8d52-1f79b652d31c.png" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'300\' height=\'200\'%3E%3Ctext x=\'50%25\' y=\'50%25\' text-anchor=\'middle\'%3E圖片載入失敗%3C/text%3E%3C/svg%3E'">
+          <div class="image-card" data-name="a943b569-9b16-4e87-8372-5c99b676e584.png">
+            <img src="/pinchat/lovable-uploads/a943b569-9b16-4e87-8372-5c99b676e584.png" alt="a943b569-9b16-4e87-8372-5c99b676e584.png" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'300\' height=\'200\'%3E%3Ctext x=\'50%25\' y=\'50%25\' text-anchor=\'middle\'%3E圖片載入失敗%3C/text%3E%3C/svg%3E'">
             <div class="image-info">
-              <div class="image-name">50299fb5-4a7e-41a7-8d52-1f79b652d31c.png</div>
+              <div class="image-name">a943b569-9b16-4e87-8372-5c99b676e584.png</div>
               <div>
                 <span class="image-status status-unused">○ 未使用</span>
-                <span class="image-status status-assigned">📍 已指定 (1)</span>
+                
               </div>
               
-                <div class="assignments-list">
-                  
-                    <div class="assignment-item">
-                      <span>ChatWidget - feature1</span>
-                      <button class="remove-btn" onclick="removeAssignment('50299fb5-4a7e-41a7-8d52-1f79b652d31c.png', 'ChatWidget', 'feature1')">移除</button>
-                    </div>
-                  
-                </div>
-              
               <div class="image-actions">
-                <button class="btn btn-primary" onclick="openAssignModal('50299fb5-4a7e-41a7-8d52-1f79b652d31c.png')">指定位置</button>
-                <button class="btn btn-secondary" onclick="exportConfig()">導出配置</button>
+                <button class="btn btn-primary" onclick="openAssignModal('a943b569-9b16-4e87-8372-5c99b676e584.png')">指定位置</button>
+                
               </div>
             </div>
           </div>
@@ -2287,10 +2344,10 @@
   <div id="assigned-section" class="section">
     <div class="gallery" id="assigned-gallery">
       
-          <div class="image-card" data-name="50299fb5-4a7e-41a7-8d52-1f79b652d31c.png">
-            <img src="/pinchat/lovable-uploads/50299fb5-4a7e-41a7-8d52-1f79b652d31c.png" alt="50299fb5-4a7e-41a7-8d52-1f79b652d31c.png" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'300\' height=\'200\'%3E%3Ctext x=\'50%25\' y=\'50%25\' text-anchor=\'middle\'%3E圖片載入失敗%3C/text%3E%3C/svg%3E'">
+          <div class="image-card" data-name="ai-chatbot-customer-support-efficiency.png">
+            <img src="/pinchat/lovable-uploads/ai-chatbot-customer-support-efficiency.png" alt="ai-chatbot-customer-support-efficiency.png" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'300\' height=\'200\'%3E%3Ctext x=\'50%25\' y=\'50%25\' text-anchor=\'middle\'%3E圖片載入失敗%3C/text%3E%3C/svg%3E'">
             <div class="image-info">
-              <div class="image-name">50299fb5-4a7e-41a7-8d52-1f79b652d31c.png</div>
+              <div class="image-name">ai-chatbot-customer-support-efficiency.png</div>
               <div>
                 <span class="image-status status-unused">
                   ○ 未使用
@@ -2300,13 +2357,13 @@
               <div class="assignments-list">
                 
                   <div class="assignment-item">
-                    <span>ChatWidget - feature1</span>
-                    <button class="remove-btn" onclick="removeAssignment('50299fb5-4a7e-41a7-8d52-1f79b652d31c.png', 'ChatWidget', 'feature1')">移除</button>
+                    <span>AIPinBot - feature4</span>
+                    <button class="remove-btn" onclick="removeAssignment('ai-chatbot-customer-support-efficiency.png', 'AIPinBot', 'feature4')">移除</button>
                   </div>
                 
               </div>
               <div class="image-actions">
-                <button class="btn btn-primary" onclick="openAssignModal('50299fb5-4a7e-41a7-8d52-1f79b652d31c.png')">指定位置</button>
+                <button class="btn btn-primary" onclick="openAssignModal('ai-chatbot-customer-support-efficiency.png')">指定位置</button>
                 <button class="btn btn-secondary" onclick="exportConfig()">導出配置</button>
               </div>
             </div>
@@ -2328,11 +2385,18 @@
         <button class="copy-btn" onclick="copyCommand()" id="copyCommandBtn">複製指令</button>
         <div class="command-display" id="commandDisplay"></div>
       </div>
-      <div class="instruction-text" style="margin-top: 15px; padding: 10px; background: #fff3cd; border-radius: 4px;">
-        <strong>💡 使用說明：</strong><br>
-        1. 點擊「複製指令」按鈕複製上面的命令<br>
+      <div class="instruction-text" id="configInstruction" style="margin-top: 15px; padding: 10px; background: #fff3cd; border-radius: 4px;">
+        <strong>💡 完整流程說明：</strong><br>
+        <strong>步驟 1 - 保存配置：</strong><br>
+        1. 點擊「保存配置」按鈕，命令會自動複製到剪貼板<br>
         2. 在終端中貼上並執行該命令<br>
-        3. 系統會自動更新配置並重新生成圖片查看器
+        3. 系統會自動更新 <strong>image-assignments.json</strong> 文件<br><br>
+        <strong>步驟 2 - 應用到網頁：</strong><br>
+        4. 點擊「應用到網頁」按鈕，命令會自動複製到剪貼板<br>
+        5. 在終端中貼上並執行該命令<br>
+        6. 系統會將配置應用到實際的代碼文件中（圖片會插入到對應的頁面）<br>
+        7. 執行完成後，刷新瀏覽器頁面查看效果<br><br>
+        <strong>⚠️ 重要：</strong>如果不執行命令，配置變更只會存在於記憶體中，不會保存到文件或應用到網頁。
       </div>
       <div class="instruction-text" style="margin-top: 20px;">
         <strong>或者</strong>，如果您想查看完整的 JSON 配置：
@@ -2343,7 +2407,8 @@
       </div>
       <div class="modal-actions">
         <button type="button" class="btn btn-secondary" onclick="closeConfigModal()">稍後保存</button>
-        <button type="button" class="btn btn-primary" onclick="saveAndReload()">保存並重新載入</button>
+        <button type="button" class="btn btn-primary" onclick="saveAndReload()">保存配置</button>
+        <button type="button" class="btn btn-primary" onclick="applyToWebpage()" style="background: #388e3c;">應用到網頁</button>
       </div>
     </div>
   </div>
@@ -2388,7 +2453,7 @@
   <script>
     const pageSections = {"Index":{"hero":"首頁 Hero 區塊","valueBlock1":"核心價值 1 - 一鍵連接","valueBlock2":"核心價值 2 - 跨平台整合","valueBlock3":"核心價值 3 - AI 客服","valueBlock4":"核心價值 4 - 數據管理"},"About":{"hero":"關於我們 Hero 區塊"},"AIPinBot":{"hero":"AI PinBot Hero 區塊","feature1":"功能 1 - 統一知識來源","feature2":"功能 2 - 智能 FAQ","feature3":"功能 3 - 多語言支持","feature4":"功能 4 - 實時學習","feature5":"功能 5 - 分析報告"},"Analytics":{"hero":"分析頁面 Hero 區塊","feature1":"功能 1","feature2":"功能 2","feature3":"功能 3","feature4":"功能 4","feature5":"功能 5"},"Branding":{"hero":"品牌頁面 Hero 區塊","feature1":"功能 1","feature2":"功能 2","feature3":"功能 3","feature4":"功能 4","feature5":"功能 5"},"Chat":{"hero":"聊天頁面 Hero 區塊","feature1":"功能 1","feature2":"功能 2","feature3":"功能 3","feature4":"功能 4","feature5":"功能 5"},"ChatWidget":{"hero":"聊天小工具 Hero 區塊","feature1":"功能 1","feature2":"功能 2","feature3":"功能 3","feature4":"功能 4","feature5":"功能 5"},"ChatroomManagement":{"hero":"聊天室管理 Hero 區塊","feature1":"功能 1","feature2":"功能 2","feature3":"功能 3","feature4":"功能 4","feature5":"功能 5"},"FAQPinBot":{"hero":"FAQ PinBot Hero 區塊","feature1":"功能 1","feature2":"功能 2","feature3":"功能 3","feature4":"功能 4","feature5":"功能 5"},"PinBoard":{"hero":"PinBoard Hero 區塊","feature1":"功能 1","feature2":"功能 2","feature3":"功能 3","feature4":"功能 4","feature5":"功能 5"},"SubAccount":{"hero":"子帳號 Hero 區塊","feature1":"功能 1","feature2":"功能 2","feature3":"功能 3","feature4":"功能 4","feature5":"功能 5"},"ForB2BCommercial":{"hero":"B2B 商業 Hero 區塊","useCase1":"使用案例 1","useCase2":"使用案例 2","useCase3":"使用案例 3"},"ForEducation":{"hero":"教育 Hero 區塊","useCase1":"使用案例 1","useCase2":"使用案例 2","useCase3":"使用案例 3"},"ForEvents":{"hero":"活動 Hero 區塊","useCase1":"使用案例 1","useCase2":"使用案例 2","useCase3":"使用案例 3"},"ForHealthcare":{"hero":"醫療 Hero 區塊","useCase1":"使用案例 1","useCase2":"使用案例 2","useCase3":"使用案例 3"},"ForProfessionalServices":{"hero":"專業服務 Hero 區塊","useCase1":"使用案例 1","useCase2":"使用案例 2","useCase3":"使用案例 3"},"ForRealEstate":{"hero":"房地產 Hero 區塊","useCase1":"使用案例 1","useCase2":"使用案例 2","useCase3":"使用案例 3"},"ForRetailEcommerce":{"hero":"零售電商 Hero 區塊","useCase1":"使用案例 1","useCase2":"使用案例 2","useCase3":"使用案例 3"},"ForServiceIndustries":{"hero":"服務業 Hero 區塊","useCase1":"使用案例 1","useCase2":"使用案例 2","useCase3":"使用案例 3"}};
     let currentImage = '';
-    let assignments = [{"image":"754a4248-0d54-4240-bda0-4fa19180bda5.png","page":"Chat","section":"feature2","alt":"","className":""},{"image":"05e51b6c-6cdf-4411-8dab-c74e9d4c41f0.png","page":"Chat","section":"feature4","alt":"","className":""},{"image":"aa66a1b3-b7b1-4897-a7b7-c7f85c930a5a.png","page":"Chat","section":"feature1","alt":"","className":""},{"image":"50299fb5-4a7e-41a7-8d52-1f79b652d31c.png","page":"ChatWidget","section":"feature1","alt":"","className":""}];
+    let assignments = [{"image":"ai-chatbot-customer-support-efficiency.png","page":"AIPinBot","section":"feature4","alt":"","className":""}];
 
     function showSection(section) {
       document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
@@ -2491,8 +2556,24 @@
       // 立即更新頁面顯示 - 移除該 assignment 的 UI 元素
       updateAssignmentDisplay(image, page, section);
       
-      // 顯示配置模態框
+      // 顯示配置模態框，並強調需要保存
       showConfigModal();
+      
+      // 在模態框顯示後，更新提示訊息
+      setTimeout(() => {
+        const instruction = document.getElementById('configInstruction');
+        if (instruction) {
+          instruction.style.background = '#ffebee';
+          instruction.style.border = '2px solid #f44336';
+          instruction.innerHTML = '<strong>⚠️ 重要提示：</strong><br>' +
+            '您已移除位置指定，但配置尚未保存到 <strong>image-assignments.json</strong> 文件。<br><br>' +
+            '<strong>請立即執行以下步驟：</strong><br>' +
+            '1. 點擊「保存並重新載入」按鈕（命令會自動複製）<br>' +
+            '2. 在終端中執行該命令<br>' +
+            '3. 刷新瀏覽器頁面<br><br>' +
+            '如果不執行命令，移除操作不會保存到文件，重新載入頁面後會恢復原狀。';
+        }
+      }, 100);
     }
     
     function updateAssignmentDisplay(image, page, section) {
@@ -2504,10 +2585,6 @@
           item.remove();
         }
       });
-      
-      // 檢查該圖片是否還有其他位置指定
-      const remainingAssignments = assignments.filter(a => a.image === image);
-      const hasRemainingAssignments = remainingAssignments.length > 0;
       
       // 更新圖片卡片的 assignment 狀態
       const imageCards = document.querySelectorAll('.image-card');
@@ -2553,6 +2630,9 @@
                 const remainingCount = assignmentsList.querySelectorAll('.assignment-item').length;
                 assignedBadge.textContent = '📍 已指定 (' + remainingCount + ')';
               }
+              
+              // 更新計數
+              updateAssignedTabCount();
             }
           }
         }
@@ -2622,6 +2702,25 @@
       // 如果需要重新載入以查看更新後的配置，請手動刷新頁面
     }
     
+    function saveConfigFromHeader() {
+      // 從 header 按鈕調用，直接保存配置
+      const config = {
+        assignments: assignments,
+        pageSections: pageSections
+      };
+      
+      const configJson = JSON.stringify(config, null, 2);
+      const singleLineJson = JSON.stringify(configJson);
+      const command = 'echo ' + singleLineJson + ' | npm run update-image-config';
+      
+      // 複製命令到剪貼板
+      navigator.clipboard.writeText(command).then(() => {
+        alert('配置命令已複製到剪貼板！\n\n📋 請在終端中執行以下命令：\n\n' + command + '\n\n✅ 這個命令會保存配置到 image-assignments.json 文件。\n\n💡 保存完成後，您可以點擊「應用到網頁」按鈕來將配置應用到實際的代碼文件。');
+      }).catch(() => {
+        prompt('請複製以下命令並在終端中執行：', command);
+      });
+    }
+    
     function saveAndReload() {
       const config = {
         assignments: assignments,
@@ -2636,13 +2735,29 @@
       
       // 複製命令到剪貼板
       navigator.clipboard.writeText(command).then(() => {
-        alert('配置命令已複製到剪貼板！\n\n請在終端中執行該命令來保存配置，然後重新載入頁面。');
-        closeConfigModal();
+        alert('配置命令已複製到剪貼板！\n\n請在終端中執行該命令來保存配置到 image-assignments.json。\n\n保存完成後，您可以點擊「應用到網頁」按鈕來將配置應用到實際的代碼文件。');
+        // 不關閉模態框，讓用戶可以繼續操作
       }).catch(() => {
         // 降級方案：顯示命令讓用戶手動複製
         const commandText = document.getElementById('commandDisplay').textContent;
         prompt('請複製以下命令並在終端中執行：', commandText);
-        closeConfigModal();
+      });
+    }
+    
+    function applyToWebpage() {
+      const command = 'npm run apply-images';
+      
+      // 複製命令到剪貼板
+      navigator.clipboard.writeText(command).then(() => {
+        alert('應用命令已複製到剪貼板！\n\n📋 請在終端中執行以下命令：\n\n' + command + '\n\n✅ 這個命令會將 image-assignments.json 中的配置應用到實際的代碼文件中。\n\n💡 提示：\n1. 請先確保已經保存配置到 image-assignments.json（點擊「保存配置」按鈕）\n2. 執行此命令後，圖片會自動插入到對應的頁面文件中\n3. 執行完成後，刷新瀏覽器頁面查看效果');
+        // 如果模態框是打開的，關閉它
+        const modal = document.getElementById('configModal');
+        if (modal && modal.classList.contains('active')) {
+          closeConfigModal();
+        }
+      }).catch(() => {
+        // 降級方案：顯示命令讓用戶手動複製
+        prompt('請複製以下命令並在終端中執行：', command);
       });
     }
 
@@ -2701,17 +2816,23 @@
     function exportConfig() {
       showConfigModal();
     }
-
-    // 添加導出配置按鈕到 header
-    document.addEventListener('DOMContentLoaded', function() {
-      const header = document.querySelector('.header');
-      const exportBtn = document.createElement('button');
-      exportBtn.className = 'btn btn-primary';
-      exportBtn.textContent = '複製配置指令';
-      exportBtn.style.marginTop = '10px';
-      exportBtn.onclick = exportConfig;
-      header.appendChild(exportBtn);
-    });
+    
+    function refreshImageList() {
+      const command = 'npm run analyze-images';
+      
+      // 複製命令到剪貼板
+      navigator.clipboard.writeText(command).then(() => {
+        const message = '刷新命令已複製到剪貼板！\n\n' +
+          '📋 請在終端中執行以下命令：\n' + command + '\n\n' +
+          '✅ 執行完成後，請點擊瀏覽器的「重新載入」按鈕（或按 F5）來查看更新後的圖片列表。\n\n' +
+          '💡 提示：執行命令後，圖片查看器會自動重新生成，然後您只需要刷新瀏覽器頁面即可。';
+        alert(message);
+      }).catch(() => {
+        // 降級方案：顯示命令讓用戶手動複製
+        const message = '請複製以下命令並在終端中執行：\n\n' + command + '\n\n執行完成後，請刷新瀏覽器頁面。';
+        prompt(message, command);
+      });
+    }
 
     // 點擊配置模態框外部關閉
     document.getElementById('configModal').addEventListener('click', function(e) {
