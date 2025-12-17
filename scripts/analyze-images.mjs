@@ -44,8 +44,13 @@ if (existsSync(configPath)) {
 }
 
 // 創建圖片到分配的映射
+// 只包含尚未應用到代碼的分配（已使用的圖片不顯示「已指定」）
 const imageAssignments = {};
 assignments.forEach(assignment => {
+  // 如果圖片已經在代碼中使用，跳過（因為已經應用了）
+  if (usedImages.has(assignment.image)) {
+    return;
+  }
   if (!imageAssignments[assignment.image]) {
     imageAssignments[assignment.image] = [];
   }
@@ -581,7 +586,8 @@ const html = `<!DOCTYPE html>
         <div class="config-display" id="configDisplay"></div>
       </div>
       <div class="modal-actions">
-        <button type="button" class="btn btn-primary" onclick="closeConfigModal()">完成</button>
+        <button type="button" class="btn btn-secondary" onclick="closeConfigModal()">稍後保存</button>
+        <button type="button" class="btn btn-primary" onclick="saveAndReload()">保存並重新載入</button>
       </div>
     </div>
   </div>
@@ -726,8 +732,56 @@ const html = `<!DOCTYPE html>
         !(a.image === image && a.page === page && a.section === section)
       );
       
+      // 立即更新頁面顯示 - 移除該 assignment 的 UI 元素
+      updateAssignmentDisplay(image, page, section);
+      
       // 顯示配置模態框
       showConfigModal();
+    }
+    
+    function updateAssignmentDisplay(image, page, section) {
+      // 移除所有相關的 assignment 顯示元素
+      const assignmentItems = document.querySelectorAll('.assignment-item');
+      assignmentItems.forEach(item => {
+        const itemText = item.textContent;
+        if (itemText.includes(page) && itemText.includes(section) && itemText.includes(image)) {
+          item.remove();
+        }
+      });
+      
+      // 更新圖片卡片的 assignment 狀態
+      const imageCards = document.querySelectorAll('.image-card');
+      imageCards.forEach(card => {
+        const imgName = card.querySelector('.image-name').textContent;
+        if (imgName === image) {
+          const assignmentsList = card.querySelector('.assignments-list');
+          if (assignmentsList) {
+            const items = assignmentsList.querySelectorAll('.assignment-item');
+            items.forEach(item => {
+              const itemText = item.textContent;
+              if (itemText.includes(page) && itemText.includes(section)) {
+                item.remove();
+              }
+            });
+            
+            // 如果沒有 assignment 了，移除整個 assignments-list
+            if (assignmentsList.querySelectorAll('.assignment-item').length === 0) {
+              assignmentsList.remove();
+              
+              // 移除 assigned 狀態標籤
+              const statusBadges = card.querySelectorAll('.status-assigned');
+              statusBadges.forEach(badge => badge.remove());
+            } else {
+              // 更新 assigned 狀態標籤的數量
+              const assignedBadge = card.querySelector('.status-assigned');
+              if (assignedBadge) {
+                const remainingCount = assignmentsList.querySelectorAll('.assignment-item').length;
+                assignedBadge.textContent = '📍 已指定 (' + remainingCount + ')';
+              }
+            }
+          }
+        }
+      });
     }
 
     function showConfigModal() {
@@ -750,8 +804,32 @@ const html = `<!DOCTYPE html>
 
     function closeConfigModal() {
       document.getElementById('configModal').classList.remove('active');
-      // 重新載入頁面以顯示更新
-      location.reload();
+      // 不自動重新載入，讓用戶選擇何時保存
+      // 如果需要重新載入以查看更新後的配置，請手動刷新頁面
+    }
+    
+    function saveAndReload() {
+      const config = {
+        assignments: assignments,
+        pageSections: pageSections
+      };
+      
+      const configJson = JSON.stringify(config, null, 2);
+      
+      // 生成指令
+      const singleLineJson = JSON.stringify(configJson);
+      const command = 'echo ' + singleLineJson + ' | npm run update-image-config';
+      
+      // 複製命令到剪貼板
+      navigator.clipboard.writeText(command).then(() => {
+        alert('配置命令已複製到剪貼板！\\n\\n請在終端中執行該命令來保存配置，然後重新載入頁面。');
+        closeConfigModal();
+      }).catch(() => {
+        // 降級方案：顯示命令讓用戶手動複製
+        const commandText = document.getElementById('commandDisplay').textContent;
+        prompt('請複製以下命令並在終端中執行：', commandText);
+        closeConfigModal();
+      });
     }
 
     function copyCommand() {
