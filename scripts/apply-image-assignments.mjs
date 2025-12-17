@@ -87,13 +87,6 @@ for (const [page, pageAssignments] of Object.entries(assignmentsByPage)) {
     const imagePath = `/lovable-uploads/${assignment.image}`;
     const imageFileName = assignment.image;
     
-    // 檢查圖片是否已經在代碼中使用
-    if (content.includes(`lovable-uploads/${imageFileName}`)) {
-      console.log(`  ⊙ ${page} - ${assignment.section}: ${imageFileName} (已在代碼中使用，跳過)`);
-      appliedAssignments.push(assignment); // 標記為已應用
-      continue;
-    }
-    
     const altText = assignment.alt || assignment.image.replace('.png', '');
     const className = assignment.className || 'w-full h-auto';
     
@@ -165,8 +158,42 @@ for (const [page, pageAssignments] of Object.entries(assignmentsByPage)) {
           
           // 查找該 feature 區塊中的圖片 div
           // Feature 區塊通常是：註釋 -> grid div -> 兩個 order div，圖片在其中一個
-          const featureBlockPattern = /<div[^>]*grid[^>]*>[\s\S]*?<\/div>/i;
-          const featureBlockMatch = afterFeatureComment.match(featureBlockPattern);
+          // 需要匹配完整的 grid div，包括所有嵌套的 div
+          let featureBlockMatch = null;
+          const gridDivStart = afterFeatureComment.match(/<div[^>]*grid[^>]*>/i);
+          if (gridDivStart) {
+            // 從 grid div 開始位置計算，找到對應的結束標籤
+            let depth = 0;
+            let pos = gridDivStart.index;
+            let found = false;
+            
+            while (pos < afterFeatureComment.length && !found) {
+              const nextOpen = afterFeatureComment.indexOf('<div', pos);
+              const nextClose = afterFeatureComment.indexOf('</div>', pos);
+              
+              if (nextClose === -1) break;
+              
+              if (nextOpen !== -1 && nextOpen < nextClose) {
+                // 找到開始標籤
+                depth++;
+                pos = nextOpen + 4;
+              } else {
+                // 找到結束標籤
+                depth--;
+                if (depth === 0) {
+                  // 找到對應的結束標籤
+                  const blockEnd = nextClose + 6;
+                  featureBlockMatch = {
+                    0: afterFeatureComment.slice(gridDivStart.index, blockEnd),
+                    index: gridDivStart.index
+                  };
+                  found = true;
+                } else {
+                  pos = nextClose + 6;
+                }
+              }
+            }
+          }
           
           if (featureBlockMatch) {
             // 在 feature block 中查找圖片 div（order-1 或 order-2）
