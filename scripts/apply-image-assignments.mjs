@@ -190,22 +190,40 @@ for (const [page, pageAssignments] of Object.entries(assignmentsByPage)) {
                 foundSection = true;
               }
             } else {
-              // 查找空的圖片 div（order-1 或 order-2），在開始標籤後插入
-              const imgDivPattern = /<div[^>]*order-[12][^>]*>/i;
-              const imgDivMatch = featureBlockMatch[0].match(imgDivPattern);
+              // 查找空的圖片 div（order-1 或 order-2），必須不包含文字內容標籤
+              // 文字內容 div 通常包含：<div（icon）、<h3、<p、<ul 等標籤
+              // 圖片 div 通常完全為空或只包含空白
+              const allOrderDivs = featureBlockMatch[0].match(/<div[^>]*order-[12][^>]*>[\s\S]*?<\/div>/gi);
               
-              if (imgDivMatch) {
-                // 在 div 開始標籤後插入
-                insertIndex = featureCommentMatch.index + featureCommentMatch[0].length + 
-                             featureBlockMatch.index + imgDivMatch.index + imgDivMatch[0].length;
-                content = content.slice(0, insertIndex) + 
-                         `\n                ${imgTag}\n              ` + 
-                         content.slice(insertIndex);
-                modified = true;
-                totalApplied++;
-                appliedAssignments.push(assignment);
-                console.log(`  ✓ ${page} - ${assignment.section}: ${imageFileName}`);
-                foundSection = true;
+              if (allOrderDivs) {
+                // 查找不包含文字內容標籤的 div（即空的圖片 div）
+                for (const div of allOrderDivs) {
+                  // 提取 div 的內容（去除開始和結束標籤）
+                  const divContent = div.replace(/<div[^>]*>/, '').replace(/<\/div>$/, '').trim();
+                  
+                  // 檢查是否包含文字內容標籤（排除 <img>）
+                  const hasTextContent = /<(?!img\s)[a-z]+[\s>]/i.test(divContent);
+                  
+                  // 如果沒有文字內容標籤，這就是空的圖片 div
+                  if (!hasTextContent) {
+                    const imgDivMatch = div.match(/<div[^>]*order-[12][^>]*>/i);
+                    if (imgDivMatch) {
+                      // 計算在原始內容中的位置
+                      const divIndex = featureBlockMatch[0].indexOf(div);
+                      insertIndex = featureCommentMatch.index + featureCommentMatch[0].length + 
+                                   featureBlockMatch.index + divIndex + imgDivMatch.index + imgDivMatch[0].length;
+                      content = content.slice(0, insertIndex) + 
+                               `\n                ${imgTag}\n              ` + 
+                               content.slice(insertIndex);
+                      modified = true;
+                      totalApplied++;
+                      appliedAssignments.push(assignment);
+                      console.log(`  ✓ ${page} - ${assignment.section}: ${imageFileName}`);
+                      foundSection = true;
+                      break;
+                    }
+                  }
+                }
               }
             }
           }
