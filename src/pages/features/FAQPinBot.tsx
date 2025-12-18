@@ -118,11 +118,12 @@ const FAQPinBot = () => {
               </ul>
             </div>
             <div className="order-1">
-              <img
-                src={getAssetPath("/lovable-uploads/chatroom-team-management-hero.png")}
-                alt={t('features.faqPinbotPage.features.multiFormat.imageAlt')}
-                className="w-full"
-              />
+              <img 
+                src={getAssetPath("/lovable-uploads/faq-bot-message-types.png")} 
+                alt="faq-bot-message-types" 
+                className="w-full h-auto" 
+                loading="lazy" 
+                />
             </div>
           </div>
 
