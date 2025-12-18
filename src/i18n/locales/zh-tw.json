@@ -327,42 +327,42 @@
           "sectionSubtitle": "從自動回覆到真人接手，AI 聊天機器人為你的團隊提供完整的對話解決方案",
           "features": {
             "unifiedKnowledge": {
-              "title": "統一知識來源",
-              "description": "使用網址、上傳檔案和手動問答建立精準的 AI 回答，統整為一個持續更新的知識庫。",
+              "title": "多元資料來源整合",
+              "description": "將網站內容、文件與常見問答整合為單一知識來源，讓 AI 回覆始終來自最新且可控的品牌資訊。",
               "benefits": {
-                "autoCrawl": "自動爬取網站內容",
-                "uploadFiles": "上傳 Word、CSV、PDF、TXT",
-                "manualQA": "隨時新增手動問答"
+                "autoCrawl": "支援網址，自動爬取網站下所有頁面內容",
+                "uploadFiles": "支援上傳 Word、CSV、PDF、TXT 檔案",
+                "manualQA": "可手動建立一問一答，快速補充或更新知識"
               },
               "imageAlt": "統一知識來源示意圖"
             },
             "smartFAQ": {
-              "title": "智慧常見問題自動化",
-              "description": "透過 AI 回覆即時解決重複性問題，保持一致性、符合品牌調性，並由 PinChat 持續優化。",
+              "title": "可自訂 AI 回覆指引",
+              "description": "平台提供預設的回覆指引，協助快速開始；你也可以依需求手動調整，讓聊天機器人的回覆方式更貼近品牌需求。",
               "benefits": {
-                "reduceWorkload": "減少重複性工作負擔",
-                "fastConsistent": "快速、一致的回覆",
-                "aiMaintained": "由 PinChat 維護的 AI"
+                "reduceWorkload": "內建預設回覆指引，降低設定門檻",
+                "fastConsistent": "可依需求調整回覆邏輯與語氣",
+                "aiMaintained": "協助降低回覆偏差，維持整體一致性"
               },
               "imageAlt": "AI 智慧回覆示意圖"
             },
             "contextAwareMemory": {
-              "title": "情境感知 AI 記憶",
-              "description": "讓 AI 理解情境、解讀意圖，並在訊息間保持連續性，實現自然的多輪對話。",
+              "title": "智慧回覆與上下文理解",
+              "description": "聊天機器人可在單一對話中理解前後脈絡，依據當下對話內容延續回覆。",
               "benefits": {
-                "multiStepContext": "理解多步驟情境",
-                "avoidRepeat": "避免重複解釋",
-                "guidedFlows": "適合引導式流程"
+                "multiStepContext": "理解同一對話中的前後關聯",
+                "avoidRepeat": "回覆可延續當前對話狀態",
+                "guidedFlows": "提升對話的連貫性與可讀性"
               },
               "imageAlt": "情境感知 AI 記憶示意圖"
             },
             "humanHandoff": {
-              "title": "無縫真人接手",
-              "description": "從 AI 流暢切換到真人客服，完整保留對話脈絡，顧客無需重複說明。",
+              "title": "AI 與人工無縫接手",
+              "description": "當 AI 回覆不足或需要人性化判斷時，客服可立即接手，服務不中斷。",
               "benefits": {
-                "agentJoin": "客服可隨時加入",
-                "fullContext": "完整保留對話脈絡",
-                "smooth": "流暢、不中斷的交接"
+                "agentJoin": "客服可於任何時刻手動加入對話",
+                "fullContext": "完整保留對話上下文與紀錄",
+                "smooth": "客戶無需重新描述問題"
               },
               "imageAlt": "真人接手示意圖"
             }

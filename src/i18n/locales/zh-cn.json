@@ -353,42 +353,42 @@
       "sectionSubtitle": "从自动回复到人工交接，AI 聊天机器人为您的团队提供完整的对话支持",
       "features": {
         "unifiedKnowledge": {
-          "title": "统一知识来源",
-          "description": "使用网址、上传文件和手动问答构建精确的 AI 回答，统一到一个持续更新的知识库中。",
+          "title": "多元数据来源整合",
+          "description": "将网站内容、文件与常见问答整合为单一知识来源，让 AI 回复始终来自最新且可控的品牌信息。",
           "benefits": {
-            "autoCrawl": "自动爬取网站内容",
-            "uploadFiles": "上传 Word、CSV、PDF、TXT",
-            "manualQA": "随时添加手动问答"
+            "autoCrawl": "支持网址，自动爬取网站下所有页面内容",
+            "uploadFiles": "支持上传 Word、CSV、PDF、TXT 文件",
+            "manualQA": "可手动建立一问一答，快速补充或更新知识"
           },
           "imageAlt": "统一知识来源示意图"
         },
         "smartFAQ": {
-          "title": "智能常见问题自动化",
-          "description": "通过 AI 回复即时解决重复性问题，保持一致性、符合品牌调性，并由 PinChat 持续优化。",
+          "title": "可自定义 AI 回复指引",
+          "description": "平台提供预设的回复指引，协助快速开始；你也可以依需求手动调整，让聊天机器人的回复方式更贴近品牌需求。",
           "benefits": {
-            "reduceWorkload": "减少重复性工作负担",
-            "fastConsistent": "快速、一致的回复",
-            "aiMaintained": "由 PinChat 维护的 AI"
+            "reduceWorkload": "内置预设回复指引，降低设置门槛",
+            "fastConsistent": "可依需求调整回复逻辑与语气",
+            "aiMaintained": "协助降低回复偏差，维持整体一致性"
           },
           "imageAlt": "AI 智能回复示意图"
         },
         "contextAwareMemory": {
-          "title": "情境感知 AI 记忆",
-          "description": "让 AI 理解情境、解读意图，并在消息间保持连续性，实现自然的多轮对话。",
+          "title": "智能回复与上下文理解",
+          "description": "聊天机器人可在单一对话中理解前后脉络，依据当下对话内容延续回复。",
           "benefits": {
-            "multiStepContext": "理解多步骤情境",
-            "avoidRepeat": "避免重复解释",
-            "guidedFlows": "适合引导式流程"
+            "multiStepContext": "理解同一对话中的前后关联",
+            "avoidRepeat": "回复可延续当前对话状态",
+            "guidedFlows": "提升对话的连贯性与可读性"
           },
           "imageAlt": "情境感知 AI 记忆示意图"
         },
         "humanHandoff": {
-          "title": "无缝人工交接",
-          "description": "从 AI 流畅切换到人工支持，完整保留对话脉络，客户无需重复说明。",
+          "title": "AI 与人工无缝接手",
+          "description": "当 AI 回复不足或需要人性化判断时，客服可立即接手，服务不中断。",
           "benefits": {
-            "agentJoin": "客服可随时加入",
-            "fullContext": "完整保留对话脉络",
-            "smooth": "流畅、不中断的交接"
+            "agentJoin": "客服可于任何时刻手动加入对话",
+            "fullContext": "完整保留对话上下文与记录",
+            "smooth": "客户无需重新描述问题"
           },
           "imageAlt": "人工交接示意图"
         }

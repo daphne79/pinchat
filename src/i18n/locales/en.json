@@ -327,42 +327,42 @@
           "sectionSubtitle": "From automated responses to human handoff, AI Chatbot provides complete conversational support for your team",
           "features": {
             "unifiedKnowledge": {
-              "title": "Unified Knowledge Sources",
-              "description": "Build precise AI answers using URLs, uploaded files, and manual Q&A—unified into one continuously updated knowledge base.",
+              "title": "Multiple Data Source Integration",
+              "description": "Integrate website content, documents, and Q&A into a single knowledge source, ensuring AI responses always come from the latest and controllable brand information.",
               "benefits": {
-                "autoCrawl": "Auto-crawl website content",
-                "uploadFiles": "Upload Word, CSV, PDF, TXT",
-                "manualQA": "Add manual Q&A anytime"
+                "autoCrawl": "Support URLs, automatically crawl all pages under the website",
+                "uploadFiles": "Support uploading Word, CSV, PDF, TXT files",
+                "manualQA": "Can manually create Q&A pairs to quickly supplement or update knowledge"
               },
               "imageAlt": "Unified knowledge sources illustration"
             },
             "smartFAQ": {
-              "title": "Smart FAQ Automation",
-              "description": "Resolve repetitive questions instantly with AI responses that stay consistent, brand-aligned, and continuously optimized by PinChat.",
+              "title": "Customizable AI Response Guidelines",
+              "description": "The platform provides default response guidelines to help you get started quickly; you can also manually adjust them according to your needs, making the chatbot's response style closer to your brand requirements.",
               "benefits": {
-                "reduceWorkload": "Reduce repetitive workload",
-                "fastConsistent": "Fast, consistent replies",
-                "aiMaintained": "AI maintained by PinChat"
+                "reduceWorkload": "Built-in default response guidelines to lower setup barriers",
+                "fastConsistent": "Can adjust response logic and tone according to needs",
+                "aiMaintained": "Helps reduce response bias and maintain overall consistency"
               },
               "imageAlt": "AI smart response illustration"
             },
             "contextAwareMemory": {
-              "title": "Context-Aware AI Memory",
-              "description": "Enable natural multi-turn conversations by letting AI understand context, interpret intent, and respond with continuity across messages.",
+              "title": "Smart Responses and Context Understanding",
+              "description": "The chatbot can understand the context within a single conversation and continue responses based on the current conversation content.",
               "benefits": {
-                "multiStepContext": "Understand multi-step context",
-                "avoidRepeat": "Avoid repeated explanations",
-                "guidedFlows": "Ideal for guided flows"
+                "multiStepContext": "Understand the context within the same conversation",
+                "avoidRepeat": "Responses can continue the current conversation state",
+                "guidedFlows": "Improve conversation coherence and readability"
               },
               "imageAlt": "Context-aware AI memory illustration"
             },
             "humanHandoff": {
-              "title": "Seamless Human Handoff",
-              "description": "Switch smoothly from AI to human support while preserving full context so customers never repeat themselves.",
+              "title": "Seamless AI and Human Handoff",
+              "description": "When AI responses are insufficient or require human judgment, customer service can immediately take over without service interruption.",
               "benefits": {
-                "agentJoin": "Agents can join anytime",
-                "fullContext": "Full context retained",
-                "smooth": "Smooth, interruption-free handoff"
+                "agentJoin": "Customer service can manually join the conversation at any time",
+                "fullContext": "Complete conversation context and records are preserved",
+                "smooth": "Customers don't need to re-describe their issues"
               },
               "imageAlt": "Human handoff illustration"
             }
