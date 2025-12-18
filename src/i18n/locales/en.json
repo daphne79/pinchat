@@ -369,7 +369,14 @@
           },
           "integrations": {
             "title": "Works Wherever You Chat",
-            "subtitle": "AI Chatbot works across LINE, Messenger, Instagram, WhatsApp, and your PinChat web chat — all conversations unified in one place."
+            "subtitle": "AI Chatbot works across LINE, Messenger, Instagram, WhatsApp, and your PinChat web chat — all conversations unified in one place.",
+            "platforms": {
+              "line": "LINE",
+              "messenger": "Messenger",
+              "instagram": "Instagram",
+              "whatsapp": "WhatsApp",
+              "webChat": "Web Chat"
+            }
           },
           "exploreFeatures": {
             "title": "Explore Other Features",

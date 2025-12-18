@@ -369,7 +369,14 @@
           },
           "integrations": {
             "title": "運行於你使用的所有平台",
-            "subtitle": "AI 聊天機器人可在 LINE、Messenger、Instagram、WhatsApp、以及 PinChat 網頁聊天室上運作，所有訊息集中管理。"
+            "subtitle": "AI 聊天機器人可在 LINE、Messenger、Instagram、WhatsApp、以及 PinChat 網頁聊天室上運作，所有訊息集中管理。",
+            "platforms": {
+              "line": "LINE",
+              "messenger": "Messenger",
+              "instagram": "Instagram",
+              "whatsapp": "WhatsApp",
+              "webChat": "網頁聊天"
+            }
           },
           "exploreFeatures": {
             "title": "探索其他功能",

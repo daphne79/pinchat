@@ -4,9 +4,59 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import FeatureNavigation from "@/components/FeatureNavigation";
 import Footer from "@/components/Footer";
 import ExploreFeatures from "@/components/ExploreFeatures";
-import { Bot, MessageCircle, Settings, Users, Zap, Globe, LifeBuoy, Sparkles, FileText, Brain } from "lucide-react";
+import { Bot, MessageCircle, MessageSquare, Settings, Users, Zap, Globe, LifeBuoy, Sparkles, FileText, Brain, Instagram } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import { getAssetPath } from '@/lib/assetPath';
+
+// Platform icon component using Lucide icons (outline/stroke style)
+const PlatformIcon = ({ platform }: { platform: string }) => {
+  const iconClass = "w-10 h-10";
+  
+  switch (platform) {
+    case 'line':
+      // LINE - green background with MessageCircle outline icon
+      return (
+        <div className="w-20 h-20 rounded-2xl bg-[#00C300] flex items-center justify-center">
+          <MessageCircle className={iconClass} fill="none" stroke="white" strokeWidth={2} />
+        </div>
+      );
+    case 'messenger':
+      // Messenger - blue background with MessageSquare outline icon
+      return (
+        <div className="w-20 h-20 rounded-2xl bg-[#0084FF] flex items-center justify-center">
+          <MessageSquare className={iconClass} fill="none" stroke="white" strokeWidth={2} />
+        </div>
+      );
+    case 'instagram':
+      // Instagram - gradient background with Instagram outline icon from Lucide
+      return (
+        <div className="w-20 h-20 rounded-2xl bg-gradient-to-br from-[#F58529] via-[#DD2A7B] to-[#8134AF] flex items-center justify-center">
+          <Instagram className={iconClass} fill="none" stroke="white" strokeWidth={2} />
+        </div>
+      );
+    case 'whatsapp':
+      // WhatsApp - green background with MessageCircle outline icon
+      return (
+        <div className="w-20 h-20 rounded-2xl bg-[#25D366] flex items-center justify-center">
+          <MessageCircle className={iconClass} fill="none" stroke="white" strokeWidth={2} />
+        </div>
+      );
+    case 'webChat':
+      // Web Chat - PinChat brand color with MessageSquare outline icon
+      return (
+        <div className="w-20 h-20 rounded-2xl bg-[#02B13F] flex items-center justify-center">
+          <MessageSquare className={iconClass} fill="none" stroke="white" strokeWidth={2} />
+        </div>
+      );
+    default:
+      return (
+        <div className="w-20 h-20 rounded-2xl bg-muted flex items-center justify-center">
+          <MessageCircle className={iconClass} fill="none" stroke="currentColor" strokeWidth={2} />
+        </div>
+      );
+  }
+};
+
 const AIPinBot = () => {
   const { t } = useTranslation();
 
@@ -216,12 +266,10 @@ const AIPinBot = () => {
             </p>
           </div>
           <div className="grid grid-cols-2 md:grid-cols-5 gap-8 items-center justify-items-center max-w-4xl mx-auto">
-            {['LINE', 'Messenger', 'Instagram', 'WhatsApp', 'Web Chat'].map((platform, idx) => (
-              <div key={idx} className="flex flex-col items-center gap-3">
-                <div className="w-20 h-20 bg-muted flex items-center justify-center">
-                  <MessageCircle className="w-10 h-10 text-muted-foreground" />
-                </div>
-                <span className="text-sm font-medium">{platform}</span>
+            {(['line', 'messenger', 'instagram', 'whatsapp', 'webChat'] as const).map((platformKey) => (
+              <div key={platformKey} className="flex flex-col items-center gap-3">
+                <PlatformIcon platform={platformKey} />
+                <span className="text-sm font-medium">{t(`features.aiPinbotPage.integrations.platforms.${platformKey}`)}</span>
               </div>
             ))}
           </div>

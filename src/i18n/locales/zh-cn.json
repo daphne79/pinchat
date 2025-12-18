@@ -395,7 +395,14 @@
       },
       "integrations": {
         "title": "在您聊天的任何地方工作",
-        "subtitle": "AI 聊天机器人可在 LINE、Messenger、Instagram、WhatsApp 和您的 PinChat 网页聊天中运行——所有对话统一在一个地方。"
+        "subtitle": "AI 聊天机器人可在 LINE、Messenger、Instagram、WhatsApp 和您的 PinChat 网页聊天中运行——所有对话统一在一个地方。",
+        "platforms": {
+          "line": "LINE",
+          "messenger": "Messenger",
+          "instagram": "Instagram",
+          "whatsapp": "WhatsApp",
+          "webChat": "网页聊天"
+        }
       },
       "exploreFeatures": {
         "title": "探索其他功能",
