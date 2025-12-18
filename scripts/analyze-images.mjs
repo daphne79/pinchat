@@ -21,10 +21,157 @@ for (const file of codeFiles) {
   }
 }
 
+// 定義默認的頁面配置（包含所有頁面）
+const defaultPageSections = {
+  "Index": {
+    "hero": "首頁 Hero 區塊",
+    "valueBlock1": "核心價值 1 - 一鍵連接",
+    "valueBlock2": "核心價值 2 - 跨平台整合",
+    "valueBlock3": "核心價值 3 - AI 客服",
+    "valueBlock4": "核心價值 4 - 數據管理"
+  },
+  "About": {
+    "hero": "關於我們 Hero 區塊"
+  },
+  "AIPinBot": {
+    "hero": "AI PinBot Hero 區塊",
+    "feature1": "功能 1 - 統一知識來源",
+    "feature2": "功能 2 - 智能 FAQ",
+    "feature3": "功能 3 - 多語言支持",
+    "feature4": "功能 4 - 實時學習"
+  },
+  "Analytics": {
+    "hero": "分析頁面 Hero 區塊",
+    "feature1": "功能 1",
+    "feature2": "功能 2",
+    "feature3": "功能 3",
+    "feature4": "功能 4"
+  },
+  "Branding": {
+    "hero": "品牌頁面 Hero 區塊",
+    "feature1": "功能 1",
+    "feature2": "功能 2",
+    "feature3": "功能 3",
+    "feature4": "功能 4"
+  },
+  "Chat": {
+    "hero": "聊天頁面 Hero 區塊",
+    "feature1": "功能 1",
+    "feature2": "功能 2",
+    "feature3": "功能 3",
+    "feature4": "功能 4"
+  },
+  "ChatWidget": {
+    "hero": "聊天小工具 Hero 區塊",
+    "feature1": "功能 1",
+    "feature2": "功能 2",
+    "feature3": "功能 3",
+    "feature4": "功能 4"
+  },
+  "ChatroomManagement": {
+    "hero": "聊天室管理 Hero 區塊",
+    "feature1": "功能 1",
+    "feature2": "功能 2",
+    "feature3": "功能 3",
+    "feature4": "功能 4"
+  },
+  "FAQPinBot": {
+    "hero": "FAQ PinBot Hero 區塊",
+    "feature1": "功能 1",
+    "feature2": "功能 2",
+    "feature3": "功能 3",
+    "feature4": "功能 4"
+  },
+  "PinBoard": {
+    "hero": "PinBoard Hero 區塊",
+    "feature1": "功能 1",
+    "feature2": "功能 2",
+    "feature3": "功能 3",
+    "feature4": "功能 4"
+  },
+  "SubAccount": {
+    "hero": "子帳號 Hero 區塊",
+    "feature1": "功能 1",
+    "feature2": "功能 2",
+    "feature3": "功能 3",
+    "feature4": "功能 4"
+  },
+  "AICustomerServiceBot": {
+    "hero": "AI 客服機器人 Hero 區塊",
+    "feature1": "功能 1",
+    "feature2": "功能 2"
+  },
+  "ChatroomTeamManagement": {
+    "hero": "聊天室團隊管理 Hero 區塊",
+    "feature1": "功能 1",
+    "feature2": "功能 2"
+  },
+  "CustomerFeedbackAnalytics": {
+    "hero": "客戶反饋分析 Hero 區塊",
+    "feature1": "功能 1",
+    "feature2": "功能 2"
+  },
+  "InAppCustomerService": {
+    "hero": "應用內客服 Hero 區塊",
+    "feature1": "功能 1",
+    "feature2": "功能 2"
+  },
+  "LeadCaptureSurveys": {
+    "hero": "潛在客戶捕捉問卷 Hero 區塊",
+    "feature1": "功能 1",
+    "feature2": "功能 2"
+  },
+  "MultichannelMessagingHub": {
+    "hero": "多渠道訊息中心 Hero 區塊",
+    "feature1": "功能 1",
+    "feature2": "功能 2"
+  },
+  "ForB2BCommercial": {
+    "hero": "B2B 商業 Hero 區塊",
+    "feature1": "功能 1",
+    "feature2": "功能 2"
+  },
+  "ForEducation": {
+    "hero": "教育 Hero 區塊",
+    "feature1": "功能 1",
+    "feature2": "功能 2"
+  },
+  "ForEvents": {
+    "hero": "活動 Hero 區塊",
+    "feature1": "功能 1",
+    "feature2": "功能 2"
+  },
+  "ForHealthcare": {
+    "hero": "醫療 Hero 區塊",
+    "feature1": "功能 1",
+    "feature2": "功能 2"
+  },
+  "ForProfessionalServices": {
+    "hero": "專業服務 Hero 區塊",
+    "feature1": "功能 1",
+    "feature2": "功能 2"
+  },
+  "ForRealEstate": {
+    "hero": "房地產 Hero 區塊",
+    "feature1": "功能 1",
+    "feature2": "功能 2"
+  },
+  "ForRetailEcommerce": {
+    "hero": "零售電商 Hero 區塊",
+    "feature1": "功能 1",
+    "feature2": "功能 2"
+  },
+  "ForServiceIndustries": {
+    "hero": "服務業 Hero 區塊",
+    "feature1": "功能 1",
+    "feature2": "功能 2"
+  }
+};
+
 // 讀取現有的配置
 const configPath = join(process.cwd(), 'image-assignments.json');
 let assignments = [];
-let pageSections = {};
+let pageSections = { ...defaultPageSections }; // 從默認配置開始
 
 if (existsSync(configPath)) {
   const config = JSON.parse(readFileSync(configPath, 'utf-8'));
@@ -33,17 +180,17 @@ if (existsSync(configPath)) {
     const imagePath = join(imageDir, assignment.image);
     return existsSync(imagePath);
   });
-  pageSections = config.pageSections || {};
+  
+  // 合併配置：使用配置文件中的 pageSections，但保留默認配置中沒有的頁面
+  if (config.pageSections) {
+    pageSections = { ...defaultPageSections, ...config.pageSections };
+  }
   
   // 如果有被過濾掉的配置，提示用戶
   const removedCount = (config.assignments || []).length - assignments.length;
   if (removedCount > 0) {
     console.log(`⚠️  已移除 ${removedCount} 個不存在的圖片配置`);
   }
-} else {
-  // 如果配置文件不存在，使用默認配置
-  const defaultConfig = JSON.parse(readFileSync(join(process.cwd(), 'image-assignments.json'), 'utf-8'));
-  pageSections = defaultConfig.pageSections || {};
 }
 
 // 創建圖片到分配的映射
@@ -602,21 +749,28 @@ const html = `<!DOCTYPE html>
           請複製下面的指令，在終端中執行以更新配置：
         </div>
       </div>
+      <div style="margin-bottom: 15px;">
+        <button class="btn btn-primary" onclick="copyCommand()" id="copyCommandBtn" style="width: 100%; padding: 12px; font-size: 14px; font-weight: 600; background: #1976d2;">
+          📋 複製指令（點擊複製命令到剪貼板）
+        </button>
+      </div>
       <div style="position: relative;">
-        <button class="copy-btn" onclick="copyCommand()" id="copyCommandBtn">複製指令</button>
         <div class="command-display" id="commandDisplay"></div>
       </div>
       <div class="instruction-text" id="configInstruction" style="margin-top: 15px; padding: 10px; background: #fff3cd; border-radius: 4px;">
         <strong>💡 完整流程說明：</strong><br>
         <strong>步驟 1 - 保存配置：</strong><br>
-        1. 點擊「保存配置」按鈕，命令會自動複製到剪貼板<br>
-        2. 在終端中貼上並執行該命令<br>
+        1. 點擊「複製指令」或「保存配置」按鈕，命令會自動複製到剪貼板<br>
+        2. 在終端中貼上並執行該命令（<strong>請確保完整複製整個命令</strong>）<br>
         3. 系統會自動更新 <strong>image-assignments.json</strong> 文件<br><br>
         <strong>步驟 2 - 應用到網頁：</strong><br>
         4. 點擊「應用到網頁」按鈕，命令會自動複製到剪貼板<br>
         5. 在終端中貼上並執行該命令<br>
         6. 系統會將配置應用到實際的代碼文件中（圖片會插入到對應的頁面）<br>
         7. 執行完成後，刷新瀏覽器頁面查看效果<br><br>
+        <strong>⚠️ 如果遇到 "command not found" 錯誤：</strong><br>
+        • 可能是命令被截斷了，請確保完整複製整個命令（從 "echo" 開始到 "update-image-config" 結束）<br>
+        • 或者使用替代方案：複製下方的 JSON 配置，保存到 <strong>image-assignments.json</strong> 文件，然後執行 <code>npm run analyze-images</code><br><br>
         <strong>⚠️ 重要：</strong>如果不執行命令，配置變更只會存在於記憶體中，不會保存到文件或應用到網頁。
       </div>
       <div class="instruction-text" style="margin-top: 20px;">
@@ -905,16 +1059,40 @@ const html = `<!DOCTYPE html>
         pageSections: pageSections
       };
       
+      // 調試信息：檢查 assignments 是否正確
+      console.log('📋 生成配置，assignments 數量:', assignments.length);
+      if (assignments.length > 0) {
+        console.log('📝 Assignments 內容:', assignments);
+      } else {
+        console.warn('⚠️ 警告：assignments 為空陣列！請確保已指定圖片位置。');
+      }
+      
       const configJson = JSON.stringify(config, null, 2);
       
-      // 生成指令（將 JSON 轉為單行並轉義）
+      // 生成指令（使用 base64 編碼更安全地傳遞 JSON）
       const singleLineJson = JSON.stringify(configJson);
-      const command = 'echo ' + singleLineJson + ' | npm run update-image-config';
+      // 使用 base64 編碼避免 shell 轉義問題
+      const base64Json = btoa(unescape(encodeURIComponent(singleLineJson)));
+      const command = 'echo "BASE64:' + base64Json + '" | npm run update-image-config';
       
       // 顯示配置
       document.getElementById('configDisplay').textContent = configJson;
       document.getElementById('commandDisplay').textContent = command;
       document.getElementById('configModal').classList.add('active');
+      
+      // 如果 assignments 為空，顯示警告
+      if (assignments.length === 0) {
+        const instruction = document.getElementById('configInstruction');
+        if (instruction) {
+          instruction.style.background = '#ffebee';
+          instruction.style.border = '2px solid #f44336';
+          instruction.innerHTML = '<strong>⚠️ 警告：沒有圖片分配！</strong><br><br>' +
+            '配置中的 assignments 為空陣列。這可能是因為：<br>' +
+            '1. 您還沒有指定任何圖片位置<br>' +
+            '2. 或者配置沒有正確保存<br><br>' +
+            '<strong>請先指定圖片位置，然後再保存配置。</strong>';
+        }
+      }
     }
 
     function closeConfigModal() {
@@ -932,11 +1110,13 @@ const html = `<!DOCTYPE html>
       
       const configJson = JSON.stringify(config, null, 2);
       const singleLineJson = JSON.stringify(configJson);
-      const command = 'echo ' + singleLineJson + ' | npm run update-image-config';
+      // 使用 base64 編碼避免 shell 轉義問題
+      const base64Json = btoa(unescape(encodeURIComponent(singleLineJson)));
+      const command = 'echo "BASE64:' + base64Json + '" | npm run update-image-config';
       
       // 複製命令到剪貼板
       navigator.clipboard.writeText(command).then(() => {
-        alert('配置命令已複製到剪貼板！\\n\\n📋 請在終端中執行以下命令：\\n\\n' + command + '\\n\\n✅ 這個命令會保存配置到 image-assignments.json 文件。\\n\\n💡 保存完成後，您可以點擊「應用到網頁」按鈕來將配置應用到實際的代碼文件。');
+        alert('配置命令已複製到剪貼板！\\n\\n📋 請在終端中執行以下命令：\\n\\n' + command.substring(0, 100) + '...\\n\\n（命令已完整複製，請直接貼上執行）\\n\\n✅ 這個命令會保存配置到 image-assignments.json 文件。\\n\\n💡 保存完成後，您可以點擊「應用到網頁」按鈕來將配置應用到實際的代碼文件。');
       }).catch(() => {
         prompt('請複製以下命令並在終端中執行：', command);
       });
@@ -950,13 +1130,14 @@ const html = `<!DOCTYPE html>
       
       const configJson = JSON.stringify(config, null, 2);
       
-      // 生成指令
+      // 生成指令（使用 base64 編碼更安全地傳遞 JSON）
       const singleLineJson = JSON.stringify(configJson);
-      const command = 'echo ' + singleLineJson + ' | npm run update-image-config';
+      const base64Json = btoa(unescape(encodeURIComponent(singleLineJson)));
+      const command = 'echo "BASE64:' + base64Json + '" | npm run update-image-config';
       
       // 複製命令到剪貼板
       navigator.clipboard.writeText(command).then(() => {
-        alert('配置命令已複製到剪貼板！\\n\\n請在終端中執行該命令來保存配置到 image-assignments.json。\\n\\n保存完成後，您可以點擊「應用到網頁」按鈕來將配置應用到實際的代碼文件。');
+        alert('配置命令已複製到剪貼板！\\n\\n📋 請在終端中貼上並執行該命令來保存配置到 image-assignments.json。\\n\\n⚠️ 注意：如果命令很長，請確保完整複製。\\n\\n保存完成後，您可以點擊「應用到網頁」按鈕來將配置應用到實際的代碼文件。');
         // 不關閉模態框，讓用戶可以繼續操作
       }).catch(() => {
         // 降級方案：顯示命令讓用戶手動複製
@@ -984,6 +1165,10 @@ const html = `<!DOCTYPE html>
 
     function copyCommand() {
       const command = document.getElementById('commandDisplay').textContent;
+      if (!command || command.trim() === '') {
+        alert('⚠️ 還沒有生成命令，請先指定圖片位置。');
+        return;
+      }
       copyToClipboard(command, 'copyCommandBtn');
     }
 

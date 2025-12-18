@@ -288,7 +288,19 @@ const AICustomerServiceBot = () => {
             </div>
           </div>
         </section>
-      </main>
+      
+        {/* hero */}
+        <section className="py-16 px-4">
+          <div className="container mx-auto">
+            <img 
+              src={getAssetPath("/lovable-uploads/ai-customer-service-bot-hero.png")} 
+              alt="ai-customer-service-bot-hero" 
+              className="w-full h-auto" 
+              loading="lazy" 
+            />
+          </div>
+        </section>
+</main>
       <Footer />
     </div>
   );

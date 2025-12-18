@@ -32,6 +32,12 @@ const pageFileMap = {
   'FAQPinBot': 'src/pages/features/FAQPinBot.tsx',
   'PinBoard': 'src/pages/features/PinBoard.tsx',
   'SubAccount': 'src/pages/features/SubAccount.tsx',
+  'AICustomerServiceBot': 'src/pages/solutions/AICustomerServiceBot.tsx',
+  'ChatroomTeamManagement': 'src/pages/solutions/ChatroomTeamManagement.tsx',
+  'CustomerFeedbackAnalytics': 'src/pages/solutions/CustomerFeedbackAnalytics.tsx',
+  'InAppCustomerService': 'src/pages/solutions/InAppCustomerService.tsx',
+  'LeadCaptureSurveys': 'src/pages/solutions/LeadCaptureSurveys.tsx',
+  'MultichannelMessagingHub': 'src/pages/solutions/MultichannelMessagingHub.tsx',
   'ForB2BCommercial': 'src/pages/industries/ForB2BCommercial.tsx',
   'ForEducation': 'src/pages/industries/ForEducation.tsx',
   'ForEvents': 'src/pages/industries/ForEvents.tsx',
@@ -143,7 +149,7 @@ for (const [page, pageAssignments] of Object.entries(assignmentsByPage)) {
         }
       }
     } 
-    // 對於 feature1-4
+    // 對於 feature1-4 (Features 頁面) 或 feature1-2 (Solutions/Industries 頁面)
     else if (normalizedSection.startsWith('feature')) {
       const featureNum = normalizedSection.replace('feature', '').trim();
       

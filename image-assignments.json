@@ -83,6 +83,36 @@
       "feature4": "功能 4",
       "feature5": "功能 5"
     },
+    "AICustomerServiceBot": {
+      "hero": "AI 客服機器人 Hero 區塊",
+      "feature1": "功能 1",
+      "feature2": "功能 2"
+    },
+    "ChatroomTeamManagement": {
+      "hero": "聊天室團隊管理 Hero 區塊",
+      "feature1": "功能 1",
+      "feature2": "功能 2"
+    },
+    "CustomerFeedbackAnalytics": {
+      "hero": "客戶反饋分析 Hero 區塊",
+      "feature1": "功能 1",
+      "feature2": "功能 2"
+    },
+    "InAppCustomerService": {
+      "hero": "應用內客服 Hero 區塊",
+      "feature1": "功能 1",
+      "feature2": "功能 2"
+    },
+    "LeadCaptureSurveys": {
+      "hero": "潛在客戶捕捉問卷 Hero 區塊",
+      "feature1": "功能 1",
+      "feature2": "功能 2"
+    },
+    "MultichannelMessagingHub": {
+      "hero": "多渠道訊息中心 Hero 區塊",
+      "feature1": "功能 1",
+      "feature2": "功能 2"
+    },
     "ForB2BCommercial": {
       "hero": "B2B 商業 Hero 區塊",
       "useCase1": "使用案例 1",

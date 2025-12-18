@@ -32,9 +32,10 @@ const AIPinBot = () => {
               </div>
               <div className="min-h-64 sm:min-h-96 flex items-center justify-center animate-fade-in">
                 <img 
-                  src={getAssetPath("/lovable-uploads/ai-customer-service-bot-hero.png")} 
-                  alt={t('features.aiPinbotPage.hero.imageAlt')} 
-                  className="max-h-full max-w-full object-contain" 
+                src={getAssetPath("/lovable-uploads/ai-chatbot-hero.png")} 
+                alt="ai-chatbot-hero" 
+                className="w-full h-auto" 
+                loading="lazy" 
                 />
               </div>
             </div>
@@ -82,10 +83,11 @@ const AIPinBot = () => {
             </div>
             <div className="order-1 lg:order-2">
               <img 
-                src={getAssetPath("/lovable-uploads/chat_management.png")} 
-                alt={t('features.aiPinbotPage.features.unifiedKnowledge.imageAlt')} 
-                className="w-full"
-              />
+                src={getAssetPath("/lovable-uploads/ai-bot-import-data.png")} 
+                alt="ai-bot-import-data" 
+                className="w-full h-auto" 
+                loading="lazy" 
+                />
             </div>
           </div>
 
@@ -118,10 +120,11 @@ const AIPinBot = () => {
             </div>
             <div className="order-1">
               <img 
-                src={getAssetPath("/lovable-uploads/chatroom-team-management-hero.png")} 
-                alt={t('features.aiPinbotPage.features.smartFAQ.imageAlt')} 
-                className="w-full"
-              />
+                src={getAssetPath("/lovable-uploads/ai-bot-prompt-reply.png")} 
+                alt="ai-bot-prompt-reply" 
+                className="w-full h-auto" 
+                loading="lazy" 
+                />
             </div>
           </div>
 
@@ -154,10 +157,11 @@ const AIPinBot = () => {
             </div>
             <div className="order-1 lg:order-2">
               <img 
-                src={getAssetPath("/lovable-uploads/customer-feedback-analytics-hero.png")} 
-                alt={t('features.aiPinbotPage.features.contextAwareMemory.imageAlt')} 
-                className="w-full"
-              />
+                src={getAssetPath("/lovable-uploads/ai-bot-response.png")} 
+                alt="ai-bot-response" 
+                className="w-full h-auto" 
+                loading="lazy" 
+                />
             </div>
           </div>
 
@@ -190,10 +194,11 @@ const AIPinBot = () => {
             </div>
             <div className="order-1">
               <img 
-                src={getAssetPath("/lovable-uploads/ai-chatbot-customer-support-efficiency.png")} 
-                alt={t('features.aiPinbotPage.features.humanHandoff.imageAlt')} 
-                className="w-full"
-              />
+                src={getAssetPath("/lovable-uploads/ai-bot-agent-switch.png")} 
+                alt="ai-bot-agent-switch" 
+                className="w-full h-auto" 
+                loading="lazy" 
+                />
             </div>
           </div>
           </div>
