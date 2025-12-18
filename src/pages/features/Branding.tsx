@@ -190,11 +190,12 @@ const Branding = () => {
               </ul>
             </div>
             <div className="order-1">
-              <img
-                src={getAssetPath("/lovable-uploads/0f86e706-3c73-418b-828f-4952b0f9ade6.png")}
-                alt={t('features.brandingPage.keyFeatures.feature4.imageAlt')}
-                className="w-full"
-              />
+              <img 
+                src={getAssetPath("/lovable-uploads/branding-remove-pinchat.png")} 
+                alt="branding-remove-pinchat" 
+                className="w-full h-auto" 
+                loading="lazy" 
+                />
             </div>
           </div>
           </div>

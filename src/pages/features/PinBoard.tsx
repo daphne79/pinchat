@@ -191,10 +191,11 @@ const PinBoard = () => {
             </div>
             <div className="order-1">
               <img 
-                src={getAssetPath("/lovable-uploads/9a684b2b-549b-40c9-9241-1630df37fe86.png")} 
-                alt={t('features.pinBoardPage.features.insightfulAnalytics.imageAlt')} 
-                className="w-full"
-              />
+                src={getAssetPath("/lovable-uploads/pinboard-data.png")} 
+                alt="pinboard-data" 
+                className="w-full h-auto" 
+                loading="lazy" 
+                />
             </div>
           </div>
           </div>

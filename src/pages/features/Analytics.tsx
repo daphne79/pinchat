@@ -83,10 +83,11 @@ const Analytics = () => {
             </div>
             <div className="order-1 lg:order-2">
               <img 
-                src={getAssetPath("/lovable-uploads/b11af36d-c1ef-4c17-a61b-b399d92b755f.png")} 
-                alt={t('features.analyticsPage.features.chatInsights.imageAlt')} 
-                className="w-full"
-              />
+                src={getAssetPath("/lovable-uploads/analytics-chat-data.png")} 
+                alt="analytics-chat-data" 
+                className="w-full h-auto" 
+                loading="lazy" 
+                />
             </div>
           </div>
 
@@ -119,10 +120,11 @@ const Analytics = () => {
             </div>
             <div className="order-1">
               <img 
-                src={getAssetPath("/lovable-uploads/db797c1d-b1f5-4add-a175-18f58f93b1b1.png")} 
-                alt={t('features.analyticsPage.features.trafficSource.imageAlt')} 
-                className="w-full"
-              />
+                src={getAssetPath("/lovable-uploads/analytics-user-data.png")} 
+                alt="analytics-user-data" 
+                className="w-full h-auto" 
+                loading="lazy" 
+                />
             </div>
           </div>
 
@@ -155,10 +157,11 @@ const Analytics = () => {
             </div>
             <div className="order-1 lg:order-2">
               <img 
-                src={getAssetPath("/lovable-uploads/9cb91d42-3650-4d07-a90f-93eabef1199a.png")} 
-                alt={t('features.analyticsPage.features.linkPerformance.imageAlt')} 
-                className="w-full"
-              />
+                src={getAssetPath("/lovable-uploads/analytics-pinboard-btn-data.png")} 
+                alt="analytics-pinboard-btn-data" 
+                className="w-full h-auto" 
+                loading="lazy" 
+                />
             </div>
           </div>
 
@@ -191,10 +194,11 @@ const Analytics = () => {
             </div>
             <div className="order-1">
               <img 
-                src={getAssetPath("/lovable-uploads/b1acf01e-622e-46d0-be79-527db756bbf9.png")} 
-                alt={t('features.analyticsPage.features.surveyAnalytics.imageAlt')} 
-                className="w-full"
-              />
+                src={getAssetPath("/lovable-uploads/analytics-survey-user-feedback.png")} 
+                alt="analytics-survey-user-feedback" 
+                className="w-full h-auto" 
+                loading="lazy" 
+                />
             </div>
           </div>
           </div>
