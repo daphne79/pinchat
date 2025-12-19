@@ -687,12 +687,12 @@
               "imageAlt": "Cross-team collaboration process"
             },
             "feature4": {
-              "title": "Stably Maintain Data and Account Security",
-              "description": "Through permission controls and clear access scopes, ensure secure and manageable operational architecture when expanding or adjusting teams.",
+              "title": "More Flexible Team Account Maintenance",
+              "description": "Flexibly adjust team members' access and role configurations without affecting main account settings, making daily management easier and more aligned with actual operational needs.",
               "benefits": {
-                "prevent": "Prevent sensitive information from misuse or leakage",
-                "maintain": "Maintain a long-term manageable account management architecture",
-                "enhance": "Enhance overall internal information security standards"
+                "prevent": "Adjust role settings based on personnel changes",
+                "maintain": "Keep main account settings stable and unaffected",
+                "enhance": "Reduce management burden from team changes"
               },
               "imageAlt": "Data and account security management"
             }
