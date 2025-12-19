@@ -570,7 +570,7 @@
         "chatroomManagementPage": {
           "hero": {
             "title": "Centralize Every Conversation",
-            "subtitle": "Master all chat contexts with labels, folders, and quick search, enabling customer service and sales teams to find important messages faster and maintain high-quality communication workflows.",
+            "subtitle": "Master all chat contexts with labels, folders, and quick search, while automatically organizing customer lists to help teams effectively manage conversations and visitor information.",
             "cta": "Get Started for Free",
             "imageAlt": "Chatroom management interface"
           },
@@ -608,12 +608,12 @@
               "imageAlt": "Quick search interface"
             },
             "cleanSpace": {
-              "title": "Maintain a Clean Chat Space",
-              "description": "Remove or hide completed conversations to keep the interface clean and focused on current important customer needs.",
+              "title": "Automatic Customer List Organization",
+              "description": "All visitors who have had conversations are automatically added to customer lists, while simultaneously accumulating visitor information collected during chats.",
               "benefits": {
-                "deleteChatrooms": "Delete chatrooms that are no longer needed",
-                "hideConversations": "Hide conversations that don't need tracking temporarily",
-                "maintainWorkflow": "Maintain an efficient and focused workflow"
+                "deleteChatrooms": "Automatically organize all visitors who have had conversations",
+                "hideConversations": "Collect contact information such as Email during chats",
+                "maintainWorkflow": "Support list export for subsequent applications"
               },
               "imageAlt": "Clean chat space interface"
             }

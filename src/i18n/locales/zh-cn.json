@@ -596,7 +596,7 @@
     "chatroomManagementPage": {
       "hero": {
         "title": "集中管理每一则对话",
-        "subtitle": "以标签、文件夹与快速搜索掌握所有聊天脉络，让客服与销售团队能更快找到重要讯息，维持高品质的沟通流程。",
+        "subtitle": "以标签、文件夹与快速搜索掌握所有聊天脉络，并自动整理客户名单，协助团队有效管理对话与访客资讯。",
         "cta": "免费开始",
         "imageAlt": "聊天室管理界面"
       },
@@ -634,12 +634,12 @@
           "imageAlt": "快速搜索界面"
         },
         "cleanSpace": {
-          "title": "维持整洁的聊天空间",
-          "description": "移除或隐藏已结束的对话，让画面更干净、专注处理当前重要的客户需求。",
+          "title": "客户名单自动整理",
+          "description": "所有曾对话的访客都会自动建立为客户名单，并同步累积聊天中搜集的访客资讯。",
           "benefits": {
-            "deleteChatrooms": "删除不再需要的聊天室",
-            "hideConversations": "隐藏暂时不需追踪的对话",
-            "maintainWorkflow": "维持高效率且专注的工作流程"
+            "deleteChatrooms": "自动整理所有曾对话的访客",
+            "hideConversations": "聊天中搜集 Email 等联络资讯",
+            "maintainWorkflow": "支持名单汇出作后续应用"
           },
           "imageAlt": "整洁聊天空间界面"
         }
