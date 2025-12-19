@@ -328,9 +328,9 @@
   <div class="header">
     <h1>📸 PinChat 圖片查看器</h1>
     <div class="stats">
-      <div class="stat total">總數: 68</div>
-      <div class="stat used">已使用: 63</div>
-      <div class="stat unused">未使用: 5</div>
+      <div class="stat total">總數: 70</div>
+      <div class="stat used">已使用: 64</div>
+      <div class="stat unused">未使用: 6</div>
       <div class="stat assigned">已指定: 0</div>
     </div>
     <div style="margin-top: 15px; display: flex; gap: 10px; flex-wrap: wrap;">
@@ -352,9 +352,9 @@
   <input type="text" class="search-box" id="searchBox" placeholder="搜尋圖片名稱...">
 
   <div class="tabs">
-    <div class="tab active" onclick="showSection('all')">全部圖片 (68)</div>
-    <div class="tab" onclick="showSection('used')">已使用 (63)</div>
-    <div class="tab" onclick="showSection('unused')">未使用 (5)</div>
+    <div class="tab active" onclick="showSection('all')">全部圖片 (70)</div>
+    <div class="tab" onclick="showSection('used')">已使用 (64)</div>
+    <div class="tab" onclick="showSection('unused')">未使用 (6)</div>
     <div class="tab" onclick="showSection('assigned')">已指定 (0)</div>
   </div>
 
@@ -1207,6 +1207,42 @@
             </div>
           </div>
         
+          <div class="image-card" data-name="chatroom-management-search.png">
+            <img src="/pinchat/lovable-uploads/chatroom-management-search.png" alt="chatroom-management-search.png" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'300\' height=\'200\'%3E%3Ctext x=\'50%25\' y=\'50%25\' text-anchor=\'middle\'%3E圖片載入失敗%3C/text%3E%3C/svg%3E'">
+            <div class="image-info">
+              <div class="image-name">chatroom-management-search.png</div>
+              <div>
+                <span class="image-status status-used">
+                  ✓ 已使用
+                </span>
+                
+              </div>
+              
+              <div class="image-actions">
+                <button class="btn btn-primary" onclick="openAssignModal('chatroom-management-search.png')">指定位置</button>
+                
+              </div>
+            </div>
+          </div>
+        
+          <div class="image-card" data-name="chatroom-management-tags.png">
+            <img src="/pinchat/lovable-uploads/chatroom-management-tags.png" alt="chatroom-management-tags.png" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'300\' height=\'200\'%3E%3Ctext x=\'50%25\' y=\'50%25\' text-anchor=\'middle\'%3E圖片載入失敗%3C/text%3E%3C/svg%3E'">
+            <div class="image-info">
+              <div class="image-name">chatroom-management-tags.png</div>
+              <div>
+                <span class="image-status status-used">
+                  ✓ 已使用
+                </span>
+                
+              </div>
+              
+              <div class="image-actions">
+                <button class="btn btn-primary" onclick="openAssignModal('chatroom-management-tags.png')">指定位置</button>
+                
+              </div>
+            </div>
+          </div>
+        
           <div class="image-card" data-name="chatroom-team-management-hero.png">
             <img src="/pinchat/lovable-uploads/chatroom-team-management-hero.png" alt="chatroom-team-management-hero.png" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'300\' height=\'200\'%3E%3Ctext x=\'50%25\' y=\'50%25\' text-anchor=\'middle\'%3E圖片載入失敗%3C/text%3E%3C/svg%3E'">
             <div class="image-info">
@@ -1230,8 +1266,8 @@
             <div class="image-info">
               <div class="image-name">conversation-archive.png</div>
               <div>
-                <span class="image-status status-used">
-                  ✓ 已使用
+                <span class="image-status status-unused">
+                  ○ 未使用
                 </span>
                 
               </div>
@@ -2327,17 +2363,33 @@
             </div>
           </div>
         
-          <div class="image-card" data-name="conversation-archive.png">
-            <img src="/pinchat/lovable-uploads/conversation-archive.png" alt="conversation-archive.png" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'300\' height=\'200\'%3E%3Ctext x=\'50%25\' y=\'50%25\' text-anchor=\'middle\'%3E圖片載入失敗%3C/text%3E%3C/svg%3E'">
+          <div class="image-card" data-name="chatroom-management-search.png">
+            <img src="/pinchat/lovable-uploads/chatroom-management-search.png" alt="chatroom-management-search.png" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'300\' height=\'200\'%3E%3Ctext x=\'50%25\' y=\'50%25\' text-anchor=\'middle\'%3E圖片載入失敗%3C/text%3E%3C/svg%3E'">
             <div class="image-info">
-              <div class="image-name">conversation-archive.png</div>
+              <div class="image-name">chatroom-management-search.png</div>
               <div>
                 <span class="image-status status-used">✓ 已使用</span>
                 
               </div>
               
               <div class="image-actions">
-                <button class="btn btn-primary" onclick="openAssignModal('conversation-archive.png')">指定位置</button>
+                <button class="btn btn-primary" onclick="openAssignModal('chatroom-management-search.png')">指定位置</button>
+                
+              </div>
+            </div>
+          </div>
+        
+          <div class="image-card" data-name="chatroom-management-tags.png">
+            <img src="/pinchat/lovable-uploads/chatroom-management-tags.png" alt="chatroom-management-tags.png" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'300\' height=\'200\'%3E%3Ctext x=\'50%25\' y=\'50%25\' text-anchor=\'middle\'%3E圖片載入失敗%3C/text%3E%3C/svg%3E'">
+            <div class="image-info">
+              <div class="image-name">chatroom-management-tags.png</div>
+              <div>
+                <span class="image-status status-used">✓ 已使用</span>
+                
+              </div>
+              
+              <div class="image-actions">
+                <button class="btn btn-primary" onclick="openAssignModal('chatroom-management-tags.png')">指定位置</button>
                 
               </div>
             </div>
@@ -2637,6 +2689,22 @@
             </div>
           </div>
         
+          <div class="image-card" data-name="conversation-archive.png">
+            <img src="/pinchat/lovable-uploads/conversation-archive.png" alt="conversation-archive.png" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'300\' height=\'200\'%3E%3Ctext x=\'50%25\' y=\'50%25\' text-anchor=\'middle\'%3E圖片載入失敗%3C/text%3E%3C/svg%3E'">
+            <div class="image-info">
+              <div class="image-name">conversation-archive.png</div>
+              <div>
+                <span class="image-status status-unused">○ 未使用</span>
+                
+              </div>
+              
+              <div class="image-actions">
+                <button class="btn btn-primary" onclick="openAssignModal('conversation-archive.png')">指定位置</button>
+                
+              </div>
+            </div>
+          </div>
+        
           <div class="image-card" data-name="customer-feedback-analytics-hero.png">
             <img src="/pinchat/lovable-uploads/customer-feedback-analytics-hero.png" alt="customer-feedback-analytics-hero.png" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'300\' height=\'200\'%3E%3Ctext x=\'50%25\' y=\'50%25\' text-anchor=\'middle\'%3E圖片載入失敗%3C/text%3E%3C/svg%3E'">
             <div class="image-info">
@@ -2782,7 +2850,7 @@
   <script>
     const pageSections = {"Index":{"hero":"首頁 Hero 區塊","valueBlock1":"核心價值 1 - 一鍵連接","valueBlock2":"核心價值 2 - 跨平台整合","valueBlock3":"核心價值 3 - AI 客服","valueBlock4":"核心價值 4 - 數據管理"},"About":{"hero":"關於我們 Hero 區塊"},"AIPinBot":{"hero":"AI PinBot Hero 區塊","feature1":"功能 1 - 統一知識來源","feature2":"功能 2 - 智能 FAQ","feature3":"功能 3 - 多語言支持","feature4":"功能 4 - 實時學習","feature5":"功能 5 - 分析報告"},"Analytics":{"hero":"分析頁面 Hero 區塊","feature1":"功能 1","feature2":"功能 2","feature3":"功能 3","feature4":"功能 4","feature5":"功能 5"},"Branding":{"hero":"品牌頁面 Hero 區塊","feature1":"功能 1","feature2":"功能 2","feature3":"功能 3","feature4":"功能 4","feature5":"功能 5"},"Chat":{"hero":"聊天頁面 Hero 區塊","feature1":"功能 1","feature2":"功能 2","feature3":"功能 3","feature4":"功能 4","feature5":"功能 5"},"ChatWidget":{"hero":"聊天小工具 Hero 區塊","feature1":"功能 1","feature2":"功能 2","feature3":"功能 3","feature4":"功能 4","feature5":"功能 5"},"ChatroomManagement":{"hero":"聊天室管理 Hero 區塊","feature1":"功能 1","feature2":"功能 2","feature3":"功能 3","feature4":"功能 4","feature5":"功能 5"},"FAQPinBot":{"hero":"FAQ PinBot Hero 區塊","feature1":"功能 1","feature2":"功能 2","feature3":"功能 3","feature4":"功能 4","feature5":"功能 5"},"PinBoard":{"hero":"PinBoard Hero 區塊","feature1":"功能 1","feature2":"功能 2","feature3":"功能 3","feature4":"功能 4","feature5":"功能 5"},"SubAccount":{"hero":"子帳號 Hero 區塊","feature1":"功能 1","feature2":"功能 2","feature3":"功能 3","feature4":"功能 4","feature5":"功能 5"},"AICustomerServiceBot":{"hero":"AI 客服機器人 Hero 區塊","feature1":"功能 1","feature2":"功能 2"},"ChatroomTeamManagement":{"hero":"聊天室團隊管理 Hero 區塊","feature1":"功能 1","feature2":"功能 2"},"CustomerFeedbackAnalytics":{"hero":"客戶反饋分析 Hero 區塊","feature1":"功能 1","feature2":"功能 2"},"InAppCustomerService":{"hero":"應用內客服 Hero 區塊","feature1":"功能 1","feature2":"功能 2"},"LeadCaptureSurveys":{"hero":"潛在客戶捕捉問卷 Hero 區塊","feature1":"功能 1","feature2":"功能 2"},"MultichannelMessagingHub":{"hero":"多渠道訊息中心 Hero 區塊","feature1":"功能 1","feature2":"功能 2"},"ForB2BCommercial":{"hero":"B2B 商業 Hero 區塊","useCase1":"使用案例 1","useCase2":"使用案例 2","useCase3":"使用案例 3"},"ForEducation":{"hero":"教育 Hero 區塊","useCase1":"使用案例 1","useCase2":"使用案例 2","useCase3":"使用案例 3"},"ForEvents":{"hero":"活動 Hero 區塊","useCase1":"使用案例 1","useCase2":"使用案例 2","useCase3":"使用案例 3"},"ForHealthcare":{"hero":"醫療 Hero 區塊","useCase1":"使用案例 1","useCase2":"使用案例 2","useCase3":"使用案例 3"},"ForProfessionalServices":{"hero":"專業服務 Hero 區塊","useCase1":"使用案例 1","useCase2":"使用案例 2","useCase3":"使用案例 3"},"ForRealEstate":{"hero":"房地產 Hero 區塊","useCase1":"使用案例 1","useCase2":"使用案例 2","useCase3":"使用案例 3"},"ForRetailEcommerce":{"hero":"零售電商 Hero 區塊","useCase1":"使用案例 1","useCase2":"使用案例 2","useCase3":"使用案例 3"},"ForServiceIndustries":{"hero":"服務業 Hero 區塊","useCase1":"使用案例 1","useCase2":"使用案例 2","useCase3":"使用案例 3"}};
     let currentImage = '';
-    let assignments = [{"image":"branding-remove-pinchat.png","page":"Branding","section":"feature4","alt":"","className":""}];
+    let assignments = [];
 
     function showSection(section) {
       document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));

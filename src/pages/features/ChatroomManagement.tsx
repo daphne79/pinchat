@@ -82,10 +82,11 @@ const ChatroomManagement = () => {
             </div>
             <div className="order-1 lg:order-2">
               <img 
-                src={getAssetPath("/lovable-uploads/chat_management.png")} 
-                alt={t('features.chatroomManagementPage.features.chatLabels.imageAlt')} 
-                className="w-full"
-              />
+                src={getAssetPath("/lovable-uploads/chatroom-management-tags.png")} 
+                alt="chatroom-management-tags" 
+                className="w-full h-auto" 
+                loading="lazy" 
+                />
             </div>
           </div>
 
@@ -154,10 +155,11 @@ const ChatroomManagement = () => {
             </div>
             <div className="order-1 lg:order-2">
               <img 
-                src={getAssetPath("/lovable-uploads/conversation-archive.png")} 
-                alt={t('features.chatroomManagementPage.features.quickSearch.imageAlt')} 
-                className="w-full"
-              />
+                src={getAssetPath("/lovable-uploads/chatroom-management-search.png")} 
+                alt="chatroom-management-search" 
+                className="w-full h-auto" 
+                loading="lazy" 
+                />
             </div>
           </div>
 
