@@ -82,11 +82,12 @@ const SubAccount = () => {
               </ul>
             </div>
             <div className="order-1 lg:order-2">
-              <img
-                src={getAssetPath("/lovable-uploads/d1ad25e5-2193-4b5d-878b-bbc0164990b0.png")}
-                alt={t('features.subAccountPage.keyFeatures.feature1.imageAlt')}
-                className="w-full"
-              />
+              <img 
+                src={getAssetPath("/lovable-uploads/subaccount-assign.png")} 
+                alt="subaccount-assign" 
+                className="w-full h-auto" 
+                loading="lazy" 
+                />
             </div>
           </div>
 
@@ -118,11 +119,12 @@ const SubAccount = () => {
               </ul>
             </div>
             <div className="order-1">
-              <img
-                src={getAssetPath("/lovable-uploads/63b5db4a-d281-4ef4-9cd3-df8a81abf9c7.png")}
-                alt={t('features.subAccountPage.keyFeatures.feature2.imageAlt')}
-                className="w-full"
-              />
+              <img 
+                src={getAssetPath("/lovable-uploads/subaccount-role.png")} 
+                alt="subaccount-role" 
+                className="w-full h-auto" 
+                loading="lazy" 
+                />
             </div>
           </div>
 
@@ -154,11 +156,12 @@ const SubAccount = () => {
               </ul>
             </div>
             <div className="order-1 lg:order-2">
-              <img
-                src={getAssetPath("/lovable-uploads/b6ba0595-a6d8-41b5-a24a-f050e7100d45.png")}
-                alt={t('features.subAccountPage.keyFeatures.feature3.imageAlt')}
-                className="w-full"
-              />
+              <img 
+                src={getAssetPath("/lovable-uploads/subaccount-team.png")} 
+                alt="subaccount-team" 
+                className="w-full h-auto" 
+                loading="lazy" 
+                />
             </div>
           </div>
 
@@ -190,11 +193,12 @@ const SubAccount = () => {
               </ul>
             </div>
             <div className="order-1">
-              <img
-                src={getAssetPath("/lovable-uploads/6ae22272-9807-4c3d-bbae-315dca582a9d.png")}
-                alt={t('features.subAccountPage.keyFeatures.feature4.imageAlt')}
-                className="w-full"
-              />
+              <img 
+                src={getAssetPath("/lovable-uploads/subaccount-control.png")} 
+                alt="subaccount-control" 
+                className="w-full h-auto" 
+                loading="lazy" 
+                />
             </div>
           </div>
           </div>
