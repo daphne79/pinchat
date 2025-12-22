@@ -36,9 +36,10 @@ const AICustomerServiceBot = () => {
             {/* Hero Image */}
             <div className="mt-16 overflow-hidden">
               <img 
-                src={getAssetPath("/lovable-uploads/f841ccd3-3ed7-4baf-89d3-f7cd498203dc.png")} 
-                alt="AI chatbot interface showing automated responses" 
-                className="w-full h-auto"
+              src={getAssetPath("/lovable-uploads/ai-customer-service-bot-hero.png")} 
+              alt="ai-customer-service-bot-hero" 
+              className="w-full h-auto" 
+              loading="lazy" 
               />
             </div>
           </div>

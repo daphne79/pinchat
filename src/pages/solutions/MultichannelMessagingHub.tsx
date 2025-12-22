@@ -111,9 +111,10 @@ const MultichannelMessagingHub = () => {
               </div>
               <div className="rounded-lg overflow-hidden">
                 <img 
-                  src={getAssetPath("/lovable-uploads/a61b9a5a-7234-4e21-b05a-03750511fa6b.png")} 
-                  alt="PinChat multichannel messaging solution" 
-                  className="w-full h-auto"
+                src={getAssetPath("/lovable-uploads/multichannel-feat1.png")} 
+                alt="multichannel-feat1" 
+                className="w-full h-auto" 
+                loading="lazy" 
                 />
               </div>
             </div>
