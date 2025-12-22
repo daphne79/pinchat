@@ -36,9 +36,10 @@ const ChatroomTeamManagement = () => {
             {/* Hero Image */}
             <div className="mt-16 overflow-hidden">
               <img 
-                src={getAssetPath("/lovable-uploads/6da4b416-cb61-490c-97f0-0b99b7589ba0.png")} 
-                alt="Team management dashboard with organized chat folders" 
-                className="w-full h-auto"
+              src={getAssetPath("/lovable-uploads/chatroom-team-management-hero.png")} 
+              alt="chatroom-team-management-hero" 
+              className="w-full h-auto" 
+              loading="lazy" 
               />
             </div>
           </div>
@@ -111,9 +112,10 @@ const ChatroomTeamManagement = () => {
               </div>
               <div className="rounded-lg overflow-hidden">
                 <img 
-                  src={getAssetPath("/lovable-uploads/6da4b416-cb61-490c-97f0-0b99b7589ba0.png")} 
-                  alt="PinChat team management solution" 
-                  className="w-full h-auto"
+                src={getAssetPath("/lovable-uploads/chatroom-team-management-feat1.png")} 
+                alt="chatroom-team-management-feat1" 
+                className="w-full h-auto" 
+                loading="lazy" 
                 />
               </div>
             </div>
@@ -126,9 +128,10 @@ const ChatroomTeamManagement = () => {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div className="order-2 lg:order-1 overflow-hidden">
                 <img 
-                  src={getAssetPath("/lovable-uploads/6da4b416-cb61-490c-97f0-0b99b7589ba0.png")} 
-                  alt="PinChat benefits dashboard" 
-                  className="w-full h-auto"
+                src={getAssetPath("/lovable-uploads/chatroom-team-management-feat2.png")} 
+                alt="chatroom-team-management-feat2" 
+                className="w-full h-auto" 
+                loading="lazy" 
                 />
               </div>
               <div className="order-1 lg:order-2">

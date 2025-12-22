@@ -189,11 +189,6 @@ const FeatureNavigation = () => {
                             </Link>
                           </NavigationMenuLink>
                           <NavigationMenuLink asChild>
-                            <Link to="/solutions/customer-feedback-analytics" className="block rounded-md p-3 hover:bg-accent hover:text-accent-foreground transition-colors">
-                              <div className="font-medium text-sm">{tFixed('solutions.customerFeedbackAnalytics')}</div>
-                            </Link>
-                          </NavigationMenuLink>
-                          <NavigationMenuLink asChild>
                             <Link to="/solutions/chatroom-team-management" className="block rounded-md p-3 hover:bg-accent hover:text-accent-foreground transition-colors">
                               <div className="font-medium text-sm">{tFixed('solutions.chatroomTeamManagement')}</div>
                             </Link>
@@ -301,9 +296,6 @@ const FeatureNavigation = () => {
                       </Link>
                       <Link to="/solutions/lead-capture-surveys" className="block rounded-md p-2 hover:bg-accent hover:text-accent-foreground transition-colors">
                         {tFixed('solutions.leadCaptureSurveys')}
-                      </Link>
-                      <Link to="/solutions/customer-feedback-analytics" className="block rounded-md p-2 hover:bg-accent hover:text-accent-foreground transition-colors">
-                        {tFixed('solutions.customerFeedbackAnalytics')}
                       </Link>
                       <Link to="/solutions/chatroom-team-management" className="block rounded-md p-2 hover:bg-accent hover:text-accent-foreground transition-colors">
                         {tFixed('solutions.chatroomTeamManagement')}

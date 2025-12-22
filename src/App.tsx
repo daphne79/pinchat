@@ -25,7 +25,6 @@ import InAppCustomerService from "./pages/solutions/InAppCustomerService";
 import MultichannelMessagingHub from "./pages/solutions/MultichannelMessagingHub";
 import AICustomerServiceBot from "./pages/solutions/AICustomerServiceBot";
 import LeadCaptureSurveys from "./pages/solutions/LeadCaptureSurveys";
-import CustomerFeedbackAnalytics from "./pages/solutions/CustomerFeedbackAnalytics";
 import ChatroomTeamManagement from "./pages/solutions/ChatroomTeamManagement";
 
 // Industry Pages
@@ -72,7 +71,6 @@ const App = () => (
           <Route path="/solutions/multichannel-messaging-hub" element={<MultichannelMessagingHub />} />
           <Route path="/solutions/ai-customer-service-bot" element={<AICustomerServiceBot />} />
           <Route path="/solutions/lead-capture-surveys" element={<LeadCaptureSurveys />} />
-          <Route path="/solutions/customer-feedback-analytics" element={<CustomerFeedbackAnalytics />} />
           <Route path="/solutions/chatroom-team-management" element={<ChatroomTeamManagement />} />
           
           {/* Industry Routes */}
