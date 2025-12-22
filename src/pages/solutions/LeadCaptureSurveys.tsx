@@ -36,9 +36,10 @@ const LeadCaptureSurveys = () => {
             {/* Hero Image */}
             <div className="mt-16 overflow-hidden">
               <img 
-                src={getAssetPath("/lovable-uploads/e56b55a0-a523-4d27-89ec-f87622f38283.png")} 
-                alt="Lead capture survey interface in chat conversation" 
-                className="w-full h-auto"
+              src={getAssetPath("/lovable-uploads/lead-capture-survey-hero.png")} 
+              alt="lead-capture-survey-hero" 
+              className="w-full h-auto" 
+              loading="lazy" 
               />
             </div>
           </div>
@@ -111,9 +112,10 @@ const LeadCaptureSurveys = () => {
               </div>
               <div className="rounded-lg overflow-hidden">
                 <img 
-                  src={getAssetPath("/lovable-uploads/e56b55a0-a523-4d27-89ec-f87622f38283.png")} 
-                  alt="PinChat lead capture solution" 
-                  className="w-full h-auto"
+                src={getAssetPath("/lovable-uploads/lead-capture-feat1.png")} 
+                alt="lead-capture-feat1" 
+                className="w-full h-auto" 
+                loading="lazy" 
                 />
               </div>
             </div>
@@ -126,9 +128,10 @@ const LeadCaptureSurveys = () => {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div className="order-2 lg:order-1 overflow-hidden">
                 <img 
-                  src={getAssetPath("/lovable-uploads/e56b55a0-a523-4d27-89ec-f87622f38283.png")} 
-                  alt="PinChat benefits dashboard" 
-                  className="w-full h-auto"
+                src={getAssetPath("/lovable-uploads/lead-capture-feat2.png")} 
+                alt="lead-capture-feat2" 
+                className="w-full h-auto" 
+                loading="lazy" 
                 />
               </div>
               <div className="order-1 lg:order-2">
