@@ -36,9 +36,10 @@ const InAppCustomerService = () => {
             {/* Hero Image */}
             <div className="mt-16 overflow-hidden">
               <img 
-                src={getAssetPath("/lovable-uploads/f841ccd3-3ed7-4baf-89d3-f7cd498203dc.png")} 
-                alt="In-app customer service interface" 
-                className="w-full h-auto"
+              src={getAssetPath("/lovable-uploads/in-app-chat-hero.png")} 
+              alt="in-app-chat-hero" 
+              className="w-full h-auto" 
+              loading="lazy" 
               />
             </div>
           </div>
@@ -111,9 +112,10 @@ const InAppCustomerService = () => {
               </div>
               <div className="rounded-lg overflow-hidden">
                 <img 
-                  src={getAssetPath("/lovable-uploads/f841ccd3-3ed7-4baf-89d3-f7cd498203dc.png")} 
-                  alt="PinChat in-app customer service solution" 
-                  className="w-full h-auto"
+                src={getAssetPath("/lovable-uploads/in-app-chat-feat1.png")} 
+                alt="in-app-chat-feat1" 
+                className="w-full h-auto" 
+                loading="lazy" 
                 />
               </div>
             </div>
@@ -126,9 +128,10 @@ const InAppCustomerService = () => {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div className="order-2 lg:order-1 overflow-hidden">
                 <img 
-                  src={getAssetPath("/lovable-uploads/f841ccd3-3ed7-4baf-89d3-f7cd498203dc.png")} 
-                  alt="PinChat benefits dashboard" 
-                  className="w-full h-auto"
+                src={getAssetPath("/lovable-uploads/in-app-chat-feat2.png")} 
+                alt="in-app-chat-feat2" 
+                className="w-full h-auto" 
+                loading="lazy" 
                 />
               </div>
               <div className="order-1 lg:order-2">
@@ -288,7 +291,7 @@ const InAppCustomerService = () => {
             </div>
           </div>
         </section>
-      </main>
+</main>
       <Footer />
     </div>
   );

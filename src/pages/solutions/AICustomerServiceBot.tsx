@@ -111,9 +111,10 @@ const AICustomerServiceBot = () => {
               </div>
               <div className="rounded-lg overflow-hidden">
                 <img 
-                  src={getAssetPath("/lovable-uploads/f841ccd3-3ed7-4baf-89d3-f7cd498203dc.png")} 
-                  alt="PinChat customer service solution" 
-                  className="w-full h-auto"
+                src={getAssetPath("/lovable-uploads/ai-customer-service-feat1.png")} 
+                alt="ai-customer-service-feat1" 
+                className="w-full h-auto" 
+                loading="lazy" 
                 />
               </div>
             </div>
@@ -126,9 +127,10 @@ const AICustomerServiceBot = () => {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div className="order-2 lg:order-1 overflow-hidden">
                 <img 
-                  src={getAssetPath("/lovable-uploads/f841ccd3-3ed7-4baf-89d3-f7cd498203dc.png")} 
-                  alt="PinChat benefits dashboard" 
-                  className="w-full h-auto"
+                src={getAssetPath("/lovable-uploads/ai-customer-service-feat2.png")} 
+                alt="ai-customer-service-feat2" 
+                className="w-full h-auto" 
+                loading="lazy" 
                 />
               </div>
               <div className="order-1 lg:order-2">
@@ -286,18 +288,6 @@ const AICustomerServiceBot = () => {
                 {t('solutions.aiCustomerServicePage.cta.button')}
               </Button>
             </div>
-          </div>
-        </section>
-      
-        {/* hero */}
-        <section className="py-16 px-4">
-          <div className="container mx-auto">
-            <img 
-              src={getAssetPath("/lovable-uploads/ai-customer-service-bot-hero.png")} 
-              alt="ai-customer-service-bot-hero" 
-              className="w-full h-auto" 
-              loading="lazy" 
-            />
           </div>
         </section>
 </main>

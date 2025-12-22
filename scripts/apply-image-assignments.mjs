@@ -112,38 +112,94 @@ for (const [page, pageAssignments] of Object.entries(assignmentsByPage)) {
       const heroCommentPattern = /\{\/\*\s*Hero\s+Section\s*\*\/}/i;
       const heroCommentMatch = content.match(heroCommentPattern);
       
-      if (heroCommentMatch) {
-        // 在 Hero Section 中查找圖片區域（min-h div）
+        if (heroCommentMatch) {
         const afterHeroComment = content.slice(heroCommentMatch.index);
-        const heroImageDivPattern = /<div[^>]*min-h[^>]*>[\s\S]*?(<img[^>]*>|<\/div>)/i;
-        const heroImageMatch = afterHeroComment.match(heroImageDivPattern);
         
-        if (heroImageMatch) {
-          if (heroImageMatch[0].includes('<img')) {
+        // 優先查找 Hero Image 註釋（適用於 InAppCustomerService 等頁面）
+        const heroImageCommentPattern = /\{\/\*\s*Hero\s+Image\s*\*\/}/i;
+        const heroImageCommentMatch = afterHeroComment.match(heroImageCommentPattern);
+        
+        if (heroImageCommentMatch) {
+          // 在 Hero Image 註釋後查找圖片（支持跨多行的圖片標籤）
+          const afterHeroImageComment = afterHeroComment.slice(heroImageCommentMatch.index);
+          // 匹配跨多行的圖片標籤，從 <img 開始到 /> 或 </img> 結束
+          const imgMatch = afterHeroImageComment.match(/<img[\s\S]*?\/>/i) || 
+                          afterHeroImageComment.match(/<img[\s\S]*?<\/img>/i);
+          
+          if (imgMatch) {
             // 替換現有圖片
-            const imgMatch = afterHeroComment.match(/<img[^>]*>/i);
-            if (imgMatch) {
-              insertIndex = heroCommentMatch.index + imgMatch.index;
-              content = content.slice(0, insertIndex) + 
-                       imgTag.replace(/\n\s+/g, '\n                ') + 
-                       content.slice(insertIndex + imgMatch[0].length);
-              modified = true;
-              totalApplied++;
-              appliedAssignments.push(assignment);
-              console.log(`  ✓ ${page} - ${assignment.section}: ${imageFileName} (替換現有圖片)`);
-              foundSection = true;
-            }
-          } else {
-            // 在 div 內插入
-            const divEnd = heroImageMatch[0].indexOf('</div>');
-            insertIndex = heroCommentMatch.index + heroImageMatch.index + heroImageMatch[1].length;
+            insertIndex = heroCommentMatch.index + heroImageCommentMatch.index + imgMatch.index;
             content = content.slice(0, insertIndex) + 
-                     `\n                ${imgTag}\n              ` + 
-                     content.slice(insertIndex);
+                     imgTag.replace(/\n\s+/g, '\n              ') + 
+                     content.slice(insertIndex + imgMatch[0].length);
             modified = true;
             totalApplied++;
             appliedAssignments.push(assignment);
-            console.log(`  ✓ ${page} - ${assignment.section}: ${imageFileName}`);
+            console.log(`  ✓ ${page} - ${assignment.section}: ${imageFileName} (替換現有圖片 - Hero Image)`);
+            foundSection = true;
+          }
+        }
+        
+        // 如果沒有找到 Hero Image 註釋，嘗試查找包含 min-h 的 div
+        if (!foundSection) {
+          // 回退到原來的邏輯：查找包含 min-h 的 div（適用於其他頁面）
+          const heroImageDivPattern = /<div[^>]*min-h[^>]*>[\s\S]*?(<img[^>]*>|<\/div>)/i;
+          const heroImageMatch = afterHeroComment.match(heroImageDivPattern);
+          
+          if (heroImageMatch) {
+            if (heroImageMatch[0].includes('<img')) {
+              // 替換現有圖片（支持跨多行的圖片標籤）
+              const imgMatch = afterHeroComment.match(/<img[\s\S]*?\/>/i) || 
+                              afterHeroComment.match(/<img[\s\S]*?<\/img>/i);
+              if (imgMatch) {
+                insertIndex = heroCommentMatch.index + imgMatch.index;
+                content = content.slice(0, insertIndex) + 
+                         imgTag.replace(/\n\s+/g, '\n                ') + 
+                         content.slice(insertIndex + imgMatch[0].length);
+                modified = true;
+                totalApplied++;
+                appliedAssignments.push(assignment);
+                console.log(`  ✓ ${page} - ${assignment.section}: ${imageFileName} (替換現有圖片)`);
+                foundSection = true;
+              }
+            } else {
+              // 在 div 內插入
+              const divEnd = heroImageMatch[0].indexOf('</div>');
+              insertIndex = heroCommentMatch.index + heroImageMatch.index + heroImageMatch[1].length;
+              content = content.slice(0, insertIndex) + 
+                       `\n                ${imgTag}\n              ` + 
+                       content.slice(insertIndex);
+              modified = true;
+              totalApplied++;
+              appliedAssignments.push(assignment);
+              console.log(`  ✓ ${page} - ${assignment.section}: ${imageFileName}`);
+              foundSection = true;
+            }
+          }
+        }
+      }
+      
+      // 如果還是沒找到，查找文件末尾的簡單 hero 註釋（如 {/* hero */}）
+      if (!foundSection) {
+        const simpleHeroCommentPattern = /\{\/\*\s*hero\s*\*\/}/i;
+        const simpleHeroCommentMatch = content.match(simpleHeroCommentPattern);
+        
+        if (simpleHeroCommentMatch) {
+          // 在註釋後查找圖片（支持跨多行的圖片標籤）
+          const afterSimpleHeroComment = content.slice(simpleHeroCommentMatch.index + simpleHeroCommentMatch[0].length);
+          const imgMatch = afterSimpleHeroComment.match(/<img[\s\S]*?\/>/i) || 
+                          afterSimpleHeroComment.match(/<img[\s\S]*?<\/img>/i);
+          
+          if (imgMatch) {
+            // 替換現有圖片
+            insertIndex = simpleHeroCommentMatch.index + simpleHeroCommentMatch[0].length + imgMatch.index;
+            content = content.slice(0, insertIndex) + 
+                     imgTag.replace(/\n\s+/g, '\n              ') + 
+                     content.slice(insertIndex + imgMatch[0].length);
+            modified = true;
+            totalApplied++;
+            appliedAssignments.push(assignment);
+            console.log(`  ✓ ${page} - ${assignment.section}: ${imageFileName} (替換現有圖片 - 簡單 hero 註釋)`);
             foundSection = true;
           }
         }
@@ -154,106 +210,226 @@ for (const [page, pageAssignments] of Object.entries(assignmentsByPage)) {
       const featureNum = normalizedSection.replace('feature', '').trim();
       
       if (/^[1-4]$/.test(featureNum)) {
-        // 查找 "Feature N:" 註釋（不區分大小寫，允許冒號後的文字）
-        const featureCommentPattern = new RegExp(`\\{/\\*\\s*Feature\\s+${featureNum}[^}]*\\*\\/}`, 'i');
-        const featureCommentMatch = content.match(featureCommentPattern);
+        // 優先查找簡單的 feature 註釋（如 {/* feature1 */}），適用於 InAppCustomerService 等頁面
+        const simpleFeatureCommentPattern = new RegExp(`\\{/\\*\\s*feature${featureNum}\\s*\\*\\/}`, 'i');
+        const simpleFeatureCommentMatch = content.match(simpleFeatureCommentPattern);
         
-        if (featureCommentMatch) {
-          // 在註釋後查找包含圖片的 div（通常是 order-1 或 order-2）
-          const afterFeatureComment = content.slice(featureCommentMatch.index + featureCommentMatch[0].length);
+        if (simpleFeatureCommentMatch) {
+          // 在註釋後查找圖片（支持跨多行的圖片標籤）
+          const afterSimpleFeatureComment = content.slice(simpleFeatureCommentMatch.index + simpleFeatureCommentMatch[0].length);
+          const imgMatch = afterSimpleFeatureComment.match(/<img[\s\S]*?\/>/i) || 
+                          afterSimpleFeatureComment.match(/<img[\s\S]*?<\/img>/i);
           
-          // 查找該 feature 區塊中的圖片 div
-          // Feature 區塊通常是：註釋 -> grid div -> 兩個 order div，圖片在其中一個
-          // 需要匹配完整的 grid div，包括所有嵌套的 div
-          let featureBlockMatch = null;
-          const gridDivStart = afterFeatureComment.match(/<div[^>]*grid[^>]*>/i);
-          if (gridDivStart) {
-            // 從 grid div 開始位置計算，找到對應的結束標籤
-            let depth = 0;
-            let pos = gridDivStart.index;
-            let found = false;
-            
-            while (pos < afterFeatureComment.length && !found) {
-              const nextOpen = afterFeatureComment.indexOf('<div', pos);
-              const nextClose = afterFeatureComment.indexOf('</div>', pos);
-              
-              if (nextClose === -1) break;
-              
-              if (nextOpen !== -1 && nextOpen < nextClose) {
-                // 找到開始標籤
-                depth++;
-                pos = nextOpen + 4;
-              } else {
-                // 找到結束標籤
-                depth--;
-                if (depth === 0) {
-                  // 找到對應的結束標籤
-                  const blockEnd = nextClose + 6;
-                  featureBlockMatch = {
-                    0: afterFeatureComment.slice(gridDivStart.index, blockEnd),
-                    index: gridDivStart.index
-                  };
-                  found = true;
-                } else {
-                  pos = nextClose + 6;
-                }
-              }
-            }
+          if (imgMatch) {
+            // 替換現有圖片
+            insertIndex = simpleFeatureCommentMatch.index + simpleFeatureCommentMatch[0].length + imgMatch.index;
+            content = content.slice(0, insertIndex) + 
+                     imgTag.replace(/\n\s+/g, '\n              ') + 
+                     content.slice(insertIndex + imgMatch[0].length);
+            modified = true;
+            totalApplied++;
+            appliedAssignments.push(assignment);
+            console.log(`  ✓ ${page} - ${assignment.section}: ${imageFileName} (替換現有圖片 - 簡單 feature 註釋)`);
+            foundSection = true;
           }
+        }
+        
+        // 如果沒有找到簡單註釋，查找 Section N 註釋（適用於 InAppCustomerService 等頁面）
+        // feature1 對應 Section 2, feature2 對應 Section 3
+        if (!foundSection && (featureNum === '1' || featureNum === '2')) {
+          const sectionNum = featureNum === '1' ? '2' : '3';
+          const sectionCommentPattern = new RegExp(`\\{/\\*\\s*Section\\s+${sectionNum}[^}]*\\*\\/}`, 'i');
+          const sectionCommentMatch = content.match(sectionCommentPattern);
           
-          if (featureBlockMatch) {
-            // 在 feature block 中查找圖片 div（order-1 或 order-2）
-            // 優先查找包含圖片的 div，如果沒有則查找空的 div
-            const imgDivWithImgPattern = /<div[^>]*order-[12][^>]*>[\s\S]*?<img[^>]*>/i;
-            const imgDivWithImgMatch = featureBlockMatch[0].match(imgDivWithImgPattern);
+          if (sectionCommentMatch) {
+            // 在 Section 註釋後查找圖片（在該 section 的 grid div 中）
+            const afterSectionComment = content.slice(sectionCommentMatch.index + sectionCommentMatch[0].length);
             
-            if (imgDivWithImgMatch) {
-              // 替換現有圖片
-              const existingImg = imgDivWithImgMatch[0].match(/<img[^>]*>/i);
-              if (existingImg) {
-                insertIndex = featureCommentMatch.index + featureCommentMatch[0].length + 
-                             featureBlockMatch.index + imgDivWithImgMatch.index + existingImg.index;
+            // 查找該 section 中的圖片（通常在 grid div 中的 order div 內）
+            // 先查找包含圖片的 div（order-1, order-2, 或 rounded-lg）
+            const imgInSectionPattern = /<div[^>]*(?:order-[12]|rounded-lg|overflow-hidden)[^>]*>[\s\S]*?<img[^>]*>/i;
+            const imgInSectionMatch = afterSectionComment.match(imgInSectionPattern);
+            
+            if (imgInSectionMatch) {
+              // 找到圖片標籤
+              const imgMatch = imgInSectionMatch[0].match(/<img[^>]*>/i);
+              if (imgMatch) {
+                insertIndex = sectionCommentMatch.index + sectionCommentMatch[0].length + 
+                             imgInSectionMatch.index + imgMatch.index;
                 content = content.slice(0, insertIndex) + 
                          imgTag.replace(/\n\s+/g, '\n                ') + 
-                         content.slice(insertIndex + existingImg[0].length);
+                         content.slice(insertIndex + imgMatch[0].length);
                 modified = true;
                 totalApplied++;
                 appliedAssignments.push(assignment);
-                console.log(`  ✓ ${page} - ${assignment.section}: ${imageFileName} (替換現有圖片)`);
+                console.log(`  ✓ ${page} - ${assignment.section}: ${imageFileName} (替換現有圖片 - Section ${sectionNum})`);
+                foundSection = true;
+              }
+            }
+          }
+        }
+        
+        // 如果沒有找到簡單註釋，查找 Section N 註釋（適用於 InAppCustomerService 等頁面）
+        // feature1 對應 Section 2, feature2 對應 Section 3
+        if (!foundSection && (featureNum === '1' || featureNum === '2')) {
+          const sectionNum = featureNum === '1' ? '2' : '3';
+          const sectionCommentPattern = new RegExp(`\\{/\\*\\s*Section\\s+${sectionNum}[^}]*\\*\\/}`, 'i');
+          const sectionCommentMatch = content.match(sectionCommentPattern);
+          
+          if (sectionCommentMatch) {
+            // 在 Section 註釋後查找圖片（在該 section 的 grid div 中）
+            const afterSectionComment = content.slice(sectionCommentMatch.index + sectionCommentMatch[0].length);
+            
+            // 查找該 section 中的圖片（通常在 grid div 中的 order div 或 rounded-lg div 內）
+            // 先查找包含圖片的 div（order-1, order-2, rounded-lg, 或 overflow-hidden）
+            // 使用更寬鬆的匹配，允許多行和各種屬性組合
+            const imgInSectionPattern = /<div[^>]*(?:order-[12]|rounded-lg|overflow-hidden)[^>]*>[\s\S]*?<img[^>]*>/i;
+            const imgInSectionMatch = afterSectionComment.match(imgInSectionPattern);
+            
+            if (imgInSectionMatch) {
+              // 找到圖片標籤（支持跨多行的圖片標籤）
+              const imgMatch = imgInSectionMatch[0].match(/<img[\s\S]*?\/>/i) || 
+                              imgInSectionMatch[0].match(/<img[\s\S]*?<\/img>/i);
+              if (imgMatch) {
+                insertIndex = sectionCommentMatch.index + sectionCommentMatch[0].length + 
+                             imgInSectionMatch.index + imgMatch.index;
+                content = content.slice(0, insertIndex) + 
+                         imgTag.replace(/\n\s+/g, '\n                ') + 
+                         content.slice(insertIndex + imgMatch[0].length);
+                modified = true;
+                totalApplied++;
+                appliedAssignments.push(assignment);
+                console.log(`  ✓ ${page} - ${assignment.section}: ${imageFileName} (替換現有圖片 - Section ${sectionNum})`);
                 foundSection = true;
               }
             } else {
-              // 查找空的圖片 div（order-1 或 order-2），必須不包含文字內容標籤
-              // 文字內容 div 通常包含：<div（icon）、<h3、<p、<ul 等標籤
-              // 圖片 div 通常完全為空或只包含空白
-              const allOrderDivs = featureBlockMatch[0].match(/<div[^>]*order-[12][^>]*>[\s\S]*?<\/div>/gi);
+              // 如果沒有找到包含特定 class 的 div，直接查找 section 內的第一個圖片
+              // 限制搜索範圍在該 section 內（到下一個 section 或 </section> 為止）
+              const sectionEndMatch = afterSectionComment.match(/<\/section>/i);
+              const searchRange = sectionEndMatch ? 
+                afterSectionComment.slice(0, sectionEndMatch.index) : 
+                afterSectionComment;
               
-              if (allOrderDivs) {
-                // 查找不包含文字內容標籤的 div（即空的圖片 div）
-                for (const div of allOrderDivs) {
-                  // 提取 div 的內容（去除開始和結束標籤）
-                  const divContent = div.replace(/<div[^>]*>/, '').replace(/<\/div>$/, '').trim();
-                  
-                  // 檢查是否包含文字內容標籤（排除 <img>）
-                  const hasTextContent = /<(?!img\s)[a-z]+[\s>]/i.test(divContent);
-                  
-                  // 如果沒有文字內容標籤，這就是空的圖片 div
-                  if (!hasTextContent) {
-                    const imgDivMatch = div.match(/<div[^>]*order-[12][^>]*>/i);
-                    if (imgDivMatch) {
-                      // 計算在原始內容中的位置
-                      const divIndex = featureBlockMatch[0].indexOf(div);
-                      insertIndex = featureCommentMatch.index + featureCommentMatch[0].length + 
-                                   featureBlockMatch.index + divIndex + imgDivMatch.index + imgDivMatch[0].length;
-                      content = content.slice(0, insertIndex) + 
-                               `\n                ${imgTag}\n              ` + 
-                               content.slice(insertIndex);
-                      modified = true;
-                      totalApplied++;
-                      appliedAssignments.push(assignment);
-                      console.log(`  ✓ ${page} - ${assignment.section}: ${imageFileName}`);
-                      foundSection = true;
-                      break;
+              const directImgMatch = searchRange.match(/<img[\s\S]*?\/>/i) || 
+                                    searchRange.match(/<img[\s\S]*?<\/img>/i);
+              if (directImgMatch) {
+                insertIndex = sectionCommentMatch.index + sectionCommentMatch[0].length + directImgMatch.index;
+                content = content.slice(0, insertIndex) + 
+                         imgTag.replace(/\n\s+/g, '\n                ') + 
+                         content.slice(insertIndex + directImgMatch[0].length);
+                modified = true;
+                totalApplied++;
+                appliedAssignments.push(assignment);
+                console.log(`  ✓ ${page} - ${assignment.section}: ${imageFileName} (替換現有圖片 - Section ${sectionNum} - 直接匹配)`);
+                foundSection = true;
+              }
+            }
+          }
+        }
+        
+        // 如果還是沒有找到，查找 "Feature N:" 註釋（不區分大小寫，允許冒號後的文字）
+        if (!foundSection) {
+          const featureCommentPattern = new RegExp(`\\{/\\*\\s*Feature\\s+${featureNum}[^}]*\\*\\/}`, 'i');
+          const featureCommentMatch = content.match(featureCommentPattern);
+          
+          if (featureCommentMatch) {
+            // 在註釋後查找包含圖片的 div（通常是 order-1 或 order-2）
+            const afterFeatureComment = content.slice(featureCommentMatch.index + featureCommentMatch[0].length);
+            
+            // 查找該 feature 區塊中的圖片 div
+            // Feature 區塊通常是：註釋 -> grid div -> 兩個 order div，圖片在其中一個
+            // 需要匹配完整的 grid div，包括所有嵌套的 div
+            let featureBlockMatch = null;
+            const gridDivStart = afterFeatureComment.match(/<div[^>]*grid[^>]*>/i);
+            if (gridDivStart) {
+              // 從 grid div 開始位置計算，找到對應的結束標籤
+              let depth = 0;
+              let pos = gridDivStart.index;
+              let found = false;
+              
+              while (pos < afterFeatureComment.length && !found) {
+                const nextOpen = afterFeatureComment.indexOf('<div', pos);
+                const nextClose = afterFeatureComment.indexOf('</div>', pos);
+                
+                if (nextClose === -1) break;
+                
+                if (nextOpen !== -1 && nextOpen < nextClose) {
+                  // 找到開始標籤
+                  depth++;
+                  pos = nextOpen + 4;
+                } else {
+                  // 找到結束標籤
+                  depth--;
+                  if (depth === 0) {
+                    // 找到對應的結束標籤
+                    const blockEnd = nextClose + 6;
+                    featureBlockMatch = {
+                      0: afterFeatureComment.slice(gridDivStart.index, blockEnd),
+                      index: gridDivStart.index
+                    };
+                    found = true;
+                  } else {
+                    pos = nextClose + 6;
+                  }
+                }
+              }
+            }
+            
+            if (featureBlockMatch) {
+              // 在 feature block 中查找圖片 div（order-1 或 order-2）
+              // 優先查找包含圖片的 div，如果沒有則查找空的 div
+              const imgDivWithImgPattern = /<div[^>]*order-[12][^>]*>[\s\S]*?<img[^>]*>/i;
+              const imgDivWithImgMatch = featureBlockMatch[0].match(imgDivWithImgPattern);
+              
+              if (imgDivWithImgMatch) {
+                // 替換現有圖片（支持跨多行的圖片標籤）
+                const existingImg = imgDivWithImgMatch[0].match(/<img[\s\S]*?\/>/i) || 
+                                   imgDivWithImgMatch[0].match(/<img[\s\S]*?<\/img>/i);
+                if (existingImg) {
+                  insertIndex = featureCommentMatch.index + featureCommentMatch[0].length + 
+                               featureBlockMatch.index + imgDivWithImgMatch.index + existingImg.index;
+                  content = content.slice(0, insertIndex) + 
+                           imgTag.replace(/\n\s+/g, '\n                ') + 
+                           content.slice(insertIndex + existingImg[0].length);
+                  modified = true;
+                  totalApplied++;
+                  appliedAssignments.push(assignment);
+                  console.log(`  ✓ ${page} - ${assignment.section}: ${imageFileName} (替換現有圖片)`);
+                  foundSection = true;
+                }
+              } else {
+                // 查找空的圖片 div（order-1 或 order-2），必須不包含文字內容標籤
+                // 文字內容 div 通常包含：<div（icon）、<h3、<p、<ul 等標籤
+                // 圖片 div 通常完全為空或只包含空白
+                const allOrderDivs = featureBlockMatch[0].match(/<div[^>]*order-[12][^>]*>[\s\S]*?<\/div>/gi);
+                
+                if (allOrderDivs) {
+                  // 查找不包含文字內容標籤的 div（即空的圖片 div）
+                  for (const div of allOrderDivs) {
+                    // 提取 div 的內容（去除開始和結束標籤）
+                    const divContent = div.replace(/<div[^>]*>/, '').replace(/<\/div>$/, '').trim();
+                    
+                    // 檢查是否包含文字內容標籤（排除 <img>）
+                    const hasTextContent = /<(?!img\s)[a-z]+[\s>]/i.test(divContent);
+                    
+                    // 如果沒有文字內容標籤，這就是空的圖片 div
+                    if (!hasTextContent) {
+                      const imgDivMatch = div.match(/<div[^>]*order-[12][^>]*>/i);
+                      if (imgDivMatch) {
+                        // 計算在原始內容中的位置
+                        const divIndex = featureBlockMatch[0].indexOf(div);
+                        insertIndex = featureCommentMatch.index + featureCommentMatch[0].length + 
+                                     featureBlockMatch.index + divIndex + imgDivMatch.index + imgDivMatch[0].length;
+                        content = content.slice(0, insertIndex) + 
+                                 `\n                ${imgTag}\n              ` + 
+                                 content.slice(insertIndex);
+                        modified = true;
+                        totalApplied++;
+                        appliedAssignments.push(assignment);
+                        console.log(`  ✓ ${page} - ${assignment.section}: ${imageFileName}`);
+                        foundSection = true;
+                        break;
+                      }
                     }
                   }
                 }
