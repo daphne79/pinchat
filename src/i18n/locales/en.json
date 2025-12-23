@@ -859,16 +859,16 @@
     }
   },
   "solutions": {
-    "inAppCustomerService": "In-App Customer Service",
-    "aiCustomerService": "AI Customer Service Bot",
-    "chatroomTeamManagement": "Chatroom Team Management",
+    "inAppCustomerService": "Real-time In-App Customer Service",
+    "aiCustomerService": "Customer Service Automation",
+    "chatroomTeamManagement": "Team Communication & Collaboration",
     "customerFeedbackAnalytics": "Customer Feedback Analytics",
-    "leadCaptureSurveys": "Lead Capture Surveys",
-    "multichannelMessaging": "Multichannel Messaging Hub",
+    "leadCaptureSurveys": "Lead Generation & Customer Insights",
+    "multichannelMessaging": "Multi-platform Message Integration",
     "inAppCustomerServicePage": {
       "hero": {
         "breadcrumb": "PinChat In-App Customer Service Solution",
-        "title": "Provide Real-Time Customer Support in Your App",
+        "title": "Complete Real-Time Customer Service in Your App",
         "subtitle": "Integrate customer service workflows into your app without native development—eliminate engineering costs for consistent, smooth in-app support.",
         "cta": "Enable Customer Service"
       },
@@ -951,7 +951,7 @@
     "aiCustomerServicePage": {
       "hero": {
         "breadcrumb": "PinChat Customer Service Automation Solution",
-        "title": "Build High-Efficiency Customer Service with AI",
+        "title": "Build High-Efficiency Customer Service Workflows",
         "subtitle": "Combine AI responses with human handoff for balanced efficiency, quality, and flexibility in customer service.",
         "cta": "Start Using AI Responses"
       },
@@ -1034,7 +1034,7 @@
     "chatroomTeamManagementPage": {
       "hero": {
         "breadcrumb": "PinChat Team Communication & Workflow Solution",
-        "title": "Enhance Team Collaboration Workflow",
+        "title": "Turn Chaotic Conversations into Organized Collaboration",
         "subtitle": "Organize conversations with unified tags, hierarchical folders, and granular permissions for efficient team collaboration.",
         "cta": "Start Improving Team Efficiency"
       },
@@ -1283,7 +1283,7 @@
     "multichannelMessagingPage": {
       "hero": {
         "breadcrumb": "PinChat Multichannel Messaging Management Solution",
-        "title": "Centralize All Cross-Platform Messages",
+        "title": "Centralize All Customer Messages",
         "subtitle": "Unify customer messages from LINE, WhatsApp, Messenger, and Instagram in one inbox for faster responses and consistent service.",
         "cta": "Start Integrating Messages"
       },

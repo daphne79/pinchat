@@ -885,16 +885,16 @@
 }
 },
   "solutions": {
-    "inAppCustomerService": "App 内客服解决方案",
-    "aiCustomerService": "AI 客户服务机器人",
-    "chatroomTeamManagement": "聊天室团队管理",
+    "inAppCustomerService": "App 内即时客服",
+    "aiCustomerService": "客服自动化",
+    "chatroomTeamManagement": "团队沟通与分工",
     "customerFeedbackAnalytics": "客户反馈分析",
-    "leadCaptureSurveys": "潜在客户调查",
-    "multichannelMessaging": "多渠道消息中心",
+    "leadCaptureSurveys": "导流与客户洞察",
+    "multichannelMessaging": "多平台消息整合",
     "inAppCustomerServicePage": {
       "hero": {
         "breadcrumb": "PinChat App 内客服解决方案",
-        "title": "在 App 中提供即时客服支持",
+        "title": "在 App 内完成即时客服互动",
         "subtitle": "将客服流程无缝导入 App，用户可在操作过程中直接启动对话并获得协助。通过 PinChat 免去原生开发成本，快速打造一致、流畅的 App 内客服体验。",
         "cta": "开始启用客服"
       },
@@ -977,7 +977,7 @@
     "aiCustomerServicePage": {
   "hero": {
     "breadcrumb": "PinChat 客服自动化解决方案",
-    "title": "用 AI 打造高效率客服",
+    "title": "打造高效率的客服流程",
     "subtitle": "全人工客服难以扩张，全 AI 又不易涵盖所有情境。PinChat 以混合式客服流程结合 AI 回复与人工接手，兼具效率、品质与弹性，协助企业快速提升整体服务体验。",
     "cta": "开始使用 AI 回复"
   },
@@ -1060,7 +1060,7 @@
 "chatroomTeamManagementPage": {
   "hero": {
     "breadcrumb": "PinChat 团队沟通分工解决方案",
-    "title": "强化团队协作流程",
+    "title": "把混乱对话变成有序协作",
     "subtitle": "以标签、资料夹与权限管理，打造清晰有序的客服协作流程。无论是分工、分类或跨部门协作，都能在单一介面中高效完成，让每位成员更快找到关键对话并专注处理客户需求。",
     "cta": "开始提升团队效率"
   },
@@ -1309,7 +1309,7 @@
 "multichannelMessagingPage": {
   "hero": {
     "breadcrumb": "PinChat 消息整合管理解决方案",
-    "title": "集中管理所有跨平台消息",
+    "title": "集中管理所有客户消息",
     "subtitle": "多渠道消息分散造成追踪困难与回复延迟。PinChat 将所有对话整合至单一界面，协助团队更快速回复、维持一致服务质量，全面提升客服效率与顾客体验。",
     "cta": "开始整合消息"
   },
