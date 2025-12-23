@@ -152,12 +152,6 @@ const ForRetailEcommerce = () => {
                       {t('retailEcommerce.salesAcceleration.responseCycles.description')}
                     </p>
                   </div>
-                  <div>
-                    <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-foreground mb-2">{t('retailEcommerce.salesAcceleration.returns.title')}</h3>
-                    <p className="text-sm sm:text-base text-muted-foreground">
-                      {t('retailEcommerce.salesAcceleration.returns.description')}
-                    </p>
-                  </div>
                 </div>
               </div>
             </div>

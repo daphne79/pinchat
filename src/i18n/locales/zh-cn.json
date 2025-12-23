@@ -1546,10 +1546,6 @@
   "responseCycles": {
     "title": "加速回应周期",
     "description": "透过提供即时且符合情境的答案，立即解决顾客疑虑，减少来回沟通。"
-  },
-  "returns": {
-    "title": "高效处理退换货",
-    "description": "记录退换货请求并快速处理退款，让团队能专注于建立顾客关系。"
   }
 },
 "exploreMore": {
