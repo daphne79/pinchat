@@ -970,8 +970,8 @@
         }
       },
       "cta": {
-        "title": "让 App 拥有完整客服体验",
-        "button": "开始使用 PinChat"
+        "title": "让客服成为 App 体验",
+        "button": "开始启用 App 内客服"
       }
     },
     "aiCustomerServicePage": {
@@ -1053,8 +1053,8 @@
     }
   },
   "cta": {
-    "title": "立即启动您的客服自动化流程",
-    "button": "免费开始使用"
+    "title": "让客服流程自动运转",
+    "button": "开始打造客服自动化"
   }
 },
 "chatroomTeamManagementPage": {
@@ -1136,8 +1136,8 @@
     }
   },
   "cta": {
-    "title": "开始打造高效协作流程",
-    "button": "立即免费试用"
+    "title": "让团队协作不再混乱",
+    "button": "开始优化团队协作"
   }
 },
 "customerFeedbackAnalyticsPage": {
@@ -1302,8 +1302,8 @@
     }
   },
   "cta": {
-    "title": "从互动开始，建立真正有用的客户洞察",
-    "button": "立即开始使用"
+    "title": "从互动开始，建立客户洞察",
+    "button": "开始建立客户洞察"
   }
 },
 "multichannelMessagingPage": {
@@ -1385,8 +1385,8 @@
     }
   },
   "cta": {
-    "title": "开始整合所有客服消息",
-    "button": "立即启用 PinChat"
+    "title": "集中管理所有客户消息",
+    "button": "开始整合多平台消息"
   }
 }
 },

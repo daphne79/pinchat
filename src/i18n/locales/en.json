@@ -944,8 +944,8 @@
         }
       },
       "cta": {
-        "title": "Give Your App a Complete Customer Service Experience",
-        "button": "Get Started with PinChat"
+        "title": "Make Customer Service Part of Your App Experience",
+        "button": "Start Enabling In-App Customer Service"
       }
     },
     "aiCustomerServicePage": {
@@ -1027,8 +1027,8 @@
         }
       },
       "cta": {
-        "title": "Start Your Customer Service Automation Process Now",
-        "button": "Start Free"
+        "title": "Let Customer Service Run Automatically",
+        "button": "Start Building Customer Service Automation"
       }
     },
     "chatroomTeamManagementPage": {
@@ -1110,8 +1110,8 @@
         }
       },
       "cta": {
-        "title": "Start Building Efficient Collaboration Workflows",
-        "button": "Start Free Trial Now"
+        "title": "Make Team Collaboration No Longer Chaotic",
+        "button": "Start Optimizing Team Collaboration"
       }
     },
     "customerFeedbackAnalyticsPage": {
@@ -1276,8 +1276,8 @@
         }
       },
       "cta": {
-        "title": "Start with Engagement, Build Truly Useful Customer Insights",
-        "button": "Get Started Now"
+        "title": "Start with Engagement, Build Customer Insights",
+        "button": "Start Building Customer Insights"
       }
     },
     "multichannelMessagingPage": {
@@ -1359,8 +1359,8 @@
         }
       },
       "cta": {
-        "title": "Start Integrating All Customer Service Messages",
-        "button": "Activate PinChat Now"
+        "title": "Centralize Management of All Customer Messages",
+        "button": "Start Integrating Multi-Platform Messages"
       }
     }
   },
