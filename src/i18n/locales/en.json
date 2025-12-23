@@ -1215,10 +1215,10 @@
       },
       "howPinChatHelps": {
         "title": "How PinChat Helps",
-        "description": "PinChat uses multi-entry lead generation, conversational surveys, and data integration to turn every interaction into observable customer feedback. From collection to organization, helping teams better understand needs and optimize marketing and service decisions.",
+        "description": "PinChat builds repeatable interactive collection workflows through multi-entry lead generation, conversational surveys, and backend data integration, helping teams collect feedback consistently and reduce manual organization costs.",
         "multiEntry": {
           "title": "More Centralized Multi-Entry Lead Generation",
-          "description": "Integrate Chat Widget, PinBoard, and social chat entry points to guide visitors into a unified interactive flow, reducing drop-offs and improving lead generation efficiency."
+          "description": "Integrate Chat Widget, Welcome Page, and social chat entry points to guide visitors into a unified interactive flow, reducing drop-offs and improving lead generation efficiency."
         },
         "conversationalSurvey": {
           "title": "Conversational Surveys Boost Engagement",
@@ -1231,7 +1231,7 @@
       },
       "benefits": {
         "title": "Benefits of Using PinChat",
-        "description": "Improve lead quality through high-interaction flows and transform collected information into understandable customer insights, enabling every interaction to support subsequent marketing and service optimization.",
+        "description": "When interactions and feedback are centrally organized, teams can better understand common needs and feedback directions as references for marketing and service adjustments. PinChat helps you systematically consolidate scattered conversations, enabling every interaction to be utilized.",
         "improveEfficiency": {
           "title": "Improve Lead Generation & Engagement Efficiency",
           "description": "Unified entry points and real-time interaction boost participation and reduce lead drop-offs."
