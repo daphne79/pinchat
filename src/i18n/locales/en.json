@@ -939,8 +939,8 @@
           "description": "Integrate messages from your app with LINE, IG, Messenger, and WhatsApp in one place."
         },
         "leadGeneration": {
-          "title": "Lead Generation and Information Collection",
-          "description": "Improve response rates through conversational workflows and collect user information for analysis and marketing."
+          "title": "Lead Generation & Customer Insights",
+          "description": "Transform lead generation into highly interactive, high-response data collection. PinChat not only helps you collect data, but also makes customer feedback and behavioral insights clearly visible."
         }
       },
       "cta": {
@@ -1014,12 +1014,12 @@
       "exploreUseCases": {
         "title": "Explore Other Use Cases",
         "leadCapture": {
-          "title": "Lead Capture Surveys",
-          "description": "Collect lead information through conversational surveys, improving conversion efficiency."
+          "title": "Lead Generation & Customer Insights",
+          "description": "Transform lead generation into highly interactive, high-response data collection. PinChat not only helps you collect data, but also makes customer feedback and behavioral insights clearly visible."
         },
-        "feedbackCollection": {
-          "title": "Feedback Collection",
-          "description": "Organize survey and conversation responses to quickly identify common issues and service bottlenecks."
+        "messageIntegration": {
+          "title": "Message Integration Management",
+          "description": "Integrate multi-platform conversations into a single interface for uninterrupted communication and complete context."
         },
         "workflowManagement": {
           "title": "Workflow Management",
@@ -1104,9 +1104,9 @@
           "title": "Unify Multi-Platform Messages",
           "description": "Integrate LINE, IG, Messenger, and WhatsApp for centralized collaboration."
         },
-        "analyzeFeedback": {
-          "title": "Analyze Feedback to Optimize Service",
-          "description": "Identify common issues and improvements through data to enhance service experience."
+        "leadCapture": {
+          "title": "Lead Generation & Customer Insights",
+          "description": "Transform lead generation into highly interactive, high-response data collection. PinChat not only helps you collect data, but also makes customer feedback and behavioral insights clearly visible."
         }
       },
       "cta": {
@@ -1188,8 +1188,8 @@
           "subtitle": "Integrate multi-platform conversations into a single interface for uninterrupted communication and complete context."
         },
         "leadCapture": {
-          "title": "Lead Capture & Information Collection",
-          "subtitle": "Use chat and conversational surveys to increase completion rates and collect complete customer data."
+          "title": "Lead Generation & Customer Insights",
+          "subtitle": "Transform lead generation into highly interactive, high-response data collection. PinChat not only helps you collect data, but also makes customer feedback and behavioral insights clearly visible."
         }
       },
       "cta": {
@@ -1270,9 +1270,9 @@
           "title": "Message Integration Management",
           "subtitle": "Integrate multi-platform messages in one backend to improve efficiency and avoid switching."
         },
-        "customerInsights": {
-          "title": "Customer Feedback Insights",
-          "subtitle": "Analyze survey and chat content trends to optimize service decisions."
+        "workflowManagement": {
+          "title": "Team Communication & Collaboration",
+          "subtitle": "Organize conversations with tags and folders for clearer, more efficient collaboration."
         }
       },
       "cta": {
@@ -1350,8 +1350,8 @@
           "description": "Smart replies handle high volumes of common questions, reducing workload while allowing instant human takeover."
         },
         "leadCapture": {
-          "title": "Lead Generation and Information Collection",
-          "description": "Collect customer information through conversational surveys for natural responses, better data quality, and quick follow-up."
+          "title": "Lead Generation & Customer Insights",
+          "description": "Transform lead generation into highly interactive, high-response data collection. PinChat not only helps you collect data, but also makes customer feedback and behavioral insights clearly visible."
         },
         "teamCollaboration": {
           "title": "Team Communication and Division of Labor",

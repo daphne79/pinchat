@@ -965,8 +965,8 @@
           "description": "整合 App 与 LINE／IG／Messenger／WhatsApp 消息，减少多平台切换。"
         },
         "leadGeneration": {
-          "title": "导流与信息收集",
-          "description": "以对话式流程提升填答率，并收集有助于后续分析与营销的用户信息。"
+          "title": "导流与客户洞察",
+          "description": "将导流流程转化为高互动、高回收的信息收集体验，让客户反馈与行为洞察清楚可见。"
         }
       },
       "cta": {
@@ -1039,13 +1039,13 @@
   },
   "exploreUseCases": {
     "title": "探索其他使用情境",
-    "leadCapture": {
-      "title": "导流问卷",
-      "description": "以对话式问卷搜集潜在客户信息，提高转换效率。"
-    },
-    "feedbackCollection": {
-      "title": "反馈分析",
-      "description": "整理问卷与对话回复，协助团队快速掌握常见问题与服务瓶颈。"
+        "leadCapture": {
+          "title": "导流与客户洞察",
+          "description": "将导流流程转化为高互动、高回收的信息收集体验，让客户反馈与行为洞察清楚可见。"
+        },
+    "messageIntegration": {
+      "title": "讯息整合管理",
+      "description": "整合多平台对话至单一介面，确保沟通不中断，并能更全面检视客户互动脉络。"
     },
     "workflowManagement": {
       "title": "聊天室工作管理",
@@ -1130,9 +1130,9 @@
       "title": "统一多平台讯息",
       "description": "整合 LINE、IG、Messenger、WhatsApp，减少切换、集中协作。"
     },
-    "analyzeFeedback": {
-      "title": "分析反馈优化服务",
-      "description": "以数据找出常见问题与改善方向，强化整体服务体验。"
+    "leadCapture": {
+      "title": "导流与客户洞察",
+      "description": "将导流流程转化为高互动、高回收的信息收集体验，让客户反馈与行为洞察清楚可见。"
     }
   },
   "cta": {
@@ -1214,8 +1214,8 @@
       "subtitle": "整合多平台对话至单一介面，确保沟通不中断，并能更全面检视客户互动脉络。"
     },
     "leadCapture": {
-      "title": "导流与信息收集",
-      "subtitle": "以聊天与对话式问卷引导互动，提升完成率并收集更完整的顾客资料。"
+      "title": "导流与客户洞察",
+      "subtitle": "将导流流程转化为高互动、高回收的信息收集体验，让客户反馈与行为洞察清楚可见。"
     }
   },
   "cta": {
@@ -1296,9 +1296,9 @@
       "title": "消息整合管理",
       "subtitle": "将多平台消息整合于单一后台，提升处理效率并避免平台切换。"
     },
-    "customerInsights": {
-      "title": "顾客反馈洞察",
-      "subtitle": "分析问卷与聊天内容趋势，协助商家优化服务决策。"
+    "workflowManagement": {
+      "title": "团队沟通与分工",
+      "subtitle": "以标签与文件夹组织对话，使客服协作流程更清晰、更有效率。"
     }
   },
   "cta": {

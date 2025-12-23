@@ -169,11 +169,11 @@ const ForB2BCommercial = () => {
               to="/industries/professional-services" 
               className="group overflow-hidden border bg-card hover:shadow-lg transition-all duration-300"
             >
-              <div className="aspect-video bg-muted overflow-hidden">
+              <div className="aspect-video bg-white overflow-hidden">
                 <img 
                   src={getAssetPath("/lovable-uploads/0c488cfa-6ba1-4c50-b52e-2437906a8102.png")} 
                   alt="Professional Services" 
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                  className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-300"
                 />
               </div>
               <div className="p-6">
@@ -190,11 +190,11 @@ const ForB2BCommercial = () => {
               to="/industries/real-estate" 
               className="group overflow-hidden border bg-card hover:shadow-lg transition-all duration-300"
             >
-              <div className="aspect-video bg-muted overflow-hidden">
+              <div className="aspect-video bg-white overflow-hidden">
                 <img 
                   src={getAssetPath("/lovable-uploads/b1eef0e6-e922-4863-bc03-f92dd32f0f46.png")} 
                   alt="Real Estate" 
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                  className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-300"
                 />
               </div>
               <div className="p-6">
@@ -211,11 +211,11 @@ const ForB2BCommercial = () => {
               to="/industries/events" 
               className="group overflow-hidden border bg-card hover:shadow-lg transition-all duration-300"
             >
-              <div className="aspect-video bg-muted overflow-hidden">
+              <div className="aspect-video bg-white overflow-hidden">
                 <img 
                   src={getAssetPath("/lovable-uploads/a1960abd-93f1-4a03-b109-230d06508316.png")} 
                   alt="Events" 
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                  className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-300"
                 />
               </div>
               <div className="p-6">

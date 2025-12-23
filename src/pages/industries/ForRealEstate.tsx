@@ -169,11 +169,11 @@ const ForRealEstate = () => {
               to="/industries/b2b-commercial" 
               className="group overflow-hidden border bg-card hover:shadow-lg transition-all duration-300"
             >
-              <div className="aspect-video bg-muted overflow-hidden">
+              <div className="aspect-video bg-white overflow-hidden">
                 <img 
                   src={getAssetPath("/lovable-uploads/48658c77-a953-49d3-8bc6-b3b56379bea1.png")} 
                   alt="B2B Commercial" 
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                  className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-300"
                 />
               </div>
               <div className="p-6">
@@ -190,11 +190,11 @@ const ForRealEstate = () => {
               to="/industries/professional-services" 
               className="group overflow-hidden border bg-card hover:shadow-lg transition-all duration-300"
             >
-              <div className="aspect-video bg-muted overflow-hidden">
+              <div className="aspect-video bg-white overflow-hidden">
                 <img 
                   src={getAssetPath("/lovable-uploads/0c488cfa-6ba1-4c50-b52e-2437906a8102.png")} 
                   alt="Professional Services" 
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                  className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-300"
                 />
               </div>
               <div className="p-6">
@@ -211,11 +211,11 @@ const ForRealEstate = () => {
               to="/industries/service-industries" 
               className="group overflow-hidden border bg-card hover:shadow-lg transition-all duration-300"
             >
-              <div className="aspect-video bg-muted overflow-hidden">
+              <div className="aspect-video bg-white overflow-hidden">
                 <img 
                   src={getAssetPath("/lovable-uploads/8816cd40-a898-4f73-91de-ea0b84f6aeac.png")} 
                   alt="Service Industries" 
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                  className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-300"
                 />
               </div>
               <div className="p-6">

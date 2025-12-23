@@ -169,11 +169,11 @@ const ForEducation = () => {
               to="/industries/retail-ecommerce" 
               className="group overflow-hidden border bg-card hover:shadow-lg transition-all duration-300"
             >
-              <div className="aspect-video bg-muted overflow-hidden">
+              <div className="aspect-video bg-white overflow-hidden">
                 <img 
                   src={getAssetPath("/lovable-uploads/f4f43fc8-86f7-459a-8ba8-a97d9cc3610d.png")} 
                   alt="Retail & E-commerce" 
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                  className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-300"
                 />
               </div>
               <div className="p-6">
@@ -190,11 +190,11 @@ const ForEducation = () => {
               to="/industries/service-industries" 
               className="group overflow-hidden border bg-card hover:shadow-lg transition-all duration-300"
             >
-              <div className="aspect-video bg-muted overflow-hidden">
+              <div className="aspect-video bg-white overflow-hidden">
                 <img 
                   src={getAssetPath("/lovable-uploads/8816cd40-a898-4f73-91de-ea0b84f6aeac.png")} 
                   alt="Service Industries" 
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                  className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-300"
                 />
               </div>
               <div className="p-6">
@@ -211,11 +211,11 @@ const ForEducation = () => {
               to="/industries/healthcare" 
               className="group overflow-hidden border bg-card hover:shadow-lg transition-all duration-300"
             >
-              <div className="aspect-video bg-muted overflow-hidden">
+              <div className="aspect-video bg-white overflow-hidden">
                 <img 
                   src={getAssetPath("/lovable-uploads/83071566-9a01-4643-a61a-b6e2437b6199.png")} 
                   alt="Healthcare" 
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                  className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-300"
                 />
               </div>
               <div className="p-6">

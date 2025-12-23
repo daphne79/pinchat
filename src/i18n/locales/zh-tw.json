@@ -939,8 +939,8 @@
           "description": "整合 App 與 LINE／IG／Messenger／WhatsApp 訊息，減少多平台切換。"
         },
         "leadGeneration": {
-          "title": "導流與資訊蒐集",
-          "description": "以對話式流程提升填答率，並蒐集有助於後續分析與行銷的使用者資訊。"
+          "title": "導流與客戶洞察",
+          "description": "將導流流程轉化為高互動、高回收的資訊蒐集體驗，讓客戶回饋與行為洞察清楚可見。"
         }
       },
       "cta": {
@@ -1014,12 +1014,12 @@
       "exploreUseCases": {
         "title": "探索其他使用情境",
         "leadCapture": {
-          "title": "導流問卷",
-          "description": "以對話式問卷蒐集潛在客戶資訊，提高轉換效率。"
+          "title": "導流與客戶洞察",
+          "description": "將導流流程轉化為高互動、高回收的資訊蒐集體驗，讓客戶回饋與行為洞察清楚可見。"
         },
-        "feedbackCollection": {
-          "title": "回饋分析",
-          "description": "整理問卷與對話回覆，協助團隊快速掌握常見問題與服務瓶頸。"
+        "messageIntegration": {
+          "title": "訊息整合管理",
+          "description": "整合多平台對話至單一介面，確保溝通不中斷，並能更全面檢視客戶互動脈絡。"
         },
         "workflowManagement": {
           "title": "聊天室工作管理",
@@ -1104,9 +1104,9 @@
           "title": "統一多平台訊息",
           "description": "整合 LINE、IG、Messenger、WhatsApp，減少切換、集中協作。"
         },
-        "analyzeFeedback": {
-          "title": "分析回饋優化服務",
-          "description": "以數據找出常見問題與改善方向，強化整體服務體驗。"
+        "leadCapture": {
+          "title": "導流與客戶洞察",
+          "description": "將導流流程轉化為高互動、高回收的資訊蒐集體驗，讓客戶回饋與行為洞察清楚可見。"
         }
       },
       "cta": {
@@ -1188,8 +1188,8 @@
           "subtitle": "整合多平台對話至單一介面，確保溝通不中斷，並能更全面檢視客戶互動脈絡。"
         },
         "leadCapture": {
-          "title": "導流與資訊蒐集",
-          "subtitle": "以聊天與對話式問卷引導互動，提升完成率並收集更完整的顧客資料。"
+          "title": "導流與客戶洞察",
+          "subtitle": "將導流流程轉化為高互動、高回收的資訊蒐集體驗，讓客戶回饋與行為洞察清楚可見。"
         }
       },
       "cta": {
@@ -1270,9 +1270,9 @@
           "title": "訊息整合管理",
           "subtitle": "將多平台訊息整合於單一後台，提升處理效率並避免平台切換。"
         },
-        "customerInsights": {
-          "title": "顧客回饋洞察",
-          "subtitle": "分析問卷與聊天內容趨勢，協助商家優化服務決策。"
+        "workflowManagement": {
+          "title": "團隊溝通與分工",
+          "subtitle": "以標籤與資料夾組織對話，使客服協作流程更清晰、更有效率。"
         }
       },
       "cta": {
@@ -1350,8 +1350,8 @@
           "description": "智能回覆可處理大量常見問題，減少人工負擔，同時保留人工即時接手的彈性，提升整體客服效率。"
         },
         "leadCapture": {
-          "title": "導流與資訊蒐集",
-          "description": "以對話式問卷蒐集顧客資訊，讓填答更自然，提高資料品質並能即時轉換為後續行動。"
+          "title": "導流與客戶洞察",
+          "description": "將導流流程轉化為高互動、高回收的資訊蒐集體驗，讓客戶回饋與行為洞察清楚可見。"
         },
         "teamCollaboration": {
           "title": "團隊溝通分工",

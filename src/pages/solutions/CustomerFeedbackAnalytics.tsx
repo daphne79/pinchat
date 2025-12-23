@@ -220,12 +220,12 @@ const CustomerFeedbackAnalytics = () => {
               {t('solutions.customerFeedbackAnalyticsPage.exploreUseCases.title')}
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
-              <div className="group overflow-hidden border bg-card hover:shadow-lg transition-all duration-300">
-                <div className="aspect-video bg-muted overflow-hidden">
+              <Link to="/solutions/ai-customer-service-bot" className="group overflow-hidden border bg-card hover:shadow-lg transition-all duration-300">
+                <div className="aspect-video bg-white overflow-hidden">
                   <img 
-                    src={getAssetPath("/lovable-uploads/f4f43fc8-86f7-459a-8ba8-a97d9cc3610d.png")} 
+                    src={getAssetPath("/lovable-uploads/ai-customer-service-bot-hero.png")} 
                     alt={t('solutions.customerFeedbackAnalyticsPage.exploreUseCases.customerServiceAutomation.title')}
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                    className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-300"
                   />
                 </div>
                 <div className="p-6">
@@ -236,13 +236,13 @@ const CustomerFeedbackAnalytics = () => {
                     {t('solutions.customerFeedbackAnalyticsPage.exploreUseCases.customerServiceAutomation.subtitle')}
                   </p>
                 </div>
-              </div>
-              <div className="group overflow-hidden border bg-card hover:shadow-lg transition-all duration-300">
-                <div className="aspect-video bg-muted overflow-hidden">
+              </Link>
+              <Link to="/solutions/multichannel-messaging-hub" className="group overflow-hidden border bg-card hover:shadow-lg transition-all duration-300">
+                <div className="aspect-video bg-white overflow-hidden">
                   <img 
-                    src={getAssetPath("/lovable-uploads/f4f43fc8-86f7-459a-8ba8-a97d9cc3610d.png")} 
+                    src={getAssetPath("/lovable-uploads/a61b9a5a-7234-4e21-b05a-03750511fa6b.png")} 
                     alt={t('solutions.customerFeedbackAnalyticsPage.exploreUseCases.messageIntegration.title')}
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                    className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-300"
                   />
                 </div>
                 <div className="p-6">
@@ -253,13 +253,13 @@ const CustomerFeedbackAnalytics = () => {
                     {t('solutions.customerFeedbackAnalyticsPage.exploreUseCases.messageIntegration.subtitle')}
                   </p>
                 </div>
-              </div>
-              <div className="group overflow-hidden border bg-card hover:shadow-lg transition-all duration-300">
-                <div className="aspect-video bg-muted overflow-hidden">
+              </Link>
+              <Link to="/solutions/lead-capture-surveys" className="group overflow-hidden border bg-card hover:shadow-lg transition-all duration-300">
+                <div className="aspect-video bg-white overflow-hidden">
                   <img 
-                    src={getAssetPath("/lovable-uploads/f4f43fc8-86f7-459a-8ba8-a97d9cc3610d.png")} 
+                    src={getAssetPath("/lovable-uploads/lead-capture-survey-hero.png")} 
                     alt={t('solutions.customerFeedbackAnalyticsPage.exploreUseCases.leadCapture.title')}
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                    className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-300"
                   />
                 </div>
                 <div className="p-6">
@@ -270,7 +270,7 @@ const CustomerFeedbackAnalytics = () => {
                     {t('solutions.customerFeedbackAnalyticsPage.exploreUseCases.leadCapture.subtitle')}
                   </p>
                 </div>
-              </div>
+              </Link>
             </div>
           </div>
         </section>
