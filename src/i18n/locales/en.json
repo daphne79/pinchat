@@ -1215,7 +1215,7 @@
       },
       "howPinChatHelps": {
         "title": "How PinChat Helps",
-        "description": "PinChat builds repeatable interactive collection workflows through multi-entry lead generation, conversational surveys, and backend data integration, helping teams collect feedback consistently and reduce manual organization costs.",
+        "description": "PinChat combines multi-entry lead generation, conversational surveys, and backend data integration to create repeatable feedback collection workflows.",
         "multiEntry": {
           "title": "More Centralized Multi-Entry Lead Generation",
           "description": "Integrate Chat Widget, Welcome Page, and social chat entry points to guide visitors into a unified interactive flow, reducing drop-offs and improving lead generation efficiency."
@@ -1231,7 +1231,7 @@
       },
       "benefits": {
         "title": "Benefits of Using PinChat",
-        "description": "When interactions and feedback are centrally organized, teams can better understand common needs and feedback directions as references for marketing and service adjustments. PinChat helps you systematically consolidate scattered conversations, enabling every interaction to be utilized.",
+        "description": "By consolidating interactions in one place, teams can easily review feedback and use it as a reference for marketing and service adjustments.",
         "improveEfficiency": {
           "title": "Improve Lead Generation & Engagement Efficiency",
           "description": "Unified entry points and real-time interaction boost participation and reduce lead drop-offs."
