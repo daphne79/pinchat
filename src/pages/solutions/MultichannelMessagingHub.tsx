@@ -127,9 +127,10 @@ const MultichannelMessagingHub = () => {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div className="order-2 lg:order-1 overflow-hidden">
                 <img 
-                  src={getAssetPath("/lovable-uploads/a61b9a5a-7234-4e21-b05a-03750511fa6b.png")} 
-                  alt="PinChat benefits dashboard" 
-                  className="w-full h-auto"
+                src={getAssetPath("/lovable-uploads/multichannel-feat2.png")} 
+                alt="multichannel-feat2" 
+                className="w-full h-auto" 
+                loading="lazy" 
                 />
               </div>
               <div className="order-1 lg:order-2">
