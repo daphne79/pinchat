@@ -1201,48 +1201,48 @@
       "hero": {
         "breadcrumb": "PinChat Lead Generation & Customer Insights Solution",
         "title": "Turn Every Lead into Effective Engagement",
-        "subtitle": "Transform lead generation with highly interactive conversational flows for better response rates and actionable information.",
-        "cta": "Get Started Now"
+        "subtitle": "Transform lead generation into highly interactive, high-response data collection. PinChat not only helps you collect data, but also makes customer feedback and behavioral insights clearly visible.",
+        "cta": "Start Building Effective Engagement"
       },
       "challenges": {
-        "title": "Challenges in Lead Generation & Information Collection",
+        "title": "Challenges in Lead Generation & Customer Insights",
         "items": {
           "lowResponseRate": "Lengthy traditional forms lack interactivity, lowering response rates",
           "scatteredEntries": "Scattered lead entry points make centralized visitor guidance difficult",
-          "lackFeedback": "No real-time feedback reduces engagement and completion willingness",
-          "scatteredData": "Scattered collected information hinders follow-up and marketing"
+          "lackFeedback": "Lack of real-time feedback makes it hard to understand customer needs",
+          "scatteredData": "Scattered collected information makes it difficult to form actionable insights"
         }
       },
       "howPinChatHelps": {
         "title": "How PinChat Helps",
-        "description": "Transform lead generation with multi-entry points, conversational surveys, and data integration for natural guidance and conversion support.",
+        "description": "PinChat uses multi-entry lead generation, conversational surveys, and data integration to turn every interaction into observable customer feedback. From collection to organization, helping teams better understand needs and optimize marketing and service decisions.",
         "multiEntry": {
           "title": "More Centralized Multi-Entry Lead Generation",
-          "description": "Integrate Chat Widget, Welcome Page, and social media entry points into a unified flow—improving concentration and reducing drop-offs."
+          "description": "Integrate Chat Widget, PinBoard, and social chat entry points to guide visitors into a unified interactive flow, reducing drop-offs and improving lead generation efficiency."
         },
         "conversationalSurvey": {
-          "title": "Conversational Surveys Improve Response Rates",
-          "description": "Guide users step-by-step in chat-like format, reducing completion pressure—ideal for needs collection, event registration, and pre-sales."
+          "title": "Conversational Surveys Boost Engagement",
+          "description": "Guide users step-by-step through chat-like interactions to complete responses, reducing completion burden and improving engagement and data quality."
         },
         "dataIntegration": {
-          "title": "Data Integration for Easier Follow-up Use",
-          "description": "Automatically consolidate survey and chat content with clear source and response records for efficient marketing and follow-up."
+          "title": "Feedback Organization for Better Observation",
+          "description": "Automatically consolidate survey and chat content in the backend, helping you quickly identify common needs and feedback trends as key inputs for marketing adjustments and service optimization."
         }
       },
       "benefits": {
         "title": "Benefits of Using PinChat",
-        "description": "Improve lead quality and obtain complete customer information for marketing and conversion strategies that deliver results.",
+        "description": "Improve lead quality through high-interaction flows and transform collected information into understandable customer insights, enabling every interaction to support subsequent marketing and service optimization.",
         "improveEfficiency": {
           "title": "Improve Lead Generation & Engagement Efficiency",
-          "description": "Unified interactive entry point enhances lead concentration and participation quality."
+          "description": "Unified entry points and real-time interaction boost participation and reduce lead drop-offs."
         },
         "completeInfo": {
-          "title": "Obtain More Complete Customer Information",
-          "description": "High-interaction flows increase response rates and collect structured data."
+          "title": "Obtain High-Quality Customer Information",
+          "description": "Collect structured data through natural interactive flows, improving information completeness and usability."
         },
         "supportMarketing": {
-          "title": "Support Subsequent Marketing & Follow-up",
-          "description": "Integrated information enables targeted promotion and subsequent marketing."
+          "title": "Support Subsequent Marketing & Customer Insights",
+          "description": "Transform interaction processes into observable feedback information, helping teams better understand what customers care about."
         }
       },
       "recommendedFeatures": {
@@ -1276,7 +1276,7 @@
         }
       },
       "cta": {
-        "title": "Improve Lead Generation & Data Results with Better Interactive Flows",
+        "title": "Start with Engagement, Build Truly Useful Customer Insights",
         "button": "Get Started Now"
       }
     },
