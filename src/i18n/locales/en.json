@@ -1297,7 +1297,7 @@
         }
       },
       "howPinChatHelps": {
-        "title": "Integrate All Messages in One Interface",
+        "title": "How PinChat Helps",
         "description": "Centralize social media and website messages; organize with tags, folders, and search; handle common questions with smart replies for human-focused interactions.",
         "integrateAll": {
           "title": "Integrate All Social Media and Website Messages",
@@ -1313,7 +1313,7 @@
         }
       },
       "benefits": {
-        "title": "Comprehensively Improve Customer Service Efficiency and Quality",
+        "title": "Benefits of Using PinChat",
         "description": "Unified management reduces processing time and error risks while maintaining consistent service quality across channels for faster responses.",
         "reduceGaps": {
           "title": "Reduce Communication Gaps and Preserve Context",
