@@ -73,6 +73,7 @@ const ForRetailEcommerce = () => {
         </section>
 
         {/* Plan your customer engagement - Left/Right Layout */}
+        {/* useCase1 */}
         <section className="py-24 bg-background px-4 sm:px-6 md:px-8 lg:px-12">
           <div className="container mx-auto">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
@@ -106,7 +107,7 @@ const ForRetailEcommerce = () => {
               </div>
               <div className="rounded-lg overflow-hidden">
                 <img 
-                  src={getAssetPath("/lovable-uploads/f4f43fc8-86f7-459a-8ba8-a97d9cc3610d.png")} 
+                  src={getAssetPath("/lovable-uploads/ecommerce_feat1.png")} 
                   alt="Customer service dashboard" 
                   className="w-full h-auto"
                 />
@@ -116,12 +117,13 @@ const ForRetailEcommerce = () => {
         </section>
 
         {/* Don't let communication slow down sales - Right/Left Layout */}
+        {/* useCase2 */}
         <section className="py-24 bg-muted/30 px-4 sm:px-6 md:px-8 lg:px-12">
           <div className="container mx-auto">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div className="order-2 lg:order-1 overflow-hidden">
                 <img 
-                  src={getAssetPath("/lovable-uploads/f4f43fc8-86f7-459a-8ba8-a97d9cc3610d.png")} 
+                  src={getAssetPath("/lovable-uploads/ecommerce_feat2.png")} 
                   alt="Customer engagement dashboard" 
                   className="w-full h-auto"
                 />

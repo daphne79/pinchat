@@ -439,6 +439,64 @@ for (const [page, pageAssignments] of Object.entries(assignmentsByPage)) {
         }
       }
     }
+    // 對於 useCase1-3 (Industries 頁面)
+    else if (normalizedSection.startsWith('usecase')) {
+      const useCaseNum = normalizedSection.replace('usecase', '').trim();
+      
+      if (/^[1-3]$/.test(useCaseNum)) {
+        // 查找 useCase 註釋（如 {/* useCase1 */}）
+        const useCaseCommentPattern = new RegExp(`\\{/\\*\\s*useCase${useCaseNum}\\s*\\*\\/}`, 'i');
+        const useCaseCommentMatch = content.match(useCaseCommentPattern);
+        
+        if (useCaseCommentMatch) {
+          // 在註釋後查找圖片（支持跨多行的圖片標籤）
+          const afterUseCaseComment = content.slice(useCaseCommentMatch.index + useCaseCommentMatch[0].length);
+          
+          // 查找該 section 中的圖片（通常在 grid div 中的 order div 或 rounded-lg div 內）
+          const imgInSectionPattern = /<div[^>]*(?:order-[12]|rounded-lg|overflow-hidden)[^>]*>[\s\S]*?<img[^>]*>/i;
+          const imgInSectionMatch = afterUseCaseComment.match(imgInSectionPattern);
+          
+          if (imgInSectionMatch) {
+            // 找到圖片標籤（支持跨多行的圖片標籤）
+            const imgMatch = imgInSectionMatch[0].match(/<img[\s\S]*?\/>/i) || 
+                            imgInSectionMatch[0].match(/<img[\s\S]*?<\/img>/i);
+            if (imgMatch) {
+              insertIndex = useCaseCommentMatch.index + useCaseCommentMatch[0].length + 
+                           imgInSectionMatch.index + imgMatch.index;
+              content = content.slice(0, insertIndex) + 
+                       imgTag.replace(/\n\s+/g, '\n                ') + 
+                       content.slice(insertIndex + imgMatch[0].length);
+              modified = true;
+              totalApplied++;
+              appliedAssignments.push(assignment);
+              console.log(`  ✓ ${page} - ${assignment.section}: ${imageFileName} (替換現有圖片 - useCase${useCaseNum})`);
+              foundSection = true;
+            }
+          } else {
+            // 如果沒有找到包含圖片的 div，直接查找 section 內的第一個圖片
+            // 限制搜索範圍在該 section 內（到下一個 section 或 </section> 為止）
+            const sectionEndMatch = afterUseCaseComment.match(/<\/section>/i);
+            const searchRange = sectionEndMatch ? 
+              afterUseCaseComment.slice(0, sectionEndMatch.index) : 
+              afterUseCaseComment;
+            
+            const directImgMatch = searchRange.match(/<img[\s\S]*?\/>/i) || 
+                                  searchRange.match(/<img[\s\S]*?<\/img>/i);
+            if (directImgMatch) {
+              insertIndex = useCaseCommentMatch.index + useCaseCommentMatch[0].length + directImgMatch.index;
+              content = content.slice(0, insertIndex) + 
+                       imgTag.replace(/\n\s+/g, '\n                ') + 
+                       content.slice(insertIndex + directImgMatch[0].length);
+              modified = true;
+              totalApplied++;
+              appliedAssignments.push(assignment);
+              console.log(`  ✓ ${page} - ${assignment.section}: ${imageFileName} (替換現有圖片 - useCase${useCaseNum} - 直接匹配)`);
+              foundSection = true;
+            }
+          }
+        }
+      }
+    }
     
     // 如果找不到 section，在文件末尾插入
     if (!foundSection) {
