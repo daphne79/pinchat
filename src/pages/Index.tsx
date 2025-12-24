@@ -38,7 +38,7 @@ const Index = () => {
       <main>
         {/* Hero */}
         <section className="container mx-auto flex flex-col gap-6 py-16 md:py-24 px-4 sm:px-6 md:px-8 lg:px-12">
-          <h1 className="text-3xl font-bold tracking-wide text-center leading-normal lg:leading-[1.2] sm:text-4xl md:text-5xl lg:text-6xl xl:text-[72px] max-w-4xl mx-auto">
+          <h1 className={`text-3xl font-bold tracking-wide text-center leading-normal lg:leading-[1.2] sm:text-4xl md:text-5xl lg:text-6xl xl:text-[72px] ${i18n.language.startsWith('zh') ? 'whitespace-nowrap' : 'max-w-4xl mx-auto'}`}>
             {tFixed('hero.title')}
           </h1>
           <p className="text-base text-muted-foreground text-center sm:text-lg max-w-4xl mx-auto">
