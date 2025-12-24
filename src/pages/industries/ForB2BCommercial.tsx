@@ -73,6 +73,7 @@ const ForB2BCommercial = () => {
         </section>
 
         {/* PinChat 在此情境下的使用方式 - Left/Right Layout */}
+        {/* useCase1 */}
         <section className="py-24 bg-background px-4 sm:px-6 md:px-8 lg:px-12">
           <div className="container mx-auto">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
@@ -116,6 +117,7 @@ const ForB2BCommercial = () => {
         </section>
 
         {/* PinChat 在此情境下帶來的效益 - Right/Left Layout */}
+        {/* useCase2 */}
         <section className="py-24 bg-muted/30 px-4 sm:px-6 md:px-8 lg:px-12">
           <div className="container mx-auto">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">

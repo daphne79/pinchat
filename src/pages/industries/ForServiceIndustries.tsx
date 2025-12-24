@@ -73,6 +73,7 @@ const ForServiceIndustries = () => {
         </section>
 
         {/* Plan your customer engagement - Left/Right Layout */}
+        {/* useCase1 */}
         <section className="py-24 bg-background px-4 sm:px-6 md:px-8 lg:px-12">
           <div className="container mx-auto">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
@@ -106,7 +107,7 @@ const ForServiceIndustries = () => {
               </div>
               <div className="rounded-lg overflow-hidden">
                 <img 
-                  src={getAssetPath("/lovable-uploads/8816cd40-a898-4f73-91de-ea0b84f6aeac.png")} 
+                  src={getAssetPath("/lovable-uploads/service_feat1.png")} 
                   alt="Service engagement dashboard" 
                   className="w-full h-auto"
                 />
@@ -116,12 +117,13 @@ const ForServiceIndustries = () => {
         </section>
 
         {/* Don't let communication slow down service - Right/Left Layout */}
+        {/* useCase2 */}
         <section className="py-24 bg-muted/30 px-4 sm:px-6 md:px-8 lg:px-12">
           <div className="container mx-auto">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div className="order-2 lg:order-1 overflow-hidden">
                 <img 
-                  src={getAssetPath("/lovable-uploads/8816cd40-a898-4f73-91de-ea0b84f6aeac.png")} 
+                  src={getAssetPath("/lovable-uploads/service_feat2.png")} 
                   alt="Service communication dashboard" 
                   className="w-full h-auto"
                 />
