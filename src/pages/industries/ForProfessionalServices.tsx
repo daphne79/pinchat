@@ -107,9 +107,10 @@ const ForProfessionalServices = () => {
               </div>
               <div className="rounded-lg overflow-hidden">
                 <img 
-                  src={getAssetPath("/lovable-uploads/0c488cfa-6ba1-4c50-b52e-2437906a8102.png")} 
-                  alt="Professional services customer service dashboard" 
-                  className="w-full h-auto"
+                src={getAssetPath("/lovable-uploads/Professional services_feat1.png")} 
+                alt="Professional services_feat1" 
+                className="w-full h-auto" 
+                loading="lazy" 
                 />
               </div>
             </div>
@@ -123,9 +124,10 @@ const ForProfessionalServices = () => {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div className="order-2 lg:order-1 overflow-hidden">
                 <img 
-                  src={getAssetPath("/lovable-uploads/0c488cfa-6ba1-4c50-b52e-2437906a8102.png")} 
-                  alt="Professional services onboarding dashboard" 
-                  className="w-full h-auto"
+                src={getAssetPath("/lovable-uploads/Professional services_feat2.png")} 
+                alt="Professional services_feat2" 
+                className="w-full h-auto" 
+                loading="lazy" 
                 />
               </div>
               <div className="order-1 lg:order-2">
