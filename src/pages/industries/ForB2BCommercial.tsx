@@ -107,9 +107,10 @@ const ForB2BCommercial = () => {
               </div>
               <div className="rounded-lg overflow-hidden">
                 <img 
-                  src={getAssetPath("/lovable-uploads/48658c77-a953-49d3-8bc6-b3b56379bea1.png")} 
-                  alt="B2B communication dashboard" 
-                  className="w-full h-auto"
+                src={getAssetPath("/lovable-uploads/b2b_feat1.png")} 
+                alt="b2b_feat1" 
+                className="w-full h-auto" 
+                loading="lazy" 
                 />
               </div>
             </div>
@@ -123,9 +124,10 @@ const ForB2BCommercial = () => {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div className="order-2 lg:order-1 overflow-hidden">
                 <img 
-                  src={getAssetPath("/lovable-uploads/48658c77-a953-49d3-8bc6-b3b56379bea1.png")} 
-                  alt="B2B benefits dashboard" 
-                  className="w-full h-auto"
+                src={getAssetPath("/lovable-uploads/b2b_feat2.png")} 
+                alt="b2b_feat2" 
+                className="w-full h-auto" 
+                loading="lazy" 
                 />
               </div>
               <div className="order-1 lg:order-2">
