@@ -107,9 +107,10 @@ const ForRealEstate = () => {
               </div>
               <div className="rounded-lg overflow-hidden">
                 <img 
-                  src={getAssetPath("/lovable-uploads/b1eef0e6-e922-4863-bc03-f92dd32f0f46.png")} 
-                  alt="Real estate customer service dashboard" 
-                  className="w-full h-auto"
+                src={getAssetPath("/lovable-uploads/real estate_feat1.png")} 
+                alt="real estate_feat1" 
+                className="w-full h-auto" 
+                loading="lazy" 
                 />
               </div>
             </div>
@@ -123,9 +124,10 @@ const ForRealEstate = () => {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div className="order-2 lg:order-1 overflow-hidden">
                 <img 
-                  src={getAssetPath("/lovable-uploads/b1eef0e6-e922-4863-bc03-f92dd32f0f46.png")} 
-                  alt="Real estate engagement dashboard" 
-                  className="w-full h-auto"
+                src={getAssetPath("/lovable-uploads/real estate_feat2.png")} 
+                alt="real estate_feat2" 
+                className="w-full h-auto" 
+                loading="lazy" 
                 />
               </div>
               <div className="order-1 lg:order-2">
