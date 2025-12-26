@@ -812,7 +812,7 @@
     "education": "Education",
     "realEstate": "Real Estate",
     "events": "Events",
-    "professionalServices": "Professional Services",
+    "professionalServices": "Consulting Services",
     "serviceIndustries": "Service Industries",
     "b2bCommercial": "B2B Commercial",
     "b2bCommercialPage": {
@@ -1581,7 +1581,7 @@
         "description": "Enhance business communication efficiency, shortening business turnaround time."
       },
       "professionalServices": {
-        "title": "PinChat for Professional Services",
+        "title": "PinChat for Consulting Services",
         "description": "Enhance consultation and onboarding to help clients understand service offerings faster."
       },
       "serviceIndustries": {
@@ -1717,7 +1717,7 @@
         "description": "Respond to product and order-related questions, supporting key communication before and after purchase."
       },
       "professionalServices": {
-        "title": "PinChat for Professional Services",
+        "title": "PinChat for Consulting Services",
         "description": "Enhance consultation and onboarding to help clients understand service offerings faster."
       },
       "realEstate": {
@@ -1917,7 +1917,7 @@
     "exploreMore": {
       "title": "Explore more ways to use PinChat",
       "professionalServices": {
-        "title": "PinChat for Professional Services",
+        "title": "PinChat for Consulting Services",
         "description": "Enhance consultation and onboarding to help clients understand service offerings faster."
       },
       "realEstate": {
@@ -1936,13 +1936,13 @@
   },
   "professionalServices": {
     "hero": {
-      "breadcrumb": "PinChat for Professional Services",
+      "breadcrumb": "PinChat for Consulting Services",
       "title": "Enhance consultation and onboarding experience",
-      "subtitle": "Centralize messages, standardize responses, and guide clients through service offerings with AI—freeing your team for work requiring professional judgment.",
+      "subtitle": "Centralize messages, standardize responses, and guide clients through service offerings with AI—freeing your consulting team for work requiring strategic judgment.",
       "cta": "Get Started with PinChat"
     },
     "whyUse": {
-      "title": "Why Professional Service Teams Choose PinChat",
+      "title": "Why Consulting Service Teams Choose PinChat",
       "items": {
         "centralizeInquiries": "Centralize multi-platform client consultations",
         "aiReply": "AI handles administrative questions, reducing repetitive workload",
@@ -1955,7 +1955,7 @@
       "description": "Guide clients through pricing, service content, and processes with integrated messages and standardized responses—reducing communication gaps and enhancing onboarding.",
       "quickReply": {
         "title": "Quickly reply to pricing and collaboration processes",
-        "description": "AI PinBot handles billing methods, service scope, required documents, and consultation processes based on pre-configured FAQs."
+        "description": "AI Chatbot handles billing methods, service scope, required documents, and consultation processes based on pre-configured FAQs."
       },
       "consistentService": {
         "title": "Provide consistent service introductions and standardized content",
@@ -1968,7 +1968,7 @@
     },
     "benefits": {
       "title": "Improve onboarding efficiency and focus on high-value services",
-      "description": "Reduce time on repetitive communication to focus on strategy, analysis, and judgment—while helping clients understand services faster.",
+      "description": "Reduce time on repetitive communication so your consulting team can focus on strategy, analysis, and judgment—while helping clients understand services faster.",
       "improveResponse": {
         "title": "Improve initial consultation response quality and speed",
         "description": "AI and preset replies provide clear answers, accelerating client understanding."

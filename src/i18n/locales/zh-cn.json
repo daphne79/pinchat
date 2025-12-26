@@ -838,7 +838,7 @@
 "education": "教育",
 "realEstate": "房地产",
 "events": "活动",
-"professionalServices": "专业服务",
+    "professionalServices": "顾问服务",
 "serviceIndustries": "服务业",
 "b2bCommercial": "B2B 商业",
 "b2bCommercialPage": {
@@ -1623,10 +1623,10 @@
     "title": "PinChat B2B 解决方案",
     "description": "提升商务沟通效率，缩短商务往返时间。"
   },
-  "professionalServices": {
-    "title": "PinChat 专业服务解决方案",
-    "description": "提升咨询与导入体验，协助客户快速了解服务内容。"
-  },
+      "professionalServices": {
+        "title": "PinChat 顾问服务解决方案",
+        "description": "提升咨询与导入体验，协助客户快速了解服务内容。"
+      },
   "serviceIndustries": {
     "title": "PinChat 服务业解决方案",
     "description": "管理服务前后的顾客询问，维持流畅体验。"
@@ -1759,10 +1759,10 @@
       "title": "PinChat 零售与电商解决方案",
       "description": "回覆商品与订单相关问题，协助购买前后的关键沟通。"
     },
-    "professionalServices": {
-      "title": "PinChat 专业服务解决方案",
-      "description": "提升咨询与导入体验，协助客户快速了解服务内容。"
-    },
+      "professionalServices": {
+        "title": "PinChat 顾问服务解决方案",
+        "description": "提升咨询与导入体验，协助客户快速了解服务内容。"
+      },
     "realEstate": {
       "title": "PinChat 房地产解决方案",
       "description": "即时提升物件询问效率，协助房仲团队快速提供资讯。"
@@ -1854,7 +1854,7 @@
       "reduceBurden": "降低回覆负担，缩短使用者等待时间",
       "aiInfo": "AI 自动提供卫教与健康方案资讯",
       "multilingual": "跨语言支援，扩大可服务族群",
-      "focusOnValue": "让团队专注在更高价值的专业服务"
+        "focusOnValue": "让团队专注在更高价值的顾问服务"
     }
   },
   "usage": {
@@ -1911,13 +1911,13 @@
 },
 "professionalServices": {
   "hero": {
-    "breadcrumb": "PinChat 专业服务解决方案",
+    "breadcrumb": "PinChat 顾问服务解决方案",
     "title": "提升咨询与导入体验",
-    "subtitle": "专业服务团队面对大量初次咨询、收费方式询问与流程导览需求。PinChat 透过集中讯息与标准化回覆，引导客户快速了解服务内容，并协助团队省下大量行政时间，将心力投入真正需要专业判断的分析与咨询工作。",
+    "subtitle": "顾问服务团队面对大量初次咨询、收费方式询问与流程导览需求。PinChat 透过集中讯息与标准化回覆，引导客户快速了解服务内容，并协助团队省下大量行政时间，将心力投入真正需要专业判断的分析与咨询工作。",
     "cta": "开始使用 PinChat"
   },
   "whyUse": {
-    "title": "为什么专业服务团队选择 PinChat",
+    "title": "为什么顾问服务团队选择 PinChat",
     "items": {
       "centralizeInquiries": "统一管理多平台客户初次咨询",
       "aiReply": "AI 回覆行政性问题减少重复工作量",
@@ -1927,7 +1927,7 @@
   },
   "usage": {
     "title": "协助客户顺利了解服务并进入合作流程",
-    "description": "在专业服务产业，初次咨询的清晰度与资讯取得速度，会直接影响客户对服务的理解与信任。PinChat 透过整合讯息来源与可设定的标准化回答，协助团队引导客户掌握收费方式、服务内容与流程，减少沟通落差并提升导入体验。",
+    "description": "在顾问服务产业，初次咨询的清晰度与资讯取得速度，会直接影响客户对服务的理解与信任。PinChat 透过整合讯息来源与可设定的标准化回答，协助团队引导客户掌握收费方式、服务内容与流程，减少沟通落差并提升导入体验。",
     "quickReply": {
       "title": "快速回覆收费方式与合作流程",
       "description": "AI 聊天机器人依据预先设定的常见问题回覆常见行政性问题，例如计费方式、服务范围、准备文件与咨询流程，让客户能立即取得核心资讯。"
@@ -1943,7 +1943,7 @@
   },
   "benefits": {
     "title": "提升导入效率并专注于高价值服务",
-    "description": "PinChat 减少重复沟通与资讯提供所耗费的时间，使专业团队能专注在真正需要策略、分析或判断的专业工作，同时让客户更快理解服务并顺利开始合作。",
+    "description": "PinChat 减少重复沟通与资讯提供所耗费的时间，使顾问团队能专注在真正需要策略、分析或判断的核心工作，同时让客户更快理解服务并顺利开始合作。",
     "improveResponse": {
       "title": "提高初次咨询的回应品质与速度",
       "description": "AI 与预设回覆协助提供明确答案，加速客户理解并缩短回覆等待时间。"
@@ -2027,10 +2027,10 @@
   },
   "exploreMore": {
     "title": "探索更多 PinChat 应用方式",
-    "professionalServices": {
-      "title": "PinChat 专业服务解决方案",
-      "description": "提升咨询与导入体验，协助客户快速了解服务内容。"
-    },
+      "professionalServices": {
+        "title": "PinChat 顾问服务解决方案",
+        "description": "提升咨询与导入体验，协助客户快速了解服务内容。"
+      },
     "realEstate": {
       "title": "PinChat 房地产解决方案",
       "description": "即时提升物件询问效率，协助房仲团队快速提供资讯。"

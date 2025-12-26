@@ -812,7 +812,7 @@
     "education": "教育",
     "realEstate": "房地產",
     "events": "活動",
-    "professionalServices": "專業服務",
+    "professionalServices": "顧問服務",
     "serviceIndustries": "服務業",
     "b2bCommercial": "B2B 商業",
     "b2bCommercialPage": {
@@ -1581,7 +1581,7 @@
         "description": "提升商務溝通效率，縮短商務往返時間。"
       },
       "professionalServices": {
-        "title": "PinChat 專業服務解決方案",
+        "title": "PinChat 顧問服務解決方案",
         "description": "提升諮詢與導入體驗，協助客戶快速了解服務內容。"
       },
       "serviceIndustries": {
@@ -1717,7 +1717,7 @@
         "description": "回覆商品與訂單相關問題，協助購買前後的關鍵溝通。"
       },
       "professionalServices": {
-        "title": "PinChat 專業服務解決方案",
+        "title": "PinChat 顧問服務解決方案",
         "description": "提升諮詢與導入體驗，協助客戶快速了解服務內容。"
       },
       "realEstate": {
@@ -1811,7 +1811,7 @@
         "reduceBurden": "降低回覆負擔，縮短使用者等待時間",
         "aiInfo": "AI 自動提供衛教與健康方案資訊",
         "multilingual": "跨語言支援，擴大可服務族群",
-        "focusOnValue": "讓團隊專注在更高價值的專業服務"
+        "focusOnValue": "讓團隊專注在更高價值的顧問服務"
       }
     },
     "usage": {
@@ -1868,13 +1868,13 @@
   },
   "professionalServices": {
     "hero": {
-      "breadcrumb": "PinChat 專業服務解決方案",
+      "breadcrumb": "PinChat 顧問服務解決方案",
       "title": "提升諮詢與導入體驗",
-      "subtitle": "專業服務團隊面對大量初次諮詢、收費方式詢問與流程導覽需求。PinChat 透過集中訊息與標準化回覆，引導客戶快速了解服務內容，並協助團隊省下大量行政時間，將心力投入真正需要專業判斷的分析與諮詢工作。",
+      "subtitle": "顧問服務團隊面對大量初次諮詢、收費方式詢問與流程導覽需求。PinChat 透過集中訊息與標準化回覆，引導客戶快速了解服務內容，並協助團隊省下大量行政時間，將心力投入真正需要專業判斷的分析與諮詢工作。",
       "cta": "開始使用 PinChat"
     },
     "whyUse": {
-      "title": "為什麼專業服務團隊選擇 PinChat",
+      "title": "為什麼顧問服務團隊選擇 PinChat",
       "items": {
         "centralizeInquiries": "統一管理多平台客戶初次諮詢",
         "aiReply": "AI 回覆行政性問題減少重複工作量",
@@ -1884,7 +1884,7 @@
     },
     "usage": {
       "title": "協助客戶順利了解服務並進入合作流程",
-      "description": "在專業服務產業，初次諮詢的清晰度與資訊取得速度，會直接影響客戶對服務的理解與信任。PinChat 透過整合訊息來源與可設定的標準化回答，協助團隊引導客戶掌握收費方式、服務內容與流程，減少溝通落差並提升導入體驗。",
+      "description": "在顧問服務產業，初次諮詢的清晰度與資訊取得速度，會直接影響客戶對服務的理解與信任。PinChat 透過整合訊息來源與可設定的標準化回答，協助團隊引導客戶掌握收費方式、服務內容與流程，減少溝通落差並提升導入體驗。",
       "quickReply": {
         "title": "快速回覆收費方式與合作流程",
         "description": "AI 聊天機器人依據預先設定的常見問題回覆常見行政性問題，例如計費方式、服務範圍、準備文件與諮詢流程，讓客戶能立即取得核心資訊。"
@@ -1900,7 +1900,7 @@
     },
     "benefits": {
       "title": "提升導入效率並專注於高價值服務",
-      "description": "PinChat 減少重複溝通與資訊提供所耗費的時間，使專業團隊能專注在真正需要策略、分析或判斷的專業工作，同時讓客戶更快理解服務並順利開始合作。",
+      "description": "PinChat 減少重複溝通與資訊提供所耗費的時間，使顧問團隊能專注在真正需要策略、分析或判斷的核心工作，同時讓客戶更快理解服務並順利開始合作。",
       "improveResponse": {
         "title": "提高初次諮詢的回應品質與速度",
         "description": "AI 與預設回覆協助提供明確答案，加速客戶理解並縮短回覆等待時間。"
@@ -1985,7 +1985,7 @@
     "exploreMore": {
       "title": "探索更多 PinChat 應用方式",
       "professionalServices": {
-        "title": "PinChat 專業服務解決方案",
+        "title": "PinChat 顧問服務解決方案",
         "description": "提升諮詢與導入體驗，協助客戶快速了解服務內容。"
       },
       "realEstate": {
