@@ -107,9 +107,10 @@ const ForEducation = () => {
               </div>
               <div className="rounded-lg overflow-hidden">
                 <img 
-                  src={getAssetPath("/lovable-uploads/325ad0e3-2e4d-41f2-bba0-d068115d2b8e.png")} 
-                  alt="Educational communication interface" 
-                  className="w-full h-auto"
+                src={getAssetPath("/lovable-uploads/education_feat1.png")} 
+                alt="education_feat1" 
+                className="w-full h-auto" 
+                loading="lazy" 
                 />
               </div>
             </div>
@@ -123,9 +124,10 @@ const ForEducation = () => {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div className="order-2 lg:order-1 overflow-hidden">
                 <img 
-                  src={getAssetPath("/lovable-uploads/325ad0e3-2e4d-41f2-bba0-d068115d2b8e.png")} 
-                  alt="Student engagement dashboard" 
-                  className="w-full h-auto"
+                src={getAssetPath("/lovable-uploads/education_feat2.png")} 
+                alt="education_feat2" 
+                className="w-full h-auto" 
+                loading="lazy" 
                 />
               </div>
               <div className="order-1 lg:order-2">
