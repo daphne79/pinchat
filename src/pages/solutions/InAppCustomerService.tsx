@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { AlertCircle, Bot, FolderTree, MessageSquare } from "lucide-react";
 import FeatureNavigation from "@/components/FeatureNavigation";
 import Footer from "@/components/Footer";
@@ -179,38 +180,56 @@ const InAppCustomerService = () => {
               {t('solutions.inAppCustomerServicePage.recommendedFeatures.title')}
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
-              <Link to="/features/ai-pinbot" className="p-6 bg-card border hover:border-primary/50 hover:shadow-md transition-all cursor-pointer">
-                <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mb-4">
-                  <Bot className="w-6 h-6 text-primary" />
-                </div>
-                <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-foreground mb-2">
-                  {t('solutions.inAppCustomerServicePage.recommendedFeatures.aiAutoReply.title')}
-                </h3>
-                <p className="text-sm sm:text-base text-muted-foreground">
-                  {t('solutions.inAppCustomerServicePage.recommendedFeatures.aiAutoReply.description')}
-                </p>
+              <Link to="/features/ai-pinbot">
+                <Card className="border shadow-sm hover:shadow-md transition-all cursor-pointer h-full">
+                  <CardHeader>
+                    <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mb-4">
+                      <Bot className="w-6 h-6 text-primary" />
+                    </div>
+                    <CardTitle className="text-lg sm:text-xl md:text-2xl lg:text-3xl">
+                      {t('solutions.inAppCustomerServicePage.recommendedFeatures.aiAutoReply.title')}
+                    </CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <p className="text-sm sm:text-base text-muted-foreground">
+                      {t('solutions.inAppCustomerServicePage.recommendedFeatures.aiAutoReply.description')}
+                    </p>
+                  </CardContent>
+                </Card>
               </Link>
-              <Link to="/features/chatroom-management" className="p-6 bg-card border hover:border-primary/50 hover:shadow-md transition-all cursor-pointer">
-                <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mb-4">
-                  <FolderTree className="w-6 h-6 text-primary" />
-                </div>
-                <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-foreground mb-2">
-                  {t('solutions.inAppCustomerServicePage.recommendedFeatures.chatroomManagement.title')}
-                </h3>
-                <p className="text-sm sm:text-base text-muted-foreground">
-                  {t('solutions.inAppCustomerServicePage.recommendedFeatures.chatroomManagement.description')}
-                </p>
+              <Link to="/features/chatroom-management">
+                <Card className="border shadow-sm hover:shadow-md transition-all cursor-pointer h-full">
+                  <CardHeader>
+                    <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mb-4">
+                      <FolderTree className="w-6 h-6 text-primary" />
+                    </div>
+                    <CardTitle className="text-lg sm:text-xl md:text-2xl lg:text-3xl">
+                      {t('solutions.inAppCustomerServicePage.recommendedFeatures.chatroomManagement.title')}
+                    </CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <p className="text-sm sm:text-base text-muted-foreground">
+                      {t('solutions.inAppCustomerServicePage.recommendedFeatures.chatroomManagement.description')}
+                    </p>
+                  </CardContent>
+                </Card>
               </Link>
-              <Link to="/solutions/lead-capture-surveys" className="p-6 bg-card border hover:border-primary/50 hover:shadow-md transition-all cursor-pointer">
-                <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mb-4">
-                  <MessageSquare className="w-6 h-6 text-primary" />
-                </div>
-                <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-foreground mb-2">
-                  {t('solutions.inAppCustomerServicePage.recommendedFeatures.conversationalSurvey.title')}
-                </h3>
-                <p className="text-sm sm:text-base text-muted-foreground">
-                  {t('solutions.inAppCustomerServicePage.recommendedFeatures.conversationalSurvey.description')}
-                </p>
+              <Link to="/solutions/lead-capture-surveys">
+                <Card className="border shadow-sm hover:shadow-md transition-all cursor-pointer h-full">
+                  <CardHeader>
+                    <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mb-4">
+                      <MessageSquare className="w-6 h-6 text-primary" />
+                    </div>
+                    <CardTitle className="text-lg sm:text-xl md:text-2xl lg:text-3xl">
+                      {t('solutions.inAppCustomerServicePage.recommendedFeatures.conversationalSurvey.title')}
+                    </CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <p className="text-sm sm:text-base text-muted-foreground">
+                      {t('solutions.inAppCustomerServicePage.recommendedFeatures.conversationalSurvey.description')}
+                    </p>
+                  </CardContent>
+                </Card>
               </Link>
             </div>
           </div>
@@ -223,56 +242,68 @@ const InAppCustomerService = () => {
               {t('solutions.inAppCustomerServicePage.exploreUseCases.title')}
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
-              <Link to="/solutions/ai-customer-service-bot" className="group overflow-hidden border bg-card hover:shadow-lg transition-all duration-300">
-                <div className="aspect-video bg-white overflow-hidden">
-                  <img 
-                    src={getAssetPath("/lovable-uploads/ai-customer-service-bot-hero.png")} 
-                    alt={t('solutions.inAppCustomerServicePage.exploreUseCases.customerServiceAutomation.title')}
-                    className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-300"
-                  />
-                </div>
-                <div className="p-6">
-                  <h3 className="font-semibold text-foreground text-lg mb-2 group-hover:text-primary transition-colors">
-                    {t('solutions.inAppCustomerServicePage.exploreUseCases.customerServiceAutomation.title')}
-                  </h3>
-                  <p className="text-sm text-muted-foreground">
-                    {t('solutions.inAppCustomerServicePage.exploreUseCases.customerServiceAutomation.description')}
-                  </p>
-                </div>
+              <Link to="/solutions/ai-customer-service-bot" className="group">
+                <Card className="border shadow-sm hover:shadow-md transition-all cursor-pointer h-full overflow-hidden">
+                  <div className="aspect-video bg-white overflow-hidden">
+                    <img 
+                      src={getAssetPath("/lovable-uploads/ai-customer-service-bot-hero.png")} 
+                      alt={t('solutions.inAppCustomerServicePage.exploreUseCases.customerServiceAutomation.title')}
+                      className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-300"
+                    />
+                  </div>
+                  <CardHeader>
+                    <CardTitle className="text-lg group-hover:text-primary transition-colors">
+                      {t('solutions.inAppCustomerServicePage.exploreUseCases.customerServiceAutomation.title')}
+                    </CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <p className="text-sm text-muted-foreground">
+                      {t('solutions.inAppCustomerServicePage.exploreUseCases.customerServiceAutomation.description')}
+                    </p>
+                  </CardContent>
+                </Card>
               </Link>
-              <Link to="/solutions/multichannel-messaging-hub" className="group overflow-hidden border bg-card hover:shadow-lg transition-all duration-300">
-                <div className="aspect-video bg-white overflow-hidden">
-                  <img 
-                    src={getAssetPath("/lovable-uploads/a61b9a5a-7234-4e21-b05a-03750511fa6b.png")} 
-                    alt={t('solutions.inAppCustomerServicePage.exploreUseCases.messageIntegration.title')}
-                    className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-300"
-                  />
-                </div>
-                <div className="p-6">
-                  <h3 className="font-semibold text-foreground text-lg mb-2 group-hover:text-primary transition-colors">
-                    {t('solutions.inAppCustomerServicePage.exploreUseCases.messageIntegration.title')}
-                  </h3>
-                  <p className="text-sm text-muted-foreground">
-                    {t('solutions.inAppCustomerServicePage.exploreUseCases.messageIntegration.description')}
-                  </p>
-                </div>
+              <Link to="/solutions/multichannel-messaging-hub" className="group">
+                <Card className="border shadow-sm hover:shadow-md transition-all cursor-pointer h-full overflow-hidden">
+                  <div className="aspect-video bg-white overflow-hidden">
+                    <img 
+                      src={getAssetPath("/lovable-uploads/a61b9a5a-7234-4e21-b05a-03750511fa6b.png")} 
+                      alt={t('solutions.inAppCustomerServicePage.exploreUseCases.messageIntegration.title')}
+                      className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-300"
+                    />
+                  </div>
+                  <CardHeader>
+                    <CardTitle className="text-lg group-hover:text-primary transition-colors">
+                      {t('solutions.inAppCustomerServicePage.exploreUseCases.messageIntegration.title')}
+                    </CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <p className="text-sm text-muted-foreground">
+                      {t('solutions.inAppCustomerServicePage.exploreUseCases.messageIntegration.description')}
+                    </p>
+                  </CardContent>
+                </Card>
               </Link>
-              <Link to="/solutions/lead-capture-surveys" className="group overflow-hidden border bg-card hover:shadow-lg transition-all duration-300">
-                <div className="aspect-video bg-white overflow-hidden">
-                  <img 
-                    src={getAssetPath("/lovable-uploads/lead-capture-survey-hero.png")} 
-                    alt={t('solutions.inAppCustomerServicePage.exploreUseCases.leadGeneration.title')}
-                    className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-300"
-                  />
-                </div>
-                <div className="p-6">
-                  <h3 className="font-semibold text-foreground text-lg mb-2 group-hover:text-primary transition-colors">
-                    {t('solutions.inAppCustomerServicePage.exploreUseCases.leadGeneration.title')}
-                  </h3>
-                  <p className="text-sm text-muted-foreground">
-                    {t('solutions.inAppCustomerServicePage.exploreUseCases.leadGeneration.description')}
-                  </p>
-                </div>
+              <Link to="/solutions/lead-capture-surveys" className="group">
+                <Card className="border shadow-sm hover:shadow-md transition-all cursor-pointer h-full overflow-hidden">
+                  <div className="aspect-video bg-white overflow-hidden">
+                    <img 
+                      src={getAssetPath("/lovable-uploads/lead-capture-survey-hero.png")} 
+                      alt={t('solutions.inAppCustomerServicePage.exploreUseCases.leadGeneration.title')}
+                      className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-300"
+                    />
+                  </div>
+                  <CardHeader>
+                    <CardTitle className="text-lg group-hover:text-primary transition-colors">
+                      {t('solutions.inAppCustomerServicePage.exploreUseCases.leadGeneration.title')}
+                    </CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <p className="text-sm text-muted-foreground">
+                      {t('solutions.inAppCustomerServicePage.exploreUseCases.leadGeneration.description')}
+                    </p>
+                  </CardContent>
+                </Card>
               </Link>
             </div>
           </div>

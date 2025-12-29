@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { AlertCircle, Bot, FolderTree, Inbox, MessageSquare, Search, Zap } from "lucide-react";
 import FeatureNavigation from "@/components/FeatureNavigation";
 import Footer from "@/components/Footer";
@@ -178,38 +179,56 @@ const MultichannelMessagingHub = () => {
               {t('solutions.multichannelMessagingPage.recommendedFeatures.title')}
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
-              <Link to="/features/ai-pinbot" className="p-6 bg-card border hover:border-primary/50 hover:shadow-md transition-all cursor-pointer">
-                <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mb-4">
-                  <Bot className="w-6 h-6 text-primary" />
-                </div>
-                <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-foreground mb-2">
-                  {t('solutions.multichannelMessagingPage.recommendedFeatures.aiBot.title')}
-                </h3>
-                <p className="text-sm sm:text-base text-muted-foreground">
-                  {t('solutions.multichannelMessagingPage.recommendedFeatures.aiBot.description')}
-                </p>
+              <Link to="/features/ai-pinbot">
+                <Card className="border shadow-sm hover:shadow-md transition-all cursor-pointer h-full">
+                  <CardHeader>
+                    <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mb-4">
+                      <Bot className="w-6 h-6 text-primary" />
+                    </div>
+                    <CardTitle className="text-lg sm:text-xl md:text-2xl lg:text-3xl">
+                      {t('solutions.multichannelMessagingPage.recommendedFeatures.aiBot.title')}
+                    </CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <p className="text-sm sm:text-base text-muted-foreground">
+                      {t('solutions.multichannelMessagingPage.recommendedFeatures.aiBot.description')}
+                    </p>
+                  </CardContent>
+                </Card>
               </Link>
-              <Link to="/features/chat-widget" className="p-6 bg-card border hover:border-primary/50 hover:shadow-md transition-all cursor-pointer">
-                <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mb-4">
-                  <MessageSquare className="w-6 h-6 text-primary" />
-                </div>
-                <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-foreground mb-2">
-                  {t('solutions.multichannelMessagingPage.recommendedFeatures.websiteChat.title')}
-                </h3>
-                <p className="text-sm sm:text-base text-muted-foreground">
-                  {t('solutions.multichannelMessagingPage.recommendedFeatures.websiteChat.description')}
-                </p>
+              <Link to="/features/chat-widget">
+                <Card className="border shadow-sm hover:shadow-md transition-all cursor-pointer h-full">
+                  <CardHeader>
+                    <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mb-4">
+                      <MessageSquare className="w-6 h-6 text-primary" />
+                    </div>
+                    <CardTitle className="text-lg sm:text-xl md:text-2xl lg:text-3xl">
+                      {t('solutions.multichannelMessagingPage.recommendedFeatures.websiteChat.title')}
+                    </CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <p className="text-sm sm:text-base text-muted-foreground">
+                      {t('solutions.multichannelMessagingPage.recommendedFeatures.websiteChat.description')}
+                    </p>
+                  </CardContent>
+                </Card>
               </Link>
-              <Link to="/features/chatroom-management" className="p-6 bg-card border hover:border-primary/50 hover:shadow-md transition-all cursor-pointer">
-                <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mb-4">
-                  <FolderTree className="w-6 h-6 text-primary" />
-                </div>
-                <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-foreground mb-2">
-                  {t('solutions.multichannelMessagingPage.recommendedFeatures.chatroomManagement.title')}
-                </h3>
-                <p className="text-sm sm:text-base text-muted-foreground">
-                  {t('solutions.multichannelMessagingPage.recommendedFeatures.chatroomManagement.description')}
-                </p>
+              <Link to="/features/chatroom-management">
+                <Card className="border shadow-sm hover:shadow-md transition-all cursor-pointer h-full">
+                  <CardHeader>
+                    <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mb-4">
+                      <FolderTree className="w-6 h-6 text-primary" />
+                    </div>
+                    <CardTitle className="text-lg sm:text-xl md:text-2xl lg:text-3xl">
+                      {t('solutions.multichannelMessagingPage.recommendedFeatures.chatroomManagement.title')}
+                    </CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <p className="text-sm sm:text-base text-muted-foreground">
+                      {t('solutions.multichannelMessagingPage.recommendedFeatures.chatroomManagement.description')}
+                    </p>
+                  </CardContent>
+                </Card>
               </Link>
             </div>
           </div>
@@ -222,56 +241,68 @@ const MultichannelMessagingHub = () => {
               {t('solutions.multichannelMessagingPage.exploreUseCases.title')}
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
-              <Link to="/solutions/ai-customer-service-bot" className="group overflow-hidden border bg-card hover:shadow-lg transition-all duration-300">
-                <div className="aspect-video bg-white overflow-hidden">
-                  <img 
-                    src={getAssetPath("/lovable-uploads/ai-customer-service-bot-hero.png")} 
-                    alt={t('solutions.multichannelMessagingPage.exploreUseCases.customerAutomation.title')}
-                    className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-300"
-                  />
-                </div>
-                <div className="p-6">
-                  <h3 className="font-semibold text-foreground text-lg mb-2 group-hover:text-primary transition-colors">
-                    {t('solutions.multichannelMessagingPage.exploreUseCases.customerAutomation.title')}
-                  </h3>
-                  <p className="text-sm text-muted-foreground">
-                    {t('solutions.multichannelMessagingPage.exploreUseCases.customerAutomation.description')}
-                  </p>
-                </div>
+              <Link to="/solutions/ai-customer-service-bot" className="group">
+                <Card className="border shadow-sm hover:shadow-md transition-all cursor-pointer h-full overflow-hidden">
+                  <div className="aspect-video bg-white overflow-hidden">
+                    <img 
+                      src={getAssetPath("/lovable-uploads/ai-customer-service-bot-hero.png")} 
+                      alt={t('solutions.multichannelMessagingPage.exploreUseCases.customerAutomation.title')}
+                      className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-300"
+                    />
+                  </div>
+                  <CardHeader>
+                    <CardTitle className="text-lg group-hover:text-primary transition-colors">
+                      {t('solutions.multichannelMessagingPage.exploreUseCases.customerAutomation.title')}
+                    </CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <p className="text-sm text-muted-foreground">
+                      {t('solutions.multichannelMessagingPage.exploreUseCases.customerAutomation.description')}
+                    </p>
+                  </CardContent>
+                </Card>
               </Link>
-              <Link to="/solutions/lead-capture-surveys" className="group overflow-hidden border bg-card hover:shadow-lg transition-all duration-300">
-                <div className="aspect-video bg-white overflow-hidden">
-                  <img 
-                    src={getAssetPath("/lovable-uploads/lead-capture-survey-hero.png")} 
-                    alt={t('solutions.multichannelMessagingPage.exploreUseCases.leadCapture.title')}
-                    className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-300"
-                  />
-                </div>
-                <div className="p-6">
-                  <h3 className="font-semibold text-foreground text-lg mb-2 group-hover:text-primary transition-colors">
-                    {t('solutions.multichannelMessagingPage.exploreUseCases.leadCapture.title')}
-                  </h3>
-                  <p className="text-sm text-muted-foreground">
-                    {t('solutions.multichannelMessagingPage.exploreUseCases.leadCapture.description')}
-                  </p>
-                </div>
+              <Link to="/solutions/lead-capture-surveys" className="group">
+                <Card className="border shadow-sm hover:shadow-md transition-all cursor-pointer h-full overflow-hidden">
+                  <div className="aspect-video bg-white overflow-hidden">
+                    <img 
+                      src={getAssetPath("/lovable-uploads/lead-capture-survey-hero.png")} 
+                      alt={t('solutions.multichannelMessagingPage.exploreUseCases.leadCapture.title')}
+                      className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-300"
+                    />
+                  </div>
+                  <CardHeader>
+                    <CardTitle className="text-lg group-hover:text-primary transition-colors">
+                      {t('solutions.multichannelMessagingPage.exploreUseCases.leadCapture.title')}
+                    </CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <p className="text-sm text-muted-foreground">
+                      {t('solutions.multichannelMessagingPage.exploreUseCases.leadCapture.description')}
+                    </p>
+                  </CardContent>
+                </Card>
               </Link>
-              <Link to="/solutions/chatroom-team-management" className="group overflow-hidden border bg-card hover:shadow-lg transition-all duration-300">
-                <div className="aspect-video bg-white overflow-hidden">
-                  <img 
-                    src={getAssetPath("/lovable-uploads/chatroom-team-management-hero.png")} 
-                    alt={t('solutions.multichannelMessagingPage.exploreUseCases.teamCollaboration.title')}
-                    className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-300"
-                  />
-                </div>
-                <div className="p-6">
-                  <h3 className="font-semibold text-foreground text-lg mb-2 group-hover:text-primary transition-colors">
-                    {t('solutions.multichannelMessagingPage.exploreUseCases.teamCollaboration.title')}
-                  </h3>
-                  <p className="text-sm text-muted-foreground">
-                    {t('solutions.multichannelMessagingPage.exploreUseCases.teamCollaboration.description')}
-                  </p>
-                </div>
+              <Link to="/solutions/chatroom-team-management" className="group">
+                <Card className="border shadow-sm hover:shadow-md transition-all cursor-pointer h-full overflow-hidden">
+                  <div className="aspect-video bg-white overflow-hidden">
+                    <img 
+                      src={getAssetPath("/lovable-uploads/chatroom-team-management-hero.png")} 
+                      alt={t('solutions.multichannelMessagingPage.exploreUseCases.teamCollaboration.title')}
+                      className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-300"
+                    />
+                  </div>
+                  <CardHeader>
+                    <CardTitle className="text-lg group-hover:text-primary transition-colors">
+                      {t('solutions.multichannelMessagingPage.exploreUseCases.teamCollaboration.title')}
+                    </CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <p className="text-sm text-muted-foreground">
+                      {t('solutions.multichannelMessagingPage.exploreUseCases.teamCollaboration.description')}
+                    </p>
+                  </CardContent>
+                </Card>
               </Link>
             </div>
           </div>

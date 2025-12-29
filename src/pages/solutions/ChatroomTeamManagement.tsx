@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { AlertCircle, Tags, FolderTree, Shield, Users, BarChart3, Bot, MessageSquare, TrendingUp } from "lucide-react";
 import FeatureNavigation from "@/components/FeatureNavigation";
 import Footer from "@/components/Footer";
@@ -179,38 +180,56 @@ const ChatroomTeamManagement = () => {
               {t('solutions.chatroomTeamManagementPage.recommendedFeatures.title')}
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
-              <Link to="/features/sub-account" className="p-6 bg-card border hover:border-primary/50 hover:shadow-md transition-all cursor-pointer">
-                <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mb-4">
-                  <Shield className="w-6 h-6 text-primary" />
-                </div>
-                <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-foreground mb-2">
-                  {t('solutions.chatroomTeamManagementPage.recommendedFeatures.teamPermissions.title')}
-                </h3>
-                <p className="text-sm sm:text-base text-muted-foreground">
-                  {t('solutions.chatroomTeamManagementPage.recommendedFeatures.teamPermissions.description')}
-                </p>
+              <Link to="/features/sub-account">
+                <Card className="border shadow-sm hover:shadow-md transition-all cursor-pointer h-full">
+                  <CardHeader>
+                    <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mb-4">
+                      <Shield className="w-6 h-6 text-primary" />
+                    </div>
+                    <CardTitle className="text-lg sm:text-xl md:text-2xl lg:text-3xl">
+                      {t('solutions.chatroomTeamManagementPage.recommendedFeatures.teamPermissions.title')}
+                    </CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <p className="text-sm sm:text-base text-muted-foreground">
+                      {t('solutions.chatroomTeamManagementPage.recommendedFeatures.teamPermissions.description')}
+                    </p>
+                  </CardContent>
+                </Card>
               </Link>
-              <Link to="/features/chatroom-management" className="p-6 bg-card border hover:border-primary/50 hover:shadow-md transition-all cursor-pointer">
-                <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mb-4">
-                  <Tags className="w-6 h-6 text-primary" />
-                </div>
-                <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-foreground mb-2">
-                  {t('solutions.chatroomTeamManagementPage.recommendedFeatures.tagsFolders.title')}
-                </h3>
-                <p className="text-sm sm:text-base text-muted-foreground">
-                  {t('solutions.chatroomTeamManagementPage.recommendedFeatures.tagsFolders.description')}
-                </p>
+              <Link to="/features/chatroom-management">
+                <Card className="border shadow-sm hover:shadow-md transition-all cursor-pointer h-full">
+                  <CardHeader>
+                    <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mb-4">
+                      <Tags className="w-6 h-6 text-primary" />
+                    </div>
+                    <CardTitle className="text-lg sm:text-xl md:text-2xl lg:text-3xl">
+                      {t('solutions.chatroomTeamManagementPage.recommendedFeatures.tagsFolders.title')}
+                    </CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <p className="text-sm sm:text-base text-muted-foreground">
+                      {t('solutions.chatroomTeamManagementPage.recommendedFeatures.tagsFolders.description')}
+                    </p>
+                  </CardContent>
+                </Card>
               </Link>
-              <Link to="/features/analytics" className="p-6 bg-card border hover:border-primary/50 hover:shadow-md transition-all cursor-pointer">
-                <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mb-4">
-                  <BarChart3 className="w-6 h-6 text-primary" />
-                </div>
-                <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-foreground mb-2">
-                  {t('solutions.chatroomTeamManagementPage.recommendedFeatures.customerServiceLoad.title')}
-                </h3>
-                <p className="text-sm sm:text-base text-muted-foreground">
-                  {t('solutions.chatroomTeamManagementPage.recommendedFeatures.customerServiceLoad.description')}
-                </p>
+              <Link to="/features/analytics">
+                <Card className="border shadow-sm hover:shadow-md transition-all cursor-pointer h-full">
+                  <CardHeader>
+                    <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mb-4">
+                      <BarChart3 className="w-6 h-6 text-primary" />
+                    </div>
+                    <CardTitle className="text-lg sm:text-xl md:text-2xl lg:text-3xl">
+                      {t('solutions.chatroomTeamManagementPage.recommendedFeatures.customerServiceLoad.title')}
+                    </CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <p className="text-sm sm:text-base text-muted-foreground">
+                      {t('solutions.chatroomTeamManagementPage.recommendedFeatures.customerServiceLoad.description')}
+                    </p>
+                  </CardContent>
+                </Card>
               </Link>
             </div>
           </div>
@@ -223,56 +242,68 @@ const ChatroomTeamManagement = () => {
               {t('solutions.chatroomTeamManagementPage.exploreUseCases.title')}
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
-              <Link to="/solutions/in-app-customer-service" className="group overflow-hidden border bg-card hover:shadow-lg transition-all duration-300">
-                <div className="aspect-video bg-white overflow-hidden">
-                  <img 
-                    src={getAssetPath("/lovable-uploads/in-app-chat-hero.png")} 
-                    alt={t('solutions.chatroomTeamManagementPage.exploreUseCases.streamlineService.title')}
-                    className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-300"
-                  />
-                </div>
-                <div className="p-6">
-                  <h3 className="font-semibold text-foreground text-lg mb-2 group-hover:text-primary transition-colors">
-                    {t('solutions.chatroomTeamManagementPage.exploreUseCases.streamlineService.title')}
-                  </h3>
-                  <p className="text-sm text-muted-foreground">
-                    {t('solutions.chatroomTeamManagementPage.exploreUseCases.streamlineService.description')}
-                  </p>
-                </div>
+              <Link to="/solutions/in-app-customer-service" className="group">
+                <Card className="border shadow-sm hover:shadow-md transition-all cursor-pointer h-full overflow-hidden">
+                  <div className="aspect-video bg-white overflow-hidden">
+                    <img 
+                      src={getAssetPath("/lovable-uploads/in-app-chat-hero.png")} 
+                      alt={t('solutions.chatroomTeamManagementPage.exploreUseCases.streamlineService.title')}
+                      className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-300"
+                    />
+                  </div>
+                  <CardHeader>
+                    <CardTitle className="text-lg group-hover:text-primary transition-colors">
+                      {t('solutions.chatroomTeamManagementPage.exploreUseCases.streamlineService.title')}
+                    </CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <p className="text-sm text-muted-foreground">
+                      {t('solutions.chatroomTeamManagementPage.exploreUseCases.streamlineService.description')}
+                    </p>
+                  </CardContent>
+                </Card>
               </Link>
-              <Link to="/solutions/multichannel-messaging-hub" className="group overflow-hidden border bg-card hover:shadow-lg transition-all duration-300">
-                <div className="aspect-video bg-white overflow-hidden">
-                  <img 
-                    src={getAssetPath("/lovable-uploads/a61b9a5a-7234-4e21-b05a-03750511fa6b.png")} 
-                    alt={t('solutions.chatroomTeamManagementPage.exploreUseCases.unifiedMessages.title')}
-                    className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-300"
-                  />
-                </div>
-                <div className="p-6">
-                  <h3 className="font-semibold text-foreground text-lg mb-2 group-hover:text-primary transition-colors">
-                    {t('solutions.chatroomTeamManagementPage.exploreUseCases.unifiedMessages.title')}
-                  </h3>
-                  <p className="text-sm text-muted-foreground">
-                    {t('solutions.chatroomTeamManagementPage.exploreUseCases.unifiedMessages.description')}
-                  </p>
-                </div>
+              <Link to="/solutions/multichannel-messaging-hub" className="group">
+                <Card className="border shadow-sm hover:shadow-md transition-all cursor-pointer h-full overflow-hidden">
+                  <div className="aspect-video bg-white overflow-hidden">
+                    <img 
+                      src={getAssetPath("/lovable-uploads/a61b9a5a-7234-4e21-b05a-03750511fa6b.png")} 
+                      alt={t('solutions.chatroomTeamManagementPage.exploreUseCases.unifiedMessages.title')}
+                      className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-300"
+                    />
+                  </div>
+                  <CardHeader>
+                    <CardTitle className="text-lg group-hover:text-primary transition-colors">
+                      {t('solutions.chatroomTeamManagementPage.exploreUseCases.unifiedMessages.title')}
+                    </CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <p className="text-sm text-muted-foreground">
+                      {t('solutions.chatroomTeamManagementPage.exploreUseCases.unifiedMessages.description')}
+                    </p>
+                  </CardContent>
+                </Card>
               </Link>
-              <Link to="/solutions/lead-capture-surveys" className="group overflow-hidden border bg-card hover:shadow-lg transition-all duration-300">
-                <div className="aspect-video bg-white overflow-hidden">
-                  <img 
-                    src={getAssetPath("/lovable-uploads/lead-capture-survey-hero.png")} 
-                    alt={t('solutions.chatroomTeamManagementPage.exploreUseCases.leadCapture.title')}
-                    className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-300"
-                  />
-                </div>
-                <div className="p-6">
-                  <h3 className="font-semibold text-foreground text-lg mb-2 group-hover:text-primary transition-colors">
-                    {t('solutions.chatroomTeamManagementPage.exploreUseCases.leadCapture.title')}
-                  </h3>
-                  <p className="text-sm text-muted-foreground">
-                    {t('solutions.chatroomTeamManagementPage.exploreUseCases.leadCapture.description')}
-                  </p>
-                </div>
+              <Link to="/solutions/lead-capture-surveys" className="group">
+                <Card className="border shadow-sm hover:shadow-md transition-all cursor-pointer h-full overflow-hidden">
+                  <div className="aspect-video bg-white overflow-hidden">
+                    <img 
+                      src={getAssetPath("/lovable-uploads/lead-capture-survey-hero.png")} 
+                      alt={t('solutions.chatroomTeamManagementPage.exploreUseCases.leadCapture.title')}
+                      className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-300"
+                    />
+                  </div>
+                  <CardHeader>
+                    <CardTitle className="text-lg group-hover:text-primary transition-colors">
+                      {t('solutions.chatroomTeamManagementPage.exploreUseCases.leadCapture.title')}
+                    </CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <p className="text-sm text-muted-foreground">
+                      {t('solutions.chatroomTeamManagementPage.exploreUseCases.leadCapture.description')}
+                    </p>
+                  </CardContent>
+                </Card>
               </Link>
             </div>
           </div>

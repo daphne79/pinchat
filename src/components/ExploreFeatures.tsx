@@ -44,7 +44,7 @@ const ExploreFeatures = ({ currentFeature }: ExploreFeaturesProps) => {
 
             return (
               <Link key={feature.key} to={feature.route}>
-                <Card className="border-none shadow-sm hover:shadow-md transition-all cursor-pointer h-full">
+                <Card className="border shadow-sm hover:shadow-md transition-all cursor-pointer h-full">
                   <CardHeader>
                     <div className="w-14 h-14 bg-[#02B13F]/10 rounded-xl flex items-center justify-center mb-4">
                       <IconComponent className="w-7 h-7 text-[#02B13F]" />

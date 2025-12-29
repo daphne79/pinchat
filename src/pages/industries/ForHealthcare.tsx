@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Check } from "lucide-react";
 import FeatureNavigation from "@/components/FeatureNavigation";
 import Footer from "@/components/Footer";
@@ -169,65 +170,77 @@ const ForHealthcare = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
             <Link 
               to="/industries/service-industries" 
-              className="group overflow-hidden border bg-card hover:shadow-lg transition-all duration-300"
+              className="group"
             >
-              <div className="aspect-video bg-white overflow-hidden">
-                <img 
-                  src={getAssetPath("/lovable-uploads/8816cd40-a898-4f73-91de-ea0b84f6aeac.png")} 
-                  alt="Service Industries" 
-                  className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-300"
-                />
-              </div>
-              <div className="p-6">
-                <h3 className="font-semibold text-foreground text-lg mb-2 group-hover:text-primary transition-colors">
-                  {t('healthcare.exploreMore.serviceIndustries.title')}
-                </h3>
-                <p className="text-sm text-muted-foreground">
-                  {t('healthcare.exploreMore.serviceIndustries.description')}
-                </p>
-              </div>
+              <Card className="border shadow-sm hover:shadow-md transition-all cursor-pointer h-full overflow-hidden">
+                <div className="aspect-video bg-white overflow-hidden">
+                  <img 
+                    src={getAssetPath("/lovable-uploads/8816cd40-a898-4f73-91de-ea0b84f6aeac.png")} 
+                    alt="Service Industries" 
+                    className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-300"
+                  />
+                </div>
+                <CardHeader>
+                  <CardTitle className="text-lg group-hover:text-primary transition-colors">
+                    {t('healthcare.exploreMore.serviceIndustries.title')}
+                  </CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-sm text-muted-foreground">
+                    {t('healthcare.exploreMore.serviceIndustries.description')}
+                  </p>
+                </CardContent>
+              </Card>
             </Link>
             
             <Link 
               to="/industries/education" 
-              className="group overflow-hidden border bg-card hover:shadow-lg transition-all duration-300"
+              className="group"
             >
-              <div className="aspect-video bg-white overflow-hidden">
-                <img 
-                  src={getAssetPath("/lovable-uploads/325ad0e3-2e4d-41f2-bba0-d068115d2b8e.png")} 
-                  alt="Education" 
-                  className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-300"
-                />
-              </div>
-              <div className="p-6">
-                <h3 className="font-semibold text-foreground text-lg mb-2 group-hover:text-primary transition-colors">
-                  {t('healthcare.exploreMore.education.title')}
-                </h3>
-                <p className="text-sm text-muted-foreground">
-                  {t('healthcare.exploreMore.education.description')}
-                </p>
-              </div>
+              <Card className="border shadow-sm hover:shadow-md transition-all cursor-pointer h-full overflow-hidden">
+                <div className="aspect-video bg-white overflow-hidden">
+                  <img 
+                    src={getAssetPath("/lovable-uploads/325ad0e3-2e4d-41f2-bba0-d068115d2b8e.png")} 
+                    alt="Education" 
+                    className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-300"
+                  />
+                </div>
+                <CardHeader>
+                  <CardTitle className="text-lg group-hover:text-primary transition-colors">
+                    {t('healthcare.exploreMore.education.title')}
+                  </CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-sm text-muted-foreground">
+                    {t('healthcare.exploreMore.education.description')}
+                  </p>
+                </CardContent>
+              </Card>
             </Link>
             
             <Link 
               to="/industries/events" 
-              className="group overflow-hidden border bg-card hover:shadow-lg transition-all duration-300"
+              className="group"
             >
-              <div className="aspect-video bg-white overflow-hidden">
-                <img 
-                  src={getAssetPath("/lovable-uploads/a1960abd-93f1-4a03-b109-230d06508316.png")} 
-                  alt="Events" 
-                  className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-300"
-                />
-              </div>
-              <div className="p-6">
-                <h3 className="font-semibold text-foreground text-lg mb-2 group-hover:text-primary transition-colors">
-                  {t('healthcare.exploreMore.events.title')}
-                </h3>
-                <p className="text-sm text-muted-foreground">
-                  {t('healthcare.exploreMore.events.description')}
-                </p>
-              </div>
+              <Card className="border shadow-sm hover:shadow-md transition-all cursor-pointer h-full overflow-hidden">
+                <div className="aspect-video bg-white overflow-hidden">
+                  <img 
+                    src={getAssetPath("/lovable-uploads/a1960abd-93f1-4a03-b109-230d06508316.png")} 
+                    alt="Events" 
+                    className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-300"
+                  />
+                </div>
+                <CardHeader>
+                  <CardTitle className="text-lg group-hover:text-primary transition-colors">
+                    {t('healthcare.exploreMore.events.title')}
+                  </CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-sm text-muted-foreground">
+                    {t('healthcare.exploreMore.events.description')}
+                  </p>
+                </CardContent>
+              </Card>
             </Link>
           </div>
           </div>

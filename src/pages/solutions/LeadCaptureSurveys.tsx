@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { AlertCircle, FileText, Globe, Link2, Bot, Inbox, BarChart } from "lucide-react";
 import FeatureNavigation from "@/components/FeatureNavigation";
 import Footer from "@/components/Footer";
@@ -179,38 +180,54 @@ const LeadCaptureSurveys = () => {
               {t('solutions.leadCaptureSurveysPage.recommendedFeatures.title')}
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
-              <div className="p-6 bg-card border">
-                <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mb-4">
-                  <FileText className="w-6 h-6 text-primary" />
-                </div>
-                <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-foreground mb-2">
-                  {t('solutions.leadCaptureSurveysPage.recommendedFeatures.conversationalSurvey.title')}
-                </h3>
-                <p className="text-sm sm:text-base text-muted-foreground">
-                  {t('solutions.leadCaptureSurveysPage.recommendedFeatures.conversationalSurvey.subtitle')}
-                </p>
-              </div>
-              <Link to="/features/chat-widget" className="p-6 bg-card border hover:border-primary/50 hover:shadow-md transition-all cursor-pointer">
-                <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mb-4">
-                  <Globe className="w-6 h-6 text-primary" />
-                </div>
-                <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-foreground mb-2">
-                  {t('solutions.leadCaptureSurveysPage.recommendedFeatures.websiteConversion.title')}
-                </h3>
-                <p className="text-sm sm:text-base text-muted-foreground">
-                  {t('solutions.leadCaptureSurveysPage.recommendedFeatures.websiteConversion.subtitle')}
-                </p>
+              <Card className="border shadow-sm h-full">
+                <CardHeader>
+                  <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mb-4">
+                    <FileText className="w-6 h-6 text-primary" />
+                  </div>
+                  <CardTitle className="text-lg sm:text-xl md:text-2xl lg:text-3xl">
+                    {t('solutions.leadCaptureSurveysPage.recommendedFeatures.conversationalSurvey.title')}
+                  </CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-sm sm:text-base text-muted-foreground">
+                    {t('solutions.leadCaptureSurveysPage.recommendedFeatures.conversationalSurvey.subtitle')}
+                  </p>
+                </CardContent>
+              </Card>
+              <Link to="/features/chat-widget">
+                <Card className="border shadow-sm hover:shadow-md transition-all cursor-pointer h-full">
+                  <CardHeader>
+                    <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mb-4">
+                      <Globe className="w-6 h-6 text-primary" />
+                    </div>
+                    <CardTitle className="text-lg sm:text-xl md:text-2xl lg:text-3xl">
+                      {t('solutions.leadCaptureSurveysPage.recommendedFeatures.websiteConversion.title')}
+                    </CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <p className="text-sm sm:text-base text-muted-foreground">
+                      {t('solutions.leadCaptureSurveysPage.recommendedFeatures.websiteConversion.subtitle')}
+                    </p>
+                  </CardContent>
+                </Card>
               </Link>
-              <Link to="/features/pinboard" className="p-6 bg-card border hover:border-primary/50 hover:shadow-md transition-all cursor-pointer">
-                <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mb-4">
-                  <Link2 className="w-6 h-6 text-primary" />
-                </div>
-                <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-foreground mb-2">
-                  {t('solutions.leadCaptureSurveysPage.recommendedFeatures.unifiedEntry.title')}
-                </h3>
-                <p className="text-sm sm:text-base text-muted-foreground">
-                  {t('solutions.leadCaptureSurveysPage.recommendedFeatures.unifiedEntry.subtitle')}
-                </p>
+              <Link to="/features/pinboard">
+                <Card className="border shadow-sm hover:shadow-md transition-all cursor-pointer h-full">
+                  <CardHeader>
+                    <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mb-4">
+                      <Link2 className="w-6 h-6 text-primary" />
+                    </div>
+                    <CardTitle className="text-lg sm:text-xl md:text-2xl lg:text-3xl">
+                      {t('solutions.leadCaptureSurveysPage.recommendedFeatures.unifiedEntry.title')}
+                    </CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <p className="text-sm sm:text-base text-muted-foreground">
+                      {t('solutions.leadCaptureSurveysPage.recommendedFeatures.unifiedEntry.subtitle')}
+                    </p>
+                  </CardContent>
+                </Card>
               </Link>
             </div>
           </div>
@@ -223,56 +240,68 @@ const LeadCaptureSurveys = () => {
               {t('solutions.leadCaptureSurveysPage.exploreUseCases.title')}
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
-              <Link to="/solutions/ai-customer-service-bot" className="group overflow-hidden border bg-card hover:shadow-lg transition-all duration-300">
-                <div className="aspect-video bg-white overflow-hidden">
-                  <img 
-                    src={getAssetPath("/lovable-uploads/ai-customer-service-bot-hero.png")} 
-                    alt={t('solutions.leadCaptureSurveysPage.exploreUseCases.customerService.title')}
-                    className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-300"
-                  />
-                </div>
-                <div className="p-6">
-                  <h3 className="font-semibold text-foreground text-lg mb-2 group-hover:text-primary transition-colors">
-                    {t('solutions.leadCaptureSurveysPage.exploreUseCases.customerService.title')}
-                  </h3>
-                  <p className="text-sm text-muted-foreground">
-                    {t('solutions.leadCaptureSurveysPage.exploreUseCases.customerService.subtitle')}
-                  </p>
-                </div>
+              <Link to="/solutions/ai-customer-service-bot" className="group">
+                <Card className="border shadow-sm hover:shadow-md transition-all cursor-pointer h-full overflow-hidden">
+                  <div className="aspect-video bg-white overflow-hidden">
+                    <img 
+                      src={getAssetPath("/lovable-uploads/ai-customer-service-bot-hero.png")} 
+                      alt={t('solutions.leadCaptureSurveysPage.exploreUseCases.customerService.title')}
+                      className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-300"
+                    />
+                  </div>
+                  <CardHeader>
+                    <CardTitle className="text-lg group-hover:text-primary transition-colors">
+                      {t('solutions.leadCaptureSurveysPage.exploreUseCases.customerService.title')}
+                    </CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <p className="text-sm text-muted-foreground">
+                      {t('solutions.leadCaptureSurveysPage.exploreUseCases.customerService.subtitle')}
+                    </p>
+                  </CardContent>
+                </Card>
               </Link>
-              <Link to="/solutions/multichannel-messaging-hub" className="group overflow-hidden border bg-card hover:shadow-lg transition-all duration-300">
-                <div className="aspect-video bg-white overflow-hidden">
-                  <img 
-                    src={getAssetPath("/lovable-uploads/a61b9a5a-7234-4e21-b05a-03750511fa6b.png")} 
-                    alt={t('solutions.leadCaptureSurveysPage.exploreUseCases.messageIntegration.title')}
-                    className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-300"
-                  />
-                </div>
-                <div className="p-6">
-                  <h3 className="font-semibold text-foreground text-lg mb-2 group-hover:text-primary transition-colors">
-                    {t('solutions.leadCaptureSurveysPage.exploreUseCases.messageIntegration.title')}
-                  </h3>
-                  <p className="text-sm text-muted-foreground">
-                    {t('solutions.leadCaptureSurveysPage.exploreUseCases.messageIntegration.subtitle')}
-                  </p>
-                </div>
+              <Link to="/solutions/multichannel-messaging-hub" className="group">
+                <Card className="border shadow-sm hover:shadow-md transition-all cursor-pointer h-full overflow-hidden">
+                  <div className="aspect-video bg-white overflow-hidden">
+                    <img 
+                      src={getAssetPath("/lovable-uploads/a61b9a5a-7234-4e21-b05a-03750511fa6b.png")} 
+                      alt={t('solutions.leadCaptureSurveysPage.exploreUseCases.messageIntegration.title')}
+                      className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-300"
+                    />
+                  </div>
+                  <CardHeader>
+                    <CardTitle className="text-lg group-hover:text-primary transition-colors">
+                      {t('solutions.leadCaptureSurveysPage.exploreUseCases.messageIntegration.title')}
+                    </CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <p className="text-sm text-muted-foreground">
+                      {t('solutions.leadCaptureSurveysPage.exploreUseCases.messageIntegration.subtitle')}
+                    </p>
+                  </CardContent>
+                </Card>
               </Link>
-              <Link to="/solutions/chatroom-team-management" className="group overflow-hidden border bg-card hover:shadow-lg transition-all duration-300">
-                <div className="aspect-video bg-white overflow-hidden">
-                  <img 
-                    src={getAssetPath("/lovable-uploads/chatroom-team-management-hero.png")} 
-                    alt={t('solutions.leadCaptureSurveysPage.exploreUseCases.workflowManagement.title')}
-                    className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-300"
-                  />
-                </div>
-                <div className="p-6">
-                  <h3 className="font-semibold text-foreground text-lg mb-2 group-hover:text-primary transition-colors">
-                    {t('solutions.leadCaptureSurveysPage.exploreUseCases.workflowManagement.title')}
-                  </h3>
-                  <p className="text-sm text-muted-foreground">
-                    {t('solutions.leadCaptureSurveysPage.exploreUseCases.workflowManagement.subtitle')}
-                  </p>
-                </div>
+              <Link to="/solutions/chatroom-team-management" className="group">
+                <Card className="border shadow-sm hover:shadow-md transition-all cursor-pointer h-full overflow-hidden">
+                  <div className="aspect-video bg-white overflow-hidden">
+                    <img 
+                      src={getAssetPath("/lovable-uploads/chatroom-team-management-hero.png")} 
+                      alt={t('solutions.leadCaptureSurveysPage.exploreUseCases.workflowManagement.title')}
+                      className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-300"
+                    />
+                  </div>
+                  <CardHeader>
+                    <CardTitle className="text-lg group-hover:text-primary transition-colors">
+                      {t('solutions.leadCaptureSurveysPage.exploreUseCases.workflowManagement.title')}
+                    </CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <p className="text-sm text-muted-foreground">
+                      {t('solutions.leadCaptureSurveysPage.exploreUseCases.workflowManagement.subtitle')}
+                    </p>
+                  </CardContent>
+                </Card>
               </Link>
             </div>
           </div>
