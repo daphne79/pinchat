@@ -107,9 +107,10 @@ const ForEvents = () => {
               </div>
               <div className="rounded-lg overflow-hidden">
                 <img 
-                  src={getAssetPath("/lovable-uploads/a1960abd-93f1-4a03-b109-230d06508316.png")} 
-                  alt="Event communication dashboard" 
-                  className="w-full h-auto"
+                src={getAssetPath("/lovable-uploads/event_feat1.png")} 
+                alt="event_feat1" 
+                className="w-full h-auto" 
+                loading="lazy" 
                 />
               </div>
             </div>
@@ -123,9 +124,10 @@ const ForEvents = () => {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div className="order-2 lg:order-1 overflow-hidden">
                 <img 
-                  src={getAssetPath("/lovable-uploads/a1960abd-93f1-4a03-b109-230d06508316.png")} 
-                  alt="Event management dashboard" 
-                  className="w-full h-auto"
+                src={getAssetPath("/lovable-uploads/event_feat2.png")} 
+                alt="event_feat2" 
+                className="w-full h-auto" 
+                loading="lazy" 
                 />
               </div>
               <div className="order-1 lg:order-2">
