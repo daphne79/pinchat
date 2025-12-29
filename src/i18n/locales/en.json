@@ -1443,7 +1443,7 @@
       "breadcrumb": "PinChat for Retail & E-commerce",
       "title": "Sell smarter with AI-powered customer chat",
       "subtitle": "Connect instantly with shoppers, automate FAQs, and boost sales with personalized AI—from online stores to retail counters.",
-      "cta": "Get PinChat for Free"
+      "cta": "Start Free Trial"
     },
     "whyUse": {
       "title": "Why Retail & E-commerce teams use PinChat",
@@ -1521,9 +1521,9 @@
       }
     },
     "cta": {
-      "title": "PinChat powers great customer relationships",
+      "title": "Create more real-time conversation experiences for sales",
       "subtitle": "Start free today and see how AI-powered conversations can transform your customer experience.",
-      "button": "Get PinChat for Free"
+      "button": "Get Started with PinChat"
     }
   },
   "realEstate": {
@@ -1590,8 +1590,8 @@
       }
     },
     "cta": {
-      "title": "Accelerate every property inquiry",
-      "button": "Start Free Trial"
+      "title": "Improve property inquiry response efficiency",
+      "button": "Get Started with PinChat"
     }
   },
   "serviceIndustries": {
@@ -1658,8 +1658,8 @@
       }
     },
     "cta": {
-      "title": "Build stronger service relationships with PinChat",
-      "button": "Get Started Now"
+      "title": "Make service communication processes clearer and smoother",
+      "button": "Get Started with PinChat"
     }
   },
   "events": {
@@ -1667,7 +1667,7 @@
       "breadcrumb": "PinChat for Events",
       "title": "Optimize event communication across the entire journey",
       "subtitle": "Unify event communication—from FAQs and routing to on-site support and post-event feedback—in one efficient platform.",
-      "cta": "Get Started with PinChat"
+      "cta": "Start Free Trial"
     },
     "whyUse": {
       "title": "Why Events Choose PinChat",
@@ -1726,8 +1726,8 @@
       }
     },
     "cta": {
-      "title": "Build your next successful event with greater efficiency",
-      "button": "Get Started Now"
+      "title": "Make event information delivery more real-time",
+      "button": "Get Started with PinChat"
     }
   },
   "education": {
@@ -1735,7 +1735,7 @@
       "breadcrumb": "PinChat for Education",
       "title": "Build more engaging learning interactions",
       "subtitle": "Connect pre-class preparation, in-class interaction, and post-class Q&A in one smooth learning space with AI and centralized messaging.",
-      "cta": "Start Enhancing Learning Interactions"
+      "cta": "Start Free Trial"
     },
     "whyUse": {
       "title": "Why Education Uses PinChat",
@@ -1794,8 +1794,8 @@
       }
     },
     "cta": {
-      "title": "Make every interaction an extension of learning",
-      "button": "Start Enhancing Learning Interactions"
+      "title": "Create smooth communication for learning interactions",
+      "button": "Get Started with PinChat"
     }
   },
   "healthcare": {
@@ -1803,7 +1803,7 @@
       "breadcrumb": "PinChat for Healthcare",
       "title": "Make health service communication faster and better",
       "subtitle": "Create instant, professional healthcare communication with AI-powered Q&A, course introductions, and cross-platform integration.",
-      "cta": "Upgrade Communication Efficiency Now"
+      "cta": "Start Free Trial"
     },
     "whyUse": {
       "title": "Why Healthcare Teams Choose PinChat",
@@ -1862,8 +1862,8 @@
       }
     },
     "cta": {
-      "title": "Make your health services faster and smarter",
-      "button": "Get Started Now"
+      "title": "Make health consultation communication smoother",
+      "button": "Get Started with PinChat"
     }
   },
   "b2bCommercial": {
@@ -1871,7 +1871,7 @@
       "breadcrumb": "PinChat for B2B",
       "title": "Enhance Business Communication Efficiency",
       "subtitle": "Integrate multi-platform messages, build controllable AI FAQs, and track negotiation progress with tags and folders—for faster, more consistent responses.",
-      "cta": "Get Started with PinChat"
+      "cta": "Start Free Trial"
     },
     "whyUse": {
       "title": "Why B2B Use PinChat",
@@ -1930,8 +1930,8 @@
       }
     },
     "cta": {
-      "title": "Start Improving Business Conversation Quality",
-      "button": "Experience PinChat Now"
+      "title": "Make business communication more organized and consistent",
+      "button": "Get Started with PinChat"
     }
   },
   "professionalServices": {
@@ -1939,7 +1939,7 @@
       "breadcrumb": "PinChat for Consulting Services",
       "title": "Enhance consultation and onboarding experience",
       "subtitle": "Centralize messages, standardize responses, and guide clients through service offerings with AI—freeing your consulting team for work requiring strategic judgment.",
-      "cta": "Get Started with PinChat"
+      "cta": "Start Free Trial"
     },
     "whyUse": {
       "title": "Why Consulting Service Teams Choose PinChat",
@@ -1998,8 +1998,8 @@
       }
     },
     "cta": {
-      "title": "Start building a smooth onboarding experience",
-      "button": "Get Started Now"
+      "title": "Make professional communication more focused on key points",
+      "button": "Get Started with PinChat"
     }
   },
   "cta": {

@@ -1564,9 +1564,9 @@
   }
 },
 "cta": {
-  "title": "PinChat，让顾客关系更强大",
+  "title": "为销售打造更即时的对话体验",
   "subtitle": "立即免费开始，体验 AI 对话如何转变你的顾客服务。",
-  "button": "免费开始使用"
+  "button": "开始使用 PinChat"
 }
 },
 "realEstate": {
@@ -1574,7 +1574,7 @@
   "breadcrumb": "PinChat 房地产解决方案",
   "title": "即时提升物件询问效率",
   "subtitle": "房仲团队每天需回覆大量物件资讯、看房流程与预约需求。PinChat 透过 AI 回覆、整合式聊天室与多入口导流工具，协助快速提供资讯、掌握买家需求并维持一致的专业沟通体验，减少前期沟通时间，让业务更专注于成交推进。",
-  "cta": "立即开始体验"
+  "cta": "免费开始使用"
 },
 "whyUse": {
   "title": "为什么房地产团队选择 PinChat",
@@ -1633,8 +1633,8 @@
   }
 },
 "cta": {
-  "title": "加速每一次物件洽询",
-  "button": "立即开始体验"
+  "title": "提升物件諮詢回應效率",
+  "button": "开始使用 PinChat"
 }
 },
 "serviceIndustries": {
@@ -1701,8 +1701,8 @@
     }
   },
   "cta": {
-    "title": "用 PinChat 建立更强大的服务关系",
-    "button": "立即开始"
+    "title": "让服务沟通流程更清楚顺畅",
+    "button": "开始使用 PinChat"
   }
 },
 "events": {
@@ -1710,7 +1710,7 @@
     "breadcrumb": "PinChat 活动解决方案",
     "title": "优化活动全流程沟通",
     "subtitle": "活动前、中、后的所有资讯需求，都能透过 PinChat 快速统一管理。从参加者 FAQ、自动导流、现场查询到活动后回馈蒐集，协助主办方以更高效率提供支援并提升整体体验。",
-    "cta": "开始使用 PinChat"
+    "cta": "免费开始使用"
   },
   "whyUse": {
     "title": "为什么活动业选择 PinChat",
@@ -1769,8 +1769,8 @@
     }
   },
   "cta": {
-    "title": "用更高效率打造下一场成功活动",
-    "button": "立即开始"
+    "title": "让活动资讯传递更即时",
+    "button": "开始使用 PinChat"
   }
 },
 "education": {
@@ -1778,7 +1778,7 @@
     "breadcrumb": "PinChat 教育业解决方案",
     "title": "打造更高黏着的学习互动",
     "subtitle": "PinChat 为教育机构打造更顺畅的学习对话空间，串接课前预习、课堂互动与课后提问，让学生能随时掌握重点、提问疑惑，而教师也能以更高效率回应问题、延伸补充内容，提升整体学习成效与参与度。",
-    "cta": "开始提升学习互动"
+    "cta": "免费开始使用"
   },
   "whyUse": {
     "title": "为什么教育业使用 PinChat",
@@ -1837,8 +1837,8 @@
     }
   },
   "cta": {
-    "title": "让每一次互动都成为学习的延伸",
-    "button": "开始提升学习互动"
+    "title": "为学习互动打造顺畅沟通",
+    "button": "开始使用 PinChat"
   }
 },
 "healthcare": {
@@ -1846,7 +1846,7 @@
     "breadcrumb": "PinChat 医疗保健产业方案",
     "title": "让健康服务沟通更快、更好",
     "subtitle": "PinChat 协助健康产业打造即时、专业且高效率的沟通体验。从课程介绍、方案解说到常见问答，透过 AI 与跨平台整合，让团队更省时，使用者更安心。",
-    "cta": "立即升级沟通效率"
+    "cta": "免费开始使用"
   },
   "whyUse": {
     "title": "为什么医疗保健团队选择 PinChat",
@@ -1905,8 +1905,8 @@
     }
   },
   "cta": {
-    "title": "让你的健康服务更快速、更智慧",
-    "button": "立即开始使用"
+    "title": "让健康咨询沟通更顺畅",
+    "button": "开始使用 PinChat"
   }
 },
 "professionalServices": {
@@ -1914,7 +1914,7 @@
     "breadcrumb": "PinChat 顾问服务解决方案",
     "title": "提升咨询与导入体验",
     "subtitle": "顾问服务团队面对大量初次咨询、收费方式询问与流程导览需求。PinChat 透过集中讯息与标准化回覆，引导客户快速了解服务内容，并协助团队省下大量行政时间，将心力投入真正需要专业判断的分析与咨询工作。",
-    "cta": "开始使用 PinChat"
+    "cta": "免费开始使用"
   },
   "whyUse": {
     "title": "为什么顾问服务团队选择 PinChat",
@@ -1973,8 +1973,8 @@
     }
   },
   "cta": {
-    "title": "开始打造顺畅的 onboarding 体验",
-    "button": "立即开始使用"
+    "title": "让专业沟通更聚焦重点",
+    "button": "开始使用 PinChat"
   }
 },
 "b2bCommercial": {
@@ -1982,7 +1982,7 @@
     "breadcrumb": "PinChat B2B 解决方案",
     "title": "提升商务沟通效率",
     "subtitle": "面对大量规格、MOQ、价格阶层等反复询问，PinChat 协助 B2B 团队整合多平台讯息、建立可控的 AI FAQ，并透过标签与资料夹让洽谈进度更清晰，让你的团队能以更快、更一致的方式回应客户，缩短商务往返时间。",
-    "cta": "开始使用 PinChat"
+    "cta": "免费开始使用"
   },
   "whyUse": {
     "title": "为什么 B2B 团队选择 PinChat",
@@ -2041,8 +2041,8 @@
     }
   },
   "cta": {
-    "title": "开始提升商务对话品质",
-    "button": "立即体验 PinChat"
+    "title": "让商务沟通更有条理一致",
+    "button": "开始使用 PinChat"
   }
 },
 "cta": {
