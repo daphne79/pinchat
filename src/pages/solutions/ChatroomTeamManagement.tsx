@@ -29,8 +29,8 @@ const ChatroomTeamManagement = () => {
               <p className="text-base sm:text-lg text-muted-foreground mb-8 max-w-3xl mx-auto">
                 {t('solutions.chatroomTeamManagementPage.hero.subtitle')}
               </p>
-              <Button size="lg" className="text-base sm:text-lg">
-                {t('solutions.chatroomTeamManagementPage.hero.cta')}
+              <Button size="lg" className="text-base sm:text-lg" asChild>
+                <Link to="/register">{t('solutions.chatroomTeamManagementPage.hero.cta')}</Link>
               </Button>
             </div>
           
@@ -316,8 +316,8 @@ const ChatroomTeamManagement = () => {
               <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[48px] font-bold tracking-wide leading-normal lg:leading-[1.2] text-foreground mb-8">
                 {t('solutions.chatroomTeamManagementPage.cta.title')}
               </h2>
-              <Button size="lg" className="text-base sm:text-lg">
-                {t('solutions.chatroomTeamManagementPage.cta.button')}
+              <Button size="lg" className="text-base sm:text-lg" asChild>
+                <Link to="/register">{t('solutions.chatroomTeamManagementPage.cta.button')}</Link>
               </Button>
             </div>
           </div>

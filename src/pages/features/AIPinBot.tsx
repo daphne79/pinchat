@@ -75,8 +75,8 @@ const AIPinBot = () => {
                   {t('features.aiPinbotPage.hero.subtitle')}
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
-                  <Button size="lg" className="bg-[#02B13F] hover:bg-[#029f38] text-white text-base sm:text-lg">
-                    {t('features.aiPinbotPage.hero.cta')}
+                  <Button size="lg" className="bg-[#02B13F] hover:bg-[#029f38] text-white text-base sm:text-lg" asChild>
+                    <Link to="/register">{t('features.aiPinbotPage.hero.cta')}</Link>
                   </Button>
                 </div>
               </div>
@@ -289,8 +289,8 @@ const AIPinBot = () => {
             <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[48px] font-bold tracking-wide leading-normal lg:leading-[1.2] mb-8">
               {t('features.aiPinbotPage.cta.title')}
             </h2>
-            <Button size="lg" className="bg-[#02B13F] hover:bg-[#029f38] text-white text-base sm:text-lg min-w-[200px]">
-              {t('features.aiPinbotPage.cta.button')}
+            <Button size="lg" className="bg-[#02B13F] hover:bg-[#029f38] text-white text-base sm:text-lg min-w-[200px]" asChild>
+              <Link to="/register">{t('features.aiPinbotPage.cta.button')}</Link>
             </Button>
           </div>
           </div>

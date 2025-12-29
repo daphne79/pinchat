@@ -30,8 +30,8 @@ const ForEducation = () => {
               <p className="text-base sm:text-lg text-muted-foreground mb-8 max-w-3xl mx-auto">
                 {t('education.hero.subtitle')}
               </p>
-              <Button size="lg" className="text-base sm:text-lg">
-                {t('education.hero.cta')}
+              <Button size="lg" className="text-base sm:text-lg" asChild>
+                <Link to="/register">{t('education.hero.cta')}</Link>
               </Button>
             </div>
           
@@ -255,8 +255,8 @@ const ForEducation = () => {
               <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[48px] font-bold tracking-wide leading-normal lg:leading-[1.2] text-foreground mb-8">
                 {t('education.cta.title')}
               </h2>
-              <Button size="lg" className="text-base sm:text-lg">
-                {t('education.cta.button')}
+              <Button size="lg" className="text-base sm:text-lg" asChild>
+                <Link to="/register">{t('education.cta.button')}</Link>
               </Button>
             </div>
           </div>

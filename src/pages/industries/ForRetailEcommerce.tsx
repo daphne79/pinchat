@@ -29,8 +29,8 @@ const ForRetailEcommerce = () => {
               <p className="text-base sm:text-lg text-muted-foreground mb-8 max-w-3xl mx-auto">
                 {t('retailEcommerce.hero.subtitle')}
               </p>
-              <Button size="lg" className="text-base sm:text-lg">
-                {t('retailEcommerce.hero.cta')}
+              <Button size="lg" className="text-base sm:text-lg" asChild>
+                <Link to="/register">{t('retailEcommerce.hero.cta')}</Link>
               </Button>
             </div>
           
@@ -240,8 +240,8 @@ const ForRetailEcommerce = () => {
               <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[48px] font-bold tracking-wide leading-normal lg:leading-[1.2] text-foreground mb-8">
                 {t('retailEcommerce.cta.title')}
               </h2>
-              <Button size="lg" className="text-base sm:text-lg">
-                {t('retailEcommerce.cta.button')}
+              <Button size="lg" className="text-base sm:text-lg" asChild>
+                <Link to="/register">{t('retailEcommerce.cta.button')}</Link>
               </Button>
             </div>
           </div>

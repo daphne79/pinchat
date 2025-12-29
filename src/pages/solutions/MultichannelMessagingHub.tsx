@@ -29,8 +29,8 @@ const MultichannelMessagingHub = () => {
               <p className="text-base sm:text-lg text-muted-foreground mb-8 max-w-3xl mx-auto">
                 {t('solutions.multichannelMessagingPage.hero.subtitle')}
               </p>
-              <Button size="lg" className="text-base sm:text-lg">
-                {t('solutions.multichannelMessagingPage.hero.cta')}
+              <Button size="lg" className="text-base sm:text-lg" asChild>
+                <Link to="/register">{t('solutions.multichannelMessagingPage.hero.cta')}</Link>
               </Button>
             </div>
           
@@ -315,8 +315,8 @@ const MultichannelMessagingHub = () => {
               <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[48px] font-bold tracking-wide leading-normal lg:leading-[1.2] text-foreground mb-8">
                 {t('solutions.multichannelMessagingPage.cta.title')}
               </h2>
-              <Button size="lg" className="text-base sm:text-lg">
-                {t('solutions.multichannelMessagingPage.cta.button')}
+              <Button size="lg" className="text-base sm:text-lg" asChild>
+                <Link to="/register">{t('solutions.multichannelMessagingPage.cta.button')}</Link>
               </Button>
             </div>
           </div>

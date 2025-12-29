@@ -26,8 +26,8 @@ const SubAccount = () => {
                   {t('features.subAccountPage.hero.subtitle')}
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
-                  <Button size="lg" className="bg-[#02B13F] hover:bg-[#029f38] text-white text-base sm:text-lg">
-                    {t('features.subAccountPage.hero.cta')}
+                  <Button size="lg" className="bg-[#02B13F] hover:bg-[#029f38] text-white text-base sm:text-lg" asChild>
+                    <Link to="/register">{t('features.subAccountPage.hero.cta')}</Link>
                   </Button>
                 </div>
               </div>
@@ -217,8 +217,8 @@ const SubAccount = () => {
             <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[48px] font-bold tracking-wide leading-normal lg:leading-[1.2] mb-8">
               {t('features.subAccountPage.cta.title')}
             </h2>
-            <Button size="lg" className="bg-[#02B13F] hover:bg-[#029f38] text-white text-base sm:text-lg min-w-[200px]">
-              {t('features.subAccountPage.cta.button')}
+            <Button size="lg" className="bg-[#02B13F] hover:bg-[#029f38] text-white text-base sm:text-lg min-w-[200px]" asChild>
+              <Link to="/register">{t('features.subAccountPage.cta.button')}</Link>
             </Button>
           </div>
           </div>
