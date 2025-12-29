@@ -81,7 +81,47 @@ const Index = () => {
                 </div>
               </article>
 
-              {/* Second: Cross-Platform Integration */}
+              {/* Second: AI Customer Support */}
+              <article>
+                <div className="grid items-center md:grid-cols-2 gap-8 md:gap-12">
+                  <div className="flex items-center justify-center order-1 md:order-1">
+                    <img src={getAssetPath("/lovable-uploads/2b911e4f-407b-43af-83ac-4186949b6a14.png")} alt="PinChat AI chatbot" loading="lazy" className="block max-w-full max-h-[600px] md:max-h-[700px] w-auto h-auto object-contain" />
+                  </div>
+                  <div className="px-4 md:px-0 order-2 md:order-2">
+                    <div className="flex flex-col">
+                      <Bot className="h-6 w-6 sm:h-7 sm:w-7 md:h-9 md:w-9 lg:h-12 lg:w-12 text-primary mb-3 sm:mb-4 md:mb-5" />
+                      <div className="text-2xl sm:text-3xl md:text-4xl lg:text-[48px] font-semibold tracking-wide leading-normal lg:leading-[1.2]">
+                        {tFixed('homepage.valueBlock3Title')}
+                      </div>
+                    </div>
+                    <p className="mt-4 text-base sm:text-lg text-muted-foreground">
+                      {tFixed('homepage.valueBlock3Desc')}
+                    </p>
+                  </div>
+                </div>
+              </article>
+
+              {/* Third: Data Management */}
+              <article>
+                <div className="grid items-center md:grid-cols-2 gap-8 md:gap-12">
+                  <div className="px-4 md:px-0">
+                    <div className="flex flex-col">
+                      <Users className="h-6 w-6 sm:h-7 sm:w-7 md:h-9 md:w-9 lg:h-12 lg:w-12 text-primary mb-3 sm:mb-4 md:mb-5" />
+                      <div className="text-2xl sm:text-3xl md:text-4xl lg:text-[48px] font-semibold tracking-wide leading-normal lg:leading-[1.2]">
+                        {tFixed('homepage.valueBlock4Title')}
+                      </div>
+                    </div>
+                    <p className="mt-4 text-base sm:text-lg text-muted-foreground">
+                      {tFixed('homepage.valueBlock4Desc')}
+                    </p>
+                  </div>
+                  <div className="flex items-center justify-center">
+                    <img src={getAssetPath("/lovable-uploads/folder_and_tags.png")} alt="PinChat conversation and customer data management" loading="lazy" className="block max-w-full max-h-[600px] md:max-h-[700px] w-auto h-auto object-contain" />
+                  </div>
+                </div>
+              </article>
+
+              {/* Fourth: Cross-Platform Integration */}
               <article>
                 <div className="grid items-center md:grid-cols-2 gap-8 md:gap-12">
                   <div className="flex items-center justify-center order-1 md:order-1">
@@ -96,46 +136,6 @@ const Index = () => {
                     </div>
                     <p className="mt-4 text-base sm:text-lg text-muted-foreground">
                       {tFixed('homepage.valueBlock2Desc')}
-                    </p>
-                  </div>
-                </div>
-              </article>
-
-              {/* Third: AI Customer Support */}
-              <article>
-                <div className="grid items-center md:grid-cols-2 gap-8 md:gap-12">
-                  <div className="px-4 md:px-0">
-                    <div className="flex flex-col">
-                      <Bot className="h-6 w-6 sm:h-7 sm:w-7 md:h-9 md:w-9 lg:h-12 lg:w-12 text-primary mb-3 sm:mb-4 md:mb-5" />
-                      <div className="text-2xl sm:text-3xl md:text-4xl lg:text-[48px] font-semibold tracking-wide leading-normal lg:leading-[1.2]">
-                        {tFixed('homepage.valueBlock3Title')}
-                      </div>
-                    </div>
-                    <p className="mt-4 text-base sm:text-lg text-muted-foreground">
-                      {tFixed('homepage.valueBlock3Desc')}
-                    </p>
-                  </div>
-                  <div className="flex items-center justify-center">
-                    <img src={getAssetPath("/lovable-uploads/2b911e4f-407b-43af-83ac-4186949b6a14.png")} alt="PinChat AI chatbot" loading="lazy" className="block max-w-full max-h-[600px] md:max-h-[700px] w-auto h-auto object-contain" />
-                  </div>
-                </div>
-              </article>
-
-              {/* Fourth: Data Management */}
-              <article>
-                <div className="grid items-center md:grid-cols-2 gap-8 md:gap-12">
-                  <div className="flex items-center justify-center order-1 md:order-1">
-                    <img src={getAssetPath("/lovable-uploads/folder_and_tags.png")} alt="PinChat conversation and customer data management" loading="lazy" className="block max-w-full max-h-[600px] md:max-h-[700px] w-auto h-auto object-contain" />
-                  </div>
-                  <div className="px-4 md:px-0 order-2 md:order-2">
-                    <div className="flex flex-col">
-                      <Users className="h-6 w-6 sm:h-7 sm:w-7 md:h-9 md:w-9 lg:h-12 lg:w-12 text-primary mb-3 sm:mb-4 md:mb-5" />
-                      <div className="text-2xl sm:text-3xl md:text-4xl lg:text-[48px] font-semibold tracking-wide leading-normal lg:leading-[1.2]">
-                        {tFixed('homepage.valueBlock4Title')}
-                      </div>
-                    </div>
-                    <p className="mt-4 text-base sm:text-lg text-muted-foreground">
-                      {tFixed('homepage.valueBlock4Desc')}
                     </p>
                   </div>
                 </div>
