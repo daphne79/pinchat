@@ -108,9 +108,10 @@ const ForHealthcare = () => {
               </div>
               <div className="rounded-lg overflow-hidden">
                 <img 
-                  src={getAssetPath("/lovable-uploads/83071566-9a01-4643-a61a-b6e2437b6199.png")} 
-                  alt="Healthcare communication dashboard" 
-                  className="w-full h-auto"
+                src={getAssetPath("/lovable-uploads/medical_feat1.png")} 
+                alt="medical_feat1" 
+                className="w-full h-auto" 
+                loading="lazy" 
                 />
               </div>
             </div>
@@ -124,9 +125,10 @@ const ForHealthcare = () => {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div className="order-2 lg:order-1 overflow-hidden">
                 <img 
-                  src={getAssetPath("/lovable-uploads/83071566-9a01-4643-a61a-b6e2437b6199.png")} 
-                  alt="Healthcare management dashboard" 
-                  className="w-full h-auto"
+                src={getAssetPath("/lovable-uploads/medical_feat2.png")} 
+                alt="medical_feat2" 
+                className="w-full h-auto" 
+                loading="lazy" 
                 />
               </div>
               <div className="order-1 lg:order-2">
