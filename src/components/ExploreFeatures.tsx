@@ -22,8 +22,8 @@ const ExploreFeatures = ({ currentFeature }: ExploreFeaturesProps) => {
     return null;
   }
 
-  const currentFeatureConfig = ALL_FEATURES[currentFeature];
-  const titleKey = `${currentFeatureConfig.exploreFeaturesKey}.title`;
+  // Use unified translation key for title
+  const titleKey = 'features.common.exploreFeatures.title';
 
   return (
     <section className="py-20 px-4 sm:px-6 md:px-8 lg:px-12 bg-muted/30">
@@ -37,10 +37,9 @@ const ExploreFeatures = ({ currentFeature }: ExploreFeaturesProps) => {
           {relatedFeatures.map((feature) => {
             const IconComponent = getIcon(feature.icon);
             
-            // Get translation keys for this feature using the exploreFeaturesKey of the current page
-            // and the translationSubKey of the related feature
-            const featureTitleKey = `${currentFeatureConfig.exploreFeaturesKey}.${feature.translationSubKey}.title`;
-            const featureDescKey = `${currentFeatureConfig.exploreFeaturesKey}.${feature.translationSubKey}.description`;
+            // Use unified translation keys from features.common.exploreFeatures
+            const featureTitleKey = `features.common.exploreFeatures.${feature.translationSubKey}.title`;
+            const featureDescKey = `features.common.exploreFeatures.${feature.translationSubKey}.description`;
 
             return (
               <Link key={feature.key} to={feature.route}>

@@ -18,6 +18,47 @@
     "branding": "品牌与定制",
     "chatroomManagement": "聊天室管理",
     "subAccount": "子账号",
+    "common": {
+      "exploreFeatures": {
+        "title": "探索其他功能",
+        "chat": {
+          "title": "即时聊天系统",
+          "description": "支持一对一与群组聊天、多媒体消息与可调整的界面，让品牌与用户保持自然、即时且高品质的双向互动。"
+        },
+        "chatWidget": {
+          "title": "网页客服插件",
+          "description": "在网站上快速嵌入可拖曳、可自定义的聊天界面，提升访客互动与转换效率。"
+        },
+        "aiPinBot": {
+          "title": "AI 聊天机器人",
+          "description": "提供 AI 驱动的聊天，即时回应，需要时交由人工处理，并能适应你的品牌跨平台运作。"
+        },
+        "pinBoard": {
+          "title": "欢迎页面",
+          "description": "打造可导流、可呈现品牌信息的多链接页，并加入聊天入口提升顾客互动。"
+        },
+        "branding": {
+          "title": "品牌与自定义",
+          "description": "自定义聊天界面、插件与欢迎页面，使其符合你的品牌识别，打造一致的用户体验。"
+        },
+        "dataAnalysis": {
+          "title": "完整数据分析",
+          "description": "深入洞察聊天量、流量来源、问卷回复与互动表现，透过清晰的图表了解服务成效并持续优化营运。"
+        },
+        "chatroomManagement": {
+          "title": "聊天室管理",
+          "description": "以标签、文件夹与快速搜索掌握所有聊天脉络，让客服与销售团队能更快找到重要消息。"
+        },
+        "subAccount": {
+          "title": "子账号管理",
+          "description": "通过角色与权限控制轻松管理多位成员的营运范围，实现高效的团队协作。"
+        },
+        "faqPinbot": {
+          "title": "FAQ 聊天机器人",
+          "description": "以关键字触发的 FAQ 聊天机器人，集中管理重复问题，并可在需要时无缝交由人工客服接手。"
+        }
+      }
+    },
     "chatPage": {
       "hero": {
         "title": "让品牌与用户保持即时互动的聊天系统",
@@ -63,29 +104,6 @@
             "search": "快速搜索与查看历史消息与媒体内容",
             "organize": "支持删除与隐藏聊天室保持界面整洁"
           }
-        }
-      },
-      "exploreFeatures": {
-        "title": "探索其他功能",
-        "aiPinBot": {
-          "title": "AI 聊天机器人自动化客服",
-          "description": "协助回答常见问题、支持多语系并可无缝切换人工接手，让团队更专注于复杂需求。"
-        },
-        "chatWidget": {
-          "title": "网页客服插件网站聊天入口",
-          "description": "在网站上快速嵌入可拖曳、可客制化的聊天界面，提升访客互动与转换效率。"
-        },
-        "pinBoard": {
-          "title": "欢迎页面多链接营销",
-          "description": "打造可导流、可呈现品牌信息的多链接页，并加入聊天入口提升顾客互动。"
-        },
-        "branding": {
-          "title": "品牌与定制",
-          "description": "自定义聊天界面、插件与欢迎页面，使其符合你的品牌识别，打造一致的用户体验。"
-        },
-        "dataAnalysis": {
-          "title": "完整数据分析",
-          "description": "深入洞察聊天量、流量来源、问卷回复与互动表现，通过清晰的图表了解服务成效并持续优化营运。"
         }
       },
       "benefits": {
@@ -153,29 +171,6 @@
               "imageAlt": "整洁聊天空间界面"
             }
           },
-          "exploreFeatures": {
-            "title": "探索其他功能",
-            "subAccount": {
-              "title": "子账号管理",
-              "description": "通过角色与权限控制轻松管理多位成员的营运范围，实现高效的团队协作。"
-            },
-            "dataAnalysis": {
-              "title": "完整数据分析",
-              "description": "深入洞察聊天量、流量来源、问卷回复与互动表现，通过清晰的图表了解服务成效并持续优化营运。"
-            },
-            "aiPinBot": {
-              "title": "AI 聊天机器人",
-              "description": "提供 AI 驱动的聊天，即时回应，需要时交由人工处理，并能适应你的品牌跨平台运作。"
-            },
-            "chat": {
-              "title": "即时聊天系统",
-              "description": "支持一对一与群组聊天、多媒体消息与可调整的界面，让品牌与用户保持自然、即时且高品质的双向互动。"
-            },
-            "faqPinbot": {
-              "title": "FAQ 聊天机器人",
-              "description": "以关键词触发的 FAQ 聊天机器人，集中管理重复问题，并可在需要时无缝交由人工客服接手。"
-            }
-          },
           "cta": {
             "title": "立即提升聊天管理效率",
             "button": "开始使用"
@@ -238,29 +233,6 @@
           "imageAlt": "移除品牌标记设定"
         }
       },
-      "exploreFeatures": {
-        "title": "探索其他功能",
-        "chat": {
-          "title": "即时聊天系统",
-          "description": "支持一对一与群组聊天、多媒体消息与可调整的界面，让品牌与用户保持自然、即时且高品质的双向互动。"
-        },
-        "chatWidget": {
-          "title": "提升网站转换",
-          "description": "以可自定义、可拖曳的网站聊天插件，快速将访客转化为对话与客源。"
-        },
-        "pinBoard": {
-          "title": "集中所有品牌链接",
-          "description": "打造品牌多链接入口，整合导流、信息与聊天，提升每一次点击的价值。"
-        },
-        "aiPinBot": {
-          "title": "自动化客服回复",
-          "description": "智能处理 FAQ、支持多语言并可人工接手，是提升客服效率的最佳方式。"
-        },
-        "dataAnalysis": {
-          "title": "完整数据分析",
-          "description": "深入洞察聊天量、流量来源、问卷回复与互动表现，通过清晰的图表了解服务成效并持续优化营运。"
-        }
-      },
       "cta": {
         "title": "立即启用你的品牌专属体验",
         "button": "开始设定"
@@ -311,29 +283,6 @@
             "tracking": "支持来源追踪与行为分析",
             "conversion": "有效引导访客完成转换"
           }
-        }
-      },
-      "exploreFeatures": {
-        "title": "探索其他功能",
-        "pinBoard": {
-          "title": "打造品牌化多链接页",
-          "description": "集中导流链接与聊天入口，提升社群流量的转换效率。"
-        },
-        "aiPinBot": {
-          "title": "自动化客服与智能回复",
-          "description": "提供 FAQ、语言检测与人工切换，提升客服效率。"
-        },
-        "dataAnalysis": {
-          "title": "掌握聊天与转换成效",
-          "description": "查看访客来源、互动曲线与聊天分析，提高决策准确度。"
-        },
-        "branding": {
-          "title": "品牌与定制",
-          "description": "自定义聊天界面、插件与欢迎页面，使其符合你的品牌识别，打造一致的用户体验。"
-        },
-        "chat": {
-          "title": "即时聊天系统",
-          "description": "支持一对一与群组聊天、多媒体消息与可调整的界面，让品牌与用户保持自然、即时且高品质的双向互动。"
         }
       },
       "cta": {
@@ -404,29 +353,6 @@
           "webChat": "网页聊天"
         }
       },
-      "exploreFeatures": {
-        "title": "探索其他功能",
-        "chat": {
-          "title": "即时聊天系统",
-          "description": "支持一对一与群组聊天、多媒体消息与可调整的界面，让品牌与用户保持自然、即时且高品质的双向互动。"
-        },
-        "chatWidget": {
-          "title": "网页客服插件",
-          "description": "在网站上快速嵌入可拖曳、可客制化的聊天界面，提升访客互动与转换效率。"
-        },
-        "faqPinbot": {
-          "title": "FAQ 聊天机器人",
-          "description": "以关键词触发的 FAQ 聊天机器人，集中管理重复问题，并可在需要时无缝交由人工客服接手。"
-        },
-        "dataAnalysis": {
-          "title": "完整数据分析",
-          "description": "深入洞察聊天量、流量来源、问卷回复与互动表现，通过清晰的图表了解服务成效并持续优化营运。"
-        },
-        "chatroomManagement": {
-          "title": "聊天室管理",
-          "description": "以标签、文件夹与快速搜索掌握所有聊天脉络，让客服与销售团队能更快找到重要讯息。"
-        }
-      },
       "cta": {
         "title": "用 AI 赋能您的支持团队",
         "subtitle": "立即开始使用 AI 聊天机器人，提供更快、更智能、更人性化的客户体验。",
@@ -483,29 +409,6 @@
             "reduceLoad": "减少高流量期间的重复客服问题"
           },
           "imageAlt": "活动专用 FAQ Bot 设计"
-        }
-      },
-      "exploreFeatures": {
-        "title": "探索其他功能",
-        "aiPinBot": {
-          "title": "AI 聊天机器人",
-          "description": "提供 AI 驱动的聊天，即时回应，需要时交由人工处理，并能适应你的品牌跨平台运作。"
-        },
-        "chat": {
-          "title": "即时聊天系统",
-          "description": "支持一对一与群组聊天、多媒体消息与可调整的界面，让品牌与用户保持自然、即时且高品质的双向互动。"
-        },
-        "chatWidget": {
-          "title": "网页客服插件",
-          "description": "在网站上快速嵌入可拖曳、可客制化的聊天界面，提升访客互动与转换效率。"
-        },
-        "dataAnalysis": {
-          "title": "完整数据分析",
-          "description": "深入洞察聊天量、流量来源、问卷回复与互动表现，通过清晰的图表了解服务成效并持续优化营运。"
-        },
-        "chatroomManagement": {
-          "title": "聊天室管理",
-          "description": "以标签、文件夹与快速搜索掌握所有聊天脉络，让客服与销售团队能更快找到重要讯息。"
         }
       },
       "cta": {
@@ -565,29 +468,6 @@
           "imageAlt": "包含参与度指标的欢迎页面 分析仪表板"
         }
       },
-      "exploreFeatures": {
-        "title": "探索其他功能",
-        "chatWidget": {
-          "title": "网页客服插件",
-          "description": "在网站上快速嵌入可拖曳、可客制化的聊天界面，提升访客互动与转换效率。"
-        },
-        "aiPinBot": {
-          "title": "AI 聊天机器人",
-          "description": "提供 AI 驱动的聊天，即时回应，需要时交由人工处理，并能适应你的品牌跨平台运作。"
-        },
-        "dataAnalysis": {
-          "title": "完整数据分析",
-          "description": "深入洞察聊天量、流量来源、问卷回复与互动表现，通过清晰的图表了解服务成效并持续优化营运。"
-        },
-        "chat": {
-          "title": "即时聊天系统",
-          "description": "支持一对一与群组聊天、多媒体消息与可调整的界面，让品牌与用户保持自然、即时且高品质的双向互动。"
-        },
-        "branding": {
-          "title": "品牌与定制",
-          "description": "自定义聊天界面、插件与欢迎页面，使其符合你的品牌识别，打造一致的用户体验。"
-        }
-      },
       "cta": {
         "title": "几分钟内创建品牌化链接中心",
         "button": "创建我的欢迎页面"
@@ -642,29 +522,6 @@
             "maintainWorkflow": "支持名单汇出作后续应用"
           },
           "imageAlt": "整洁聊天空间界面"
-        }
-      },
-      "exploreFeatures": {
-        "title": "探索其他功能",
-        "subAccount": {
-          "title": "子账号管理",
-          "description": "通过角色与权限控制轻松管理多位成员的营运范围，实现高效的团队协作。"
-        },
-        "dataAnalysis": {
-          "title": "完整数据分析",
-          "description": "深入洞察聊天量、流量来源、问卷回复与互动表现，通过清晰的图表了解服务成效并持续优化营运。"
-        },
-        "aiPinBot": {
-          "title": "AI 聊天机器人",
-          "description": "提供 AI 驱动的聊天，即时回应，需要时交由人工处理，并能适应你的品牌跨平台运作。"
-        },
-        "chat": {
-          "title": "即时聊天系统",
-          "description": "支持一对一与群组聊天、多媒体消息与可调整的界面，让品牌与用户保持自然、即时且高品质的双向互动。"
-        },
-        "faqPinbot": {
-          "title": "FAQ 聊天机器人",
-          "description": "以关键词触发的 FAQ 聊天机器人，集中管理重复问题，并可在需要时无缝交由人工客服接手。"
         }
       },
       "cta": {
@@ -723,29 +580,6 @@
           "imageAlt": "问卷回复与用户意见分析"
         }
       },
-      "exploreFeatures": {
-        "title": "探索其他功能",
-        "chat": {
-          "title": "即时聊天系统",
-          "description": "支持一对一与群组聊天、多媒体消息与可调整的界面，让品牌与用户保持自然、即时且高品质的双向互动。"
-        },
-        "chatWidget": {
-          "title": "网页客服插件",
-          "description": "在网站上快速嵌入可拖曳、可客制化的聊天界面，提升访客互动与转换效率。"
-        },
-        "aiPinBot": {
-          "title": "AI 聊天机器人",
-          "description": "提供 AI 驱动的聊天，即时回应，需要时交由人工处理，并能适应你的品牌跨平台运作。"
-        },
-        "chatroomManagement": {
-          "title": "聊天室管理",
-          "description": "以标签、文件夹与快速搜索掌握所有聊天脉络，让客服与销售团队能更快找到重要讯息。"
-        },
-        "subAccount": {
-          "title": "子账号管理",
-          "description": "通过角色与权限控制轻松管理多位成员的营运范围，实现高效的团队协作。"
-        }
-      },
       "cta": {
         "title": "开始以数据驱动你的决策",
         "button": "启用 Analytics"
@@ -800,29 +634,6 @@
             "enhance": "降低团队变动带来的管理负担"
           },
           "imageAlt": "数据与账号安全管理"
-        }
-      },
-      "exploreFeatures": {
-        "title": "探索其他功能",
-        "chatroomManagement": {
-          "title": "快速整理所有聊天室",
-          "description": "用标签与文件夹清晰分类大量对话，提升客服搜索、回复与追踪效率。"
-        },
-        "dataAnalysis": {
-          "title": "完整数据分析",
-          "description": "深入洞察聊天量、流量来源、问卷回复与互动表现，通过清晰的图表了解服务成效并持续优化营运。"
-        },
-        "chat": {
-          "title": "即时聊天系统",
-          "description": "支持一对一与群组聊天、多媒体消息与可调整的界面，让品牌与用户保持自然、即时且高品质的双向互动。"
-        },
-        "aiPinBot": {
-          "title": "AI 聊天机器人",
-          "description": "提供 AI 驱动的聊天，即时回应，需要时交由人工处理，并能适应你的品牌跨平台运作。"
-        },
-        "branding": {
-          "title": "品牌与定制",
-          "description": "自定义聊天界面、插件与欢迎页面，使其符合你的品牌识别，打造一致的用户体验。"
         }
       },
       "cta": {

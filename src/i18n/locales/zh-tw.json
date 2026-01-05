@@ -18,6 +18,47 @@
     "chatroomManagement": "聊天室管理",
     "subAccount": "子帳號管理",
     "chat": "聊天功能",
+    "common": {
+      "exploreFeatures": {
+        "title": "探索其他功能",
+        "chat": {
+          "title": "即時聊天系統",
+          "description": "支援一對一與群組聊天、多媒體訊息與可調整的介面，讓品牌與用戶保持自然、即時且高品質的雙向互動。"
+        },
+        "chatWidget": {
+          "title": "網頁客服插件",
+          "description": "在網站上快速嵌入可拖曳、可客製化的聊天介面，提升訪客互動與轉換效率。"
+        },
+        "aiPinBot": {
+          "title": "AI 聊天機器人",
+          "description": "提供 AI 驅動的聊天，即時回應，需要時交由人工處理，並能適應你的品牌跨平台運作。"
+        },
+        "pinBoard": {
+          "title": "歡迎頁面",
+          "description": "打造可導流、可呈現品牌資訊的多連結頁，並加入聊天入口提升顧客互動。"
+        },
+        "branding": {
+          "title": "品牌與自訂",
+          "description": "自訂聊天介面、插件與歡迎頁面，使其符合你的品牌識別，打造一致的使用者體驗。"
+        },
+        "dataAnalysis": {
+          "title": "完整數據分析",
+          "description": "深入洞察聊天量、流量來源、問卷回覆與互動表現，透過清晰的圖表了解服務成效並持續優化營運。"
+        },
+        "chatroomManagement": {
+          "title": "聊天室管理",
+          "description": "以標籤、資料夾與快速搜尋掌握所有聊天脈絡，讓客服與銷售團隊能更快找到重要訊息。"
+        },
+        "subAccount": {
+          "title": "子帳號管理",
+          "description": "透過角色與權限控制輕鬆管理多位成員的營運範圍，實現高效的團隊協作。"
+        },
+        "faqPinbot": {
+          "title": "FAQ 聊天機器人",
+          "description": "以關鍵字觸發的 FAQ 聊天機器人，集中管理重複問題，並可在需要時無縫交由人工客服接手。"
+        }
+      }
+    },
     "chatPage": {
       "hero": {
         "title": "讓品牌與用戶保持即時互動的聊天系統",
@@ -63,29 +104,6 @@
             "search": "快速搜尋與查看歷史訊息與媒體內容",
             "organize": "支援刪除與隱藏聊天室保持介面整潔"
           }
-        }
-      },
-      "exploreFeatures": {
-        "title": "探索其他功能",
-        "aiPinBot": {
-          "title": "AI 聊天機器人自動化客服",
-          "description": "協助回答常見問題、支援多語系並可無縫切換人工接手，讓團隊更專注於複雜需求。"
-        },
-        "chatWidget": {
-          "title": "網頁客服插件網站聊天入口",
-          "description": "在網站上快速嵌入可拖曳、可客製化的聊天介面，提升訪客互動與轉換效率。"
-        },
-        "pinBoard": {
-          "title": "歡迎頁面多連結行銷",
-          "description": "打造可導流、可呈現品牌資訊的多連結頁，並加入聊天入口提升顧客互動。"
-        },
-        "branding": {
-          "title": "品牌與自訂",
-          "description": "自訂聊天介面、插件與歡迎頁面，使其符合你的品牌識別，打造一致的使用者體驗。"
-        },
-        "dataAnalysis": {
-          "title": "完整數據分析",
-          "description": "深入洞察聊天量、流量來源、問卷回覆與互動表現，透過清晰的圖表了解服務成效並持續優化營運。"
         }
       },
       "benefits": {
@@ -212,29 +230,6 @@
           "imageAlt": "移除品牌標記設定"
         }
       },
-      "exploreFeatures": {
-        "title": "探索其他功能",
-        "chat": {
-          "title": "即時聊天系統",
-          "description": "支援一對一與群組聊天、多媒體訊息與可調整的介面，讓品牌與用戶保持自然、即時且高品質的雙向互動。"
-        },
-        "chatWidget": {
-          "title": "提升網站轉換",
-          "description": "以可自訂、可拖曳的網站聊天插件，快速將訪客轉化為對話與客源。"
-        },
-        "pinBoard": {
-          "title": "集中所有品牌連結",
-          "description": "打造品牌多連結入口，整合導流、資訊與聊天，提升每一次點擊的價值。"
-        },
-        "aiPinBot": {
-          "title": "自動化客服回覆",
-          "description": "智能處理 FAQ、支援多語言並可人工接手，是提升客服效率的最佳方式。"
-        },
-        "dataAnalysis": {
-          "title": "完整數據分析",
-          "description": "深入洞察聊天量、流量來源、問卷回覆與互動表現，透過清晰的圖表了解服務成效並持續優化營運。"
-        }
-      },
       "cta": {
         "title": "立即啟用你的品牌專屬體驗",
         "button": "開始設定"
@@ -285,29 +280,6 @@
                 "tracking": "支援來源追蹤與行為分析",
                 "conversion": "有效引導訪客完成轉換"
               }
-            }
-          },
-          "exploreFeatures": {
-            "title": "探索其他功能",
-            "pinBoard": {
-              "title": "打造品牌化多連結頁",
-              "description": "集中導流連結與聊天入口，提升社群流量的轉換效率。"
-            },
-            "aiPinBot": {
-              "title": "自動化客服與智慧回覆",
-              "description": "提供 FAQ、語言偵測與人工切換，提升客服效率。"
-            },
-            "dataAnalysis": {
-              "title": "掌握聊天與轉換成效",
-              "description": "查看訪客來源、互動曲線與聊天分析，提高決策準確度。"
-            },
-            "branding": {
-              "title": "品牌與自訂",
-              "description": "自訂聊天介面、插件與歡迎頁面，使其符合你的品牌識別，打造一致的使用者體驗。"
-            },
-            "chat": {
-              "title": "即時聊天系統",
-              "description": "支援一對一與群組聊天、多媒體訊息與可調整的介面，讓品牌與用戶保持自然、即時且高品質的雙向互動。"
             }
           },
           "cta": {
@@ -378,29 +350,6 @@
               "webChat": "網頁聊天"
             }
           },
-          "exploreFeatures": {
-            "title": "探索其他功能",
-            "chat": {
-              "title": "即時聊天系統",
-              "description": "支援一對一與群組聊天、多媒體訊息與可調整的介面，讓品牌與用戶保持自然、即時且高品質的雙向互動。"
-            },
-            "chatWidget": {
-              "title": "網頁客服插件",
-              "description": "在網站上快速嵌入可拖曳、可客製化的聊天介面，提升訪客互動與轉換效率。"
-            },
-            "faqPinbot": {
-              "title": "FAQ 聊天機器人",
-              "description": "以關鍵字觸發的 FAQ 聊天機器人，集中管理重複問題，並可在需要時無縫交由人工客服接手。"
-            },
-            "dataAnalysis": {
-              "title": "完整數據分析",
-              "description": "深入洞察聊天量、流量來源、問卷回覆與互動表現，透過清晰的圖表了解服務成效並持續優化營運。"
-            },
-            "chatroomManagement": {
-              "title": "聊天室管理",
-              "description": "以標籤、資料夾與快速搜尋掌握所有聊天脈絡，讓客服與銷售團隊能更快找到重要訊息。"
-            }
-          },
           "cta": {
             "title": "讓你的客服團隊更聰明",
             "subtitle": "立即啟用 AI 聊天機器人，讓品牌服務更即時、更有溫度。",
@@ -457,29 +406,6 @@
                 "reduceLoad": "減少高流量期間的重複客服問題"
               },
               "imageAlt": "活動專用 FAQ Bot 設計"
-            }
-          },
-          "exploreFeatures": {
-            "title": "探索其他功能",
-            "aiPinBot": {
-              "title": "AI 聊天機器人",
-              "description": "提供 AI 驅動的聊天，即時回應，需要時交由人工處理，並能適應你的品牌跨平台運作。"
-            },
-            "chat": {
-              "title": "即時聊天系統",
-              "description": "支援一對一與群組聊天、多媒體訊息與可調整的介面，讓品牌與用戶保持自然、即時且高品質的雙向互動。"
-            },
-            "chatWidget": {
-              "title": "網頁客服插件",
-              "description": "在網站上快速嵌入可拖曳、可客製化的聊天介面，提升訪客互動與轉換效率。"
-            },
-            "dataAnalysis": {
-              "title": "完整數據分析",
-              "description": "深入洞察聊天量、流量來源、問卷回覆與互動表現，透過清晰的圖表了解服務成效並持續優化營運。"
-            },
-            "chatroomManagement": {
-              "title": "聊天室管理",
-              "description": "以標籤、資料夾與快速搜尋掌握所有聊天脈絡，讓客服與銷售團隊能更快找到重要訊息。"
             }
           },
           "cta": {
@@ -539,29 +465,6 @@
               "imageAlt": "包含參與度指標的歡迎頁面 分析儀表板"
             }
           },
-          "exploreFeatures": {
-            "title": "探索其他功能",
-            "chatWidget": {
-              "title": "網頁客服插件",
-              "description": "在網站上快速嵌入可拖曳、可客製化的聊天介面，提升訪客互動與轉換效率。"
-            },
-            "aiPinBot": {
-              "title": "AI 聊天機器人",
-              "description": "提供 AI 驅動的聊天，即時回應，需要時交由人工處理，並能適應你的品牌跨平台運作。"
-            },
-            "dataAnalysis": {
-              "title": "完整數據分析",
-              "description": "深入洞察聊天量、流量來源、問卷回覆與互動表現，透過清晰的圖表了解服務成效並持續優化營運。"
-            },
-            "chat": {
-              "title": "即時聊天系統",
-              "description": "支援一對一與群組聊天、多媒體訊息與可調整的介面，讓品牌與用戶保持自然、即時且高品質的雙向互動。"
-            },
-            "branding": {
-              "title": "品牌與自訂",
-              "description": "自訂聊天介面、插件與歡迎頁面，使其符合你的品牌識別，打造一致的使用者體驗。"
-            }
-          },
           "cta": {
             "title": "幾分鐘內建立品牌化連結中心",
             "button": "建立我的歡迎頁面"
@@ -616,29 +519,6 @@
                 "maintainWorkflow": "支援名單匯出作後續應用"
               },
               "imageAlt": "整潔聊天空間介面"
-            }
-          },
-          "exploreFeatures": {
-            "title": "探索其他功能",
-            "subAccount": {
-              "title": "子帳號管理",
-              "description": "透過角色與權限控制輕鬆管理多位成員的營運範圍，實現高效的團隊協作。"
-            },
-            "dataAnalysis": {
-              "title": "完整數據分析",
-              "description": "深入洞察聊天量、流量來源、問卷回覆與互動表現，透過清晰的圖表了解服務成效並持續優化營運。"
-            },
-            "aiPinBot": {
-              "title": "AI 聊天機器人",
-              "description": "提供 AI 驅動的聊天，即時回應，需要時交由人工處理，並能適應你的品牌跨平台運作。"
-            },
-            "chat": {
-              "title": "即時聊天系統",
-              "description": "支援一對一與群組聊天、多媒體訊息與可調整的介面，讓品牌與用戶保持自然、即時且高品質的雙向互動。"
-            },
-            "faqPinbot": {
-              "title": "FAQ 聊天機器人",
-              "description": "以關鍵字觸發的 FAQ 聊天機器人，集中管理重複問題，並可在需要時無縫交由人工客服接手。"
             }
           },
           "cta": {
@@ -697,29 +577,6 @@
               "imageAlt": "資料與帳號安全管理"
             }
           },
-          "exploreFeatures": {
-            "title": "探索其他功能",
-            "chatroomManagement": {
-              "title": "快速整理所有聊天室",
-              "description": "用標籤與資料夾清晰分類大量對話，提升客服搜尋、回覆與追蹤效率。"
-            },
-            "dataAnalysis": {
-              "title": "完整數據分析",
-              "description": "深入洞察聊天量、流量來源、問卷回覆與互動表現，透過清晰的圖表了解服務成效並持續優化營運。"
-            },
-            "chat": {
-              "title": "即時聊天系統",
-              "description": "支援一對一與群組聊天、多媒體訊息與可調整的介面，讓品牌與用戶保持自然、即時且高品質的雙向互動。"
-            },
-            "aiPinBot": {
-              "title": "AI 聊天機器人",
-              "description": "提供 AI 驅動的聊天，即時回應，需要時交由人工處理，並能適應你的品牌跨平台運作。"
-            },
-            "branding": {
-              "title": "品牌與自訂",
-              "description": "自訂聊天介面、插件與歡迎頁面，使其符合你的品牌識別，打造一致的使用者體驗。"
-            }
-          },
           "cta": {
             "title": "開始打造你的團隊協作流程",
             "button": "立即開始"
@@ -774,29 +631,6 @@
                 "feedbackSummary": "匯總回饋用於產品與營運決策"
               },
               "imageAlt": "問卷回覆與使用者意見分析"
-            }
-          },
-          "exploreFeatures": {
-            "title": "探索其他功能",
-            "chat": {
-              "title": "即時聊天系統",
-              "description": "支援一對一與群組聊天、多媒體訊息與可調整的介面，讓品牌與用戶保持自然、即時且高品質的雙向互動。"
-            },
-            "chatWidget": {
-              "title": "網頁客服插件",
-              "description": "在網站上快速嵌入可拖曳、可客製化的聊天介面，提升訪客互動與轉換效率。"
-            },
-            "aiPinBot": {
-              "title": "AI 聊天機器人",
-              "description": "提供 AI 驅動的聊天，即時回應，需要時交由人工處理，並能適應你的品牌跨平台運作。"
-            },
-            "chatroomManagement": {
-              "title": "聊天室管理",
-              "description": "以標籤、資料夾與快速搜尋掌握所有聊天脈絡，讓客服與銷售團隊能更快找到重要訊息。"
-            },
-            "subAccount": {
-              "title": "子帳號管理",
-              "description": "透過角色與權限控制輕鬆管理多位成員的營運範圍，實現高效的團隊協作。"
             }
           },
           "cta": {
