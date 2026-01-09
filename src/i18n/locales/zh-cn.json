@@ -760,9 +760,9 @@
           "title": "聊天室管理",
           "description": "以标签与文件夹整理大量客服消息，协助团队快速找到需要处理的对话。"
         },
-        "conversationalSurvey": {
-          "title": "对话式问卷",
-          "description": "通过对话式互动收集用户信息或意见，用于导流、需求分析或后续营销应用。"
+        "analyticsAndSurveys": {
+          "title": "数据分析与问卷",
+          "description": "通过完整的数据分析，深入了解聊天量、流量来源、问卷回复与互动表现。"
         }
       },
       "exploreUseCases": {
@@ -777,7 +777,7 @@
         },
         "leadGeneration": {
           "title": "导流与客户洞察",
-          "description": "将导流流程转化为高互动、高回收的信息收集体验，让客户反馈与行为洞察清楚可见。"
+          "description": "将导流转化为高互动的信息收集，让客户反馈清楚可见。"
         }
       },
       "cta": {
@@ -852,7 +852,7 @@
     "title": "探索其他使用情境",
         "leadCapture": {
           "title": "导流与客户洞察",
-          "description": "将导流流程转化为高互动、高回收的信息收集体验，让客户反馈与行为洞察清楚可见。"
+          "description": "将导流转化为高互动的信息收集，让客户反馈清楚可见。"
         },
     "messageIntegration": {
       "title": "讯息整合管理",
@@ -1084,9 +1084,9 @@
   },
   "recommendedFeatures": {
     "title": "推荐相关功能",
-    "conversationalSurvey": {
-      "title": "对话式问卷",
-      "subtitle": "以聊天体验提升填答率，适合需求收集、活动报名与导流流程设计。"
+    "analyticsAndSurveys": {
+      "title": "数据分析与问卷",
+      "subtitle": "通过完整的数据分析，深入了解聊天量、流量来源、问卷回复与互动表现。"
     },
     "websiteConversion": {
       "title": "提升网站转换",
@@ -1187,8 +1187,8 @@
       "description": "智能回复可处理大量常见问题，减少人工负担，同时保留人工即时接手的弹性，提升整体客服效率。"
     },
     "leadCapture": {
-      "title": "导流与信息搜集",
-      "description": "以对话式问卷搜集顾客信息，让填答更自然，提高数据质量并能即时转换为后续行动。"
+      "title": "导流与客户洞察",
+      "description": "将导流流程转化为高互动、高回收的信息收集体验，让客户反馈与行为洞察清楚可见。"
     },
     "teamCollaboration": {
       "title": "团队沟通分工",

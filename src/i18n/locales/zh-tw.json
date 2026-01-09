@@ -757,9 +757,9 @@
           "title": "聊天室管理",
           "description": "以標籤與資料夾整理大量客服訊息，協助團隊快速找到需要處理的對話。"
         },
-        "conversationalSurvey": {
-          "title": "對話式問卷",
-          "description": "透過對話式互動蒐集使用者資訊或意見，用於導流、需求分析或後續行銷應用。"
+        "analyticsAndSurveys": {
+          "title": "數據分析與問卷",
+          "description": "透過完整的數據分析，深入了解聊天量、流量來源、問卷回覆與互動表現。"
         }
       },
       "exploreUseCases": {
@@ -774,7 +774,7 @@
         },
         "leadGeneration": {
           "title": "導流與客戶洞察",
-          "description": "將導流流程轉化為高互動、高回收的資訊蒐集體驗，讓客戶回饋與行為洞察清楚可見。"
+          "description": "將導流轉化為高互動的資訊蒐集，讓客戶回饋清楚可見。"
         }
       },
       "cta": {
@@ -849,7 +849,7 @@
         "title": "探索其他使用情境",
         "leadCapture": {
           "title": "導流與客戶洞察",
-          "description": "將導流流程轉化為高互動、高回收的資訊蒐集體驗，讓客戶回饋與行為洞察清楚可見。"
+          "description": "將導流轉化為高互動的資訊蒐集，讓客戶回饋清楚可見。"
         },
         "messageIntegration": {
           "title": "訊息整合管理",
@@ -940,7 +940,7 @@
         },
         "leadCapture": {
           "title": "導流與客戶洞察",
-          "description": "將導流流程轉化為高互動、高回收的資訊蒐集體驗，讓客戶回饋與行為洞察清楚可見。"
+          "description": "將導流轉化為高互動的資訊蒐集，讓客戶回饋清楚可見。"
         }
       },
       "cta": {
@@ -1081,9 +1081,9 @@
       },
       "recommendedFeatures": {
         "title": "推薦相關功能",
-        "conversationalSurvey": {
-          "title": "對話式問卷",
-          "subtitle": "以聊天體驗提升填答率，適合需求蒐集、活動報名與導流流程設計。"
+        "analyticsAndSurveys": {
+          "title": "數據分析與問卷",
+          "subtitle": "透過完整的數據分析，深入了解聊天量、流量來源、問卷回覆與互動表現。"
         },
         "websiteConversion": {
           "title": "提升網站轉換",
@@ -1185,7 +1185,7 @@
         },
         "leadCapture": {
           "title": "導流與客戶洞察",
-          "description": "將導流流程轉化為高互動、高回收的資訊蒐集體驗，讓客戶回饋與行為洞察清楚可見。"
+          "description": "將導流轉化為高互動的資訊蒐集，讓客戶回饋清楚可見。"
         },
         "teamCollaboration": {
           "title": "團隊溝通分工",

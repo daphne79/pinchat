@@ -757,9 +757,9 @@
           "title": "Chatroom Management",
           "description": "Organize messages with tags and folders to quickly find conversations that need attention."
         },
-        "conversationalSurvey": {
-          "title": "Conversational Surveys",
-          "description": "Collect user information and feedback through conversational interactions for lead generation and marketing."
+        "analyticsAndSurveys": {
+          "title": "Analytics & Surveys",
+          "description": "Gain insights into chat volume, traffic sources, survey responses, and interaction performance with comprehensive data analytics."
         }
       },
       "exploreUseCases": {
@@ -774,7 +774,7 @@
         },
         "leadGeneration": {
           "title": "Lead Generation & Customer Insights",
-          "description": "Transform lead generation into highly interactive, high-response data collection. PinChat not only helps you collect data, but also makes customer feedback and behavioral insights clearly visible."
+          "description": "Transform lead generation into interactive data collection with clear customer feedback insights."
         }
       },
       "cta": {
@@ -849,7 +849,7 @@
         "title": "Explore Other Use Cases",
         "leadCapture": {
           "title": "Lead Generation & Customer Insights",
-          "description": "Transform lead generation into highly interactive, high-response data collection. PinChat not only helps you collect data, but also makes customer feedback and behavioral insights clearly visible."
+          "description": "Transform lead generation into interactive data collection with clear customer feedback insights."
         },
         "messageIntegration": {
           "title": "Message Integration Management",
@@ -940,7 +940,7 @@
         },
         "leadCapture": {
           "title": "Lead Generation & Customer Insights",
-          "description": "Transform lead generation into highly interactive, high-response data collection. PinChat not only helps you collect data, but also makes customer feedback and behavioral insights clearly visible."
+          "description": "Transform lead generation into interactive data collection with clear customer feedback insights."
         }
       },
       "cta": {
@@ -1081,9 +1081,9 @@
       },
       "recommendedFeatures": {
         "title": "Recommended Features",
-        "conversationalSurvey": {
-          "title": "Conversational Surveys",
-          "subtitle": "Improve response rates through chat-like experiences for needs collection, registration, and lead generation."
+        "analyticsAndSurveys": {
+          "title": "Analytics & Surveys",
+          "subtitle": "Gain insights into chat volume, traffic sources, survey responses, and interaction performance with comprehensive data analytics."
         },
         "websiteConversion": {
           "title": "Website Chat Widget",
@@ -1185,7 +1185,7 @@
         },
         "leadCapture": {
           "title": "Lead Generation & Customer Insights",
-          "description": "Transform lead generation into highly interactive, high-response data collection. PinChat not only helps you collect data, but also makes customer feedback and behavioral insights clearly visible."
+          "description": "Transform lead generation into interactive data collection with clear customer feedback insights."
         },
         "teamCollaboration": {
           "title": "Team Communication and Division of Labor",

@@ -214,19 +214,19 @@ const InAppCustomerService = () => {
                   </CardContent>
                 </Card>
               </Link>
-              <Link to="/solutions/lead-capture-surveys">
+              <Link to="/features/analytics">
                 <Card className="border shadow-sm hover:shadow-md transition-all cursor-pointer h-full">
                   <CardHeader>
                     <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mb-4">
                       <MessageSquare className="w-6 h-6 text-primary" />
                     </div>
                     <CardTitle className="text-lg sm:text-xl md:text-2xl lg:text-3xl">
-                      {t('solutions.inAppCustomerServicePage.recommendedFeatures.conversationalSurvey.title')}
+                      {t('solutions.inAppCustomerServicePage.recommendedFeatures.analyticsAndSurveys.title')}
                     </CardTitle>
                   </CardHeader>
                   <CardContent>
                     <p className="text-sm sm:text-base text-muted-foreground">
-                      {t('solutions.inAppCustomerServicePage.recommendedFeatures.conversationalSurvey.description')}
+                      {t('solutions.inAppCustomerServicePage.recommendedFeatures.analyticsAndSurveys.description')}
                     </p>
                   </CardContent>
                 </Card>

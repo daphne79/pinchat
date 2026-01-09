@@ -180,21 +180,23 @@ const LeadCaptureSurveys = () => {
               {t('solutions.leadCaptureSurveysPage.recommendedFeatures.title')}
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
-              <Card className="border shadow-sm h-full">
-                <CardHeader>
-                  <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mb-4">
-                    <FileText className="w-6 h-6 text-primary" />
-                  </div>
-                  <CardTitle className="text-lg sm:text-xl md:text-2xl lg:text-3xl">
-                    {t('solutions.leadCaptureSurveysPage.recommendedFeatures.conversationalSurvey.title')}
-                  </CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <p className="text-sm sm:text-base text-muted-foreground">
-                    {t('solutions.leadCaptureSurveysPage.recommendedFeatures.conversationalSurvey.subtitle')}
-                  </p>
-                </CardContent>
-              </Card>
+              <Link to="/features/analytics">
+                <Card className="border shadow-sm hover:shadow-md transition-all cursor-pointer h-full">
+                  <CardHeader>
+                    <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mb-4">
+                      <FileText className="w-6 h-6 text-primary" />
+                    </div>
+                    <CardTitle className="text-lg sm:text-xl md:text-2xl lg:text-3xl">
+                      {t('solutions.leadCaptureSurveysPage.recommendedFeatures.analyticsAndSurveys.title')}
+                    </CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <p className="text-sm sm:text-base text-muted-foreground">
+                      {t('solutions.leadCaptureSurveysPage.recommendedFeatures.analyticsAndSurveys.subtitle')}
+                    </p>
+                  </CardContent>
+                </Card>
+              </Link>
               <Link to="/features/chat-widget">
                 <Card className="border shadow-sm hover:shadow-md transition-all cursor-pointer h-full">
                   <CardHeader>
